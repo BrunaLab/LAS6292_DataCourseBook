@@ -3,19 +3,19 @@ project:
   output-dir: docs
   
 book:
-  title: "HerbVar Project Manual & Field Protocols"
-  output-file: "herbvar-manual"
-  author: "The Herbvar Steering Committee"
-  date: 11/15/2024
+  title: "LAS 6292: Data Collection & Management"
+  output-file: "las6202-reader"
+  author: "Emilio M. Bruna"
+  date: 11/15/2025
   # date: last-modified
   # original-date: 11/15/2024
   # doi
-  url: https://herbvar-network.github.io/herbvar_manual
-  pdf-url: https://herbvar-network.github.io/herbvar_manual/herbvar-manual.pdf 
+  # url: https://herbvar-network.github.io/herbvar_manual
+  # pdf-url: https://herbvar-network.github.io/herbvar_manual/herbvar-manual.pdf 
   date-format: long
   license: "This work is licensed under CC BY-NC-SA 4.0. //To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/"
   edition: "v0.9.0"
-  cover-image: images/cover2.png
+  cover-image: images/cover.png
   search: true
   repo-url: https://github.com/HerbVar-Network/herbvar_manual
   repo-actions: [edit]
@@ -25,68 +25,65 @@ book:
   favicon: images/cover.png
   page-footer:
     left: |
-      HerbVar Project Manual & Field Protocols
+      LAS 6292 Data Collection and Management Course Reader
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   
   chapters:
     - index.qmd
-    
-    - part: "What is HerbVar?"
+    # 
+    # - part: "Course Introduction"
+    #   chapters: 
+    #     # - introduction/intro.qmd
+    #     # - introduction/getting_involved.qmd
+    #     # - introduction/Network_Structure.qmd
+    #     # - introduction/data_overview.qmd
+    #     # - introduction/herbvar_products.qmd
+    # 
+    - part: "Course Topics" 
       chapters: 
-        - introduction/intro.qmd
-        # - introduction/getting_involved.qmd
-        - introduction/Network_Structure.qmd
-        - introduction/data_overview.qmd
-        - introduction/herbvar_products.qmd
-        
-    - part: "Become a Collaborator"
-      chapters: 
-        - collaboration/site_pi.qmd
-        - collaboration/data_use_guidelines.qmd
-        # - collaboration/new_analyses.qmd
-        - collaboration/authorship_process.qmd
-        - collaboration/working-group-pubs.qmd
-        - collaboration/new_data_collection.qmd
+    #     # - ‘Data’ across disciplines
+        - course_topics/file_names/naming.qmd
+    #     # - File Formats
+    #     # - Naming Conventions
+    #     # - Data Storage & Security
+    #     # - Data structure
+    #     # - Format of data and datasets
+    #     # - Reproducible Data (Re)organization
+    #     # - QA/QC 1: Data Entry & Validation
+    #     # - QA/QC 2: Data Correction & Synthesis
+    #     # - OpenRefine
+    #     # - Visualizing Data to Find Mistakes
+    #     # - Documentation, Metadata, & Codebooks
+    #     # - Data Sharing, Reuse, & Archives
+    #     # - Data Management Plans
+    #     # - Efficient Data Collection
+    #     # - Transcription & Translation
+    #     # - ‘Paperless’ Data Collection
+    #     # - Automated Data Extraction
+    #     # - Legal & Ethical Issues
+    # #     
+    # - part: "Assignments"
+    #   chapters: 
+    #     - assignments/assignments.qmd
+        # - collaboration/data_use_guidelines.qmd
+        # # - collaboration/new_analyses.qmd
+        # - collaboration/authorship_process.qmd
+        # - collaboration/working-group-pubs.qmd
+        # - collaboration/new_data_collection.qmd
         # - collaboration/project_review.qmd
         
-    - part: "HerbVar Workflow" 
-      chapters:
-        - workflow/workflow.qmd
-        # - workflow/upload_data.qmd
-        - workflow/data_analysis.qmd
-        - workflow/publications.qmd
     
-    - part: "HerbVar Protocols"
+    # - references.qmd
+    # 
+    - part: "Appendix 1: Useful Resources"
       chapters: 
-        - protocols/protocols_overview.qmd
-        # - protocols/spp_site_selection.qmd
-        - protocols/primary.qmd
-        - protocols/damage.qmd
-        - protocols/repro_damage.qmd
-        - protocols/low_density.qmd
-        - protocols/succulents.qmd
-        - protocols/tree.qmd
-        - protocols/rhizo_geo.qmd
-        - protocols/herbivore.qmd    
-    
-    - references.qmd
-    
-    - part: "Appendix 1: Forms & Checklists"
-      chapters: 
-        - forms/onboarding_checklist.qmd
+        - resources/resources.qmd
         # - forms/data_sharing_contract.qmd
-        - forms/forms_list.qmd
+        # - forms/forms_list.qmd
         # - forms/glossary.qmd
         
-    - part: "Appendix 2: HerbVar Admin"
-      chapters: 
-        - admin/potential_collaborators.qmd
-        - admin/manual.qmd
-        - admin/website.qmd
-        - admin/data_portal.qmd
-        - admin/google_drive.qmd
-        - admin/wrangling_repo.qmd
+
     
 bibliography: HerbVar.bib
 csl: format/ecology.csl
@@ -105,7 +102,7 @@ format:
     #   - "protocols/title.tex"
     header-includes: |
       \titlehead{\includegraphics[height=9in]{images/cover2.png}}
-      \publishers{v0.9.0 (Zenodo https://doi.org/10.5281/zenodo.14232308)\\-\\This material is based upon work supported by the National Science Foundation under Award No. NSF DEB-2203582.\\-\\Licensed under CC BY-NC-SA 4.0.}
+      # \publishers{v0.9.0 (Zenodo https://doi.org/10.5281/zenodo.14232308)\\-\\This material is based upon work supported by the National Science Foundation under Award No. NSF DEB-2203582.\\-\\Licensed under CC BY-NC-SA 4.0.}
     toc: true
     toc-depth: 2
     toc-title: Table of Contents
@@ -154,7 +151,7 @@ format:
   
       
   epub:
-      epub-cover-image: images/cover2.png
+      epub-cover-image: images/cover.png
 
 # pdf-engine: xelatex
 # see fpr engine-opt: https://stackoverflow.com/questions/74261557/quarto-rendering-pdf-running-xelatex-faster-in-rstudio    

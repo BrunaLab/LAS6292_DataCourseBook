@@ -1,0 +1,560 @@
+---
+title: "LAS 6292: Data Collection & Management"
+subtitle: "Spring Semester 2026"
+author: "Instructor: Emilio M. Bruna"
+date: "Spring Semester 2026"
+geometry: margin=1.0in
+fontsize: 12pt
+project:
+  output-dir: uploads
+
+# linkcolor: darkmidnightblue
+# urlcolor: darkmidnightblue
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    fontsize: 10pt
+    microtypeoptions: ["final"]
+    # Colors
+    colorlinks: true
+    # Layout
+    geometry:
+      # - margin=0.75in
+      - bindingoffset=0.0in
+      - left=24mm
+      - top=24mm
+      - bottom=24mm
+      - right=24mm
+      # - heightrounded
+      # - footskip=0.475in
+      # - showframe
+    # pagestyle: plain
+    # Rendering
+    keep-tex: true
+    include-in-header:
+      text: |
+        \AtBeginDocument{\let\maketitle\relax}
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhead[R]{LAS 6292 Syllabus p. \thepage}
+        \fancyhead[L]{Updated \today}
+        \usepackage{xcolor}
+        \usepackage{sectsty}
+        <!-- \sectionfont{\color{customnavy}} -->
+        <!-- \subsectionfont{\color{customnavy}}    -->
+        \sectionfont{\color{customnavy}\sffamily}      % Sans-serif for sections
+        \subsectionfont{\color{customnavy}\sffamily}   % Sans-serif for subsections
+        \usepackage{titlesec}
+        \definecolor{customnavy}{RGB}{0, 0, 128}
+        \subsubsectionfont{\color{customnavy}}
+        \usepackage{amssymb}
+        \usepackage{pifont}
+        \usepackage{wasysym}
+        \usepackage{fontawesome5}
+        \usepackage{etoolbox}
+        \makeatletter
+        \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+        % Adjust spacing before and after headings
+        
+        
+        \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after}
+        \titlespacing*{\subsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
+        \titlespacing*{\subsubsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
+
+---
+
+```{r}
+#| include: false
+
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(kableExtra)
+# library(RColorBrewer)
+# library(viridis)   
+```
+
+<!-- \newpage -->
+
+<!-- <!-- ![](images/ridges.png) --> 
+<!-- ![](icons/banner.png) -->
+
+
+
+# LAS6292 TCD Research Methods: Data Collection \& Management Spring 2026 {.unnumbered} 
+
+
+
+# Instructor, Course Sessions, & Office Hours 
+
+**Instructor:** Dr. Emilio M. Bruna | [embruna\@ufl.edu](embruna@ufl.edu) | (352) 846-0634   
+
+**Course Sessions:** Friday 12:50-3:50 PM (Periods 6-8) in Grinter Hall 376
+
+**Office Hours:** Tuesday and Wednesday from 10:30-11:45 am in person (380 Grinter Hall) or online (link provided on course Canvas page). You may sign up for a specific time slot here: <https://embruna.youcanbook.me>. Please let me know if you can't make these times and we will make alternative arrangements.
+<!-- # Syllabus -->
+
+# Course Description, Objectives, and Learning Outcomes  
+
+Courses taught as LAS 6292 are an introduction to field research methods for studies focused on natural resource use and management by local populations in tropical regions. They emphasize participatory approaches and integration of natural and social science tools.
+
+This session of LAS 6292 is a practical introduction to **_Data Collection & Management_**: the methods, tools, and best practices for collecting, organizing, managing, and visualizing qualitative and quantitative data. It is designed for graduate students from all disciplines at any stage of their program. *_At the conclusion of the course students will be able to_:*
+
+1.	Describe the different types of research data;
+2.	Explain the need for and benefits of data management and sharing;
+3.	Describe and implement best practices for the collection, storage, management, archiving, and sharing of research data;
+4.	Find, download, and analyze publicly available data from repositories;
+5.	Carry out simple and reproducible data corrections and data set organization;
+6.	Describe public policies and agency requirements for data management and sharing; 
+7.	Articulate the major legal and ethical considerations regarding data collection, use, and storage (e.g., privacy/human subjects, intellectual property, international law);
+8.	Create and Implement Data Management Plan in funder-specific formats;
+9.	Identify and properly use tools for more efficient and secure data collection in the field.
+
+
+# Course Format, Prerequisites, & Credits
+
+<!-- # GenEd, Quest, & Credit Information {.unnumbered} -->
+**Format:** In-person, **Credits:** 3, **Prerequisites:** None\  
+
+**Concentrations & Certificates:** Doctoral Students can apply this course towards the requirements for the Certificate in Tropical Conservation & Development. See  <https://uftcd.org/academics/certificate/curriculum/> for more information.
+
+
+# Textbooks, Learning Materials, and Supply Fees
+\vspace{0.2cm}
+
+
+**Students are not required to purchase any textbooks or course materials.** All class materials & assignments will be made available on the course website. Some assigned readings may come from the *New York Times* or *Wall Street Journal* and have dynamic multimedia data visualizations and video that can't be appreciated in the posted .pdf format. *Students in this class should sign up for free online access to both the NYT and WSJ* by following the instructions at [the UF Libraries Website](https://businesslibrary.uflib.ufl.edu/c.php?g=943928&p=7708734).
+
+**Materials and Fees**: None.  
+
+
+--- 
+
+# Course Schedule, Assignments & Grades
+
+\vspace{0.2cm}
+_The contents of the course, including subjects covered in each course session and assigned readings, are subject to change based on student needs and input, current events, and technical advances related to the course subject matter. Changes will be announced via Canvas and an updated syllabus will posted._
+
+## Class Calendar {.unnumbered}
+
+
+\vspace{0.2cm}
+
+```{r outline, echo=FALSE}
+Week <- c(seq(1, 15, by = 1), "Finals Week")
+
+Dates <- c(
+  "1/16",
+  "1/23",
+  "1/30",
+  "2/6",
+  "2/13",
+  "2/20",
+  "2/27",
+  "3/6",
+  "3/13",
+  "3/20",
+  "3/27",
+  "4/3",
+  "4/10",
+  "4/17",
+  "4/24",
+  "4/30"
+)
+
+Topic <- c(
+  "‘Data’ across disciplines and the Research Data Life Cycle",
+  "File Formats, Naming Conventions, Data Storage & Security",
+  "Structure & Format of Data & Datasets",
+  "Reproducible Data (Re)organization",
+  "QA/AC 1: Data Entry & Validation",
+  "QA/QC 2: Correction & Synthesis with Open Refine",
+  "QA/QC 3: Visualizing Data (to Find Mistakes)",
+  "Metadata & Codebooks; Data Sharing, Reuse, & Archives",
+  "Data Management Plans",
+  "No Class - Spring Break ",
+  "Efficient Data Collection",
+  "Transcription & Translation",
+  "Paperless Data Collection",
+  "Automated Data Extraction",
+  "No Class: Reading Days",
+  # "Legal, Ethical, and Emerging Issues",
+  "Deadline for Final Project Submission: 10 AM"
+)
+
+outline <- data.frame(Week, Dates, Topic)
+
+kable(outline,
+  align = "ccl",
+  format = "latex",
+  row.names = FALSE,
+  booktabs = T,
+  linesep = ""
+) %>% # removes the blank line after every 5 lines) %>%
+  kable_styling(position = "center",latex_options = "HOLD_position")
+```
+
+
+\vspace{0.3cm}
+
+## Final Course Grades & Grading Policy   {.unnumbered}
+
+\vspace{0.2cm}
+
+Course grading is consistent with UF grading policies. **The final course grade is based on the assignments below.**. Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Note also that most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them *they can be submitted anytime before 9 am the day of the following class session.*Late assignments will lose 10 pts. Finally, **there is no Final Exam in this course, and the Individual Project is due on the scheduled date of the final exam.** 
+
+
+
+## Assignments {.unnumbered}
+
+\vspace{0.2cm}
+
+
+```{r points, echo=FALSE}
+
+in_class <- 25
+no_classes <- 14
+in_class_total <- no_classes * in_class
+# peer_dmp_review <-50
+dmp <- 150
+# peer_code_review <-100
+project <- 500
+course_total <- 
+  in_class_total +
+  project + 
+  dmp 
+
+# dmp_peer_due<-c("16 March 2023")
+dmp_due<-c("22 March 2024")
+# peer_code_review_due<-c("28 March 2023")
+project_due<-c("30 April 2024")
+
+Assignment <- c(
+  "Weekly in-class exercises",
+  # "DMP Peer Review",
+  "Data Management Plan",
+  # "Peer Code Review",
+  "Individual Data Cleanup Project",
+  "TOTAL"
+)
+
+Points<- c(
+  in_class_total,
+  dmp,
+  project,
+  course_total
+  )
+
+Percentage<- c(
+  paste("(",(round(in_class_total/course_total*100,1)),"%)",sep=""),
+  paste("(",(round(dmp/course_total*100,1)),"%)", sep=""),
+  paste("(",(round(project/course_total*100,1)),"%)", sep=""),
+  paste("(",(round(course_total/course_total*100,1)),"%)", sep="")
+)
+
+
+Points<-paste(Points,Percentage)
+
+Due<- c(
+  "Following Friday at 9 am",
+  # "21 March",
+  "27 March",
+  # "22 March",
+  "30 April",
+  ""
+)
+
+assignments <- data.frame(Assignment, Points,Due)
+names(assignments)<-c("Assignment", "Points (%)","Due")
+
+# outline<-bind_cols(Week,Dates,Topic)
+kable(assignments,
+  align = "lcl",
+  format = "latex",
+  row.names = FALSE,
+  booktabs = T,
+  linesep = "") %>% 
+  # removes the blank line after every 5 lines) %>%
+  kable_styling(position = "center",latex_options = "HOLD_position") %>% 
+  row_spec(3,hline_after=T) %>% 
+  add_indent(c(4)) %>% 
+  row_spec(4, bold=T)
+
+```
+
+<!-- ```{r grades, echo=FALSE, include=TRUE,fig.cap="Final Course Grades", out.width = '3%', fig.pos='h', fig.align="left" } -->
+<!-- # knitr::include_graphics("./icons/magnifying-glass-chart.png") -->
+<!-- knitr::include_graphics("./icons/gorilla.png") -->
+<!-- ``` -->
+\vspace{0.2cm}
+##  Grading Scale {.unnumbered}
+Course grades will be based on the percentage of total points earned and will be assigned with the following scale:  **A:** >93%   **A-:** 92-90%   **B+:** 89-87%    **B:** 86-83%   **B-:** 82-80%  **C+:** 79-77%    **C:** 76-73%   **C-:** 72-70%.  **D+:** 69-67%    **D-:** 62-60%    **E:** 59% and below. _For information on how UF assigns grade points, visit:_ 
+\newline
+<https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/>
+
+--- 
+
+# Required Reading & Preparation for Class Sessions
+
+<!-- \begin{center}  -->
+
+Please review the assigned material *before* class. _All items are posted on the Canvas site_. 
+
+<!-- \end{center} -->
+
+### Week 1: Course Introduction     {.unnumbered}
+
+\vspace{0.3cm}
+
+>No assigned reading 
+
+### Week 2: File Formats, Naming Conventions, Data Storage, and Data Security.    {.unnumbered}
+
+\vspace{0.3cm}
+
+
+
+> ***Read:*** 
+
+>1.  Jan Čurn. 2014. How a bug in Dropbox permanently deleted my 8000 photos.  
+        [[read online]](https://medium.com/@jancurn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Curn_2014.pdf)
+
+<!-- 2.  PSA: Scrivener, Data Integrity and You. Or, How To Avoid Data Loss Heartbreak.   -->
+<!--         [[read online]](https://www.reddit.com/r/writing/comments/62hr7o/psa_scrivener_data_integrity_and_you_or_how_to/) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Scrivener_PSA.pdf) -->
+        
+>2. Panzarino, M. 2012. How Pixar’s Toy Story 2 was deleted twice, once by technology and again for its own good. TNW.  [[read online]](https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/)  [[download pdf]]
+
+>3.  Hart EM et al. (2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097. [[read online]](https://doi.org/10.1371/journal.pcbi.1005097) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Hart_etal_2016.PDF)
+
+> ***Watch:*** 
+
+>1. E. Bruna: [How To Name Your Files](https://www.youtube.com/watch?v=BMwI7ubvTnE)
+
+>2. E. Bruna: [How to Organize Your Files](https://www.youtube.com/watch?v=h1hIKNC64ac)
+
+>3. E. Bruna: [How to Store and Backup Your Files](https://www.youtube.com/watch?v=H06GSL66Mec&list=PL5YVP-qXy1H-_3EeuyK_MYQR9UCnuHvAJ&index=1&t=9s)
+
+### Week 3: Data structure & format of data and datasets     {.unnumbered}
+
+\vspace{0.3cm}
+
+>**Read**
+
+>1.  Tesi, W. 2020. An Outdated Version of Excel Led the U.K. to Undercount COVID-19 Cases. Slate. 
+        [[read online]](https://slate.com/technology/2020/10/u-k-covid-19-spike-caused-by-microsoft-excel-error.html)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Tesi_2020.pdf)
+
+>2. Stolberg et al. 2020. CDC Test Counting Error Leaves Epidemiologists ‘Really Baffled’. NY Times.  [[read online]](https://www.nytimes.com/2020/05/22/us/politics/coronavirus-tests-cdc.html?referringSource=articleShare)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Stolberg_2020_NYT.pdf)
+
+>3.  Broman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10.  [[read online]](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Broman%26Woo_2018.pdf)
+
+>4.  Johnson, B. D., Dunlap, E., & Benoit, E. (2010). Organizing "mountains of words" for data analysis, both qualitative and quantitative. Substance Use & Misuse, 45(5), 648-70.  [[read online]](https://www.tandfonline.com/doi/abs/10.3109/10826081003594757?journalCode=isum20) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Johnson_etal_2010.pdf)
+
+
+### Week 4: Reproducible data (re)organization     {.unnumbered}
+
+\vspace{0.3cm}
+
+>**Read:**
+
+>1. Laskowski, 2020. What to do when you don't trust your data anymore.  [[read online]](https://laskowskilab.faculty.ucdavis.edu/2020/01/29/retractions/) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/laskowski_2020.pdf)
+
+>2. Pennisi, E. 2020. Spider biologist denies suspicions of widespread data fraud in his animal personality research. Science. [[read online]](https://www.sciencemag.org/news/2020/01/spider-biologist-denies-suspicions-widespread-data-fraud-his-animal-personality) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Pennisi_2020.pdf)
+
+>3.  Alston, J. M., and Rick, J. A.. 2020. A Beginner's Guide to Conducting Reproducible Research. Bull Ecol Soc Am 00( 00):e01801.   [[read online]](https://doi.org/10.1002/bes2.1801)    [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Alston_Rick_2021_BullEcolSocAm.pdf)
+
+>4.  Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510.  [[read online]](https://doi.org/10.1371/journal.pcbi.1005510)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/wilson_etal_2017.pdf)
+
+>**Watch:**
+
+>1. [A Data Sharing and Management Snafu in 3 Short Acts, by the NYU Health Sciences Library](https://www.youtube.com/watch?v=66oNv_DJuPc)
+
+### Week 5: QA/QC 1: Data Entry & Validation     {.unnumbered}
+
+\vspace{0.3cm}
+
+>**Read:**
+
+>1.  Kamentez, A. 2018. The School Shootings that weren’t.NPR  [[read online]](http://tinyurl.com/y77p3o36)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Kamenetz_2018.pdf)
+
+>2.  Lincoln, Matthew D. 2018. "Best Practices for Using Google Sheets in Your Data Project."  [[read online]](https://matthewlincoln.net/2018/03/26/best-practices-for-using-google-sheets-in-your-data-project.html) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Lincoln_2018.pdf)
+
+### Week 6: QA/QC 2: Correction & Synthesis with Open Refine    {.unnumbered}  
+
+\vspace{0.3cm}
+
+>No assigned reading 
+
+### Week 7: QA/QC 3: Finding Errors with Data Visualization    {.unnumbered} 
+
+\vspace{0.3cm}
+
+>**Read:**
+
+>1. Rougier NP, Droettboom M, Bourne PE (2014) Ten Simple Rules for Better Figures. PLoS Comput Biol 10(9): e1003833. [[read online]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) or [[download pdf]](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable)
+
+>**Watch:**  
+
+>1. Tommy McCall: [The simple genius of a good graphic](https://www.ted.com/talks/tommy_mccall_the_simple_genius_of_a_good_graphic?language=en)
+    
+>2. R. Luke DuBois: [Insightful human portraits made from data](https://www.ted.com/talks/r_luke_dubois_insightful_human_portraits_made_from_data?language=en)
+
+
+### Week 8: Metadata, Codebooks; Data Sharing, Reuse, & Archives    {.unnumbered}
+
+\vspace{0.3cm}
+
+>**Read (Metadata):**
+
+>1.  Michener, W.K., et al . 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342. [[read online]](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Michener_etal_1997_EcolApplications.pdf)
+
+>2.  Pp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research methods: Qualitative and quantitative approaches. Sage. [[download pdf]]
+
+
+>**Read (Data Sharing):**
+
+>1.  Alexander, S.M., Jones, K., Bennett, N.J. et al. Qualitative data sharing and synthesis for sustainability science. Nat Sustain 3, 81–88 (2020).  [[read online]](https://doi.org/10.1038/s41893-019-0434-8 )  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Alexander_etal_2019_NatureSustainability.pdf)
+
+>2. Renaut, S. et al. 2018. Management, Archiving, and Sharing for Biologists and the Role of Research Institutions in the Technology-Oriented Age. *BioScience* 68(6)400–411  [[read online]](https://academic.oup.com/bioscience/article/68/6/400/4983937) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Renaut_etal_2018_Bioscience.pdf)  
+
+>3.  Duke, Clifford S., and John H. Porter. 2013. "The ethics of data sharing and reuse in biology." BioScience 63(6): 483-489.    [[read online]](https://academic.oup.com/bioscience/article/63/6/483/226339) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Duke%26Porter_2013.pdf)
+
+>4.  Tenopir, C., et al.  (2015). Changes in data sharing and data reuse practices and perceptions among scientists worldwide. PloS one, 10(8), e0134826.  [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134826) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Tenopir_etal_2015.PDF)
+
+>5.  Mauthner, NS, & O. Parry O. 2009. Qualitative data preservation and sharing in the social sciences: On whose philosophical terms?. Australian J of Social Issues 44(3):291-307.  [[read online]](https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1839-4655.2009.tb00147.x)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Mauthner_et_al-2009-Australian_Journal_of_Social_Issues.pdf)
+
+
+### Week 9: Data Management Plans    {.unnumbered}  
+
+\vspace{0.3cm}
+
+>**Read**
+
+>1. Michener, W. K. (2015). Ten simple rules for creating a good data management plan. PLoS Computational Biology, 11(10), e1004525. [[read online]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004525) or [[download pdf]](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1004525&type=printable)
+
+>2. Goodman A, et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Comput Biol 10(4): e1003542. [[read online]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003542) or [[download pdf]](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003542&type=printable).  *_this paper connects what we've done with what's coming up next_*
+
+
+>**Watch**
+
+>1. [Content of a DMP” (by RWTH Aachen University)](https://www.youtube.com/watch?v=fcCj6sNvoOw&embeds_euri=https%3A%2F%2Flas6292.netlify.app%2F&feature=emb_imp_woyt)
+
+### Week 10: Spring Break    {.unnumbered}
+
+\vspace{0.3cm}
+
+>No class session due to Spring Break, No assigned reading 
+
+### Week 11: Efficient data collection    {.unnumbered}  
+
+\vspace{0.3cm}
+
+>**Read:**
+
+>1.  Redman, T. 2016. Bad Data Costs the U.S. $3 Trillion Per Year. Harvard Business Review. [[read online]](https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Redman_2016.pdf)
+
+>**Watch**
+
+>1. Atul Gawande’s TED Talk: [The Importance & Value of the CHECK LIST.](https://www.youtube.com/watch?v=55Nc8nccPa0)
+
+>2. Animated summary of [The Checklist Manifesto](https://www.youtube.com/watch?v=bCDmDzIOZ-g).
+
+>3. Jess Stratton’s LinkedIn Learning Video Overview: “Use Google Forms to Create Surveys” (7 min.). Watch it [here](https://www.linkedin.com/learning/google-drive-essential-training-2021); must be on UF computer or use UF proxy.
+
+>4. OPTIONAL: The more advanced, multi-video “Google Forms Essential Training Course”. These short (1-3 min) videos explain each step in more detail. It’s great, and only 39 min long from start to finish. Watch [here](https://www.linkedin.com/learning/google-forms-essential-training-2022/collect-data-easily-with-google-forms); must be on UF computer or use UF proxy.
+
+
+### Week 12: Transcription & Translation   {.unnumbered}  
+
+\vspace{0.3cm}
+
+>**Read:**
+
+>1.  Bakker, Rebecca. "Transcription Tools and Software" (2017). Works of the FIU Libraries. 62.   [[read online]](https://digitalcommons.fiu.edu/glworks/62) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Bakker_transcription_tools_slides.pdf)  
+
+>2. Watch "The Text Wash team discusses text anonymization" [[link]](https://youtu.be/5fFO4ROg4Vw); related blog post [[link]](https://ocean.sagepub.com/blog/making-sensitive-text-data-accessible-for-computational-social-science)
+
+
+>**Watch**
+
+>1. Dr. Jarek Kriukow: How to transcribe interviews - [Part 1: “naturalism” and “denaturalism”](https://www.youtube.com/watch?v=NzVjlKR4HQQ)
+
+>2. Dr. Jarek Kriukow: How to transcribe interviews - Part 2: [Which approach to use?](https://www.youtube.com/watch?v=69T8aVf5Nj0)
+
+### Week 13: Paperless data collection.  
+
+\vspace{0.3cm}
+
+>**Read:**
+
+>1.  Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968.  [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006968) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Aanensen_etal_2009.PDF)
+
+>2.  Moylan, CA et al. 2013. Increasingly mobile: How new technologies can enhance qualitative research. Qualitative social work: research and practice, 14(1):36-47.  [[read online]](https://journals.sagepub.com/doi/10.1177/1473325013516988) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Moylan_etal_2015.pdf)
+
+>3.  Teacher, Amber G. F. et al. Smartphones in ecology and evolution: a guide for the app‐rehensive. Ecology and Evolution 3(16):5268– 5278  [[read online]](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.888)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Teacher_etal_2013.pdf)
+
+>**Watch**
+
+>1. E. Bruna: [Paperless Data Collection](https://youtu.be/j5GWpDx_Ytw)
+
+>2. Great EpiCollect tutorials by UConn’s David Dickson
+
+  >a. [Intro to EpiCollect 5](https://kaltura.uconn.edu/playlist/dedicated/1_14lpwsw0/1_fmj06huc)
+  >b. [Creating an EpiCollect PROJECT](https://kaltura.uconn.edu/media/Creating+an+Epicollect+5+Project/1_853ybdbf)
+  >c. [Creating a FORM for your Epicollect Project](https://kaltura.uconn.edu/media/Creating+a+Form+in+Epicollect+5/1_inr7wxq8)
+  >d. [Collecting data in EpiCollect with your phone or tablet](https://kaltura.uconn.edu/media/Collecting+Data+With+Epicollect+5/1_kgzfddtp)
+
+### Week 14: Automated data extraction   {.unnumbered}  
+
+\vspace{0.3cm}
+
+>**Read:**
+
+>1.  Drinkwater, R. E., Cubey, R. W., & Haston, E. M. (2014). The use of Optical Character Recognition (OCR) in the digitization of herbarium specimen labels. PhytoKeys, (38), 15-30.  [[read online]](doi:10.3897/phytokeys.38.7168) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Drinkwater_etal_2014.pdf)
+
+>2.  Joo, Jungseock and Zachary C. Steinert-Threlkeld. 2019. Image as data: Automated visual content analysis for social science. [[read online]](https://ocean.sagepub.com/blog/image-as-data-automated-visual-content-analysis-for-social-science)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Joo_and_Steinert-Threlkeld_2019.pdf)
+
+
+### Week 15: Readings Days    {.unnumbered}
+
+\vspace{0.3cm}
+
+>No class session due to Reading days, No assigned reading 
+
+
+<!-- Reading Days Legal and Ethical Issues.   -->
+<!-- >**Read:** -->
+
+<!-- >1.  de Koning M, Meyer B, Moors A, Pels P. 2019. Guidelines for anthropological research: Data management, ethics, and integrity. Ethnography. 20(2):170-174.  [[read online]](https://journals.sagepub.com/doi/10.1177/1466138119843312)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Koning_etal_2019.pdf) -->
+
+<!-- >2.  Katie Fortney, UC Office of Scholarly Communication. 2016. “Who owns your data?”  [[read online]](https://uc3.cdlib.org/2016/09/08/who-owns-your-data/)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Fortney_2016.pdf) -->
+
+<!-- >3. Goodluck, K. 2020. Indigenous data sovereignty shakes up research. High Country News.  [[read online]](https://www.hcn.org/issues/52.11/indigenous-affairs-covid19-indigenous-data-sovereignty-shakes-up-research)  [[download pdf]] -->
+
+<!-- >4. Woodbury, R. B., Beans, J. A., Hiratsuka, V. Y., & Burke, W. (2019). Data Management in Health-Related Research Involving Indigenous Communities in the United States and Canada: A Scoping Review. Frontiers in genetics, 10, 942.  [[read online]](https://doi.org/10.3389/fgene.2019.00942)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Goodluck_2020.pdf) -->
+
+
+<!-- >**Watch** -->
+
+<!-- >1. NIH: [Statistical methods for protecting data confidentiality](https://youtu.be/3vN-6A2zbsk) -->
+<!-- >2. Patricia Jenkinson Video Seminar: [Ethics in Human Subject Research](https://youtu.be/e0uydNe4cQo) -->
+<!-- >3. US Department of Health & Human Services: [Informed Consent Overview](https://youtu.be/Y7uI3sM9wtc) -->
+<!-- >4. Australian Council for International Development (ACFID): [Principles and Guidelines for Ethical Research and Evaluation in Development](https://youtu.be/ylkKCgEIMws) -->
+
+
+--- 
+
+# Academic Policies and Resources
+
+Academic policies for this course are consistent with university policies. See <https://syllabus.ufl.edu/syllabus-policy/uf-syllabus-policy-links/> for policies regarding Attendance and Makeup Work, Academic Accommodations, Grading, Course Evaluation and Feedback, the Honesty Policy, In-Class Recording, and Academic Resources.
+
+## Campus Health and Wellness Resources  {.unnumbered}
+Visit <https://one.uf.edu/whole-gator/topics> for resources that are designed to help you thrive physically, mentally, and emotionally at UF. _Please contact UMatterWeCare for additional and immediate support._ 
+
+## Software Use   {.unnumbered}
+All faculty, staff and students of the university are required and expected to obey the laws and legal agreements governing software use. Failure to do so can lead to monetary damages and/or criminal penalties for the individual violator. Because such violations are also against university policies and rules, disciplinary action will be taken as appropriate. 
+
+## Class Discussions and Group Work {.unnumbered}
+
+In this class we may explore some challenging, important problems and increase our understanding of different perspectives and approaches for addressing them. These conversations may not always be easy; we sometimes will make mistakes in both how we communicate our perspective and what we hear other say. There may be times when we need patience, courage, imagination, and of course mutual respect to engage our texts, classmates, instructors, guests, and our own ideas and experiences. Disrespectful or disruptive behavior will not be tolerated. And always remember that as scholars we must employ critical thinking, rely on data, and cite verifiable sources and experts to interrogate all assigned readings and subject matter in this course as a means of determining if we agree with classmates and instructors. No lesson is intended to espouse, promote, advance, inculcate, or compel a particular feeling, perception, viewpoint or belief.
+
+

@@ -1,28 +1,35 @@
 
 # Preamble {.unnumbered}
 
-This book is a manual for researchers involved the the [HerbVar Project](https://herbvar.org/). It includes a checklist for new collaborators, guidelines on accessing, adding, and using project data, tutorials for using the RStudio Project Templates for conducting analyses and preparing manuscripts, protocols for field work, and guides for administering the HerbVar Network resources (e.g., website, data portal). 
+This book is a manual for students in LAS 6292: Data Collection & Management. The course is designed for graduate students from any discipline – social sciences, humanities, biophysical sciences – and at all stages of their graduate program. It is an introduction to methods for collecting, organizing, managing, and visualizing both qualitative and quantitative data. Students will gain hands-on experience with best practices and tools.
 
-The HerbVar Steering Committee would like to express their appreciation to the following authors of _Alternative & Protocols_ and Guides to Data Collection:  
 
-- _Reproductive Damage:_ Susan Whitehead (Virgina Tech), Phil Hahn (University of Florida), Paul Ode (Colorado State University), Will Wetzel (Montana State University)  
+{{< fa rotate-right >}} Describe the different types of research data & the research data life-cycle
+
+{{< fa question >}} Explain the need for and benefits of data management and sharing
+
+{{< fa clipboard-list >}} Describe and implement best practices for data collection, storage, management, and sharing
+
+{{< fa file-download >}} Find, download, and analyze publicly available data from repositories
+
+{{< fa check-double >}} Carry out simple and reproducible data corrections and dataset organization
+
+{{< fa landmark >}} Describe public policies and agency requirements for data management and sharing
+
+{{< fa balance-scale >}} Articulate the major legal & ethical issues regarding the data collection, use, and storage
+
+{{< fa folder-open >}} Create and Implement Data Management Plans in funder-specific formats
+
+{{< fa tools >}} Identify and properly use tools for more efficient and secure data collection in the field
     
-- _Cacti & Succulents:_ Judie Bronstein (University of Arizona), Victoria Luizzi (University of Arizona)  
+---
 
-- _Trees:_ Bastien Castagneyrol (NRAE-UMR BIOGECO), Amy Trowbridge (University of Wisconsin, Madison), Will Wetzel (Montana State University), Moria Robinson (Utah State University)  
 
-- _Estimating Damage:_ Ian Pearse (U.S. Geological Survey), Zoe Getman-Pickering (University of Massachusetts, Amherst), Julie Davis (Cornell University), Bastien Castagneyrol (NRAE-UMR BIOGECO), Will Wetzel (Montana State University)  
-
-- _Low-Density Plants:_ Danielle Salcido (University of Nevada, Reno), Lee Dyer (University of Nevada, Reno), Will Wetzel (Montana State University)  
-
-- _Rhizomatous Geophytes_: Yuval Sapir (Tel Aviv University) 
-
-This material is based upon work supported by the National Science Foundation under Award No. NSF DEB-2203582.
 
 ::: {.callout-tip}
-## Citation
+### Citation
 
-HerbVar Steering Committee (Eds.). 2024. _HerbVar: Project Manual and Field protocols (v0.9.0)_. Zenodo. https://doi.org/10.5281/zenodo.14232308
+<!-- HerbVar Steering Committee (Eds.). 2024. _HerbVar: Project Manual and Field protocols (v0.9.0)_. Zenodo. https://doi.org/10.5281/zenodo.14232308 -->
 
 :::
 
