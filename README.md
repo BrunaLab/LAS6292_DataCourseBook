@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cb570b78-4b21-42bf-9c0e-fa78acfe311b/deploy-status)](https://app.netlify.com/projects/las6292-book/deploys)
+
 <!-- # Herbvar Project Manual -->
 
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14232308.svg)](https://doi.org/10.5281/zenodo.14232308)  -->
