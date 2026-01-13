@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: cb570b78-4b21-42bf-9c0e-fa78acfe311b
+      url: 'https://las6292-book.netlify.app'

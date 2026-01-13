@@ -100,9 +100,8 @@ format:
     cover-image: images/cover2.png
     # template-partials:
     #   - "protocols/title.tex"
-    header-includes: |
-      \titlehead{\includegraphics[height=9in]{images/cover2.png}}
-      # \publishers{v0.9.0 (Zenodo https://doi.org/10.5281/zenodo.14232308)\\-\\This material is based upon work supported by the National Science Foundation under Award No. NSF DEB-2203582.\\-\\Licensed under CC BY-NC-SA 4.0.}
+    # header-includes: |
+    #    \titlehead{\includegraphics[height=9in]{images/cover2.png}}
     toc: true
     toc-depth: 2
     toc-title: Table of Contents
