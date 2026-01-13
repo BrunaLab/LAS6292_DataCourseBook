@@ -5,63 +5,71 @@ author: "Instructor: Emilio M. Bruna"
 date: "Spring Semester 2026"
 geometry: margin=1.0in
 fontsize: 12pt
-project:
-  output-dir: uploads
-
 # linkcolor: darkmidnightblue
 # urlcolor: darkmidnightblue
-format:
-  pdf:
-    toc: false
-    number-sections: true
-    fontsize: 10pt
-    microtypeoptions: ["final"]
-    # Colors
-    colorlinks: true
-    # Layout
-    geometry:
-      # - margin=0.75in
-      - bindingoffset=0.0in
-      - left=24mm
-      - top=24mm
-      - bottom=24mm
-      - right=24mm
+# format:
+#   docx:
+#     toc: false
+#     number-sections: true
+#     reference-doc: custom-reference-doc.docx
+#     geometry:
+#       # - margin=0.75in
+#       - bindingoffset=0.0in
+#       - left=24mm
+#       - top=24mm
+#       - bottom=24mm
+#       - right=24mm
+# format:
+#   pdf:
+#     toc: false
+#     number-sections: true
+#     fontsize: 10pt
+#     microtypeoptions: ["final"]
+#     # Colors
+#     colorlinks: true
+#     # Layout
+#     geometry:
+#       # - margin=0.75in
+#       - bindingoffset=0.0in
+#       - left=24mm
+#       - top=24mm
+#       - bottom=24mm
+#       - right=24mm
       # - heightrounded
       # - footskip=0.475in
       # - showframe
     # pagestyle: plain
     # Rendering
-    keep-tex: true
-    include-in-header:
-      text: |
-        \AtBeginDocument{\let\maketitle\relax}
-        \usepackage{fancyhdr}
-        \pagestyle{fancy}
-        \fancyhead[R]{LAS 6292 Syllabus p. \thepage}
-        \fancyhead[L]{Updated \today}
-        \usepackage{xcolor}
-        \usepackage{sectsty}
-        <!-- \sectionfont{\color{customnavy}} -->
-        <!-- \subsectionfont{\color{customnavy}}    -->
-        \sectionfont{\color{customnavy}\sffamily}      % Sans-serif for sections
-        \subsectionfont{\color{customnavy}\sffamily}   % Sans-serif for subsections
-        \usepackage{titlesec}
-        \definecolor{customnavy}{RGB}{0, 0, 128}
-        \subsubsectionfont{\color{customnavy}}
-        \usepackage{amssymb}
-        \usepackage{pifont}
-        \usepackage{wasysym}
-        \usepackage{fontawesome5}
-        \usepackage{etoolbox}
-        \makeatletter
-        \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
-        % Adjust spacing before and after headings
-        
-        
-        \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after}
-        \titlespacing*{\subsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
-        \titlespacing*{\subsubsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
-
+    # 
+format: html
+# keep-tex: true
+#    include-in-header:
+#      text: |
+#        \AtBeginDocument{\let\maketitle\relax}
+#        \usepackage{fancyhdr}
+#        \pagestyle{fancy}
+#        \fancyhead[R]{LAS 6292 Syllabus p. \thepage}
+#        \fancyhead[L]{Updated \today}
+#        \usepackage{xcolor}
+#        \usepackage{sectsty}
+#        <!-- \sectionfont{\color{customnavy}} -->
+#        <!-- \subsectionfont{\color{customnavy}}    -->
+#        \sectionfont{\color{customnavy}\sffamily}      % Sans-serif for sections
+#        \subsectionfont{\color{customnavy}\sffamily}   % Sans-serif for subsections
+#        \usepackage{titlesec}
+#        \definecolor{customnavy}{RGB}{0, 0, 128}
+#        \subsubsectionfont{\color{customnavy}}
+#        \usepackage{amssymb}
+#        \usepackage{pifont}
+#        \usepackage{wasysym}
+#        \usepackage{fontawesome5}
+#        \usepackage{etoolbox}
+#        \makeatletter
+#        \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+#        % Adjust spacing before and after headings
+#        \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after}
+#        \titlespacing*{\subsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
+#        \titlespacing*{\subsubsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
 ---
 
 ```{r}
@@ -211,7 +219,6 @@ Course grading is consistent with UF grading policies. **The final course grade 
 
 
 ```{r points, echo=FALSE}
-
 in_class <- 25
 no_classes <- 14
 in_class_total <- no_classes * in_class
@@ -278,7 +285,7 @@ kable(assignments,
   kable_styling(position = "center",latex_options = "HOLD_position") %>% 
   row_spec(3,hline_after=T) %>% 
   add_indent(c(4)) %>% 
-  row_spec(4, bold=T)
+  row_spec(4, bold=T) 
 
 ```
 
@@ -480,7 +487,7 @@ Please review the assigned material *before* class. _All items are posted on the
 
 >2. Dr. Jarek Kriukow: How to transcribe interviews - Part 2: [Which approach to use?](https://www.youtube.com/watch?v=69T8aVf5Nj0)
 
-### Week 13: Paperless data collection.  
+### Week 13: Paperless data collection.     {.unnumbered}  
 
 \vspace{0.3cm}
 
@@ -557,4 +564,6 @@ All faculty, staff and students of the university are required and expected to o
 
 In this class we may explore some challenging, important problems and increase our understanding of different perspectives and approaches for addressing them. These conversations may not always be easy; we sometimes will make mistakes in both how we communicate our perspective and what we hear other say. There may be times when we need patience, courage, imagination, and of course mutual respect to engage our texts, classmates, instructors, guests, and our own ideas and experiences. Disrespectful or disruptive behavior will not be tolerated. And always remember that as scholars we must employ critical thinking, rely on data, and cite verifiable sources and experts to interrogate all assigned readings and subject matter in this course as a means of determining if we agree with classmates and instructors. No lesson is intended to espouse, promote, advance, inculcate, or compel a particular feeling, perception, viewpoint or belief.
 
+## Evaluation
 
+Students are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations online. Students can complete evaluations in three ways: (1) The email they receive from GatorEvals, (2) Their Canvas course menu under GatorEvals, (3) The central portal at <https://my-ufl.bluera.com>. Guidance on how to provide constructive feedback is available at <https://gatorevals.aa.ufl.edu/students/>. Students will be notified when the evaluation period opens. Summaries of course evaluation results are available to students at <https://gatorevals.aa.ufl.edu/public-results/>.

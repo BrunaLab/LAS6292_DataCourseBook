@@ -35,4 +35,4 @@ This book is a manual for students in LAS 6292: Data Collection & Management. Th
 
 --- 
 
-This guide is a [Quarto Book](https://quarto.org/docs/books) hosted on the [HerbVar Network's Github site](https://github.com/HerbVar-Network). Any team member can edit the text, add new sections, or make suggestions for improvement either by [pull request](https://github.com/HerbVar-Network/project_manual/pulls) or by [posting an issue](https://github.com/HerbVar-Network/project_manual/issues) on the HerbVar Manual's repository. For more information and tutorials for doing so, see @sec-manual. 
+This guide is a [Quarto Book](https://quarto.org/docs/books) hosted on the [Bruna Lab's Github site](https://github.com/BrunaLab). Please suggest edits to the text, new sections, or make suggestions for improvement either by [pull request](https://github.com/HerbVar-Network/project_manual/pulls) or by [posting an issue](https://github.com/HerbVar-Network/project_manual/issues) on the course book's repository. For more information and tutorials for doing so, see @sec-manual. 
