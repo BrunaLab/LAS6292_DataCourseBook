@@ -4,7 +4,7 @@
 This book is a manual for students in LAS 6292: Data Collection & Management. The course is designed for graduate students from any discipline – social sciences, humanities, biophysical sciences – and at all stages of their graduate program. It is an introduction to methods for collecting, organizing, managing, and visualizing both qualitative and quantitative data. Students will gain hands-on experience with best practices and tools.
 
 
-<!--- {{< fa rotate-right >}} Describe the different types of research data & the research data life-cycle --->
+{{< fa rotate-right >}} Describe the different types of research data & the research data life-cycle  
 
 {{< fa question >}} Explain the need for and benefits of data management and sharing
 
@@ -22,7 +22,7 @@ This book is a manual for students in LAS 6292: Data Collection & Management. Th
 
 {{< fa tools >}} Identify and properly use tools for more efficient and secure data collection in the field
 
-<!-- Describe the different types of research data & the research data life-cycle ---> -->
+<!-- Describe the different types of research data & the research data life-cycle ---> 
 
 <!-- Explain the need for and benefits of data management and sharing -->
 
