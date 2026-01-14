@@ -4,231 +4,141 @@
     "href": "index.html",
     "title": "LAS 6292: Data Collection and Management",
     "section": "",
-    "text": "Preamble\nThis book is a manual for students in LAS 6292: Data Collection & Management. The course is designed for graduate students from any discipline – social sciences, humanities, biophysical sciences – and at all stages of their graduate program. It is an introduction to methods for collecting, organizing, managing, and visualizing both qualitative and quantitative data. Students will gain hands-on experience with best practices and tools.\n\n\n\n\n\n\n\n\n\n\nDescribe the different types of research data & the research data life-cycle -\nExplain the need for and benefits of data management and sharing\nDescribe and implement best practices for data collection, storage, management, and sharing\nFind, download, and analyze publicly available data from repositories\nCarry out simple and reproducible data corrections and dataset organization\nDescribe public policies and agency requirements for data management and sharing\nArticulate the major legal & ethical issues regarding the data collection, use, and storage\nCreate and Implement Data Management Plans in funder-specific formats\nIdentify and properly use tools for more efficient and secure data collection in the field\n\n\n\n\n\n\n\nCitation\n\n\n\n\n\n\n\nThis guide is a Quarto Book hosted on the Bruna Lab’s Github site. Please suggest edits to the text, missing resources, or make suggestions for improvement either by pull request or by posting an issue on the course book’s repository. For more information and tutorials for doing so, see ?sec-manual.",
+    "text": "Preamble\nThis book is a manual for students in LAS 6292: Data Collection & Management. The course is designed for graduate students from any discipline – social sciences, humanities, biophysical sciences – and at all stages of their graduate program. It is an introduction to methods for collecting, organizing, managing, and visualizing both qualitative and quantitative data. Students will gain hands-on experience with best practices and tools.\n\n\n\n\n\n\n\n\n\n\nDescribe the different types of research data & the research data life-cycle -\nExplain the need for and benefits of data management and sharing\nDescribe and implement best practices for data collection, storage, management, and sharing\nFind, download, and analyze publicly available data from repositories\nCarry out simple and reproducible data corrections and dataset organization\nDescribe public policies and agency requirements for data management and sharing\nArticulate the major legal & ethical issues regarding the data collection, use, and storage\nCreate and Implement Data Management Plans in funder-specific formats\nIdentify and properly use tools for more efficient and secure data collection in the field\n\n\n\n\n\n\n\nTipCitation\n\n\n\n\n\n\n\nThis guide is a Quarto Book hosted on the Bruna Lab’s Github site. Please suggest edits to the text, missing resources, or make suggestions for improvement either by pull request or by posting an issue on the course book’s repository. For more information and tutorials for doing so, see ?sec-manual.",
     "crumbs": [
       "Preamble"
     ]
   },
   {
-    "objectID": "las6292_syllabus.html",
-    "href": "las6292_syllabus.html",
-    "title": "1  LAS 6292: Data Collection & Management",
-    "section": "",
-    "text": "LAS6292 TCD Research Methods: Data Collection & Management Spring 2026",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>LAS 6292: Data Collection & Management</span>"
-    ]
-  },
-  {
-    "objectID": "las6292_syllabus.html#class-calendar",
-    "href": "las6292_syllabus.html#class-calendar",
-    "title": "1  LAS 6292: Data Collection & Management",
-    "section": "Class Calendar",
-    "text": "Class Calendar",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>LAS 6292: Data Collection & Management</span>"
-    ]
-  },
-  {
-    "objectID": "las6292_syllabus.html#final-course-grades-grading-policy",
-    "href": "las6292_syllabus.html#final-course-grades-grading-policy",
-    "title": "1  LAS 6292: Data Collection & Management",
-    "section": "Final Course Grades & Grading Policy",
-    "text": "Final Course Grades & Grading Policy\nCourse grading is consistent with UF grading policies. The final course grade is based on the assignments below.. Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Note also that most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them they can be submitted anytime before 9 am the day of the following class session.Late assignments will lose 10 pts. Finally, there is no Final Exam in this course, and the Individual Project is due on the scheduled date of the final exam.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>LAS 6292: Data Collection & Management</span>"
-    ]
-  },
-  {
-    "objectID": "las6292_syllabus.html#assignments",
-    "href": "las6292_syllabus.html#assignments",
-    "title": "1  LAS 6292: Data Collection & Management",
-    "section": "Assignments",
-    "text": "Assignments",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>LAS 6292: Data Collection & Management</span>"
-    ]
-  },
-  {
-    "objectID": "las6292_syllabus.html#grading-scale",
-    "href": "las6292_syllabus.html#grading-scale",
-    "title": "1  LAS 6292: Data Collection & Management",
-    "section": "Grading Scale",
-    "text": "Grading Scale\nCourse grades will be based on the percentage of total points earned and will be assigned with the following scale: A: &gt;93% A-: 92-90% B+: 89-87% B: 86-83% B-: 82-80% C+: 79-77% C: 76-73% C-: 72-70%. D+: 69-67% D-: 62-60% E: 59% and below. For information on how UF assigns grade points, visit: https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>LAS 6292: Data Collection & Management</span>"
-    ]
-  },
-  {
-    "objectID": "las6292_syllabus.html#campus-health-and-wellness-resources",
-    "href": "las6292_syllabus.html#campus-health-and-wellness-resources",
-    "title": "1  LAS 6292: Data Collection & Management",
-    "section": "Campus Health and Wellness Resources",
-    "text": "Campus Health and Wellness Resources\nVisit https://one.uf.edu/whole-gator/topics for resources that are designed to help you thrive physically, mentally, and emotionally at UF. Please contact UMatterWeCare for additional and immediate support.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>LAS 6292: Data Collection & Management</span>"
-    ]
-  },
-  {
-    "objectID": "las6292_syllabus.html#software-use",
-    "href": "las6292_syllabus.html#software-use",
-    "title": "1  LAS 6292: Data Collection & Management",
-    "section": "Software Use",
-    "text": "Software Use\nAll faculty, staff and students of the university are required and expected to obey the laws and legal agreements governing software use. Failure to do so can lead to monetary damages and/or criminal penalties for the individual violator. Because such violations are also against university policies and rules, disciplinary action will be taken as appropriate.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>LAS 6292: Data Collection & Management</span>"
-    ]
-  },
-  {
-    "objectID": "las6292_syllabus.html#class-discussions-and-group-work",
-    "href": "las6292_syllabus.html#class-discussions-and-group-work",
-    "title": "1  LAS 6292: Data Collection & Management",
-    "section": "Class Discussions and Group Work",
-    "text": "Class Discussions and Group Work\nIn this class we may explore some challenging, important problems and increase our understanding of different perspectives and approaches for addressing them. These conversations may not always be easy; we sometimes will make mistakes in both how we communicate our perspective and what we hear other say. There may be times when we need patience, courage, imagination, and of course mutual respect to engage our texts, classmates, instructors, guests, and our own ideas and experiences. Disrespectful or disruptive behavior will not be tolerated. And always remember that as scholars we must employ critical thinking, rely on data, and cite verifiable sources and experts to interrogate all assigned readings and subject matter in this course as a means of determining if we agree with classmates and instructors. No lesson is intended to espouse, promote, advance, inculcate, or compel a particular feeling, perception, viewpoint or belief.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>LAS 6292: Data Collection & Management</span>"
-    ]
-  },
-  {
-    "objectID": "las6292_syllabus.html#evaluation",
-    "href": "las6292_syllabus.html#evaluation",
-    "title": "1  LAS 6292: Data Collection & Management",
-    "section": "8.1 Evaluation",
-    "text": "8.1 Evaluation\nStudents are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations online. Students can complete evaluations in three ways: (1) The email they receive from GatorEvals, (2) Their Canvas course menu under GatorEvals, (3) The central portal at https://my-ufl.bluera.com. Guidance on how to provide constructive feedback is available at https://gatorevals.aa.ufl.edu/students/. Students will be notified when the evaluation period opens. Summaries of course evaluation results are available to students at https://gatorevals.aa.ufl.edu/public-results/.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>LAS 6292: Data Collection & Management</span>"
-    ]
-  },
-  {
     "objectID": "course_topics/file_names/naming.html",
     "href": "course_topics/file_names/naming.html",
-    "title": "2  Naming Conventions",
+    "title": "1  Naming Conventions",
     "section": "",
-    "text": "2.1 Introduction\nThe first (and easiest) way to get started organizing your data is to use a simple, clear, and consistent system for naming your files (i.e., a “naming convention”). Using a well-thought out naming convention has a number of important benefits:",
+    "text": "1.1 Introduction\nThe first (and easiest) way to get started organizing your data is to use a simple, clear, and consistent system for naming your files (i.e., a “naming convention”). Using a well-thought out naming convention has a number of important benefits:",
     "crumbs": [
       "Course Topics",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Naming Conventions</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Naming Conventions</span>"
     ]
   },
   {
     "objectID": "course_topics/file_names/naming.html#introduction",
     "href": "course_topics/file_names/naming.html#introduction",
-    "title": "2  Naming Conventions",
+    "title": "1  Naming Conventions",
     "section": "",
     "text": "Files will be easier to find\nYou won’t have to open files to see what they are\nFiles are easier to sort\nFiles are easier to share with collaborators (and for collaborators to use)\nIt helps prevent accidentally overwriting or deleting files",
     "crumbs": [
       "Course Topics",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Naming Conventions</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Naming Conventions</span>"
     ]
   },
   {
     "objectID": "course_topics/file_names/naming.html#how-to-name-your-files",
     "href": "course_topics/file_names/naming.html#how-to-name-your-files",
-    "title": "2  Naming Conventions",
-    "section": "2.2 How to name your files",
-    "text": "2.2 How to name your files\nYour file names should: \n\nTell you about the contents of the file and allow you to uniquely identify it. For instance (compare 'data 1998' vs 'survey data' vs 'survey data 1998' vs 'small mammal survey data 1998'). You can use things like the an acronym for the project, abbreviation for the study, location where collected, the name of the investigator, the year or month when collected, the type of data type, etc.\nBe as short as possible. Many database systems (like MS One Drive) have limits on file name length. Use a max of 25 characters, and aim for less than that.\nAvoid using special characters and spaces Don’t use characters like $ % ^ & # | :. This is really important because software, automated data processing tools, web browsers, and computer operating systems use spaces and special characters for dividing up (parsing) strings of text, as well as other processes.\nStart with letters, never numbers. Using numbers at the start of file names can lead to problems when they are read into stats software and other programs. Instead of '2020_survey_responses' use 'survey_responses_2020'\nHelp you quickly sort files chronologically or numerically. Dates are very useful in file names because they can help identify the most recent files easily. You can not rely on the file date associated with the file on the computer! However, it is really important to use a clear format for dates, especially if collaborating internationally. I learned the hard way that not everyone reads 'census_data_3-4-2018' the same way I do, so I started using 'census_data_4march2018'. However, even this isn’t ideal because of how it sorts things in a folder. Now I now use this format: 'file_name_YYYYMMDD' ('census_data_20180403'). You can also use file_name_YYYY-MM-DD. This is based on the international format for dates and times (ISO 8601). In addition to the benefit of sorting more easily, you’ll never have to use the the dreaded '_____.final.docx' and '_____.actual_final.docx' in your file names ever again…you’ll always know which is the last one. If the files don’t require a date, but you want to maintain a sequence, use leading zeros to maintain sort order. 7 and 701 don’t sort the way you expect them to, so use 007 and 701.\nUse a consistent method of dealing with spaces and letter case. . For a the spreadsheet with responses to a survey by 5 different people, don’t use 'survey responses Florida'. Instead use (i) 'survey_responses_florida' or (ii) 'SurveyResponsesFlorida'. Try to avoid mixing the two (e.g., 'survey_responses_Florida'). By the way, (i) is known as pothole and (ii) is known as camel. Personally, I prefer pothole name is better because of it is easier to read and you never to remember what words get capitalized (because none of the do). Use underscore ( _ ) or dashes ( - ) to separate meaningful parts of file names.\n\nOnce you have a system, write it down, print it out, and put it up somewhere you can easily refer to it. Remember -whenever possible make the names simple, informative, and unique. If you collected survey data and behavioral data in 2017, don’t call them both data_2017 even if they are in different folders. Call one 'behavior_obs_2017' and the other 'survey_responses_2017').\nSimple names also help you avoid problems with “system and software portability” - you might be working on a Mac but your collaborators are working on Linux or Windows, and the software made for each can read file names in different ways. File names that are simple, lower-case, and have no special characters are less software- and platform-dependent.",
+    "title": "1  Naming Conventions",
+    "section": "1.2 How to name your files",
+    "text": "1.2 How to name your files\nYour file names should: \n\nTell you about the contents of the file and allow you to uniquely identify it. For instance (compare 'data 1998' vs 'survey data' vs 'survey data 1998' vs 'small mammal survey data 1998'). You can use things like the an acronym for the project, abbreviation for the study, location where collected, the name of the investigator, the year or month when collected, the type of data type, etc.\nBe as short as possible. Many database systems (like MS One Drive) have limits on file name length. Use a max of 25 characters, and aim for less than that.\nAvoid using special characters and spaces Don’t use characters like $ % ^ & # | :. This is really important because software, automated data processing tools, web browsers, and computer operating systems use spaces and special characters for dividing up (parsing) strings of text, as well as other processes.\nStart with letters, never numbers. Using numbers at the start of file names can lead to problems when they are read into stats software and other programs. Instead of '2020_survey_responses' use 'survey_responses_2020'\nHelp you quickly sort files chronologically or numerically. Dates are very useful in file names because they can help identify the most recent files easily. You can not rely on the file date associated with the file on the computer! However, it is really important to use a clear format for dates, especially if collaborating internationally. I learned the hard way that not everyone reads 'census_data_3-4-2018' the same way I do, so I started using 'census_data_4march2018'. However, even this isn’t ideal because of how it sorts things in a folder. Now I now use this format: 'file_name_YYYYMMDD' ('census_data_20180403'). You can also use file_name_YYYY-MM-DD. This is based on the international format for dates and times (ISO 8601). In addition to the benefit of sorting more easily, you’ll never have to use the the dreaded '_____.final.docx' and '_____.actual_final.docx' in your file names ever again…you’ll always know which is the last one. If the files don’t require a date, but you want to maintain a sequence, use leading zeros to maintain sort order. 7 and 701 don’t sort the way you expect them to, so use 007 and 701.\nUse a consistent method of dealing with spaces and letter case. . For a the spreadsheet with responses to a survey by 5 different people, don’t use 'survey responses Florida'. Instead use (i) 'survey_responses_florida' or (ii) 'SurveyResponsesFlorida'. Try to avoid mixing the two (e.g., 'survey_responses_Florida'). By the way, (i) is known as pothole and (ii) is known as camel. Personally, I prefer pothole name is better because of it is easier to read and you never to remember what words get capitalized (because none of the do). Use underscore ( _ ) or dashes ( - ) to separate meaningful parts of file names.\n\nOnce you have a system, write it down, print it out, and put it up somewhere you can easily refer to it. Remember -whenever possible make the names simple, informative, and unique. If you collected survey data and behavioral data in 2017, don’t call them both data_2017 even if they are in different folders. Call one 'behavior_obs_2017' and the other 'survey_responses_2017').\nSimple names also help you avoid problems with “system and software portability” - you might be working on a Mac but your collaborators are working on Linux or Windows, and the software made for each can read file names in different ways. File names that are simple, lower-case, and have no special characters are less software- and platform-dependent.",
     "crumbs": [
       "Course Topics",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Naming Conventions</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Naming Conventions</span>"
     ]
   },
   {
     "objectID": "course_topics/file_names/naming.html#tools-resources",
     "href": "course_topics/file_names/naming.html#tools-resources",
-    "title": "2  Naming Conventions",
-    "section": "2.3 Tools & Resources",
-    "text": "2.3 Tools & Resources\n\n2.3.1 Bulk Renaming of Files\n\nAdobe Bridge\nBulk Rename (Windows)\nRename Master (Windows)\nFile Renamer Basic (Windows, Free and Paid)\nAnt Renamer\nRenamer 5 (macOS)\nRenamer Lite\nPSRenamer\nBatch Renaming of Files in Windows: Post 1, Post 2\nBatch Renaming of Files in MacOS: Post 1, Post 2\n\n\n\n2.3.2 Best Practices - Other Institutions\n\nSmithsonian Library\nMichigan Library\nStanford Library\nSmithsonian",
+    "title": "1  Naming Conventions",
+    "section": "1.3 Tools & Resources",
+    "text": "1.3 Tools & Resources\n\n1.3.1 Bulk Renaming of Files\n\nAdobe Bridge\nBulk Rename (Windows)\nRename Master (Windows)\nFile Renamer Basic (Windows, Free and Paid)\nAnt Renamer\nRenamer 5 (macOS)\nRenamer Lite\nPSRenamer\nBatch Renaming of Files in Windows: Post 1, Post 2\nBatch Renaming of Files in MacOS: Post 1, Post 2\n\n\n\n1.3.2 Best Practices - Other Institutions\n\nSmithsonian Library\nMichigan Library\nStanford Library\nSmithsonian",
     "crumbs": [
       "Course Topics",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Naming Conventions</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Naming Conventions</span>"
     ]
   },
   {
     "objectID": "resources/resources.html",
     "href": "resources/resources.html",
-    "title": "3  Useful resources for Data Collection & Managment",
+    "title": "2  Useful resources for Data Collection & Managment",
     "section": "",
-    "text": "3.1 R Programming",
+    "text": "2.1 R Programming",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "resources/resources.html#r-programming",
     "href": "resources/resources.html#r-programming",
-    "title": "3  Useful resources for Data Collection & Managment",
+    "title": "2  Useful resources for Data Collection & Managment",
     "section": "",
-    "text": "3.1.1 Essential\n\nHadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nWhere and How to ask for help\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\n\n3.1.2 Tutorials and Books\n\nR Essential Training: Wrangling and Visualizing Data\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl\nR Bootcamp\nKieran Healy’s Data Visualization: a practical introduction is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.\nSo. Many. Resources.\nROpenSci: tools for accessing, manipulating, and visualizing open data\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning\nLearning R\nSwirl",
+    "text": "2.1.1 Essential\n\nHadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nWhere and How to ask for help\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\n\n2.1.2 Tutorials and Books\n\nR Essential Training: Wrangling and Visualizing Data\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl\nR Bootcamp\nKieran Healy’s Data Visualization: a practical introduction is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.\nSo. Many. Resources.\nROpenSci: tools for accessing, manipulating, and visualizing open data\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning\nLearning R\nSwirl",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "resources/resources.html#slide-presentations-in-r",
     "href": "resources/resources.html#slide-presentations-in-r",
-    "title": "3  Useful resources for Data Collection & Managment",
-    "section": "4.1 Slide Presentations in R",
-    "text": "4.1 Slide Presentations in R\n\nMake slide presentations with R",
+    "title": "2  Useful resources for Data Collection & Managment",
+    "section": "3.1 Slide Presentations in R",
+    "text": "3.1 Slide Presentations in R\n\nMake slide presentations with R",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "resources/resources.html#data-archives",
     "href": "resources/resources.html#data-archives",
-    "title": "3  Useful resources for Data Collection & Managment",
-    "section": "4.2 Data Archives",
-    "text": "4.2 Data Archives\nQualitative Data Repository",
+    "title": "2  Useful resources for Data Collection & Managment",
+    "section": "3.2 Data Archives",
+    "text": "3.2 Data Archives\nQualitative Data Repository",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "resources/resources.html#text-extraction-and-organization",
     "href": "resources/resources.html#text-extraction-and-organization",
-    "title": "3  Useful resources for Data Collection & Managment",
-    "section": "4.3 Text Extraction and Organization",
-    "text": "4.3 Text Extraction and Organization\nPlan for extraction and organization",
+    "title": "2  Useful resources for Data Collection & Managment",
+    "section": "3.3 Text Extraction and Organization",
+    "text": "3.3 Text Extraction and Organization\nPlan for extraction and organization",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "resources/resources.html#form-design",
     "href": "resources/resources.html#form-design",
-    "title": "3  Useful resources for Data Collection & Managment",
-    "section": "4.4 Form Design",
-    "text": "4.4 Form Design\nBest Practice for Form Design",
+    "title": "2  Useful resources for Data Collection & Managment",
+    "section": "3.4 Form Design",
+    "text": "3.4 Form Design\nBest Practice for Form Design",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "resources/resources.html#data-security",
     "href": "resources/resources.html#data-security",
-    "title": "3  Useful resources for Data Collection & Managment",
-    "section": "4.5 Data Security",
-    "text": "4.5 Data Security\nUF Office of Information Security and Compliance\nCyber Safeguards for UF\nUF IRB\nUF Data Classification Policy\nUF Office of Information Security and Compliance",
+    "title": "2  Useful resources for Data Collection & Managment",
+    "section": "3.5 Data Security",
+    "text": "3.5 Data Security\nUF Office of Information Security and Compliance\nCyber Safeguards for UF\nUF IRB\nUF Data Classification Policy\nUF Office of Information Security and Compliance",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "resources/resources.html#platforms-for-organization-collaboration",
     "href": "resources/resources.html#platforms-for-organization-collaboration",
-    "title": "3  Useful resources for Data Collection & Managment",
-    "section": "4.6 Platforms for Organization & Collaboration",
-    "text": "4.6 Platforms for Organization & Collaboration\nOpen Science Framework",
+    "title": "2  Useful resources for Data Collection & Managment",
+    "section": "3.6 Platforms for Organization & Collaboration",
+    "text": "3.6 Platforms for Organization & Collaboration\nOpen Science Framework",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   }
 ]
