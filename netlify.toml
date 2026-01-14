@@ -1,2 +1,6 @@
+[build]
+  command = "quarto install tinytex && echo 'TinyTeX installed'"
+  publish = "_site"
+
 [[plugins]]
 package = "@quarto/netlify-plugin-quarto"
