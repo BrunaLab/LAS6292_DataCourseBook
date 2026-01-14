@@ -21,7 +21,6 @@ fontsize: 12pt
 #       - right=24mm
 format:
   pdf:
-    output-dir: "docs"
     toc: false
     number-sections: true
     fontsize: 10pt
