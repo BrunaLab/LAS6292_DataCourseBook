@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 book:
-  title: "LAS 6292: Data Collection & Management"
+  title: "LAS 6292: Data Collection and Management"
   output-file: "las6202-reader"
   author: "Emilio M. Bruna"
   date: 11/15/2025
