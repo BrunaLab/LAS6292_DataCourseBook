@@ -85,7 +85,7 @@ book:
         
 
     
-bibliography: HerbVar.bib
+bibliography: las6292.bib
 csl: format/ecology.csl
 format:
 
@@ -107,7 +107,7 @@ format:
     toc-title: Table of Contents
     lof: true
     lot: true
-    bibliography: HerbVar.bib
+    bibliography: las6292.bib
     # Numbering
     number-sections: true
     # Fonts
