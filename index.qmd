@@ -4,41 +4,41 @@
 This book is a manual for students in LAS 6292: Data Collection & Management. The course is designed for graduate students from any discipline – social sciences, humanities, biophysical sciences – and at all stages of their graduate program. It is an introduction to methods for collecting, organizing, managing, and visualizing both qualitative and quantitative data. Students will gain hands-on experience with best practices and tools.
 
 <!-- {{< fa rotate-right >}}  -->
-{{< fa question >}} Describe the different types of research data & the research data life-cycle  
+<!-- {{< fa question >}} Describe the different types of research data & the research data life-cycle   -->
 
-{{< fa question >}} Explain the need for and benefits of data management and sharing
+<!-- {{< fa question >}} Explain the need for and benefits of data management and sharing -->
 
-{{< fa clipboard-list >}} Describe and implement best practices for data collection, storage, management, and sharing
+<!-- {{< fa clipboard-list >}} Describe and implement best practices for data collection, storage, management, and sharing -->
 
-{{< fa file-download >}} Find, download, and analyze publicly available data from repositories
+<!-- {{< fa file-download >}} Find, download, and analyze publicly available data from repositories -->
 
-{{< fa check-double >}} Carry out simple and reproducible data corrections and dataset organization
+<!-- {{< fa check-double >}} Carry out simple and reproducible data corrections and dataset organization -->
 
-{{< fa landmark >}} Describe public policies and agency requirements for data management and sharing
+<!-- {{< fa landmark >}} Describe public policies and agency requirements for data management and sharing -->
 
-{{< fa balance-scale >}} Articulate the major legal & ethical issues regarding the data collection, use, and storage
+<!-- {{< fa balance-scale >}} Articulate the major legal & ethical issues regarding the data collection, use, and storage -->
 
-{{< fa folder-open >}} Create and Implement Data Management Plans in funder-specific formats
+<!-- {{< fa folder-open >}} Create and Implement Data Management Plans in funder-specific formats -->
 
-{{< fa tools >}} Identify and properly use tools for more efficient and secure data collection in the field
+<!-- {{< fa tools >}} Identify and properly use tools for more efficient and secure data collection in the field -->
 
-<!-- Describe the different types of research data & the research data life-cycle ---> 
+Describe the different types of research data & the research data life-cycle -
 
-<!-- Explain the need for and benefits of data management and sharing -->
+Explain the need for and benefits of data management and sharing
 
-<!-- Describe and implement best practices for data collection, storage, management, and sharing -->
+Describe and implement best practices for data collection, storage, management, and sharing
 
-<!-- Find, download, and analyze publicly available data from repositories -->
+Find, download, and analyze publicly available data from repositories
 
-<!-- Carry out simple and reproducible data corrections and dataset organization -->
+Carry out simple and reproducible data corrections and dataset organization
 
-<!-- Describe public policies and agency requirements for data management and sharing -->
+Describe public policies and agency requirements for data management and sharing
 
-<!-- Articulate the major legal & ethical issues regarding the data collection, use, and storage -->
+Articulate the major legal & ethical issues regarding the data collection, use, and storage
 
-<!-- Create and Implement Data Management Plans in funder-specific formats -->
+Create and Implement Data Management Plans in funder-specific formats
 
-<!-- Identify and properly use tools for more efficient and secure data collection in the field -->
+Identify and properly use tools for more efficient and secure data collection in the field
 
 ---
 
