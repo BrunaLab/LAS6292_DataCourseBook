@@ -1,6 +1,10 @@
 [build]
-  command = "quarto install tinytex && echo 'TinyTeX installed'"
   publish = "_site"
 
 [[plugins]]
-package = "@quarto/netlify-plugin-quarto"
+  package = "@quarto/netlify-plugin-quarto"
+
+  [plugins.inputs]
+    render = true
+    # If you need TinyTeX for PDF outputs, you can request it here if supported:
+    tinytex = true
