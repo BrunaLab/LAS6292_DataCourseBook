@@ -19,29 +19,30 @@ fontsize: 12pt
 #       - top=24mm
 #       - bottom=24mm
 #       - right=24mm
-# format:
-#   pdf:
-#     toc: false
-#     number-sections: true
-#     fontsize: 10pt
-#     microtypeoptions: ["final"]
-#     # Colors
-#     colorlinks: true
-#     # Layout
-#     geometry:
-#       # - margin=0.75in
-#       - bindingoffset=0.0in
-#       - left=24mm
-#       - top=24mm
-#       - bottom=24mm
-#       - right=24mm
+format:
+  pdf:
+    output-dir: "docs"
+    toc: false
+    number-sections: true
+    fontsize: 10pt
+    microtypeoptions: ["final"]
+    # Colors
+    colorlinks: true
+    # Layout
+    geometry:
+      # - margin=0.75in
+      - bindingoffset=0.0in
+      - left=24mm
+      - top=24mm
+      - bottom=24mm
+      - right=24mm
       # - heightrounded
       # - footskip=0.475in
       # - showframe
     # pagestyle: plain
     # Rendering
     # 
-format: html
+# format: html
 # keep-tex: true
 #    include-in-header:
 #      text: |
