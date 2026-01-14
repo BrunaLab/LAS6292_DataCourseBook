@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.554">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Instructor: Emilio M. Bruna">
+<meta name="dcterms.date" content="2026-01-01">
+
+<title>LAS 6292: Data Collection and Management - 1&nbsp; LAS 6292: Data Collection &amp; Management</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./course_topics/file_names/naming.html" rel="next">
+<link href="./index.html" rel="prev">
+<link href="./images/cover.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./las6292_syllabus.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">LAS 6292: Data Collection &amp; Management</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">LAS 6292: Data Collection and Management</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/HerbVar-Network/herbvar_manual" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./las6202-reader.pdf">
+              <i class="bi bi-bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./las6202-reader.epub">
+              <i class="bi bi-bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preamble</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./las6292_syllabus.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">LAS 6292: Data Collection &amp; Management</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Course Topics</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./course_topics/file_names/naming.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Naming Conventions</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Appendix 1: Useful Resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./resources/resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Useful resources for Data Collection &amp; Managment</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#las6292-tcd-research-methods-data-collection-management-spring-2026" id="toc-las6292-tcd-research-methods-data-collection-management-spring-2026" class="nav-link active" data-scroll-target="#las6292-tcd-research-methods-data-collection-management-spring-2026">LAS6292 TCD Research Methods: Data Collection &amp; Management Spring 2026</a></li>
+  <li><a href="#instructor-course-sessions-office-hours" id="toc-instructor-course-sessions-office-hours" class="nav-link" data-scroll-target="#instructor-course-sessions-office-hours"><span class="header-section-number">2</span> Instructor, Course Sessions, &amp; Office Hours</a></li>
+  <li><a href="#course-description-objectives-and-learning-outcomes" id="toc-course-description-objectives-and-learning-outcomes" class="nav-link" data-scroll-target="#course-description-objectives-and-learning-outcomes"><span class="header-section-number">3</span> Course Description, Objectives, and Learning Outcomes</a></li>
+  <li><a href="#course-format-prerequisites-credits" id="toc-course-format-prerequisites-credits" class="nav-link" data-scroll-target="#course-format-prerequisites-credits"><span class="header-section-number">4</span> Course Format, Prerequisites, &amp; Credits</a></li>
+  <li><a href="#textbooks-learning-materials-and-supply-fees" id="toc-textbooks-learning-materials-and-supply-fees" class="nav-link" data-scroll-target="#textbooks-learning-materials-and-supply-fees"><span class="header-section-number">5</span> Textbooks, Learning Materials, and Supply Fees</a></li>
+  <li><a href="#course-schedule-assignments-grades" id="toc-course-schedule-assignments-grades" class="nav-link" data-scroll-target="#course-schedule-assignments-grades"><span class="header-section-number">6</span> Course Schedule, Assignments &amp; Grades</a>
+  <ul class="collapse">
+  <li><a href="#class-calendar" id="toc-class-calendar" class="nav-link" data-scroll-target="#class-calendar">Class Calendar</a></li>
+  <li><a href="#final-course-grades-grading-policy" id="toc-final-course-grades-grading-policy" class="nav-link" data-scroll-target="#final-course-grades-grading-policy">Final Course Grades &amp; Grading Policy</a></li>
+  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
+  <li><a href="#grading-scale" id="toc-grading-scale" class="nav-link" data-scroll-target="#grading-scale">Grading Scale</a></li>
+  </ul></li>
+  <li><a href="#required-reading-preparation-for-class-sessions" id="toc-required-reading-preparation-for-class-sessions" class="nav-link" data-scroll-target="#required-reading-preparation-for-class-sessions"><span class="header-section-number">7</span> Required Reading &amp; Preparation for Class Sessions</a>
+  <ul class="collapse">
+  <li><a href="#week-1-course-introduction" id="toc-week-1-course-introduction" class="nav-link" data-scroll-target="#week-1-course-introduction">Week 1: Course Introduction</a></li>
+  <li><a href="#week-2-file-formats-naming-conventions-data-storage-and-data-security." id="toc-week-2-file-formats-naming-conventions-data-storage-and-data-security." class="nav-link" data-scroll-target="#week-2-file-formats-naming-conventions-data-storage-and-data-security.">Week 2: File Formats, Naming Conventions, Data Storage, and Data Security.</a></li>
+  <li><a href="#week-3-data-structure-format-of-data-and-datasets" id="toc-week-3-data-structure-format-of-data-and-datasets" class="nav-link" data-scroll-target="#week-3-data-structure-format-of-data-and-datasets">Week 3: Data structure &amp; format of data and datasets</a></li>
+  <li><a href="#week-4-reproducible-data-reorganization" id="toc-week-4-reproducible-data-reorganization" class="nav-link" data-scroll-target="#week-4-reproducible-data-reorganization">Week 4: Reproducible data (re)organization</a></li>
+  <li><a href="#week-5-qaqc-1-data-entry-validation" id="toc-week-5-qaqc-1-data-entry-validation" class="nav-link" data-scroll-target="#week-5-qaqc-1-data-entry-validation">Week 5: QA/QC 1: Data Entry &amp; Validation</a></li>
+  <li><a href="#week-6-qaqc-2-correction-synthesis-with-open-refine" id="toc-week-6-qaqc-2-correction-synthesis-with-open-refine" class="nav-link" data-scroll-target="#week-6-qaqc-2-correction-synthesis-with-open-refine">Week 6: QA/QC 2: Correction &amp; Synthesis with Open Refine</a></li>
+  <li><a href="#week-7-qaqc-3-finding-errors-with-data-visualization" id="toc-week-7-qaqc-3-finding-errors-with-data-visualization" class="nav-link" data-scroll-target="#week-7-qaqc-3-finding-errors-with-data-visualization">Week 7: QA/QC 3: Finding Errors with Data Visualization</a></li>
+  <li><a href="#week-8-metadata-codebooks-data-sharing-reuse-archives" id="toc-week-8-metadata-codebooks-data-sharing-reuse-archives" class="nav-link" data-scroll-target="#week-8-metadata-codebooks-data-sharing-reuse-archives">Week 8: Metadata, Codebooks; Data Sharing, Reuse, &amp; Archives</a></li>
+  <li><a href="#week-9-data-management-plans" id="toc-week-9-data-management-plans" class="nav-link" data-scroll-target="#week-9-data-management-plans">Week 9: Data Management Plans</a></li>
+  <li><a href="#week-10-spring-break" id="toc-week-10-spring-break" class="nav-link" data-scroll-target="#week-10-spring-break">Week 10: Spring Break</a></li>
+  <li><a href="#week-11-efficient-data-collection" id="toc-week-11-efficient-data-collection" class="nav-link" data-scroll-target="#week-11-efficient-data-collection">Week 11: Efficient data collection</a></li>
+  <li><a href="#week-12-transcription-translation" id="toc-week-12-transcription-translation" class="nav-link" data-scroll-target="#week-12-transcription-translation">Week 12: Transcription &amp; Translation</a></li>
+  <li><a href="#week-13-paperless-data-collection." id="toc-week-13-paperless-data-collection." class="nav-link" data-scroll-target="#week-13-paperless-data-collection.">Week 13: Paperless data collection.</a></li>
+  <li><a href="#week-14-automated-data-extraction" id="toc-week-14-automated-data-extraction" class="nav-link" data-scroll-target="#week-14-automated-data-extraction">Week 14: Automated data extraction</a></li>
+  <li><a href="#week-15-readings-days" id="toc-week-15-readings-days" class="nav-link" data-scroll-target="#week-15-readings-days">Week 15: Readings Days</a></li>
+  </ul></li>
+  <li><a href="#academic-policies-and-resources" id="toc-academic-policies-and-resources" class="nav-link" data-scroll-target="#academic-policies-and-resources"><span class="header-section-number">8</span> Academic Policies and Resources</a>
+  <ul class="collapse">
+  <li><a href="#campus-health-and-wellness-resources" id="toc-campus-health-and-wellness-resources" class="nav-link" data-scroll-target="#campus-health-and-wellness-resources">Campus Health and Wellness Resources</a></li>
+  <li><a href="#software-use" id="toc-software-use" class="nav-link" data-scroll-target="#software-use">Software Use</a></li>
+  <li><a href="#class-discussions-and-group-work" id="toc-class-discussions-and-group-work" class="nav-link" data-scroll-target="#class-discussions-and-group-work">Class Discussions and Group Work</a></li>
+  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation"><span class="header-section-number">8.1</span> Evaluation</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/HerbVar-Network/herbvar_manual/edit/main/las6292_syllabus.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">LAS 6292: Data Collection &amp; Management</span></h1>
+<p class="subtitle lead">Spring Semester 2026</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Instructor: Emilio M. Bruna </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!-- \newpage -->
+<!-- <!-- ![](images/ridges.png) -->
+<!-- ![](icons/banner.png) -->
+<section id="las6292-tcd-research-methods-data-collection-management-spring-2026" class="level1 unnumbered">
+<h1 class="unnumbered">LAS6292 TCD Research Methods: Data Collection &amp; Management Spring 2026</h1>
+</section>
+<section id="instructor-course-sessions-office-hours" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Instructor, Course Sessions, &amp; Office Hours</h1>
+<p><strong>Instructor:</strong> Dr.&nbsp;Emilio M. Bruna | <a href="embruna@ufl.edu">embruna@ufl.edu</a> | (352) 846-0634</p>
+<p><strong>Course Sessions:</strong> Friday 12:50-3:50 PM (Periods 6-8) in Grinter Hall 376</p>
+<p><strong>Office Hours:</strong> Tuesday and Wednesday from 10:30-11:45 am in person (380 Grinter Hall) or online (link provided on course Canvas page). You may sign up for a specific time slot here: <a href="https://embruna.youcanbook.me" class="uri">https://embruna.youcanbook.me</a>. Please let me know if you can’t make these times and we will make alternative arrangements. <!-- # Syllabus --></p>
+</section>
+<section id="course-description-objectives-and-learning-outcomes" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Course Description, Objectives, and Learning Outcomes</h1>
+<p>Courses taught as LAS 6292 are an introduction to field research methods for studies focused on natural resource use and management by local populations in tropical regions. They emphasize participatory approaches and integration of natural and social science tools.</p>
+<p>This session of LAS 6292 is a practical introduction to <strong><em>Data Collection &amp; Management</em></strong>: the methods, tools, and best practices for collecting, organizing, managing, and visualizing qualitative and quantitative data. It is designed for graduate students from all disciplines at any stage of their program. <em><em>At the conclusion of the course students will be able to</em>:</em></p>
+<ol type="1">
+<li>Describe the different types of research data;</li>
+<li>Explain the need for and benefits of data management and sharing;</li>
+<li>Describe and implement best practices for the collection, storage, management, archiving, and sharing of research data;</li>
+<li>Find, download, and analyze publicly available data from repositories;</li>
+<li>Carry out simple and reproducible data corrections and data set organization;</li>
+<li>Describe public policies and agency requirements for data management and sharing;</li>
+<li>Articulate the major legal and ethical considerations regarding data collection, use, and storage (e.g., privacy/human subjects, intellectual property, international law);</li>
+<li>Create and Implement Data Management Plan in funder-specific formats;</li>
+<li>Identify and properly use tools for more efficient and secure data collection in the field.</li>
+</ol>
+</section>
+<section id="course-format-prerequisites-credits" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Course Format, Prerequisites, &amp; Credits</h1>
+<!-- # GenEd, Quest, & Credit Information {.unnumbered} -->
+<p><strong>Format:</strong> In-person, <strong>Credits:</strong> 3, <strong>Prerequisites:</strong> None&nbsp;</p>
+<p><strong>Concentrations &amp; Certificates:</strong> Doctoral Students can apply this course towards the requirements for the Certificate in Tropical Conservation &amp; Development. See <a href="https://uftcd.org/academics/certificate/curriculum/" class="uri">https://uftcd.org/academics/certificate/curriculum/</a> for more information.</p>
+</section>
+<section id="textbooks-learning-materials-and-supply-fees" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Textbooks, Learning Materials, and Supply Fees</h1>
+<p><strong>Students are not required to purchase any textbooks or course materials.</strong> All class materials &amp; assignments will be made available on the course website. Some assigned readings may come from the <em>New York Times</em> or <em>Wall Street Journal</em> and have dynamic multimedia data visualizations and video that can’t be appreciated in the posted .pdf format. <em>Students in this class should sign up for free online access to both the NYT and WSJ</em> by following the instructions at <a href="https://businesslibrary.uflib.ufl.edu/c.php?g=943928&amp;p=7708734">the UF Libraries Website</a>.</p>
+<p><strong>Materials and Fees</strong>: None.</p>
+<hr>
+</section>
+<section id="course-schedule-assignments-grades" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Course Schedule, Assignments &amp; Grades</h1>
+<p><em>The contents of the course, including subjects covered in each course session and assigned readings, are subject to change based on student needs and input, current events, and technical advances related to the course subject matter. Changes will be announced via Canvas and an updated syllabus will posted.</em></p>
+<section id="class-calendar" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="class-calendar">Class Calendar</h2>
+<div class="cell">
+<div class="cell-output-display">
+
+</div>
+</div>
+</section>
+<section id="final-course-grades-grading-policy" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="final-course-grades-grading-policy">Final Course Grades &amp; Grading Policy</h2>
+<p>Course grading is consistent with UF grading policies. <strong>The final course grade is based on the assignments below.</strong>. Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Note also that most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them <em>they can be submitted anytime before 9 am the day of the following class session.</em>Late assignments will lose 10 pts. Finally, <strong>there is no Final Exam in this course, and the Individual Project is due on the scheduled date of the final exam.</strong></p>
+</section>
+<section id="assignments" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="assignments">Assignments</h2>
+<div class="cell">
+<div class="cell-output-display">
+
+</div>
+</div>
+<!-- ```{r grades, echo=FALSE, include=TRUE,fig.cap="Final Course Grades", out.width = '3%', fig.pos='h', fig.align="left" } -->
+<!-- # knitr::include_graphics("./icons/magnifying-glass-chart.png") -->
+<!-- knitr::include_graphics("./icons/gorilla.png") -->
+<!-- ``` -->
+</section>
+<section id="grading-scale" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="grading-scale">Grading Scale</h2>
+<p>Course grades will be based on the percentage of total points earned and will be assigned with the following scale: <strong>A:</strong> &gt;93% <strong>A-:</strong> 92-90% <strong>B+:</strong> 89-87% <strong>B:</strong> 86-83% <strong>B-:</strong> 82-80% <strong>C+:</strong> 79-77% <strong>C:</strong> 76-73% <strong>C-:</strong> 72-70%. <strong>D+:</strong> 69-67% <strong>D-:</strong> 62-60% <strong>E:</strong> 59% and below. <em>For information on how UF assigns grade points, visit:</em> <a href="https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/" class="uri">https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/</a></p>
+<hr>
+</section>
+</section>
+<section id="required-reading-preparation-for-class-sessions" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Required Reading &amp; Preparation for Class Sessions</h1>
+<!-- \begin{center}  -->
+<p>Please review the assigned material <em>before</em> class. <em>All items are posted on the Canvas site</em>.</p>
+<!-- \end{center} -->
+<section id="week-1-course-introduction" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="week-1-course-introduction">Week 1: Course Introduction</h3>
+<blockquote class="blockquote">
+<p>No assigned reading</p>
+</blockquote>
+</section>
+<section id="week-2-file-formats-naming-conventions-data-storage-and-data-security." class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="week-2-file-formats-naming-conventions-data-storage-and-data-security.">Week 2: File Formats, Naming Conventions, Data Storage, and Data Security.</h3>
+<blockquote class="blockquote">
+<p><strong><em>Read:</em></strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Jan Čurn. 2014. How a bug in Dropbox permanently deleted my 8000 photos.<br>
+<a href="https://medium.com/@jancurn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Curn_2014.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<!-- 2.  PSA: Scrivener, Data Integrity and You. Or, How To Avoid Data Loss Heartbreak.   -->
+<!--         [[read online]](https://www.reddit.com/r/writing/comments/62hr7o/psa_scrivener_data_integrity_and_you_or_how_to/) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Scrivener_PSA.pdf) -->
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>Panzarino, M. 2012. How Pixar’s Toy Story 2 was deleted twice, once by technology and again for its own good. TNW. <a href="https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/">[read online]</a> [[download pdf]]</li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="3" type="1">
+<li>Hart EM et al.&nbsp;(2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097. <a href="https://doi.org/10.1371/journal.pcbi.1005097">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Hart_etal_2016.PDF">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><em>Watch:</em></strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>E. Bruna: <a href="https://www.youtube.com/watch?v=BMwI7ubvTnE">How To Name Your Files</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>E. Bruna: <a href="https://www.youtube.com/watch?v=h1hIKNC64ac">How to Organize Your Files</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="3" type="1">
+<li>E. Bruna: <a href="https://www.youtube.com/watch?v=H06GSL66Mec&amp;list=PL5YVP-qXy1H-_3EeuyK_MYQR9UCnuHvAJ&amp;index=1&amp;t=9s">How to Store and Backup Your Files</a></li>
+</ol>
+</blockquote>
+</section>
+<section id="week-3-data-structure-format-of-data-and-datasets" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="week-3-data-structure-format-of-data-and-datasets">Week 3: Data structure &amp; format of data and datasets</h3>
+<blockquote class="blockquote">
+<p><strong>Read</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Tesi, W. 2020. An Outdated Version of Excel Led the U.K. to Undercount COVID-19 Cases. Slate. <a href="https://slate.com/technology/2020/10/u-k-covid-19-spike-caused-by-microsoft-excel-error.html">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Tesi_2020.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>Stolberg et al.&nbsp;2020. CDC Test Counting Error Leaves Epidemiologists ‘Really Baffled’. NY Times. <a href="https://www.nytimes.com/2020/05/22/us/politics/coronavirus-tests-cdc.html?referringSource=articleShare">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Stolberg_2020_NYT.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="3" type="1">
+<li>Broman, K. W., &amp; Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10. <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Broman%26Woo_2018.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="4" type="1">
+<li>Johnson, B. D., Dunlap, E., &amp; Benoit, E. (2010). Organizing “mountains of words” for data analysis, both qualitative and quantitative. Substance Use &amp; Misuse, 45(5), 648-70. <a href="https://www.tandfonline.com/doi/abs/10.3109/10826081003594757?journalCode=isum20">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Johnson_etal_2010.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+</section>
+<section id="week-4-reproducible-data-reorganization" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="week-4-reproducible-data-reorganization">Week 4: Reproducible data (re)organization</h3>
+<blockquote class="blockquote">
+<p><strong>Read:</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Laskowski, 2020. What to do when you don’t trust your data anymore. <a href="https://laskowskilab.faculty.ucdavis.edu/2020/01/29/retractions/">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/laskowski_2020.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>Pennisi, E. 2020. Spider biologist denies suspicions of widespread data fraud in his animal personality research. Science. <a href="https://www.sciencemag.org/news/2020/01/spider-biologist-denies-suspicions-widespread-data-fraud-his-animal-personality">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Pennisi_2020.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="3" type="1">
+<li>Alston, J. M., and Rick, J. A.. 2020. A Beginner’s Guide to Conducting Reproducible Research. Bull Ecol Soc Am 00( 00):e01801. <a href="https://doi.org/10.1002/bes2.1801">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Alston_Rick_2021_BullEcolSocAm.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="4" type="1">
+<li>Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510. <a href="https://doi.org/10.1371/journal.pcbi.1005510">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/wilson_etal_2017.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Watch:</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li><a href="https://www.youtube.com/watch?v=66oNv_DJuPc">A Data Sharing and Management Snafu in 3 Short Acts, by the NYU Health Sciences Library</a></li>
+</ol>
+</blockquote>
+</section>
+<section id="week-5-qaqc-1-data-entry-validation" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="week-5-qaqc-1-data-entry-validation">Week 5: QA/QC 1: Data Entry &amp; Validation</h3>
+<blockquote class="blockquote">
+<p><strong>Read:</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Kamentez, A. 2018. The School Shootings that weren’t.NPR <a href="http://tinyurl.com/y77p3o36">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Kamenetz_2018.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>Lincoln, Matthew D. 2018. “Best Practices for Using Google Sheets in Your Data Project.” <a href="https://matthewlincoln.net/2018/03/26/best-practices-for-using-google-sheets-in-your-data-project.html">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Lincoln_2018.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+</section>
+<section id="week-6-qaqc-2-correction-synthesis-with-open-refine" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="week-6-qaqc-2-correction-synthesis-with-open-refine">Week 6: QA/QC 2: Correction &amp; Synthesis with Open Refine</h3>
+<blockquote class="blockquote">
+<p>No assigned reading</p>
+</blockquote>
+</section>
+<section id="week-7-qaqc-3-finding-errors-with-data-visualization" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="week-7-qaqc-3-finding-errors-with-data-visualization">Week 7: QA/QC 3: Finding Errors with Data Visualization</h3>
+<blockquote class="blockquote">
+<p><strong>Read:</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Rougier NP, Droettboom M, Bourne PE (2014) Ten Simple Rules for Better Figures. PLoS Comput Biol 10(9): e1003833. <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833">[read online]</a> or <a href="https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&amp;type=printable">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Watch:</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Tommy McCall: <a href="https://www.ted.com/talks/tommy_mccall_the_simple_genius_of_a_good_graphic?language=en">The simple genius of a good graphic</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>R. Luke DuBois: <a href="https://www.ted.com/talks/r_luke_dubois_insightful_human_portraits_made_from_data?language=en">Insightful human portraits made from data</a></li>
+</ol>
+</blockquote>
+</section>
+<section id="week-8-metadata-codebooks-data-sharing-reuse-archives" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="week-8-metadata-codebooks-data-sharing-reuse-archives">Week 8: Metadata, Codebooks; Data Sharing, Reuse, &amp; Archives</h3>
+<blockquote class="blockquote">
+<p><strong>Read (Metadata):</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Michener, W.K., et al . 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342. <a href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Michener_etal_1997_EcolApplications.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>Pp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research methods: Qualitative and quantitative approaches. Sage. [[download pdf]]</li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Read (Data Sharing):</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Alexander, S.M., Jones, K., Bennett, N.J. et al.&nbsp;Qualitative data sharing and synthesis for sustainability science. Nat Sustain 3, 81–88 (2020). <a href="https://doi.org/10.1038/s41893-019-0434-8">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Alexander_etal_2019_NatureSustainability.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>Renaut, S. et al.&nbsp;2018. Management, Archiving, and Sharing for Biologists and the Role of Research Institutions in the Technology-Oriented Age. <em>BioScience</em> 68(6)400–411 <a href="https://academic.oup.com/bioscience/article/68/6/400/4983937">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Renaut_etal_2018_Bioscience.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="3" type="1">
+<li>Duke, Clifford S., and John H. Porter. 2013. “The ethics of data sharing and reuse in biology.” BioScience 63(6): 483-489. <a href="https://academic.oup.com/bioscience/article/63/6/483/226339">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Duke%26Porter_2013.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="4" type="1">
+<li>Tenopir, C., et al.&nbsp;(2015). Changes in data sharing and data reuse practices and perceptions among scientists worldwide. PloS one, 10(8), e0134826. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134826">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Tenopir_etal_2015.PDF">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="5" type="1">
+<li>Mauthner, NS, &amp; O. Parry O. 2009. Qualitative data preservation and sharing in the social sciences: On whose philosophical terms?. Australian J of Social Issues 44(3):291-307. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1839-4655.2009.tb00147.x">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Mauthner_et_al-2009-Australian_Journal_of_Social_Issues.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+</section>
+<section id="week-9-data-management-plans" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="week-9-data-management-plans">Week 9: Data Management Plans</h3>
+<blockquote class="blockquote">
+<p><strong>Read</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Michener, W. K. (2015). Ten simple rules for creating a good data management plan. PLoS Computational Biology, 11(10), e1004525. <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004525">[read online]</a> or <a href="https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1004525&amp;type=printable">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>Goodman A, et al.&nbsp;(2014) Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Comput Biol 10(4): e1003542. <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003542">[read online]</a> or <a href="https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003542&amp;type=printable">[download pdf]</a>. <em><em>this paper connects what we’ve done with what’s coming up next</em></em></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Watch</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li><a href="https://www.youtube.com/watch?v=fcCj6sNvoOw&amp;embeds_euri=https%3A%2F%2Flas6292.netlify.app%2F&amp;feature=emb_imp_woyt">Content of a DMP” (by RWTH Aachen University)</a></li>
+</ol>
+</blockquote>
+</section>
+<section id="week-10-spring-break" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="week-10-spring-break">Week 10: Spring Break</h3>
+<blockquote class="blockquote">
+<p>No class session due to Spring Break, No assigned reading</p>
+</blockquote>
+</section>
+<section id="week-11-efficient-data-collection" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="week-11-efficient-data-collection">Week 11: Efficient data collection</h3>
+<blockquote class="blockquote">
+<p><strong>Read:</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Redman, T. 2016. Bad Data Costs the U.S. $3 Trillion Per Year. Harvard Business Review. <a href="https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Redman_2016.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Watch</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Atul Gawande’s TED Talk: <a href="https://www.youtube.com/watch?v=55Nc8nccPa0">The Importance &amp; Value of the CHECK LIST.</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>Animated summary of <a href="https://www.youtube.com/watch?v=bCDmDzIOZ-g">The Checklist Manifesto</a>.</li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="3" type="1">
+<li>Jess Stratton’s LinkedIn Learning Video Overview: “Use Google Forms to Create Surveys” (7 min.). Watch it <a href="https://www.linkedin.com/learning/google-drive-essential-training-2021">here</a>; must be on UF computer or use UF proxy.</li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="4" type="1">
+<li>OPTIONAL: The more advanced, multi-video “Google Forms Essential Training Course”. These short (1-3 min) videos explain each step in more detail. It’s great, and only 39 min long from start to finish. Watch <a href="https://www.linkedin.com/learning/google-forms-essential-training-2022/collect-data-easily-with-google-forms">here</a>; must be on UF computer or use UF proxy.</li>
+</ol>
+</blockquote>
+</section>
+<section id="week-12-transcription-translation" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="week-12-transcription-translation">Week 12: Transcription &amp; Translation</h3>
+<blockquote class="blockquote">
+<p><strong>Read:</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Bakker, Rebecca. “Transcription Tools and Software” (2017). Works of the FIU Libraries. 62. <a href="https://digitalcommons.fiu.edu/glworks/62">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Bakker_transcription_tools_slides.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>Watch “The Text Wash team discusses text anonymization” <a href="https://youtu.be/5fFO4ROg4Vw">[link]</a>; related blog post <a href="https://ocean.sagepub.com/blog/making-sensitive-text-data-accessible-for-computational-social-science">[link]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Watch</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Dr.&nbsp;Jarek Kriukow: How to transcribe interviews - <a href="https://www.youtube.com/watch?v=NzVjlKR4HQQ">Part 1: “naturalism” and “denaturalism”</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>Dr.&nbsp;Jarek Kriukow: How to transcribe interviews - Part 2: <a href="https://www.youtube.com/watch?v=69T8aVf5Nj0">Which approach to use?</a></li>
+</ol>
+</blockquote>
+</section>
+<section id="week-13-paperless-data-collection." class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="week-13-paperless-data-collection.">Week 13: Paperless data collection.</h3>
+<blockquote class="blockquote">
+<p><strong>Read:</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006968">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Aanensen_etal_2009.PDF">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>Moylan, CA et al.&nbsp;2013. Increasingly mobile: How new technologies can enhance qualitative research. Qualitative social work: research and practice, 14(1):36-47. <a href="https://journals.sagepub.com/doi/10.1177/1473325013516988">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Moylan_etal_2015.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="3" type="1">
+<li>Teacher, Amber G. F. et al.&nbsp;Smartphones in ecology and evolution: a guide for the app‐rehensive. Ecology and Evolution 3(16):5268– 5278 <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.888">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Teacher_etal_2013.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Watch</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>E. Bruna: <a href="https://youtu.be/j5GWpDx_Ytw">Paperless Data Collection</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>Great EpiCollect tutorials by UConn’s David Dickson</li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="a">
+<li><a href="https://kaltura.uconn.edu/playlist/dedicated/1_14lpwsw0/1_fmj06huc">Intro to EpiCollect 5</a></li>
+<li><a href="https://kaltura.uconn.edu/media/Creating+an+Epicollect+5+Project/1_853ybdbf">Creating an EpiCollect PROJECT</a></li>
+<li><a href="https://kaltura.uconn.edu/media/Creating+a+Form+in+Epicollect+5/1_inr7wxq8">Creating a FORM for your Epicollect Project</a></li>
+<li><a href="https://kaltura.uconn.edu/media/Collecting+Data+With+Epicollect+5/1_kgzfddtp">Collecting data in EpiCollect with your phone or tablet</a></li>
+</ol>
+</blockquote>
+</section>
+<section id="week-14-automated-data-extraction" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="week-14-automated-data-extraction">Week 14: Automated data extraction</h3>
+<blockquote class="blockquote">
+<p><strong>Read:</strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li>Drinkwater, R. E., Cubey, R. W., &amp; Haston, E. M. (2014). The use of Optical Character Recognition (OCR) in the digitization of herbarium specimen labels. PhytoKeys, (38), 15-30. <a href="doi:10.3897/phytokeys.38.7168">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Drinkwater_etal_2014.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li>Joo, Jungseock and Zachary C. Steinert-Threlkeld. 2019. Image as data: Automated visual content analysis for social science. <a href="https://ocean.sagepub.com/blog/image-as-data-automated-visual-content-analysis-for-social-science">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Joo_and_Steinert-Threlkeld_2019.pdf">[download pdf]</a></li>
+</ol>
+</blockquote>
+</section>
+<section id="week-15-readings-days" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="week-15-readings-days">Week 15: Readings Days</h3>
+<blockquote class="blockquote">
+<p>No class session due to Reading days, No assigned reading</p>
+</blockquote>
+<!-- Reading Days Legal and Ethical Issues.   -->
+<!-- >**Read:** -->
+<!-- >1.  de Koning M, Meyer B, Moors A, Pels P. 2019. Guidelines for anthropological research: Data management, ethics, and integrity. Ethnography. 20(2):170-174.  [[read online]](https://journals.sagepub.com/doi/10.1177/1466138119843312)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Koning_etal_2019.pdf) -->
+<!-- >2.  Katie Fortney, UC Office of Scholarly Communication. 2016. “Who owns your data?”  [[read online]](https://uc3.cdlib.org/2016/09/08/who-owns-your-data/)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Fortney_2016.pdf) -->
+<!-- >3. Goodluck, K. 2020. Indigenous data sovereignty shakes up research. High Country News.  [[read online]](https://www.hcn.org/issues/52.11/indigenous-affairs-covid19-indigenous-data-sovereignty-shakes-up-research)  [[download pdf]] -->
+<!-- >4. Woodbury, R. B., Beans, J. A., Hiratsuka, V. Y., & Burke, W. (2019). Data Management in Health-Related Research Involving Indigenous Communities in the United States and Canada: A Scoping Review. Frontiers in genetics, 10, 942.  [[read online]](https://doi.org/10.3389/fgene.2019.00942)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Goodluck_2020.pdf) -->
+<!-- >**Watch** -->
+<!-- >1. NIH: [Statistical methods for protecting data confidentiality](https://youtu.be/3vN-6A2zbsk) -->
+<!-- >2. Patricia Jenkinson Video Seminar: [Ethics in Human Subject Research](https://youtu.be/e0uydNe4cQo) -->
+<!-- >3. US Department of Health & Human Services: [Informed Consent Overview](https://youtu.be/Y7uI3sM9wtc) -->
+<!-- >4. Australian Council for International Development (ACFID): [Principles and Guidelines for Ethical Research and Evaluation in Development](https://youtu.be/ylkKCgEIMws) -->
+<hr>
+</section>
+</section>
+<section id="academic-policies-and-resources" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Academic Policies and Resources</h1>
+<p>Academic policies for this course are consistent with university policies. See <a href="https://syllabus.ufl.edu/syllabus-policy/uf-syllabus-policy-links/" class="uri">https://syllabus.ufl.edu/syllabus-policy/uf-syllabus-policy-links/</a> for policies regarding Attendance and Makeup Work, Academic Accommodations, Grading, Course Evaluation and Feedback, the Honesty Policy, In-Class Recording, and Academic Resources.</p>
+<section id="campus-health-and-wellness-resources" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="campus-health-and-wellness-resources">Campus Health and Wellness Resources</h2>
+<p>Visit <a href="https://one.uf.edu/whole-gator/topics" class="uri">https://one.uf.edu/whole-gator/topics</a> for resources that are designed to help you thrive physically, mentally, and emotionally at UF. <em>Please contact UMatterWeCare for additional and immediate support.</em></p>
+</section>
+<section id="software-use" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="software-use">Software Use</h2>
+<p>All faculty, staff and students of the university are required and expected to obey the laws and legal agreements governing software use. Failure to do so can lead to monetary damages and/or criminal penalties for the individual violator. Because such violations are also against university policies and rules, disciplinary action will be taken as appropriate.</p>
+</section>
+<section id="class-discussions-and-group-work" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="class-discussions-and-group-work">Class Discussions and Group Work</h2>
+<p>In this class we may explore some challenging, important problems and increase our understanding of different perspectives and approaches for addressing them. These conversations may not always be easy; we sometimes will make mistakes in both how we communicate our perspective and what we hear other say. There may be times when we need patience, courage, imagination, and of course mutual respect to engage our texts, classmates, instructors, guests, and our own ideas and experiences. Disrespectful or disruptive behavior will not be tolerated. And always remember that as scholars we must employ critical thinking, rely on data, and cite verifiable sources and experts to interrogate all assigned readings and subject matter in this course as a means of determining if we agree with classmates and instructors. No lesson is intended to espouse, promote, advance, inculcate, or compel a particular feeling, perception, viewpoint or belief.</p>
+</section>
+<section id="evaluation" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="evaluation"><span class="header-section-number">8.1</span> Evaluation</h2>
+<p>Students are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations online. Students can complete evaluations in three ways: (1) The email they receive from GatorEvals, (2) Their Canvas course menu under GatorEvals, (3) The central portal at <a href="https://my-ufl.bluera.com" class="uri">https://my-ufl.bluera.com</a>. Guidance on how to provide constructive feedback is available at <a href="https://gatorevals.aa.ufl.edu/students/" class="uri">https://gatorevals.aa.ufl.edu/students/</a>. Students will be notified when the evaluation period opens. Summaries of course evaluation results are available to students at <a href="https://gatorevals.aa.ufl.edu/public-results/" class="uri">https://gatorevals.aa.ufl.edu/public-results/</a>.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Preamble">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preamble</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./course_topics/file_names/naming.html" class="pagination-link" aria-label="Naming Conventions">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Naming Conventions</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>LAS 6292 Data Collection and Management Course Reader</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/HerbVar-Network/herbvar_manual/edit/main/las6292_syllabus.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>This book was built with <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
