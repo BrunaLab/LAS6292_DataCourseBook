@@ -47,10 +47,11 @@ This book is a manual for students in LAS 6292: Data Collection & Management. Th
 ::: {.callout-tip}
 ### Citation
 
+
 <!-- HerbVar Steering Committee (Eds.). 2024. _HerbVar: Project Manual and Field protocols (v0.9.0)_. Zenodo. https://doi.org/10.5281/zenodo.14232308 -->
 
 :::
 
 --- 
 
-This guide is a [Quarto Book](https://quarto.org/docs/books) hosted on the [Bruna Lab's Github site](https://github.com/BrunaLab). Please suggest edits to the text, new sections, or make suggestions for improvement either by [pull request](https://github.com/BrunaLab/LAS6292_DataCourseBook/pulls) or by [posting an issue](https://github.com/BrunaLab/LAS6292_DataCourseBook/issues) on the course book's repository. For more information and tutorials for doing so, see @sec-manual. 
+This guide is a [Quarto Book](https://quarto.org/docs/books) hosted on the [Bruna Lab's Github site](https://github.com/BrunaLab). Please suggest edits to the text, missing resources, or make suggestions for improvement either by [pull request](https://github.com/BrunaLab/LAS6292_DataCourseBook/pulls) or by [posting an issue](https://github.com/BrunaLab/LAS6292_DataCourseBook/issues) on the course book's repository. For more information and tutorials for doing so, see @sec-manual. 
