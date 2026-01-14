@@ -1,6 +1,0 @@
-[build]
-  # Install TinyTeX first so the plugin's `quarto render` (onBuild) can produce PDFs
-  command = "quarto install tinytex"
-  publish = "_site"
-[[plugins]]
-package = "@quarto/netlify-plugin-quarto"
