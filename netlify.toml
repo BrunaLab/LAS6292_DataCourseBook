@@ -1,3 +1,2 @@
-[build]
-  command = "quarto install tinytex && quarto render --no-prompt"
-  publish = "_site"
+[[plugins]]
+package = "@quarto/netlify-plugin-quarto"
