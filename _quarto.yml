@@ -40,6 +40,8 @@ book:
     #     # - introduction/data_overview.qmd
     #     # - introduction/herbvar_products.qmd
     # 
+    - part: "Syllabus" 
+        - las6292_syllabus.qmd
     - part: "Course Topics" 
       chapters: 
     #     # - ‘Data’ across disciplines
