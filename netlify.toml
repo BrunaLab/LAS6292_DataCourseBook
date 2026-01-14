@@ -1,10 +1,3 @@
 [build]
+  command = "quarto install tinytex && quarto render --no-prompt"
   publish = "_site"
-
-[[plugins]]
-  package = "@quarto/netlify-plugin-quarto"
-  [plugins.inputs]
-    # use the plugin's supported inputs; example:
-    cmd = "render"
-    # optionally pin a plugin version (string) if desired:
-    # version = "0.0.5"
