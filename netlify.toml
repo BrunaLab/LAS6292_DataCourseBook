@@ -3,8 +3,8 @@
 
 [[plugins]]
   package = "@quarto/netlify-plugin-quarto"
-
   [plugins.inputs]
-    render = true
-    # If you need TinyTeX for PDF outputs, you can request it here if supported:
-    tinytex = true
+    # use the plugin's supported inputs; example:
+    cmd = "render"
+    # optionally pin a plugin version (string) if desired:
+    # version = "0.0.5"
