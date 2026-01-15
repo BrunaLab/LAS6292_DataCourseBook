@@ -10,8 +10,8 @@
     ]
   },
   {
-    "objectID": "course_topics/file_names/naming.html",
-    "href": "course_topics/file_names/naming.html",
+    "objectID": "class_materials/class_sessions/02_file_names/naming.html",
+    "href": "class_materials/class_sessions/02_file_names/naming.html",
     "title": "1  Naming Conventions",
     "section": "",
     "text": "1.1 Introduction\nThe first (and easiest) way to get started organizing your data is to use a simple, clear, and consistent system for naming your files (i.e., a “naming convention”). Using a well-thought out naming convention has a number of important benefits:",
@@ -21,8 +21,8 @@
     ]
   },
   {
-    "objectID": "course_topics/file_names/naming.html#introduction",
-    "href": "course_topics/file_names/naming.html#introduction",
+    "objectID": "class_materials/class_sessions/02_file_names/naming.html#introduction",
+    "href": "class_materials/class_sessions/02_file_names/naming.html#introduction",
     "title": "1  Naming Conventions",
     "section": "",
     "text": "Files will be easier to find\nYou won’t have to open files to see what they are\nFiles are easier to sort\nFiles are easier to share with collaborators (and for collaborators to use)\nIt helps prevent accidentally overwriting or deleting files",
@@ -32,8 +32,8 @@
     ]
   },
   {
-    "objectID": "course_topics/file_names/naming.html#how-to-name-your-files",
-    "href": "course_topics/file_names/naming.html#how-to-name-your-files",
+    "objectID": "class_materials/class_sessions/02_file_names/naming.html#how-to-name-your-files",
+    "href": "class_materials/class_sessions/02_file_names/naming.html#how-to-name-your-files",
     "title": "1  Naming Conventions",
     "section": "1.2 How to name your files",
     "text": "1.2 How to name your files\nYour file names should: \n\nTell you about the contents of the file and allow you to uniquely identify it. For instance (compare 'data 1998' vs 'survey data' vs 'survey data 1998' vs 'small mammal survey data 1998'). You can use things like the an acronym for the project, abbreviation for the study, location where collected, the name of the investigator, the year or month when collected, the type of data type, etc.\nBe as short as possible. Many database systems (like MS One Drive) have limits on file name length. Use a max of 25 characters, and aim for less than that.\nAvoid using special characters and spaces Don’t use characters like $ % ^ & # | :. This is really important because software, automated data processing tools, web browsers, and computer operating systems use spaces and special characters for dividing up (parsing) strings of text, as well as other processes.\nStart with letters, never numbers. Using numbers at the start of file names can lead to problems when they are read into stats software and other programs. Instead of '2020_survey_responses' use 'survey_responses_2020'\nHelp you quickly sort files chronologically or numerically. Dates are very useful in file names because they can help identify the most recent files easily. You can not rely on the file date associated with the file on the computer! However, it is really important to use a clear format for dates, especially if collaborating internationally. I learned the hard way that not everyone reads 'census_data_3-4-2018' the same way I do, so I started using 'census_data_4march2018'. However, even this isn’t ideal because of how it sorts things in a folder. Now I now use this format: 'file_name_YYYYMMDD' ('census_data_20180403'). You can also use file_name_YYYY-MM-DD. This is based on the international format for dates and times (ISO 8601). In addition to the benefit of sorting more easily, you’ll never have to use the the dreaded '_____.final.docx' and '_____.actual_final.docx' in your file names ever again…you’ll always know which is the last one. If the files don’t require a date, but you want to maintain a sequence, use leading zeros to maintain sort order. 7 and 701 don’t sort the way you expect them to, so use 007 and 701.\nUse a consistent method of dealing with spaces and letter case. . For a the spreadsheet with responses to a survey by 5 different people, don’t use 'survey responses Florida'. Instead use (i) 'survey_responses_florida' or (ii) 'SurveyResponsesFlorida'. Try to avoid mixing the two (e.g., 'survey_responses_Florida'). By the way, (i) is known as pothole and (ii) is known as camel. Personally, I prefer pothole name is better because of it is easier to read and you never to remember what words get capitalized (because none of the do). Use underscore ( _ ) or dashes ( - ) to separate meaningful parts of file names.\n\nOnce you have a system, write it down, print it out, and put it up somewhere you can easily refer to it. Remember -whenever possible make the names simple, informative, and unique. If you collected survey data and behavioral data in 2017, don’t call them both data_2017 even if they are in different folders. Call one 'behavior_obs_2017' and the other 'survey_responses_2017').\nSimple names also help you avoid problems with “system and software portability” - you might be working on a Mac but your collaborators are working on Linux or Windows, and the software made for each can read file names in different ways. File names that are simple, lower-case, and have no special characters are less software- and platform-dependent.",
@@ -43,8 +43,8 @@
     ]
   },
   {
-    "objectID": "course_topics/file_names/naming.html#tools-resources",
-    "href": "course_topics/file_names/naming.html#tools-resources",
+    "objectID": "class_materials/class_sessions/02_file_names/naming.html#tools-resources",
+    "href": "class_materials/class_sessions/02_file_names/naming.html#tools-resources",
     "title": "1  Naming Conventions",
     "section": "1.3 Tools & Resources",
     "text": "1.3 Tools & Resources\n\n1.3.1 Bulk Renaming of Files\n\nAdobe Bridge\nBulk Rename (Windows)\nRename Master (Windows)\nFile Renamer Basic (Windows, Free and Paid)\nAnt Renamer\nRenamer 5 (macOS)\nRenamer Lite\nPSRenamer\nBatch Renaming of Files in Windows: Post 1, Post 2\nBatch Renaming of Files in MacOS: Post 1, Post 2\n\n\n\n1.3.2 Best Practices - Other Institutions\n\nSmithsonian Library\nMichigan Library\nStanford Library\nSmithsonian",
@@ -54,91 +54,289 @@
     ]
   },
   {
-    "objectID": "resources/resources.html",
-    "href": "resources/resources.html",
-    "title": "2  Useful resources for Data Collection & Managment",
+    "objectID": "class_materials/class_sessions/02_file_organization/organization.html",
+    "href": "class_materials/class_sessions/02_file_organization/organization.html",
+    "title": "2  File Organization",
     "section": "",
-    "text": "2.1 R Programming",
+    "text": "2.1 File Organization - Electronic\nThere aren’t really “rules” about how to organize your files, but I think the best way to organize is to think in terms of “projects”. Of course, how you define a “project” is sometimes tough…is the PhD the ‘Project’ or is each chapter of the dissertation a ‘Project’? You’ll have to give this some thought and think of a system that works for you. That said…\nI like ‘Project’ based organization for two main reasons:",
     "crumbs": [
-      "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "Course Topics",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>File Organization</span>"
     ]
   },
   {
-    "objectID": "resources/resources.html#r-programming",
-    "href": "resources/resources.html#r-programming",
-    "title": "2  Useful resources for Data Collection & Managment",
+    "objectID": "class_materials/class_sessions/02_file_organization/organization.html#file-organization---electronic",
+    "href": "class_materials/class_sessions/02_file_organization/organization.html#file-organization---electronic",
+    "title": "2  File Organization",
     "section": "",
-    "text": "2.1.1 Essential\n\nHadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nWhere and How to ask for help\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\n\n2.1.2 Tutorials and Books\n\nR Essential Training: Wrangling and Visualizing Data\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl\nR Bootcamp\nKieran Healy’s Data Visualization: a practical introduction is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.\nSo. Many. Resources.\nROpenSci: tools for accessing, manipulating, and visualizing open data\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning\nLearning R\nSwirl",
+    "text": "First, it pushes you to think in terms of outcomes: ‘projects’ lead to ‘products’ (e.g., paper, report, grant proposal). This helps you think more clearly about what data need to be collected and the analyses that need to be done. If the data aren’t for a new project, and it’s not clear to you if or how the data fit into a pre-existing project, then are you sure you need to spend time, effort, and money collecting them?\nSecond, project-based organization focuses on the individual steps and components that take a project from start-to-finish: planning your data collection, data gathering and clean-up, analysis, presentation, and data archiving.",
     "crumbs": [
-      "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "Course Topics",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>File Organization</span>"
     ]
   },
   {
-    "objectID": "resources/resources.html#slide-presentations-in-r",
-    "href": "resources/resources.html#slide-presentations-in-r",
-    "title": "2  Useful resources for Data Collection & Managment",
-    "section": "3.1 Slide Presentations in R",
-    "text": "3.1 Slide Presentations in R\n\nMake slide presentations with R",
+    "objectID": "class_materials/class_sessions/02_file_organization/organization.html#example-project-based-organization",
+    "href": "class_materials/class_sessions/02_file_organization/organization.html#example-project-based-organization",
+    "title": "2  File Organization",
+    "section": "2.2 Example: Project Based Organization",
+    "text": "2.2 Example: Project Based Organization\nA project-based organization scheme for a master’s thesis might look something like this:\n\nTop Folder: emb_masters_thesis\nSub-folder 1: Chapter1_lit_review\nNested Folders and Subfolders for:\n\nPlans for Data Collection & Management\n\nDMP\nplans for storage and backup\n\ndata\n\nraw data\nclean data\nmetadata\n\nanalyses\n\nintermediate outputs from analyses\nfinal outputs from analyses\n\npresentation (e.g., masters_ch1_text or ch1_slides)\ndata archiving\n\n\nYou can have one of these for each thesis chapter. Note that some (DMP, plans for storage and backup) might be better placed one folder up in the emb_master_thesis folder\nBut what if I will be using the same data for multiple chapters or papers? This is a great questions, and there are several options. One would be to include both chapters in the same folder, each with its own subfolder (manuscript 1, manuscript 2). The other would be to have each as a separate project, and pull the data in from the online archive where you deposited the data (or folder where the data are stored). As you can probably guess, I think #2 is better because I think of each paper as a different project.",
     "crumbs": [
-      "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "Course Topics",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>File Organization</span>"
     ]
   },
   {
-    "objectID": "resources/resources.html#data-archives",
-    "href": "resources/resources.html#data-archives",
-    "title": "2  Useful resources for Data Collection & Managment",
-    "section": "3.2 Data Archives",
-    "text": "3.2 Data Archives\nQualitative Data Repository",
+    "objectID": "class_materials/class_sessions/02_file_organization/organization.html#file-organization---physical",
+    "href": "class_materials/class_sessions/02_file_organization/organization.html#file-organization---physical",
+    "title": "2  File Organization",
+    "section": "2.3 File Organization - Physical",
+    "text": "2.3 File Organization - Physical\nWhenever possible I try to organize physical records and archives in the same way as digital ones: in a single box, file folder, cabinet, etc.** try to set it up so that you go to one place for everything related to a project. Of course, you can’t always do that because specimens go to museums or stay in an archive…but you can keep the information on how to find the originals there. Don’t forget to include copies of the survey, data sheets, etc., as well as maps or other such resources.\nCorrespondence is a bit more complicated. You can keep notes - electronic or paper - in the relevant folder. But one thing that has gotten complicated is email correspondence regarding projects, manuscripts, etc. Printing seems like a huge waste of paper, and yet if critical it might be worth doing. Other wise keep an email folder for each project as well - with the same name as the electronic version so you can easily find email correspondence related to each project.",
     "crumbs": [
-      "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "Course Topics",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>File Organization</span>"
     ]
   },
   {
-    "objectID": "resources/resources.html#text-extraction-and-organization",
-    "href": "resources/resources.html#text-extraction-and-organization",
-    "title": "2  Useful resources for Data Collection & Managment",
-    "section": "3.3 Text Extraction and Organization",
-    "text": "3.3 Text Extraction and Organization\nPlan for extraction and organization",
+    "objectID": "class_materials/class_sessions/02_file_organization/organization.html#documentation",
+    "href": "class_materials/class_sessions/02_file_organization/organization.html#documentation",
+    "title": "2  File Organization",
+    "section": "2.4 Documentation",
+    "text": "2.4 Documentation\nWrite it down. Prepare a file documenting your data organization structure so you can share it with team members (or look at it years later when looking for something). These can be 'README.txt' files as needed for each folder. The 'README.txt' file might include such things as explanations of naming conventions and how the structure of the directory relates to the structure of the project.\nThere are some excellent tools for organizing projects. Use appropriate tools, such as version control tools or electronic lab notebooks, to keep track of the history of the data files (more on this later in the semester).",
     "crumbs": [
-      "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "Course Topics",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>File Organization</span>"
     ]
   },
   {
-    "objectID": "resources/resources.html#form-design",
-    "href": "resources/resources.html#form-design",
-    "title": "2  Useful resources for Data Collection & Managment",
-    "section": "3.4 Form Design",
-    "text": "3.4 Form Design\nBest Practice for Form Design",
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html",
+    "title": "3  Data Organization in Spreadsheets",
+    "section": "",
+    "text": "3.1 Make your data tidy",
     "crumbs": [
-      "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "Course Topics",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Organization in Spreadsheets</span>"
     ]
   },
   {
-    "objectID": "resources/resources.html#data-security",
-    "href": "resources/resources.html#data-security",
-    "title": "2  Useful resources for Data Collection & Managment",
-    "section": "3.5 Data Security",
-    "text": "3.5 Data Security\nUF Office of Information Security and Compliance\nCyber Safeguards for UF\nUF IRB\nUF Data Classification Policy\nUF Office of Information Security and Compliance",
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#make-your-data-tidy",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#make-your-data-tidy",
+    "title": "3  Data Organization in Spreadsheets",
+    "section": "",
+    "text": "Spreadsheets should be a rectangle, with only rows and columns.\nEach column is a different variable (a thing you are measuring, like ‘weight’ or ‘temperature’).\nOne row per observation. Each cell has only one value.\nColumn headers: Use short meaningful column names with no spaces or special characters. Don’t start column names with numbers. Record units in column headers.\nDon’t enter the same data on multiple spreadsheets: Use one for each category of data to avoid duplicated data and to simplify corrections (e.g., taxonomy).\nNever put multiple tables in a single spreadsheet.\nAvoid spreading data across multiple sheets\nCollecting data in tidy format makes it easier to enter data in tidy format.",
     "crumbs": [
-      "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "Course Topics",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Organization in Spreadsheets</span>"
     ]
   },
   {
-    "objectID": "resources/resources.html#platforms-for-organization-collaboration",
-    "href": "resources/resources.html#platforms-for-organization-collaboration",
-    "title": "2  Useful resources for Data Collection & Managment",
-    "section": "3.6 Platforms for Organization & Collaboration",
-    "text": "3.6 Platforms for Organization & Collaboration\nOpen Science Framework",
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#use-consistent-names-abbreviationscodes-and-capitalization.",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#use-consistent-names-abbreviationscodes-and-capitalization.",
+    "title": "3  Data Organization in Spreadsheets",
+    "section": "3.2 Use consistent names, abbreviations/codes, and capitalization.",
+    "text": "3.2 Use consistent names, abbreviations/codes, and capitalization.\n\nWrite dates as YYYYMMDD. Better still have separate columns for Year, Month, and Day.\nExcel is unable to parse dates from before 1899-12-31. Be careful if your data include a mix of dates before and after this date, then you’ll have mixed data types in one column. 1\nRecord zeros with a numeral ( 0), not a blank cells. For missing data use an appropriate null value indicator (e.g., NA).\nDon’t use formatting to convey information or to make your spreadsheet look pretty.\nRemember that data format and excel defaults can vary by region. For example, depending on the part of the world where a user is based, the default value for the decimal and thousands operator could be a , (comma) or a . (period); some regions use mm-dd for dates while others use dd-mm.",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Organization in Spreadsheets</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#do-not-edit-or-correct-raw-data-files",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#do-not-edit-or-correct-raw-data-files",
+    "title": "3  Data Organization in Spreadsheets",
+    "section": "3.3 DO NOT EDIT OR CORRECT RAW DATA FILES!",
+    "text": "3.3 DO NOT EDIT OR CORRECT RAW DATA FILES!\n\nOnce you are done with data entry, save your file in ‘read only’ format and make all corrections using scripting.\nDo not edit raw data after you have entered it in your spreadsheet!*",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Organization in Spreadsheets</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#readings-tools-resources",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#readings-tools-resources",
+    "title": "3  Data Organization in Spreadsheets",
+    "section": "3.4 Readings, Tools, & Resources",
+    "text": "3.4 Readings, Tools, & Resources\n\nBroman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10. [read online]\nData Validation in Google Sheets: blog post and video tutorial. A pdf version is available for download here.\nWhy not bypass spreadsheets like Excel and use a csv editor like [Comma Chameleon][https://comma-chameleon.io/] instead? CC and other csv editors allow you to enter data in the same way - into cells, by adding and removing rows - and then export your file. But that’s about it, which means you can’t do many of the things (e.g., calculations, color in cells) that cause problems down the road.\nMore advanced users comfortable with R can also look into Data Curator, with which you can create and edit tabular data from scratch or from a template, open Microsoft Excel and CSV files, and automatically correct common problems found in these and other file types.\nDataONE Community Engagement & Outreach Working Group (2017) “Data Quality Control and Assurance”. Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/05_qaqc/index on Aug 31, 2020\nDataONE Community Engagement & Outreach Working Group (2017) “Data Entry and Manipulation”. Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/04_entry/index on Aug 31, 2020\nChris Prener, Trevor Burrows (Eds.). Data Carpentry: Data Organization in Spreadsheets for Social Scientists.\nPeter R. Hoyt, Christie Bahlai, Tracy K. Teal (Eds.), Erin Alison Becker, Aleksandra Pawlik, Peter Hoyt, Francois Michonneau, Christie Bahlai, Toby Reiter, et al. (2019, July 5). datacarpentry/spreadsheet-ecology-lesson: Data Carpentry: Data Organization in Spreadsheets for Ecologists, June 2019 (Version v2019.06.2). Zenodo. http://doi.org/10.5281/zenodo.3269869",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Organization in Spreadsheets</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#footnotes",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#footnotes",
+    "title": "3  Data Organization in Spreadsheets",
+    "section": "",
+    "text": "The reason dates in Excel are so weird is that it is accounting software. It counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as the serial number 41822. This is so one can can easily calculate “days from a given date” for accounting purposes (like invoicing) by adding “date+XX days”.↩︎",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Organization in Spreadsheets</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/01_course_introduction/assignment-course-introduction.html",
+    "href": "class_materials/class_sessions/01_course_introduction/assignment-course-introduction.html",
+    "title": "4  Course Introduction: In-Class Work",
+    "section": "",
+    "text": "4.0.1 This week’s assignment is to briefly answer the following questions. If you respond to the Google forms survey there is no need to submit anything via Canvas\nThis survey has two goals:\nIt is important to remember that the ‘data set’ can be more than one file. For instance, your data set might be four files (or collections of files): (1) A file with the responses to surveys of community members, (2) Census data downloaded from a government website, (3) The transcripts of interviews with key informants, and (4) A collection of photographs for ethnographic research.\nPlease also remember that you may not have a data set with which to work. That’s fine! There are plenty of (useful) data sets out there that are messy and in need of organization. I’ll help you find one that matches your interests.",
+    "crumbs": [
+      "In-Class Activities",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Course Introduction: In-Class Work</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/01_course_introduction/assignment-course-introduction.html#survey-questions",
+    "href": "class_materials/class_sessions/01_course_introduction/assignment-course-introduction.html#survey-questions",
+    "title": "4  Course Introduction: In-Class Work",
+    "section": "4.1 Survey Questions",
+    "text": "4.1 Survey Questions\n \n\nUFID Number\nLast Name (as it appears on Canvas)\nDo you have a name or nickname by which you prefer to be called?\nCanvas has an option for students to list their preferred pronouns. If your preferred pronouns aren’t available as an option on Canvas, please feel free to tell me what they are here.\nWhat degree are you pursuing?\n\nMA/MS\nPhD\nOther\n\nWhat is your department or degree program?\nPlease provide a brief summary - 1 paragraph max - of your research interests.\nDo you have any questions or concerns about the class you’d like to share with me? Perfectly acceptable answers include: “I’m worried about the workload”, “I’ve never taken a bio class”, “I’m worried we might have to move on-line in a few weeks because of covid,”I’m worried classes are inperson instead of on-line because of covid”, and “None”.\n\nPotential Data Set for Course Project\n\nDo you have Messy Data you would like to clean up and organize as your course project? This can be data from your current or prior research, including side projects, Master’s thesis, undergraduate thesis, etc. If you don’t have a data set of your own, THAT’S NO PROBLEM - I will help you find one.\n\nYes\nNo\nMaybe\n\nWhat research question(s) are being addressed with these data?\nWhat is the status of this data set?Leave only the most relevant answer.*\n\nI have finished collecting the data (Skip to question 13)\nI have started data collection but will not be done before the semester ends (Skip to question 13)\nI have started data collection and will be done before the semester ends (Skip to question 13)\nOther (please elaborate) (Skip to question 12)\n\n\n\n4.1.1 Data Set Status = Other\n\nIf you answered “other” to the previous question, briefly elaborate here.\n\n\n\n4.1.2 Tell me about the data set(s)\n\nWhat are they and what kind of information do they contain?\nWhat tools and techniques did you use to collect it?\nWhat format are they in (e.g., sheets of paper, notebooks, spreadsheet, text files, photographs)\nHow much data is it? (estimated number of files, surveys, photographs, etc).\nWho collected the data?\n\nI did / I am / I will\nA 3rd party (e.g., my advisor, another student, a collaborator)\nIt it is previously published or public data Other:\n\nAre the data from research conducted with human subjects?\n\nYes\nNo\n\nAre any collaborators currently working with the data?\n\nYes\nNo\n\nWill anyone (e.g., collaborators, advisor) be working with the data in the future?\n\nYes\nNo\nDon’t Know\n\nWhat instruments did you use for COLLECTING and RECORDING raw data (check all that apply)\n\npaper survey or data recording forms\nonline surveys\nnotebooks/forms in which personal observations, notes, or responses to questions were recorded\naudio recordings\ndata from automated data loggers\nphotographs\nvideo\nmedical instruments (EKG, eye trackers; please elaborate below)\ntablets/smartphone\nOther (elaborate in “Data Collection” section below)\n\nWhat were you gathering on or about? Check all that apply.\n\nfield-based experiments, observations, or data collection with live animals or plants\nmuseum collections: herbarium specimens, animals (including tissue or blood), fossils\nplant or non-human animal tissue or blood (not from a museum specimen).\nhuman subjects - behavior, observations, experiments (education, psych, linguistics, etc)\nhuman subjects - tissue, blood, or similar human subjects - records (medical, educational)\nmuseum collections - human remains\nmuseum collections - archeological (pottery, middens mounds)\nmuseum collections - anthropological\nmuseum collections - art (painting, sculpture)\nOther (elaborate in “Data Collection” section below)\n\n\n\n\n4.1.3 Data collection Instruments & Subjects\n\nIf you answered “other” to either of the 2 previous questions, please elaborate on the data collection instruments or subjects.\n\n\n\n4.1.4 Instruments\n\nWhat instruments and software do you use for PROCESSING and ORGANIZING data? Check all that apply\n\nMS Word\nGoogle Docs\nOther word processor\nMS Excel\nGoogle Sheets\nOther spreadsheet software\nScrivener\nOSF\nEvernote\nFlickr\nText editor\nOther (elaborate below)\n\nIf you answered “other”, please list the other tools you use for PROCESSING and ORGANIZING your research data\nIf appropriate for your research domain, do you use any of the following to analyze your data?\nIf you answered “other”, please list the other tools you use for ANALYZING your research data\nAre you an R user? NOTE: YOU ARE NOT EXPECTED TO HAVE ANY PROGRAMMING EXPERIENCE TO TAKE THIS CLASS.\n\nI have never used R\nYes - a novice R user\nYes - an intermediate R user Yes - an advanced R user\n\nWill you be gathering data this summer or fall?\n\nYes\nNo\nNot Sure\n\nIs there anything you’d like to add? Are there particular topics you’d like to see covered or tools you’d like to learn?",
+    "crumbs": [
+      "In-Class Activities",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Course Introduction: In-Class Work</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/01_course_introduction/assignment-course-introduction.html#grading-rubric",
+    "href": "class_materials/class_sessions/01_course_introduction/assignment-course-introduction.html#grading-rubric",
+    "title": "4  Course Introduction: In-Class Work",
+    "section": "4.2 Grading Rubric:",
+    "text": "4.2 Grading Rubric:\n\nSurvey completed with thorough answers: 50\n\nMost questions answered completely; some require instructor follow-up: 40\n\nMany questions missing answers or answers are cursory: 30\n\nInstructor follow-up required for survey submission: 20",
+    "crumbs": [
+      "In-Class Activities",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Course Introduction: In-Class Work</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_projects/assignments.html",
+    "href": "class_materials/class_projects/assignments.html",
+    "title": "5  Assignments Overview",
+    "section": "",
+    "text": "5.1 Weekly In-class activities\nGrades in the course will be based on the following assignments:",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Assignments Overview</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_projects/assignments.html#weekly-in-class-activities",
+    "href": "class_materials/class_projects/assignments.html#weekly-in-class-activities",
+    "title": "5  Assignments Overview",
+    "section": "",
+    "text": "Overview: Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them they can be submitted anytime until 9 am the following Friday.",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Assignments Overview</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_projects/assignments.html#reproducible-data-organization-project",
+    "href": "class_materials/class_projects/assignments.html#reproducible-data-organization-project",
+    "title": "5  Assignments Overview",
+    "section": "5.2 Reproducible Data Organization Project",
+    "text": "5.2 Reproducible Data Organization Project\n\nOverview: This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to (1) clean and organize a ‘messy’ data set and prepare metadata describing the resulting ‘clean’ data. The complete project requires the submission of these three items via the course Canvas website:\n\nR code that imports, cleans, and organizes, and saves ‘messy’ data\nThe resulting corrected and organized data in an appropriate format\nMetadata describing the corrected data set",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Assignments Overview</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_projects/assignments.html#thesis-research-dmp",
+    "href": "class_materials/class_projects/assignments.html#thesis-research-dmp",
+    "title": "5  Assignments Overview",
+    "section": "5.3 Thesis Research DMP",
+    "text": "5.3 Thesis Research DMP\n\nOverview: The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.",
+    "crumbs": [
+      "Assignments",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Assignments Overview</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/resources/resources.html",
+    "href": "class_materials/resources/resources.html",
+    "title": "6  Useful resources for Data Collection & Managment",
+    "section": "",
+    "text": "6.1 R Programming",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/resources/resources.html#r-programming",
+    "href": "class_materials/resources/resources.html#r-programming",
+    "title": "6  Useful resources for Data Collection & Managment",
+    "section": "",
+    "text": "6.1.1 Essential\n\nHadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nWhere and How to ask for help\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\n\n6.1.2 Tutorials and Books\n\nR Essential Training: Wrangling and Visualizing Data\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl\nR Bootcamp\nKieran Healy’s Data Visualization: a practical introduction is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.\nSo. Many. Resources.\nROpenSci: tools for accessing, manipulating, and visualizing open data\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning\nLearning R\nSwirl",
+    "crumbs": [
+      "Appendix 1: Useful Resources",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/resources/resources.html#slide-presentations-in-r",
+    "href": "class_materials/resources/resources.html#slide-presentations-in-r",
+    "title": "6  Useful resources for Data Collection & Managment",
+    "section": "7.1 Slide Presentations in R",
+    "text": "7.1 Slide Presentations in R\n\nMake slide presentations with R",
+    "crumbs": [
+      "Appendix 1: Useful Resources",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/resources/resources.html#data-archives",
+    "href": "class_materials/resources/resources.html#data-archives",
+    "title": "6  Useful resources for Data Collection & Managment",
+    "section": "7.2 Data Archives",
+    "text": "7.2 Data Archives\nQualitative Data Repository",
+    "crumbs": [
+      "Appendix 1: Useful Resources",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/resources/resources.html#text-extraction-and-organization",
+    "href": "class_materials/resources/resources.html#text-extraction-and-organization",
+    "title": "6  Useful resources for Data Collection & Managment",
+    "section": "7.3 Text Extraction and Organization",
+    "text": "7.3 Text Extraction and Organization\nPlan for extraction and organization",
+    "crumbs": [
+      "Appendix 1: Useful Resources",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/resources/resources.html#form-design",
+    "href": "class_materials/resources/resources.html#form-design",
+    "title": "6  Useful resources for Data Collection & Managment",
+    "section": "7.4 Form Design",
+    "text": "7.4 Form Design\nBest Practice for Form Design",
+    "crumbs": [
+      "Appendix 1: Useful Resources",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/resources/resources.html#data-security",
+    "href": "class_materials/resources/resources.html#data-security",
+    "title": "6  Useful resources for Data Collection & Managment",
+    "section": "7.5 Data Security",
+    "text": "7.5 Data Security\nUF Office of Information Security and Compliance\nCyber Safeguards for UF\nUF IRB\nUF Data Classification Policy\nUF Office of Information Security and Compliance",
+    "crumbs": [
+      "Appendix 1: Useful Resources",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/resources/resources.html#platforms-for-organization-collaboration",
+    "href": "class_materials/resources/resources.html#platforms-for-organization-collaboration",
+    "title": "6  Useful resources for Data Collection & Managment",
+    "section": "7.6 Platforms for Organization & Collaboration",
+    "text": "7.6 Platforms for Organization & Collaboration\nOpen Science Framework",
+    "crumbs": [
+      "Appendix 1: Useful Resources",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   }
 ]
