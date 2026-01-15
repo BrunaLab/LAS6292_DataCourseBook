@@ -1,0 +1,62 @@
+---
+# author:
+#   - name: Emilio M. Bruna
+#     affiliations:
+#       - id: uf
+#       - name: University of Florida
+title-block-style: default
+date-modified: last-modified
+
+---
+
+# Data Organization in Spreadsheets {#sec-spreadsheets}
+
+## **Make your data `tidy`**  
+
+  * Spreadsheets should be a rectangle, with only rows and columns.
+  * Each column is a different variable (a thing you are measuring, like ‘weight’ or ‘temperature’).
+  * One row per observation. Each cell has only one value.
+  * Column headers: Use short meaningful column names with no spaces or special characters. Don't start column names with numbers. Record units in column headers.
+  * Don't enter the same data on multiple spreadsheets: Use one for each category of data to avoid duplicated data and to simplify corrections (e.g., taxonomy).
+  * Never put multiple tables in a single spreadsheet.
+  * Avoid spreading data across multiple sheets
+  * _Collecting_ data in tidy format makes it easier to _enter_ data in tidy format.   
+
+## **Use consistent names, abbreviations/codes, and capitalization.**
+
+  * Write dates as YYYYMMDD. Better still have separate columns for Year, Month, and Day.
+  * Excel is unable to parse dates from before 1899-12-31. Be careful if your data include a mix of dates before and after this date, then you’ll have mixed data types in one column. ^[The reason dates in Excel are so weird is that it is _accounting software_. It counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as the serial number 41822. This is so one can can easily calculate "days from a given date" for accounting purposes (like invoicing) by adding "date+XX days".]
+  * Record zeros with a numeral ( `0`), not a blank cells. For missing data use an appropriate null value indicator (e.g., `NA`).
+  * Don’t use formatting to convey information or to make your spreadsheet look pretty.
+  * _Remember that data format and excel defaults can vary by region._ For example, depending on the part of the world where a user is based, the default value for the decimal and thousands operator could be a `,` (comma) or a `.` (period); some regions use mm-dd for dates while others use dd-mm. 
+
+## **DO NOT EDIT OR CORRECT RAW DATA FILES!**   
+
+  * Once you are done with data entry, save your file in 'read only' format and make _all_ corrections using scripting.
+  * Do _not_ edit raw data after you have entered it in your spreadsheet!*
+
+  
+## Readings, Tools, & Resources
+
+
+1.  Broman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10.   [[read online]](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) 
+
+1. Data Validation in Google Sheets: [blog post](https://www.howtogeek.com/428919/how-to-restrict-data-input-in-google-sheets-with-data-validation/) and [video tutorial](https://www.youtube.com/watch?v=VEJMeYroDTM). A pdf version is available for download [here](https://las6292.netlify.app/uploads/readings/data-validation-google-sheets.pdf).
+
+2. Why not bypass spreadsheets like Excel and use a csv editor like [Comma Chameleon][https://comma-chameleon.io/] instead? CC and other csv editors allow you to enter data in the same way - into cells, by adding and removing rows - and then export your file. But that's about it, which means you can't do many of the things (e.g., calculations, color in cells) that cause problems down the road.
+
+3. More advanced users comfortable with R can also look into [Data Curator](https://github.com/qcif/data-curator), with which you can create and edit tabular data from scratch or from a template, open Microsoft Excel and CSV files, and automatically correct common problems found in these and other file types. 
+
+1. DataONE Community Engagement & Outreach Working Group (2017) "Data Quality Control and Assurance". Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/05_qaqc/index on Aug 31, 2020
+
+2. DataONE Community Engagement & Outreach Working Group (2017) "Data Entry and Manipulation". Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/04_entry/index on Aug 31, 2020
+
+2. Chris Prener, Trevor Burrows (Eds.). [Data Carpentry: Data Organization in Spreadsheets for Social Scientists.](https://datacarpentry.org/spreadsheets-socialsci/)
+
+3. Peter R. Hoyt, Christie Bahlai, Tracy K. Teal (Eds.), Erin Alison Becker, Aleksandra Pawlik, Peter Hoyt, Francois Michonneau, Christie Bahlai, Toby Reiter, et al. (2019, July 5). datacarpentry/spreadsheet-ecology-lesson: Data Carpentry: Data Organization in Spreadsheets for Ecologists, June 2019 (Version v2019.06.2). Zenodo. http://doi.org/10.5281/zenodo.3269869
+
+
+
+ 
+
+
