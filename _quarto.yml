@@ -31,25 +31,17 @@ book:
   
   chapters:
     - index.qmd
-    # 
-    # - part: "Course Introduction"
-    #   chapters: 
-    #     # - introduction/intro.qmd
-    #     # - introduction/getting_involved.qmd
-    #     # - introduction/Network_Structure.qmd
-    #     # - introduction/data_overview.qmd
-    #     # - introduction/herbvar_products.qmd
-    # 
     # - las6292_syllabus.qmd
     - part: "Course Topics" 
       chapters: 
     #     # - ‘Data’ across disciplines
         - class_materials/class_sessions/02_file_names/naming.qmd
     #   - class_materials/class_sessions/02_file_formats.qmd 
-    #   - class_materials/class_sessions/0     Naming Conventions
+        - class_materials/class_sessions/02_file_organization/organization.qmd
     #   - class_materials/class_sessions/0  # - Data Storage & Security
     #   - class_materials/class_sessions/0  # - Data structure
-    #   - class_materials/class_sessions/0  # - Format of data and datasets
+        - class_materials/class_sessions/03_spreadsheets/spreadsheets.qmd
+        - class_materials/class_sessions/04_reproducibility/reproducibility.qmd
     #   - class_materials/class_sessions/0  # - Reproducible Data (Re)organization
     #   - class_materials/class_sessions/0  # - QA/QC 1: Data Entry & Validation
     #   - class_materials/class_sessions/0  # - QA/QC 2: Data Correction & Synthesis
@@ -65,7 +57,7 @@ book:
     #   - class_materials/class_sessions/0  # - Legal & Ethical Issues
     # 
     - part: "In-Class Activities"
-       chapters: 
+      chapters:
         - class_materials/class_sessions/01_course_introduction/assignment-course-introduction.qmd
     #   - class_materials/class_sessions/02_file_names/naming.qmd
     #   - class_materials/class_sessions/02_file_formats.qmd 
@@ -88,18 +80,18 @@ book:
     #   - class_materials/class_sessions/0  # - Legal & Ethical Issues
     
     
-     - part: "Assignments"
-       chapters: 
+    - part: "Assignments"
+      chapters: 
         - class_materials/class_projects/assignments.qmd
-        - class_materials/class_projects/dmp.Rmd
-        - class_materials/class_projects/data_cleanup.Rmd
+        # - class_materials/class_projects/dmp.Rmd
+        # - class_materials/class_projects/data_cleanup.Rmd
         
     
     # - references.qmd
     # 
     - part: "Appendix 1: Useful Resources"
       chapters: 
-        - resources/resources.qmd
+        - class_materials/resources/resources.qmd
         # - forms/data_sharing_contract.qmd
         # - forms/forms_list.qmd
         # - forms/glossary.qmd
