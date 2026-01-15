@@ -1,9 +1,10 @@
 ---
 bibliography: las6292.bib
-# nocite: |
-#  @*
+nocite: |
+ @*
 ---
 # References {.unnumbered}
+
 
 ::: {#refs}
 :::

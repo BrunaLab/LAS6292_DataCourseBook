@@ -87,7 +87,7 @@ book:
         # - class_materials/class_projects/data_cleanup.Rmd
         
     
-    # - references.qmd
+    - references.qmd
     # 
     - part: "Appendix 1: Useful Resources"
       chapters: 
