@@ -44,35 +44,55 @@ book:
     - part: "Course Topics" 
       chapters: 
     #     # - ‘Data’ across disciplines
-        - course_topics/file_names/naming.qmd
-    #     # - File Formats
-    #     # - Naming Conventions
-    #     # - Data Storage & Security
-    #     # - Data structure
-    #     # - Format of data and datasets
-    #     # - Reproducible Data (Re)organization
-    #     # - QA/QC 1: Data Entry & Validation
-    #     # - QA/QC 2: Data Correction & Synthesis
-    #     # - OpenRefine
-    #     # - Visualizing Data to Find Mistakes
-    #     # - Documentation, Metadata, & Codebooks
-    #     # - Data Sharing, Reuse, & Archives
-    #     # - Data Management Plans
-    #     # - Efficient Data Collection
-    #     # - Transcription & Translation
-    #     # - ‘Paperless’ Data Collection
-    #     # - Automated Data Extraction
-    #     # - Legal & Ethical Issues
-    # #     
-    # - part: "Assignments"
-    #   chapters: 
-    #     - assignments/assignments.qmd
-        # - collaboration/data_use_guidelines.qmd
-        # # - collaboration/new_analyses.qmd
-        # - collaboration/authorship_process.qmd
-        # - collaboration/working-group-pubs.qmd
-        # - collaboration/new_data_collection.qmd
-        # - collaboration/project_review.qmd
+        - class_materials/class_sessions/02_file_names/naming.qmd
+    #   - class_materials/class_sessions/02_file_formats.qmd 
+    #   - class_materials/class_sessions/0     Naming Conventions
+    #   - class_materials/class_sessions/0  # - Data Storage & Security
+    #   - class_materials/class_sessions/0  # - Data structure
+    #   - class_materials/class_sessions/0  # - Format of data and datasets
+    #   - class_materials/class_sessions/0  # - Reproducible Data (Re)organization
+    #   - class_materials/class_sessions/0  # - QA/QC 1: Data Entry & Validation
+    #   - class_materials/class_sessions/0  # - QA/QC 2: Data Correction & Synthesis
+    #   - class_materials/class_sessions/0  # - OpenRefine
+    #   - class_materials/class_sessions/0  # - Visualizing Data to Find Mistakes
+    #   - class_materials/class_sessions/0  # - Documentation, Metadata, & Codebooks
+    #   - class_materials/class_sessions/0  # - Data Sharing, Reuse, & Archives
+    #   - class_materials/class_sessions/0  # - Data Management Plans
+    #   - class_materials/class_sessions/0  # - Efficient Data Collection
+    #   - class_materials/class_sessions/0  # - Transcription & Translation
+    #   - class_materials/class_sessions/0  # - ‘Paperless’ Data Collection
+    #   - class_materials/class_sessions/0  # - Automated Data Extraction
+    #   - class_materials/class_sessions/0  # - Legal & Ethical Issues
+    # 
+    - part: "In-Class Activities"
+       chapters: 
+        - class_materials/class_sessions/01_course_introduction/assignment-course-introduction.qmd
+    #   - class_materials/class_sessions/02_file_names/naming.qmd
+    #   - class_materials/class_sessions/02_file_formats.qmd 
+    #   - class_materials/class_sessions/0     Naming Conventions
+    #   - class_materials/class_sessions/0  # - Data Storage & Security
+    #   - class_materials/class_sessions/0  # - Data structure
+    #   - class_materials/class_sessions/0  # - Format of data and datasets
+    #   - class_materials/class_sessions/0  # - Reproducible Data (Re)organization
+    #   - class_materials/class_sessions/0  # - QA/QC 1: Data Entry & Validation
+    #   - class_materials/class_sessions/0  # - QA/QC 2: Data Correction & Synthesis
+    #   - class_materials/class_sessions/0  # - OpenRefine
+    #   - class_materials/class_sessions/0  # - Visualizing Data to Find Mistakes
+    #   - class_materials/class_sessions/0  # - Documentation, Metadata, & Codebooks
+    #   - class_materials/class_sessions/0  # - Data Sharing, Reuse, & Archives
+    #   - class_materials/class_sessions/0  # - Data Management Plans
+    #   - class_materials/class_sessions/0  # - Efficient Data Collection
+    #   - class_materials/class_sessions/0  # - Transcription & Translation
+    #   - class_materials/class_sessions/0  # - ‘Paperless’ Data Collection
+    #   - class_materials/class_sessions/0  # - Automated Data Extraction
+    #   - class_materials/class_sessions/0  # - Legal & Ethical Issues
+    
+    
+     - part: "Assignments"
+       chapters: 
+        - class_materials/class_projects/assignments.qmd
+        - class_materials/class_projects/dmp.Rmd
+        - class_materials/class_projects/data_cleanup.Rmd
         
     
     # - references.qmd
