@@ -1,5 +1,5 @@
 
-# Preamble {.unnumbered}
+# Introduction {.unnumbered}
 
 This book is a manual for students in LAS 6292: Data Collection & Management. The course is designed for graduate students from any discipline – social sciences, humanities, biophysical sciences – and at all stages of their graduate program. It is an introduction to methods for collecting, organizing, managing, and visualizing both qualitative and quantitative data. Students will gain hands-on experience with best practices and tools.
 

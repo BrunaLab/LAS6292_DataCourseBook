@@ -4,6 +4,7 @@ project:
   
 book:
   title: "LAS 6292: Data Collection and Management"
+  subtitle: "Course Reader //& Class Notes"
   output-file: "las6202-reader"
   author: "Emilio M. Bruna"
   date: 11/15/2025
@@ -25,7 +26,7 @@ book:
   favicon: images/cover.png
   page-footer:
     left: |
-      LAS 6292 Data Collection and Management Course Reader
+      LAS 6292 Course Reader //& Class Notes
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   
