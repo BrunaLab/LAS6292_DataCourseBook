@@ -113,7 +113,7 @@ format:
     classoption: ["oneside", "open=any"]
     cover-image: images/cover.png
     template-partials:
-      - "protocols/title.tex"
+      - "format/title.tex"
     header-includes: |
        \titlehead{\includegraphics[height=9in]{images/cover.png}}
     toc: true
