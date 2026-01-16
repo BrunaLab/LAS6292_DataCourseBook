@@ -102,12 +102,10 @@ book:
 bibliography: las6292.bib
 csl: format/ecology.csl
 format:
-
   html:
     theme: 
       - cosmo
       - format/r4ds.scss
-      
   pdf:
     documentclass: scrbook
     classoption: ["oneside", "open=any"]
