@@ -4,21 +4,21 @@ project:
   
 book:
   title: "LAS 6292: Data Collection and Management"
-  subtitle: "Course Reader //& Class Notes"
+  subtitle: "Course Reader & Class Notes"
   output-file: "las6202-reader"
   author: "Emilio M. Bruna"
-  date: 11/15/2025
+  date: 11/15/2026
   # date: last-modified
   # original-date: 11/15/2024
   # doi
-  # url: https://herbvar-network.github.io/herbvar_manual
-  # pdf-url: https://herbvar-network.github.io/herbvar_manual/herbvar-manual.pdf 
+  url: https://brunalab.github.io/LAS6292_DataCourseBook/
+  pdf-url: https://brunalab.github.io/LAS6292_DataCourseBook/las6202-reader.pdf 
   date-format: long
   license: "This work is licensed under CC BY-NC-SA 4.0. //To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/"
   edition: "v0.9.0"
   cover-image: images/cover.png
   search: true
-  repo-url: https://github.com/HerbVar-Network/herbvar_manual
+  repo-url: https://github.com/BrunaLab/LAS6292_DataCourseBook/
   repo-actions: [edit]
   downloads: [pdf, epub]
   # sharing: [twitter, facebook]
@@ -111,11 +111,11 @@ format:
   pdf:
     documentclass: scrbook
     classoption: ["oneside", "open=any"]
-    cover-image: images/cover2.png
-    # template-partials:
-    #   - "protocols/title.tex"
-    # header-includes: |
-    #    \titlehead{\includegraphics[height=9in]{images/cover2.png}}
+    cover-image: images/cover.png
+    template-partials:
+      - "protocols/title.tex"
+    header-includes: |
+       \titlehead{\includegraphics[height=9in]{images/cover.png}}
     toc: true
     toc-depth: 2
     toc-title: Table of Contents
