@@ -4,6 +4,7 @@ title: "Slide decks"
 
 Here are the slide decks:
 
+
 ::: {.content-visible when-profile="book"}
 
 - 👉 <a href="https://brunalab.github.io/LAS6292_DataCourseBook/methods_slides.html">Methods — Slides</a>
