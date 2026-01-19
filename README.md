@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cb570b78-4b21-42bf-9c0e-fa78acfe311b/deploy-status)](https://app.netlify.com/projects/las6292-book/deploys)
+
 
 <!-- # Herbvar Project Manual -->
 
