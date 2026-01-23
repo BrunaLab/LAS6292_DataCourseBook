@@ -2,7 +2,7 @@
 title: "Methods"
 format:
   revealjs:
-    theme: [night, custom.scss]
+    theme: [night]
     slide-number: true
     show-slide-number: print
     smaller: true 
