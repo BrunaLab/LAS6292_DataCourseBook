@@ -1,0 +1,54 @@
+---
+title: "Methods"
+format:
+  revealjs:
+    theme: [night, custom.scss]
+    slide-number: true
+    show-slide-number: print
+    smaller: true 
+    output-file: methods_slides.html
+editor: source
+include-in-header:
+      text: |
+        <style>
+        .right {
+          text-align: right;
+        }
+        </style>
+
+---
+
+
+## 
+
+### INTRODUCTIONS
+
+-   Name
+-   In what city were you born?
+-   What you consider your "hometown"?
+-   Program and Degree?
+-   Hobbies or what you do to relax
+
+### DISCUSS
+
+-   Motivation for taking the class
+-   Concerns about this class (in particular) and this semester (in general)?
+-   Big Question on the next slide ^[Record all this to report back to the group]
+
+## What are
+
+&nbsp;
+&nbsp;
+
+<h1 class="r-fit-text" style="color:darkred">'DATA'?</h1>
+
+<section class="right">
+<h3 style="color:black">_(discuss)_</h3>
+</section>
+
+## So then...What are
+
+&nbsp;
+&nbsp;
+
+<h1 class="r-fit-text" style="color:darkred">'DATA'?</h1>
