@@ -1,10 +1,10 @@
 
 
-<!-- # Herbvar Project Manual -->
+# LAS 6292 Course Manual 
 
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14232308.svg)](https://doi.org/10.5281/zenodo.14232308)  -->
 
-<!-- The HerbVar Project Manual is available here in [HTML](https://herbvar-network.github.io/herbvar_manual/). It is also available in [pdf format](https://herbvar-network.github.io/herbvar_manual/herbvar-manual.pdf).  -->
+The LAS 6292 Course Manual is available here in [HTML](https://brunalab.github.io/LAS6292_DataCourseBook/) and in [pdf format](https://brunalab.github.io/LAS6292_DataCourseBook/pdf).
 
 <!-- Please cite this manual as: HerbVar Steering Committee (2024). HerbVar: Project Manual and Field protocols (v0.9.0). Zenodo. https://doi.org/10.5281/zenodo.14232308 -->
 
