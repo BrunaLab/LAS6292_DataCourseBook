@@ -98,7 +98,7 @@ book:
     - part: "Appendix 1: Useful Resources"
       chapters: 
         - class_materials/resources/resources.qmd
-        - class_materials/slidedecks.qmd
+        - slidedecks.qmd
         # - forms/data_sharing_contract.qmd
         # - forms/forms_list.qmd
         # - forms/glossary.qmd
