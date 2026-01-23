@@ -1,0 +1,22 @@
+---
+title: "Slide decks"
+---
+
+Here are the slide decks:
+
+
+::: {.content-visible when-profile="book"}
+
+- 👉 <a href="slides/methods_slides.html">Methods — Slides</a>
+<div class="slides-embed">
+  <iframe src="slides/methods_slides.html" width="100%" height="320" loading="lazy" style="border:1px solid #ddd;border-radius:8px"></iframe>
+</div>
+
+
+
+<!-- - 👉 <a href="history_slides.html">History — Slides</a> -->
+<!-- <div class="slides-embed"> -->
+<!--   <iframe src="history_slides.html" width="100%" height="320" loading="lazy" style="border:1px solid #ddd;border-radius:8px"></iframe> -->
+<!-- </div> -->
+
+:::
