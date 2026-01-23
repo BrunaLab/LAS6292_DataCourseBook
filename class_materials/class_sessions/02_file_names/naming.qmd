@@ -46,25 +46,24 @@ Simple names also help you avoid problems with "system and software portability"
 
 ## Tools & Resources
 
-### Bulk Renaming of Files
-
-* [Adobe Bridge](https://www.adobe.com/products/bridge.html)
-* [Bulk Rename (Windows)](http://www.bulkrenameutility.co.uk/Main_Intro.php)
-* [Rename Master (Windows)](http://www.joejoesoft.com/cms/showpage.php?cid=108)
-* [File Renamer Basic (Windows, Free and Paid)](http://www.sherrodcomputers.com/products_filerenamer.cfm)
-* [Ant Renamer](http://www.antp.be/software/renamer)
-* [Renamer 5 (macOS)](https://renamer.com/)
-* [Renamer Lite](http://www.den4b.com/products/renamer)
-* [PSRenamer](http://www.powersurgepub.com/products/psrenamer/index.html)
-* Batch Renaming of Files in Windows: [Post 1](https://www.howtogeek.com/111859/how-to-batch-rename-files-in-windows-4-ways-to-rename-multiple-files/), [Post 2](https://www.tomsguide.com/how-to/how-to-batch-rename-multiple-files-in-windows-10)
-* Batch Renaming of Files in MacOS: [Post 1](https://setapp.com/how-to/batch-rename-files), [Post 2](https://appleinsider.com/articles/21/06/23/how-to-batch-rename-files-in-macos)
-  
-
-### Best Practices - Other Institutions
+### Best Practices & Conventions for Naming Files
 
 * [Smithsonian Library](https://library.si.edu/sites/default/files/tutorial/pdf/filenamingorganizing20180227.pdf)
-* [Michigan Library](https://guides.lib.umich.edu/datamanagement/files)
-* [Stanford Library](https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-naming)
-* [Smithsonian](https://library.si.edu/sites/default/files/tutorial/pdf/filenamingorganizing20180227.pdf)  
+* [UF Library](https://guides.uflib.ufl.edu/datamanagement/datacollection) _(bottom of the page)_
+* [Stanford Library](https://guides.library.stanford.edu/data-best-practices)
+
+### Tutorials and Tools for Bulk Renaming of Files
+
+* Batch Renaming of Files in Windows: [Post](https://www.pcmag.com/how-to/rename-multiple-files-at-once-in-windows?test_uuid=04IpBmWGZleS0I0J3epvMrC&test_variant=A)
+* Batch Renaming of Files in MacOS: [Post 1](https://setapp.com/how-to/batch-rename-files), [Post 2](https://appleinsider.com/articles/21/06/23/how-to-batch-rename-files-in-macos)
+* [Adobe Bridge](https://www.adobe.com/products/bridge.html) _(a powerful "asset manager" used to organize collections and edit metadata)_
+* [Renamer (macOS)](https://renamer.com/)
+* [Renamer Lite](http://www.den4b.com/products/renamer)
+* [PSRenamer](http://www.powersurgepub.com/products/psrenamer/index.html)
+* [Bulk Rename (Windows)](http://www.bulkrenameutility.co.uk/Main_Intro.php)
+* [Rename Master (Windows)](http://www.joejoesoft.com/cms/showpage.php?cid=108)
+* [Ant Renamer](http://www.antp.be/software/renamer)
+  
+
 
  
