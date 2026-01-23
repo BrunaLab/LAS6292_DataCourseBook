@@ -42,9 +42,8 @@ book:
       chapters: 
     #     # - ‘Data’ across disciplines
         - class_materials/class_sessions/02_file_names/naming.qmd
-    #   - class_materials/class_sessions/02_file_formats.qmd 
         - class_materials/class_sessions/02_file_organization/organization.qmd
-    #   - class_materials/class_sessions/0  # - Data Storage & Security
+        - class_materials/class_sessions/02_file_storage/storage.qmd  # - Data Storage & Security
     #   - class_materials/class_sessions/0  # - Data structure
         - class_materials/class_sessions/03_spreadsheets/spreadsheets.qmd
         # - class_materials/class_sessions/04_reproducibility/reproducibility.qmd
