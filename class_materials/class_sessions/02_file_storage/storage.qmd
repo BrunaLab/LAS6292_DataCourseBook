@@ -165,6 +165,7 @@ Backing up requires discipline and care to ensure nothing is missed and the file
 * [Fisher, Tim. What Is a Checksum?](https://www.lifewire.com/what-does-checksum-mean-2625825)  (updated 15 April 2020).
 
 ## File Formats and Extensions
+* UF library [recommended Data Formats for Preservation Purposes in the Florida Digital Archive](https://ufdc.ufl.edu/AA00017119/00011/pdf)
 * [What is XML?](https://www.w3schools.com/xml/xml_whatis.asp)
 * [Common Windows File Extensions (NMU IT)](https://it.nmu.edu/docs/common-windows-file-extensions)
 * [Common File Extensions (PC Net)](https://pc.net/extensions/)

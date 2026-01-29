@@ -17,6 +17,7 @@ output:
   # rmdformats::robobook: default
 header-includes:
 - \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \pdfmapfile{+SourceSansPro.map}
 - \usepackage[default]{sourcesanspro}
 - \usepackage{fancyhdr} # modify header into left, center, right
 - \pagestyle{fancy} # cues the use of fancy headers

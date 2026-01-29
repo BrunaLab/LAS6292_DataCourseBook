@@ -43,8 +43,7 @@ book:
     #     # - ‘Data’ across disciplines
         - class_materials/class_sessions/02_file_names/naming.qmd
         - class_materials/class_sessions/02_file_organization/organization.qmd
-        - class_materials/class_sessions/02_file_storage/storage.qmd  # - Data Storage & Security
-    #   - class_materials/class_sessions/0  # - Data structure
+        - class_materials/class_sessions/02_file_storage/storage.qmd  
         - class_materials/class_sessions/03_spreadsheets/spreadsheets.qmd
         # - class_materials/class_sessions/04_reproducibility/reproducibility.qmd
     #   - class_materials/class_sessions/0  # - Reproducible Data (Re)organization
@@ -61,14 +60,22 @@ book:
     #   - class_materials/class_sessions/0  # - Automated Data Extraction
     #   - class_materials/class_sessions/0  # - Legal & Ethical Issues
     # 
-    - part: "In-Class Activities"
-      chapters:
-        - class_materials/class_sessions/01_course_introduction/assignment-course-introduction.qmd
+    
+    - part: "Class Notes & Activities"
+      chapters: 
+        - class_materials/class_sessions/01_course_introduction/introduction_class_notes.qmd
+        - class_materials/class_sessions/02_file_storage/organization_backup_class_notes.qmd
+        - class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.qmd
+    
+    # - part: "Class Activities"
+    #   chapters:
+    #     - class_materials/class_sessions/01_course_introduction/introduction_class_activities.qmd
     #   - class_materials/class_sessions/02_file_names/naming.qmd
     #   - class_materials/class_sessions/02_file_formats.qmd 
     #   - class_materials/class_sessions/0     Naming Conventions
     #   - class_materials/class_sessions/0  # - Data Storage & Security
     #   - class_materials/class_sessions/0  # - Data structure
+    #    - class_materials/class_sessions/03_spreadsheets/spreadsheets_class_activities.qmd
     #   - class_materials/class_sessions/0  # - Format of data and datasets
     #   - class_materials/class_sessions/0  # - Reproducible Data (Re)organization
     #   - class_materials/class_sessions/0  # - QA/QC 1: Data Entry & Validation
@@ -90,7 +97,7 @@ book:
         - class_materials/class_projects/assignments.qmd
         # - class_materials/class_projects/dmp.Rmd
         # - class_materials/class_projects/data_cleanup.Rmd
-        
+    
     
     # - references.qmd
     # 
