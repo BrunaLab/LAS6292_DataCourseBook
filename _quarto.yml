@@ -64,7 +64,7 @@ book:
     - part: "Class Notes & Activities"
       chapters: 
         - class_materials/class_sessions/01_course_introduction/introduction_class_notes.qmd
-        - class_materials/class_sessions/02_file_storage/organization_backup_class_notes.qmd
+        - class_materials/class_sessions/02_file_organization/organization_backup_class_notes.qmd
         - class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.qmd
     
     # - part: "Class Activities"
