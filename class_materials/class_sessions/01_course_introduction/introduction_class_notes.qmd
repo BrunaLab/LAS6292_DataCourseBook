@@ -32,7 +32,7 @@ execute:
 
 * Readings or Online Lectures: None
 
-## ‘Data’ across disciplines & the Data Life Cycle  
+## Class: ‘Data’ across disciplines & the Data Life Cycle  
 
 <!-- ```{r timer, echo=FALSE} -->
 <!-- intro_breakout1 <- 5 -->
@@ -63,7 +63,7 @@ execute:
 <!-- 4. Introduce yourself -->
 <!-- 1-4 will take ~10 minutes, especially since we usually give students a few minutes to roll in late. -->
 
-### **Breakout 1: Introductions  ** 
+### **Breakout 1: Introductions  **   {.unnumbered}
 <!-- ### **Breakout 1: Introductions (`r intro_breakout1 + breakout1` total): **  -->
 
 Get to know one another! Get in pairs, introduce yourselves, and record responses to the following questions. We will then come back to introduce your partner to the group.
@@ -89,7 +89,7 @@ Get to know one another! Get in pairs, introduce yourselves, and record response
     1. Students take turns introducing themselves
     2. Quick summary of the different ways they defined "data"
 
-### **Intro to Breakout 2: Motivation for Teaching This Course & Data Across Disciplines **
+### **Intro to Breakout 2: Motivation for Teaching This Course & Data Across Disciplines **   {.unnumbered}
 
 <!-- ### **Intro to Breakout 2: Motivation for Teaching This Course & Data Across Disciplines (`r intro_breakout2` min): ** -->
 
@@ -103,11 +103,11 @@ Get to know one another! Get in pairs, introduce yourselves, and record response
     
    2. Prompt for the next breakout (to start after break); Breakout into larger groups (n = 4)  
 
-### **BREAK **  
+### **BREAK **    {.unnumbered}
 <!-- ### **BREAK: `r snack_break` min **   -->
 
 
-### **Breakout 2 Groups: 'Data' across disciplines **   
+### **Breakout 2 Groups: 'Data' across disciplines **     {.unnumbered}
 <!-- ### **Breakout 2 Groups: 'Data' across disciplines ** (`r breakout2` min total).   -->
 
 Now that data have been defined, we will break into small groups to discuss the following questions. We'll come back and discuss what you came up with for as a group.
@@ -115,7 +115,7 @@ Now that data have been defined, we will break into small groups to discuss the 
 1. Identify different kinds of data collected in different disciplines 
 2. How are these data gathered (tools, techniques) and recorded (media)? 
 
-### **Breakout 2 Discussion **
+### **Breakout 2 Discussion **  {.unnumbered}
 <!-- ### **Breakout 2 Discussion: `r breakout2_discussion` min ** -->
 
 1. What are the different kinds of data collected in different disciplines?
@@ -131,7 +131,7 @@ Now that data have been defined, we will break into small groups to discuss the 
 
 4. **Important: **look to see if the definitions include the word "PLAN": managing data requires a PLAN.  This will let you segway into...  
 
-### **Wrap-up & In-class Assignment: Instructor presentation: Research Data Cycle & Syllabus Overview **
+### **Wrap-up & In-class Assignment: Instructor presentation: Research Data Cycle & Syllabus Overview **  {.unnumbered}
 <!-- ### **Wrap-up & In-class Assignment: Instructor presentation: Research Data Cycle & Syllabus Overview (`r wrap` min)** -->
 
 1. Typical vs. New approach to Data
@@ -139,7 +139,7 @@ Now that data have been defined, we will break into small groups to discuss the 
 3. Introduce Assignments and Format of Weekly Sessions. This is a workshop!
 4. *This course is driven by student needs and interests! *The syllabus may change as I learn more about those.  
 
-### **In-class Assignment: Survey 
+### **In-class Assignment: Survey   {.unnumbered}
 <!-- ### **In-class Assignment: Survey (`r time_remain` min**) -->
 
   1. Please complete the survey in Canvas under "Assignments".

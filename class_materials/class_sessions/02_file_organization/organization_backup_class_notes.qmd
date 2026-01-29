@@ -80,8 +80,8 @@ execute:
 ### **Quick Intro ** 
 <!-- ### **Block 1: (`r intro` min): **  -->
 
-    a. Address any questions from last week
-    b. Overview of today's activities. 
+1. Address any questions from last week  
+2. Overview of today's activities. 
 
 <!-- ### **Block 2: File Format Competition (`r jeopardy` min)** -->
 ### **File Format Competition **
@@ -103,7 +103,9 @@ What steps should Robin take in the field to safeguard the data collected in the
 #### **Breakout Discussion ** {.unnumbered} 
 
 <!-- #### **Breakout Discussion (`r breakout1_return` min)** {.unnumbered} -->
-    a. Key message - assume the worst case scenario. become paranoid. embrace neurosis. then relax because the plan is in place and all possibilities have been acounted for. 
+
+1. Group discussion of breakout 
+2. _Key message:_ assume the worst case scenario. become paranoid. embrace neurosis. then relax because the plan is in place and all possibilities have been acounted for. 
 
 ### **Breakout 2: Backup Procedures - UF Research Group ** {.unnumbered}
 <!-- ### 8. **Breakout 2: Backup Procedures - UF Research Group (`r time_remain` min) ** {.unnumbered} -->
@@ -136,9 +138,10 @@ _Prompt:_ Please ask each other these questions and then briefly discuss and sum
 
 13.	Where and how are your original data collection instruments or samples stored/protected?
 
->a. Interview Breakout, collect answers on google doc or word doc and submit with Assignment 2
+_Collect answers and submit with Assignment 2_
 
->b. Remainder of time is to work on Assignment 2. Instructor regularly checking in on students 
+
+<!-- Remainder of time is to work on Assignment 2. Instructor regularly checking in on students  -->
 
 
 ## Messages to instill:
