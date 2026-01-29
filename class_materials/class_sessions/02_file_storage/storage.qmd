@@ -11,6 +11,8 @@ date-modified: last-modified
 
 # Data Storage & Backup {#sec-data-storage}
 
+## What is backup?
+
 1. **What is the difference between a backup and an archive?**   
 
     * Original Data
@@ -32,11 +34,11 @@ date-modified: last-modified
     * Server, hardware, or software failure
     * Financial instability of the projecct or organization 
 
-# The Back-up Rule: 3-2-1
+### The Back-up Rule: 3-2-1 {.unnumbered}
 
 **3-2-1:** A secure backup requires a *minimum* of **3 copies** of your data on **2 types of storage media** with **one copy off-site**. Having 1 copy off-site protects your data from local risks like theft, lab fires, flooding, or natural disasters. Using 2 storage media improves the likelihood that at least one version will be readable in the future should one media type become obsolete or degrade unexpectedly. Having 3 copies helps ensure that your data will exist somewhere without being overly redundant. **_Be sure to migrate data from physical storage every 3-5 years_**
 
-# Storage Media
+### Storage Media {.unnumbered}
 
 **Successful preservation depends in great part on storage media that are in good physical and operational condition.** There are many different kinds of storage media that can be used to save and back-up digital files; each has pros and cons. They include:  
 
@@ -76,7 +78,7 @@ it is advisable to maintain a redundant copy of your data for 30 days until the 
     * Dryad, Zenodo, OSF, or other digital repository with long-term archiving via CLOCKSS or similar (long-term security/stability: high)
 
 
-# Backup Procedures
+### Backup Procedures {.unnumbered}
 
 Backing up requires discipline and care to ensure nothing is missed and the file back-ups are secure. You can make this easier by doing the following:
 
@@ -116,7 +118,7 @@ Backing up requires discipline and care to ensure nothing is missed and the file
     * All data collected by UF affiliates falls into one of the classifications defined in the [UF Data Policy](https://it.ufl.edu/policies/information-security/data-classification-policy/). Both original and electronic archives must be secured; failure to do so can have serious consequences for both researchers and institutions. 
 
 
-# File formats for storage 
+### File formats for storage  {.unnumbered}
 
 **For long term preservation is it necessary to store data in file formats that will be readable in the future and by a variety of operating systems. **It is also important to provide descriptive information on these data file types and formats. This will facilitate data retrieval and reuse.
 
@@ -145,9 +147,9 @@ Backing up requires discipline and care to ensure nothing is missed and the file
 3. For audio and image files, back up with the highest-quality file-type possible (i.e., the 'lossless' format rather than the 'lossy' format).  For example, `jpeg` is lossy, meaning images saved with this file type will have less detail than images saved with the lossless `TIFF` format if at all possible back-up.
 
 
-# Tools & Resources
+### Tools & Resources {.unnumbered}
 
-## UF Library Guides
+#### UF Library Guides {.unnumbered}
 
 * UF Library: [Data File Types and Formats](https://guides.uflib.ufl.edu/c.php?g=147756&p=966586)
 * UF Library: [Data Storage](https://guides.uflib.ufl.edu/datamanagement/storage)
@@ -160,11 +162,12 @@ Backing up requires discipline and care to ensure nothing is missed and the file
 <!-- * [Stanford Library Guidelines](https://library.stanford.edu/research/data-management-services/storage-and-backup) -->
  
 
-## Overview of 'Checksums' and Checksum Calculators
+#### Overview of 'Checksums' and Checksum Calculators {.unnumbered}
 
 * [Fisher, Tim. What Is a Checksum?](https://www.lifewire.com/what-does-checksum-mean-2625825)  (updated 15 April 2020).
 
-## File Formats and Extensions
+#### File Formats and Extensions {.unnumbered} 
+
 * UF library [recommended Data Formats for Preservation Purposes in the Florida Digital Archive](https://ufdc.ufl.edu/AA00017119/00011/pdf)
 * [What is XML?](https://www.w3schools.com/xml/xml_whatis.asp)
 * [Common Windows File Extensions (NMU IT)](https://it.nmu.edu/docs/common-windows-file-extensions)
@@ -177,7 +180,7 @@ Backing up requires discipline and care to ensure nothing is missed and the file
 * [Library of Congress](http://www.loc.gov/preservation/resources/rfs/data.html)  
 
 
-## UF-based Storage Options
+#### UF-based Storage Options {.unnumbered}
 
 * Overview of UF Cloud Data Services, aka [GatorCloud](https://it.ufl.edu/services/search/gatorcloud)
 * [Free UF Dropbox for Education](https://education.ufl.edu/educational-research/9729), UF Dropbox [FAQs](https://cloud.it.ufl.edu/uf-dropbox/frequently-asked-questions/), and information on how [your advisor can submit a request for your UF Dropbox account](https://cloud.it.ufl.edu/media/clouditufledu/How-to-Obtain-Access-to-UF-Dropbox-for-Education.pdf)
@@ -185,7 +188,7 @@ Backing up requires discipline and care to ensure nothing is missed and the file
 * [Free MS One Drive](https://it.ufl.edu/services/gatorcloud-onedrive-uf) (but also read why I suggest NOT using this [here)](http://brunalab.org/blog/2015/07/24/onedrive-notes/)
 * for very large data volumes or data data required extra security protection due to privacy restrictions, etc. seek the assistance of [UF Research Computing](https://www.rc.ufl.edu/about/our-services/storage-resources/)
 
-## Storage and backup for very large volumes of data (multiple TB)
+#### Storage and backup for very large volumes of data (multiple TB) {.unnumbered}
 
 * [Cyverse](cyverse.org/about)
 * [Amazon Web Services (AWS) S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)
@@ -195,22 +198,24 @@ Backing up requires discipline and care to ensure nothing is missed and the file
 * [Globus](https://www.globus.org/)
 * Uploading large files to Google drive: [tutorial blog post](https://massive.io/how-to/upload-large-files-google-drive-quickly/)
 
-## Tools for File Syncing
+#### Tools for File Syncing 
+
 * [MacDropAny (macOS)](https://www.macupdate.com/app/mac/37029/macdropany)
 * [MultCloud](https://www.multcloud.com/)
 * Dropbox (use [via UF](https://it.ufl.edu/services/dropbox-for-education) for research, teaching)
 * Google Drive (use [via UF](https://cloud.it.ufl.edu/collaboration-tools/g-suite/) for research, teaching)
 
-## Portable HDs and Backup Services
+#### Portable HDs and Backup Services {.unnumbered} 
+
 * **Remember:** Dropbox and Google drive are not true backups if set up as a file syncing tool.
 * NY Times *Wirecutter* Reviews & Recommendations:
 * [portable hard drives](https://www.nytimes.com/wirecutter/reviews/best-portable-hard-drive/)
 * [automated data backup services](https://www.nytimes.com/wirecutter/reviews/best-online-backup-service/); their recommendation was [SpiderOak](https://spideroak.com/).
 
-## Tools for Automating Data Uploading During Data Collection: 
+#### Tools for Automating Data Uploading During Data Collection: 
 * [IFTTT and others](http://tinyurl.com/y9bz8suj)
   
-## Online multimedia repositories and tools
+### Online multimedia repositories and tools {.unnumbered}
 
 * [YouTube](https://www.youtube.com/)
 * [Vimeo](https://vimeo.com/)
@@ -255,7 +260,7 @@ Backing up requires discipline and care to ensure nothing is missed and the file
 * may not be open to all
 * may have restrictions on bandwidth usage
 
-## A step back: what needs to be preserved?
+#### A step back: what needs to be preserved? {.unnumbered}
 
 To meet multiple goals for preservation, researchers should think broadly about the digital products that their project generates, preserve as many as possible, preserve all that they are required to preserve for as long as required or longer, and plan the appropriate preservation methods for each. Consider how long and how to preserve the following, taking into account **(1)** what would be necessary to reconstruct a complete data set if files downstream were lost **(2)**, how long each needs to be kept, and **(3)** the cost of and space required for preserving data for different lengths of time:
 
@@ -269,7 +274,7 @@ To meet multiple goals for preservation, researchers should think broadly about 
 8. Any data sets obtained from others that were used in data processing
 
 
-# Sources
+### Sources {.unnumbered}
 
 1. DataONE Community Engagement & Outreach Working Group, DataONE  (July 01, 2010) "Best Practice: Plan for effective multimedia management". Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/bestpractices/plan-for-effective on Aug 31, 2020
 
