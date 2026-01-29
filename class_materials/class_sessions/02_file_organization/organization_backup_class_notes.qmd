@@ -62,91 +62,92 @@ execute:
 
 ## Class Outline
 
-```{r timer, echo=FALSE}
-intro <- 25
-jeopardy <- 35
-snack_break <- 10
-breakout1 <- 25
-breakout1_return <- 30
+<!-- ```{r timer, echo=FALSE} -->
+<!-- intro <- 25 -->
+<!-- jeopardy <- 35 -->
+<!-- snack_break <- 10 -->
+<!-- breakout1 <- 25 -->
+<!-- breakout1_return <- 30 -->
 
-total_time <- intro + jeopardy + 
-  breakout1 + snack_break + breakout1_return 
+<!-- total_time <- intro + jeopardy +  -->
+<!--   breakout1 + snack_break + breakout1_return  -->
 
-time_remain <- 180 - total_time
-```
+<!-- time_remain <- 180 - total_time -->
+<!-- ``` -->
 
 <!-- 1. Turn on zoom captioning  -->
 
-### **Block 1: (`r intro` min): ** 
+### **Quick Intro ** 
+<!-- ### **Block 1: (`r intro` min): **  -->
 
     a. Address any questions from last week
     b. Overview of today's activities. 
 
-### **Block 2: File Format Competition (`r jeopardy` min)**
+<!-- ### **Block 2: File Format Competition (`r jeopardy` min)** -->
+### **File Format Competition **
 
 <!-- These are common file formats used to collect, analyze, and store data. Can you tell me what the extensions stand for? Winner gets swag... -->
 
 
-### **Snack Break (`r snack_break` min)**
+### **Snack Break **
+<!-- ### **Snack Break (`r snack_break` min)** -->
 
-### **Block 3: Breakout 1 (`r breakout1` min): **
+### **Breakout: Discussion of Data Security and Backup in the field **
+<!-- ### **Block 3: Breakout 1 (`r breakout1` min): ** -->
 
-      a. Discussion of Data Security and Backup in the field
-  
-      >>Robin is a graduate student studying Malaria in Tanzania. The research project requires visiting communities, collecting mosquitoes from different sources of standing water (for later identification at the FLMNH and statistical analyses of mosquito diversity and abundance) and conducting semi--structured interviews in the community, where people are asked such things as their age, family income, their access to health care, if they have ever had malaria, their family income, use of mosquito nets. Answers are recorded on data sheets, but the interviews are also recorded with the cell phone for later transcription. Robin also takes pictures of houses to document standing water sources. Throughout the day Robin records observations in a notebook.  
+_Prompt:_ Robin is a graduate student studying Malaria in Tanzania. The research project requires visiting communities, collecting mosquitoes from different sources of standing water (for later identification at the FLMNH and statistical analyses of mosquito diversity and abundance) and conducting semi--structured interviews in the community, where people are asked such things as their age, family income, their access to health care, if they have ever had malaria, their family income, use of mosquito nets. Answers are recorded on data sheets, but the interviews are also recorded with the cell phone for later transcription. Robin also takes pictures of houses to document standing water sources. Throughout the day Robin records observations in a notebook.  Robin is staying in a house where there is electricity for a laptop. Once every two weeks Robin goes into town, where there is usually good internet access at the university. 
 
-    >>Robin is staying in a house where there is electricity for a laptop. Once every two weeks Robin goes into town, where there is usually good internet access at the university. 
-
-    >>What steps should Robin take in the field to safeguard the data collected in the field? 
+What steps should Robin take in the field to safeguard the data collected in the field? 
 
       
-#### **Block 4: Breakout 1 return results (`r breakout1_return` min)** {.unnumbered}
+#### **Breakout Discussion ** {.unnumbered} 
 
+<!-- #### **Breakout Discussion (`r breakout1_return` min)** {.unnumbered} -->
     a. Key message - assume the worst case scenario. become paranoid. embrace neurosis. then relax because the plan is in place and all possibilities have been acounted for. 
 
-8. **Block 5: Breakout 2 (`r time_remain` min) ** 
+### **Breakout 2: Backup Procedures - UF Research Group ** {.unnumbered}
+<!-- ### 8. **Breakout 2: Backup Procedures - UF Research Group (`r time_remain` min) ** {.unnumbered} -->
 
-> Please ask each other these questions and then briefly discuss and summarize the responses. Keep the answers anonymous. The goal is to document the range of answers to these questions, so you can summarize or give more detailed answers about individuals as needed.
+_Prompt:_ Please ask each other these questions and then briefly discuss and summarize the responses. Keep the answers anonymous. The goal is to document the range of answers to these questions, so you can summarize or give more detailed answers about individuals as needed.
  
+1.	Does your advisor / lab / research group have formal policies that govern your data storage, protection, and backup?
 
->1.	Does your advisor / lab / research group have formal policies that govern your data storage, protection, and backup?
+2.	Are you currently backing up your research data?
 
->2.	Are you currently backing up your research data?
+3.	Do you have a ‘backup plan’ document?
 
->3.	Do you have a ‘backup plan’ document?
+4.	How frequently are you backing up your research data? 
 
->4.	How frequently are you backing up your research data? 
+5.	Is it Partial (incremental) or full backup? 
 
->5.	Is it Partial (incremental) or full backup? 
+6.	Where are files backed up? 
 
->6.	Where are files backed up? 
+7.	What metadata accompanies these backups? 
 
->7.	What metadata accompanies these backups? 
+8.	How do you verify that a backup has been successfully performed? 
 
->8.	How do you verify that a backup has been successfully performed? 
+9.	Have you ever attempted to read data from older backups? 
 
->9.	Have you ever attempted to read data from older backups? 
+10.	Have you ever had to restore a file from a backup version?
 
->10.	Have you ever had to restore a file from a backup version?
+11.	Are you working with data requiring additional protection due to privacy or security concerns? 
 
->11.	Are you working with data requiring additional protection due to privacy or security concerns? 
+12.	If so, what are the additional safeguards you have implemented?
 
->12.	If so, what are the additional safeguards you have implemented?
+13.	Where and how are your original data collection instruments or samples stored/protected?
 
->13.	Where and how are your original data collection instruments or samples stored/protected?
+>a. Interview Breakout, collect answers on google doc or word doc and submit with Assignment 2
 
-    >>a. Interview Breakout, collect answers on google doc or word doc and submit with Assignment 2
-    >>b. Remainder of time is to work on Assignment 2. Instructor regularly checking in on students 
+>b. Remainder of time is to work on Assignment 2. Instructor regularly checking in on students 
 
 
 ## Messages to instill:
 
     a. a sense of paranoia that everything that could go wrong with notebooks, datasheets, samples, and their backups will - fire, lost mail, flooding, demonic intervention - so that we plan for all scenarios. Can now photograph records, backup, leacve portabl;e hard drives, abc samples, deposit in collections, take a portable scanner to the field...whatever.  As researchers and grad students there is plenty to stress about as it is, lets, takle this stress away so that you can stress about other stuff that "matters". 
-    b. FOcused Laziness: we want to do this in a way that is as automated (and automatic) as possible. This will mean less work! And that means more time to do other things, be it research or relaxation.
+    b. 'Focused Laziness': we want to do this in a way that is as automated (and automatic) as possible. This will mean less work! And that means more time to do other things, be it research or relaxation.
     
 
 ## Assignment for Submission
-
 
 **This week’s assignment is designed to:** **(A)** get you thinking critically about your own data backup and security procedures, and based on that reflection **(B)** prepare a data backup plan (if you already have one you can answer the questions below based on that plan).  **The assignment comes in four parts:**   
 
