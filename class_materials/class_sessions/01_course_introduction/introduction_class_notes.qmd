@@ -34,28 +34,28 @@ execute:
 
 ## ‘Data’ across disciplines & the Data Life Cycle  
 
-```{r timer, echo=FALSE}
-intro_breakout1 <- 5
-breakout1 <- 20
-breakout1_discussion <- 45
-snack_break <- 10
-intro_breakout2 <- 20
-breakout2 <- 15
-breakout2_discussion <- 30
-wrap <- 10
+<!-- ```{r timer, echo=FALSE} -->
+<!-- intro_breakout1 <- 5 -->
+<!-- breakout1 <- 20 -->
+<!-- breakout1_discussion <- 45 -->
+<!-- snack_break <- 10 -->
+<!-- intro_breakout2 <- 20 -->
+<!-- breakout2 <- 15 -->
+<!-- breakout2_discussion <- 30 -->
+<!-- wrap <- 10 -->
 
-total_time <- 
-  intro_breakout1 + 
-  breakout1 + 
-  breakout1_discussion + 
-  snack_break + 
-  intro_breakout2 + 
-  breakout2 +
-  breakout2_discussion + 
-  wrap
+<!-- total_time <-  -->
+<!--   intro_breakout1 +  -->
+<!--   breakout1 +  -->
+<!--   breakout1_discussion +  -->
+<!--   snack_break +  -->
+<!--   intro_breakout2 +  -->
+<!--   breakout2 + -->
+<!--   breakout2_discussion +  -->
+<!--   wrap -->
 
-time_remain <- 180 - total_time
-```
+<!-- time_remain <- 180 - total_time -->
+<!-- ``` -->
 <!-- FOR ONLINE -->
 <!-- 1. Turn on Zoom, chill music countdown -->
 <!-- 2. Turn on zoom captioning -->
@@ -63,10 +63,13 @@ time_remain <- 180 - total_time
 <!-- 4. Introduce yourself -->
 <!-- 1-4 will take ~10 minutes, especially since we usually give students a few minutes to roll in late. -->
 
-### **Breakout 1: Introductions (`r intro_breakout1 + breakout1` total): ** 
+### **Breakout 1: Introductions  ** 
+<!-- ### **Breakout 1: Introductions (`r intro_breakout1 + breakout1` total): **  -->
+
 Get to know one another! Get in pairs, introduce yourselves, and record responses to the following questions. We will then come back to introduce your partner to the group.
 
-**A. Tell me about yourself (`r breakout1`)**  
+#### **Tell me about yourself **  {.unnumbered}
+<!-- **A. Tell me about yourself (`r breakout1`)**   -->
 
    1. Name
    2. In what city were you born?
@@ -78,13 +81,17 @@ Get to know one another! Get in pairs, introduce yourselves, and record response
    8. Any concerns / worries / fears about this class (in particular) and this semester (in general)?
    9. Now discuss with your partner the following question: **_What are 'Data_?** 
    
-  &nbsp;**B. Report Back (`r breakout1_discussion` min)**
+  <!-- &nbsp;**B. Report Back (`r breakout1_discussion` min)** -->
+  <!--   &nbsp;**B. Report Back (`r breakout1_discussion` min)** -->
+#### Report Back {.unnumbered} 
 
 1. What are Data?
     1. Students take turns introducing themselves
     2. Quick summary of the different ways they defined "data"
 
-### **Intro to Breakout 2: Motivation for Teaching This Course & Data Across Disciplines (`r intro_breakout2` min): **
+### **Intro to Breakout 2: Motivation for Teaching This Course & Data Across Disciplines **
+
+<!-- ### **Intro to Breakout 2: Motivation for Teaching This Course & Data Across Disciplines (`r intro_breakout2` min): ** -->
 
   1. The defintion of "Data"   
   2. EB Motivation for teaching the class:  
@@ -96,17 +103,20 @@ Get to know one another! Get in pairs, introduce yourselves, and record response
     
    2. Prompt for the next breakout (to start after break); Breakout into larger groups (n = 4)  
 
-### **BREAK: `r snack_break` min **  
+### **BREAK **  
+<!-- ### **BREAK: `r snack_break` min **   -->
 
 
-### **Breakout 2 Groups: 'Data' across disciplines ** (`r breakout2` min total).  
+### **Breakout 2 Groups: 'Data' across disciplines **   
+<!-- ### **Breakout 2 Groups: 'Data' across disciplines ** (`r breakout2` min total).   -->
 
-Now that data have been defined, we will break into small groups to discuss the following questions (**`r breakout2` min**). We'll come back and discuss what you came up with for as a group **(`r breakout2_discussion` min)**.
+Now that data have been defined, we will break into small groups to discuss the following questions. We'll come back and discuss what you came up with for as a group.
 
 1. Identify different kinds of data collected in different disciplines 
 2. How are these data gathered (tools, techniques) and recorded (media)? 
 
-### **Breakout 2 Discussion: `r breakout2_discussion` min **
+### **Breakout 2 Discussion **
+<!-- ### **Breakout 2 Discussion: `r breakout2_discussion` min ** -->
 
 1. What are the different kinds of data collected in different disciplines?
 2. How are these data gathered (tools, techniques) and recorded (media)? 
@@ -121,14 +131,16 @@ Now that data have been defined, we will break into small groups to discuss the 
 
 4. **Important: **look to see if the definitions include the word "PLAN": managing data requires a PLAN.  This will let you segway into...  
 
-### **Wrap-up & In-class Assignment: Instructor presentation: Research Data Cycle & Syllabus Overview (`r wrap` min)**
+### **Wrap-up & In-class Assignment: Instructor presentation: Research Data Cycle & Syllabus Overview **
+<!-- ### **Wrap-up & In-class Assignment: Instructor presentation: Research Data Cycle & Syllabus Overview (`r wrap` min)** -->
 
 1. Typical vs. New approach to Data
 2. Most courses start with the most boring part: DMP. I take an approach different from many other data manag classes.
 3. Introduce Assignments and Format of Weekly Sessions. This is a workshop!
 4. *This course is driven by student needs and interests! *The syllabus may change as I learn more about those.  
 
-### **In-class Assignment: Survey (`r time_remain` min**)
+### **In-class Assignment: Survey 
+<!-- ### **In-class Assignment: Survey (`r time_remain` min**) -->
 
   1. Please complete the survey in Canvas under "Assignments".
 
