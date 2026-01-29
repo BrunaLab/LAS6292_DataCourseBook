@@ -146,7 +146,7 @@
     "href": "class_materials/class_sessions/02_file_storage/storage.html#file-formats-and-extensions",
     "title": "3  Data Storage & Backup",
     "section": "8.3 File Formats and Extensions",
-    "text": "8.3 File Formats and Extensions\n\nWhat is XML?\nCommon Windows File Extensions (NMU IT)\nCommon File Extensions (PC Net)\nList of Open File Formats (Wikipedia)\nCommon Windows File Extensions (NMU IT)\nCommon File Extensions (PC Net)\nList of Open File Formats (Wikipedia)\nFile formats-Best Practices (Stanford Library)\nLibrary of Congress",
+    "text": "8.3 File Formats and Extensions\n\nUF library recommended Data Formats for Preservation Purposes in the Florida Digital Archive\nWhat is XML?\nCommon Windows File Extensions (NMU IT)\nCommon File Extensions (PC Net)\nList of Open File Formats (Wikipedia)\nCommon Windows File Extensions (NMU IT)\nCommon File Extensions (PC Net)\nList of Open File Formats (Wikipedia)\nFile formats-Best Practices (Stanford Library)\nLibrary of Congress",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Storage & Backup</span>"
@@ -296,179 +296,432 @@
     ]
   },
   {
-    "objectID": "class_materials/class_sessions/01_course_introduction/assignment-course-introduction.html",
-    "href": "class_materials/class_sessions/01_course_introduction/assignment-course-introduction.html",
-    "title": "5  Course Introduction: In-Class Work",
+    "objectID": "class_materials/class_sessions/01_course_introduction/introduction_class_notes.html",
+    "href": "class_materials/class_sessions/01_course_introduction/introduction_class_notes.html",
+    "title": "5  Introduction & The Research Data Life Cycle: Instructor Notes",
     "section": "",
-    "text": "5.0.1 This week’s assignment is to briefly answer the following questions. If you respond to the Google forms survey there is no need to submit anything via Canvas\nThis survey has two goals:\nIt is important to remember that the ‘data set’ can be more than one file. For instance, your data set might be four files (or collections of files): (1) A file with the responses to surveys of community members, (2) Census data downloaded from a government website, (3) The transcripts of interviews with key informants, and (4) A collection of photographs for ethnographic research.\nPlease also remember that you may not have a data set with which to work. That’s fine! There are plenty of (useful) data sets out there that are messy and in need of organization. I’ll help you find one that matches your interests.",
+    "text": "5.1 Objectives",
     "crumbs": [
-      "In-Class Activities",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Course Introduction: In-Class Work</span>"
+      "Class Notes & Activities",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction & The Research Data Life Cycle: Instructor Notes</span>"
     ]
   },
   {
-    "objectID": "class_materials/class_sessions/01_course_introduction/assignment-course-introduction.html#survey-questions",
-    "href": "class_materials/class_sessions/01_course_introduction/assignment-course-introduction.html#survey-questions",
-    "title": "5  Course Introduction: In-Class Work",
-    "section": "5.1 Survey Questions",
-    "text": "5.1 Survey Questions\n \n\nUFID Number\nLast Name (as it appears on Canvas)\nDo you have a name or nickname by which you prefer to be called?\nCanvas has an option for students to list their preferred pronouns. If your preferred pronouns aren’t available as an option on Canvas, please feel free to tell me what they are here.\nWhat degree are you pursuing?\n\nMA/MS\nPhD\nOther\n\nWhat is your department or degree program?\nPlease provide a brief summary - 1 paragraph max - of your research interests.\nDo you have any questions or concerns about the class you’d like to share with me? Perfectly acceptable answers include: “I’m worried about the workload”, “I’ve never taken a bio class”, “I’m worried we might have to move on-line in a few weeks because of covid,”I’m worried classes are inperson instead of on-line because of covid”, and “None”.\n\nPotential Data Set for Course Project\n\nDo you have Messy Data you would like to clean up and organize as your course project? This can be data from your current or prior research, including side projects, Master’s thesis, undergraduate thesis, etc. If you don’t have a data set of your own, THAT’S NO PROBLEM - I will help you find one.\n\nYes\nNo\nMaybe\n\nWhat research question(s) are being addressed with these data?\nWhat is the status of this data set?Leave only the most relevant answer.*\n\nI have finished collecting the data (Skip to question 13)\nI have started data collection but will not be done before the semester ends (Skip to question 13)\nI have started data collection and will be done before the semester ends (Skip to question 13)\nOther (please elaborate) (Skip to question 12)\n\n\n\n5.1.1 Data Set Status = Other\n\nIf you answered “other” to the previous question, briefly elaborate here.\n\n\n\n5.1.2 Tell me about the data set(s)\n\nWhat are they and what kind of information do they contain?\nWhat tools and techniques did you use to collect it?\nWhat format are they in (e.g., sheets of paper, notebooks, spreadsheet, text files, photographs)\nHow much data is it? (estimated number of files, surveys, photographs, etc).\nWho collected the data?\n\nI did / I am / I will\nA 3rd party (e.g., my advisor, another student, a collaborator)\nIt it is previously published or public data Other:\n\nAre the data from research conducted with human subjects?\n\nYes\nNo\n\nAre any collaborators currently working with the data?\n\nYes\nNo\n\nWill anyone (e.g., collaborators, advisor) be working with the data in the future?\n\nYes\nNo\nDon’t Know\n\nWhat instruments did you use for COLLECTING and RECORDING raw data (check all that apply)\n\npaper survey or data recording forms\nonline surveys\nnotebooks/forms in which personal observations, notes, or responses to questions were recorded\naudio recordings\ndata from automated data loggers\nphotographs\nvideo\nmedical instruments (EKG, eye trackers; please elaborate below)\ntablets/smartphone\nOther (elaborate in “Data Collection” section below)\n\nWhat were you gathering on or about? Check all that apply.\n\nfield-based experiments, observations, or data collection with live animals or plants\nmuseum collections: herbarium specimens, animals (including tissue or blood), fossils\nplant or non-human animal tissue or blood (not from a museum specimen).\nhuman subjects - behavior, observations, experiments (education, psych, linguistics, etc)\nhuman subjects - tissue, blood, or similar human subjects - records (medical, educational)\nmuseum collections - human remains\nmuseum collections - archeological (pottery, middens mounds)\nmuseum collections - anthropological\nmuseum collections - art (painting, sculpture)\nOther (elaborate in “Data Collection” section below)\n\n\n\n\n5.1.3 Data collection Instruments & Subjects\n\nIf you answered “other” to either of the 2 previous questions, please elaborate on the data collection instruments or subjects.\n\n\n\n5.1.4 Instruments\n\nWhat instruments and software do you use for PROCESSING and ORGANIZING data? Check all that apply\n\nMS Word\nGoogle Docs\nOther word processor\nMS Excel\nGoogle Sheets\nOther spreadsheet software\nScrivener\nOSF\nEvernote\nFlickr\nText editor\nOther (elaborate below)\n\nIf you answered “other”, please list the other tools you use for PROCESSING and ORGANIZING your research data\nIf appropriate for your research domain, do you use any of the following to analyze your data?\nIf you answered “other”, please list the other tools you use for ANALYZING your research data\nAre you an R user? NOTE: YOU ARE NOT EXPECTED TO HAVE ANY PROGRAMMING EXPERIENCE TO TAKE THIS CLASS.\n\nI have never used R\nYes - a novice R user\nYes - an intermediate R user Yes - an advanced R user\n\nWill you be gathering data this summer or fall?\n\nYes\nNo\nNot Sure\n\nIs there anything you’d like to add? Are there particular topics you’d like to see covered or tools you’d like to learn?",
+    "objectID": "class_materials/class_sessions/01_course_introduction/introduction_class_notes.html#objectives",
+    "href": "class_materials/class_sessions/01_course_introduction/introduction_class_notes.html#objectives",
+    "title": "5  Introduction & The Research Data Life Cycle: Instructor Notes",
+    "section": "",
+    "text": "Meet the instructor and students\nGain an appreciation for why I think this subject matter is important\nUnderstand how different disciplines define and use ‘data’\nLearn the ‘Research Data Life-Cycle’\nOverview of the Course Structure, Syllabus",
     "crumbs": [
-      "In-Class Activities",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Course Introduction: In-Class Work</span>"
+      "Class Notes & Activities",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction & The Research Data Life Cycle: Instructor Notes</span>"
     ]
   },
   {
-    "objectID": "class_materials/class_sessions/01_course_introduction/assignment-course-introduction.html#grading-rubric",
-    "href": "class_materials/class_sessions/01_course_introduction/assignment-course-introduction.html#grading-rubric",
-    "title": "5  Course Introduction: In-Class Work",
-    "section": "5.2 Grading Rubric:",
-    "text": "5.2 Grading Rubric:\n\nSurvey completed with thorough answers: 50\n\nMost questions answered completely; some require instructor follow-up: 40\n\nMany questions missing answers or answers are cursory: 30\n\nInstructor follow-up required for survey submission: 20",
+    "objectID": "class_materials/class_sessions/01_course_introduction/introduction_class_notes.html#pre-class-preparation-materials-needed-instructor",
+    "href": "class_materials/class_sessions/01_course_introduction/introduction_class_notes.html#pre-class-preparation-materials-needed-instructor",
+    "title": "5  Introduction & The Research Data Life Cycle: Instructor Notes",
+    "section": "5.2 Pre-Class Preparation & Materials Needed (Instructor):",
+    "text": "5.2 Pre-Class Preparation & Materials Needed (Instructor):\n\nemail students: confirmation of room and zoom link, pls bring own mug or water bottle, welcome to bring food / snacks\nAsk if any students need laptop, arrange for a loan if needed\nCopy of syllabus and Course Roster\nFlip charts, markers, tent cards for names, dry-write markers",
     "crumbs": [
-      "In-Class Activities",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Course Introduction: In-Class Work</span>"
+      "Class Notes & Activities",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction & The Research Data Life Cycle: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/01_course_introduction/introduction_class_notes.html#pre-class-preparation-students",
+    "href": "class_materials/class_sessions/01_course_introduction/introduction_class_notes.html#pre-class-preparation-students",
+    "title": "5  Introduction & The Research Data Life Cycle: Instructor Notes",
+    "section": "5.3 Pre-class Preparation (Students):",
+    "text": "5.3 Pre-class Preparation (Students):\n\nReadings or Online Lectures: None",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction & The Research Data Life Cycle: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/01_course_introduction/introduction_class_notes.html#data-across-disciplines-the-data-life-cycle",
+    "href": "class_materials/class_sessions/01_course_introduction/introduction_class_notes.html#data-across-disciplines-the-data-life-cycle",
+    "title": "5  Introduction & The Research Data Life Cycle: Instructor Notes",
+    "section": "5.4 ‘Data’ across disciplines & the Data Life Cycle",
+    "text": "5.4 ‘Data’ across disciplines & the Data Life Cycle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5.4.1 Breakout 1: Introductions \n\nGet to know one another! Get in pairs, introduce yourselves, and record responses to the following questions. We will then come back to introduce your partner to the group.\n\nTell me about yourself \n\n\nName\nIn what city were you born?\nWhat you consider your “hometown”?\nProgram and Degree? \nHobbies or what you do to relax / have fun.\nWhat is your motivation for taking this class?\nAny concerns / worries / fears about this class (in particular) and this semester (in general)?\nNow discuss with your partner the following question: What are ’Data?\n\n  #### Report Back {.unnumbered}\n\nWhat are Data?\n\nStudents take turns introducing themselves\nQuick summary of the different ways they defined “data”\n\n\n\n\n\n5.4.2 Intro to Breakout 2: Motivation for Teaching This Course & Data Across Disciplines \n\n\nThe defintion of “Data”\n\nEB Motivation for teaching the class:\n\n\nReduce Student Stress\nResearch integrity: identifies fraud, a shield to protect you when you are right\nBecause it really matters to society, both when we get it wrong and when we get it right\nBecause your data are a potential gold mine for future researchers…but only if you take a few important steps now.\n\n\nPrompt for the next breakout (to start after break); Breakout into larger groups (n = 4)\n\n\n\n5.4.3 BREAK \n\n\n\n5.4.4 Breakout 2 Groups: ‘Data’ across disciplines \n\nNow that data have been defined, we will break into small groups to discuss the following questions. We’ll come back and discuss what you came up with for as a group.\n\nIdentify different kinds of data collected in different disciplines\nHow are these data gathered (tools, techniques) and recorded (media)?\n\n\n\n5.4.5 Breakout 2 Discussion \n\n\nWhat are the different kinds of data collected in different disciplines?\nHow are these data gathered (tools, techniques) and recorded (media)?\n\nAfter each group reports back, discuss the following questions as a group:\n\nAre data types and data recording methods that are unique (or at least much more common) in the biophysical sciences, social sciences, humanities, or other disciplines?\nIt is likely that across disciplines the issues and types of data being used are often very similar, but there might be some differences (e.g., text corpora from humanities).\nOne key is to emphasize that an important part of ‘data’ likely not brought up by the groups is information about how they were recorded, decisions about how to code them, corrections, etc.\nImportant: look to see if the definitions include the word “PLAN”: managing data requires a PLAN. This will let you segway into…\n\n\n\n5.4.6 Wrap-up & In-class Assignment: Instructor presentation: Research Data Cycle & Syllabus Overview \n\n\nTypical vs. New approach to Data\nMost courses start with the most boring part: DMP. I take an approach different from many other data manag classes.\nIntroduce Assignments and Format of Weekly Sessions. This is a workshop!\nThis course is driven by student needs and interests! The syllabus may change as I learn more about those.\n\n\n\n5.4.7 **In-class Assignment: Survey\n\n\nPlease complete the survey in Canvas under “Assignments”.",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction & The Research Data Life Cycle: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/01_course_introduction/introduction_class_notes.html#after-class",
+    "href": "class_materials/class_sessions/01_course_introduction/introduction_class_notes.html#after-class",
+    "title": "5  Introduction & The Research Data Life Cycle: Instructor Notes",
+    "section": "5.5 After class:",
+    "text": "5.5 After class:\n\nBe sure you complete and submit the assignment (by 9 am morning of next session) and prepare for next session by doing reading and watching videos).",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction & The Research Data Life Cycle: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html",
+    "href": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html",
+    "title": "6  File names, formats, & organization; Data Storage & Backup: Instructor Notes",
+    "section": "",
+    "text": "6.1 Pre-Class Preparation & Materials Needed (Instructor):\nSend in an email to students:",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>File names, formats, & organization; Data Storage & Backup: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html#pre-class-preparation-materials-needed-instructor",
+    "href": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html#pre-class-preparation-materials-needed-instructor",
+    "title": "6  File names, formats, & organization; Data Storage & Backup: Instructor Notes",
+    "section": "",
+    "text": "Confirmation of room and zoom link\nRemind students to bring their computers\nMake sure you know if everyone has R and instlled; level of R fluency\nSnacks\nCopies of the syllabus\nCopy of Course Roster\nFlip charts and markers\nDry write markers\nTent cards for student names",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>File names, formats, & organization; Data Storage & Backup: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html#objectives-and-competencies-for-this-session",
+    "href": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html#objectives-and-competencies-for-this-session",
+    "title": "6  File names, formats, & organization; Data Storage & Backup: Instructor Notes",
+    "section": "6.2 Objectives and Competencies for this session:",
+    "text": "6.2 Objectives and Competencies for this session:\n\nDescribe and implement conventions for proper naming of files\nExplain the difference between proprietary and open formats\nLearn how to efficiently organize their research data files\nLearn the preferred format for storing and archiving different types of data files\nBecome familiar with different options for cloud data storage and backup\nDevelop and implement a plan for short- and long-term data storage, back-up, and archiving\nLearn rules and policies for data security\nBecome familiar with tools for such tasks as batch renaming of files, cloud data storage, and automated data backup.\nExplain options for a long-term sustainable preservation strategy/policy for your data (e.g., discipline specific, institutional, departmental, individual).\nAddress the need for conversion to standard formats needed for re-use\nPerform basic archival processes: checksum, auditing, format migration, etc.\nUnderstand costs & time lines for data storage, management tools and services",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>File names, formats, & organization; Data Storage & Backup: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html#pre-class-preparation-students",
+    "href": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html#pre-class-preparation-students",
+    "title": "6  File names, formats, & organization; Data Storage & Backup: Instructor Notes",
+    "section": "6.3 Pre-class Preparation (Students):",
+    "text": "6.3 Pre-class Preparation (Students):\n\nReadings: \n\nJan Čurn. 2014. How a bug in Dropbox permanently deleted my 8000 photos. [read online] [download pdf]\nPSA: Scrivener, Data Integrity and You. Or, How To Avoid Data Loss Heartbreak. [read online] [download pdf]\nHart EM et al. (2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097. [read online] [download pdf].\nPanzarino, M. 2012. How Pixar’s Toy Story 2 was deleted twice, once by technology and again for its own good. TNW. [read online] [[download pdf]]\n\nOnline Lectures:\n\nVideo on Project Organization\nVideo on File Names\nVideo on Storage and Backup",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>File names, formats, & organization; Data Storage & Backup: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html#class-outline",
+    "href": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html#class-outline",
+    "title": "6  File names, formats, & organization; Data Storage & Backup: Instructor Notes",
+    "section": "6.4 Class Outline",
+    "text": "6.4 Class Outline\n\n\n\n\n\n\n\n\n\n\n\n\n6.4.1 Quick Intro \n\na. Address any questions from last week\nb. Overview of today's activities. \n\n\n\n6.4.2 File Format Competition \n\n\n\n6.4.3 Snack Break \n\n\n\n6.4.4 Breakout: Discussion of Data Security and Backup in the field \n\nPrompt: Robin is a graduate student studying Malaria in Tanzania. The research project requires visiting communities, collecting mosquitoes from different sources of standing water (for later identification at the FLMNH and statistical analyses of mosquito diversity and abundance) and conducting semi–structured interviews in the community, where people are asked such things as their age, family income, their access to health care, if they have ever had malaria, their family income, use of mosquito nets. Answers are recorded on data sheets, but the interviews are also recorded with the cell phone for later transcription. Robin also takes pictures of houses to document standing water sources. Throughout the day Robin records observations in a notebook. Robin is staying in a house where there is electricity for a laptop. Once every two weeks Robin goes into town, where there is usually good internet access at the university.\nWhat steps should Robin take in the field to safeguard the data collected in the field?\n\nBreakout Discussion \n\na. Key message - assume the worst case scenario. become paranoid. embrace neurosis. then relax because the plan is in place and all possibilities have been acounted for. \n\n\n\nBreakout 2: Backup Procedures - UF Research Group \n\nPrompt: Please ask each other these questions and then briefly discuss and summarize the responses. Keep the answers anonymous. The goal is to document the range of answers to these questions, so you can summarize or give more detailed answers about individuals as needed.\n\nDoes your advisor / lab / research group have formal policies that govern your data storage, protection, and backup?\nAre you currently backing up your research data?\nDo you have a ‘backup plan’ document?\nHow frequently are you backing up your research data?\nIs it Partial (incremental) or full backup?\nWhere are files backed up?\nWhat metadata accompanies these backups?\nHow do you verify that a backup has been successfully performed?\nHave you ever attempted to read data from older backups?\nHave you ever had to restore a file from a backup version?\nAre you working with data requiring additional protection due to privacy or security concerns?\nIf so, what are the additional safeguards you have implemented?\nWhere and how are your original data collection instruments or samples stored/protected?\n\n\n\nInterview Breakout, collect answers on google doc or word doc and submit with Assignment 2\n\n\n\n\nRemainder of time is to work on Assignment 2. Instructor regularly checking in on students",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>File names, formats, & organization; Data Storage & Backup: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html#messages-to-instill",
+    "href": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html#messages-to-instill",
+    "title": "6  File names, formats, & organization; Data Storage & Backup: Instructor Notes",
+    "section": "6.5 Messages to instill:",
+    "text": "6.5 Messages to instill:\na. a sense of paranoia that everything that could go wrong with notebooks, datasheets, samples, and their backups will - fire, lost mail, flooding, demonic intervention - so that we plan for all scenarios. Can now photograph records, backup, leacve portabl;e hard drives, abc samples, deposit in collections, take a portable scanner to the field...whatever.  As researchers and grad students there is plenty to stress about as it is, lets, takle this stress away so that you can stress about other stuff that \"matters\". \nb. 'Focused Laziness': we want to do this in a way that is as automated (and automatic) as possible. This will mean less work! And that means more time to do other things, be it research or relaxation.",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>File names, formats, & organization; Data Storage & Backup: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html#assignment-for-submission",
+    "href": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html#assignment-for-submission",
+    "title": "6  File names, formats, & organization; Data Storage & Backup: Instructor Notes",
+    "section": "6.6 Assignment for Submission",
+    "text": "6.6 Assignment for Submission\nThis week’s assignment is designed to: (A) get you thinking critically about your own data backup and security procedures, and based on that reflection (B) prepare a data backup plan (if you already have one you can answer the questions below based on that plan). The assignment comes in four parts:\n\nSign up for a UF Dropbox allocation: https://cloud.it.ufl.edu/collaboration-tools/dropbox/. If you are not automatically eligible to sign up, your advisor can request that you be granted an allocation: https://cloud.it.ufl.edu/media/clouditufledu/How-to-Obtain-Access-to-UF-Dropbox-for-Education.pdf.\nSign up for a UF Google Suite Allocation: https://cloud.it.ufl.edu/collaboration-tools/g-suite/\nBriefly describe how you are adhering to the 3-2-1 backup rule for data related to your thesis. If you are not, describe how you will do so moving forward.\nPrepare a brief (~1 page max) Data Backup Plan for your thesis research. Include the following information; you can respond with bullet points unless more detailed answers are needed:\n\nwhat needs to be prepared and for how long;\nwhere backups are located;\nwho can access backups and how contacted;\nhow often data should be backed up;\nwhat kind of backups are performed;\nwho is responsible for performing the backups;\nhardware and software used for performing backups;\nhow / how often to check if backups is successful;\nthe media are used to backup data;\na list of any data that are not archived or backed up.\n\n\n\nSubmission and Grading Rubric\n\nSubmit the Data Backup Plan document (in either .txt or .pdf format) via Canvas.\nGrading Rubric\n\nAssignment completed with thorough answers: 50\nMost questions answered completely; some require instructor follow-up: 40\nMany questions missing answers or answers are cursory: 30\nInstructor follow-up required for homework submission: 20",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>File names, formats, & organization; Data Storage & Backup: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html#after-class",
+    "href": "class_materials/class_sessions/02_file_organization/organization_backup_class_notes.html#after-class",
+    "title": "6  File names, formats, & organization; Data Storage & Backup: Instructor Notes",
+    "section": "6.7 After class:",
+    "text": "6.7 After class:\n\nBe sure you complete and submit the assignment by deadline\nPrepare for next session (assigned reading, videos, etc).",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>File names, formats, & organization; Data Storage & Backup: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html",
+    "title": "7  Data Organization in Spreadsheets: Instructor Notes",
+    "section": "",
+    "text": "7.1 Objectives and Competencies:",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Organization in Spreadsheets: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#objectives-and-competencies",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#objectives-and-competencies",
+    "title": "7  Data Organization in Spreadsheets: Instructor Notes",
+    "section": "",
+    "text": "Be able to identify different categories of data\nLearn best practices for data entry\nRecognize and avoid common problems with data entry and formatting in spreadsheets\nLearn and be able to implement ‘Tidy’ format for data tables in spreadsheets\nIdentify problems with and approaches for proper handling of dates in spreadsheets\nLearn how to export data from spreadsheets in open format",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Organization in Spreadsheets: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#pre-class-preparation-instructor",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#pre-class-preparation-instructor",
+    "title": "7  Data Organization in Spreadsheets: Instructor Notes",
+    "section": "7.2 Pre-Class Preparation (Instructor):",
+    "text": "7.2 Pre-Class Preparation (Instructor):\nSend in an email to students: \n\nRemind everyone about the computer with spreadsheet software prior to class\n\nBring to Class: \n\nSnacks\nFlip charts and markers\nDry write markers\nTent cards for student names",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Organization in Spreadsheets: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#pre-class-preparation-students",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#pre-class-preparation-students",
+    "title": "7  Data Organization in Spreadsheets: Instructor Notes",
+    "section": "7.3 Pre-class Preparation (Students):",
+    "text": "7.3 Pre-class Preparation (Students):\n\nOnline Lectures: None\n\n\nReadings\n\nTesi, W. 2020. An Outdated Version of Excel Led the U.K. to Undercount COVID-19 Cases. Slate. [read online]\nStolberg et al. 2020. CDC Test Counting Error Leaves Epidemiologists ‘Really Baffled’. NY Times.\n[read online]\nBroman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10. [read online]\nJohnson, B. D., Dunlap, E., & Benoit, E. (2010). Organizing “mountains of words” for data analysis, both qualitative and quantitative. Substance Use & Misuse, 45(5), 648-70. [read online]\n\n\n\nComputer Resources\n\nPlease bring your computer. If you need to borrow a laptop or get access to a computer let me know.\nYou will need a spreadsheet program such as MS Excel or LibreOffice installed on your computer. You can use the program of your choice, but the exercises are optimized for MS Excel. UF students can download the Microsoft Office suite free of charge here; if you don’t want to install Excel you can use the online version for free (see this tutorial video on how to do so). LibreOffice is a free and open source package similar to (and compatible with) MS Office. It can be downloaded here.\nThe paper by Broman and Woo on how to organize data in spreadsheets is especially important; it may well be one of the more helpful papers you read while a student. Really.\nIt is also time to install two other pieces of software. We won’t use them until Week 4, but it is worth installing them now to make sure they are working smoothly:\n\nthe R programming language: You can download the version of R for your computer operating system here; it’s free.\n\n\nFor Mac computers click on ‘Download R for (Mac) OS X’, then chose the version of R for your operating system, i.e., macOS 10.13 (High Sierra), OS X 10.11 (El Capitan), Mac OS X 10.9 (Mavericks), etc.\n\nFor PC computers: click on Download R for Windows, then click ‘base’ or ‘install R for the first time’.\n\nFor Linux: click on ‘Download R for Linux’; after which you are on your own. Then again you use Linux, so you probably don’t need my help anyway.\n\nIf you need help: watch this video tutorial or contact me. Note that the tutorial requires you be a UF affiliate and either on campus or logged to the UF network via VPN.\n\n\nRStudio: the software used to work with R. There are other ‘environments’ one can use for R programming, but RStudio is by far the most widely used and useful.\n\n\nWe use the ‘Free Open-Source Desktop Version’, which you can download here. Choose the version for your computer operating system and install as you would any other software.\nIf you need help: watch this video tutorial or contact me. Note that the tutorial requires you be a UF affiliate and either on campus or logged to the UF network via VPN.\n\n\nVerify the installations worked by opening RStudio to see if it opens properly. If you are really motivated, you can also install the Tidyverse library by starting RStudio and at the console typing install.packages(\"tidyverse\").",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Organization in Spreadsheets: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#session-introduction",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#session-introduction",
+    "title": "7  Data Organization in Spreadsheets: Instructor Notes",
+    "section": "7.4 Session Introduction",
+    "text": "7.4 Session Introduction\n\nTypes of Data\n\nDown the road when doing data correction, organizing data, and doing analyses it will be essential to classify data according to their ‘type’. It can also help with data entry, which is why we will introduce some of these types here:\n\nNominal aka Factor: categories or groups, such as [apple, orange], [trumpet, flute, violin]\nOrdinal aka Ordered Factor: groups where there is an order: [first&gt;second&gt;third], [small&lt;medium&lt;large]. Note that this order doesn’t imply quantitative value, e.g., One is not stating that medium is twice the size of small or that large is twice the size of medium.\nCharacter: [a, gnv, mexico, Inigo Montoya]\nNumeric (real or decimal): 2, 15.5\nInteger: [1,2,3]\nLogical: [True, False]\nComplex: 1+4*i\nInteresting case: what category are [red, orange, green, blue]? We usually treat it as Nominal, but it is actually Ordinal - the colors represent wavelengths on the visible light spectrum (650, 600, 550, and 450 nm respectively). If you were recording the wavelength itself, it would be Numeric.\nFor more on different categories of data you can watch this video on LinkedIn Learning. More information on how to log on to LinkedIn Learning as a UF Affiliate is found here\n\n\n\n7.4.1 Spreadsheets\n\nSpreadsheets are ok for data entry, but they have some features that make it easy to do terrible, terrible things. People often use spreadsheets for much more, including calculations, statistical analyses, and creating tables or figures for publications and presentations.\nAfter you have entered data in a spreadsheet:\n    Don’t do calculations or data correction\n    I implore you.\n    Don’t. Please\nThere are several reasons why.\n(A) The ‘drag-and-drop’, menu-driven nature of spreadsheet programs makes it very difficult (or impossible) to replicate your steps, much less those of another person. This means you can’t easily find where mistakes were made, and if you have to reconstruct an analysis or figure you have to start from from the very beginning This is extremely tedious.\n(B) Furthermore, when doing calculations in a spreadsheet it is easy to accidentally apply a slightly different formula to multiple adjacent cells. It is easy to introduce mistakes.\n(C) Finally, at some point during your data correction or analyses - probably without even realizing it - you will make a mistake either ‘sorting’ or trying to fill in cells with ‘copy-drag-drop-paste’. This will potentially ruin several days of your life (or more) while you try to fix it (assuming you realize you made this mistake, which people often don’t).",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Organization in Spreadsheets: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#breakout-1-group-discussion",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#breakout-1-group-discussion",
+    "title": "7  Data Organization in Spreadsheets: Instructor Notes",
+    "section": "7.5 Breakout 1: Group Discussion ",
+    "text": "7.5 Breakout 1: Group Discussion \n\nMuch of your future as a researcher will be spent cleaning and correcting data, but you can reduce the time spent on this task (and the associated stress) considerably by implementing some good practices from the start. To start developing these good habits we will to take a look at some spreadsheets, identify the things that people should not be doing with them, and then determining what they should be doing instead.\n\nDownload the following three spreadsheets. To download the files, click the links and then the download button (shown below) on the right-hand side.\n\n\n\n\nDownload Files by following the link and clicking this button.\n\n\n\nSAFI_messy.xlsx: download link.\nunity-portal-data.xlsx: download link.\ndates.xlsx: {download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/03dd47f3b52a9bf32be643cf34bafcce6566e555/content/instructor-materials/class-sessions/03-spreadsheets/examples/dates.xlsx)\n\n\nOpen SAFI_messy.xlsx and look at how the data are have been entered and organized. Now discuss the following questions. Keep in mind the tidy principles about which you read in Broman and Woo (2018).\n\n\nWhat problems can you identify with the way these data are entered/organized?\nHow would you correct each of these issues? Could these data easily be imported into a programming language or a database in its current form?\n\n\nDo the same with unity-portal-data.xlsx: review the data and discuss questions a & b.\nDates, or things that look like dates, are especially problematic in Excel. Open the file dates.xlsx and enter the following dates into the column labeled date_1. Be sure to type them in exactly as they are written:\n\n7-2-21\n2 july 2021\njuly 2, 2021\njuly 2,2021 [no space between the comma and 2021]\n07-02-21\n7/2/21\nJan 5, 1900\nDec 5, 1899\n\n\nIs the value in the cell the same as what you typed in?\nWhy would these issues be a problem for data organization and analysis?\n\nNext enter the dates above into the column labeled date_2. Again, be sure to type them in exactly as they are written.\n\nwhat was different about the way the data are recorded?\ncan you figure out why?\n\nWhat would you do to enter dates into Excel in a way that avoids the issues observed above?\nExport the SAFI_messy.xlsx as a .csv file with the name SAFI_messy.csv; you’ll have to click the “OK” when warning box pops up. Now reopen it. What happened? You can find a guide to saving your file in .csv format and why that is a good idea on this website.",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Organization in Spreadsheets: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#breakout-1-returning-results",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#breakout-1-returning-results",
+    "title": "7  Data Organization in Spreadsheets: Instructor Notes",
+    "section": "7.6 Breakout 1: Returning results ",
+    "text": "7.6 Breakout 1: Returning results \n\nAlternating between groups, guide groups to the following best practices: \n\nMake your data tidy\n\nSpreadsheets should be a rectangle, with only rows and columns.\nEach column is a different variable (a thing you are measuring, like ‘weight’ or ‘temperature’).\nOne row per observation. Each cell has only one value.\n\nColumn headers: Use short meaningful column names with no spaces or special characters. Don’t start column names with numbers. Record units in column headers.\nUse consistent names, abbreviations/codes, and capitalization.\nUse good null values (not -999, blanks ok, some prefer NA or similar but this can be language specific).\nWrite dates as YYYYMMDD. Better still have separate columns for Year, Month, and Day.\ndon’t enter the same data on multiple spreadsheets: Use one for each category of data to avoid duplicated data and to simplify corrections (e.g., taxonomy).\nAvoid using multiple tables within one spreadsheet.\nAvoid spreading data across multiple tabs (but do use a new tab to record data cleaning or manipulations).\nRecord zeros as zeros.\nUse an appropriate null value to record missing data.\nDon’t use formatting to convey information or to make your spreadsheet look pretty.\nExcel is unable to parse dates from before 1899-12-31. Be careful if your data include a mix of pre/post….you’ll have mixed data types.\nRemember that data format and excel defaults can vary by region. For example, depending on the part of the world where a user is based, the default value for the decimal and thousands operator could be a , (comma) or a . (period); some regions use mm-dd for dates while others use dd-mm.\nNB: The reason dates in Excel are so weird is that it is accounting software. It counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as the serial number 41822. This is so one can can easily calclulate “days from a given date” for accounting purposes (like invoicing) by adding “date+XX days”. * Furthermore, Excel is unable to parse dates from before 1899-12-31. Be careful if your data include a mix of pre/post….you’ll have mixed data types.",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Organization in Spreadsheets: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#take-home-messages",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#take-home-messages",
+    "title": "7  Data Organization in Spreadsheets: Instructor Notes",
+    "section": "7.7 Take-home Messages",
+    "text": "7.7 Take-home Messages\n\nOnce you are done with data entry, save it as ‘read only’ and make all corrections using scripting!\nEntering data in tidy format will make it much easier to analyze.\nCollecting data in tidy format makes it easier to enter data in tidy format.",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Organization in Spreadsheets: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#break",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#break",
+    "title": "7  Data Organization in Spreadsheets: Instructor Notes",
+    "section": "7.8 Break",
+    "text": "7.8 Break",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Organization in Spreadsheets: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#in-class-group-assignment",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#in-class-group-assignment",
+    "title": "7  Data Organization in Spreadsheets: Instructor Notes",
+    "section": "7.9 In-class Group Assignment ",
+    "text": "7.9 In-class Group Assignment \n\nThe goal of this breakout is to learn some ways to minimize the number of mistakes when entering data. First, watch the following video (11 min) on ‘Data Validation in Excel’. Second, open this web page on ‘Quality Assurance and Control in Excel’. It covers the same material, so it’s a handy reference to have open during the exercise. (Note: while we are using Excel for this exercise, see “Tools” below for how to do the same in Google Sheets).\n\nExercise:  Set up a tidy sheet for data entry for the Portal data from Breakout 1\n\nCreate a spreadsheet in Excel for data entry. It should have five columns, in which you will be recording (1) the date of observations, (2) the site in which the observations were conducted, (3) the species captured, (4) the mass of each animal, and (5) the length of each animal.\nSet the following data validation criteria to prevent invalid data from getting entered:\n\nThe Date column should be set so that it does not convert dates to other formats.\nUse data validation so that Site can only be one of the following A1, A2, B1, B2.\nSet the error message on this validation criteria to provide information on what the valid values are.\nUse data validation so that Species can only be one of the following: Dipodomys spectabilis, Dipodomys ordii, Dipodomys merriami.\nSet the error message on this validation criteria to provide information on what the valid values are.\nUse data validation so that Mass can only be a decimal greater than or equal to zero but less than or equal to 500.\nSet the error message on this validation criteria to provide information on what the valid values are.\nLength should be an integer (i.e., a whole number) between 1 and 10.\nSet the error message on this validation criteria to provide information on what the valid values are.\n\nCheck that the validation rules and data formatting are working by entering some data in the cells\nSave this file as data_entry_form.xlsx and submit it via the Canvas website as ‘homework-wk3’.\n\n\n\nGrading Rubric:\nAssignment completed with data validation correctly programmed with useful error messages: 50 Most data validation properly programmed; some require instructor follow-up: 40 Many of the validation parameters need corrections, error messages not useful: 30 Incorrect data are able to be entered in all categories; Instructor follow-up required: 20",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Organization in Spreadsheets: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#time-remaining",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#time-remaining",
+    "title": "7  Data Organization in Spreadsheets: Instructor Notes",
+    "section": "7.10 Time remaining",
+    "text": "7.10 Time remaining\n\nAny time remaining can be used for:\n\nData Project Hand-out and overview (r proj_overview min)\nUsing R to go from ‘dirty’ to ‘clean’ data. (r cleaning_demo min). A live coding example to lay the foundation for what we will be doing moving forward, and how scripting makes it easy to go from dirty to clean data in a reproducible fashion.\nGoing over R installations, meeting with students about their data sets for the semester projects, etc.",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Organization in Spreadsheets: Instructor Notes</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#sources-for-this-lesson",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.html#sources-for-this-lesson",
+    "title": "7  Data Organization in Spreadsheets: Instructor Notes",
+    "section": "7.11 Sources for this lesson",
+    "text": "7.11 Sources for this lesson\n\nDataONE Community Engagement & Outreach Working Group (2017) “Data Quality Control and Assurance”. Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/05_qaqc/index on Aug 31, 2020\nDataONE Community Engagement & Outreach Working Group (2017) “Data Entry and Manipulation”. Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/04_entry/index on Aug 31, 2020\nPhilip Woodhouse, Gert Jan Veldwisch, Daniel Brockington, Hans C. Komakech, Angela Manjichi, Jean-Philippe Venot. 2018. SAFI Survey Results. https://figshare.com/articles/dataset/SAFI_Survey_Results/6262019 doi:10.6084/m9.figshare.6262019.v4\nChris Prener, Trevor Burrows (Eds.). Data Carpentry: Data Organization in Spreadsheets for Social Scientists. https://datacarpentry.org/spreadsheets-socialsci/\nPeter R. Hoyt, Christie Bahlai, Tracy K. Teal (Eds.), Erin Alison Becker, Aleksandra Pawlik, Peter Hoyt, Francois Michonneau, Christie Bahlai, Toby Reiter, et al. (2019, July 5). datacarpentry/spreadsheet-ecology-lesson: Data Carpentry: Data Organization in Spreadsheets for Ecologists, June 2019 (Version v2019.06.2). Zenodo. http://doi.org/10.5281/zenodo.3269869\nErnest, Morgan; Brown, James; Valone, Thomas; White, Ethan P. (2017): Portal Project Teaching Database. figshare. https://doi.org/10.6084/m9.figshare.1314459.v6",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Data Organization in Spreadsheets: Instructor Notes</span>"
     ]
   },
   {
     "objectID": "class_materials/class_projects/assignments.html",
     "href": "class_materials/class_projects/assignments.html",
-    "title": "6  Assignments Overview",
+    "title": "8  Assignments Overview",
     "section": "",
-    "text": "6.1 Weekly In-class activities\nGrades in the course will be based on the following assignments:",
+    "text": "8.1 Weekly In-class activities\nGrades in the course will be based on the following assignments:",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/class_projects/assignments.html#weekly-in-class-activities",
     "href": "class_materials/class_projects/assignments.html#weekly-in-class-activities",
-    "title": "6  Assignments Overview",
+    "title": "8  Assignments Overview",
     "section": "",
     "text": "Overview: Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them they can be submitted anytime until 9 am the following Friday.",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/class_projects/assignments.html#reproducible-data-organization-project",
     "href": "class_materials/class_projects/assignments.html#reproducible-data-organization-project",
-    "title": "6  Assignments Overview",
-    "section": "6.2 Reproducible Data Organization Project",
-    "text": "6.2 Reproducible Data Organization Project\n\nOverview: This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to (1) clean and organize a ‘messy’ data set and prepare metadata describing the resulting ‘clean’ data. The complete project requires the submission of these three items via the course Canvas website:\n\nR code that imports, cleans, and organizes, and saves ‘messy’ data\nThe resulting corrected and organized data in an appropriate format\nMetadata describing the corrected data set",
+    "title": "8  Assignments Overview",
+    "section": "8.2 Reproducible Data Organization Project",
+    "text": "8.2 Reproducible Data Organization Project\n\nOverview: This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to (1) clean and organize a ‘messy’ data set and prepare metadata describing the resulting ‘clean’ data. The complete project requires the submission of these three items via the course Canvas website:\n\nR code that imports, cleans, and organizes, and saves ‘messy’ data\nThe resulting corrected and organized data in an appropriate format\nMetadata describing the corrected data set",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/class_projects/assignments.html#thesis-research-dmp",
     "href": "class_materials/class_projects/assignments.html#thesis-research-dmp",
-    "title": "6  Assignments Overview",
-    "section": "6.3 Thesis Research DMP",
-    "text": "6.3 Thesis Research DMP\n\nOverview: The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.",
+    "title": "8  Assignments Overview",
+    "section": "8.3 Thesis Research DMP",
+    "text": "8.3 Thesis Research DMP\n\nOverview: The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html",
     "href": "class_materials/resources/resources.html",
-    "title": "7  Useful resources for Data Collection & Managment",
+    "title": "9  Useful resources for Data Collection & Managment",
     "section": "",
-    "text": "7.1 R Programming",
+    "text": "9.1 R Programming",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#r-programming",
     "href": "class_materials/resources/resources.html#r-programming",
-    "title": "7  Useful resources for Data Collection & Managment",
+    "title": "9  Useful resources for Data Collection & Managment",
     "section": "",
-    "text": "7.1.1 Essential\n\nHadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nWhere and How to ask for help\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\n\n7.1.2 Tutorials and Books\n\nR Essential Training: Wrangling and Visualizing Data\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl\nR Bootcamp\nKieran Healy’s Data Visualization: a practical introduction is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.\nSo. Many. Resources.\nROpenSci: tools for accessing, manipulating, and visualizing open data\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning\nLearning R\nSwirl",
+    "text": "9.1.1 Essential\n\nHadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nWhere and How to ask for help\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\n\n9.1.2 Tutorials and Books\n\nR Essential Training: Wrangling and Visualizing Data\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl\nR Bootcamp\nKieran Healy’s Data Visualization: a practical introduction is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.\nSo. Many. Resources.\nROpenSci: tools for accessing, manipulating, and visualizing open data\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning\nLearning R\nSwirl",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#slide-presentations-in-r",
     "href": "class_materials/resources/resources.html#slide-presentations-in-r",
-    "title": "7  Useful resources for Data Collection & Managment",
-    "section": "8.1 Slide Presentations in R",
-    "text": "8.1 Slide Presentations in R\n\nMake slide presentations with R",
+    "title": "9  Useful resources for Data Collection & Managment",
+    "section": "10.1 Slide Presentations in R",
+    "text": "10.1 Slide Presentations in R\n\nMake slide presentations with R",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#data-archives",
     "href": "class_materials/resources/resources.html#data-archives",
-    "title": "7  Useful resources for Data Collection & Managment",
-    "section": "8.2 Data Archives",
-    "text": "8.2 Data Archives\nQualitative Data Repository",
+    "title": "9  Useful resources for Data Collection & Managment",
+    "section": "10.2 Data Archives",
+    "text": "10.2 Data Archives\nQualitative Data Repository",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#text-extraction-and-organization",
     "href": "class_materials/resources/resources.html#text-extraction-and-organization",
-    "title": "7  Useful resources for Data Collection & Managment",
-    "section": "8.3 Text Extraction and Organization",
-    "text": "8.3 Text Extraction and Organization\nPlan for extraction and organization",
+    "title": "9  Useful resources for Data Collection & Managment",
+    "section": "10.3 Text Extraction and Organization",
+    "text": "10.3 Text Extraction and Organization\nPlan for extraction and organization",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#form-design",
     "href": "class_materials/resources/resources.html#form-design",
-    "title": "7  Useful resources for Data Collection & Managment",
-    "section": "8.4 Form Design",
-    "text": "8.4 Form Design\nBest Practice for Form Design",
+    "title": "9  Useful resources for Data Collection & Managment",
+    "section": "10.4 Form Design",
+    "text": "10.4 Form Design\nBest Practice for Form Design",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#data-security",
     "href": "class_materials/resources/resources.html#data-security",
-    "title": "7  Useful resources for Data Collection & Managment",
-    "section": "8.5 Data Security",
-    "text": "8.5 Data Security\nUF Office of Information Security and Compliance\nCyber Safeguards for UF\nUF IRB\nUF Data Classification Policy\nUF Office of Information Security and Compliance",
+    "title": "9  Useful resources for Data Collection & Managment",
+    "section": "10.5 Data Security",
+    "text": "10.5 Data Security\nUF Office of Information Security and Compliance\nCyber Safeguards for UF\nUF IRB\nUF Data Classification Policy\nUF Office of Information Security and Compliance",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#platforms-for-organization-collaboration",
     "href": "class_materials/resources/resources.html#platforms-for-organization-collaboration",
-    "title": "7  Useful resources for Data Collection & Managment",
-    "section": "8.6 Platforms for Organization & Collaboration",
-    "text": "8.6 Platforms for Organization & Collaboration\nOpen Science Framework",
+    "title": "9  Useful resources for Data Collection & Managment",
+    "section": "10.6 Platforms for Organization & Collaboration",
+    "text": "10.6 Platforms for Organization & Collaboration\nOpen Science Framework",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "slidedecks.html",
     "href": "slidedecks.html",
-    "title": "8  Slide decks",
+    "title": "10  Slide decks",
     "section": "",
     "text": "Here are the slide decks:\n\n👉 Introduction — Slides\n\n\n\n\n👉 File Names — Slides",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Slide decks</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Slide decks</span>"
     ]
   }
 ]
