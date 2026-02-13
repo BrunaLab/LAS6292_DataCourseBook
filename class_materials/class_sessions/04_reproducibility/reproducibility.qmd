@@ -24,44 +24,44 @@ date-modified: last-modified
 
 1. Install libraries, load libraries, and run verify they work by running a few commands
 
-::: {.content-visible when-format="html"}
-#| message: false
-#| echo: false
-#| results: hide
-#| eval: false
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- #| message: false -->
+<!-- #| echo: false -->
+<!-- #| results: hide -->
+<!-- #| eval: false -->
 
-```{r}
-# Use the tab to install package `dadjokeapi`. 
-# You could also do the following:
-install.packages("dadjokesapi")
-install.packages("tidyverse")
-# load the library
-library(dadjokeapi)
-# run a command
-groan()
-```
+<!-- ```{r} -->
+<!-- # Use the tab to install package `dadjokeapi`.  -->
+<!-- # You could also do the following: -->
+<!-- install.packages("dadjokesapi") -->
+<!-- install.packages("tidyverse") -->
+<!-- # load the library -->
+<!-- library(dadjokeapi) -->
+<!-- # run a command -->
+<!-- groan() -->
+<!-- ``` -->
 
-:::
+<!-- ::: -->
 
 
 
-::: {.content-visible when-format="pdf"}
+<!-- ::: {.content-visible when-format="pdf"} -->
 
-```{r}
+<!-- ```{r} -->
 
-# library(plotly)
-# library(ggplot2)
-# # Use the tab to install package `dadjokeapi`. 
-# # You could also do the following:
-# install.packages("dadjokesapi")
-# install.packages("tidyverse")
-# # load the library
-# library(dadjokeapi)
-# # run a command
-# groan()
-```
+<!-- # library(plotly) -->
+<!-- # library(ggplot2) -->
+<!-- # # Use the tab to install package `dadjokeapi`.  -->
+<!-- # # You could also do the following: -->
+<!-- # install.packages("dadjokesapi") -->
+<!-- # install.packages("tidyverse") -->
+<!-- # # load the library -->
+<!-- # library(dadjokeapi) -->
+<!-- # # run a command -->
+<!-- # groan() -->
+<!-- ``` -->
 
-:::
+<!-- ::: -->
 
 
 ## Gather the Raw Data to be corrected
