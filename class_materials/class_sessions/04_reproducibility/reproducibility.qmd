@@ -24,7 +24,13 @@ date-modified: last-modified
 
 1. Install libraries, load libraries, and run verify they work by running a few commands
 
-```{r echo = T, results = 'hide', eval=FALSE}
+::: {.content-visible when-format="html"}
+#| message: false
+#| echo: false
+#| results: hide
+#| eval: false
+
+```{r echoF, }
 # Use the tab to install package `dadjokeapi`. 
 # You could also do the following:
 install.packages("dadjokesapi")
@@ -34,6 +40,8 @@ library(dadjokeapi)
 # run a command
 groan()
 ```
+
+:::
 
 ## Gather the Raw Data to be corrected
 
