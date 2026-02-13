@@ -232,19 +232,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#tools" id="toc-tools" class="nav-link active" data-scroll-target="#tools"><span class="header-section-number">6.1</span> Tools</a>
+  <li><a href="#data-validation-rules" id="toc-data-validation-rules" class="nav-link active" data-scroll-target="#data-validation-rules"><span class="header-section-number">6.1</span> ‘Data Validation’ Rules</a></li>
+  <li><a href="#data-entry-with-text-to-speech" id="toc-data-entry-with-text-to-speech" class="nav-link" data-scroll-target="#data-entry-with-text-to-speech"><span class="header-section-number">6.2</span> Data entry with ‘Text-to-Speech’</a>
   <ul class="collapse">
-  <li><a href="#reduce-data-entry-errors-with-data-validation-rules" id="toc-reduce-data-entry-errors-with-data-validation-rules" class="nav-link" data-scroll-target="#reduce-data-entry-errors-with-data-validation-rules">Reduce Data Entry Errors with ‘Data Validation’ Rules</a></li>
-  <li><a href="#confirm-data-values-after-entry-with-text-to-speech" id="toc-confirm-data-values-after-entry-with-text-to-speech" class="nav-link" data-scroll-target="#confirm-data-values-after-entry-with-text-to-speech">Confirm data values after entry with ‘Text-to-Speech’</a></li>
+  <li><a href="#ms-excel-other-ms-programs" id="toc-ms-excel-other-ms-programs" class="nav-link" data-scroll-target="#ms-excel-other-ms-programs">MS Excel (&amp; other MS programs)</a></li>
+  <li><a href="#text-to-speech-in-google-docs" id="toc-text-to-speech-in-google-docs" class="nav-link" data-scroll-target="#text-to-speech-in-google-docs">Text-to-Speech in Google Docs</a></li>
   <li><a href="#better-still-speak-on-enter-to-confirm-data-values-as-entered" id="toc-better-still-speak-on-enter-to-confirm-data-values-as-entered" class="nav-link" data-scroll-target="#better-still-speak-on-enter-to-confirm-data-values-as-entered">Better still: ‘speak-on-enter’ to confirm data values as entered</a></li>
-  <li><a href="#speech-to-text-for-keyboardless-data-entry" id="toc-speech-to-text-for-keyboardless-data-entry" class="nav-link" data-scroll-target="#speech-to-text-for-keyboardless-data-entry"><span class="header-section-number">6.1.1</span> Speech-to-Text for keyboardless data entry</a></li>
-  <li><a href="#overview-of-ms-accessibility-tools" id="toc-overview-of-ms-accessibility-tools" class="nav-link" data-scroll-target="#overview-of-ms-accessibility-tools">Overview of MS Accessibility Tools</a></li>
+  <li><a href="#speech-to-text-for-keyboardless-data-entry" id="toc-speech-to-text-for-keyboardless-data-entry" class="nav-link" data-scroll-target="#speech-to-text-for-keyboardless-data-entry">Speech-to-Text for keyboardless data entry</a></li>
   </ul></li>
-  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings"><span class="header-section-number">6.2</span> Readings</a></li>
-  <li><a href="#r-packages-for-data-qaqc" id="toc-r-packages-for-data-qaqc" class="nav-link" data-scroll-target="#r-packages-for-data-qaqc"><span class="header-section-number">6.3</span> R Packages for Data QA/QC</a>
+  <li><a href="#overview-of-ms-accessibility-tools" id="toc-overview-of-ms-accessibility-tools" class="nav-link" data-scroll-target="#overview-of-ms-accessibility-tools"><span class="header-section-number">6.3</span> Overview of MS Accessibility Tools</a></li>
+  <li><a href="#r-packages-for-data-qaqc" id="toc-r-packages-for-data-qaqc" class="nav-link" data-scroll-target="#r-packages-for-data-qaqc"><span class="header-section-number">6.4</span> R Packages for Data QA/QC</a>
   <ul class="collapse">
-  <li><a href="#for-more-advanced-r-users" id="toc-for-more-advanced-r-users" class="nav-link" data-scroll-target="#for-more-advanced-r-users"><span class="header-section-number">6.3.1</span> <strong>For more advanced R users:</strong></a></li>
+  <li><a href="#for-more-advanced-r-users" id="toc-for-more-advanced-r-users" class="nav-link" data-scroll-target="#for-more-advanced-r-users"><span class="header-section-number">6.4.1</span> <strong>For more advanced R users:</strong></a></li>
   </ul></li>
+  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings"><span class="header-section-number">6.5</span> Readings</a></li>
   <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources"><span class="header-section-number">7</span> Sources</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/05_QAQC1/qaqc1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
@@ -277,33 +278,26 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="tools" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="tools"><span class="header-section-number">6.1</span> Tools</h2>
-<section id="reduce-data-entry-errors-with-data-validation-rules" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="reduce-data-entry-errors-with-data-validation-rules">Reduce Data Entry Errors with ‘Data Validation’ Rules</h3>
+<section id="data-validation-rules" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="data-validation-rules"><span class="header-section-number">6.1</span> ‘Data Validation’ Rules</h2>
 <ol type="1">
 <li>Data Validation in Excel [<a href="https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249">link</a>]</li>
 </ol>
 </section>
-<section id="confirm-data-values-after-entry-with-text-to-speech" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="confirm-data-values-after-entry-with-text-to-speech">Confirm data values after entry with ‘Text-to-Speech’</h3>
-<ol type="1">
-<li><p>MS Excel (&amp; other MS programs)</p>
-<ul>
-<li>Converting text to speech in Excel for Microsoft 365, Excel 2010-2021 <a href="https://support.microsoft.com/en-us/office/converting-text-to-speech-in-excel-3f2ca8c0-90e2-4391-8e69-573832ea7300">[link]</a>.</li>
-<li>Microsoft for Mac: Hear selected text read aloud from Excel, Word, Power Point, and Outlook [<a href="https://support.microsoft.com/en-gb/office/hear-selected-text-read-aloud-ce9fb073-2a4d-44d2-95f7-6a532f0ab112">link</a>]. See also <em>‘System Preferences-&gt;Accessibility’</em></li>
-<li>Video Tutorials
-<ol type="1">
-<li><a href="https://youtu.be/5ZOsMe0aPt8">Tutorial Video 1</a>. This will allow you to select rows or columns of Excel and have them read back to you.</li>
-<li><a href="https://youtu.be/q6LOhQThvB8">Tutorial Video 2</a>: it’s not as thorough, but it is a bit easier to see the menu</li>
-<li><a href="https://youtu.be/DSltR90mkgc">Tutorial Video 3</a>. Because why not a third one?</li>
-</ol></li>
-</ul></li>
-<li><p>Text-to-Speech in Google Docs</p>
-<ul>
-<li>If you prefer working in Google Docs you can do the same thing. <a href="https://www.businessinsider.com/how-to-make-google-docs-read-to-you">This article</a> will show you how. You can also watch <a href="https://youtu.be/3UmI5wo5kHg">this tutorial video</a>.</li>
-</ul></li>
-</ol>
+<section id="data-entry-with-text-to-speech" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="data-entry-with-text-to-speech"><span class="header-section-number">6.2</span> Data entry with ‘Text-to-Speech’</h2>
+<section id="ms-excel-other-ms-programs" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="ms-excel-other-ms-programs">MS Excel (&amp; other MS programs)</h3>
+<pre><code>* Converting text to speech in Excel for Microsoft 365, Excel 2010-2021 [[link]](https://support.microsoft.com/en-us/office/converting-text-to-speech-in-excel-3f2ca8c0-90e2-4391-8e69-573832ea7300). 
+* Microsoft for Mac: Hear selected text read aloud from Excel, Word, Power Point, and Outlook [[link](https://support.microsoft.com/en-gb/office/hear-selected-text-read-aloud-ce9fb073-2a4d-44d2-95f7-6a532f0ab112)].  See also _'System Preferences-&gt;Accessibility'_
+* Video Tutorials
+    1. [Tutorial Video 1](https://youtu.be/5ZOsMe0aPt8). This will allow you to select rows or columns of Excel and have them read back to you. 
+    2. [Tutorial Video 2](https://youtu.be/q6LOhQThvB8): it's not as thorough, but it is a bit easier to see the menu
+    3. [Tutorial Video 3](https://youtu.be/DSltR90mkgc). Because why not a third one?</code></pre>
+</section>
+<section id="text-to-speech-in-google-docs" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="text-to-speech-in-google-docs">Text-to-Speech in Google Docs</h3>
+<pre><code>* If you prefer working in Google Docs you can do the same thing. [This article](https://www.businessinsider.com/how-to-make-google-docs-read-to-you) will show you how. You can also watch [this tutorial video](https://youtu.be/3UmI5wo5kHg).</code></pre>
 </section>
 <section id="better-still-speak-on-enter-to-confirm-data-values-as-entered" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="better-still-speak-on-enter-to-confirm-data-values-as-entered">Better still: ‘speak-on-enter’ to confirm data values as entered</h3>
@@ -311,32 +305,22 @@ ul.task-list li input[type="checkbox"] {
 <li>speak-on-enter <a href="https://www.makeuseof.com/how-to-get-microsoft-excel-speak-aloud/">[tutorial:]</a></li>
 </ol>
 </section>
-<section id="speech-to-text-for-keyboardless-data-entry" class="level3" data-number="6.1.1">
-<h3 data-number="6.1.1" class="anchored" data-anchor-id="speech-to-text-for-keyboardless-data-entry"><span class="header-section-number">6.1.1</span> Speech-to-Text for keyboardless data entry</h3>
+<section id="speech-to-text-for-keyboardless-data-entry" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="speech-to-text-for-keyboardless-data-entry">Speech-to-Text for keyboardless data entry</h3>
 <ol type="1">
 <li><p>Google Sheets: <a href="https://support.google.com/docs/answer/4492226?hl=en">Typing with your voice</a></p></li>
 <li><p>MS Word: <a href="https://support.microsoft.com/en-us/office/dictate-your-documents-in-word-3876e05f-3fcc-418f-b8ab-db7ce0d11d3c">How to dictate documents</a></p></li>
 </ol>
 </section>
-<section id="overview-of-ms-accessibility-tools" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="overview-of-ms-accessibility-tools">Overview of MS Accessibility Tools</h3>
+</section>
+<section id="overview-of-ms-accessibility-tools" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="overview-of-ms-accessibility-tools"><span class="header-section-number">6.3</span> Overview of MS Accessibility Tools</h2>
 <ol type="1">
 <li>‘Narrator’ function <a href="https://support.microsoft.com/en-us/windows/hear-text-read-aloud-with-narrator-040f16c1-4632-b64e-110a-da4a0ac56917">link</a></li>
 </ol>
 </section>
-</section>
-<section id="readings" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="readings"><span class="header-section-number">6.2</span> Readings</h2>
-<ol type="1">
-<li>Campbell, J. L. <em>et al.</em> 2013. Quantity is nothing without quality: automated QA/QC for streaming environmental sensor data. BioScience, 63(7): 574-585. <a href="https://www.nrs.fs.usda.gov/pubs/jrnl/2013/nrs_2013_campbell-j_002.pdf">link</a></li>
-</ol>
-<p>For more advanced users of R/Github</p>
-<ol type="1">
-<li>Kim, A. Y. <em>et al.</em> 2022. Implementing GitHub Actions continuous integration to reduce error rates in ecological data collection. Methods in Ecology and Evolution, 13, 2572– 2585. https://doi.org/10.1111/2041-210X.13982</li>
-</ol>
-</section>
-<section id="r-packages-for-data-qaqc" class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="r-packages-for-data-qaqc"><span class="header-section-number">6.3</span> R Packages for Data QA/QC</h2>
+<section id="r-packages-for-data-qaqc" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="r-packages-for-data-qaqc"><span class="header-section-number">6.4</span> R Packages for Data QA/QC</h2>
 <ol type="1">
 <li><p><a href="https://sfirke.github.io/janitor/index.html">janitor</a>: simple functions for examining and cleaning dirty data. It was built with beginning and intermediate R users in mind and is optimized for user-friendliness. Advanced R users can already do everything covered here, but with janitor they can do it faster. (see this <a href="https://universeofdatascience.com/how-to-clean-data-in-r/">mini-tutorial</a>)</p>
 <ul>
@@ -347,8 +331,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="https://cran.r-project.org/web/packages/cleaner/readme/README.html">cleanr</a>. small R package for cleaning and checking data columns in a fast and easy way.</p></li>
 <li><p><a href="https://unheadr.liomys.mx/">unheadr</a>: used to wrangle spreadhseets with embedded subheaders or values wrapped accross several rows (highlighting, merged cells, etc).</p></li>
 </ol>
-<section id="for-more-advanced-r-users" class="level3" data-number="6.3.1">
-<h3 data-number="6.3.1" class="anchored" data-anchor-id="for-more-advanced-r-users"><span class="header-section-number">6.3.1</span> <strong>For more advanced R users:</strong></h3>
+<section id="for-more-advanced-r-users" class="level3" data-number="6.4.1">
+<h3 data-number="6.4.1" class="anchored" data-anchor-id="for-more-advanced-r-users"><span class="header-section-number">6.4.1</span> <strong>For more advanced R users:</strong></h3>
 <ol type="1">
 <li><p>Richard’s Iannone <code>pointblank</code> R package for Data Validation and Organization of Metadata [<a href="https://rstudio.github.io/pointblank/">link</a></p></li>
 <li><p><a href="https://cran.r-project.org/web/packages/validate/vignettes/cookbook.html">validate</a>: designed to test data against a reusable set of data validation rules, investigate, summarize, and visualize data validation results, among other things</p></li>
@@ -356,6 +340,16 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Kim, A. Y., Herrmann, V., Barreto, R., Calkins, B., Gonzalez-Akre, E., Johnson, D. J., Jordan, J. A., Magee, L., McGregor, I. R., Montero, N., Novak, K., Rogers, T., Shue, J., &amp; Anderson-Teixeira, K. J. (2022). Implementing GitHub Actions continuous integration to reduce error rates in ecological data collection. Methods in Ecology and Evolution, 13, 2572–2585. https://doi.org/10.1111/2041-210X.13982</p></li>
 </ol>
 </section>
+</section>
+<section id="readings" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="readings"><span class="header-section-number">6.5</span> Readings</h2>
+<ol type="1">
+<li>Campbell, J. L. <em>et al.</em> 2013. Quantity is nothing without quality: automated QA/QC for streaming environmental sensor data. BioScience, 63(7): 574-585. <a href="https://www.nrs.fs.usda.gov/pubs/jrnl/2013/nrs_2013_campbell-j_002.pdf">link</a></li>
+</ol>
+<p>For more advanced users of R/Github</p>
+<ol type="1">
+<li>Kim, A. Y. <em>et al.</em> 2022. Implementing GitHub Actions continuous integration to reduce error rates in ecological data collection. Methods in Ecology and Evolution, 13, 2572– 2585. https://doi.org/10.1111/2041-210X.13982</li>
+</ol>
 </section>
 <section id="sources" class="level1" data-number="7">
 <h1 data-number="7"><span class="header-section-number">7</span> Sources</h1>

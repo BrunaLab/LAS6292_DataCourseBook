@@ -256,29 +256,40 @@
     "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html",
     "title": "6  QA/QC: Reducing Error Entry/Finding and Correcting Errors",
     "section": "",
-    "text": "6.1 Tools",
+    "text": "6.1 ‘Data Validation’ Rules",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>QA/QC: Reducing Error Entry/Finding and Correcting Errors</span>"
     ]
   },
   {
-    "objectID": "class_materials/class_sessions/05_QAQC1/qaqc1.html#tools",
-    "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html#tools",
+    "objectID": "class_materials/class_sessions/05_QAQC1/qaqc1.html#data-validation-rules",
+    "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html#data-validation-rules",
     "title": "6  QA/QC: Reducing Error Entry/Finding and Correcting Errors",
     "section": "",
-    "text": "Reduce Data Entry Errors with ‘Data Validation’ Rules\n\nData Validation in Excel [link]\n\n\n\nConfirm data values after entry with ‘Text-to-Speech’\n\nMS Excel (& other MS programs)\n\nConverting text to speech in Excel for Microsoft 365, Excel 2010-2021 [link].\nMicrosoft for Mac: Hear selected text read aloud from Excel, Word, Power Point, and Outlook [link]. See also ‘System Preferences-&gt;Accessibility’\nVideo Tutorials\n\nTutorial Video 1. This will allow you to select rows or columns of Excel and have them read back to you.\nTutorial Video 2: it’s not as thorough, but it is a bit easier to see the menu\nTutorial Video 3. Because why not a third one?\n\n\nText-to-Speech in Google Docs\n\nIf you prefer working in Google Docs you can do the same thing. This article will show you how. You can also watch this tutorial video.\n\n\n\n\nBetter still: ‘speak-on-enter’ to confirm data values as entered\n\nspeak-on-enter [tutorial:]\n\n\n\n6.1.1 Speech-to-Text for keyboardless data entry\n\nGoogle Sheets: Typing with your voice\nMS Word: How to dictate documents\n\n\n\nOverview of MS Accessibility Tools\n\n‘Narrator’ function link",
+    "text": "Data Validation in Excel [link]",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>QA/QC: Reducing Error Entry/Finding and Correcting Errors</span>"
     ]
   },
   {
-    "objectID": "class_materials/class_sessions/05_QAQC1/qaqc1.html#readings",
-    "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html#readings",
+    "objectID": "class_materials/class_sessions/05_QAQC1/qaqc1.html#data-entry-with-text-to-speech",
+    "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html#data-entry-with-text-to-speech",
     "title": "6  QA/QC: Reducing Error Entry/Finding and Correcting Errors",
-    "section": "6.2 Readings",
-    "text": "6.2 Readings\n\nCampbell, J. L. et al. 2013. Quantity is nothing without quality: automated QA/QC for streaming environmental sensor data. BioScience, 63(7): 574-585. link\n\nFor more advanced users of R/Github\n\nKim, A. Y. et al. 2022. Implementing GitHub Actions continuous integration to reduce error rates in ecological data collection. Methods in Ecology and Evolution, 13, 2572– 2585. https://doi.org/10.1111/2041-210X.13982",
+    "section": "6.2 Data entry with ‘Text-to-Speech’",
+    "text": "6.2 Data entry with ‘Text-to-Speech’\n\nMS Excel (& other MS programs)\n* Converting text to speech in Excel for Microsoft 365, Excel 2010-2021 [[link]](https://support.microsoft.com/en-us/office/converting-text-to-speech-in-excel-3f2ca8c0-90e2-4391-8e69-573832ea7300). \n* Microsoft for Mac: Hear selected text read aloud from Excel, Word, Power Point, and Outlook [[link](https://support.microsoft.com/en-gb/office/hear-selected-text-read-aloud-ce9fb073-2a4d-44d2-95f7-6a532f0ab112)].  See also _'System Preferences-&gt;Accessibility'_\n* Video Tutorials\n    1. [Tutorial Video 1](https://youtu.be/5ZOsMe0aPt8). This will allow you to select rows or columns of Excel and have them read back to you. \n    2. [Tutorial Video 2](https://youtu.be/q6LOhQThvB8): it's not as thorough, but it is a bit easier to see the menu\n    3. [Tutorial Video 3](https://youtu.be/DSltR90mkgc). Because why not a third one?\n\n\nText-to-Speech in Google Docs\n* If you prefer working in Google Docs you can do the same thing. [This article](https://www.businessinsider.com/how-to-make-google-docs-read-to-you) will show you how. You can also watch [this tutorial video](https://youtu.be/3UmI5wo5kHg).\n\n\nBetter still: ‘speak-on-enter’ to confirm data values as entered\n\nspeak-on-enter [tutorial:]\n\n\n\nSpeech-to-Text for keyboardless data entry\n\nGoogle Sheets: Typing with your voice\nMS Word: How to dictate documents",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QA/QC: Reducing Error Entry/Finding and Correcting Errors</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/05_QAQC1/qaqc1.html#overview-of-ms-accessibility-tools",
+    "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html#overview-of-ms-accessibility-tools",
+    "title": "6  QA/QC: Reducing Error Entry/Finding and Correcting Errors",
+    "section": "6.3 Overview of MS Accessibility Tools",
+    "text": "6.3 Overview of MS Accessibility Tools\n\n‘Narrator’ function link",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>QA/QC: Reducing Error Entry/Finding and Correcting Errors</span>"
@@ -288,8 +299,19 @@
     "objectID": "class_materials/class_sessions/05_QAQC1/qaqc1.html#r-packages-for-data-qaqc",
     "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html#r-packages-for-data-qaqc",
     "title": "6  QA/QC: Reducing Error Entry/Finding and Correcting Errors",
-    "section": "6.3 R Packages for Data QA/QC",
-    "text": "6.3 R Packages for Data QA/QC\n\njanitor: simple functions for examining and cleaning dirty data. It was built with beginning and intermediate R users in mind and is optimized for user-friendliness. Advanced R users can already do everything covered here, but with janitor they can do it faster. (see this mini-tutorial)\n\nclean column names\nremove empty rows and columns\nremove duplicated rows\n\ncleanr. small R package for cleaning and checking data columns in a fast and easy way.\nunheadr: used to wrangle spreadhseets with embedded subheaders or values wrapped accross several rows (highlighting, merged cells, etc).\n\n\n6.3.1 For more advanced R users:\n\nRichard’s Iannone pointblank R package for Data Validation and Organization of Metadata [link\nvalidate: designed to test data against a reusable set of data validation rules, investigate, summarize, and visualize data validation results, among other things\nData Curator is a simple desktop data editor to help describe, validate and share usable open data.\nKim, A. Y., Herrmann, V., Barreto, R., Calkins, B., Gonzalez-Akre, E., Johnson, D. J., Jordan, J. A., Magee, L., McGregor, I. R., Montero, N., Novak, K., Rogers, T., Shue, J., & Anderson-Teixeira, K. J. (2022). Implementing GitHub Actions continuous integration to reduce error rates in ecological data collection. Methods in Ecology and Evolution, 13, 2572–2585. https://doi.org/10.1111/2041-210X.13982",
+    "section": "6.4 R Packages for Data QA/QC",
+    "text": "6.4 R Packages for Data QA/QC\n\njanitor: simple functions for examining and cleaning dirty data. It was built with beginning and intermediate R users in mind and is optimized for user-friendliness. Advanced R users can already do everything covered here, but with janitor they can do it faster. (see this mini-tutorial)\n\nclean column names\nremove empty rows and columns\nremove duplicated rows\n\ncleanr. small R package for cleaning and checking data columns in a fast and easy way.\nunheadr: used to wrangle spreadhseets with embedded subheaders or values wrapped accross several rows (highlighting, merged cells, etc).\n\n\n6.4.1 For more advanced R users:\n\nRichard’s Iannone pointblank R package for Data Validation and Organization of Metadata [link\nvalidate: designed to test data against a reusable set of data validation rules, investigate, summarize, and visualize data validation results, among other things\nData Curator is a simple desktop data editor to help describe, validate and share usable open data.\nKim, A. Y., Herrmann, V., Barreto, R., Calkins, B., Gonzalez-Akre, E., Johnson, D. J., Jordan, J. A., Magee, L., McGregor, I. R., Montero, N., Novak, K., Rogers, T., Shue, J., & Anderson-Teixeira, K. J. (2022). Implementing GitHub Actions continuous integration to reduce error rates in ecological data collection. Methods in Ecology and Evolution, 13, 2572–2585. https://doi.org/10.1111/2041-210X.13982",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QA/QC: Reducing Error Entry/Finding and Correcting Errors</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/05_QAQC1/qaqc1.html#readings",
+    "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html#readings",
+    "title": "6  QA/QC: Reducing Error Entry/Finding and Correcting Errors",
+    "section": "6.5 Readings",
+    "text": "6.5 Readings\n\nCampbell, J. L. et al. 2013. Quantity is nothing without quality: automated QA/QC for streaming environmental sensor data. BioScience, 63(7): 574-585. link\n\nFor more advanced users of R/Github\n\nKim, A. Y. et al. 2022. Implementing GitHub Actions continuous integration to reduce error rates in ecological data collection. Methods in Ecology and Evolution, 13, 2572– 2585. https://doi.org/10.1111/2041-210X.13982",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>QA/QC: Reducing Error Entry/Finding and Correcting Errors</span>"
