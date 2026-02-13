@@ -1,0 +1,114 @@
+---
+title: "LAS 6292: Data Collection & Management"
+subtitle: "Reproducibility"
+format: 
+  revealjs:
+    theme: [night, custom.scss]
+    slide-number: true
+    show-slide-number: print
+    # theme: [night]
+    # theme: [custom.css]
+    smaller: true 
+    # axe: true
+    # self-contained: false
+    # reveal-js-url: 
+    # theme: white
+    incremental: true
+    center-title-slide: true
+# editor: source
+# output-dir: "04_slides"
+output: revealjs::revealjs_presentation
+include-in-header:
+      text: |
+        <style>
+        .right {
+          text-align: right;
+        }
+        </style>
+---
+
+## 
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+<h3 style="color:navy" align="center">Why should we practice</h3>
+<h3 style="color:navy" align="center">‘Reproducible Research’?</h3>
+
+
+
+
+
+## Why 'Reproducible Research'?  {.smaller}
+
+- Have you ever tried to reproduce someone else's data analysis? 
+
+- Have you ever tried to repeat your _own_ (old) work?
+
+- What made it easy/hard to do so?
+
+- What would have to happen if you had to extend the analysis further?
+
+- If you caught a data error how easy/hard would it be to re-create the analysis?
+
+- What would happen if your collaborator is no longer available to walk you through their analysis? 
+
+- What if _you_ couldn’t remember the steps?
+
+## A Data Sharing Snafu in 3 Acts  {.smaller}
+
+{{< video https://www.youtube.com/watch?v=66oNv_DJuPc height="85%" width="85%">}}
+
+## Why 'Reproducible Research'?
+
+**Scientific Integrity:** 
+
+  - Rigor, trustworthiness, and transparency
+  - Allows others to verify analyses, find & correct mistakes
+
+**Efficient Research:**
+
+  - Helps remember _HOW_ and _WHY_ you did something.
+
+  - Speed up _this_ project: Automation makes it faster (and easier) to redo analyses. Time saved can be spent doing other stuff.
+
+  - Speed up _future_ projects: Can use scripts from one project for another one.
+
+**Community Good:**
+
+ - Others can learn from your approach & methods
+
+## 
+
+![_The Reproducible Research Workflow_](slide-images/Slide5.png){fig-align="center" width="60%" fig-alt="reproducible workflow: data aquisition, data processing, data analysis, data presentation."}  
+
+
+## 
+
+#### Reproducible Data Processing: _Let's Practice_ 
+
+![](slide-images/Slide6.png){fig-align="center" width="60%" fig-alt="picture of a peanut butter and jelly sandwich."}   
+
+
+## Reproducibility = Recipies
+
+![](slide-images/Slide7.png){fig-align="center" width="50%" fig-alt="picture of the recipie for the classic mexican dish 'mole poblano'"}   
+
+
+
+
+
+
+## 
+
+
+![](slide-images/Slide6.png){fig-align="center" width="60%" fig-alt="picture of a peanut butter and jelly sandwich."}   
+
+
+
+
