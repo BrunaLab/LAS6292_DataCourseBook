@@ -45,8 +45,8 @@ book:
         - class_materials/class_sessions/02_file_organization/organization.qmd
         - class_materials/class_sessions/02_file_storage/storage.qmd  
         - class_materials/class_sessions/03_spreadsheets/spreadsheets.qmd
-        # - class_materials/class_sessions/04_reproducibility/reproducibility.qmd
-    #   - class_materials/class_sessions/0  # - Reproducible Data (Re)organization
+        - class_materials/class_sessions/04_reproducibility/reproducibility.qmd
+        - class_materials/class_sessions/05_QAQC1/qaqc1.qmd
     #   - class_materials/class_sessions/0  # - QA/QC 1: Data Entry & Validation
     #   - class_materials/class_sessions/0  # - QA/QC 2: Data Correction & Synthesis
     #   - class_materials/class_sessions/0  # - OpenRefine
