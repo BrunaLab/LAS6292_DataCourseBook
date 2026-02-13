@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>9&nbsp; Slide decks – LAS 6292: Data Collection and Management</title>
+<title>5&nbsp; Reproducibile Data Cleanup with R – LAS 6292: Data Collection and Management</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +23,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./class_materials/resources/resources.html" rel="prev">
-<link href="./images/cover.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9972660ded2bac7ddac1a49493fe9e24.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../class_materials/class_sessions/05_QAQC1/qaqc1.html" rel="next">
+<link href="../../../class_materials/class_sessions/03_spreadsheets/spreadsheets.html" rel="prev">
+<link href="../../../images/cover.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-9972660ded2bac7ddac1a49493fe9e24.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -83,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./class_materials/resources/resources.html">Appendix 1: Useful Resources</a></li><li class="breadcrumb-item"><a href="./slidedecks.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Slide decks</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/04_reproducibility/reproducibility.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Reproducibile Data Cleanup with R</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -98,20 +99,20 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">LAS 6292: Data Collection and Management</a> 
+      <a href="../../../">LAS 6292: Data Collection and Management</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
     <div class="dropdown">
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./las6202-reader.pdf">
+            <a class="dropdown-item sidebar-tools-main-item" href="../../../las6202-reader.pdf">
               <i class="bi bi-file-pdf pe-1"></i>
             Download PDF
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./las6202-reader.epub">
+            <a class="dropdown-item sidebar-tools-main-item" href="../../../las6202-reader.epub">
               <i class="bi bi-journal pe-1"></i>
             Download ePub
             </a>
@@ -130,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction</span></a>
   </div>
 </li>
@@ -145,37 +146,37 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./class_materials/class_sessions/02_file_names/naming.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../class_materials/class_sessions/02_file_names/naming.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Naming Conventions</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./class_materials/class_sessions/02_file_organization/organization.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../class_materials/class_sessions/02_file_organization/organization.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./class_materials/class_sessions/02_file_storage/storage.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../class_materials/class_sessions/02_file_storage/storage.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data Storage &amp; Backup</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./class_materials/class_sessions/03_spreadsheets/spreadsheets.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../class_materials/class_sessions/03_spreadsheets/spreadsheets.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Data Organization in Spreadsheets</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./class_materials/class_sessions/04_reproducibility/reproducibility.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../class_materials/class_sessions/04_reproducibility/reproducibility.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Reproducibile Data Cleanup with R</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./class_materials/class_sessions/05_QAQC1/qaqc1.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../class_materials/class_sessions/05_QAQC1/qaqc1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">QA/QC: Reducing Error Entry/Finding and Correcting Errors</span></span></a>
   </div>
 </li>
@@ -192,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./class_materials/class_projects/assignments.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../class_materials/class_projects/assignments.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Assignments Overview</span></span></a>
   </div>
 </li>
@@ -209,13 +210,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./class_materials/resources/resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../class_materials/resources/resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Useful resources for Data Collection &amp; Managment</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slidedecks.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../slidedecks.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Slide decks</span></span></a>
   </div>
 </li>
@@ -226,15 +227,25 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#set-up-an-rstudio-project-and-install-the-relevant-packages" id="toc-set-up-an-rstudio-project-and-install-the-relevant-packages" class="nav-link active" data-scroll-target="#set-up-an-rstudio-project-and-install-the-relevant-packages"><span class="header-section-number">5.1</span> Set up an RStudio Project and install the relevant packages</a></li>
+  <li><a href="#gather-the-raw-data-to-be-corrected" id="toc-gather-the-raw-data-to-be-corrected" class="nav-link" data-scroll-target="#gather-the-raw-data-to-be-corrected"><span class="header-section-number">5.2</span> Gather the Raw Data to be corrected</a></li>
+  <li><a href="#take-your-data-from-messy-to-clean-in-these-6-steps" id="toc-take-your-data-from-messy-to-clean-in-these-6-steps" class="nav-link" data-scroll-target="#take-your-data-from-messy-to-clean-in-these-6-steps"><span class="header-section-number">5.3</span> <em>Take your data from <code>messy</code> to <code>clean</code> in these 6 steps:</em></a></li>
+  <li><a href="#tools-resources" id="toc-tools-resources" class="nav-link" data-scroll-target="#tools-resources"><span class="header-section-number">5.4</span> Tools &amp; Resources</a></li>
+  <li><a href="#additional-interesting-reading" id="toc-additional-interesting-reading" class="nav-link" data-scroll-target="#additional-interesting-reading"><span class="header-section-number">6</span> Additional (interesting) Reading</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/04_reproducibility/reproducibility.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./class_materials/resources/resources.html">Appendix 1: Useful Resources</a></li><li class="breadcrumb-item"><a href="./slidedecks.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Slide decks</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/04_reproducibility/reproducibility.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Reproducibile Data Cleanup with R</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Slide decks</span></h1>
+<h1 class="title"><span id="sec-reproducibility" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Reproducibile Data Cleanup with R</span></span></h1>
 </div>
 
 
@@ -243,6 +254,12 @@ ul.task-list li input[type="checkbox"] {
 
     
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">February 13, 2026</p>
+    </div>
+  </div>
     
   </div>
   
@@ -251,26 +268,184 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Here are the slide decks:</p>
+<section id="set-up-an-rstudio-project-and-install-the-relevant-packages" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="set-up-an-rstudio-project-and-install-the-relevant-packages"><span class="header-section-number">5.1</span> Set up an RStudio Project and install the relevant packages</h2>
+<ol type="1">
+<li><p>File -&gt; New Project</p></li>
+<li><p>Name the Project as follows: <code>las_demo</code></p></li>
+<li><p>Create the following three folders:</p>
+<p><code>data_raw</code><br>
+<code>data_clean</code><br>
+<code>code</code></p>
+<p>You can create these in the folder using your operating systems “create folder” option <strong><em>or</em></strong> you can create within R studio using the <code>files</code> tab</p></li>
+<li><p>Install libraries, load libraries, and run verify they work by running a few commands</p></li>
+</ol>
+<!-- ::: {.content-visible when-format="html"} -->
+<!-- #| message: false -->
+<!-- #| echo: false -->
+<!-- #| results: hide -->
+<!-- #| eval: false -->
+<!-- ```{r} -->
+<!-- # Use the tab to install package `dadjokeapi`.  -->
+<!-- # You could also do the following: -->
+<!-- install.packages("dadjokesapi") -->
+<!-- install.packages("tidyverse") -->
+<!-- # load the library -->
+<!-- library(dadjokeapi) -->
+<!-- # run a command -->
+<!-- groan() -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: {.content-visible when-format="pdf"} -->
+<!-- ```{r} -->
+<!-- # library(plotly) -->
+<!-- # library(ggplot2) -->
+<!-- # # Use the tab to install package `dadjokeapi`.  -->
+<!-- # # You could also do the following: -->
+<!-- # install.packages("dadjokesapi") -->
+<!-- # install.packages("tidyverse") -->
+<!-- # # load the library -->
+<!-- # library(dadjokeapi) -->
+<!-- # # run a command -->
+<!-- # groan() -->
+<!-- ``` -->
+<!-- ::: -->
+</section>
+<section id="gather-the-raw-data-to-be-corrected" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="gather-the-raw-data-to-be-corrected"><span class="header-section-number">5.2</span> Gather the Raw Data to be corrected</h2>
+<p>Save your original (aka ‘raw’ or ‘dirty’) data files in the <code>data_raw</code> folder.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>Never make changes to the original file of dirty/raw data. Never. <strong>NEVER</strong>. Always import the uncorrected original data file, make corrections using a script, and then save a new, clean file.</p></li>
+<li><p><em>Annote your code with reminders for future you:</em> the # symbol (aka pound, hash tag) allows you to make comments in the script explaining what different sections or commands do. Annotate your scripts with lots of details on what different commands do, what is being done in each section, even links to websites you used to figure stuff out. Remember: ABA <em>(always be annotating)</em>.</p></li>
+</ol>
+</div>
+</div>
+</section>
+<section id="take-your-data-from-messy-to-clean-in-these-6-steps" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="take-your-data-from-messy-to-clean-in-these-6-steps"><span class="header-section-number">5.3</span> <em>Take your data from <code>messy</code> to <code>clean</code> in these 6 steps:</em></h2>
+<ol type="1">
+<li>Familiarize yourself with the data set</li>
+<li>Check for potential errors. These can be structural errors (e.g., misaligned columns, duplicated rows/columns, missing values), data entry errors, or measurement errors. Decide how you will flag and deal with them.</li>
+<li>Decide how to deal with missing values</li>
+<li>Identify ways to simplify data values (i.e., codes, abbreviations) and column headings</li>
+<li>Write code to load the ‘raw’ data file file, implement your corrections/changes, and save the ‘clean’ version of the data.</li>
+</ol>
+<p><em>Things to look out for:</em> Make a list of the what you think needs to be corrected and the steps necessary to identify and implement each correction. Some of the things to look out for include:</p>
 <ul>
-<li>👉 <a href="slides/01_slides_intro/01_slides_intro.html">Introduction — Slides</a>
-<div class="slides-embed">
-<iframe src="slides/01_slides_intro/01_slides_intro.html" width="100%" height="320" loading="lazy" style="border:1px solid #ddd;border-radius:8px">
-</iframe>
-</div></li>
-<li>👉 <a href="slides/02_slides_filenames/02_slides_filenames.html">File Names — Slides</a>
-<div class="slides-embed">
-<iframe src="slides/02_slides_filenames/02_slides_filenames.html" width="100%" height="320" loading="lazy" style="border:1px solid #ddd;border-radius:8px">
-</iframe>
-</div></li>
-<li>👉 <a href="slides/04_reproducibility/04_slides_reproducibility.html">Reproducibility — Slides</a>
-<div class="slides-embed">
-<iframe src="slides/04_slides_reproducibility/04_slides_reproducibility.html" width="100%" height="320" loading="lazy" style="border:1px solid #ddd;border-radius:8px">
-</iframe>
-</div></li>
+<li>Numeric values stored as character data types</li>
+<li>Factors stred as characters</li>
+<li>Duplicate rows</li>
+<li>Spelling mistakes</li>
+<li>inconsistent formatting (eg., codes, capitalizations)</li>
+<li>White spaces</li>
+<li>Missing data</li>
+<li>Zeros instead of null values</li>
+<li>Special characters (e.g.&nbsp;commas in numeric values instead of decimals)</li>
+<li>column headings with spaces between words or that start with numerals</li>
 </ul>
+<p>Remember, <em>the characteristics of clean data set include:</em></p>
+<ul>
+<li>Free of duplicate rows/values</li>
+<li>Error-free (correct misspellings, eliminate special characters)</li>
+<li>correct data type for analysis</li>
+<li>outliers identified and dealt in the correct way</li>
+<li>“tidy” data structure</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>When working with multiple files, should you correct <em>before</em> or <em>after</em> combining?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We often need to combine multiple files with the same kind of data (i.e., surveys conducted in Year 1 and in Year 2, each of which are recorded in their own .csv file). Is it more efficient to correct each file first, then combine them, or combine first and <em>then</em> correct?</p>
+<p>It depends and can vary from one project to another. Make an outline of the different steps and corrections to be made to each file and see if you can decide which is more efficient. Note that there might be different ways to do the same thing, this outline will help figure out which is best. For instance you could:</p>
+<blockquote class="blockquote">
+<p><strong><em>Option 1</em></strong><br>
+1. Import table 1<br>
+2. Correct column headings in Table 1<br>
+3. Import table 2<br>
+4. Correct column headings in Table 2<br>
+5. Bind Table 1 and Table 2 Together</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><em>but this is less efficient than…</em></strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><em>Option 2</em></strong><br>
+1. Import table 1<br>
+2. Import table 2<br>
+3. Bind Table 1 and Table 2 Together<br>
+4. Correct the column headings in the Table</p>
+</blockquote>
+</div>
+</div>
+</section>
+<section id="tools-resources" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="tools-resources"><span class="header-section-number">5.4</span> Tools &amp; Resources</h2>
+<ol type="1">
+<li><p>These introductions to R and R Studio were made by Professor Ethan White (UF-WEC). They are a good overview of some R basics.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=zqUQL8OOtMQ">Intro to R and RStudio</a>.</li>
+<li><a href="https://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro/index.html">Navigate R and RStudio web page</a></li>
+<li><a href="https://www.youtube.com/watch?v=NAArCsmztOI">Intro to R Packages</a></li>
+<li><a href="https://www.youtube.com/watch?v=BFVX0CKY67g&amp;feature=emb_title">Expressions and Variables in R</a></li>
+</ul></li>
+<li><p>The Carpentries’ R workshops (self-paced or taught in-person) are excellent, I use many of their materials in class:</p>
+<ul>
+<li><a href="https://datacarpentry.org/r-socialsci/">R for Social Scientists</a></li>
+<li><a href="https://datacarpentry.org/R-ecology-lesson/">Data Analysis and Visualization in R for Ecologists</a></li>
+</ul></li>
+<li><p>Software Carpentry lesson on <a href="https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/">Project Management with R Studio</a></p></li>
+<li><p>Hadley Wickham wrote a book on using the tidyverse and the <a href="https://r4ds.had.co.nz/">online version is FREE</a>. This is a phenomenal resource on using R to import, tidy, and visualize data.</p></li>
+<li><p><a href="https://rstudio.com/resources/cheatsheets/">RStudio Cheat Sheets</a>: help with commands for using the different <code>tidyverse</code> packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.</p></li>
+<li><p>Where and How to ask for help</p>
+<ul>
+<li>Hadley Wickham’s advice on <a href="(http://adv-r.had.co.nz/Reproducibility.html)">how to write a good reproducible example</a> for getting help with R</li>
+<li><a href="https://www.r-bloggers.com/2011/01/three-tips-for-posting-good-questions-to-r-help-and-stack-overflow/">how to post good questions on StackOverflow</a></li>
+<li>The UF <a href="http://www.r-gators.com/listserv/">R-users listserv</a> is <em>very</em> user friendly and a great place to post requests for help.</li>
+</ul></li>
+<li><p><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005871">Ten simple rules for biologists learning to program</a></p></li>
+<li><p>Lot’s more on the course’s <a href="https://las6292.netlify.app/docs/resources/">‘Resources’ page</a></p></li>
+</ol>
+</section>
+<section id="additional-interesting-reading" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Additional (interesting) Reading</h1>
+<ol type="1">
+<li><p>Lewis, Keith P., Eric Vander Wal, and David A. Fifield. 2018. Wildlife biology, big data, and reproducible research. Wildlife Society Bulletin 42(1): 172-179.</p></li>
+<li><p>White EP, Baldridge E, Brym ZT, Locey KJ, McGlinn DJ, Supp SR.&nbsp; 2013.&nbsp;&nbsp;Nine simple ways to make it easier to (re)use your data. Ideas in Ecology and Evolution. 6(2):1-10.</p></li>
+<li><p><a href="https://talkinghumanities.blogs.sas.ac.uk/2019/07/09/the-humanities-have-a-reproducibility-problem/">The humanities have a ‘reproducibility’ problem</a></p></li>
+<li><p><a href="https://www.cwts.nl/blog?article=n-r2v2a4&amp;title=the-humanities-do-not-need-a-replication-drive">The humanities do not need a replication drive</a></p></li>
+<li><p><a href="http://benmarwick.github.io/CSSS-Primer-Reproducible-Research">Reproducible Research: A primer for the social sciences</a></p></li>
+<li><p><a href="https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-018-0060-4">Replicability and replication in the humanities</a></p></li>
+<li><p><a href="https://dhh.uni.lu/2020/05/19/towards-reproducible-science-in-the-digital-humanities-how-to-publish-your-data-and-code-alongside-your-research-with-the-help-of-zenodo/">Towards reproducible science in the digital humanities</a></p></li>
+<li><p><a href="https://www.nature.com/articles/s41599-018-0149-x">The possibility and desirability of replication in the humanities</a></p></li>
+<li><p><a href="https://www.annualreviews.org/doi/10.1146/annurev-publhealth-012420-105110#_i18">Reproducible Research: A Retrospective</a></p></li>
+</ol>
+<p><strong><em>For when you feel more comfortable with R and programming</em></strong></p>
+<ol type="1">
+<li><p>Bryan, J. (2018). Excuse me, do you have a moment to talk about version control?&nbsp;The American Statistician, 72(1), 20-27.</p></li>
+<li><p>Wilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and Tracy K. Teal. Good enough practices in scientific computing.&nbsp;PLoS Computational Biology 13, no. 6 (2017): e1005510.</p></li>
+</ol>
+<!-- 4. [Reproducible Research in the Humanities](https://www.slideshare.net/IainEmsley/reproducible-research-in-the-humanities) -->
+<!-- 4. https://oxford.universitypressscholarship.com/view/10.1093/oso/9780190670412.001.0001/oso-9780190670412-miscMatter-11 -->
+<!-- 1. [Reproducible Data Science](https://ecorepsci.github.io/reproducible-science/)  -->
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -675,11 +850,14 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./class_materials/resources/resources.html" class="pagination-link" aria-label="Useful resources for Data Collection &amp; Managment">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Useful resources for Data Collection &amp; Managment</span></span>
+      <a href="../../../class_materials/class_sessions/03_spreadsheets/spreadsheets.html" class="pagination-link" aria-label="Data Organization in Spreadsheets">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Data Organization in Spreadsheets</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../../../class_materials/class_sessions/05_QAQC1/qaqc1.html" class="pagination-link" aria-label="QA/QC: Reducing Error Entry/Finding and Correcting Errors">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">QA/QC: Reducing Error Entry/Finding and Correcting Errors</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -690,7 +868,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/slidedecks.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/04_reproducibility/reproducibility.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This book was built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

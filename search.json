@@ -197,146 +197,245 @@
     ]
   },
   {
+    "objectID": "class_materials/class_sessions/04_reproducibility/reproducibility.html",
+    "href": "class_materials/class_sessions/04_reproducibility/reproducibility.html",
+    "title": "5  Reproducibile Data Cleanup with R",
+    "section": "",
+    "text": "5.1 Set up an RStudio Project and install the relevant packages",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Reproducibile Data Cleanup with R</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/04_reproducibility/reproducibility.html#set-up-an-rstudio-project-and-install-the-relevant-packages",
+    "href": "class_materials/class_sessions/04_reproducibility/reproducibility.html#set-up-an-rstudio-project-and-install-the-relevant-packages",
+    "title": "5  Reproducibile Data Cleanup with R",
+    "section": "",
+    "text": "File -&gt; New Project\nName the Project as follows: las_demo\nCreate the following three folders:\ndata_raw\ndata_clean\ncode\nYou can create these in the folder using your operating systems “create folder” option or you can create within R studio using the files tab\nInstall libraries, load libraries, and run verify they work by running a few commands",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Reproducibile Data Cleanup with R</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/04_reproducibility/reproducibility.html#gather-the-raw-data-to-be-corrected",
+    "href": "class_materials/class_sessions/04_reproducibility/reproducibility.html#gather-the-raw-data-to-be-corrected",
+    "title": "5  Reproducibile Data Cleanup with R",
+    "section": "5.2 Gather the Raw Data to be corrected",
+    "text": "5.2 Gather the Raw Data to be corrected\nSave your original (aka ‘raw’ or ‘dirty’) data files in the data_raw folder.\n\n\n\n\n\n\nImportant\n\n\n\n\nNever make changes to the original file of dirty/raw data. Never. NEVER. Always import the uncorrected original data file, make corrections using a script, and then save a new, clean file.\nAnnote your code with reminders for future you: the # symbol (aka pound, hash tag) allows you to make comments in the script explaining what different sections or commands do. Annotate your scripts with lots of details on what different commands do, what is being done in each section, even links to websites you used to figure stuff out. Remember: ABA (always be annotating).",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Reproducibile Data Cleanup with R</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/04_reproducibility/reproducibility.html#take-your-data-from-messy-to-clean-in-these-6-steps",
+    "href": "class_materials/class_sessions/04_reproducibility/reproducibility.html#take-your-data-from-messy-to-clean-in-these-6-steps",
+    "title": "5  Reproducibile Data Cleanup with R",
+    "section": "5.3 Take your data from messy to clean in these 6 steps:",
+    "text": "5.3 Take your data from messy to clean in these 6 steps:\n\nFamiliarize yourself with the data set\nCheck for potential errors. These can be structural errors (e.g., misaligned columns, duplicated rows/columns, missing values), data entry errors, or measurement errors. Decide how you will flag and deal with them.\nDecide how to deal with missing values\nIdentify ways to simplify data values (i.e., codes, abbreviations) and column headings\nWrite code to load the ‘raw’ data file file, implement your corrections/changes, and save the ‘clean’ version of the data.\n\nThings to look out for: Make a list of the what you think needs to be corrected and the steps necessary to identify and implement each correction. Some of the things to look out for include:\n\nNumeric values stored as character data types\nFactors stred as characters\nDuplicate rows\nSpelling mistakes\ninconsistent formatting (eg., codes, capitalizations)\nWhite spaces\nMissing data\nZeros instead of null values\nSpecial characters (e.g. commas in numeric values instead of decimals)\ncolumn headings with spaces between words or that start with numerals\n\nRemember, the characteristics of clean data set include:\n\nFree of duplicate rows/values\nError-free (correct misspellings, eliminate special characters)\ncorrect data type for analysis\noutliers identified and dealt in the correct way\n“tidy” data structure\n\n\n\n\n\n\n\nTipWhen working with multiple files, should you correct before or after combining?\n\n\n\nWe often need to combine multiple files with the same kind of data (i.e., surveys conducted in Year 1 and in Year 2, each of which are recorded in their own .csv file). Is it more efficient to correct each file first, then combine them, or combine first and then correct?\nIt depends and can vary from one project to another. Make an outline of the different steps and corrections to be made to each file and see if you can decide which is more efficient. Note that there might be different ways to do the same thing, this outline will help figure out which is best. For instance you could:\n\nOption 1\n1. Import table 1\n2. Correct column headings in Table 1\n3. Import table 2\n4. Correct column headings in Table 2\n5. Bind Table 1 and Table 2 Together\n\n\nbut this is less efficient than…\n\n\nOption 2\n1. Import table 1\n2. Import table 2\n3. Bind Table 1 and Table 2 Together\n4. Correct the column headings in the Table",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Reproducibile Data Cleanup with R</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/04_reproducibility/reproducibility.html#tools-resources",
+    "href": "class_materials/class_sessions/04_reproducibility/reproducibility.html#tools-resources",
+    "title": "5  Reproducibile Data Cleanup with R",
+    "section": "5.4 Tools & Resources",
+    "text": "5.4 Tools & Resources\n\nThese introductions to R and R Studio were made by Professor Ethan White (UF-WEC). They are a good overview of some R basics.\n\nIntro to R and RStudio.\nNavigate R and RStudio web page\nIntro to R Packages\nExpressions and Variables in R\n\nThe Carpentries’ R workshops (self-paced or taught in-person) are excellent, I use many of their materials in class:\n\nR for Social Scientists\nData Analysis and Visualization in R for Ecologists\n\nSoftware Carpentry lesson on Project Management with R Studio\nHadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nRStudio Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nWhere and How to ask for help\n\nHadley Wickham’s advice on how to write a good reproducible example for getting help with R\nhow to post good questions on StackOverflow\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\nTen simple rules for biologists learning to program\nLot’s more on the course’s ‘Resources’ page",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Reproducibile Data Cleanup with R</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/05_QAQC1/qaqc1.html",
+    "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html",
+    "title": "6  QA/QC: Reducing Error Entry/Finding and Correcting Errors",
+    "section": "",
+    "text": "6.1 Tools",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QA/QC: Reducing Error Entry/Finding and Correcting Errors</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/05_QAQC1/qaqc1.html#tools",
+    "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html#tools",
+    "title": "6  QA/QC: Reducing Error Entry/Finding and Correcting Errors",
+    "section": "",
+    "text": "6.1.1 Reduce Data Entry Errors with ‘Data Validation’ Rules\n\nData Validation in Excel [link]\n\n\n\n6.1.2 Confirm data values after entry with ‘Text-to-Speech’\n\nMS Excel (& other MS programs)\n\nConverting text to speech in Excel for Microsoft 365, Excel 2010-2021 [link].\nMicrosoft for Mac: Hear selected text read aloud from Excel, Word, Power Point, and Outlook [link]. See also ‘System Preferences-&gt;Accessibility’\nVideo Tutorials\n\nTutorial Video 1. This will allow you to select rows or columns of Excel and have them read back to you.\nTutorial Video 2: it’s not as thorough, but it is a bit easier to see the menu\nTutorial Video 3. Because why not a third one?\n\n\nText-to-Speech in Google Docs\n\nIf you prefer working in Google Docs you can do the same thing. This article will show you how. You can also watch this tutorial video.\n\n\n\n\n6.1.3 Better still: ‘speak-on-enter’ to confirm data values as entered\n\nspeak-on-enter [tutorial:]\n\n\n\n6.1.4 Speech-to-Text for keyboardless data entry\n\nGoogle Sheets: Typing with your voice\nMS Word: How to dictate documents\n\n\n\n6.1.5 Overview of MS Accessibility Tools\n\n‘Narrator’ function link",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QA/QC: Reducing Error Entry/Finding and Correcting Errors</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/05_QAQC1/qaqc1.html#readings",
+    "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html#readings",
+    "title": "6  QA/QC: Reducing Error Entry/Finding and Correcting Errors",
+    "section": "6.2 Readings",
+    "text": "6.2 Readings\n\nCampbell, J. L. et al. 2013. Quantity is nothing without quality: automated QA/QC for streaming environmental sensor data. BioScience, 63(7): 574-585. link\n\nFor more advanced users of R/Github\n\nKim, A. Y. et al. 2022. Implementing GitHub Actions continuous integration to reduce error rates in ecological data collection. Methods in Ecology and Evolution, 13, 2572– 2585. https://doi.org/10.1111/2041-210X.13982",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QA/QC: Reducing Error Entry/Finding and Correcting Errors</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/05_QAQC1/qaqc1.html#r-packages-for-data-qaqc",
+    "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html#r-packages-for-data-qaqc",
+    "title": "6  QA/QC: Reducing Error Entry/Finding and Correcting Errors",
+    "section": "6.3 R Packages for Data QA/QC",
+    "text": "6.3 R Packages for Data QA/QC\n\njanitor: simple functions for examining and cleaning dirty data. It was built with beginning and intermediate R users in mind and is optimized for user-friendliness. Advanced R users can already do everything covered here, but with janitor they can do it faster. (see this mini-tutorial)\n\nclean column names\nremove empty rows and columns\nremove duplicated rows\n\ncleanr. small R package for cleaning and checking data columns in a fast and easy way.\nunheadr: used to wrangle spreadhseets with embedded subheaders or values wrapped accross several rows (highlighting, merged cells, etc).\n\n\n6.3.1 For more advanced R users:\n\nRichard’s Iannone pointblank R package for Data Validation and Organization of Metadata [link\nvalidate: designed to test data against a reusable set of data validation rules, investigate, summarize, and visualize data validation results, among other things\nData Curator is a simple desktop data editor to help describe, validate and share usable open data.\nKim, A. Y., Herrmann, V., Barreto, R., Calkins, B., Gonzalez-Akre, E., Johnson, D. J., Jordan, J. A., Magee, L., McGregor, I. R., Montero, N., Novak, K., Rogers, T., Shue, J., & Anderson-Teixeira, K. J. (2022). Implementing GitHub Actions continuous integration to reduce error rates in ecological data collection. Methods in Ecology and Evolution, 13, 2572–2585. https://doi.org/10.1111/2041-210X.13982",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>QA/QC: Reducing Error Entry/Finding and Correcting Errors</span>"
+    ]
+  },
+  {
     "objectID": "class_materials/class_projects/assignments.html",
     "href": "class_materials/class_projects/assignments.html",
-    "title": "5  Assignments Overview",
+    "title": "7  Assignments Overview",
     "section": "",
-    "text": "5.1 Weekly In-class activities\nGrades in the course will be based on the following assignments:",
+    "text": "7.1 Weekly In-class activities\nGrades in the course will be based on the following assignments:",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/class_projects/assignments.html#weekly-in-class-activities",
     "href": "class_materials/class_projects/assignments.html#weekly-in-class-activities",
-    "title": "5  Assignments Overview",
+    "title": "7  Assignments Overview",
     "section": "",
     "text": "Overview: Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them they can be submitted anytime until 9 am the following Friday.",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/class_projects/assignments.html#reproducible-data-organization-project",
     "href": "class_materials/class_projects/assignments.html#reproducible-data-organization-project",
-    "title": "5  Assignments Overview",
-    "section": "5.2 Reproducible Data Organization Project",
-    "text": "5.2 Reproducible Data Organization Project\n\nOverview: This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to (1) clean and organize a ‘messy’ data set and prepare metadata describing the resulting ‘clean’ data. The complete project requires the submission of these three items via the course Canvas website:\n\nR code that imports, cleans, and organizes, and saves ‘messy’ data\nThe resulting corrected and organized data in an appropriate format\nMetadata describing the corrected data set",
+    "title": "7  Assignments Overview",
+    "section": "7.2 Reproducible Data Organization Project",
+    "text": "7.2 Reproducible Data Organization Project\n\nOverview: This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to (1) clean and organize a ‘messy’ data set and prepare metadata describing the resulting ‘clean’ data. The complete project requires the submission of these three items via the course Canvas website:\n\nR code that imports, cleans, and organizes, and saves ‘messy’ data\nThe resulting corrected and organized data in an appropriate format\nMetadata describing the corrected data set",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/class_projects/assignments.html#thesis-research-dmp",
     "href": "class_materials/class_projects/assignments.html#thesis-research-dmp",
-    "title": "5  Assignments Overview",
-    "section": "5.3 Thesis Research DMP",
-    "text": "5.3 Thesis Research DMP\n\nOverview: The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.",
+    "title": "7  Assignments Overview",
+    "section": "7.3 Thesis Research DMP",
+    "text": "7.3 Thesis Research DMP\n\nOverview: The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.",
     "crumbs": [
       "Assignments",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html",
     "href": "class_materials/resources/resources.html",
-    "title": "6  Useful resources for Data Collection & Managment",
+    "title": "8  Useful resources for Data Collection & Managment",
     "section": "",
-    "text": "6.1 R Programming",
+    "text": "8.1 R Programming",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#r-programming",
     "href": "class_materials/resources/resources.html#r-programming",
-    "title": "6  Useful resources for Data Collection & Managment",
+    "title": "8  Useful resources for Data Collection & Managment",
     "section": "",
-    "text": "6.1.1 Essential\n\nHadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nWhere and How to ask for help\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\n\n6.1.2 Tutorials and Books\n\nR Essential Training: Wrangling and Visualizing Data\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl\nR Bootcamp\nKieran Healy’s Data Visualization: a practical introduction is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.\nSo. Many. Resources.\nROpenSci: tools for accessing, manipulating, and visualizing open data\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning\nLearning R\nSwirl",
+    "text": "8.1.1 Essential\n\nHadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nWhere and How to ask for help\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\n\n8.1.2 Tutorials and Books\n\nR Essential Training: Wrangling and Visualizing Data\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl\nR Bootcamp\nKieran Healy’s Data Visualization: a practical introduction is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.\nSo. Many. Resources.\nROpenSci: tools for accessing, manipulating, and visualizing open data\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning\nLearning R\nSwirl",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#slide-presentations-in-r",
     "href": "class_materials/resources/resources.html#slide-presentations-in-r",
-    "title": "6  Useful resources for Data Collection & Managment",
-    "section": "7.1 Slide Presentations in R",
-    "text": "7.1 Slide Presentations in R\n\nMake slide presentations with R",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "9.1 Slide Presentations in R",
+    "text": "9.1 Slide Presentations in R\n\nMake slide presentations with R",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#data-archives",
     "href": "class_materials/resources/resources.html#data-archives",
-    "title": "6  Useful resources for Data Collection & Managment",
-    "section": "7.2 Data Archives",
-    "text": "7.2 Data Archives\nQualitative Data Repository",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "9.2 Data Archives",
+    "text": "9.2 Data Archives\nQualitative Data Repository",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#text-extraction-and-organization",
     "href": "class_materials/resources/resources.html#text-extraction-and-organization",
-    "title": "6  Useful resources for Data Collection & Managment",
-    "section": "7.3 Text Extraction and Organization",
-    "text": "7.3 Text Extraction and Organization\nPlan for extraction and organization",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "9.3 Text Extraction and Organization",
+    "text": "9.3 Text Extraction and Organization\nPlan for extraction and organization",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#form-design",
     "href": "class_materials/resources/resources.html#form-design",
-    "title": "6  Useful resources for Data Collection & Managment",
-    "section": "7.4 Form Design",
-    "text": "7.4 Form Design\nBest Practice for Form Design",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "9.4 Form Design",
+    "text": "9.4 Form Design\nBest Practice for Form Design",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#data-security",
     "href": "class_materials/resources/resources.html#data-security",
-    "title": "6  Useful resources for Data Collection & Managment",
-    "section": "7.5 Data Security",
-    "text": "7.5 Data Security\nUF Office of Information Security and Compliance\nCyber Safeguards for UF\nUF IRB\nUF Data Classification Policy\nUF Office of Information Security and Compliance",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "9.5 Data Security",
+    "text": "9.5 Data Security\nUF Office of Information Security and Compliance\nCyber Safeguards for UF\nUF IRB\nUF Data Classification Policy\nUF Office of Information Security and Compliance",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#platforms-for-organization-collaboration",
     "href": "class_materials/resources/resources.html#platforms-for-organization-collaboration",
-    "title": "6  Useful resources for Data Collection & Managment",
-    "section": "7.6 Platforms for Organization & Collaboration",
-    "text": "7.6 Platforms for Organization & Collaboration\nOpen Science Framework",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "9.6 Platforms for Organization & Collaboration",
+    "text": "9.6 Platforms for Organization & Collaboration\nOpen Science Framework",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "slidedecks.html",
     "href": "slidedecks.html",
-    "title": "7  Slide decks",
+    "title": "9  Slide decks",
     "section": "",
-    "text": "Here are the slide decks:\n\n👉 Introduction — Slides\n\n\n\n\n👉 File Names — Slides",
+    "text": "Here are the slide decks:\n\n👉 Introduction — Slides\n\n\n\n\n👉 File Names — Slides\n\n\n\n\n👉 Reproducibility — Slides",
     "crumbs": [
       "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Slide decks</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Slide decks</span>"
     ]
   }
 ]
