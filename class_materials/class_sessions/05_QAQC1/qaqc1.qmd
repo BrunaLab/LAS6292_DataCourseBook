@@ -14,12 +14,14 @@ date-modified: last-modified
 
 ## Tools
 
-### Reduce Data Entry Errors with 'Data Validation' Rules 
+### Reduce Data Entry Errors with 'Data Validation' Rules {.unnumbered}
+
 
 1. Data Validation in Excel [[link](https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249)]   
 
 
-### Confirm data values after entry with 'Text-to-Speech' 
+### Confirm data values after entry with 'Text-to-Speech' {.unnumbered}
+
 
 1. MS Excel (& other MS programs)
 
@@ -35,7 +37,8 @@ date-modified: last-modified
     * If you prefer working in Google Docs you can do the same thing. [This article](https://www.businessinsider.com/how-to-make-google-docs-read-to-you) will show you how. You can also watch [this tutorial video](https://youtu.be/3UmI5wo5kHg).
 
 
-### Better still: 'speak-on-enter' to confirm data values as entered
+### Better still: 'speak-on-enter' to confirm data values as entered {.unnumbered}
+
 
 1. speak-on-enter [[tutorial:]](https://www.makeuseof.com/how-to-get-microsoft-excel-speak-aloud/)
 
@@ -46,7 +49,8 @@ date-modified: last-modified
 1. MS Word: [How to dictate documents](https://support.microsoft.com/en-us/office/dictate-your-documents-in-word-3876e05f-3fcc-418f-b8ab-db7ce0d11d3c)
 
 
-### Overview of MS Accessibility Tools
+### Overview of MS Accessibility Tools {.unnumbered}
+
 
 1. 'Narrator' function [link](https://support.microsoft.com/en-us/windows/hear-text-read-aloud-with-narrator-040f16c1-4632-b64e-110a-da4a0ac56917)
 
