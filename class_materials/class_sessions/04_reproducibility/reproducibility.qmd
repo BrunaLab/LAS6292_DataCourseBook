@@ -30,7 +30,7 @@ date-modified: last-modified
 #| results: hide
 #| eval: false
 
-```{r echoF, }
+```{r}
 # Use the tab to install package `dadjokeapi`. 
 # You could also do the following:
 install.packages("dadjokesapi")
@@ -42,6 +42,27 @@ groan()
 ```
 
 :::
+
+
+
+::: {.content-visible when-format="pdf"}
+
+```{r}
+
+# library(plotly)
+# library(ggplot2)
+# # Use the tab to install package `dadjokeapi`. 
+# # You could also do the following:
+# install.packages("dadjokesapi")
+# install.packages("tidyverse")
+# # load the library
+# library(dadjokeapi)
+# # run a command
+# groan()
+```
+
+:::
+
 
 ## Gather the Raw Data to be corrected
 
