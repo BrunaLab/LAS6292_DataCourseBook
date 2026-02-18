@@ -1,0 +1,343 @@
+---
+title: "LAS 6292: Data Cleanup Project"
+subtitle: "Spring Semester 2026"
+# author: "Instructor: Emilio M. Bruna"
+geometry: margin=1.0in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+# format:
+#   docx:
+#     toc: false
+#     number-sections: true
+#     reference-doc: custom-reference-doc.docx
+#     geometry:
+#       # - margin=0.75in
+#       - bindingoffset=0.0in
+#       - left=24mm
+#       - top=24mm
+#       - bottom=24mm
+#       - right=24mm
+format:
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage[dvipsnames]{xcolor}
+        \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+        \usepackage{sectsty}\sectionfont{\centering\color{darkmidnightblue}}
+        \usepackage{sectsty}\subsectionfont{\centering\color{darkmidnightblue}}
+        \AtBeginDocument{\let\maketitle\relax}
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhead[R]{LAS 6292 Final Project, p. \thepage}
+        \fancyhead[L]{Updated \today}
+        <!-- \usepackage{sectsty} -->
+        <!-- \sectionfont{\color{customnavy}\sffamily}      % Sans-serif for sections -->
+        <!-- \subsectionfont{\color{customnavy}\sffamily}   % Sans-serif for subsections -->
+        <!-- \usepackage{titlesec} -->
+        <!-- \definecolor{customnavy}{RGB}{0, 0, 128} -->
+        <!-- \subsubsectionfont{\color{customnavy}} -->
+        <!-- \usepackage{amssymb} -->
+        <!-- \usepackage{pifont} -->
+        <!-- \usepackage{wasysym} -->
+        <!-- \usepackage{fontawesome5} -->
+        <!-- \usepackage{etoolbox} -->
+        <!-- \makeatletter -->
+        <!-- \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{} -->
+        <!-- % Adjust spacing before and after headings -->
+        <!-- \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after} -->
+        <!-- \titlespacing*{\subsection}{0pt}{2pt}{2pt}   % {left}{before}{after} -->
+        <!-- \titlespacing*{\subsubsection}{0pt}{2pt}{2pt}   % {left}{before}{after} -->
+    toc: false
+    number-sections: true
+    fontsize: 10pt
+    microtypeoptions: ["final"]
+    # Colors
+    colorlinks: true
+    # Layout
+    geometry:
+      # - margin=0.75in
+      - bindingoffset=0.0in
+      - left=24mm
+      - top=24mm
+      - bottom=24mm
+      - right=24mm
+      # - heightrounded
+      # - footskip=0.475in
+      # - showframe
+    # pagestyle: plain
+    # Rendering
+    # 
+
+# format: html
+# keep-tex: true
+#    include-in-header:
+#      text: |
+#        \AtBeginDocument{\let\maketitle\relax}
+#        \usepackage{fancyhdr}
+#        \pagestyle{fancy}
+#        \fancyhead[R]{LAS 6292 Syllabus p. \thepage}
+#        \fancyhead[L]{Updated \today}
+#        \usepackage[dvipsnames]{xcolor}
+#        \usepackage{sectsty}
+#        <!-- \sectionfont{\color{customnavy}} -->
+#        <!-- \subsectionfont{\color{customnavy}}    -->
+#        \sectionfont{\color{customnavy}\sffamily}      % Sans-serif for sections
+#        \subsectionfont{\color{customnavy}\sffamily}   % Sans-serif for subsections
+#        \usepackage{titlesec}
+#        \definecolor{customnavy}{RGB}{0, 0, 128}
+#        \subsubsectionfont{\color{customnavy}}
+#        \usepackage{amssymb}
+#        \usepackage{pifont}
+#        \usepackage{wasysym}
+#        \usepackage{fontawesome5}
+#        \usepackage{etoolbox}
+#        \makeatletter
+#        \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+#        % Adjust spacing before and after headings
+#        \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after}
+#        \titlespacing*{\subsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
+#        \titlespacing*{\subsubsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
+---
+
+```{r}
+#| label: setup
+#| warning: false
+#| message: false
+#| echo: false
+#| include: false
+# #| knitr::opts_chunk$set(echo = TRUE)
+# knitr::opts_chunk$set(echo = TRUE, fig.align="center")
+library(tidyverse)
+library(kableExtra)
+```
+
+```{r}
+#| label: assignment_points
+#| warning: false
+#| message: false
+#| echo: false
+#| 
+code <- 150
+clean_data <- 150
+metadata <- 200
+total_points <- code + clean_data + metadata
+```
+<!-- this next line suppresses the header (line, name,  page number) on 1st page -->
+<!-- \thispagestyle{empty}   -->
+# Individual Project: Reproducible Data Organization {.unnumbered}  
+<!-- ## LAS 6292 (`r format(Sys.time(), '%Y')`)    -->
+<!-- &nbsp;   -->
+## Assignment overview   {.unnumbered}  
+
+This project is an opportunity to put some of the lessons we've learned into practice with a data set of your own. Your assignment is to **(1)** clean and organize a 'messy' data set and prepare metadata describing the resulting 'clean' data. The complete project requires the submission of these three items via the course Canvas website: 
+
+(1) R code that imports, cleans, and organizes, and saves 'messy' data (please make sure I have access to the original 'messy' data by either providing a link or the data themselves. If these data cannot be shared because of privacy / confidentiality concerns please let me know in advance so we can arrange an alternative means for me to review them); 
+(2) The resulting 'clean' (i.e., corrected and organized) data in an appropriate format (e.g., .csv, .txt)
+(3) Metadata describing the corrected data set (This can either be in the form of the link to a github repository or the submissio of a file in .txt or .pdf format)
+
+**Due Date:** 30 April 2026
+
+**Point Value:** `r total_points` points
+
+
+## Evaluation & Grading Rubric {.unnumbered}  
+
+Each portion of your submission will be evaluated using the point values, minimum standards, and rubric below. The individual components will be evaluated as "Meets required standards", "Moderate revisions required to meet the minimum standards", "Major revisions required to meet the minimum standards", or as "Incomplete / Unacceptable". In addition, I have noted a series of additional (optional) steps that can be taken to earn a designation of "Exceptional Work" on each section that can result in a bonus of up to 10%.  
+&nbsp;   
+
+```{r}
+#| label: rubric
+#| warning: false
+#| message: false
+#| echo: false
+#| 
+section <- data.frame(Section=c("Code","Cleaned Data","Metadata","Total"))
+section_points = data.frame(section_points = as.numeric(c(code, clean_data, metadata)))
+
+Cat1_top <- round(section_points*1,0)
+Cat2_top <- round(section_points*.895,0)
+Cat3_top <- round(section_points*.795,0)
+Cat4_top <- round(section_points*.695,0)
+
+Cat1_bottom <- round(section_points*.9,0)
+Cat2_bottom <- round(section_points*.8,0)
+Cat3_bottom <- round(section_points*.7,0)
+Cat4_bottom <- round(section_points*.5,0)
+
+Exceptional <- floor(section_points*0.1)
+
+points <- bind_cols(section_points,
+                    Cat1_top,Cat1_bottom,
+                    Cat2_top,Cat2_bottom,
+                    Cat3_top,Cat3_bottom,
+                    Cat4_top,Cat4_bottom,
+                    Exceptional) 
+points <- bind_rows(points,colSums(points))
+
+totals <- bind_cols(section,points) %>% 
+  rename("Value"=`section_points...2`) %>% 
+  mutate(`Meets standards` = 
+           paste(`section_points...3`,`section_points...4`,sep="-"),
+         .keep="unused") %>% 
+  mutate(`Moderate revisions` = 
+          paste(`section_points...5`,`section_points...6`,sep="-"),
+         .keep="unused") %>% 
+  mutate(`Major revisions` = 
+           paste(`section_points...7`,`section_points...8`,sep="-"),
+         .keep="unused") %>% 
+  mutate(`Incomplete / Unacceptable` = 
+           paste(`section_points...9`,`section_points...10`,sep="-"),
+         .keep="unused") %>% 
+  rename(`Potential Bonus` = `section_points...11`) %>% 
+  select(Section, Value, `Meets standards`, `Moderate revisions`, `Major revisions`, `Incomplete / Unacceptable`,`Potential Bonus`) 
+
+
+# 
+# totals[5,3:6]<-""
+
+
+
+kable(totals,
+      align="lcccccc",
+      format="latex",
+      # format="html",
+      row.names = FALSE,
+      booktabs=T,
+      linesep = "") %>%
+  row_spec(3,hline_after = TRUE) %>% 
+  column_spec(3:7, width = "2.5cm") %>%  #removes the blank line after every 5 lines) %>% 
+   kable_styling(position = "left",
+                 latex_options = c("scale_down"),
+                 bootstrap_options = c("hover")
+                 )
+# ,
+#                  full_width = T,
+
+```
+&nbsp;  
+
+## Part 1: Code (`r code` points) {.unnumbered}  
+
+To evaluate this portion I will use your code to process the 'messy' data files and then review the resulting 'clean' ones. Remember - this not a programming class, and I am aware some of you may be programming for the first time. This is reflected in the relative weight given to the code vs. the resulting clean data set. Your code doesn't have to be elegant or sophisticated for you to get full credit. My primary concern is the outcome - does it work? It does, however, need to meet some minimum standards to ensure you and others can interpret it in the future. 
+
+To meet the **_Minimum Standards_** your code must:  
+
+* Include a header that explains what the code is for, what packages were used, and other relevant information.
+* Include 'Comments' that allow a new user to understand the steps being taken 
+* Be 'modular': complex problems are broken down into smaller, logically discrete steps.
+* Use functions instead of repeated code chunks.
+* Import, correct, and reorganize 'raw' data into the files to used for analyses (without on/off commenting of code sections)
+* Save the 'clean' data in a non-proprietary format
+* Use an Rstudio project to import, clean, and save data 
+
+For code to be evaluated as **_Exceptional_** it must:
+
+* Meet the required minimum standards
+* Adhere to an R style guide (e.g., http://adv-r.had.co.nz/Style.html) and 
+* Be archived in an appropriate repository and assigned a DOI
+
+### Part 2: Clean Data (`r clean_data` points) {.unnumbered}  
+
+
+Once I have processed your original 'messy' data I will review the results to see the extent to which they meet the standards we discussed in class. The _Minimum Standards_ depend in part on the kind of data with which you are working. That said, for most data sets:
+
+The following are required for the "clean' dataset(s) to meet the **_Minimum Standards:_**  
+
+* The data are in 'tidy' form
+* Subjects have unique identifiers
+* Column names are consistent, efficient, and properly formatted
+* Dates adhere to a standard format
+* Columns contain only a single type of data
+* Missing values are identified with a consistent fixed code
+* Codes are used when possible to reduce errors
+* No data have leading or trailing white spaces
+* The file names are informative and properly formatted
+
+For the clean data set(s) to be evaluated as **_Exceptional_** they must:
+
+* Meet the required minimum standards
+* have columns set to the appropriate data type
+* Order factors when appropriate
+* Include a 'log file' of corrections or changes 
+* verify data integrity with checksums or other QA/QC measures
+
+### Part 3: Metadata (`r metadata` pts) {.unnumbered}  
+
+
+A data set is only as useful as the metadata that accompanies it. This portion of the assignment is the opportunity to prepare the metadata that will accompany your clean data and ensure it is (re)usable in the future by you and others. The metadata that need to be included depend on the project and data set (e.g., if you are interviewing human subjects you obviously don't have to include taxonomic data on the focal species). Though Michener *et al.* 1997 was written with geospatial environmental data in mind, it is actually a useful checklist for other disciplines as well. Please organize your Metadata File(s) using the five classes of Data Descriptors in Michener *et al.'s* Table 1. Include the most relevant Subheadings from each of these Classes, as well as any not listed relevant to your discipline or data. I have posted a text version of the Classes & Subheadings in Table 1 on the [course website](https://github.com/embruna/Michener_etal_Table1) so that you don't have to enter them manually; simply delete any that aren't relevant. 
+
+The items included in Metadata vary with data set and discipline. However, for most Metadata to meet the **_Minimum Standards_** the following items are required:  
+
+> *Class 1: Data Set Descriptors* 
+
+> * data set identity and identification codes
+> * Names and contact information of the Investigators associated with the data set, including the one to be contacted with questions
+> * Information on any funders of the data collection
+> * Brief description of the research objectives and data contents
+> * Keywords
+
+> *Class 2: Research Descriptors* 
+
+> * Time Frame of Data Collection
+> * Ecological, socioeconomic, or historical description of the site of data collection (as appropriate)
+> * Study or Sampling Design:
+>   * Design overview
+>   * Temporal aspects of data collection (e.g., data collected hourly, daily, weekly)
+>   * Spatial aspects of data collection (e.g., specific locations of data collection; spatial structure of sampling within locations)
+> * Research Methods
+>   * Instruments used to collect data
+>   * References, archives, or collections used to identify samples
+>   * Personnel involved in Data Collection
+>   * Information on the precision of the sampling instruments and recorded data, if appropriate
+>   * Description of the focal units on which data were collected (e.g., individuals, species, populations, samples, artefacts, etc.)
+>   * Names of individuals that assisted with data collection, data entry, and QA/QC.
+>   * References to pertinent scientific and collecting permits, relevant laws, or institutional policies (e.g., IRB, IACUC)
+
+> *Class 3: Information on data set status an accessibility * 
+
+> * Status: Dates of verification, archiving, updating, etc.
+> * Accessibility: storage location and medium, security, proprietary restriction, etc.
+> * Contact information for access or questions
+
+> *Class 4: Information on data set structure, organization, and how values are to be interpreted* 
+
+> * File descriptors: name, size, storage mode and format,first and last columns, etc.
+> * Variable identity: well-defined variables with properly formatted names
+> * Comprehensive description of each data column, including attributes of the values (units of measurement, range, precision)
+> * Variable codes are listed and defined. 
+
+> *Class 5: Supplemental Descriptors* 
+
+> * Quality assurance/quality control procedures 
+> * Description of data aquiition materials (forms, loggers)
+> * Information on the locations and archiving procedures of original data forms, relevant maps, photographs, videos, GIS data layers, physical specimens, field notebooks, comments, etc.
+> * Description of how data are archived for long-term storage and access 
+> * Information on data set usage and attribution
+> * History of data set usage, including list of publications or other materials
+
+For Metadata to be evaluated as **_Exceptional_** it must:
+
+* Meet the required minimum standards for Metadata
+* Be archived at a permanent, public repository (can be embargoed)
+* The Metadata file must be generated with Rmarkdown or Quarto, with the file saved to Github to allow for version control
+
+
+## Potential Datasets  {.unnumbered}  
+
+
+The following sites have lots of data available for download that would be suitable for this project. If you find something you are interested in using, please be sure to run it by me first.
+
+1. UNDP: http://hdr.undp.org/en/content/download-data
+
+2. UNICEF: https://data.unicef.org/resources/resource-type/datasets/ 
+
+3. UNEP: https://www.unep.org/data-resources
+
+4. US Census Bureau American Community Survey: https://www.census.gov/programs-surveys/acs/data.html 
+
+5. Global Forest Watch: https://www.globalforestwatch.org/
+
+
+
+
