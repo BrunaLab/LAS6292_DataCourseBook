@@ -11,10 +11,9 @@ date-modified: last-modified
 
 # QA/QC: Reducing Error Entry/Finding and Correcting Errors 
 
-## 'Data Validation' Rules 
+## 'Data Validation' Rules  
 
-
-1. Data Validation in Excel [[link](https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249)]   
+1. Data Validation in Microsoft's Excel [[link](https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249)]   
 
 
 ## Data entry with 'Text-to-Speech' 
