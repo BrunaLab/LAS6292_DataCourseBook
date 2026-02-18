@@ -355,7 +355,73 @@
     "href": "class_materials/resources/resources.html#r-programming",
     "title": "8  Useful resources for Data Collection & Managment",
     "section": "",
-    "text": "Essential Resources\n\nR for Data Science book: Hadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nRStudio Keyboard Shortcuts: A list of the keyboard shortcuts for Mac, Windows, and Linux can be found here.\nWhere and How to ask for help:\n\n\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\n\nTutorials\n\nPaul van der Laken’s List of books, tutorials, and other resources on topics ranging from data manipulation to data validation to data visualization.\nR Essential Training: Wrangling and Visualizing Data. (requires a UF email address to access LinkedIn Learning).\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl: learn R programming interactively, at your own pace, and in the R console.\nR Bootcamp by Ted Laderas and Jessica Minnier. Learn R in your browser.\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning is written for Python users but the pricniples apply regardless of language.\n\n\n\nSpecific Data Cleaning and Management Problems\n\nDates & Times\n\nHandling dates and times in R\n\n\n\nText & Text Mining\n\nText Mining: tidytext package\n\n\n\nQualtrics\n\nWorking with Qualtrics survey data: qualtRics package\n\n\n\nText Extraction\n\nOptical Character Recognition (OCR): extract text from images: tesseract package\nExtract text & metadata from pdf files: pdftools package\n\n\n\nImages & Image Processing\n\nImage processing: the magick package\n\n\n\n\nAdvanced R Packages for Data Management\n\nDataCurator package: ‘a simple desktop data editor to help describe, validate and share usable open data’.\nRegExr: online tool to learn, build, & test Regular Expressions (RegEx / RegExp)\njanitor (cleanup of file names, etc.)\nROpenSci: tools for accessing, manipulating, and visualizing open data\n\n\n\n8.1.1 Data Visualization\n\nData Visualization: a practical introduction by Kieran Healy is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.\n\n\n\nSlide & Presentations\n\nMake slide presentations with R\n\n\n\nDocuments & Reports\n\nknitr overview: reproducible documents with R\n\n\n\nDiscipline-specific R Resources\n\nHistory\n\nhistorydata package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.\nThe Programming Historian Website: wide range of topics, from text analysis to OpenRefine\n\n\n\nPsychology\n\n‘Programming for Psychologists: Data Creation and Analysis’ by Matthew J. C. Crump",
+    "text": "Essential Resources\n\nR for Data Science book: Hadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nRStudio Keyboard Shortcuts: A list of the keyboard shortcuts for Mac, Windows, and Linux can be found here.\nWhere and How to ask for help:\n\n\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\n\nTutorials\n\nPaul van der Laken’s List of books, tutorials, and other resources on topics ranging from data manipulation to data validation to data visualization.\nR Essential Training: Wrangling and Visualizing Data. (requires a UF email address to access LinkedIn Learning).\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl: learn R programming interactively, at your own pace, and in the R console.\nR Bootcamp by Ted Laderas and Jessica Minnier. Learn R in your browser.\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning is written for Python users but the pricniples apply regardless of language.",
+    "crumbs": [
+      "Useful Resources",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/resources/resources.html#specific-data-cleaning-and-management-problems",
+    "href": "class_materials/resources/resources.html#specific-data-cleaning-and-management-problems",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "8.2 Specific Data Cleaning and Management Problems",
+    "text": "8.2 Specific Data Cleaning and Management Problems\n\nDates & Times\n\nHandling dates and times in R\n\n\n\nText & Text Mining\n\nText Mining: tidytext package\n\n\n\nQualtrics\n\nWorking with Qualtrics survey data: qualtRics package\n\n\n\nText Extraction\n\nOptical Character Recognition (OCR): extract text from images: tesseract package\nExtract text & metadata from pdf files: pdftools package\n\n\n\nImages & Image Processing\n\nImage processing: the magick package",
+    "crumbs": [
+      "Useful Resources",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/resources/resources.html#advanced-r-packages-for-data-management",
+    "href": "class_materials/resources/resources.html#advanced-r-packages-for-data-management",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "8.3 Advanced R Packages for Data Management",
+    "text": "8.3 Advanced R Packages for Data Management\n\nDataCurator package: ‘a simple desktop data editor to help describe, validate and share usable open data’.\nRegExr: online tool to learn, build, & test Regular Expressions (RegEx / RegExp)\njanitor (cleanup of file names, etc.)\nROpenSci: tools for accessing, manipulating, and visualizing open data",
+    "crumbs": [
+      "Useful Resources",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/resources/resources.html#data-visualization",
+    "href": "class_materials/resources/resources.html#data-visualization",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "8.4 Data Visualization",
+    "text": "8.4 Data Visualization\n\nData Visualization: a practical introduction by Kieran Healy is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.",
+    "crumbs": [
+      "Useful Resources",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/resources/resources.html#slide-presentations",
+    "href": "class_materials/resources/resources.html#slide-presentations",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "8.5 Slide & Presentations",
+    "text": "8.5 Slide & Presentations\n\nMake slide presentations with R",
+    "crumbs": [
+      "Useful Resources",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/resources/resources.html#documents-reports",
+    "href": "class_materials/resources/resources.html#documents-reports",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "8.6 Documents & Reports",
+    "text": "8.6 Documents & Reports\n\nknitr overview: reproducible documents with R",
+    "crumbs": [
+      "Useful Resources",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/resources/resources.html#discipline-specific-r-resources",
+    "href": "class_materials/resources/resources.html#discipline-specific-r-resources",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "8.7 Discipline-specific R Resources",
+    "text": "8.7 Discipline-specific R Resources\n\nHistory\n\nhistorydata package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.\nThe Programming Historian Website: wide range of topics, from text analysis to OpenRefine\n\n\n\nPsychology\n\n‘Programming for Psychologists: Data Creation and Analysis’ by Matthew J. C. Crump",
     "crumbs": [
       "Useful Resources",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
@@ -365,8 +431,8 @@
     "objectID": "class_materials/resources/resources.html#data-archives",
     "href": "class_materials/resources/resources.html#data-archives",
     "title": "8  Useful resources for Data Collection & Managment",
-    "section": "8.2 Data Archives",
-    "text": "8.2 Data Archives\n\nQualitative Data Repository: dedicated archive for storing and sharing digital data (and accompanying documentation) generated or collected through qualitative and multi-method research in the social sciences and related disciplines.\nData Dryad: open data publishing platform and a community committed to the open availability and routine re-use of all research data.\nICPSR: data access, curation, and analytical methods for social science.",
+    "section": "8.8 Data Archives",
+    "text": "8.8 Data Archives\n\nQualitative Data Repository: dedicated archive for storing and sharing digital data (and accompanying documentation) generated or collected through qualitative and multi-method research in the social sciences and related disciplines.\nData Dryad: open data publishing platform and a community committed to the open availability and routine re-use of all research data.\nICPSR: data access, curation, and analytical methods for social science.",
     "crumbs": [
       "Useful Resources",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
