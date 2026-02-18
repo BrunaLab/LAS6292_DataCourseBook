@@ -1,0 +1,245 @@
+---
+title: "LAS 6292: Data Management Plan"
+subtitle: "Spring Semester 2026"
+# author: "Instructor: Emilio M. Bruna"
+geometry: margin=1.0in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+# format:
+#   docx:
+#     toc: false
+#     number-sections: true
+#     reference-doc: custom-reference-doc.docx
+#     geometry:
+#       # - margin=0.75in
+#       - bindingoffset=0.0in
+#       - left=24mm
+#       - top=24mm
+#       - bottom=24mm
+#       - right=24mm
+format:
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage[dvipsnames]{xcolor}
+        \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+        \usepackage{sectsty}\sectionfont{\centering\color{darkmidnightblue}}
+        \usepackage{sectsty}\subsectionfont{\centering\color{darkmidnightblue}}
+        \AtBeginDocument{\let\maketitle\relax}
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhead[R]{LAS 6292 DMP, p. \thepage}
+        \fancyhead[L]{Updated \today}
+        <!-- \usepackage{sectsty} -->
+        <!-- \sectionfont{\color{customnavy}\sffamily}      % Sans-serif for sections -->
+        <!-- \subsectionfont{\color{customnavy}\sffamily}   % Sans-serif for subsections -->
+        <!-- \usepackage{titlesec} -->
+        <!-- \definecolor{customnavy}{RGB}{0, 0, 128} -->
+        <!-- \subsubsectionfont{\color{customnavy}} -->
+        <!-- \usepackage{amssymb} -->
+        <!-- \usepackage{pifont} -->
+        <!-- \usepackage{wasysym} -->
+        <!-- \usepackage{fontawesome5} -->
+        <!-- \usepackage{etoolbox} -->
+        <!-- \makeatletter -->
+        <!-- \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{} -->
+        <!-- % Adjust spacing before and after headings -->
+        <!-- \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after} -->
+        <!-- \titlespacing*{\subsection}{0pt}{2pt}{2pt}   % {left}{before}{after} -->
+        <!-- \titlespacing*{\subsubsection}{0pt}{2pt}{2pt}   % {left}{before}{after} -->
+    toc: false
+    number-sections: false
+    fontsize: 10pt
+    microtypeoptions: ["final"]
+    # Colors
+    colorlinks: true
+    # Layout
+    geometry:
+      # - margin=0.75in
+      - bindingoffset=0.0in
+      - left=24mm
+      - top=24mm
+      - bottom=24mm
+      - right=24mm
+      # - heightrounded
+      # - footskip=0.475in
+      # - showframe
+    # pagestyle: plain
+    # Rendering
+    # 
+
+# format: html
+# keep-tex: true
+#    include-in-header:
+#      text: |
+#        \AtBeginDocument{\let\maketitle\relax}
+#        \usepackage{fancyhdr}
+#        \pagestyle{fancy}
+#        \fancyhead[R]{LAS 6292 Syllabus p. \thepage}
+#        \fancyhead[L]{Updated \today}
+#        \usepackage[dvipsnames]{xcolor}
+#        \usepackage{sectsty}
+#        <!-- \sectionfont{\color{customnavy}} -->
+#        <!-- \subsectionfont{\color{customnavy}}    -->
+#        \sectionfont{\color{customnavy}\sffamily}      % Sans-serif for sections
+#        \subsectionfont{\color{customnavy}\sffamily}   % Sans-serif for subsections
+#        \usepackage{titlesec}
+#        \definecolor{customnavy}{RGB}{0, 0, 128}
+#        \subsubsectionfont{\color{customnavy}}
+#        \usepackage{amssymb}
+#        \usepackage{pifont}
+#        \usepackage{wasysym}
+#        \usepackage{fontawesome5}
+#        \usepackage{etoolbox}
+#        \makeatletter
+#        \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+#        % Adjust spacing before and after headings
+#        \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after}
+#        \titlespacing*{\subsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
+#        \titlespacing*{\subsubsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
+---
+
+```{r}
+#| label: setup
+#| warning: false
+#| message: false
+#| echo: false
+#| include: false
+# #| knitr::opts_chunk$set(echo = TRUE)
+# knitr::opts_chunk$set(echo = TRUE, fig.align="center")
+library(tidyverse)
+library(kableExtra)
+```
+
+
+```{r assignment_points,echo=FALSE}
+dmp <- 125
+```
+<!-- this next line suppresses the header (line, name,  page number) on 1st page -->
+\thispagestyle{empty}  
+
+## LAS 6292 DATA MANAGEMENT PLAN 
+
+## Assignment overview  
+
+The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. _Your assignment is to prepare a Data Management Plan (DMP) for your thesis research_. I **_strongly_** recommend that you prepare your DMP using the template from the online [DMP Tool (https://dmptool.org)](https://dmptool.org) best suited to your research. 
+
+**Due Date:** 27 March 2026
+
+**Point Value:** `r dmp` points.
+
+**Submission:** Please submit the assignment via Canvas; you may submit either (a) a link granting access to your plan on the DMP Planner website _or_ (b) a copy of the file in either .pdf or .txt format _or_ (c) a link to the Github archive where I can review the file.  
+
+**DMP Peer review:** You will be asked to conduct a peer review of a colleague's draft DMP. This peer review is worth 25 pts and is due 3 April 2026. _After receiving the Peer Review and Instructor Feedback you can edit your DMP and submit it for a regrade._    
+
+**Grading Rubric: **Your submission will be evaluated using the point values, minimum standards, and rubric below. The individual components will be evaluated as "Meets required standards", "Moderate revisions required to meet the minimum standards", "Major revisions required to meet the minimum standards", or as "Incomplete / Unacceptable". In addition, I have noted a series of additional (optional) steps that can be taken to earn a designation of "Exceptional Work" on each section that can result in a bonus of up to 10%.  
+&nbsp;   
+
+```{r rubric, echo=FALSE,message = FALSE,warning=FALSE}
+section <- data.frame(Section=c("DMP"))
+section_points = data.frame(section_points = as.numeric(c(dmp)))
+
+Cat1_bottom <- round(section_points*.9,0)
+Cat2_bottom <- round(section_points*.8,0)
+Cat3_bottom <- round(section_points*.7,0)
+Cat4_bottom <- round(section_points*.5,0)
+Exceptional <- floor(section_points*0.1)
+
+points <- bind_cols(section_points,
+                    section_points,Cat1_bottom,
+                    Cat1_bottom-1,Cat2_bottom,
+                    Cat2_bottom-1,Cat3_bottom,
+                    Cat3_bottom-1,Cat4_bottom,
+                    Exceptional) 
+# points <- bind_rows(points,colSums(points))
+
+totals <- bind_cols(section,points) %>% 
+  rename("Value"=`section_points...2`) %>% 
+  mutate(`Meets standards` = 
+           paste(`section_points...3`,`section_points...4`,sep="-"),
+         .keep="unused") %>% 
+  mutate(`Moderate revisions` = 
+          paste(`section_points...5`,`section_points...6`,sep="-"),
+         .keep="unused") %>% 
+  mutate(`Major revisions` = 
+           paste(`section_points...7`,`section_points...8`,sep="-"),
+         .keep="unused") %>% 
+  mutate(`Incomplete / Unacceptable` = 
+           paste(`section_points...9`,`section_points...10`,sep="-"),
+         .keep="unused") %>% 
+  rename(`Potential Bonus` = `section_points...11`) %>% 
+  select(Section, Value, `Meets standards`, `Moderate revisions`, `Major revisions`, `Incomplete / Unacceptable`,`Potential Bonus`) 
+
+
+
+# totals[5,3:6]<-""
+
+
+
+kable(totals,
+      align="lcccccc",
+      format="latex",
+      row.names = FALSE,
+      booktabs=T,
+      linesep = "") %>%
+  # row_spec(4,hline_after = TRUE) %>% 
+  column_spec(3:7, width = "2.5cm") %>%  #removes the blank line after every 5 lines) %>% 
+   kable_styling(position = "left",
+                 bootstrap_options = c("hover"),
+                 latex_options = c("scale_down"))
+# ,
+#                  full_width = T,
+
+```
+&nbsp;  
+Not all DMPs include the same information, and you should refer to the course materials to decide what to include and for examples from different disciplines.  That said, **_for a DMP to meet the Minimum Standard - regardless of discipline - it must include the following:_**
+
+*Administrative Information*  
+
+* Project title
+* Researcher name and contact information
+* Details of any relevant institutional policies (e.g., IRB, IP, IAUCUC)
+* Names of funders that supported the data collection
+* Who is using the data
+* Who is responsible for managing the data?
+* Who will ensure that the data management plan is carried out?
+
+*Information on Data Collection*  
+
+* The purpose of research for which the data are being collected.
+* The kind of samples and data that were collected
+* How collected and how often
+* Format of raw data (paper, digital, image, audio)
+* How much data: number of samples, number and size of files, total size of digital archive.
+* Reproducibility of collection or analysis and if collection used standard methods
+* Metadata files, code books, or other documentation needed by other researchers to use and interpret data, including how archived
+
+*Information on data formats and standards, storage, and backup* 
+
+* Data formats and if (a) standard for the field and (b) open or proprietary.
+* Repository in which data will be archived
+* Short- and long-term data storage and preservation (physical, digital) procedures
+* Plans for regular data backup
+* Plans to ensure security of private/restricted data
+* Dinancial costs related to data archiving or storage (if appropriate)
+* Plans to ensure long-term data use (i.e., storage media, file formats, etc.)
+* Any tools or software are required to read or view the data  
+
+*Information on data sharing and access policies*  
+
+* How personal or sensitive information have been removed to ensure privacy protection.
+* Who holds intellectual property rights for the data and other information created by the project and if there any patent- or technology-licensing-related restrictions on data sharing.
+* Whether re-use, redistribution, or the creation of new tools, services, data sets, or products will be permitted and if commercial use is allowed.
+* Any embargoes on the data
+* The attribution of credit to individuals and institutions, including funders.
+* The length of time the data will be retained (if not permanently archived)
+
+**_An evaluation of "Exceptional" requires the following:_**
+
+* Meets the required DMP minimum standards
+* DMP file generated with Rmarkdown; file saved to Github to allow for version control
+
+
+
+
