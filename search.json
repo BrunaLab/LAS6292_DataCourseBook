@@ -267,7 +267,7 @@
     "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html#data-validation-rules",
     "title": "6  QA/QC: Reducing Error Entry/Finding and Correcting Errors",
     "section": "",
-    "text": "Data Validation in Excel [link]",
+    "text": "Data Validation in Microsoft’s Excel [link]",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>QA/QC: Reducing Error Entry/Finding and Correcting Errors</span>"
@@ -278,7 +278,7 @@
     "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html#data-entry-with-text-to-speech",
     "title": "6  QA/QC: Reducing Error Entry/Finding and Correcting Errors",
     "section": "6.2 Data entry with ‘Text-to-Speech’",
-    "text": "6.2 Data entry with ‘Text-to-Speech’\n\nMS Excel (& other MS programs)\n* Converting text to speech in Excel for Microsoft 365, Excel 2010-2021 [[link]](https://support.microsoft.com/en-us/office/converting-text-to-speech-in-excel-3f2ca8c0-90e2-4391-8e69-573832ea7300). \n* Microsoft for Mac: Hear selected text read aloud from Excel, Word, Power Point, and Outlook [[link](https://support.microsoft.com/en-gb/office/hear-selected-text-read-aloud-ce9fb073-2a4d-44d2-95f7-6a532f0ab112)].  See also _'System Preferences-&gt;Accessibility'_\n* Video Tutorials\n    1. [Tutorial Video 1](https://youtu.be/5ZOsMe0aPt8). This will allow you to select rows or columns of Excel and have them read back to you. \n    2. [Tutorial Video 2](https://youtu.be/q6LOhQThvB8): it's not as thorough, but it is a bit easier to see the menu\n    3. [Tutorial Video 3](https://youtu.be/DSltR90mkgc). Because why not a third one?\n\n\nText-to-Speech in Google Docs\n* If you prefer working in Google Docs you can do the same thing. [This article](https://www.businessinsider.com/how-to-make-google-docs-read-to-you) will show you how. You can also watch [this tutorial video](https://youtu.be/3UmI5wo5kHg).\n\n\nBetter still: ‘speak-on-enter’ to confirm data values as entered\n\nspeak-on-enter [tutorial:]\n\n\n\nSpeech-to-Text for keyboardless data entry\n\nGoogle Sheets: Typing with your voice\nMS Word: How to dictate documents",
+    "text": "6.2 Data entry with ‘Text-to-Speech’\n\nMS Excel (& other MS programs)\n\nConverting text to speech in Excel for Microsoft 365, Excel 2010-2021 [link].\nMicrosoft for Mac: Hear selected text read aloud from Excel, Word, Power Point, and Outlook [link]. See also ‘System Preferences-&gt;Accessibility’\nVideo Tutorials\n\n\n\nTutorial Video 1. This will allow you to select rows or columns of Excel and have them read back to you.\nTutorial Video 2: it’s not as thorough, but it is a bit easier to see the menu\nTutorial Video 3. Because why not a third one?\n\n\n\nText-to-Speech in Google Docs\n\nIf you prefer working in Google Docs you can do the same thing. This article will show you how. You can also watch this tutorial video.\n\n\n\nBetter still: ‘speak-on-enter’ to confirm data values as entered\n\nSpeak-on-enter [tutorial:]\n\n\n\nSpeech-to-Text for keyboardless data entry\n\nGoogle Sheets: Typing with your voice\nMS Word: How to dictate documents",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>QA/QC: Reducing Error Entry/Finding and Correcting Errors</span>"
