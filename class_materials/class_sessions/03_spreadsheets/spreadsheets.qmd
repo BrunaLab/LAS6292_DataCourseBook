@@ -11,7 +11,9 @@ date-modified: last-modified
 
 # Data Organization in Spreadsheets {#sec-spreadsheets}
 
-## **Make your data `tidy`**  
+##  Things to remember when organzing Data in Spreadsheets  
+
+### **Make your data `tidy`** {.unnumbered}   
 
   * Spreadsheets should be a rectangle, with only rows and columns.
   * Each column is a different variable (a thing you are measuring, like ‘weight’ or ‘temperature’).
@@ -22,7 +24,7 @@ date-modified: last-modified
   * Avoid spreading data across multiple sheets
   * _Collecting_ data in tidy format makes it easier to _enter_ data in tidy format.   
 
-## **Use consistent names, abbreviations/codes, and capitalization.**
+### **Use consistent names, abbreviations/codes, and capitalization.** {.unnumbered}  
 
   * Write dates as YYYYMMDD. Better still have separate columns for Year, Month, and Day.
   * Excel is unable to parse dates from before 1899-12-31. Be careful if your data include a mix of dates before and after this date, then you’ll have mixed data types in one column. ^[The reason dates in Excel are so weird is that it is _accounting software_. It counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as the serial number 41822. This is so one can can easily calculate "days from a given date" for accounting purposes (like invoicing) by adding "date+XX days".]
@@ -30,10 +32,11 @@ date-modified: last-modified
   * Don’t use formatting to convey information or to make your spreadsheet look pretty.
   * _Remember that data format and excel defaults can vary by region._ For example, depending on the part of the world where a user is based, the default value for the decimal and thousands operator could be a `,` (comma) or a `.` (period); some regions use mm-dd for dates while others use dd-mm. 
 
-## **DO NOT EDIT OR CORRECT RAW DATA FILES!**   
+### **DO NOT EDIT OR CORRECT RAW DATA FILES!**  {.unnumbered}    
 
   * Once you are done with data entry, save your file in 'read only' format and make _all_ corrections using scripting.
-  * Do _not_ edit raw data after you have entered it in your spreadsheet!*
+  * Do _not_ edit raw data after you have entered it in your spreadsheet! 
+  
 
   
 ## Readings, Tools, & Resources
