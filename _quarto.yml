@@ -101,7 +101,7 @@ book:
     
     # - references.qmd
     # 
-    - part: "Appendix 1: Useful Resources"
+    - part: "Useful Resources"
       chapters: 
         - class_materials/resources/resources.qmd
         - slidedecks.qmd
