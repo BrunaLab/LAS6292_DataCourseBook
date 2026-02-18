@@ -1,58 +1,58 @@
 ---
-author:
-  - name: Emilio M. Bruna
-    affiliations:
-      - id: uf
-      - name: University of Florida
+# author:
+#   - name: Emilio M. Bruna
+#     affiliations:
+#       - id: uf
+#       - name: University of Florida
 title-block-style: default
 date-modified: last-modified
-
+number-sections: false
 ---
+
 
 # Useful resources for Data Collection & Managment {#sec-resources}
 
-
 ## R Programming
 
-### Essential
+### Essential Resources  
 
-1. Hadley Wickham wrote a book on using the tidyverse and the [online version is FREE](https://r4ds.had.co.nz/). This is a phenomenal resource on using R to import, tidy, and visualize data. 
+1. **_R for Data Science_ book:** Hadley Wickham wrote a book on using the tidyverse and [_the online version is FREE_](https://r4ds.hadley.nz/). This is a phenomenal resource on using R to import, tidy, and visualize data. 
 
-2. [Posit Cheat Sheets](https://posit.co/resources/cheatsheets/): help with commands for using the different `tidyverse` packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.
+1. [**Posit Cheat Sheets**](https://posit.co/resources/cheatsheets/): help with commands for using the different `tidyverse` packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.
 
-3. Where and How to ask for help  
+1. **RStudio Keyboard Shortcuts**: A list of the keyboard shortcuts for Mac, Windows, and Linux can be found [here](https://support.posit.co/hc/en-us/articles/200711853-Keyboard-Shortcuts-in-the-RStudio-IDE). 
 
-    * Hadley Wickham's advice on [how to write a good reproducible  
-    example]((http://adv-r.had.co.nz/Reproducibility.html)) for getting help with R  
-    * [how to post good questions on StackOverflow](https://www.r-bloggers.com/2011/01/three-tips-for-posting-good-questions-to-r-help-and-stack-overflow/)  
-    * The UF [R-users listserv](http://www.r-gators.com/listserv/) is *very* user friendly and a great place to post requests for help. 
+1. **Where and How to ask for help:**  
+
+  * Hadley Wickham's advice on [how to write a good reproducible  
+  example]((http://adv-r.had.co.nz/Reproducibility.html)) for getting help with R  
+  * [how to post good questions on StackOverflow](https://www.r-bloggers.com/2011/01/three-tips-for-posting-good-questions-to-r-help-and-stack-overflow/)  
+  * The UF [R-users listserv](http://www.r-gators.com/listserv/) is *very* user friendly and a great place to post requests for help. 
 
 
-### Tutorials and Books
+### Very Tutorials and Books
 
 1. [R Essential Training: Wrangling and Visualizing Data](https://www.linkedin.com/learning/r-essential-training-wrangling-and-visualizing-data/navigating-the-rstudio-environment?u=41282748)
 
-2. [Software Carpentry: Using RStudio for Project Organization & Management](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/)
+1. [Software Carpentry: Using RStudio for Project Organization & Management](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro.html)
 
-3. [Swirl](https://swirlstats.com/)
+1. [Swirl](https://swirlstats.com/)
 
-4. [R Bootcamp](https://r-bootcamp.netlify.app/)
+1. [R Bootcamp](https://r-bootcamp.netlify.app/)
 
-5. Kieran Healy's [*Data Visualization: a practical introduction*](https://socviz.co/) is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.
+1. Kieran Healy's [*Data Visualization: a practical introduction*](https://socviz.co/) is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.
 
-6. [So. Many. Resources.](https://paulvanderlaken.com/2017/08/10/r-resources-cheatsheets-tutorials-books/)
+1. [So. Many. Resources.](https://paulvanderlaken.com/2017/08/10/r-resources-cheatsheets-tutorials-books/)
 
-7. [ROpenSci](https://ropensci.org/): tools for accessing, manipulating, and visualizing open data
+1. [ROpenSci](https://ropensci.org/): tools for accessing, manipulating, and visualizing open data
 
 1. [How to clean messy data in R](https://rfortherestofus.com/2019/12/how-to-clean-messy-data-in-r/) 
+
 1. [The Ultimate Guide to Data Cleaning](https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4)
 
-1. Learning R   
-[Swirl](https://swirlstats.com/)
 
 
-
-# Specific Problems in Data Cleaning and Managemnt
+## Specific Problems in Data Cleaning and Managemnt
 
 1. [Handling dates and times in R](https://course.naturecast.org/docs/r-time-series-data/r_tutorial/)
 
@@ -66,7 +66,8 @@ date-modified: last-modified
 
 6. Image processing in R: the [`magick`](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) package
 
-### Advanced R Packages 
+
+## Advanced R Packages 
 
 1. [`DataCurator`](https://github.com/qcif/data-curator) package: 'a simple desktop data editor to help describe, validate and share usable open data'.
 
@@ -97,7 +98,6 @@ date-modified: last-modified
 
 ## Form Design
 [Best Practice for Form Design](https://medium.com/nextux/form-design-best-practices-9525c321d759)
-
 
 
 ## Data Security
