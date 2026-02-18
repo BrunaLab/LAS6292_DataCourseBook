@@ -364,9 +364,9 @@
   {
     "objectID": "class_materials/resources/resources.html",
     "href": "class_materials/resources/resources.html",
-    "title": "Useful resources for Data Collection & Managment",
+    "title": "8  Useful resources for Data Collection & Managment",
     "section": "",
-    "text": "R Programming",
+    "text": "8.1 R Programming",
     "crumbs": [
       "Appendix 1: Useful Resources",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
@@ -375,42 +375,20 @@
   {
     "objectID": "class_materials/resources/resources.html#r-programming",
     "href": "class_materials/resources/resources.html#r-programming",
-    "title": "Useful resources for Data Collection & Managment",
+    "title": "8  Useful resources for Data Collection & Managment",
     "section": "",
-    "text": "Essential Resources\n\nR for Data Science book: Hadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nRStudio Keyboard Shortcuts: A list of the keyboard shortcuts for Mac, Windows, and Linux can be found here.\nWhere and How to ask for help:\n\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\nVery Tutorials and Books\n\nR Essential Training: Wrangling and Visualizing Data\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl\nR Bootcamp\nKieran Healy’s Data Visualization: a practical introduction is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.\nSo. Many. Resources.\nROpenSci: tools for accessing, manipulating, and visualizing open data\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning",
+    "text": "Essential Resources\n\nR for Data Science book: Hadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nRStudio Keyboard Shortcuts: A list of the keyboard shortcuts for Mac, Windows, and Linux can be found here.\nWhere and How to ask for help:\n\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\nTutorials and Books\n\nR Essential Training: Wrangling and Visualizing Data\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl\nR Bootcamp\nKieran Healy’s Data Visualization: a practical introduction is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.\nSo. Many. Resources.\nROpenSci: tools for accessing, manipulating, and visualizing open data\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning\n\n\n\nSpecific Data Cleaning and Management Problems\n\nHandling dates and times in R\nText Mining: tidytext package\nWorking with Qualtrics survey data: qualtRics package\nOptical Character Recognition (OCR): extract text from images: tesseract package\nExtract text & metadata from pdf files: pdftools package\nImage processing: the magick package\n\n\n\nAdvanced R Packages for Data Management\n\nDataCurator package: ‘a simple desktop data editor to help describe, validate and share usable open data’.\nRegExr: online tool to learn, build, & test Regular Expressions (RegEx / RegExp)\njanitor (cleanup of file names, etc.)\nknitr overview: reproducible documents with R\nqualtRics\n\n\n\nSlide Presentations\n\nMake slide presentations with R",
     "crumbs": [
       "Appendix 1: Useful Resources",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
-    "objectID": "class_materials/resources/resources.html#specific-problems-in-data-cleaning-and-managemnt",
-    "href": "class_materials/resources/resources.html#specific-problems-in-data-cleaning-and-managemnt",
-    "title": "Useful resources for Data Collection & Managment",
-    "section": "Specific Problems in Data Cleaning and Managemnt",
-    "text": "Specific Problems in Data Cleaning and Managemnt\n\nHandling dates and times in R\nText Mining: tidytext package\nWorking with Qualtrics survey data with the qualtRics package\nOptical Character Recognition (OCR): extract text from images: tesseract package\nExtract text & metadata from pdf files: pdftools package\nImage processing in R: the magick package",
-    "crumbs": [
-      "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
-    ]
-  },
-  {
-    "objectID": "class_materials/resources/resources.html#advanced-r-packages",
-    "href": "class_materials/resources/resources.html#advanced-r-packages",
-    "title": "Useful resources for Data Collection & Managment",
-    "section": "Advanced R Packages",
-    "text": "Advanced R Packages\n\nDataCurator package: ‘a simple desktop data editor to help describe, validate and share usable open data’.\nRegExr: online tool to learn, build, & test Regular Expressions (RegEx / RegExp)\njanitor (cleanup of file names, etc.)\nknitr overview: reproducible documents with R\nqualtRics\n## Discipline-specific Resources\nhistorydata package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.\nThe Programming Historian Website: wide range of topics, from text analysis to OpenRefine",
-    "crumbs": [
-      "Appendix 1: Useful Resources",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
-    ]
-  },
-  {
-    "objectID": "class_materials/resources/resources.html#slide-presentations-in-r",
-    "href": "class_materials/resources/resources.html#slide-presentations-in-r",
-    "title": "Useful resources for Data Collection & Managment",
-    "section": "Slide Presentations in R",
-    "text": "Slide Presentations in R\n\nMake slide presentations with R",
+    "objectID": "class_materials/resources/resources.html#discipline-specific-resources",
+    "href": "class_materials/resources/resources.html#discipline-specific-resources",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "8.2 Discipline-specific Resources",
+    "text": "8.2 Discipline-specific Resources\n\nHistory\n\nhistorydata package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.\nThe Programming Historian Website: wide range of topics, from text analysis to OpenRefine",
     "crumbs": [
       "Appendix 1: Useful Resources",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
@@ -419,9 +397,9 @@
   {
     "objectID": "class_materials/resources/resources.html#data-archives",
     "href": "class_materials/resources/resources.html#data-archives",
-    "title": "Useful resources for Data Collection & Managment",
-    "section": "Data Archives",
-    "text": "Data Archives\nQualitative Data Repository",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "8.3 Data Archives",
+    "text": "8.3 Data Archives\nQualitative Data Repository",
     "crumbs": [
       "Appendix 1: Useful Resources",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
@@ -430,9 +408,9 @@
   {
     "objectID": "class_materials/resources/resources.html#text-extraction-and-organization",
     "href": "class_materials/resources/resources.html#text-extraction-and-organization",
-    "title": "Useful resources for Data Collection & Managment",
-    "section": "Text Extraction and Organization",
-    "text": "Text Extraction and Organization\nPlan for extraction and organization",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "8.4 Text Extraction and Organization",
+    "text": "8.4 Text Extraction and Organization\n\nPlan for extraction and organization",
     "crumbs": [
       "Appendix 1: Useful Resources",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
@@ -441,9 +419,9 @@
   {
     "objectID": "class_materials/resources/resources.html#form-design",
     "href": "class_materials/resources/resources.html#form-design",
-    "title": "Useful resources for Data Collection & Managment",
-    "section": "Form Design",
-    "text": "Form Design\nBest Practice for Form Design",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "8.5 Form Design",
+    "text": "8.5 Form Design\n\nBest Practice for Form Design",
     "crumbs": [
       "Appendix 1: Useful Resources",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
@@ -452,9 +430,9 @@
   {
     "objectID": "class_materials/resources/resources.html#data-security",
     "href": "class_materials/resources/resources.html#data-security",
-    "title": "Useful resources for Data Collection & Managment",
-    "section": "Data Security",
-    "text": "Data Security\nUF Office of Information Security and Compliance\nCyber Safeguards for UF\nUF IRB\nUF Data Classification Policy\nUF Office of Information Security and Compliance",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "8.6 Data Security",
+    "text": "8.6 Data Security\n\nUF Office of Information Security and Compliance\n\nCyber Safeguards for UF\n\nUF IRB\n\nUF Data Classification Policy\n\nUF Office of Information Security and Compliance",
     "crumbs": [
       "Appendix 1: Useful Resources",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
@@ -463,9 +441,9 @@
   {
     "objectID": "class_materials/resources/resources.html#platforms-for-organization-collaboration",
     "href": "class_materials/resources/resources.html#platforms-for-organization-collaboration",
-    "title": "Useful resources for Data Collection & Managment",
-    "section": "Platforms for Organization & Collaboration",
-    "text": "Platforms for Organization & Collaboration\nOpen Science Framework",
+    "title": "8  Useful resources for Data Collection & Managment",
+    "section": "8.7 Platforms for Organization & Collaboration",
+    "text": "8.7 Platforms for Organization & Collaboration\n\nOpen Science Framework",
     "crumbs": [
       "Appendix 1: Useful Resources",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
