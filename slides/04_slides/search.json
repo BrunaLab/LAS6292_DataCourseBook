@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "04_slides_reproducibility.html#section",
+    "href": "04_slides_reproducibility.html#section",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "",
+    "text": "Why should we practice\n\n\n‘Reproducible Research’?"
+  },
+  {
+    "objectID": "04_slides_reproducibility.html#why-reproducible-research",
+    "href": "04_slides_reproducibility.html#why-reproducible-research",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Why ‘Reproducible Research’?",
+    "text": "Why ‘Reproducible Research’?\n\nHave you ever tried to reproduce someone else’s data analysis?\nHave you ever tried to repeat your own (old) work?\nWhat made it easy/hard to do so?\nWhat would have to happen if you had to extend the analysis further?\nIf you caught a data error how easy/hard would it be to re-create the analysis?\nWhat would happen if your collaborator is no longer available to walk you through their analysis?\nWhat if you couldn’t remember the steps?"
+  },
+  {
+    "objectID": "04_slides_reproducibility.html#a-data-sharing-snafu-in-3-acts",
+    "href": "04_slides_reproducibility.html#a-data-sharing-snafu-in-3-acts",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "A Data Sharing Snafu in 3 Acts",
+    "text": "A Data Sharing Snafu in 3 Acts"
+  },
+  {
+    "objectID": "04_slides_reproducibility.html#why-reproducible-research-1",
+    "href": "04_slides_reproducibility.html#why-reproducible-research-1",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Why ‘Reproducible Research’?",
+    "text": "Why ‘Reproducible Research’?\nScientific Integrity:\n\nRigor, trustworthiness, and transparency\nAllows others to verify analyses, find & correct mistakes\n\nEfficient Research:\n\nHelps remember HOW and WHY you did something.\nSpeed up this project: Automation makes it faster (and easier) to redo analyses. Time saved can be spent doing other stuff.\nSpeed up future projects: Can use scripts from one project for another one.\n\nCommunity Good:\n\nOthers can learn from your approach & methods"
+  },
+  {
+    "objectID": "04_slides_reproducibility.html#section-1",
+    "href": "04_slides_reproducibility.html#section-1",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "",
+    "text": "The Reproducible Research Workflow"
+  },
+  {
+    "objectID": "04_slides_reproducibility.html#section-2",
+    "href": "04_slides_reproducibility.html#section-2",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "",
+    "text": "Reproducible Data Processing: Let’s Practice"
+  },
+  {
+    "objectID": "04_slides_reproducibility.html#reproducibility-recipies",
+    "href": "04_slides_reproducibility.html#reproducibility-recipies",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Reproducibility = Recipies",
+    "text": "Reproducibility = Recipies"
+  }
+]
