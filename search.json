@@ -135,40 +135,18 @@
     "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html",
     "title": "4  Data Organization in Spreadsheets",
     "section": "",
-    "text": "4.1 Make your data tidy",
+    "text": "4.1 Things to remember when organzing Data in Spreadsheets",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Organization in Spreadsheets</span>"
     ]
   },
   {
-    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#make-your-data-tidy",
-    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#make-your-data-tidy",
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#things-to-remember-when-organzing-data-in-spreadsheets",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#things-to-remember-when-organzing-data-in-spreadsheets",
     "title": "4  Data Organization in Spreadsheets",
     "section": "",
-    "text": "Spreadsheets should be a rectangle, with only rows and columns.\nEach column is a different variable (a thing you are measuring, like ‘weight’ or ‘temperature’).\nOne row per observation. Each cell has only one value.\nColumn headers: Use short meaningful column names with no spaces or special characters. Don’t start column names with numbers. Record units in column headers.\nDon’t enter the same data on multiple spreadsheets: Use one for each category of data to avoid duplicated data and to simplify corrections (e.g., taxonomy).\nNever put multiple tables in a single spreadsheet.\nAvoid spreading data across multiple sheets\nCollecting data in tidy format makes it easier to enter data in tidy format.",
-    "crumbs": [
-      "Course Topics",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Organization in Spreadsheets</span>"
-    ]
-  },
-  {
-    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#use-consistent-names-abbreviationscodes-and-capitalization.",
-    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#use-consistent-names-abbreviationscodes-and-capitalization.",
-    "title": "4  Data Organization in Spreadsheets",
-    "section": "4.2 Use consistent names, abbreviations/codes, and capitalization.",
-    "text": "4.2 Use consistent names, abbreviations/codes, and capitalization.\n\nWrite dates as YYYYMMDD. Better still have separate columns for Year, Month, and Day.\nExcel is unable to parse dates from before 1899-12-31. Be careful if your data include a mix of dates before and after this date, then you’ll have mixed data types in one column. 1\nRecord zeros with a numeral ( 0), not a blank cells. For missing data use an appropriate null value indicator (e.g., NA).\nDon’t use formatting to convey information or to make your spreadsheet look pretty.\nRemember that data format and excel defaults can vary by region. For example, depending on the part of the world where a user is based, the default value for the decimal and thousands operator could be a , (comma) or a . (period); some regions use mm-dd for dates while others use dd-mm.",
-    "crumbs": [
-      "Course Topics",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Organization in Spreadsheets</span>"
-    ]
-  },
-  {
-    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#do-not-edit-or-correct-raw-data-files",
-    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#do-not-edit-or-correct-raw-data-files",
-    "title": "4  Data Organization in Spreadsheets",
-    "section": "4.3 DO NOT EDIT OR CORRECT RAW DATA FILES!",
-    "text": "4.3 DO NOT EDIT OR CORRECT RAW DATA FILES!\n\nOnce you are done with data entry, save your file in ‘read only’ format and make all corrections using scripting.\nDo not edit raw data after you have entered it in your spreadsheet!*",
+    "text": "Make your data tidy\n\nSpreadsheets should be a rectangle, with only rows and columns.\nEach column is a different variable (a thing you are measuring, like ‘weight’ or ‘temperature’).\nOne row per observation. Each cell has only one value.\nColumn headers: Use short meaningful column names with no spaces or special characters. Don’t start column names with numbers. Record units in column headers.\nDon’t enter the same data on multiple spreadsheets: Use one for each category of data to avoid duplicated data and to simplify corrections (e.g., taxonomy).\nNever put multiple tables in a single spreadsheet.\nAvoid spreading data across multiple sheets\nCollecting data in tidy format makes it easier to enter data in tidy format.\n\n\n\nUse consistent names, abbreviations/codes, and capitalization.\n\nWrite dates as YYYYMMDD. Better still have separate columns for Year, Month, and Day.\nExcel is unable to parse dates from before 1899-12-31. Be careful if your data include a mix of dates before and after this date, then you’ll have mixed data types in one column. 1\nRecord zeros with a numeral ( 0), not a blank cells. For missing data use an appropriate null value indicator (e.g., NA).\nDon’t use formatting to convey information or to make your spreadsheet look pretty.\nRemember that data format and excel defaults can vary by region. For example, depending on the part of the world where a user is based, the default value for the decimal and thousands operator could be a , (comma) or a . (period); some regions use mm-dd for dates while others use dd-mm.\n\n\n\nDO NOT EDIT OR CORRECT RAW DATA FILES!\n\nOnce you are done with data entry, save your file in ‘read only’ format and make all corrections using scripting.\nDo not edit raw data after you have entered it in your spreadsheet!",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Organization in Spreadsheets</span>"
@@ -178,8 +156,8 @@
     "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#readings-tools-resources",
     "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets.html#readings-tools-resources",
     "title": "4  Data Organization in Spreadsheets",
-    "section": "4.4 Readings, Tools, & Resources",
-    "text": "4.4 Readings, Tools, & Resources\n\nBroman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10. [read online]\nData Validation in Google Sheets: blog post and video tutorial. A pdf version is available for download here.\nWhy not bypass spreadsheets like Excel and use a csv editor like [Comma Chameleon][https://comma-chameleon.io/] instead? CC and other csv editors allow you to enter data in the same way - into cells, by adding and removing rows - and then export your file. But that’s about it, which means you can’t do many of the things (e.g., calculations, color in cells) that cause problems down the road.\nMore advanced users comfortable with R can also look into Data Curator, with which you can create and edit tabular data from scratch or from a template, open Microsoft Excel and CSV files, and automatically correct common problems found in these and other file types.\nDataONE Community Engagement & Outreach Working Group (2017) “Data Quality Control and Assurance”. Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/05_qaqc/index on Aug 31, 2020\nDataONE Community Engagement & Outreach Working Group (2017) “Data Entry and Manipulation”. Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/04_entry/index on Aug 31, 2020\nChris Prener, Trevor Burrows (Eds.). Data Carpentry: Data Organization in Spreadsheets for Social Scientists.\nPeter R. Hoyt, Christie Bahlai, Tracy K. Teal (Eds.), Erin Alison Becker, Aleksandra Pawlik, Peter Hoyt, Francois Michonneau, Christie Bahlai, Toby Reiter, et al. (2019, July 5). datacarpentry/spreadsheet-ecology-lesson: Data Carpentry: Data Organization in Spreadsheets for Ecologists, June 2019 (Version v2019.06.2). Zenodo. http://doi.org/10.5281/zenodo.3269869",
+    "section": "4.2 Readings, Tools, & Resources",
+    "text": "4.2 Readings, Tools, & Resources\n\nBroman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10. [read online]\nData Validation in Google Sheets: blog post and video tutorial. A pdf version is available for download here.\nWhy not bypass spreadsheets like Excel and use a csv editor like [Comma Chameleon][https://comma-chameleon.io/] instead? CC and other csv editors allow you to enter data in the same way - into cells, by adding and removing rows - and then export your file. But that’s about it, which means you can’t do many of the things (e.g., calculations, color in cells) that cause problems down the road.\nMore advanced users comfortable with R can also look into Data Curator, with which you can create and edit tabular data from scratch or from a template, open Microsoft Excel and CSV files, and automatically correct common problems found in these and other file types.\nDataONE Community Engagement & Outreach Working Group (2017) “Data Quality Control and Assurance”. Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/05_qaqc/index on Aug 31, 2020\nDataONE Community Engagement & Outreach Working Group (2017) “Data Entry and Manipulation”. Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/04_entry/index on Aug 31, 2020\nChris Prener, Trevor Burrows (Eds.). Data Carpentry: Data Organization in Spreadsheets for Social Scientists.\nPeter R. Hoyt, Christie Bahlai, Tracy K. Teal (Eds.), Erin Alison Becker, Aleksandra Pawlik, Peter Hoyt, Francois Michonneau, Christie Bahlai, Toby Reiter, et al. (2019, July 5). datacarpentry/spreadsheet-ecology-lesson: Data Carpentry: Data Organization in Spreadsheets for Ecologists, June 2019 (Version v2019.06.2). Zenodo. http://doi.org/10.5281/zenodo.3269869",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Organization in Spreadsheets</span>"

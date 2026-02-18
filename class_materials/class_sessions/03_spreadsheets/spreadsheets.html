@@ -232,10 +232,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#make-your-data-tidy" id="toc-make-your-data-tidy" class="nav-link active" data-scroll-target="#make-your-data-tidy"><span class="header-section-number">4.1</span> <strong>Make your data <code>tidy</code></strong></a></li>
-  <li><a href="#use-consistent-names-abbreviationscodes-and-capitalization." id="toc-use-consistent-names-abbreviationscodes-and-capitalization." class="nav-link" data-scroll-target="#use-consistent-names-abbreviationscodes-and-capitalization."><span class="header-section-number">4.2</span> <strong>Use consistent names, abbreviations/codes, and capitalization.</strong></a></li>
-  <li><a href="#do-not-edit-or-correct-raw-data-files" id="toc-do-not-edit-or-correct-raw-data-files" class="nav-link" data-scroll-target="#do-not-edit-or-correct-raw-data-files"><span class="header-section-number">4.3</span> <strong>DO NOT EDIT OR CORRECT RAW DATA FILES!</strong></a></li>
-  <li><a href="#readings-tools-resources" id="toc-readings-tools-resources" class="nav-link" data-scroll-target="#readings-tools-resources"><span class="header-section-number">4.4</span> Readings, Tools, &amp; Resources</a></li>
+  <li><a href="#things-to-remember-when-organzing-data-in-spreadsheets" id="toc-things-to-remember-when-organzing-data-in-spreadsheets" class="nav-link active" data-scroll-target="#things-to-remember-when-organzing-data-in-spreadsheets"><span class="header-section-number">4.1</span> Things to remember when organzing Data in Spreadsheets</a>
+  <ul class="collapse">
+  <li><a href="#make-your-data-tidy" id="toc-make-your-data-tidy" class="nav-link" data-scroll-target="#make-your-data-tidy"><strong>Make your data <code>tidy</code></strong></a></li>
+  <li><a href="#use-consistent-names-abbreviationscodes-and-capitalization." id="toc-use-consistent-names-abbreviationscodes-and-capitalization." class="nav-link" data-scroll-target="#use-consistent-names-abbreviationscodes-and-capitalization."><strong>Use consistent names, abbreviations/codes, and capitalization.</strong></a></li>
+  <li><a href="#do-not-edit-or-correct-raw-data-files" id="toc-do-not-edit-or-correct-raw-data-files" class="nav-link" data-scroll-target="#do-not-edit-or-correct-raw-data-files"><strong>DO NOT EDIT OR CORRECT RAW DATA FILES!</strong></a></li>
+  </ul></li>
+  <li><a href="#readings-tools-resources" id="toc-readings-tools-resources" class="nav-link" data-scroll-target="#readings-tools-resources"><span class="header-section-number">4.2</span> Readings, Tools, &amp; Resources</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/03_spreadsheets/spreadsheets.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
@@ -267,8 +270,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="make-your-data-tidy" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="make-your-data-tidy"><span class="header-section-number">4.1</span> <strong>Make your data <code>tidy</code></strong></h2>
+<section id="things-to-remember-when-organzing-data-in-spreadsheets" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="things-to-remember-when-organzing-data-in-spreadsheets"><span class="header-section-number">4.1</span> Things to remember when organzing Data in Spreadsheets</h2>
+<section id="make-your-data-tidy" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="make-your-data-tidy"><strong>Make your data <code>tidy</code></strong></h3>
 <ul>
 <li>Spreadsheets should be a rectangle, with only rows and columns.</li>
 <li>Each column is a different variable (a thing you are measuring, like ‘weight’ or ‘temperature’).</li>
@@ -280,8 +285,8 @@ ul.task-list li input[type="checkbox"] {
 <li><em>Collecting</em> data in tidy format makes it easier to <em>enter</em> data in tidy format.</li>
 </ul>
 </section>
-<section id="use-consistent-names-abbreviationscodes-and-capitalization." class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="use-consistent-names-abbreviationscodes-and-capitalization."><span class="header-section-number">4.2</span> <strong>Use consistent names, abbreviations/codes, and capitalization.</strong></h2>
+<section id="use-consistent-names-abbreviationscodes-and-capitalization." class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="use-consistent-names-abbreviationscodes-and-capitalization."><strong>Use consistent names, abbreviations/codes, and capitalization.</strong></h3>
 <ul>
 <li>Write dates as YYYYMMDD. Better still have separate columns for Year, Month, and Day.</li>
 <li>Excel is unable to parse dates from before 1899-12-31. Be careful if your data include a mix of dates before and after this date, then you’ll have mixed data types in one column. <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
@@ -290,15 +295,16 @@ ul.task-list li input[type="checkbox"] {
 <li><em>Remember that data format and excel defaults can vary by region.</em> For example, depending on the part of the world where a user is based, the default value for the decimal and thousands operator could be a <code>,</code> (comma) or a <code>.</code> (period); some regions use mm-dd for dates while others use dd-mm.</li>
 </ul>
 </section>
-<section id="do-not-edit-or-correct-raw-data-files" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="do-not-edit-or-correct-raw-data-files"><span class="header-section-number">4.3</span> <strong>DO NOT EDIT OR CORRECT RAW DATA FILES!</strong></h2>
+<section id="do-not-edit-or-correct-raw-data-files" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="do-not-edit-or-correct-raw-data-files"><strong>DO NOT EDIT OR CORRECT RAW DATA FILES!</strong></h3>
 <ul>
 <li>Once you are done with data entry, save your file in ‘read only’ format and make <em>all</em> corrections using scripting.</li>
-<li>Do <em>not</em> edit raw data after you have entered it in your spreadsheet!*</li>
+<li>Do <em>not</em> edit raw data after you have entered it in your spreadsheet!</li>
 </ul>
 </section>
-<section id="readings-tools-resources" class="level2" data-number="4.4">
-<h2 data-number="4.4" class="anchored" data-anchor-id="readings-tools-resources"><span class="header-section-number">4.4</span> Readings, Tools, &amp; Resources</h2>
+</section>
+<section id="readings-tools-resources" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="readings-tools-resources"><span class="header-section-number">4.2</span> Readings, Tools, &amp; Resources</h2>
 <ol type="1">
 <li><p>Broman, K. W., &amp; Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10. <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989">[read online]</a></p></li>
 <li><p>Data Validation in Google Sheets: <a href="https://www.howtogeek.com/428919/how-to-restrict-data-input-in-google-sheets-with-data-validation/">blog post</a> and <a href="https://www.youtube.com/watch?v=VEJMeYroDTM">video tutorial</a>. A pdf version is available for download <a href="https://las6292.netlify.app/uploads/readings/data-validation-google-sheets.pdf">here</a>.</p></li>
