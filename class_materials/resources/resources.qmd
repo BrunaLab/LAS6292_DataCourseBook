@@ -24,44 +24,50 @@ number-sections: true
 
 1. **Where and How to ask for help:**  
 
-  * Hadley Wickham's advice on [how to write a good reproducible  
+  > * Hadley Wickham's advice on [how to write a good reproducible  
   example]((http://adv-r.had.co.nz/Reproducibility.html)) for getting help with R  
-  * [how to post good questions on StackOverflow](https://www.r-bloggers.com/2011/01/three-tips-for-posting-good-questions-to-r-help-and-stack-overflow/)  
-  * The UF [R-users listserv](http://www.r-gators.com/listserv/) is *very* user friendly and a great place to post requests for help. 
+  > * [how to post good questions on StackOverflow](https://www.r-bloggers.com/2011/01/three-tips-for-posting-good-questions-to-r-help-and-stack-overflow/)  
+  > * The UF [R-users listserv](http://www.r-gators.com/listserv/) is *very* user friendly and a great place to post requests for help. 
 
 
-### Tutorials and Books   {.unnumbered}  
+### Tutorials {.unnumbered}  
 
-1. [R Essential Training: Wrangling and Visualizing Data](https://www.linkedin.com/learning/r-essential-training-wrangling-and-visualizing-data/navigating-the-rstudio-environment?u=41282748)
+1. [Paul van der Laken's List](https://paulvanderlaken.com/2017/08/10/r-resources-cheatsheets-tutorials-books/)  of books, tutorials, and other resources on topics ranging from data manipulation to data validation to data visualization.
 
-1. [Software Carpentry: Using RStudio for Project Organization & Management](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro.html)
+1. [R Essential Training: Wrangling and Visualizing Data](https://www.linkedin.com/learning/r-essential-training-wrangling-and-visualizing-data/navigating-the-rstudio-environment?u=41282748). (requires a UF email address to access LinkedIn Learning).
 
-1. [Swirl](https://swirlstats.com/)
+1. Software Carpentry: [Using RStudio for Project Organization & Management](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro.html)
 
-1. [R Bootcamp](https://r-bootcamp.netlify.app/)
+1. [Swirl](https://swirlstats.com/): learn R programming interactively, at your own pace, and in the R console.
 
-1. Kieran Healy's [*Data Visualization: a practical introduction*](https://socviz.co/) is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.
-
-1. [So. Many. Resources.](https://paulvanderlaken.com/2017/08/10/r-resources-cheatsheets-tutorials-books/)
-
-1. [ROpenSci](https://ropensci.org/): tools for accessing, manipulating, and visualizing open data
+1. [R Bootcamp](https://r-bootcamp.netlify.app/) by Ted Laderas and Jessica Minnier. Learn R in your browser.
 
 1. [How to clean messy data in R](https://rfortherestofus.com/2019/12/how-to-clean-messy-data-in-r/) 
 
-1. [The Ultimate Guide to Data Cleaning](https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4)
+1. [The Ultimate Guide to Data Cleaning](https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4) is written for Python users but the pricniples apply regardless of language.
 
 
 ### Specific Data Cleaning and Management Problems {.unnumbered}  
 
+#### Dates & Times {.unnumbered}  
+
 1. [**Handling dates and times in R**](https://course.naturecast.org/docs/r-time-series-data/r_tutorial/)
+
+#### Text & Text Mining {.unnumbered}  
 
 2. **Text Mining:** [`tidytext`](https://juliasilge.github.io/tidytext/) package
 
+#### Qualtrics {.unnumbered}  
+
 3. **Working with Qualtrics** survey data: [`qualtRics`](https://docs.ropensci.org/qualtRics/) package
+
+#### Text Extraction {.unnumbered}  
 
 4. **Optical Character Recognition (OCR):** extract text from images: [`tesseract`](https://docs.ropensci.org/tesseract/) package
 
 5. **Extract text & metadata from pdf files:** [`pdftools`](https://docs.ropensci.org/pdftools/) package
+
+#### Images & Image Processing {.unnumbered}  
 
 6. **Image processing**: the [`magick`](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) package
 
@@ -74,46 +80,40 @@ number-sections: true
 
 1. [janitor](https://github.com/sfirke/janitor) (cleanup of file names, etc.) 
 
-2. [`knitr`](https://kbroman.org/knitr_knutshell/pages/overview.html) overview: reproducible documents with R
+1. [ROpenSci](https://ropensci.org/): tools for accessing, manipulating, and visualizing open data
 
-1. [qualtRics](https://docs.ropensci.org/qualtRics/)   
+### Data Visualization
 
+1. [*Data Visualization: a practical introduction*](https://socviz.co/) by Kieran Healy is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.  
 
-### Slide Presentations   {.unnumbered}  
+### Slide & Presentations   {.unnumbered}  
 
 1. Make [slide presentations with R](https://rmarkdown.rstudio.com/lesson-11.html)
 
-## Discipline-specific Resources
+### Documents & Reports   {.unnumbered}  
 
-### History    {.unnumbered}  
+1. [`knitr`](https://kbroman.org/knitr_knutshell/pages/overview.html) overview: reproducible documents with R
+
+
+### Discipline-specific R Resources    {.unnumbered}  
+
+#### History    {.unnumbered}  
 
 1. [`historydata`](https://github.com/ropensci/historydata) package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.
 
 2. [*The Programming Historian*](https://programminghistorian.org/) Website: wide range of topics, from text analysis to OpenRefine
 
+#### Psychology    {.unnumbered}  
+
+1. ['Programming for Psychologists: Data Creation and Analysis'](https://www.crumplab.com/programmingforpsych/) by Matthew J. C. Crump
+
 
 ## Data Archives 
 
-[Qualitative Data Repository](https://qdr.syr.edu/)
+1. [Qualitative Data Repository](https://qdr.syr.edu/): dedicated archive for storing and sharing digital data (and accompanying documentation) generated or collected through qualitative and multi-method research in the social sciences and related disciplines.
 
-## Text Extraction and Organization 
+1. [Data Dryad](https://datadryad.org/): open data publishing platform and a community committed to the open availability and routine re-use of all research data.
 
-1. [Plan for extraction and organization](https://towardsdatascience.com/organizing-your-first-text-analytics-project-ce350dea3a4a)   
+1. [ICPSR](https://www.icpsr.umich.edu/sites/icpsr/home): data access, curation, and analytical methods for social science.
 
-## Form Design 
 
-1. [Best Practice for Form Design](https://medium.com/nextux/form-design-best-practices-9525c321d759)
-
-## Data Security
-
-1. [UF Office of Information Security and Compliance](https://security.ufl.edu/wp-content/uploads/2012/12/data-security-handouts.pdf)  
-1. [Cyber Safeguards for UF](https://security.ufl.edu/learn-information-security/protect-yourself/data/)    
-1. [UF IRB](http://irb.ufl.edu/index/data/1981-2.html)  
-1. [UF Data Classification Policy](https://it.ufl.edu/policies/information-security/data-classification-policy/)  
-1. [UF Office of Information Security and Compliance](https://security.ufl.edu/wp-content/uploads/2012/12/data-security-handouts.pdf)   
-
-## Platforms for Organization & Collaboration
-
-1. [Open Science Framework](https://osf.io/) 
-
- 
