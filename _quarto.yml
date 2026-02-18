@@ -129,8 +129,8 @@ format:
     toc: true
     toc-depth: 2
     toc-title: Table of Contents
-    lof: true
-    lot: true
+    lof: false
+    lot: false
     bibliography: las6292.bib
     # Numbering
     number-sections: true
