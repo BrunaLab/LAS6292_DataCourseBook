@@ -209,7 +209,7 @@ b. How would you correct each of these issues? Could these data easily be import
   
 6. What would you do to enter dates into Excel in a way that avoids the issues observed above? 
 
-7. Export the `SAFI_messy.xlsx` as a .csv file with the name `SAFI_messy.csv`; you'll have to click the "OK" when warning box pops up.  Now reopen it. What happened? You can find a guide to saving your file in .csv format and why that is a good idea [on this website](https://datacarpentry.org/spreadsheet-ecology-lesson/05-exporting-data/index.html).
+7. Export the `SAFI_messy.xlsx` as a .csv file with the name `SAFI_messy.csv`; you'll have to click the "OK" when warning box pops up.  Now reopen it. What happened? You can find a guide to saving your file in .csv format and why that is a good idea [on this website](https://datacarpentry.github.io/spreadsheet-ecology-lesson/05-exporting-data.html).
 
 
 ## **Breakout 1: Returning results ** 
