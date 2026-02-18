@@ -54,4 +54,4 @@ This book is a manual for students in LAS 6292: Data Collection & Management. Th
 
 --- 
 
-This guide is a [Quarto Book](https://quarto.org/docs/books) hosted on the [Bruna Lab's Github site](https://github.com/BrunaLab). Please suggest edits to the text, missing resources, or make suggestions for improvement either by [pull request](https://github.com/BrunaLab/LAS6292_DataCourseBook/pulls) or by [posting an issue](https://github.com/BrunaLab/LAS6292_DataCourseBook/issues) on the course book's repository. For more information and tutorials for doing so, see @sec-manual. 
+This guide is a [Quarto Book](https://quarto.org/docs/books) hosted on the [Bruna Lab's Github site](https://github.com/BrunaLab). Please suggest edits to the text, missing resources, or make suggestions for improvement either by [pull request](https://github.com/BrunaLab/LAS6292_DataCourseBook/pulls) or by [posting an issue](https://github.com/BrunaLab/LAS6292_DataCourseBook/issues) on the course book's repository. For more information and tutorials for doing so see the [Github documentation](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue). 

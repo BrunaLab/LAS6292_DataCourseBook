@@ -5,9 +5,9 @@ title: "Slide decks"
 # Slides for different course topics
 
 
-- [Introduction](class_materials/slides/01_slides/01_slides_intro.html)  
-- [File Names](class_materials/slides/02_slides/02_slides_filenames.html)  
-- ['Reproducible' Data Management](class_materials/slides/04_slides/04_slides_reproducibility.html)  
+- [Introduction](slides/01_slides/01_slides_intro.html)  
+- [File Names](slides/02_slides/02_slides_filenames.html)  
+- ['Reproducible' Data Management](slides/04_slides/04_slides_reproducibility.html)  
 
 
 
@@ -16,20 +16,20 @@ title: "Slide decks"
 
 - <a href="slides/01_slides/01_slides_intro.html">Slides - Introduction</a>
 <div class="slides-embed">
-  <iframe src="class_materials/slides/01_slides/01_slides_intro.html" width="100%" height="320" loading="lazy" style="border:1px solid #ddd;border-radius:8px"></iframe>
+  <iframe src="slides/01_slides/01_slides_intro.html" width="100%" height="320" loading="lazy" style="border:1px solid #ddd;border-radius:8px"></iframe>
 </div>
 
 
 
-- <a href="class_materials/slides/02_slides/02_slides_filenames.html">Slides - File Names</a>
+- <a href="slides/02_slides/02_slides_filenames.html">Slides - File Names</a>
 <div class="slides-embed">
-  <iframe src="class_materials/slides/02_slides/02_slides_filenames.html" width="100%" height="320" loading="lazy" style="border:1px solid #ddd;border-radius:8px"></iframe>
+  <iframe src="slides/02_slides/02_slides_filenames.html" width="100%" height="320" loading="lazy" style="border:1px solid #ddd;border-radius:8px"></iframe>
 </div>
 
 
-- <a href="class_materials/slides/04_slides/04_slides_reproducibility.html">Slides - 'Reproducible' Data Management</a>
+- <a href="slides/04_slides/04_slides_reproducibility.html">Slides - 'Reproducible' Data Management</a>
 <div class="slides-embed">
-  <iframe src="class_materials/slides/04_slides/04_slides_reproducibility.html" width="100%" height="320" loading="lazy" style="border:1px solid #ddd;border-radius:8px"></iframe>
+  <iframe src="slides/04_slides/04_slides_reproducibility.html" width="100%" height="320" loading="lazy" style="border:1px solid #ddd;border-radius:8px"></iframe>
 </div>
 
 :::
