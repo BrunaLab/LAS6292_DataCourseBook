@@ -14,7 +14,7 @@ number-sections: true
 
 ## R Programming 
 
-### Essential Resources   {.unnumbered}
+### Essential Resources  {.unnumbered}   
 
 1. **_R for Data Science_ book:** Hadley Wickham wrote a book on using the tidyverse and [_the online version is FREE_](https://r4ds.hadley.nz/). This is a phenomenal resource on using R to import, tidy, and visualize data. 
 
@@ -86,24 +86,24 @@ number-sections: true
 
 1. [*Data Visualization: a practical introduction*](https://socviz.co/) by Kieran Healy is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.  
 
-### Slide & Presentations   {.unnumbered}  
+### Slide & Presentations  {.unnumbered}    
 
 1. Make [slide presentations with R](https://rmarkdown.rstudio.com/lesson-11.html)
 
-### Documents & Reports   {.unnumbered}  
+### Documents & Reports  {.unnumbered}    
 
 1. [`knitr`](https://kbroman.org/knitr_knutshell/pages/overview.html) overview: reproducible documents with R
 
 
-### Discipline-specific R Resources    {.unnumbered}  
+### Discipline-specific R Resources   {.unnumbered}    
 
-#### History    {.unnumbered}  
+#### History   {.unnumbered}    
 
 1. [`historydata`](https://github.com/ropensci/historydata) package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.
 
 2. [*The Programming Historian*](https://programminghistorian.org/) Website: wide range of topics, from text analysis to OpenRefine
 
-#### Psychology    {.unnumbered}  
+#### Psychology   {.unnumbered}    
 
 1. ['Programming for Psychologists: Data Creation and Analysis'](https://www.crumplab.com/programmingforpsych/) by Matthew J. C. Crump
 
