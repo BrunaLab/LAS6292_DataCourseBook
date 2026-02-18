@@ -20,24 +20,23 @@ date-modified: last-modified
 ## Data entry with 'Text-to-Speech' 
 
 
-### MS Excel (& other MS programs) {.unnumbered}
+### MS Excel (& other MS programs) {.unnumbered}  
 
-    * Converting text to speech in Excel for Microsoft 365, Excel 2010-2021 [[link]](https://support.microsoft.com/en-us/office/converting-text-to-speech-in-excel-3f2ca8c0-90e2-4391-8e69-573832ea7300). 
-    * Microsoft for Mac: Hear selected text read aloud from Excel, Word, Power Point, and Outlook [[link](https://support.microsoft.com/en-gb/office/hear-selected-text-read-aloud-ce9fb073-2a4d-44d2-95f7-6a532f0ab112)].  See also _'System Preferences->Accessibility'_
-    * Video Tutorials
-        1. [Tutorial Video 1](https://youtu.be/5ZOsMe0aPt8). This will allow you to select rows or columns of Excel and have them read back to you. 
-        2. [Tutorial Video 2](https://youtu.be/q6LOhQThvB8): it's not as thorough, but it is a bit easier to see the menu
-        3. [Tutorial Video 3](https://youtu.be/DSltR90mkgc). Because why not a third one?
+1. Converting text to speech in Excel for Microsoft 365, Excel 2010-2021 [[link]](https://support.microsoft.com/en-us/office/converting-text-to-speech-in-excel-3f2ca8c0-90e2-4391-8e69-573832ea7300). 
+1. Microsoft for Mac: Hear selected text read aloud from Excel, Word, Power Point, and Outlook [[link](https://support.microsoft.com/en-gb/office/hear-selected-text-read-aloud-ce9fb073-2a4d-44d2-95f7-6a532f0ab112)].  See also _'System Preferences->Accessibility'_
+1. Video Tutorials  
+* [Tutorial Video 1](https://youtu.be/5ZOsMe0aPt8). This will allow you to select rows or columns of Excel and have them read back to you. 
+* [Tutorial Video 2](https://youtu.be/q6LOhQThvB8): it's not as thorough, but it is a bit easier to see the menu
+* [Tutorial Video 3](https://youtu.be/DSltR90mkgc). Because why not a third one?
 
-### Text-to-Speech in Google Docs {.unnumbered}
+### Text-to-Speech in Google Docs {.unnumbered}  
 
-    * If you prefer working in Google Docs you can do the same thing. [This article](https://www.businessinsider.com/how-to-make-google-docs-read-to-you) will show you how. You can also watch [this tutorial video](https://youtu.be/3UmI5wo5kHg).
+1. If you prefer working in Google Docs you can do the same thing. [This article](https://www.businessinsider.com/how-to-make-google-docs-read-to-you) will show you how. You can also watch [this tutorial video](https://youtu.be/3UmI5wo5kHg).
 
 
 ### Better still: 'speak-on-enter' to confirm data values as entered {.unnumbered}
 
-
-1. speak-on-enter [[tutorial:]](https://www.makeuseof.com/how-to-get-microsoft-excel-speak-aloud/)
+1. Speak-on-enter [[tutorial:]](https://www.makeuseof.com/how-to-get-microsoft-excel-speak-aloud/)
 
 ### Speech-to-Text for keyboardless data entry  {.unnumbered}
 
