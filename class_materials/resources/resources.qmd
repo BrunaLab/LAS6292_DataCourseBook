@@ -47,32 +47,32 @@ number-sections: true
 1. [The Ultimate Guide to Data Cleaning](https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4) is written for Python users but the pricniples apply regardless of language.
 
 
-### Specific Data Cleaning and Management Problems {.unnumbered}  
+## Specific Data Cleaning and Management Problems 
 
-#### Dates & Times {.unnumbered}  
+### Dates & Times {.unnumbered}  
 
 1. [**Handling dates and times in R**](https://course.naturecast.org/docs/r-time-series-data/r_tutorial/)
 
-#### Text & Text Mining {.unnumbered}  
+### Text & Text Mining {.unnumbered}  
 
 2. **Text Mining:** [`tidytext`](https://juliasilge.github.io/tidytext/) package
 
-#### Qualtrics {.unnumbered}  
+### Qualtrics {.unnumbered}  
 
 3. **Working with Qualtrics** survey data: [`qualtRics`](https://docs.ropensci.org/qualtRics/) package
 
-#### Text Extraction {.unnumbered}  
+### Text Extraction {.unnumbered}  
 
 4. **Optical Character Recognition (OCR):** extract text from images: [`tesseract`](https://docs.ropensci.org/tesseract/) package
 
 5. **Extract text & metadata from pdf files:** [`pdftools`](https://docs.ropensci.org/pdftools/) package
 
-#### Images & Image Processing {.unnumbered}  
+### Images & Image Processing {.unnumbered}  
 
 6. **Image processing**: the [`magick`](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) package
 
 
-### Advanced R Packages for Data Management {.unnumbered}  
+## Advanced R Packages for Data Management 
 
 1. [`DataCurator`](https://github.com/qcif/data-curator) package: 'a simple desktop data editor to help describe, validate and share usable open data'.
 
@@ -82,28 +82,28 @@ number-sections: true
 
 1. [ROpenSci](https://ropensci.org/): tools for accessing, manipulating, and visualizing open data
 
-### Data Visualization
+## Data Visualization
 
 1. [*Data Visualization: a practical introduction*](https://socviz.co/) by Kieran Healy is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.  
 
-### Slide & Presentations  {.unnumbered}    
+## Slide & Presentations  
 
 1. Make [slide presentations with R](https://rmarkdown.rstudio.com/lesson-11.html)
 
-### Documents & Reports  {.unnumbered}    
+## Documents & Reports  
 
 1. [`knitr`](https://kbroman.org/knitr_knutshell/pages/overview.html) overview: reproducible documents with R
 
 
-### Discipline-specific R Resources   {.unnumbered}    
+## Discipline-specific R Resources  
 
-#### History   {.unnumbered}    
+### History   {.unnumbered}    
 
 1. [`historydata`](https://github.com/ropensci/historydata) package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.
 
 2. [*The Programming Historian*](https://programminghistorian.org/) Website: wide range of topics, from text analysis to OpenRefine
 
-#### Psychology   {.unnumbered}    
+### Psychology   {.unnumbered}    
 
 1. ['Programming for Psychologists: Data Creation and Analysis'](https://www.crumplab.com/programmingforpsych/) by Matthew J. C. Crump
 
