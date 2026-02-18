@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "02_slides_filenames.html#how-to-name-your-files",
+    "href": "02_slides_filenames.html#how-to-name-your-files",
+    "title": "LAS 6292: Organization & Backups",
+    "section": "How to Name Your Files",
+    "text": "How to Name Your Files"
+  },
+  {
+    "objectID": "02_slides_filenames.html#these-are-all-real-examples-found-on-ebs-computer",
+    "href": "02_slides_filenames.html#these-are-all-real-examples-found-on-ebs-computer",
+    "title": "LAS 6292: Organization & Backups",
+    "section": "These are all real examples found on EB’s computer",
+    "text": "These are all real examples found on EB’s computer"
+  },
+  {
+    "objectID": "02_slides_filenames.html#example-1",
+    "href": "02_slides_filenames.html#example-1",
+    "title": "LAS 6292: Organization & Backups",
+    "section": "Example 1",
+    "text": "Example 1"
+  },
+  {
+    "objectID": "02_slides_filenames.html#example-2",
+    "href": "02_slides_filenames.html#example-2",
+    "title": "LAS 6292: Organization & Backups",
+    "section": "Example 2",
+    "text": "Example 2"
+  },
+  {
+    "objectID": "02_slides_filenames.html#example-3",
+    "href": "02_slides_filenames.html#example-3",
+    "title": "LAS 6292: Organization & Backups",
+    "section": "Example 3",
+    "text": "Example 3\n\n\n\n\n\n\nThis sounds…scary."
+  },
+  {
+    "objectID": "02_slides_filenames.html#example-4",
+    "href": "02_slides_filenames.html#example-4",
+    "title": "LAS 6292: Organization & Backups",
+    "section": "Example 4",
+    "text": "Example 4\n\n\n\n\n\n\nWe’ve all been there."
+  },
+  {
+    "objectID": "02_slides_filenames.html#how-should-you-name-files",
+    "href": "02_slides_filenames.html#how-should-you-name-files",
+    "title": "LAS 6292: Organization & Backups",
+    "section": "How should you name files?",
+    "text": "How should you name files?\n\n\nHere are 6 things to remember."
+  },
+  {
+    "objectID": "02_slides_filenames.html#use-a-name-that-describes-and-uniquely-identifies-the-file-contents",
+    "href": "02_slides_filenames.html#use-a-name-that-describes-and-uniquely-identifies-the-file-contents",
+    "title": "LAS 6292: Organization & Backups",
+    "section": "1. Use a name that describes and uniquely identifies the file contents",
+    "text": "1. Use a name that describes and uniquely identifies the file contents\n   \n\nYou can use descriptors like these in the name: (1) project acronym (2) location where data were collected (3) researcher name (4) year or month collected (5) type of data in file"
+  },
+  {
+    "objectID": "02_slides_filenames.html#keep-names-as-short-as-possible",
+    "href": "02_slides_filenames.html#keep-names-as-short-as-possible",
+    "title": "LAS 6292: Organization & Backups",
+    "section": "2. Keep names as short as possible",
+    "text": "2. Keep names as short as possible\n   \n\n&lt; 25 characters"
+  },
+  {
+    "objectID": "02_slides_filenames.html#avoid-using-spaces-special-characters",
+    "href": "02_slides_filenames.html#avoid-using-spaces-special-characters",
+    "title": "LAS 6292: Organization & Backups",
+    "section": "3. Avoid using spaces & special characters",
+    "text": "3. Avoid using spaces & special characters\n   \n\n$ % ^ & # | : , ;\n\n\n  \n\nComputer programs interpret these characters as special instructions, spaces, or breakpoints."
+  },
+  {
+    "objectID": "02_slides_filenames.html#start-with-letters-never-numbers",
+    "href": "02_slides_filenames.html#start-with-letters-never-numbers",
+    "title": "LAS 6292: Organization & Backups",
+    "section": "4. Start with letters, never numbers",
+    "text": "4. Start with letters, never numbers\n  \n\n1998_data\n\n\nNO\n\n  \n\ndata_1998\n\n\nYES"
+  },
+  {
+    "objectID": "02_slides_filenames.html#include-dates-in-names-but-be-careful",
+    "href": "02_slides_filenames.html#include-dates-in-names-but-be-careful",
+    "title": "LAS 6292: Organization & Backups",
+    "section": "5. Include dates in names (but be careful!)",
+    "text": "5. Include dates in names (but be careful!)\n\n\n\n\n\n\n\n\n\n\n\nThis can lead to major problems when collaborating internationally or when team members use versions of software from different global regions."
+  },
+  {
+    "objectID": "02_slides_filenames.html#dates-in-names-use-standard-format",
+    "href": "02_slides_filenames.html#dates-in-names-use-standard-format",
+    "title": "LAS 6292: Organization & Backups",
+    "section": "6. Dates in names: use standard format",
+    "text": "6. Dates in names: use standard format\n\n(ISO 8601)1\n\n\n\n\n\n\nInternational Organization for Standardization"
+  },
+  {
+    "objectID": "02_slides_filenames.html#bonus-from-doing-5-6",
+    "href": "02_slides_filenames.html#bonus-from-doing-5-6",
+    "title": "LAS 6292: Organization & Backups",
+    "section": "Bonus from doing 5 & 6",
+    "text": "Bonus from doing 5 & 6\n\n\nIn addition to avoiding confusion, you can now quickly sort files chronologically.\n\n\n\n\n\nCharacters are read and sorted in order, so files with “4 April” in the name will be sorted after those with “5 April”, regardless of the year….\n\n\n\n\n\n\n\n\n\n\n\n…but not when you use ISO format, which puts the year first."
+  },
+  {
+    "objectID": "02_slides_filenames.html#use-a-consistent-method-of-dealing-with-spaces-and-letter-case.",
+    "href": "02_slides_filenames.html#use-a-consistent-method-of-dealing-with-spaces-and-letter-case.",
+    "title": "LAS 6292: Organization & Backups",
+    "section": "7. Use a consistent method of dealing with spaces and letter case.",
+    "text": "7. Use a consistent method of dealing with spaces and letter case.\n\n\nThere are two preferred options:"
+  }
+]
