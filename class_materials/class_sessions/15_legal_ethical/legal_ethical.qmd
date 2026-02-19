@@ -8,9 +8,10 @@ title-block-style: default
 date-modified: last-modified
 
 ---
-# Tools & Resources: Ethics & Legal Compliance {#sec-legal}
 
-## Data / Research Ethics & Compliance for UF Researchers
+# Ethics & Legal Compliance {#sec-legal}
+
+## Data/Research Ethics & Compliance for UF Researchers
 
 1. [UF Research Misconduct Homepage](https://research.ufl.edu/compliance/research-integrity.html): Policy, Training, Reporting, and Best Practices
 1. [UF Office of Research Integrity and Compliance](https://compliance.ufl.edu/) (Research Integrity & Compliance)
@@ -20,30 +21,41 @@ date-modified: last-modified
 1. [UF Privacy Office](https://privacy.ufl.edu/)
 
 
-## Intro: Privacy
+## Privacy Laws
 
 1. CDC: [what is HIPPA?](https://tinyurl.com/mw97nt4b)
 <!-- https://www.cdc.gov/phlp/publications/topic/hipaa.html#:~:text=The%20Health%20Insurance%20Portability%20and,the%20patient's%20consent%20or%20knowledge -->
-1. What is the EU General Data Protection Regulation (GDPR)? [(link 1)](https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-GDPR-FAQs.pdf), [(link 2)](https://www.wired.co.uk/article/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018), [(link 3 - UF)](https://privacy.ufl.edu/european-union-general-data-protection-regulation-eu-gdpr/)
+1. Global Privacy Laws, including the EU General Data Protection Regulation (GDPR)? [(link 1)](https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-GDPR-FAQs.pdf), [(link 2)](https://www.wired.co.uk/article/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018), [(link 3 - UF)](https://privacy.ufl.edu/laws-and-regulations/global-privacy-laws-/)
 1. What is [FERPA?](https://registrar.ufl.edu/ferpa/) 
 
-## Anonymizing Data: Introduction
+## Anonymizing Data 
+
+### Overview {.unnumbered}
 
 1. [Intro to Anonymization](https://en.wikipedia.org/wiki/Data_anonymization)
 1. [Overview by Martin Monkman](https://bookdown.org/martin_monkman/DataScienceResources_book/anonymity-and-confidentiality.html)
 1. [EDUCASE Guidelines for Data De-Identification or Anonymization](https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program/resources/information-security-guide/toolkits/guidelines-for-data-deidentification-or-anonymization)
 1. [UF "HOW TO: DE-IDENTIFY DATA"](https://security.ufl.edu/faculty-staff/irm/how-to-de-identify-data/), with very useful **checklists** 
 
-## Tools for Anonymizing Data _(Note: be very careful doing this on your own)_
 
-### With R  
+### Tools for Anonymizing Data Overview {.unnumbered}
+
+::: {.callout-warning}
+## Tip with Title
+
+Anymizing data is difficult and the consequences for failing to do so can be severe. Be **_very_** careful - or better still, seek guidance from experts on campus. 
+
+:::
+
+
+#### Anonymizing with R   {.unnumbered}
 
 1. Martin Monkman's link to [R packages for Anonymizing Data](https://bookdown.org/martin_monkman/DataScienceResources_book/anonymity-and-confidentiality.html)
 1. Blog Post / [Tutorial](https://www.r-bloggers.com/2014/11/data-anonymization-in-r/)
 1. R package [`Anonymizer`](https://github.com/paulhendricks/anonymizer) 
      
 
-### With other tools, including stand-alone software and online tools  
+#### Stand-alone software and online tools for anonymizing  {.unnumbered}
 1. [list of free tools](https://windowsreport.com/data-anonymization-software/)
 1. [ARX (open source, free)](https://arx.deidentifier.org/)
 1. [Amnesia (open source, free)](https://amnesia.openaire.eu/index.html)
@@ -51,7 +63,7 @@ date-modified: last-modified
 1. [AirCloak (paid)](https://www.techfunnel.com/information-technology/3-types-of-data-anonymization-techniques-and-tools-to-consider/)
 
 
-## Data Protocols for Working with Indigenous Communities
+## Working with Indigenous Communities
 
 1. [Indigenous peoples and responsible data: an introductory reading list](https://responsibledata.io/2017/09/22/indigenous-peoples-responsible-data-readings/)
 1. [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care ) 
@@ -66,14 +78,14 @@ date-modified: last-modified
 1. UN "Methods for gender data collection and estimation" [Training Materials](https://data.unwomen.org/sites/default/files/documents/Asia-Pacific-Training-Curriculum/Module5/Module5_Syllabus_Methods%20for%20data%20collection%20and%20estimation.pdf). 
 1. Colaço, R., and Watson-Grant, S. (2021). A Global Call to Action for Gender-Inclusive Data Collection and Use. RTI Press Publication No. PB-0026-2112. Research Triangle Park, NC: RTI Press. https://doi.org/10.3768/rtipress.2021.pb.0026.2112
 
-## Emerging Issues resulting from Technological Advancements
+## Emerging issues resulting from technological advancements
 
 1. [Automated Data Collection: The Big Picture and Legal Issues](http://methods.sagepub.com/video/automated-data-collection-the-big-picture-and-legal-issues)
 1. [Are transcription services HIPPA compliant?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6450678/) 
 1. Di Minin, E. et al. 2021. How to address data privacy concerns when using social media data in conservation science. _Conservation Biology_, 35:437-446. [https://doi.org/10.1111/cobi.13708](https://doi.org/10.1111/cobi.13708)
 
 
-## Text Mining, Copyright, and the Law
+## Text mining, copyright, and the law
 
 1. [Text and Data Mining of In-Copyright Works: Is It Legal?](https://cacm.acm.org/magazines/2021/11/256379-text-and-data-mining-of-in-copyright-works/fulltext)
 1. [The plan to mine the world’s research papers](https://www.nature.com/articles/d41586-019-02142-1)
