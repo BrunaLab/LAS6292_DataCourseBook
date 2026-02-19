@@ -94,9 +94,9 @@ book:
     
     - part: "Individual Projects"
       chapters: 
-        - class_materials/class_projects/assignments.qmd
-        - class_materials/class_projects/data_cleanup.Rmd
-        - class_materials/class_projects/dmp.Rmd
+        - class_materials/individual_projects/assignments.qmd
+        - class_materials/individual_projects/data_cleanup.Rmd
+        - class_materials/individual_projects/dmp.Rmd
     
     
     # - references.qmd
