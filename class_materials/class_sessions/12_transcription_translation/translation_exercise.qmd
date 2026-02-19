@@ -1,0 +1,55 @@
+---
+# author:
+#   - name: Emilio M. Bruna
+#     affiliations:
+#       - id: uf
+#       - name: University of Florida
+title-block-style: default
+date-modified: last-modified
+
+---
+
+# Breakout: TRANSLATION TO ENGLISH
+
+1. Download the following .txt files. Note that the link takes you to a page on your browsewr; use "save this page as" to download it to your computer. 
+
+[`spanish_text_1voice.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/instructor-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt)
+
+[`turkish_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/instructor-materials/class-sessions/11-transcription-translation/translation_text/turkish_text.txt)
+
+[`spanish_text_interview.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/instructor-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt)
+
+<!-- [`spanish_text_interview.txt`] -->
+
+
+
+
+## STEP 1: Text Translations
+
+Translate the text files with MS Word and Google Docs  
+
+1. Google Docs: [in-doc translation](https://support.google.com/docs/answer/187189?co=GENIE.Platform%3DDesktop&hl=en) (create a new google doc, cut-and-paste the text into the Google Doc, save it, and translate)
+
+2. MS Word: [in-doc translation](https://support.microsoft.com/en-us/topic/translate-text-into-a-different-language-287380e4-a56c-48a1-9977-f2dca89ce93f) 
+
+
+## STEP 2: Save
+
+Save the translations in your Google Drive in a folder called "class_translations" with the following file names and formats:
+
+1. MS Word: .txt file: `MSWord_[original language]_to_english.txt`  
+
+1. Google: new GoogleDoc: `google_[original language]_to_english`
+
+## STEP 3: Compare
+
+1. Paste the translations into the [Text Comparison Website](https://www.diffchecker.com/diff). Note that you may have to adjust the spacing in the text files to make the text align.  
+
+## STEP 4: Discuss  
+
+1. Are there are any differences in the way key words or concepts were translated? 
+
+2. Are there circumstances under which these could influence the interpretation of the writer's intent? Subtleties of language like formality of tense, tone, or meaning?
+
+3. Do any of them seem "better" or "more accurate"? 
+
