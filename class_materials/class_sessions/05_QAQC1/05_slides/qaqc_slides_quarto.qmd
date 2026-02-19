@@ -1,0 +1,233 @@
+---
+title: "LAS 6292: Data Collection & Management"
+subtitle: "QAQC 1"
+format: 
+  revealjs:
+    theme: [night, custom.scss]
+    slide-number: true
+    show-slide-number: print
+    # theme: [night]
+    # theme: [custom.css]
+    smaller: true 
+    # axe: true
+    # self-contained: false
+    # reveal-js-url: 
+    # theme: white
+    incremental: true
+    center-title-slide: true
+# editor: source
+output-dir: "05_slides"
+output: revealjs::revealjs_presentation
+include-in-header:
+      text: |
+        <style>
+        .right {
+          text-align: right;
+        }
+        </style>
+---
+
+## 
+
+![](wk5_QAQC/Slide2.png)
+
+## 
+![](wk5_QAQC/Slide3.png)
+
+## 
+
+![](wk5_QAQC/Slide4.png)
+
+## 
+
+![](wk5_QAQC/Slide5.png)
+
+
+## 
+
+![](wk5_QAQC/Slide6.png)
+
+##
+
+![](wk5_QAQC/Slide7.png)
+
+##
+
+![](wk5_QAQC/Slide8.png)
+
+## 
+
+![](wk5_QAQC/Slide9.png)
+
+## 
+
+![](wk5_QAQC/Slide10.png)
+
+## 
+
+![](wk5_QAQC/Slide11.png)
+
+## 
+
+![](wk5_QAQC/Slide12.png)
+
+## 
+
+![](wk5_QAQC/Slide13.png)
+
+## 
+
+![](wk5_QAQC/Slide14.png)
+
+## 
+
+![](wk5_QAQC/Slide15.png)
+
+## 
+
+![](wk5_QAQC/Slide16.png)
+
+## 
+
+![](wk5_QAQC/Slide17.png)
+
+## 
+
+![](wk5_QAQC/Slide18.png)
+
+## 
+
+![](wk5_QAQC/Slide19.png)
+
+## 
+
+![](wk5_QAQC/Slide20.png)
+
+## 
+
+![](wk5_QAQC/Slide21.png)
+
+## 
+
+![](wk5_QAQC/Slide22.png)
+
+## 
+
+![](wk5_QAQC/Slide23.png)
+
+## 
+
+![](wk5_QAQC/Slide24.png)
+
+## 
+
+![](wk5_QAQC/Slide25.png)
+
+## 
+
+![](wk5_QAQC/Slide26.png)
+
+## 
+
+![](wk5_QAQC/Slide27.png)
+
+## 
+
+![](wk5_QAQC/Slide28.png)
+
+## 
+
+![](wk5_QAQC/Slide29.png)
+
+## 
+
+![](wk5_QAQC/Slide30.png)
+
+## 
+
+![](wk5_QAQC/Slide31.png)
+
+## 
+
+![](wk5_QAQC/Slide32.png)
+
+## 
+
+![](wk5_QAQC/Slide33.png)
+
+## 
+
+![](wk5_QAQC/Slide34.png)
+
+## 
+
+![](wk5_QAQC/Slide35.png)
+
+## 
+
+![](wk5_QAQC/Slide36.png)
+
+## 
+
+![](wk5_QAQC/Slide37.png)
+
+## 
+
+![](wk5_QAQC/Slide38.png)
+
+## 
+
+![](wk5_QAQC/Slide39.png)
+
+## 
+
+![](wk5_QAQC/Slide40.png)
+
+## 
+
+![](wk5_QAQC/Slide41.png)
+
+## 
+
+![](wk5_QAQC/Slide42.png)
+
+## 
+
+![](wk5_QAQC/Slide43.png)
+
+## 
+
+![](wk5_QAQC/Slide44.png)
+
+## 
+
+![](wk5_QAQC/Slide45.png)
+
+## 
+
+![](wk5_QAQC/Slide46.png)
+
+## 
+
+![](wk5_QAQC/Slide47.png)
+
+## 
+
+![](wk5_QAQC/Slide48.png)
+
+## 
+
+![](wk5_QAQC/Slide49.png)
+
+## 
+
+![](wk5_QAQC/Slide50.png)
+
+## 
+
+![](wk5_QAQC/Slide51.png)
+
+## 
+
+![](wk5_QAQC/Slide52.png)
+
