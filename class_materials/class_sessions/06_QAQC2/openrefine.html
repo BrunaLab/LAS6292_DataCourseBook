@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-9972660ded2bac7ddac1a49493fe9e24.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-e3c3c0bcb11fdf8f609ad2bf34f71d71.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -177,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../class_materials/class_sessions/05_QAQC1/qaqc1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">QA/QC: Reducing Error Entry/Finding and Correcting Errors</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">QA/QC: Reducing Error Entry, Finding and Correcting Errors</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -259,7 +259,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../slidedecks.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Class Slides</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">slidedecks.html</span></span></a>
   </div>
 </li>
       </ul>
@@ -275,12 +275,9 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#openrefine-home" id="toc-openrefine-home" class="nav-link active" data-scroll-target="#openrefine-home"><span class="header-section-number">7.1</span> OpenRefine Home</a></li>
-  <li><a href="#sources-for-this-lesson" id="toc-sources-for-this-lesson" class="nav-link" data-scroll-target="#sources-for-this-lesson"><span class="header-section-number">8</span> Sources for this lesson</a>
-  <ul class="collapse">
-  <li><a href="#tutorials" id="toc-tutorials" class="nav-link" data-scroll-target="#tutorials"><span class="header-section-number">8.1</span> Tutorials</a></li>
-  <li><a href="#grel-cheatsheets" id="toc-grel-cheatsheets" class="nav-link" data-scroll-target="#grel-cheatsheets"><span class="header-section-number">8.2</span> GREL Cheatsheets</a></li>
-  <li><a href="#r-tools" id="toc-r-tools" class="nav-link" data-scroll-target="#r-tools"><span class="header-section-number">8.3</span> R Tools</a></li>
-  </ul></li>
+  <li><a href="#tutorials" id="toc-tutorials" class="nav-link" data-scroll-target="#tutorials"><span class="header-section-number">7.2</span> Tutorials</a></li>
+  <li><a href="#grel-cheatsheets" id="toc-grel-cheatsheets" class="nav-link" data-scroll-target="#grel-cheatsheets"><span class="header-section-number">7.3</span> GREL Cheatsheets</a></li>
+  <li><a href="#r-tools" id="toc-r-tools" class="nav-link" data-scroll-target="#r-tools"><span class="header-section-number">7.4</span> R Tools</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/06_QAQC2/openrefine.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
@@ -312,38 +309,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="noam_tweet.png" class="img-fluid figure-img" style="width:40.0%"></p>
+<figcaption>How many ways can you spell….</figcaption>
+</figure>
+</div>
 <section id="openrefine-home" class="level2" data-number="7.1">
 <h2 data-number="7.1" class="anchored" data-anchor-id="openrefine-home"><span class="header-section-number">7.1</span> OpenRefine Home</h2>
-</section>
-<section id="sources-for-this-lesson" class="level1" data-number="8">
-<h1 data-number="8"><span class="header-section-number">8</span> Sources for this lesson</h1>
-<ul>
-<li><a href="https://openrefine.org/">Open Refine</a> Homepage. Includes the <a href="https://docs.openrefine.org/">user’s manual</a> and links to <a href="https://openrefine.org/documentation.html">more tutorials</a>.</li>
-</ul>
+<p>OpenRefine is a powerful, free, and open source tool that is used to work with and clean messy data.</p>
+<p><a href="https://openrefine.org/">Open Refine</a> Homepage. Includes the <a href="https://docs.openrefine.org/">user’s manual</a> and links to <a href="https://openrefine.org/documentation.html">more tutorials</a>.</p>
 <!-- ## UF Library Workshops -->
 <!-- * The UF Library teaches a number of excellent workshops, including one on using OpenRefine taught by Dr. Hao Ye. You can see the schedule (or request one) [here](https://ufl.libcal.com/calendar/workshops/?cid=11693&t=d&d=0000-00-00&cal=11693,5125,8858&inc=0). -->
 <!-- ## Tutorials -->
-<section id="tutorials" class="level2" data-number="8.1">
-<h2 data-number="8.1" class="anchored" data-anchor-id="tutorials"><span class="header-section-number">8.1</span> Tutorials</h2>
+</section>
+<section id="tutorials" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="tutorials"><span class="header-section-number">7.2</span> Tutorials</h2>
 <ul>
 <li>Data Carpentry: <a href="https://datacarpentry.org/openrefine-socialsci/">Data Cleaning with OpenRefine for Social Scientists</a>.</li>
 </ul>
 <!-- Peter Smyth, Geoff LaFlair, Lachlan Deer, Tracy Teal, Karen Word, François Michonneau, & Erin Becker. (2018, May 20). datacarpentry/openrefine-socialsci: OpenRefine Social Sciences Release, May 2018 (v3). Zenodo. https://doi.org/10.5281/zenodo.1250074 -->
 <!-- 2. The repository with the data and metadata used in the lesson:  [SAFI_Survey](https://figshare.com/articles/dataset/SAFI_Survey_Results/6262019) -->
 <ul>
-<li>Data Carpentry: <a href="https://datacarpentry.org/OpenRefine-ecology-lesson/04-scripts/index.html">Data Cleaning with OpenRefine for Ecologists</a></li>
-<li>Environmental Data Initiative <a href="https://environmentaldatainitiative.org/webinars-events/previous-edi-events/how-to-clean-and-format-data-using-r-packages-datamaid-dplyr-openrefine-excel/">OpenRefine Tutorial</a></li>
+<li>Data Carpentry: <a href="https://datacarpentry.github.io/OpenRefine-ecology-lesson/aio.html">Data Cleaning with OpenRefine for Ecologists</a></li>
+<li>Environmental Data Initiative <a href="https://edirepository.org/webinars/webinars-20180213.00">OpenRefine Tutorial</a></li>
 <li>Cleaning Data with OpenRefine Video Tutorials:
 <ul>
 <li><a href="https://www.youtube.com/watch?v=nORS7STbLyk">Video Tutorial No.&nbsp;1</a></li>
 <li><a href="https://www.youtube.com/watch?v=xZlz4ISgNBc">Video Tutorial No.&nbsp;2</a></li>
 </ul></li>
 <li>JHU Library: <a href="https://libjohn.github.io/openrefine/index.html">Cleaning Data with OpenRefine</a></li>
-<li>The Programming Historian Website: <a href="https://doi.org/10.46430/phen0023">Cleaning Data with OpenRefine</a>.</li>
+<li>The Programming Historian: <a href="https://doi.org/10.46430/phen0023">Cleaning Data with OpenRefine</a>.</li>
 </ul>
 </section>
-<section id="grel-cheatsheets" class="level2" data-number="8.2">
-<h2 data-number="8.2" class="anchored" data-anchor-id="grel-cheatsheets"><span class="header-section-number">8.2</span> GREL Cheatsheets</h2>
+<section id="grel-cheatsheets" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="grel-cheatsheets"><span class="header-section-number">7.3</span> GREL Cheatsheets</h2>
 <ul>
 <li>Belinda Weaver’s <a href="https://github.com/weaverbel/teachingfiles/blob/master/grel_value_replace.md">GREL Cheatsheet with examples</a></li>
 <li><a href="https://docs.openrefine.org/manual/expressions/#grel-general-refine-expression-language">OpenRefine GREL Manual</a></li>
@@ -352,14 +352,13 @@ ul.task-list li input[type="checkbox"] {
 <li>Datenschule’s <a href="https://datenschule.de/files/downloads/workshops/CheatSheet-Open-Refine.pdf">OR Cheatsheets</a></li>
 </ul>
 </section>
-<section id="r-tools" class="level2" data-number="8.3">
-<h2 data-number="8.3" class="anchored" data-anchor-id="r-tools"><span class="header-section-number">8.3</span> R Tools</h2>
+<section id="r-tools" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="r-tools"><span class="header-section-number">7.4</span> R Tools</h2>
 <ul>
 <li>The <a href="https://cran.r-project.org/web/packages/rrefine/vignettes/rrefine-vignette.html">rrefine package</a> allows you to do some OpenRefine tasks from within R.</li>
 </ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -765,8 +764,8 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../class_materials/class_sessions/05_QAQC1/qaqc1.html" class="pagination-link" aria-label="QA/QC: Reducing Error Entry/Finding and Correcting Errors">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">QA/QC: Reducing Error Entry/Finding and Correcting Errors</span></span>
+      <a href="../../../class_materials/class_sessions/05_QAQC1/qaqc1.html" class="pagination-link" aria-label="QA/QC: Reducing Error Entry, Finding and Correcting Errors">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">QA/QC: Reducing Error Entry, Finding and Correcting Errors</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
