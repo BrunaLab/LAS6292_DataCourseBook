@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-e3c3c0bcb11fdf8f609ad2bf34f71d71.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-9972660ded2bac7ddac1a49493fe9e24.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -268,17 +268,31 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#tools-resources" id="toc-tools-resources" class="nav-link active" data-scroll-target="#tools-resources"><span class="header-section-number">11.1</span> Tools &amp; Resources</a>
+  <li><a href="#optical-character-recognition" id="toc-optical-character-recognition" class="nav-link active" data-scroll-target="#optical-character-recognition"><span class="header-section-number">11.1</span> Optical Character Recognition</a>
   <ul class="collapse">
-  <li><a href="#optical-character-recognition" id="toc-optical-character-recognition" class="nav-link" data-scroll-target="#optical-character-recognition"><span class="header-section-number">11.1.1</span> Optical Character Recognition</a></li>
-  <li><a href="#extracting-data-from-published-figures" id="toc-extracting-data-from-published-figures" class="nav-link" data-scroll-target="#extracting-data-from-published-figures"><span class="header-section-number">11.1.2</span> Extracting Data from Published Figures</a></li>
-  <li><a href="#text-mining" id="toc-text-mining" class="nav-link" data-scroll-target="#text-mining"><span class="header-section-number">11.1.3</span> Text Mining</a></li>
-  <li><a href="#scraping-information-from-websites" id="toc-scraping-information-from-websites" class="nav-link" data-scroll-target="#scraping-information-from-websites"><span class="header-section-number">11.1.4</span> Scraping information from websites</a></li>
-  <li><a href="#cell-phone-data" id="toc-cell-phone-data" class="nav-link" data-scroll-target="#cell-phone-data"><span class="header-section-number">11.1.5</span> Cell Phone Data</a></li>
-  <li><a href="#automated-image-analysis" id="toc-automated-image-analysis" class="nav-link" data-scroll-target="#automated-image-analysis"><span class="header-section-number">11.1.6</span> Automated Image Analysis</a></li>
-  <li><a href="#wearable-devices-rfid-tags" id="toc-wearable-devices-rfid-tags" class="nav-link" data-scroll-target="#wearable-devices-rfid-tags"><span class="header-section-number">11.1.7</span> Wearable Devices &amp; RFID tags</a></li>
-  <li><a href="#build-your-own-automated-data-collection-tool-rasberry-pi" id="toc-build-your-own-automated-data-collection-tool-rasberry-pi" class="nav-link" data-scroll-target="#build-your-own-automated-data-collection-tool-rasberry-pi"><span class="header-section-number">11.1.8</span> Build your own automated data collection tool, Rasberry PI</a></li>
-  <li><a href="#databases-and-websites-from-which-you-can-extract-data" id="toc-databases-and-websites-from-which-you-can-extract-data" class="nav-link" data-scroll-target="#databases-and-websites-from-which-you-can-extract-data"><span class="header-section-number">11.1.9</span> Databases and Websites from which you can extract data</a></li>
+  <li><a href="#online-ocr-tools-text-data-from-.pdf-to-.csv-.txt-etc." id="toc-online-ocr-tools-text-data-from-.pdf-to-.csv-.txt-etc." class="nav-link" data-scroll-target="#online-ocr-tools-text-data-from-.pdf-to-.csv-.txt-etc.">Online OCR Tools (text &amp; data from <code>.pdf</code> to <code>.csv</code>, <code>.txt</code>, etc.)</a></li>
+  <li><a href="#ocr-with-r" id="toc-ocr-with-r" class="nav-link" data-scroll-target="#ocr-with-r">OCR with R</a></li>
+  </ul></li>
+  <li><a href="#extracting-tables-from-images-with-r" id="toc-extracting-tables-from-images-with-r" class="nav-link" data-scroll-target="#extracting-tables-from-images-with-r"><span class="header-section-number">11.2</span> Extracting tables from images with R</a></li>
+  <li><a href="#extracting-data-from-published-figures" id="toc-extracting-data-from-published-figures" class="nav-link" data-scroll-target="#extracting-data-from-published-figures"><span class="header-section-number">11.3</span> Extracting Data from Published Figures</a></li>
+  <li><a href="#text-mining" id="toc-text-mining" class="nav-link" data-scroll-target="#text-mining"><span class="header-section-number">11.4</span> Text Mining</a>
+  <ul class="collapse">
+  <li><a href="#useful-reading-on-text-mining" id="toc-useful-reading-on-text-mining" class="nav-link" data-scroll-target="#useful-reading-on-text-mining">Useful reading on text mining</a></li>
+  </ul></li>
+  <li><a href="#collecting-processing-data-from-the-web-of-science-and-scopus" id="toc-collecting-processing-data-from-the-web-of-science-and-scopus" class="nav-link" data-scroll-target="#collecting-processing-data-from-the-web-of-science-and-scopus"><span class="header-section-number">11.5</span> Collecting &amp; Processing data from the Web of Science and Scopus</a></li>
+  <li><a href="#scraping-websites" id="toc-scraping-websites" class="nav-link" data-scroll-target="#scraping-websites"><span class="header-section-number">11.6</span> Scraping websites</a></li>
+  <li><a href="#cell-phone-data" id="toc-cell-phone-data" class="nav-link" data-scroll-target="#cell-phone-data"><span class="header-section-number">11.7</span> Cell Phone Data</a></li>
+  <li><a href="#social-media-data" id="toc-social-media-data" class="nav-link" data-scroll-target="#social-media-data"><span class="header-section-number">11.8</span> Social Media Data</a></li>
+  <li><a href="#automated-image-analysis" id="toc-automated-image-analysis" class="nav-link" data-scroll-target="#automated-image-analysis"><span class="header-section-number">11.9</span> Automated Image Analysis</a></li>
+  <li><a href="#wearable-devices-rfid-tags" id="toc-wearable-devices-rfid-tags" class="nav-link" data-scroll-target="#wearable-devices-rfid-tags"><span class="header-section-number">11.10</span> Wearable Devices &amp; RFID tags</a></li>
+  <li><a href="#buildimg-automated-data-collectors" id="toc-buildimg-automated-data-collectors" class="nav-link" data-scroll-target="#buildimg-automated-data-collectors"><span class="header-section-number">11.11</span> Buildimg automated data collectors</a></li>
+  <li><a href="#online-data-archives" id="toc-online-data-archives" class="nav-link" data-scroll-target="#online-data-archives"><span class="header-section-number">11.12</span> Online data archives</a>
+  <ul class="collapse">
+  <li><a href="#government-data" id="toc-government-data" class="nav-link" data-scroll-target="#government-data">Government data</a></li>
+  <li><a href="#us-world-census-data" id="toc-us-world-census-data" class="nav-link" data-scroll-target="#us-world-census-data">US &amp; World Census Data</a></li>
+  <li><a href="#education-data" id="toc-education-data" class="nav-link" data-scroll-target="#education-data">Education Data</a></li>
+  <li><a href="#other-online-data-portals" id="toc-other-online-data-portals" class="nav-link" data-scroll-target="#other-online-data-portals">Other Online Data Portals</a></li>
+  <li><a href="#software-for-gathering-data-from-online-archives" id="toc-software-for-gathering-data-from-online-archives" class="nav-link" data-scroll-target="#software-for-gathering-data-from-online-archives">Software for gathering data from online archives</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/14_automated_data_extraction/automated.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
@@ -311,29 +325,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="tools-resources" class="level2" data-number="11.1">
-<h2 data-number="11.1" class="anchored" data-anchor-id="tools-resources"><span class="header-section-number">11.1</span> Tools &amp; Resources</h2>
 <!-- NEED TO ADD: INTRO TO APIs to fully automate -->
-<section id="optical-character-recognition" class="level3" data-number="11.1.1">
-<h3 data-number="11.1.1" class="anchored" data-anchor-id="optical-character-recognition"><span class="header-section-number">11.1.1</span> Optical Character Recognition</h3>
+<section id="optical-character-recognition" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="optical-character-recognition"><span class="header-section-number">11.1</span> Optical Character Recognition</h2>
 <ol type="1">
-<li><p>Video Primer: <a href="what is ocr? https://www.youtube.com/watch?v=Q5U_VEmcY-M">What is OCR?</a></p></li>
-<li><p>Online OCR Tools - text and data from <code>.pdf</code> into <code>.csv</code>, <code>.txt</code>, etc.</p>
-<ul>
+<li>Video Primer: <a href="what is ocr? https://www.youtube.com/watch?v=Q5U_VEmcY-M">What is OCR?</a></li>
+</ol>
+<section id="online-ocr-tools-text-data-from-.pdf-to-.csv-.txt-etc." class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="online-ocr-tools-text-data-from-.pdf-to-.csv-.txt-etc.">Online OCR Tools (text &amp; data from <code>.pdf</code> to <code>.csv</code>, <code>.txt</code>, etc.)</h3>
+<ol type="1">
 <li><p>Google Drive - Video Primer: <a href="https://www.youtube.com/watch?v=4lApeCNK6Ic">OCR with Google Drive</a></p></li>
 <li><p>Free online sites for small batches (can upgrade for larger numbers of files)</p>
+<blockquote class="blockquote">
 <ul>
 <li><a href="http://www.free-online-ocr.com/">Free Online OCR 1</a></li>
 <li><a href="https://www.newocr.com/">New OCR</a></li>
 <li><a href="https://smallpdf.com/pdf-to-excel">pdf to excel</a></li>
 <li><a href="https://www.onlineocr.net/">OnlineOCR</a></li>
 <li><a href="https://pdftables.com/">PDFTables</a> will convert PDF to .csv, and has an <a href="https://pdftables.com/blog/convert-pdf-to-excel-r">API</a> so you can do your conversions in bulk with R. You can do ~25 pages free; large numbers are reasonably priced.</li>
-</ul></li>
+</ul>
+</blockquote></li>
 <li><p><a href="https://aws.amazon.com/pm/textract">Amazon TextExtract</a></p></li>
 <li><p><a href="https://mathpix.com/">Mathpix Snip</a> digitizes handwritten or printed text, and copies outputs to the clipboard that can be pasted into LaTeX editors like Overleaf, Markdown editors like Typora, Microsoft Word, and more.</p></li>
-</ul></li>
-<li><p>R tools for OCR: <code>pdfreader</code>, <code>tabulizer</code> <!-- , and `pdfreader` --></p>
-<ul>
+</ol>
+</section>
+<section id="ocr-with-r" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="ocr-with-r">OCR with R</h3>
+<!-- , and `pdfreader` -->
+<ol type="1">
 <li><p>R package <a href="https://cran.r-project.org/web/packages/pdftools/index.html"><code>pdftools</code></a></p></li>
 <li><p>R package <a href="https://github.com/ropensci/tabulapdf"><code>tabulapdf</code></a> <!-- * R package [`pdfreader`](https://github.com/ropensci/tabulapdf) --></p></li>
 <li><p><a href="http://theautomatic.net/2018/08/24/getting-data-from-pdfs-the-easy-way-with-r/">written tutorial 1</a></p></li>
@@ -345,16 +364,18 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="https://www.youtube.com/watch?v=DhY3V4LCdps">Convert PDF to text in R OCR pdftools</a></p></li>
 <li><p><a href="https://www.youtube.com/watch?v=6ItyOgS2noc">PDFtools in R</a></p></li>
 <li><p>More advanced but more powerful from the Programming Historian: <a href="https://programminghistorian.org/en/lessons/ocr-with-google-vision-and-tesseract">OCR with Google Vision API and Tesseract</a></p></li>
-</ul></li>
-<li><p>Extracting Tables from images using R package <code>magick</code>.</p>
-<ul>
-<li>R package <a href="https://cran.r-project.org/web/packages/magick/vignettes/intro.html"><code>magick</code></a> <em>(this package actually includes several very powerful tools for image processing; this is just one of the things you can do with it)</em></li>
-<li>Detailed <a href="https://themockup.blog/posts/2021-01-18-reading-tables-from-images-with-magick/">Blog Post / Tutorial</a></li>
-</ul></li>
 </ol>
 </section>
-<section id="extracting-data-from-published-figures" class="level3" data-number="11.1.2">
-<h3 data-number="11.1.2" class="anchored" data-anchor-id="extracting-data-from-published-figures"><span class="header-section-number">11.1.2</span> Extracting Data from Published Figures</h3>
+</section>
+<section id="extracting-tables-from-images-with-r" class="level2" data-number="11.2">
+<h2 data-number="11.2" class="anchored" data-anchor-id="extracting-tables-from-images-with-r"><span class="header-section-number">11.2</span> Extracting tables from images with R</h2>
+<ol type="1">
+<li>R package <a href="https://cran.r-project.org/web/packages/magick/vignettes/intro.html"><code>magick</code></a> <em>(this package actually includes several very powerful tools for image processing; this is just one of the things you can do with it)</em></li>
+<li>Detailed <a href="https://themockup.blog/posts/2021-01-18-reading-tables-from-images-with-magick/">Blog Post / Tutorial</a></li>
+</ol>
+</section>
+<section id="extracting-data-from-published-figures" class="level2" data-number="11.3">
+<h2 data-number="11.3" class="anchored" data-anchor-id="extracting-data-from-published-figures"><span class="header-section-number">11.3</span> Extracting Data from Published Figures</h2>
 <ol type="1">
 <li><p>Ankit Rohagni’s <a href="https://automeris.io/WebPlotDigitizer/">Web Plot Digitizer</a></p>
 <ul>
@@ -366,37 +387,35 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Alternative 3: R package <a href="https://cran.r-project.org/web/packages/digitize/digitize.pdf"><code>digitize</code></a> will extract data from scatterplots within the R environment. <a href="https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Poisot.pdf">This article</a> will walk you through the process.</p></li>
 </ol>
 </section>
-<section id="text-mining" class="level3" data-number="11.1.3">
-<h3 data-number="11.1.3" class="anchored" data-anchor-id="text-mining"><span class="header-section-number">11.1.3</span> Text Mining</h3>
+<section id="text-mining" class="level2" data-number="11.4">
+<h2 data-number="11.4" class="anchored" data-anchor-id="text-mining"><span class="header-section-number">11.4</span> Text Mining</h2>
 <ol type="1">
 <li><p><a href="https://www.tidytextmining.com/">Text Mining with R</a> by Julia Silge and David Robinson</p></li>
 <li><p><a href="https://cran.r-project.org/web/packages/gutenbergr/index.html"><code>gutenbergr</code></a>: Download and Process Public Domain Works from <a href="https://www.gutenberg.org/">Project Gutenberg</a>. Tutorial can be found <a href="https://docs.ropensci.org/gutenbergr/">here</a></p></li>
 </ol>
-<p>Other Useful Text Mining Literature</p>
-<pre><code>* Atanassova I, Bertin M and Mayr P (2019) Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics. Front. Res. Metr. Anal. 4:2. [doi: 10.3389/frma.2019.00002](https://www.frontiersin.org/articles/10.3389/frma.2019.00002/full)
-
-* Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ, Brunak S (2018) A comprehensive and quantitative comparison of text-mining in 15 million full-text articles versus their corresponding abstracts. PLoS Comput Biol 14(2): e1005962. https://doi.org/10.1371/journal.pcbi.1005962
-
-* Salloum, S.A., Al-Emran, M., Monem, A.A., Shaalan, K. (2018). Using Text Mining Techniques for Extracting Information from Research Articles. In: Shaalan, K., Hassanien, A., Tolba, F. (eds) Intelligent Natural Language Processing: Trends and Applications. Studies in Computational Intelligence, vol 740. Springer, Cham. https://doi.org/10.1007/978-3-319-67056-0_18
-
-* Simon, C., Davidsen, K., Hansen, C. et al. BioReader: a text mining tool for performing classification of biomedical literature. BMC Bioinformatics 19, 57 (2019). https://doi.org/10.1186/s12859-019-2607-x</code></pre>
-<p>Extracting Body Text from Academic PDF Documents for Text Mining</p>
-<pre><code>* Benchimol, J., Kazinnik, S., &amp; Saadon, Y. (2022). Text mining methodologies with R: An application to central bank texts. Machine Learning with Applications, 8, 100286.[link](https://scholar.harvard.edu/files/jbenchimol/files/text-mining-methodologies.pdf) 
-
-* Yu, C., Zhang, C., &amp; Wang, J. (2020). Extracting Body Text from Academic PDF Documents for Text Mining. arXiv preprint arXiv:2010.12647.
-
-* Gulo, C. A., &amp; Rúbio, T. R. (2015, January). Text Mining Scientific Articles using the R. In Doctoral Symposium in Informatics Engineering. [linl](https://paginas.fe.up.pt/~prodei/dsie15/web/papers/dsie15_submission_10.pdf)</code></pre>
+<section id="useful-reading-on-text-mining" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="useful-reading-on-text-mining">Useful reading on text mining</h3>
 <ol type="1">
-<li><p>Processing and Analyzing Records from the Web of Science and Scopus for Text Mining &amp; Biliometrics</p>
-<ul>
+<li><p>Atanassova I, Bertin M and Mayr P (2019) Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics. Front. Res. Metr. Anal. 4:2. <a href="https://www.frontiersin.org/articles/10.3389/frma.2019.00002/full">doi: 10.3389/frma.2019.00002</a></p></li>
+<li><p>Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ, Brunak S (2018) A comprehensive and quantitative comparison of text-mining in 15 million full-text articles versus their corresponding abstracts. PLoS Comput Biol 14(2): e1005962. https://doi.org/10.1371/journal.pcbi.1005962</p></li>
+<li><p>Salloum, S.A., Al-Emran, M., Monem, A.A., Shaalan, K. (2018). Using Text Mining Techniques for Extracting Information from Research Articles. In: Shaalan, K., Hassanien, A., Tolba, F. (eds) Intelligent Natural Language Processing: Trends and Applications. Studies in Computational Intelligence, vol 740. Springer, Cham. https://doi.org/10.1007/978-3-319-67056-0_18</p></li>
+<li><p>Simon, C., Davidsen, K., Hansen, C. et al.&nbsp;BioReader: a text mining tool for performing classification of biomedical literature. BMC Bioinformatics 19, 57 (2019). https://doi.org/10.1186/s12859-019-2607-x Extracting Body Text from Academic PDF Documents for Text Mining</p></li>
+<li><p>Benchimol, J., Kazinnik, S., &amp; Saadon, Y. (2022). Text mining methodologies with R: An application to central bank texts. Machine Learning with Applications, 8, 100286.<a href="https://scholar.harvard.edu/files/jbenchimol/files/text-mining-methodologies.pdf">link</a></p></li>
+<li><p>Yu, C., Zhang, C., &amp; Wang, J. (2020). Extracting Body Text from Academic PDF Documents for Text Mining. arXiv preprint arXiv:2010.12647.</p></li>
+<li><p>Gulo, C. A., &amp; Rúbio, T. R. (2015, January). Text Mining Scientific Articles using the R. In Doctoral Symposium in Informatics Engineering. <a href="https://paginas.fe.up.pt/~prodei/dsie15/web/papers/dsie15_submission_10.pdf">linl</a></p></li>
+</ol>
+</section>
+</section>
+<section id="collecting-processing-data-from-the-web-of-science-and-scopus" class="level2" data-number="11.5">
+<h2 data-number="11.5" class="anchored" data-anchor-id="collecting-processing-data-from-the-web-of-science-and-scopus"><span class="header-section-number">11.5</span> Collecting &amp; Processing data from the Web of Science and Scopus</h2>
+<ol type="1">
 <li><p>R package <a href="https://github.com/ropensci/refsplitr"><code>refsplitr</code></a></p></li>
 <li><p>R package <a href="https://www.bibliometrix.org/"><code>bibliometrix</code></a></p></li>
 <li><p><a href="https://www.youtube.com/watch?v=kNRbT-ki9tU">jstor: An R package for Analysing Scientific Articles</a></p></li>
-</ul></li>
 </ol>
 </section>
-<section id="scraping-information-from-websites" class="level3" data-number="11.1.4">
-<h3 data-number="11.1.4" class="anchored" data-anchor-id="scraping-information-from-websites"><span class="header-section-number">11.1.4</span> Scraping information from websites</h3>
+<section id="scraping-websites" class="level2" data-number="11.6">
+<h2 data-number="11.6" class="anchored" data-anchor-id="scraping-websites"><span class="header-section-number">11.6</span> Scraping websites</h2>
 <ol type="1">
 <li>Library Carpentry <a href="https://librarycarpentry.org/lc-webscraping/">Lesson on Webscraping</a></li>
 <li>Start Here: <a href="https://nceas.github.io/oss-lessons/data-liberation/intro-webscraping.html">Introduction to webscraping</a></li>
@@ -409,29 +428,29 @@ ul.task-list li input[type="checkbox"] {
 <li>Noortje Marres &amp; Esther Weltevrede (2013) Scraping the Social?, Journal of Cultural Economy, 6:3, 313-335, DOI: 10.1080/17530350.2013.772070</li>
 </ol>
 </section>
-<section id="cell-phone-data" class="level3" data-number="11.1.5">
-<h3 data-number="11.1.5" class="anchored" data-anchor-id="cell-phone-data"><span class="header-section-number">11.1.5</span> Cell Phone Data</h3>
+<section id="cell-phone-data" class="level2" data-number="11.7">
+<h2 data-number="11.7" class="anchored" data-anchor-id="cell-phone-data"><span class="header-section-number">11.7</span> Cell Phone Data</h2>
 <ol type="1">
 <li>Exploratory analyses <a href="https://www.r-bloggers.com/2019/11/exploratory-data-analysis-of-cell-phone-usage-with-r-part-1/">Part 1</a> and <a href="https://www.r-bloggers.com/2019/12/exploratory-data-analysis-of-cell-phone-usage-with-r-part-2/">Part 2</a></li>
 </ol>
-<section id="social-media-facebook-flickr-etc" class="level4" data-number="11.1.5.1">
-<h4 data-number="11.1.5.1" class="anchored" data-anchor-id="social-media-facebook-flickr-etc"><span class="header-section-number">11.1.5.1</span> Social Media (Facebook, Flickr, etc,)</h4>
+</section>
+<section id="social-media-data" class="level2" data-number="11.8">
+<h2 data-number="11.8" class="anchored" data-anchor-id="social-media-data"><span class="header-section-number">11.8</span> Social Media Data</h2>
 <ol type="1">
 <li><p>How to extract <a href="Chowdhury, S., Ahmed, S., Alam, S., Callaghan, C. T., Das, P., Di Marco, M., Di Minin, E., Jarić, I., Labi, M. M., Rokonuzzaman, Md., Roll, U., Sbragaglia, V., Siddika, A., &amp; Bonn, A. (2024). A protocol for harvesting biodiversity data from Facebook. Conservation Biology, 00, e14257. https://doi.org/10.1111/cobi.14257">Biodiversity Data from Facebook</a></p></li>
 <li><p>Fox, Nathan, Tom August, Francesca Mancini, Katherine E. Parks, Felix Eigenbrod, James M. Bullock, Louis Sutter, and Laura J. Graham. ““photosearcher” package in R: An accessible and reproducible method for harvesting large datasets from Flickr.” SoftwareX 12 (2020): 100624. https://www.sciencedirect.com/science/article/pii/S235271102030337X</p></li>
 </ol>
 <!-- 1. Scraping [Twitter Data with R](https://utstat.toronto.edu/~nathan/teaching/sta4002/Class1/scrapingtwitterinR-NT.html) or with [Tweetsets](https://programminghistorian.org/en/lessons/beginners-guide-to-twitter-data) -->
 </section>
-</section>
-<section id="automated-image-analysis" class="level3" data-number="11.1.6">
-<h3 data-number="11.1.6" class="anchored" data-anchor-id="automated-image-analysis"><span class="header-section-number">11.1.6</span> Automated Image Analysis</h3>
+<section id="automated-image-analysis" class="level2" data-number="11.9">
+<h2 data-number="11.9" class="anchored" data-anchor-id="automated-image-analysis"><span class="header-section-number">11.9</span> Automated Image Analysis</h2>
 <ol type="1">
 <li><p>Pennekamp, F. and Schtickzelle, N. (2013), Implementing image analysis in laboratory‐based experimental systems for ecology and evolution: a hands‐on guide. Methods Ecol Evol, 4: 483-492. https://doi.org/10.1111/2041-210X.12036</p></li>
 <li><p>How to build your own image recognition app with R! <a href="https://www.r-bloggers.com/2021/03/how-to-build-your-own-image-recognition-app-with-r-part-1/?fbclid=IwAR3P8GNeEHAtm62iOIhhFe45ofZjn-zlwezc5TtM0pbayfUdjmwAr3UoB1Q">Part 1</a> and <a href="https://www.r-bloggers.com/2021/03/how-to-build-your-own-image-recognition-app-with-r-part-2/">Part 2</a></p></li>
 </ol>
 </section>
-<section id="wearable-devices-rfid-tags" class="level3" data-number="11.1.7">
-<h3 data-number="11.1.7" class="anchored" data-anchor-id="wearable-devices-rfid-tags"><span class="header-section-number">11.1.7</span> Wearable Devices &amp; RFID tags</h3>
+<section id="wearable-devices-rfid-tags" class="level2" data-number="11.10">
+<h2 data-number="11.10" class="anchored" data-anchor-id="wearable-devices-rfid-tags"><span class="header-section-number">11.10</span> Wearable Devices &amp; RFID tags</h2>
 <ol type="1">
 <li><p><a href="https://en.wikipedia.org/wiki/Radio-frequency_identification">What is an RFID tag?</a></p></li>
 <li><p>Rafiq, K., Appleby, R. G., Edgar, J. P., Radford, C., Smith, B. P., Jordan, N. R., Dexter, C. E., Jones, D. N., Blacker, A. R. F., &amp; Cochrane, M. (2021). WildWID: An open-source active RFID system for wildlife research. Methods in Ecology and Evolution, 12, 1580– 1587. https://doi.org/10.1111/2041-210X.13651</p></li>
@@ -443,48 +462,62 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Seifert Alexander, Hofer Matthias, Allemand Mathias. 2018. Mobile Data Collection: Smart, but Not (Yet) Smart Enough. 12. Frontiers in Neuroscience https://www.frontiersin.org/article/10.3389/fnins.2018.00971</p></li>
 </ol>
 </section>
-<section id="build-your-own-automated-data-collection-tool-rasberry-pi" class="level3" data-number="11.1.8">
-<h3 data-number="11.1.8" class="anchored" data-anchor-id="build-your-own-automated-data-collection-tool-rasberry-pi"><span class="header-section-number">11.1.8</span> Build your own automated data collection tool, Rasberry PI</h3>
+<section id="buildimg-automated-data-collectors" class="level2" data-number="11.11">
+<h2 data-number="11.11" class="anchored" data-anchor-id="buildimg-automated-data-collectors"><span class="header-section-number">11.11</span> Buildimg automated data collectors</h2>
 <ol type="1">
 <li><p>Calipers that dump data directly to Excel <a href="https://www.notion.so/Hacking-Digital-Calipers-3ee7726f11ca431694dc70a1977516e4">link</a></p></li>
 <li><p><a href="https://www.biorxiv.org/content/10.1101/2022.03.21.485129v1">PiSpy</a>: An Affordable, Accessible, and Flexible Imaging Platform for the Automated Observation of Organismal Biology and Behavior</p></li>
 <li><p>Jolles, J. W. (2021). Broad-scale applications of the Raspberry Pi: A review and guide for biologists. Methods in Ecology and Evolution, 12, 1562– 1579. https://doi.org/10.1111/2041-210X.13652</p></li>
 </ol>
 </section>
-<section id="databases-and-websites-from-which-you-can-extract-data" class="level3" data-number="11.1.9">
-<h3 data-number="11.1.9" class="anchored" data-anchor-id="databases-and-websites-from-which-you-can-extract-data"><span class="header-section-number">11.1.9</span> Databases and Websites from which you can extract data</h3>
+<section id="online-data-archives" class="level2" data-number="11.12">
+<h2 data-number="11.12" class="anchored" data-anchor-id="online-data-archives"><span class="header-section-number">11.12</span> Online data archives</h2>
 <p>Overview: Correia, R.A., Ladle, R., Jarić, I., Malhado, A.C.M., Mittermeier, J.C., Roll, U., Soriano‐Redondo, A., Veríssimo, D., Fink, C., Hausmann, A., Guedes‐Santos, J., Vardi, R. and Di Minin, E. (2021), Digital data sources and methods for conservation culturomics. Conservation Biology, 35: 398-411. https://doi.org/10.1111/cobi.13706</p>
-<section id="government" class="level4" data-number="11.1.9.1">
-<h4 data-number="11.1.9.1" class="anchored" data-anchor-id="government"><span class="header-section-number">11.1.9.1</span> Government</h4>
-<pre><code>* [Data.gov](https://www.data.gov/) (the open data portal of the US Government) and [Using Data.gov APIs in R](https://data.library.virginia.edu/using-data-gov-apis-in-r/)
-* the [rOpengov Project](http://ropengov.org/)
-* [Open Fiscal Data Package](http://www.fiscaltransparency.net/ofdp/) 
-* [`educationdata`](https://urbaninstitute.github.io/education-data-package-r/#educationdata): Retrieve data from the Urban Institute’s Education Data API as a data.frame for easy analysis. See [also here](https://github.com/UrbanInstitute/education-data-package-r)
-* a [huge list](https://cengel.github.io/gearup2016/SULdataAccess.html) of data sources for social scientists available with R tools 
-* accessing [World bank Data](https://vincentarelbundock.github.io/WDI/) with R</code></pre>
+<section id="government-data" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="government-data">Government data</h3>
+<ol type="1">
+<li><a href="https://www.data.gov/">Data.gov</a> (the open data portal of the US Government) and <a href="https://data.library.virginia.edu/using-data-gov-apis-in-r/">Using Data.gov APIs in R</a></li>
+<li>the <a href="http://ropengov.org/">rOpengov Project</a></li>
+<li><a href="http://www.fiscaltransparency.net/ofdp/">Open Fiscal Data Package</a></li>
+<li><a href="https://urbaninstitute.github.io/education-data-package-r/#educationdata"><code>educationdata</code></a>: Retrieve data from the Urban Institute’s Education Data API as a data.frame for easy analysis. See <a href="https://github.com/UrbanInstitute/education-data-package-r">also here</a></li>
+<li>a <a href="https://cengel.github.io/gearup2016/SULdataAccess.html">huge list</a> of data sources for social scientists available with R tools</li>
+<li>accessing <a href="https://vincentarelbundock.github.io/WDI/">World bank Data</a> with R</li>
+</ol>
 </section>
-<section id="us-world-census-data" class="level4" data-number="11.1.9.2">
-<h4 data-number="11.1.9.2" class="anchored" data-anchor-id="us-world-census-data"><span class="header-section-number">11.1.9.2</span> US &amp; World Census Data</h4>
-<pre><code>* [A Guide to Working with US Census Data in R](https://rconsortium.github.io/censusguide/r-packages-all.html)
-* R Package [`tidycensus`](https://cran.r-project.org/web/packages/tidycensus/tidycensus.pdf)
-* [Tutorial 1](https://walkerke.github.io/tidycensus/articles/basic-usage.html)
-* [Tutorial 2](http://www.computerworld.com/article/3120415/data-analytics/how-to-download-new-census-data-with-r.html rel="nofollow noopener" href="https://hrecht.github.io/censusapi/)
-* R package [`ipumsr`](https://tech.popdata.org/ipumsr/): The ipumsr package helps import IPUMS extracts from the IPUMS website into R. IPUMS provides census and survey data from around the world integrated across time and space. </code></pre>
+<section id="us-world-census-data" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="us-world-census-data">US &amp; World Census Data</h3>
+<ol type="1">
+<li><a href="https://rconsortium.github.io/censusguide/r-packages-all.html">A Guide to Working with US Census Data in R</a></li>
+<li>R Package <a href="https://cran.r-project.org/web/packages/tidycensus/tidycensus.pdf"><code>tidycensus</code></a></li>
+<li><a href="https://walkerke.github.io/tidycensus/articles/basic-usage.html">Tutorial 1</a></li>
+<li><a href="http://www.computerworld.com/article/3120415/data-analytics/how-to-download-new-census-data-with-r.html%20rel=%22nofollow%20noopener%22%20href=%22https://hrecht.github.io/censusapi/">Tutorial 2</a></li>
+<li>R package <a href="https://tech.popdata.org/ipumsr/"><code>ipumsr</code></a>: The ipumsr package helps import IPUMS extracts from the IPUMS website into R. IPUMS provides census and survey data from around the world integrated across time and space.</li>
+</ol>
 </section>
-<section id="education-data" class="level4" data-number="11.1.9.3">
-<h4 data-number="11.1.9.3" class="anchored" data-anchor-id="education-data"><span class="header-section-number">11.1.9.3</span> Education Data</h4>
-<pre><code>* [`edbuildr`](https://github.com/EdBuild/edbuildr): import [EdBuild’s master dataset](http://viz.edbuild.org/workshops/edbuildr/) of school district finance, student demographics, and community economic indicators for every school district in the United States.
+<section id="education-data" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="education-data">Education Data</h3>
+<ol type="1">
+<li><p><a href="https://github.com/EdBuild/edbuildr"><code>edbuildr</code></a>: import <a href="http://viz.edbuild.org/workshops/edbuildr/">EdBuild’s master dataset</a> of school district finance, student demographics, and community economic indicators for every school district in the United States.</p></li>
+<li><p><a href="https://urban-institute.medium.com/building-r-and-stata-packages-for-the-education-data-portal-b88760c07233">Building R and Stata packages for the Education Data Portal</a></p></li>
+</ol>
+</section>
+<section id="other-online-data-portals" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="other-online-data-portals">Other Online Data Portals</h3>
+<ol type="1">
+<li>Giant <a href="https://github.com/awesomedata/awesome-public-datasets">compendium of open datasets #1</a></li>
+<li><a href="https://datazoomamazonia.com.br/">Data on Amazonia</a><br>
+<!-- https://github.com/Chicago/RSocrata/">RSocrata GitHub repo</a></td> --></li>
+<li>R package <a href="https://brunobrr.github.io/bdc/"><code>bdc</code></a>: toolkit for gathering &amp; cleaning biodiversity data</li>
+</ol>
+</section>
+<section id="software-for-gathering-data-from-online-archives" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="software-for-gathering-data-from-online-archives">Software for gathering data from online archives</h3>
+<ol type="1">
+<li><a href="https://retriever.readthedocs.io/en/latest/">EcoRetriever</a>: automates the tasks of finding, downloading, and cleaning up publicly available ecological data, and then stores them in a local database or csv files.</li>
+<li><a href="https://elizagrames.github.io/litsearchr/">litsearcher</a> an R package to facilitate quasi-automatic search strategy development for systematic review</li>
+</ol>
 
-* [Building R and Stata packages for the Education Data Portal](https://urban-institute.medium.com/building-r-and-stata-packages-for-the-education-data-portal-b88760c07233)</code></pre>
-</section>
-<section id="other-online-data-sets-tools-for-accessing-them" class="level4" data-number="11.1.9.4">
-<h4 data-number="11.1.9.4" class="anchored" data-anchor-id="other-online-data-sets-tools-for-accessing-them"><span class="header-section-number">11.1.9.4</span> Other Online Data Sets &amp; Tools for Accessing them</h4>
-<pre><code>* Giant [compendium of open datasets #1](https://github.com/awesomedata/awesome-public-datasets)
-* [Data on Amazonia](https://datazoomamazonia.com.br/)  </code></pre>
-<p><!-- https://github.com/Chicago/RSocrata/">RSocrata GitHub repo</a></td> --> * R package <a href="https://brunobrr.github.io/bdc/"><code>bdc</code></a>: toolkit for gathering &amp; cleaning biodiversity data * <a href="https://retriever.readthedocs.io/en/latest/">EcoRetriever</a>: automates the tasks of finding, downloading, and cleaning up publicly available ecological data, and then stores them in a local database or csv files. * <a href="https://elizagrames.github.io/litsearchr/">litsearcher</a> an R package to facilitate quasi-automatic search strategy development for systematic review</p>
 
-
-</section>
 </section>
 </section>
 
