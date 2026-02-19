@@ -56,7 +56,7 @@ book:
         #- class_materials/class_sessions/0  # - Data Management Plans
         #- class_materials/class_sessions/0  # - Efficient Data Collection
         - class_materials/class_sessions/12_transcription_translation/transcription_translation.qmd  # - Transcription & Translation
-        - class_materials/class_sessions/13_paperless/paperless.qmd  # - ‘Paperless’ Data Collection
+        - class_materials/class_sessions/13_paperless_data_collection/paperless.qmd  # - ‘Paperless’ Data Collection
         - class_materials/class_sessions/14_automated_data_extraction/qutomated.qmd  # - Automated Data Extraction
         - class_materials/class_sessions/15_legal_ethical/legal_ethical.qmd  # - Legal & Ethical Issues
 
