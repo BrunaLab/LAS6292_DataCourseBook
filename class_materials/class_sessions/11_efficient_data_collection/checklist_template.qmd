@@ -1,0 +1,31 @@
+---
+# author:
+#   - name: Emilio M. Bruna
+#     affiliations:
+#       - id: uf
+#       - name: University of Florida
+title-block-style: default
+date-modified: last-modified
+
+---
+# TITLE
+
+Descriptor text
+
+## Category 1
+
+ - [ ] Item 1
+ - [ ] Item 2
+ - [ ] Item 3
+ 
+## Category 2
+
+ - [ ] Item 1
+ - [ ] Item 2
+ - [ ] Item 3
+ 
+## Category 3
+
+ - [ ] Item 1
+ - [ ] Item 2
+ - [ ] Item 3
