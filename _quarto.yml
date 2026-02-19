@@ -73,7 +73,7 @@ book:
     #   - class_materials/class_sessions/0  # - Format of data and datasets
         - class_materials/class_sessions/04_reproducibility/reproducibility_hw.qmd
         - class_materials/class_sessions/05_QAQC1/qaqc1_hw.qmd
-        - class_materials/class_sessions/06_QAQC2/openrefine_class.qmd  # - OpenRefine
+        - class_materials/class_sessions/06_QAQC2/openrefine_class.qmd 
     #   - class_materials/class_sessions/0  # - Visualizing Data to Find Mistakes
     #   - class_materials/class_sessions/0  # - Documentation, Metadata, & Codebooks
     #   - class_materials/class_sessions/0  # - Data Sharing, Reuse, & Archives
