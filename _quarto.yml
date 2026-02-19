@@ -65,8 +65,8 @@ book:
     #     - class_materials/class_sessions/02_file_organization/organization_backup_class_notes.qmd
     #     - class_materials/class_sessions/03_spreadsheets/spreadsheets_class_notes.qmd
     # 
-    # - part: "Class Activities"
-    #   chapters:
+    - part: "Class Activities"
+      chapters:
         - class_materials/class_sessions/01_course_introduction/introduction_class.qmd
         - class_materials/class_sessions/01_course_introduction/introduction_hw.qmd
     #   - class_materials/class_sessions/02_file_names/naming.qmd
