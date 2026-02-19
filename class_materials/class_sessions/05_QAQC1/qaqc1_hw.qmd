@@ -8,6 +8,7 @@ title-block-style: default
 date-modified: last-modified
 
 ---
+
 # QA/QC 1: In-class Activities {.unnumbered}
 
 ## Data Entry with Speech-to-Text 
