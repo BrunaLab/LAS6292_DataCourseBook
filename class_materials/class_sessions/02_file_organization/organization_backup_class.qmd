@@ -10,7 +10,29 @@ execute:
   echo: false
 ---
 
-# File names, formats, & organization; Data Storage & Backup: Instructor Notes  
+# File names, formats, & organization; Data Storage & Backup: Instructor Notes
+
+
+::: {.callout-tip}
+
+## Objectives and Competencies
+
+  * Describe and implement conventions for proper naming of files 
+  * Explain the difference between proprietary and open formats
+  * Learn how to efficiently organize their research data files
+  * Learn the preferred format for storing and archiving different types of data files
+  * Become familiar with different options for cloud data storage and backup 
+  * Develop and implement a plan for short- and long-term data storage, back-up, and archiving
+  * Learn rules and policies for data security 
+  * Become familiar with tools for such tasks as batch renaming of files, cloud data storage, and automated data backup.
+  * Explain options for a long-term sustainable preservation strategy/policy for your data (e.g., discipline specific, institutional, departmental, individual).
+  * Address the need for conversion to standard formats needed for re-use
+  * Perform basic archival processes: checksum, auditing, format migration, etc.
+  * Understand costs & time lines for data storage, management tools and services
+
+:::
+
+
 ## Pre-Class Preparation & Materials Needed (Instructor):  
 
 **Send in an email to students:  **
@@ -25,22 +47,6 @@ execute:
   * Dry write markers
   * Tent cards for student names
       
-
-
-## Objectives and Competencies for this session:  
-
-  * Describe and implement conventions for proper naming of files 
-  * Explain the difference between proprietary and open formats
-  * Learn how to efficiently organize their research data files
-  * Learn the preferred format for storing and archiving different types of data files
-  * Become familiar with different options for cloud data storage and backup 
-  * Develop and implement a plan for short- and long-term data storage, back-up, and archiving
-  * Learn rules and policies for data security 
-  * Become familiar with tools for such tasks as batch renaming of files, cloud data storage, and automated data backup.
-  * Explain options for a long-term sustainable preservation strategy/policy for your data (e.g., discipline specific, institutional, departmental, individual).
-  * Address the need for conversion to standard formats needed for re-use
-  * Perform basic archival processes: checksum, auditing, format migration, etc.
-  * Understand costs & time lines for data storage, management tools and services
 
 
 ## Pre-class Preparation (Students):
