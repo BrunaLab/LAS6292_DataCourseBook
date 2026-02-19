@@ -9,11 +9,7 @@ date-modified: last-modified
 
 ---
 
-
-
 # Course Introduction: In-Class Work {#sec-intro-assignment}
-
-
 
 &nbsp; 
 &nbsp;
@@ -236,9 +232,9 @@ Potential Data Set for Course Project
 
 ### **Grading Rubric:**   {.unnumbered}
 
-1. Survey completed with thorough answers: 50  
-2. Most questions answered completely; some require instructor follow-up: 40    
-3. Many questions missing answers or answers are cursory: 30   
-4. Instructor follow-up required for survey submission: 20
+1. Survey completed with thorough answers: 35
+2. Most questions answered completely; some require instructor follow-up: 25
+3. Many questions missing answers or answers are cursory: 20
+4. Instructor follow-up required for survey submission: 15
 
  

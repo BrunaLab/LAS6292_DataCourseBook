@@ -139,9 +139,9 @@ b. How would you correct each of these issues? Could these data easily be import
 
 ### Grading Rubric:  {.unnumbered}
 
-Assignment completed with data validation correctly programmed with useful error messages: 50
-Most data validation properly programmed; some require instructor follow-up: 40
-Many of the validation parameters need corrections, error messages not useful: 30
+Assignment completed with data validation correctly programmed with useful error messages: 35
+Most data validation properly programmed; some require instructor follow-up: 30
+Many of the validation parameters need corrections, error messages not useful: 25
 Incorrect data are able to be entered in all categories; Instructor follow-up required: 20
 
 

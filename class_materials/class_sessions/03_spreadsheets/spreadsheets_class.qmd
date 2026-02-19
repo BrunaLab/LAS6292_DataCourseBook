@@ -32,7 +32,8 @@ execute:
 
 # Data Organization in Spreadsheets: Instructor Notes
 
-## Objectives and Competencies:   
+::: {.callout-tip}
+## Objectives and Competencies
 
   * Be able to identify different categories of data 
   * Learn best practices for data entry
@@ -40,6 +41,8 @@ execute:
   * Learn and be able to implement 'Tidy' format for data tables in spreadsheets
   * Identify problems with and approaches for proper handling of dates in spreadsheets
   * Learn how to export data from spreadsheets in open format
+
+:::
 
 
 ## Pre-Class Preparation (Instructor):  

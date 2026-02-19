@@ -9,7 +9,7 @@ date-modified: last-modified
 
 ---
 
-# QA/QC: Reducing Error Entry/Finding and Correcting Errors 
+# QA/QC: Reducing Error Entry, Finding and Correcting Errors 
 
 ## 'Data Validation' Rules  
 
@@ -17,7 +17,6 @@ date-modified: last-modified
 
 
 ## Data entry with 'Text-to-Speech' 
-
 
 ### MS Excel (& other MS programs) {.unnumbered}  
 

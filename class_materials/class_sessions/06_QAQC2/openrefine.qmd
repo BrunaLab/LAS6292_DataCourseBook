@@ -10,11 +10,15 @@ date-modified: last-modified
 ---
 # Class Outline: QA/QC 2 - Open Refine  {#sec-openrefine}
 
+
+![How many ways can you spell....](noam_tweet.png){width=40%}
+
 ## OpenRefine Home
 
-# Sources for this lesson 
 
-* [Open Refine](https://openrefine.org/) Homepage. Includes the [user's manual](https://docs.openrefine.org/) and links to [more tutorials](https://openrefine.org/documentation.html).
+OpenRefine is a powerful, free, and open source tool that is used to work with and clean messy data. 
+
+[Open Refine](https://openrefine.org/) Homepage. Includes the [user's manual](https://docs.openrefine.org/) and links to [more tutorials](https://openrefine.org/documentation.html).
 
 <!-- ## UF Library Workshops -->
 
@@ -28,13 +32,13 @@ date-modified: last-modified
 <!-- Peter Smyth, Geoff LaFlair, Lachlan Deer, Tracy Teal, Karen Word, François Michonneau, & Erin Becker. (2018, May 20). datacarpentry/openrefine-socialsci: OpenRefine Social Sciences Release, May 2018 (v3). Zenodo. https://doi.org/10.5281/zenodo.1250074 -->
 <!-- 2. The repository with the data and metadata used in the lesson:  [SAFI_Survey](https://figshare.com/articles/dataset/SAFI_Survey_Results/6262019) -->
 
-* Data Carpentry: [Data Cleaning with OpenRefine for Ecologists](https://datacarpentry.org/OpenRefine-ecology-lesson/04-scripts/index.html) 
-* Environmental Data Initiative [OpenRefine Tutorial](https://environmentaldatainitiative.org/webinars-events/previous-edi-events/how-to-clean-and-format-data-using-r-packages-datamaid-dplyr-openrefine-excel/)
+* Data Carpentry: [Data Cleaning with OpenRefine for Ecologists](https://datacarpentry.github.io/OpenRefine-ecology-lesson/aio.html) 
+* Environmental Data Initiative [OpenRefine Tutorial](https://edirepository.org/webinars/webinars-20180213.00)
 * Cleaning Data with OpenRefine Video Tutorials: 
     * [Video Tutorial No. 1](https://www.youtube.com/watch?v=nORS7STbLyk)
     * [Video Tutorial No. 2](https://www.youtube.com/watch?v=xZlz4ISgNBc)
 * JHU Library: [Cleaning Data with OpenRefine](https://libjohn.github.io/openrefine/index.html)
-* The Programming Historian Website: [Cleaning Data with OpenRefine](https://doi.org/10.46430/phen0023).
+* The Programming Historian: [Cleaning Data with OpenRefine](https://doi.org/10.46430/phen0023).
 
 ## GREL Cheatsheets
 

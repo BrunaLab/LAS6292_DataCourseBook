@@ -7,7 +7,7 @@ The following slides are available in HTML format You can export them as PDFs by
 - [Introduction](slides/01_slides/01_slides_intro.html)  
 - [Data Organization & Backups](slides/02_slides/02_slides_filenames.html)  
 - ['Reproducible' Data Management](slides/04_slides/04_slides_reproducibility.html)  
-
+- ['QA/QC 1: Error Minimization](slides/05_slides/05_slides_qaqc1.html)  
 
 
 

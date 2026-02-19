@@ -47,8 +47,6 @@ book:
         - class_materials/class_sessions/03_spreadsheets/spreadsheets.qmd
         - class_materials/class_sessions/04_reproducibility/reproducibility.qmd
         - class_materials/class_sessions/05_QAQC1/qaqc1.qmd
-        #- class_materials/class_sessions/0  # - QA/QC 1: Data Entry & Validation
-        #- class_materials/class_sessions/0  # - QA/QC 2: Data Correction & Synthesis
         - class_materials/class_sessions/06_QAQC2/openrefine.qmd  # - OpenRefine
         #- class_materials/class_sessions/07_QAQC3/error_viz.qmd # - Visualizing Data to Find Mistakes
         - class_materials/class_sessions/08_metadata/metadata.qmd  # - Documentation, Metadata, & Codebooks
@@ -69,18 +67,18 @@ book:
     # 
     # - part: "Class Activities"
     #   chapters:
-    #     - class_materials/class_sessions/01_course_introduction/introduction_class_activities.qmd
+        - class_materials/class_sessions/01_course_introduction/introduction_class.qmd
+        - class_materials/class_sessions/01_course_introduction/introduction_hw.qmd
     #   - class_materials/class_sessions/02_file_names/naming.qmd
     #   - class_materials/class_sessions/02_file_formats.qmd 
     #   - class_materials/class_sessions/0     Naming Conventions
     #   - class_materials/class_sessions/0  # - Data Storage & Security
-    #   - class_materials/class_sessions/0  # - Data structure
-    #    - class_materials/class_sessions/03_spreadsheets/spreadsheets_class_activities.qmd
+        - class_materials/class_sessions/03_spreadsheets/spreadsheets_class.qmd
+        - class_materials/class_sessions/03_spreadsheets/spreadsheets_hw.qmd
     #   - class_materials/class_sessions/0  # - Format of data and datasets
-    #   - class_materials/class_sessions/0  # - Reproducible Data (Re)organization
-    #   - class_materials/class_sessions/0  # - QA/QC 1: Data Entry & Validation
-    #   - class_materials/class_sessions/0  # - QA/QC 2: Data Correction & Synthesis
-    #   - class_materials/class_sessions/0  # - OpenRefine
+        - class_materials/class_sessions/04_reproducibility/reproducibility_hw.qmd
+        - class_materials/class_sessions/05_QAQC1/qaqc1_hw.qmd  
+        - class_materials/class_sessions/06_QAQC2/openrefine_class.qmd  # - OpenRefine
     #   - class_materials/class_sessions/0  # - Visualizing Data to Find Mistakes
     #   - class_materials/class_sessions/0  # - Documentation, Metadata, & Codebooks
     #   - class_materials/class_sessions/0  # - Data Sharing, Reuse, & Archives

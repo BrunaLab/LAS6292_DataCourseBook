@@ -13,13 +13,20 @@ execute:
 
 # Introduction & The Research Data Life Cycle: Instructor Notes
 
-## Objectives
 
-* Meet the instructor and students
+::: {.callout-tip}
+## Objectives and Competencies
+
+
+By the end of this lesson students will:
+
 * Gain an appreciation for why I think this subject matter is important
 * Understand how different disciplines define and use 'data'
 * Learn the 'Research Data Life-Cycle'
 * Overview of the Course Structure, Syllabus
+
+:::
+
 
 ## Pre-Class Preparation & Materials Needed (Instructor):
 
@@ -72,14 +79,15 @@ Get to know one another! Get in pairs, introduce yourselves, and record response
 <!-- **A. Tell me about yourself (`r breakout1`)**   -->
 
    1. Name
-   2. In what city were you born?
-   3. What you consider your “hometown”?
-   4. Program and Degree?
+   1. In what city were you born?
+   1. What you consider your “hometown”?
+   1. Program and Degree?
+   
    <!-- 5. Emoji your thesis   --> 
-   6. Hobbies or what you do to relax / have fun.
-   7. What is your motivation for taking this class?
-   8. Any concerns / worries / fears about this class (in particular) and this semester (in general)?
-   9. Now discuss with your partner the following question: **_What are 'Data_?** 
+   1. Hobbies or what you do to relax / have fun.
+   1. What is your motivation for taking this class?
+   1. Any concerns / worries / fears about this class (in particular) and this semester (in general)?
+   1. Now discuss with your partner the following question: **_What are 'Data_?** 
    
   <!-- &nbsp;**B. Report Back (`r breakout1_discussion` min)** -->
   <!--   &nbsp;**B. Report Back (`r breakout1_discussion` min)** -->
@@ -105,7 +113,6 @@ Get to know one another! Get in pairs, introduce yourselves, and record response
 
 ### **BREAK **    {.unnumbered}
 <!-- ### **BREAK: `r snack_break` min **   -->
-
 
 ### **Breakout 2 Groups: 'Data' across disciplines **     {.unnumbered}
 <!-- ### **Breakout 2 Groups: 'Data' across disciplines ** (`r breakout2` min total).   -->
@@ -146,5 +153,5 @@ Now that data have been defined, we will break into small groups to discuss the 
 
 ## After class: 
 
-* Be sure you complete and submit the assignment (by 9 am morning of next session) and prepare for next session by doing reading and watching videos).
+* Be sure you complete and submit the assignment by deadline and prepare for next session by doing reading and watching videos.
 
