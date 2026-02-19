@@ -102,7 +102,7 @@ book:
     - part: "Useful Resources"
       chapters: 
         - class_materials/resources/resources.qmd
-        - slidedecks.qmd
+        # - slidedecks.qmd
         # - forms/data_sharing_contract.qmd
         # - forms/forms_list.qmd
         # - forms/glossary.qmd
