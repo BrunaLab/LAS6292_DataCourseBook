@@ -8,36 +8,7 @@ title-block-style: default
 date-modified: last-modified
 
 ---
-# Data Management Plans
-
-## Resources for DMPs  {#sec-dmp}
-
-
-## Some sample DMPs
-
-1. DataOneDMP samples for NSF
-
-* NSF General: [Mauna Loa example](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/09-DMP/example_dmps/DMP_MaunaLoa_Formatted.pdf)
-* NSF General: [Rio Grande example](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/09-DMP/example_dmps/Repository%20selection%20exercise%20Data%20One%20Geosciences%20DMP.pdf)
-* NSF DEB: [Emilio Bruna Heliconia example](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/09-DMP/example_dmps/DataManagementPlan.pdf)
-
-2. Sample DMPs on the 'DMP Tool' website [Public DMPs](https://dmptool.org/public_plans) **(_note: "Public DMPs are plans created using the dmptool service and shared publicly by their owners. They are not vetted for quality, completeness, or adherence to funder guidelines."_)**
-
-3. National Endowment for the Humanities: Data Management Plans From Successful Grant Applications (2015-2018) and (2011 - 2014) can be found as downloadable zip files [on this page](https://www.neh.gov/about/foia/library)
-
-4. A *really* nice [DMP for a Digital Humanities Project](https://guides.library.ucla.edu/c.php?g=180580&p=1189056) by researchers at the University of Maryland, College Park.
-
-# Additional resources to help prepare your DMP 
-
-1. Qualitative Data have some unique issues regarding their description and storage, so the [Qualitative Data Archive](https://qdr.syr.edu/guidance/managing/dmp-checklist) has put together a great checklist of things to consider. 
-
-2. [Short Checklist & Questions to Consider](https://www.dcc.ac.uk/sites/default/files/documents/resource/DMP/DMP_Checklist_2013.pdf) when putting together a DMP
-
-3. [Very in-depth Checklist & Questions to Consider](https://dmptool.org/general_guidance) when putting together a DMP
-
-4. [UF Library Guidelines](http://guides.uflib.ufl.edu/datamanagement/dmp) for preparing a DMP
-
-5. Another tools for creating DMPs is the [DMP Online](dmponline.dcc.ac.uk)
+# Data Management Plans {#sec-dmp}
 
 # **Reminder: What is a DMP?**
 
@@ -64,6 +35,41 @@ date-modified: last-modified
 6. Budget 
 
 *Some funders or institutions may require specific elements in a data management plan; you should check in advance to make sure you meet all requirements*
+
+## Start Here
+
+1. The [DMP Tool (https://dmptool.org/)](https://dmptool.org/) is a free, open-source, application that helps researchers create data management plans (DMPs). It provides an easy-to-use platform for creating a DMP that complies with the requirements of different private and public funding agencies (e.g., foundations, NSF, NIH). It also has direct links to funder websites, help text for answering questions, and data management best practices resources.
+
+<!-- Another tools for creating DMPs is the [DMP Online](dmponline.dcc.ac.uk) -->
+
+## What should go in my DMP? 
+
+1. Qualitative Data have some unique issues regarding their description and storage, so the [Qualitative Data Archive](https://qdr.syr.edu/guidance/managing/dmp-checklist) has put together a great checklist of things to consider. 
+
+2. [Short Checklist & Questions to Consider](https://www.dcc.ac.uk/sites/default/files/documents/resource/DMP/DMP_Checklist_2013.pdf) when putting together a DMP
+
+3. [Very in-depth Checklist & Questions to Consider](https://dmptool.org/general_guidance) when putting together a DMP
+
+4. [UF Library Guidelines](http://guides.uflib.ufl.edu/datamanagement/dmp) for preparing a DMP
+
+
+## Sample DMPs
+
+### NSF DMPs {.unnumbered}
+
+1. NSF General: [Mauna Loa example](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/09-DMP/example_dmps/DMP_MaunaLoa_Formatted.pdf)
+1. NSF General: [Rio Grande example](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/09-DMP/example_dmps/Repository%20selection%20exercise%20Data%20One%20Geosciences%20DMP.pdf)
+1. NSF DEB: [Emilio Bruna Heliconia example](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/09-DMP/example_dmps/DataManagementPlan.pdf)
+
+### Sample DMPs on the 'DMP Tool' website  {.unnumbered}
+
+1. [Public DMPs](https://dmptool.org/public_plans) **(_note: "Public DMPs are plans created using the dmptool service and shared publicly by their owners. They are not vetted for quality, completeness, or adherence to funder guidelines."_)**
+
+### Humanities DMPs {.unnumbered}
+ 
+1. National Endowment for the Humanities: Data Management Plans From Successful Grant Applications (2015-2018) and (2011 - 2014) can be found as downloadable zip files [on this page](https://www.neh.gov/about/foia/library)
+
+1. A *really* nice [DMP for a Digital Humanities Project](https://guides.library.ucla.edu/c.php?g=180580&p=1189056) by researchers at the University of Maryland, College Park.
 
 ### **1. Information About Data & Data Format**  
 

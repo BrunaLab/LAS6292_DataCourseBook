@@ -10,33 +10,29 @@ date-modified: last-modified
 ---
 # Paperless Data Collection  {#sec-paperless}
 
-
 ## Tools & Resources
 
 1. [EpiCollect user's guide](https://docs.epicollect.net/)
 
-2. Best data app for interactive voice data collection: [Magpi](https://www.magpi.com/blog/interactive-data-collection) (Web, iOS, Android)
+<!-- 2. Best data app for interactive voice data collection: [Magpi](https://www.magpi.com/blog/interactive-data-collection) (Web, iOS, Android) -->
 
-3. Lists of useful apps for data collection in the field: 
+1. Lists of useful apps for data collection in the field: 
 
-    * Start here: [Bruna Lab Super-List](https://brunalab.github.io/apps_for_fieldwork/) _(if you want to suggest any additions to the list please do so [here](https://github.com/BrunaLab/apps_for_fieldwork/issues))_
-    * [[list 2]](https://www.teamscopeapp.com/mobile-data-collection-guide/7-mobile-data-collection-apps-for-field-research). 
-    * [[list 3]](https://www.researchgate.net/post/Please-could-you-indicate-some-useful-android-apps-for-Ecology-Forestry-or-Environment)
-    * [[list 4]](https://writingfornature.wordpress.com/2012/08/17/tools-for-the-modern-primate-apps-for-field-work/)
-    * [[list 5]](https://ayrnstories.wordpress.com/2017/08/09/apps-in-ecological-research/)
-    * [[list 6]](https://www.commonsense.org/education/top-picks/excellent-ecology-and-environmental-science-apps-games-and-websites)
-    * [[list 7]](https://www.researchgate.net/post/What_essential_android_apps_should_a_field_biologist_know_about)
-
-
+> * Start here: [Bruna Lab Super-List](https://brunalab.github.io/apps_for_fieldwork/) _(if you want to suggest any additions to the list please do so [here](https://github.com/BrunaLab/apps_for_fieldwork/issues))_
+> * [[list 2]](https://www.teamscopeapp.com/mobile-data-collection-guide/7-mobile-data-collection-apps-for-field-research). 
+> * [[list 3]](https://www.researchgate.net/post/Please-could-you-indicate-some-useful-android-apps-for-Ecology-Forestry-or-Environment)
+> * [[list 4]](https://writingfornature.wordpress.com/2012/08/17/tools-for-the-modern-primate-apps-for-field-work/)
+> * [[list 5]](https://ayrnstories.wordpress.com/2017/08/09/apps-in-ecological-research/)
+> * [[list 6]](https://www.commonsense.org/education/top-picks/excellent-ecology-and-environmental-science-apps-games-and-websites)
+> * [[list 7]](https://www.researchgate.net/post/What_essential_android_apps_should_a_field_biologist_know_about)
 
 
 1. Paid platforms for paperless data collection
 
-    * [Fulcrum](https://www.fulcrumapp.com/); [link to post](https://gadgets360.com/science/features/fulcrum-app-science-fieldwork-data-collection-2294662) describing how it was used by an NGO.
-    * [ODK](https://getodk.org)
+> * [Fulcrum](https://www.fulcrumapp.com/); [link to post](https://gadgets360.com/science/features/fulcrum-app-science-fieldwork-data-collection-2294662) describing how it was used by an NGO.
+> * [ODK](https://getodk.org)
 
 ## Sources & Additional Reading
-
 
 1. [Streamlining Field Data Collection with Mobile Apps](https://eos.org/science-updates/streamlining-field-data-collection-mobile-apps)
 
