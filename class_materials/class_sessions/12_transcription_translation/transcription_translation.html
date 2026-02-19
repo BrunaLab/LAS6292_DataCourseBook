@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; File Organization – LAS 6292: Data Collection and Management</title>
+<title>9&nbsp; Transcription &amp; Translation – LAS 6292: Data Collection and Management</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../class_materials/class_sessions/02_file_storage/storage.html" rel="next">
-<link href="../../../class_materials/class_sessions/02_file_names/naming.html" rel="prev">
+<link href="../../../class_materials/class_sessions/13_paperless_data_collection/paperless.html" rel="next">
+<link href="../../../class_materials/class_sessions/09_DMP/dmp.html" rel="prev">
 <link href="../../../images/cover.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_organization/organization.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/12_transcription_translation/transcription_translation.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Transcription &amp; Translation</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -152,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../class_materials/class_sessions/02_file_organization/organization.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../class_materials/class_sessions/02_file_organization/organization.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></span></a>
   </div>
 </li>
@@ -194,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../class_materials/class_sessions/12_transcription_translation/transcription_translation.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../class_materials/class_sessions/12_transcription_translation/transcription_translation.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Transcription &amp; Translation</span></span></a>
   </div>
 </li>
@@ -268,19 +268,40 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#file-organization---electronic" id="toc-file-organization---electronic" class="nav-link active" data-scroll-target="#file-organization---electronic"><span class="header-section-number">2.1</span> File Organization - Electronic</a></li>
-  <li><a href="#example-project-based-organization" id="toc-example-project-based-organization" class="nav-link" data-scroll-target="#example-project-based-organization"><span class="header-section-number">2.2</span> Example: Project Based Organization</a></li>
-  <li><a href="#file-organization---physical" id="toc-file-organization---physical" class="nav-link" data-scroll-target="#file-organization---physical"><span class="header-section-number">2.3</span> File Organization - Physical</a></li>
-  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation"><span class="header-section-number">2.4</span> Documentation</a></li>
+  <li><a href="#transcription" id="toc-transcription" class="nav-link active" data-scroll-target="#transcription"><span class="header-section-number">9.1</span> Transcription</a>
+  <ul class="collapse">
+  <li><a href="#automated-via-upload" id="toc-automated-via-upload" class="nav-link" data-scroll-target="#automated-via-upload"><span class="header-section-number">9.1.1</span> Automated via upload</a></li>
+  <li><a href="#automated-via-api" id="toc-automated-via-api" class="nav-link" data-scroll-target="#automated-via-api"><span class="header-section-number">9.1.2</span> Automated via API</a></li>
+  <li><a href="#automated-via-dictation" id="toc-automated-via-dictation" class="nav-link" data-scroll-target="#automated-via-dictation"><span class="header-section-number">9.1.3</span> Automated via dictation</a></li>
+  <li><a href="#manual-with-software" id="toc-manual-with-software" class="nav-link" data-scroll-target="#manual-with-software"><span class="header-section-number">9.1.4</span> Manual with Software</a></li>
+  </ul></li>
+  <li><a href="#resources-tools" id="toc-resources-tools" class="nav-link" data-scroll-target="#resources-tools"><span class="header-section-number">9.2</span> Resources &amp; Tools</a>
+  <ul class="collapse">
+  <li><a href="#transcription-style-coding-guides" id="toc-transcription-style-coding-guides" class="nav-link" data-scroll-target="#transcription-style-coding-guides"><span class="header-section-number">9.2.1</span> Transcription Style &amp; Coding Guides</a></li>
+  <li><a href="#examples---transcription-notes" id="toc-examples---transcription-notes" class="nav-link" data-scroll-target="#examples---transcription-notes"><span class="header-section-number">9.2.2</span> Examples - Transcription Notes</a></li>
+  <li><a href="#useful-websites" id="toc-useful-websites" class="nav-link" data-scroll-target="#useful-websites"><span class="header-section-number">9.2.3</span> Useful Websites</a></li>
+  <li><a href="#pedals" id="toc-pedals" class="nav-link" data-scroll-target="#pedals"><span class="header-section-number">9.2.4</span> Pedals</a></li>
+  <li><a href="#text-shortcuts" id="toc-text-shortcuts" class="nav-link" data-scroll-target="#text-shortcuts"><span class="header-section-number">9.2.5</span> Text Shortcuts</a></li>
+  <li><a href="#misc.-software-apps" id="toc-misc.-software-apps" class="nav-link" data-scroll-target="#misc.-software-apps"><span class="header-section-number">9.2.6</span> Misc. Software &amp; Apps</a></li>
+  <li><a href="#post-transcription-text-analytics" id="toc-post-transcription-text-analytics" class="nav-link" data-scroll-target="#post-transcription-text-analytics"><span class="header-section-number">9.2.7</span> Post-Transcription Text Analytics</a></li>
+  </ul></li>
+  <li><a href="#translation" id="toc-translation" class="nav-link" data-scroll-target="#translation"><span class="header-section-number">9.3</span> Translation</a>
+  <ul class="collapse">
+  <li><a href="#text-automatedai" id="toc-text-automatedai" class="nav-link" data-scroll-target="#text-automatedai"><span class="header-section-number">9.3.1</span> Text: Automated/AI</a></li>
+  <li><a href="#audio-automatedai" id="toc-audio-automatedai" class="nav-link" data-scroll-target="#audio-automatedai"><span class="header-section-number">9.3.2</span> Audio: Automated/AI</a></li>
+  <li><a href="#text-manual-with-computer-assisted-technology-cat-software" id="toc-text-manual-with-computer-assisted-technology-cat-software" class="nav-link" data-scroll-target="#text-manual-with-computer-assisted-technology-cat-software"><span class="header-section-number">9.3.3</span> Text: Manual with Computer Assisted Technology (CAT) Software</a></li>
+  </ul></li>
+  <li><a href="#anonymization" id="toc-anonymization" class="nav-link" data-scroll-target="#anonymization"><span class="header-section-number">9.4</span> Anonymization</a></li>
+  <li><a href="#sources-additional-readings" id="toc-sources-additional-readings" class="nav-link" data-scroll-target="#sources-additional-readings"><span class="header-section-number">10</span> Sources / Additional Readings</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/02_file_organization/organization.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/12_transcription_translation/transcription_translation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_organization/organization.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/12_transcription_translation/transcription_translation.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Transcription &amp; Translation</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-org" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></span></h1>
+<h1 class="title"><span id="sec-transcription" class="quarto-section-identifier"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Transcription &amp; Translation</span></span></h1>
 </div>
 
 
@@ -303,55 +324,194 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="file-organization---electronic" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="file-organization---electronic"><span class="header-section-number">2.1</span> File Organization - Electronic</h2>
-<p>There aren’t really “rules” about how to organize your files, but I think the best way to organize is to think in terms of “projects”. Of course, how you define a “project” is sometimes tough…is the PhD the ‘Project’ or is each chapter of the dissertation a ‘Project’? You’ll have to give this some thought and think of a system that works for you. That said…</p>
-<p><strong>I like ‘Project’ based organization for two main reasons: </strong></p>
+<section id="transcription" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="transcription"><span class="header-section-number">9.1</span> Transcription</h2>
 <ol type="1">
-<li><p><strong>First</strong>, it pushes you to think in terms of outcomes: ‘projects’ lead to ‘products’ (e.g., paper, report, grant proposal). This helps you think more clearly about what data need to be collected and the analyses that need to be done. If the data aren’t for a new project, and it’s not clear to you if or how the data fit into a pre-existing project, then are you sure you need to spend time, effort, and money collecting them?</p></li>
-<li><p><strong>Second</strong>, project-based organization focuses on the individual steps and components that take a project from start-to-finish: planning your data collection, data gathering and clean-up, analysis, presentation, and data archiving.</p></li>
+<li><p>The <a href="https://soccrim.clas.ufl.edu/international-ethnography-lab-at-uf/">UF International Ethnography Lab</a> has access to <a href="https://trint.com/">Trint Transcription Software</a>, which has <a href="https://info.trint.com/knowledge/trint-live-transcription-trint-help-center?utm_source=google&amp;utm_medium=paid-search&amp;utm_campaign=US%7CGeneric%7CPerformanceMax&amp;utm_content=19096908663%7C&amp;utm_term=&amp;hsa_ver=3&amp;hsa_acc=9049097615&amp;hsa_mt=&amp;hsa_src=x&amp;hsa_cam=19096908663&amp;hsa_grp=&amp;hsa_tgt=&amp;hsa_kw=&amp;hsa_ad=&amp;hsa_net=adwords&amp;gad_source=1&amp;gclid=Cj0KCQjwzZmwBhD8ARIsAH4v1gVL5MGdq6p-J-xyIi22nim4ZhewHPxAw7sQe6pV9DcO2EkaZstwZ_gaAsl8EALw_wcB">detailed tutorials</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=GAmkIHJl7A0%20comparisons">Comparison Video</a></p></li>
+<li><p>NY Times’ Wirecutter <a href="https://www.nytimes.com/wirecutter/reviews/best-transcription-services/">review of transcription services</a></p></li>
+</ol>
+<section id="automated-via-upload" class="level3" data-number="9.1.1">
+<h3 data-number="9.1.1" class="anchored" data-anchor-id="automated-via-upload"><span class="header-section-number">9.1.1</span> Automated via upload</h3>
+<p><strong><em>Top-Tier </em></strong></p>
+<ol type="1">
+<li><p><a href="https://otter.ai/login">Otter.ai</a>. English only (US &amp; UK with regional accents); free (600 min/mo) and paid plans. Can transcribe zoom meetings (e.g., if you do interviews via zoom) and can <a href="https://blog.otter.ai/otter-dropbox-integration/">integrate with Dropbox</a>. Phone app is available for <a href="https://play.google.com/store/apps/details?id=com.aisense.otter&amp;hl=en_US&amp;gl=US">iOS</a>. There is an <a href="https://www.youtube.com/watch?v=SCaBnObVsqI">online tutorial</a>. <strong><em>English-only</em></strong></p></li>
+<li><p><a href="https://www.happyscribe.com/">Happy Scribe</a> - see descriptionabove.</p></li>
+<li><p><a href="https://www.temi.com/">Temi</a>. <strong><em>English Only</em></strong>, less accurate than Otter.ai and Happy Scribe.</p></li>
+<li><p>Online (free demo) version of <a href="https://speech-to-text-demo.ng.bluemix.net/">Watson</a>; note the “detect multiple speakers” option.</p></li>
+<li><p><a href="https://video.ufl.edu/conferencing/zoom/captions-and-live-transcription/">Zoom via UF</a>; see also this <a href="https://education.ufl.edu/educational-research/14320">Link</a> and this announcement about the addition of <a href="https://news.it.ufl.edu/infrastructure/available-in-zoom-translated-captions-and-live-transcriptions/">new languages for UF users</a></p></li>
+</ol>
+<p><strong><em>Second-Tier</em></strong></p>
+<ol type="1">
+<li><p><a href="https://www.spext.co/">Spext</a>. Speech-audio-text editing; free and paid plans.</p></li>
+<li><p><a href="https://aws.amazon.com/transcribe/">Amazon Transcribe</a></p></li>
 </ol>
 </section>
-<section id="example-project-based-organization" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="example-project-based-organization"><span class="header-section-number">2.2</span> Example: Project Based Organization</h2>
-<p><strong>A project-based organization scheme for a master’s thesis might look something like this:</strong></p>
+<section id="automated-via-api" class="level3" data-number="9.1.2">
+<h3 data-number="9.1.2" class="anchored" data-anchor-id="automated-via-api"><span class="header-section-number">9.1.2</span> Automated via API</h3>
+<!-- 1. [```transcribeR``` package](https://cran.r-project.org/web/packages/transcribeR/index.html) uses HP IDOL OnDemand's Speech Recognition API.                * [Vignette](https://cran.r-project.org/web/packages/transcribeR/vignettes/Transcribing_audio_with_transcribeR.html)  -->
+<!--     * [Reference manaual](https://cran.r-project.org/web/packages/transcribeR/transcribeR.pdf) -->
+<!--     * [tutorial](http://www.micha-dietze.de/pages/r_texts/_book/kaleidoscope.html) -->
 <ol type="1">
-<li>Top Folder: emb_masters_thesis</li>
-<li>Sub-folder 1: <code>Chapter1_lit_review</code></li>
-<li>Nested Folders and Subfolders for:
-<ul>
-<li>Plans for Data Collection &amp; Management
-<ul>
-<li>DMP</li>
-<li>plans for storage and backup</li>
-</ul></li>
-<li>data
-<ul>
-<li>raw data</li>
-<li>clean data</li>
-<li>metadata</li>
-</ul></li>
-<li>analyses
-<ul>
-<li>intermediate outputs from analyses</li>
-<li>final outputs from analyses</li>
-</ul></li>
-<li>presentation (e.g., <code>masters_ch1_text</code> or <code>ch1_slides</code>)</li>
-<li>data archiving</li>
-</ul></li>
+<li><p><a href="https://docs.ropensci.org/googleLanguageR/"><code>googleLanguageR</code></a>. Uses the Google Cloud machine learning APIs for text and speech tasks. The <a href="https://cloud.google.com/speech/">Cloud Speech API</a> transcribes sound files to text and the Cloud Text-to-Speech AP</p></li>
+<li><p><a href="https://github.com/cloudyr/aws.transcribe"><code>AWS transcribe</code></a> uses the Amazon Web Services to do transcription via API. Has program for NGO/non-profits.</p></li>
 </ol>
-<p>You can have one of these for each thesis chapter. Note that some (DMP, plans for storage and backup) might be better placed one folder up in the <code>emb_master_thesis</code> folder</p>
-<p><strong><em>But what if I will be using the same data for multiple chapters or papers?</em></strong> This is a great questions, and there are several options. One would be to include both chapters in the same folder, each with its own subfolder (manuscript 1, manuscript 2). The other would be to have each as a separate project, and pull the data in from the online archive where you deposited the data (or folder where the data are stored). As you can probably guess, I think #2 is better because I think of each paper as a different project.</p>
 </section>
-<section id="file-organization---physical" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="file-organization---physical"><span class="header-section-number">2.3</span> File Organization - Physical</h2>
-<p><strong>Whenever possible I try to organize physical records and archives in the same way as digital ones: </strong>in a single box, file folder, cabinet, etc.** try to set it up so that you go to one place for everything related to a project. Of course, you can’t always do that because specimens go to museums or stay in an archive…but you can keep the information on how to <em>find</em> the originals there. Don’t forget to include copies of the survey, data sheets, etc., as well as maps or other such resources.</p>
-<p><strong>Correspondence is a bit more complicated.</strong> You can keep notes - electronic or paper - in the relevant folder. But one thing that has gotten complicated is email correspondence regarding projects, manuscripts, etc. Printing seems like a huge waste of paper, and yet if critical it might be worth doing. Other wise keep an email folder for each project as well - with the same name as the electronic version so you can easily find email correspondence related to each project.</p>
+<section id="automated-via-dictation" class="level3" data-number="9.1.3">
+<h3 data-number="9.1.3" class="anchored" data-anchor-id="automated-via-dictation"><span class="header-section-number">9.1.3</span> Automated via dictation</h3>
+<ol type="1">
+<li><p><a href="https://www.google.com/docs">Google Docs</a>. See also <a href="https://support.google.com/docs/answer/4492226?hl=en">Google Docs Voice Recognition</a> and <a href="https://qz.com/work/1087765/how-to-transcribe-audio-fast-and-for-free-using-google-docs-voice-typing/">helpful how-to blog post on transcription using google docs and voice recognition</a></p></li>
+<li><p><a href="https://speechnotes.co/">SpeechNotes</a></p></li>
+<li><p><a href="https://support.apple.com/en-us/HT202584">Apple Dictation</a> and <a href="https://support.apple.com/en-gb/HT203085">Dictation Commands</a></p></li>
+<li><p><a href="https://www.windowscentral.com/how-use-voice-dictation-windows-10">How to use Windoes Voice Dictation</a> and <a href="https://support.microsoft.com/en-us/help/12427/windows-speech-recognition-commands">Windows Speech Recognition Commands</a></p></li>
+</ol>
 </section>
-<section id="documentation" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="documentation"><span class="header-section-number">2.4</span> Documentation</h2>
-<p><strong>Write it down. </strong>Prepare a file documenting your data organization structure so you can share it with team members (or look at it years later when looking for something). These can be <code>'README.txt'</code> files as needed for each folder. The <code>'README.txt'</code> file might include such things as explanations of naming conventions and how the structure of the directory relates to the structure of the project.</p>
-<p><strong>There are some excellent tools for organizing projects.</strong> Use appropriate tools, such as version control tools or electronic lab notebooks, to keep track of the history of the data files (more on this later in the semester).</p>
+<section id="manual-with-software" class="level3" data-number="9.1.4">
+<h3 data-number="9.1.4" class="anchored" data-anchor-id="manual-with-software"><span class="header-section-number">9.1.4</span> Manual with Software</h3>
+<ol type="1">
+<li><p><a href="https://otranscribe.com/">oTranscribe</a> Incredibly easy, web based, with time stamps, variable speed.</p></li>
+<li><p><a href="Transcription Software https://www.nch.com.au/scribe/index.html">Express Scribe</a> and <a href="https://www.youtube.com/watch?v=kbKRJcd1ueA">a tutorial</a>. There is a free version.</p></li>
+<li><p><a href="https://transcribe.wreally.com/">Transcribe</a></p></li>
+<li><p><a href="https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/about/nvivo/modules/transcription">Nvivo</a></p></li>
+<li><p><a href="https://download.cnet.com/Listen-N-Write/3000-2170_4-75416316.html">Listen N Write</a></p></li>
+<li><p><a href="https://www.inqscribe.com/">InScribe</a></p></li>
+<li><p><a href="http://www.usefulfruit.com/pearnote/">Pearnote for Mac</a>: make text annotations that connect to locations in audio and video recordings (30 day free trial)</p></li>
+<li><p><a href="https://www.nuance.com/dragon.html">Dragon Speech Recognition Software</a></p></li>
+<li><p><a href="https://sonix.ai/">Sonix</a></p></li>
+<li><p>Adobe Premiere: <a href="https://digitalanarchy.com/blog/video-editing-tutorial/speech-to-text-using-speech-analysis-in-premiere-pro-creative-cloud/">Speech-to-Text Tutorial</a> and <a href="https://helpx.adobe.com/premiere-pro/using/speech-analysis.html">Workaround if you are using a version later than 7.2.2</a>. UF Students can use Adobe products on <a href="https://info.apps.ufl.edu/adobeatufapps/">UFApps</a></p></li>
+</ol>
+</section>
+</section>
+<section id="resources-tools" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="resources-tools"><span class="header-section-number">9.2</span> Resources &amp; Tools</h2>
+<section id="transcription-style-coding-guides" class="level3" data-number="9.2.1">
+<h3 data-number="9.2.1" class="anchored" data-anchor-id="transcription-style-coding-guides"><span class="header-section-number">9.2.1</span> Transcription Style &amp; Coding Guides</h3>
+<ol type="1">
+<li><p>Samuel Proctor Project <a href="https://ufdc.ufl.edu/IR00002513/00001">Style Guide</a></p></li>
+<li><p>Library of Congress Guide: <a href="https://crowd.loc.gov/help-center/how-to-transcribe/">How to Transcribe</a></p></li>
+<li><p>Smithsonian Archives of American Art <a href="https://www.aaa.si.edu/documentation/oral-history-program-style-guide">Style Guide</a></p></li>
+<li><p>Smithsonian Volunteer Transcription Program’s <a href="https://transcription.si.edu/instructions">Guide</a> and <a href="https://transcription.si.edu/articles/insights-tips-volunpeer-expert-transcribe-style">Expert Tips</a></p></li>
+<li><p>Guide to <a href="https://guides.uflib.ufl.edu/celebratingcuba/translation-transcription#s-lg-box-25015800">Transcription Coding</a></p></li>
+<li><p>Hepburn, A., &amp; Bolden, G. B. (2017). Transcribing for social research. Sage. <a href="https://us.sagepub.com/en-us/nam/transcribing-for-social-research/book237847">linkto book descrption on Sage website</a></p></li>
+<li><p>Manchester University’s very useful <a href="http://hummedia.manchester.ac.uk/schools/soss/morgancentre/toolkits/08-toolkit-transcribing-your-qual-data.pdf">Transcription Toolkit and Guide</a></p></li>
+<li><p>Manchester University’s <a href="http://hummedia.manchester.ac.uk/schools/soss/morgancentre/toolkits/08-transcription-planning-calculator.xls">Quick calculator for estimating transcribing time (.xls file)</a></p></li>
+<li><p>Programming Historian Guide to <a href="https://digital-historian.com/text-automation/">Text Automation</a></p></li>
+</ol>
+</section>
+<section id="examples---transcription-notes" class="level3" data-number="9.2.2">
+<h3 data-number="9.2.2" class="anchored" data-anchor-id="examples---transcription-notes"><span class="header-section-number">9.2.2</span> Examples - Transcription Notes</h3>
+<ol type="1">
+<li><p><a href="https://ufdc.ufl.edu/AA00062074/00001/pdf">Sample 1</a></p></li>
+<li><p><a href="http://www.gutenberg.org/files/21829/21829-h/21829-h.htm">Sample 2</a></p></li>
+</ol>
+</section>
+<section id="useful-websites" class="level3" data-number="9.2.3">
+<h3 data-number="9.2.3" class="anchored" data-anchor-id="useful-websites"><span class="header-section-number">9.2.3</span> Useful Websites</h3>
+<ol type="1">
+<li><p><a href="https://www.linguee.com/">Linguee</a> Good for slang and expressions;searches different ways in which one word has been translated. Can also enter several words or even a sentence to find different translations.</p></li>
+<li><p><a href="Thesaurus.com">Thesaurus.com</a>; equivalent in foreign language.</p></li>
+<li><p>Side-by-Side <a href="https://www.diffchecker.com/diff">Text Comparison Website</a></p></li>
+<li><p>Jennifer Marie’s YouTube channel on <a href="https://www.youtube.com/channel/UC-ooPg34j8PK3osA4l-726Q">Transcription Tools &amp; Tips</a></p></li>
+</ol>
+</section>
+<section id="pedals" class="level3" data-number="9.2.4">
+<h3 data-number="9.2.4" class="anchored" data-anchor-id="pedals"><span class="header-section-number">9.2.4</span> Pedals</h3>
+<ol type="1">
+<li><p><a href="https://www.amazon.com/Infinity-Digital-Control-Computer-USB2/dp/B002MY6I7G/">Infinity</a></p></li>
+<li><p><a href="https://kinesis-ergo.com/products/#foot-switches">Kinesis</a></p></li>
+</ol>
+</section>
+<section id="text-shortcuts" class="level3" data-number="9.2.5">
+<h3 data-number="9.2.5" class="anchored" data-anchor-id="text-shortcuts"><span class="header-section-number">9.2.5</span> Text Shortcuts</h3>
+<ol type="1">
+<li><p><a href="https://www.howtogeek.com/448511/how-to-use-text-shortcuts-in-google-docs/">Google Docs</a></p></li>
+<li><p><a href="https://wordribbon.tips.net/T006829_Inserting_Text_with_a_Shortcut_Key.html#:~:text=Position%20the%20insertion%20point%20in,commands%20currently%20using%20this%20shortcut.">MS Word</a></p></li>
+</ol>
+</section>
+<section id="misc.-software-apps" class="level3" data-number="9.2.6">
+<h3 data-number="9.2.6" class="anchored" data-anchor-id="misc.-software-apps"><span class="header-section-number">9.2.6</span> Misc. Software &amp; Apps</h3>
+<ol type="1">
+<li><p><a href="https://software.sil.org/saymore/">SayMore</a>: tools for common Language Documentation tasks</p></li>
+<li><p><a href="https://sites.google.com/site/metadatatooldiscussion/home">Lameta</a> tool for metadata associated with files made in the course of documenting language, music, and other cultural expressions.</p></li>
+<li><p><a href="https://apps.apple.com/us/app/easy-voice-recorder/id1222784166">voice recorder app</a> for iPad</p></li>
+<li><p><a href="https://www.tapeacall.com">App for recording phone interviews</a> (note: be aware of relevant local and national laws regarding recording phone calls).</p></li>
+</ol>
+</section>
+<section id="post-transcription-text-analytics" class="level3" data-number="9.2.7">
+<h3 data-number="9.2.7" class="anchored" data-anchor-id="post-transcription-text-analytics"><span class="header-section-number">9.2.7</span> Post-Transcription Text Analytics</h3>
+<ol type="1">
+<li><p><a href="https://towardsdatascience.com/organizing-your-first-text-analytics-project-ce350dea3a4a">Planning for text analytics (extraction and organization) in R</a></p></li>
+<li><p>Silge and Robinson’s <strong>outstanding</strong> book <a href="https://www.tidytextmining.com/">‘Text Analysis in R’</a></p></li>
+</ol>
+</section>
+</section>
+<section id="translation" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="translation"><span class="header-section-number">9.3</span> Translation</h2>
+<section id="text-automatedai" class="level3" data-number="9.3.1">
+<h3 data-number="9.3.1" class="anchored" data-anchor-id="text-automatedai"><span class="header-section-number">9.3.1</span> Text: Automated/AI</h3>
+<ol type="1">
+<li><p><a href="https://translate.google.com/">Google Translate</a> and <a href="https://support.google.com/docs/answer/4492226?hl=en#zippy=%2Cadd-punctuation">help documents</a>.</p></li>
+<li><p>Google Docs: <a href="https://support.google.com/docs/answer/187189?co=GENIE.Platform%3DDesktop&amp;hl=en">in-doc translation</a>. See also how to <a href="https://twitter.com/CienciaDelCope/status/1203384707708325889">translate using google sheets</a></p></li>
+<li><p>MS Word: <a href="https://support.microsoft.com/en-us/topic/translate-text-into-a-different-language-287380e4-a56c-48a1-9977-f2dca89ce93f">in-doc translation</a></p></li>
+<li><p><a href="https://www.deepl.com/translator">DeepL</a></p></li>
+</ol>
+</section>
+<section id="audio-automatedai" class="level3" data-number="9.3.2">
+<h3 data-number="9.3.2" class="anchored" data-anchor-id="audio-automatedai"><span class="header-section-number">9.3.2</span> Audio: Automated/AI</h3>
+<ol type="1">
+<li><p><a href="https://www.happyscribe.com/">Happy Scribe</a>. 40+ languages. 30 min. free then paid; <a href="https://www.happyscribe.com/audio-to-text-for-students">student pricing available</a>. Can integrate with Zapier to up/download files from <a href="https://zapier.com/apps/happy-scribe/integrations/google-drive">Google Drive</a> and <a href="https://zapier.com/apps/happy-scribe/integrations/dropbox">Dropbox</a> <strong><em>Multiple languages</em></strong></p></li>
+<li><p>Google Audio Translation <a href="https://cloud.google.com/translate/media/docs">in Beta</a> ### Text or Audio: API or Command Line</p></li>
+<li><p><a href="https://docs.ropensci.org/googleLanguageR/"><code>googleLanguageR</code></a>. Uses the Google Cloud machine learning APIs for text and speech tasks. The <a href="https://cloud.google.com/translate/">Cloud Translation API</a> does detection and translation of text.</p></li>
+<li><p><a href="https://github.com/cloudyr/aws.translate"><code>aws.translate</code></a> uses the Amazon Web Services to do transcription via API. Has program for NGO/non-profits.</p></li>
+</ol>
+<!-- 1. [```translateR``` package](https://cran.r-project.org/web/packages/translateR/index.html): tools to access Google Cloud Translation via API. [Overview](https://www.google.com/search?q=translation+in+R&rlz=1C5CHFA_enUS828US828&oq=translation+in+R&aqs=chrome..69i57j0i20i263i433i512j0i131i433i512j0i20i263i512j0i512j0i433i512j0i131i433i512j0i512l3.2043j0j7&sourceid=chrome&ie=UTF-8) and [reference manual](https://cran.r-project.org/web/packages/translateR/translateR.pdf) -->
+<ol type="1">
+<li><p><a href="https://cloud.ibm.com/catalog/services/speech-to-text">Watson (IBM)</a> 500 minutes free</p></li>
+<li><p><a href="https://www.deepl.com/translator">DeepL</a></p></li>
+<li><p><a href="https://www.soimort.org/translate-shell/#translate-shell">Translate Shell</a> via API</p></li>
+</ol>
+</section>
+<section id="text-manual-with-computer-assisted-technology-cat-software" class="level3" data-number="9.3.3">
+<h3 data-number="9.3.3" class="anchored" data-anchor-id="text-manual-with-computer-assisted-technology-cat-software"><span class="header-section-number">9.3.3</span> Text: Manual with Computer Assisted Technology (CAT) Software</h3>
+<ol type="1">
+<li><p>Video overview of different <a href="https://www.youtube.com/watch?v=nbxBV_7QEyk">CAT Tools</a> from ‘Freelanceverse’.</p></li>
+<li><p><a href="https://omegat.org/">OmegaT CAT Software</a>. (Free)</p></li>
+<li><p><a href="https://www.wordfast.com/products_wordfast_anywhere">WordFast Anywhere</a> (free online; desktop version are paid)</p></li>
+<li><p><a href="https://www.across.net/">Across.net</a> (basic version free)</p></li>
+</ol>
+</section>
+</section>
+<section id="anonymization" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="anonymization"><span class="header-section-number">9.4</span> Anonymization</h2>
+<ol type="1">
+<li><p>UK Data Service Webinar: <a href="https://www.youtube.com/watch?v=Yysj1NaPhls">How to anonymise qualitative and quantitative data</a></p></li>
+<li><p>Anonymizing in R: <a href="https://www.youtube.com/watch?v=xA2vaUdvxNY">part 1</a> and <a href="https://www.youtube.com/watch?v=xGvwBMOW4t4">part 2</a></p></li>
+</ol>
+</section>
+<section id="sources-additional-readings" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Sources / Additional Readings</h1>
+<ol type="1">
+<li><p>Young, JC, Rose, DC, Mumby, HS, et al.&nbsp;2018. A methodological guide to using and reporting on interviews in conservation science research. <em>Methods Ecol Evol</em> 9:10-19 <a href="https://doi.org/10.1111/2041-210X.12828">[link]</a></p></li>
+<li><p>Michael Henry Heim &amp; Andrzej W. Tymowski. <a href="https://www.acls.org/uploadedFiles/Publications/Programs/sstp_guidelines.pdf">Guidelines for the Translation of Social Science Texts</a>. <em>American Council of Learned Societies</em></p></li>
+<li><p>Sophie Chabeda, Jane Kahindi, Manya Van Ryneveld. <a href="https://globalhealthsocialscience.tghn.org/articles/preparing-data-not-so-simple-stage-transcription-and-translation/">Preparing data: the not-so-simple stage of transcription and translation</a></p></li>
+<li><p>Squires, A. 2009. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2784094/pdf/nihms98173.pdf">Methodological challenges in cross-language qualitative research: A research review.</a>. <em>International Journal of Nursing Studies</em> 46(2):277-287.</p></li>
+<li><p>Hepburn, A., &amp; Bolden, G. B. (2017). <a href="https://uk.sagepub.com/en-gb/eur/transcribing-for-social-research/book237847">Transcribing for social research</a>. Sage.</p></li>
+<li><p>McLellan E, MacQueen KM, Neidig JL. 2003. Beyond the Qualitative Interview: Data Preparation and Transcription. <em>Field Methods</em>. 15(1):63-84. <a href="https://journals.sagepub.com/doi/10.1177/1525822X02239573">[link]</a></p></li>
+<li><p>MacLean LM, Meyer M, Estable A. 2004. Improving Accuracy of Transcripts in Qualitative Research. <em>Qualitative Health Research</em>.14(1):113-123. <a href="https://doi.org/10.1177/1049732303259804">[link]</a></p></li>
+<li><p>Hughes, M. <a href="https://www.howtogeek.com/657944/are-online-transcription-services-safe-and-private/">Are Online Transcription Services Safe and Private?</a>. <em>How-to-Geek</em>.</p></li>
+<li><p>Duca, Daniela. <a href="https://ocean.sagepub.com/blog/whos-disrupting-transcription-in-academia">Who’s disrupting transcription in academia?</a>. <em>Sage Ocean</em>.</p></li>
+<li><p>Oliver, D. G., Serovich, J. M., &amp; Mason, T. L. (2005). Constraints and opportunities with interview transcription: Towards reflection in qualitative research. Social forces, 84(2), 1273-1289. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1400594/">[link]</a></p></li>
+<li><p>Moore, E., &amp; Llompart, J. (2017). Collecting, Transcribing, Analyzing and Presenting Plurilingual Interactional Data. Research-publishing.net. <a href="https://files.eric.ed.gov/fulltext/ED573605.pdf">[link]</a></p></li>
+</ol>
+<!-- *  [Video Interviews](http://brunalab.org/las6291/2018/01/19/video-production/)   -->
+<!-- *  snolen says otter is the best: https://otter.ai/login thay have free ed account from wiorecutter: "Otter offers 600 minutes of free transcription per month (as long as you record directly from the app or Zoom), which makes it an attractive option for anyone who wants to transcribe and sort lots of interviews on a nonexistent budget."   -->
+<!-- For other types of Recorded Audio:  -->
+<!-- Editing and analyzing audio files: https://www.ocenaudio.com/whatis  -->
+<!-- *  https://smallbusiness.chron.com/install-speech-office-excel-40728.html -->
+<!-- *  https://www.naturalreaders.com/ -->
+<!-- # Other Voice to Text -->
+<!-- * https://blog.hubspot.com/marketing/voice-to-text  -->
+<!-- Guide to capturing and processing [images for archiving](https://guides.uflib.ufl.edu/celebratingcuba/digitization#s-lg-box-wrapper-29381548)   -->
 
 
 </section>
@@ -759,13 +919,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../class_materials/class_sessions/02_file_names/naming.html" class="pagination-link" aria-label="Naming Conventions">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Naming Conventions</span></span>
+      <a href="../../../class_materials/class_sessions/09_DMP/dmp.html" class="pagination-link" aria-label="Data Management Plans">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Data Management Plans</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../class_materials/class_sessions/02_file_storage/storage.html" class="pagination-link" aria-label="Data Storage &amp; Backup">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data Storage &amp; Backup</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../class_materials/class_sessions/13_paperless_data_collection/paperless.html" class="pagination-link" aria-label="Paperless Data Collection">
+        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Paperless Data Collection</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -777,7 +937,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/02_file_organization/organization.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/12_transcription_translation/transcription_translation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This book was built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

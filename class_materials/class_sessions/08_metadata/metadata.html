@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; File Organization – LAS 6292: Data Collection and Management</title>
+<title>7&nbsp; Resources for Preparing Metadata – LAS 6292: Data Collection and Management</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../class_materials/class_sessions/02_file_storage/storage.html" rel="next">
-<link href="../../../class_materials/class_sessions/02_file_names/naming.html" rel="prev">
+<link href="../../../class_materials/class_sessions/09_DMP/dmp.html" rel="next">
+<link href="../../../class_materials/class_sessions/05_QAQC1/qaqc1.html" rel="prev">
 <link href="../../../images/cover.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_organization/organization.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/08_metadata/metadata.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Resources for Preparing Metadata</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -152,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../class_materials/class_sessions/02_file_organization/organization.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../class_materials/class_sessions/02_file_organization/organization.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></span></a>
   </div>
 </li>
@@ -182,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../class_materials/class_sessions/08_metadata/metadata.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../class_materials/class_sessions/08_metadata/metadata.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Resources for Preparing Metadata</span></span></a>
   </div>
 </li>
@@ -268,19 +268,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#file-organization---electronic" id="toc-file-organization---electronic" class="nav-link active" data-scroll-target="#file-organization---electronic"><span class="header-section-number">2.1</span> File Organization - Electronic</a></li>
-  <li><a href="#example-project-based-organization" id="toc-example-project-based-organization" class="nav-link" data-scroll-target="#example-project-based-organization"><span class="header-section-number">2.2</span> Example: Project Based Organization</a></li>
-  <li><a href="#file-organization---physical" id="toc-file-organization---physical" class="nav-link" data-scroll-target="#file-organization---physical"><span class="header-section-number">2.3</span> File Organization - Physical</a></li>
-  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation"><span class="header-section-number">2.4</span> Documentation</a></li>
+  <li><a href="#what-are-metdatadata" id="toc-what-are-metdatadata" class="nav-link active" data-scroll-target="#what-are-metdatadata"><span class="header-section-number">7.1</span> What are Metdatadata?</a></li>
+  <li><a href="#best-practices-for-preparing-metadata" id="toc-best-practices-for-preparing-metadata" class="nav-link" data-scroll-target="#best-practices-for-preparing-metadata"><span class="header-section-number">7.2</span> Best practices for preparing metadata</a></li>
+  <li><a href="#discipline-specific-metadata-standards" id="toc-discipline-specific-metadata-standards" class="nav-link" data-scroll-target="#discipline-specific-metadata-standards"><span class="header-section-number">7.3</span> Discipline-specific metadata standards</a></li>
+  <li><a href="#metadata-templates" id="toc-metadata-templates" class="nav-link" data-scroll-target="#metadata-templates"><span class="header-section-number">7.4</span> Metadata templates</a></li>
+  <li><a href="#tools-for-creating-machine-readable-metadata" id="toc-tools-for-creating-machine-readable-metadata" class="nav-link" data-scroll-target="#tools-for-creating-machine-readable-metadata"><span class="header-section-number">7.5</span> Tools for creating machine-readable metadata</a></li>
+  <li><a href="#metadata-dictionaries" id="toc-metadata-dictionaries" class="nav-link" data-scroll-target="#metadata-dictionaries"><span class="header-section-number">7.6</span> Metadata Dictionaries</a></li>
+  <li><a href="#organizations-developing-metadata-standards-and-schema" id="toc-organizations-developing-metadata-standards-and-schema" class="nav-link" data-scroll-target="#organizations-developing-metadata-standards-and-schema"><span class="header-section-number">7.7</span> Organizations developing metadata standards and schema</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/02_file_organization/organization.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/08_metadata/metadata.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_organization/organization.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/08_metadata/metadata.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Resources for Preparing Metadata</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-org" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></span></h1>
+<h1 class="title"><span id="sec-metadata" class="quarto-section-identifier"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Resources for Preparing Metadata</span></span></h1>
 </div>
 
 
@@ -303,55 +306,76 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="file-organization---electronic" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="file-organization---electronic"><span class="header-section-number">2.1</span> File Organization - Electronic</h2>
-<p>There aren’t really “rules” about how to organize your files, but I think the best way to organize is to think in terms of “projects”. Of course, how you define a “project” is sometimes tough…is the PhD the ‘Project’ or is each chapter of the dissertation a ‘Project’? You’ll have to give this some thought and think of a system that works for you. That said…</p>
-<p><strong>I like ‘Project’ based organization for two main reasons: </strong></p>
+<section id="what-are-metdatadata" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="what-are-metdatadata"><span class="header-section-number">7.1</span> What are Metdatadata?</h2>
 <ol type="1">
-<li><p><strong>First</strong>, it pushes you to think in terms of outcomes: ‘projects’ lead to ‘products’ (e.g., paper, report, grant proposal). This helps you think more clearly about what data need to be collected and the analyses that need to be done. If the data aren’t for a new project, and it’s not clear to you if or how the data fit into a pre-existing project, then are you sure you need to spend time, effort, and money collecting them?</p></li>
-<li><p><strong>Second</strong>, project-based organization focuses on the individual steps and components that take a project from start-to-finish: planning your data collection, data gathering and clean-up, analysis, presentation, and data archiving.</p></li>
+<li><p>E. Bruna Video for LAS6292: <a href="https://youtu.be/wrt-3l71DJ4">Why Metadata?</a></p></li>
+<li><p>ICPSR: <a href="https://www.icpsr.umich.edu/web/HMCA/cms/1983">What is a Codebook?</a></p></li>
 </ol>
 </section>
-<section id="example-project-based-organization" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="example-project-based-organization"><span class="header-section-number">2.2</span> Example: Project Based Organization</h2>
-<p><strong>A project-based organization scheme for a master’s thesis might look something like this:</strong></p>
+<section id="best-practices-for-preparing-metadata" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="best-practices-for-preparing-metadata"><span class="header-section-number">7.2</span> Best practices for preparing metadata</h2>
 <ol type="1">
-<li>Top Folder: emb_masters_thesis</li>
-<li>Sub-folder 1: <code>Chapter1_lit_review</code></li>
-<li>Nested Folders and Subfolders for:
-<ul>
-<li>Plans for Data Collection &amp; Management
-<ul>
-<li>DMP</li>
-<li>plans for storage and backup</li>
-</ul></li>
-<li>data
-<ul>
-<li>raw data</li>
-<li>clean data</li>
-<li>metadata</li>
-</ul></li>
-<li>analyses
-<ul>
-<li>intermediate outputs from analyses</li>
-<li>final outputs from analyses</li>
-</ul></li>
-<li>presentation (e.g., <code>masters_ch1_text</code> or <code>ch1_slides</code>)</li>
-<li>data archiving</li>
-</ul></li>
+<li><p><a href="https://www.icpsr.umich.edu/files/deposit/dataprep.pdf">“Best Practices in Creating Social Science Metadata.”</a> p.32 in the ICPSR <em>Guide to Social Science Data Preparation and Archiving: Best Practice Throughout the Data Life Cycle (6th Edition)</em>.</p></li>
+<li><p>Michener, W.K., et al . 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342.<br>
+<a href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2">[read online]</a></p></li>
+<li><p>Pp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research methods: Qualitative and quantitative approaches. Sage.</p></li>
+<li><p>ICPSR <a href="https://www.icpsr.umich.edu/web/pages/deposit/guide/"><em>Guide to Social Science Data Preparation and Archiving: Best Practice Throughout the Data Life Cycle (6th Edition)</em></a></p></li>
+<li><p>DataONE Community Engagement &amp; Outreach Working Group (2017) “Metadata Management”. Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/07_metadata/index on Aug 31, 2020</p></li>
 </ol>
-<p>You can have one of these for each thesis chapter. Note that some (DMP, plans for storage and backup) might be better placed one folder up in the <code>emb_master_thesis</code> folder</p>
-<p><strong><em>But what if I will be using the same data for multiple chapters or papers?</em></strong> This is a great questions, and there are several options. One would be to include both chapters in the same folder, each with its own subfolder (manuscript 1, manuscript 2). The other would be to have each as a separate project, and pull the data in from the online archive where you deposited the data (or folder where the data are stored). As you can probably guess, I think #2 is better because I think of each paper as a different project.</p>
 </section>
-<section id="file-organization---physical" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="file-organization---physical"><span class="header-section-number">2.3</span> File Organization - Physical</h2>
-<p><strong>Whenever possible I try to organize physical records and archives in the same way as digital ones: </strong>in a single box, file folder, cabinet, etc.** try to set it up so that you go to one place for everything related to a project. Of course, you can’t always do that because specimens go to museums or stay in an archive…but you can keep the information on how to <em>find</em> the originals there. Don’t forget to include copies of the survey, data sheets, etc., as well as maps or other such resources.</p>
-<p><strong>Correspondence is a bit more complicated.</strong> You can keep notes - electronic or paper - in the relevant folder. But one thing that has gotten complicated is email correspondence regarding projects, manuscripts, etc. Printing seems like a huge waste of paper, and yet if critical it might be worth doing. Other wise keep an email folder for each project as well - with the same name as the electronic version so you can easily find email correspondence related to each project.</p>
+<section id="discipline-specific-metadata-standards" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="discipline-specific-metadata-standards"><span class="header-section-number">7.3</span> Discipline-specific metadata standards</h2>
+<p>It is worth looking in these catalogs to see if you can find metadata standards for your discipline. They will provide suggestions on not only what to include, but the standard vocabulary for your discipline.</p>
+<ol type="1">
+<li><p>RDA <a href="https://rd-alliance.github.io/metadata-directory/subjects/">Catalog of metadata standards for different disciplines</a></p></li>
+<li><p>UK Digital Curation Center <a href="https://www.dcc.ac.uk/guidance/standards/metadata">Directory of metadata standards for different disciplines</a></p></li>
+<li><p>Ecological data: <a href="http://knb.ecoinformatics.org/eml_metadata_guide.html">Ecological Metadata Language</a></p></li>
+<li><p>Museum Specimens: <a href="http://rs.tdwg.org/dwc/index.htm">Darwin Core</a></p></li>
+<li><p>Geography Markup Language (<a href="http://www.opengeospatial.org/standards/gml">GML</a>): Emphasis on geographic features (roads, highways, bridges)</p></li>
+<li><p>Humanities: UF Digital Collections (UFDC) <a href="https://guides.uflib.ufl.edu/ufdcmetadata">key metadata fields</a> used for non-published items such as posters, archival materials, artists’ files, field notebooks, etc. Includes a link to a template you can download. See also <a href="https://docs.google.com/spreadsheets/d/1x98TWee85Gq9oas90JJYtB5DyPBkMSNEs29Mb1qyAeQ/edit#gid=0">Template No.1</a> from UF’s Samuel Proctor Oral History Project, <a href="https://docs.google.com/spreadsheets/d/1K9RRNWrWbK0ikQai4_baBmxobqsX6jwEsiAHVjEJRDE/edit#gid=1745662283">Template #2</a>, which is a more general one from the UF Humanities Archives, and the <a href="https://qdr.syr.edu/content/qdr-metadata-application-profile">metadata required by the Qualitative Data Repository</a>.</p></li>
+</ol>
 </section>
-<section id="documentation" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="documentation"><span class="header-section-number">2.4</span> Documentation</h2>
-<p><strong>Write it down. </strong>Prepare a file documenting your data organization structure so you can share it with team members (or look at it years later when looking for something). These can be <code>'README.txt'</code> files as needed for each folder. The <code>'README.txt'</code> file might include such things as explanations of naming conventions and how the structure of the directory relates to the structure of the project.</p>
-<p><strong>There are some excellent tools for organizing projects.</strong> Use appropriate tools, such as version control tools or electronic lab notebooks, to keep track of the history of the data files (more on this later in the semester).</p>
+<section id="metadata-templates" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="metadata-templates"><span class="header-section-number">7.4</span> Metadata templates</h2>
+<p>I have created metadata templates based on information from ICSPR (for social sciences) and Michener <em>et al.</em> 1997 (for biophysical sciences) that can be downloaded and edited; you can add more fields or delete any that are not relevant. Note that Table 1 in Michener <em>et al.</em> is much more comprehensive and provides additional guidance on how to make sure the metadata are useful. The templates are available in <code>.txt</code>, <code>.Rmd</code>, and <code>.qmd</code> format).</p>
+<ol type="1">
+<li><strong>Metadata Template for Social Sciences:</strong></li>
+</ol>
+<p>from ICSPR: <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/ICPSR_Metadata.txt">.txt format</a> or <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/ICPSR_Metadata.Rmd">.Rmd format</a>. <em>See note below for additional info on Qualitative Data.</em></p>
+<ol type="1">
+<li><p><strong>Metadata template for Biophysical Sciences</strong>: Table 1 from Michener et al.&nbsp;1997: <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/Michener_etal_1997_Table1.txt">.txt format</a> or <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/Michener_etal_1997_Table1.Rmd">.Rmd format</a></p></li>
+<li><p><em>Note for researchers in the Humanities or those working primarily with Qualitative Data:</em>** The metadata required often depend on the type of material with which you work (e.g., oral history, photos, digital, printed). If your data is in this domain, you can download templates here: <a href="https://docs.google.com/spreadsheets/d/1x98TWee85Gq9oas90JJYtB5DyPBkMSNEs29Mb1qyAeQ/edit#gid=0">Template No.1</a> is from UF’s Samuel Proctor Oral History Project, <a href="https://docs.google.com/spreadsheets/d/1K9RRNWrWbK0ikQai4_baBmxobqsX6jwEsiAHVjEJRDE/edit#gid=1745662283">Template #2</a> is a more general one from the UF Humanities Archives. You can also review the <a href="https://qdr.syr.edu/content/qdr-metadata-application-profile">metadata required by the Qualitative Data Repository</a>.</p></li>
+</ol>
+</section>
+<section id="tools-for-creating-machine-readable-metadata" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="tools-for-creating-machine-readable-metadata"><span class="header-section-number">7.5</span> Tools for creating machine-readable metadata</h2>
+<p>I include these here in case you want to try using them. It’s not required, but it could definitely make your life easier if there is a standard tool for your discipline (e.g., MORPHO if you are working with ecological data).</p>
+<ol type="1">
+<li><p><a href="https://github.com/NCEAS/morpho">Morpho</a>: desktop application that allows researchers to create metadata and then (if they wish) upload to KNB. No longer maintained but open source and can be very useful.</p></li>
+<li><p><a href="https://rd-alliance.github.io/metadata-directory/tools/">giant list from the RDA</a> of tools for creating standardized metadata for different disciplines</p></li>
+<li><p><a href="https://www.sciencebase.gov/catalog/item/50ed7aa4e4b0438b00db080a">USGS Metadata Wizard</a></p></li>
+<li><p><a href="https://geology.usgs.gov/tools/metadata/tools/doc/tkme.html">TKME</a></p></li>
+<li><p><a href="http://catmdedit.sourceforge.net/">CatMDEdit</a></p></li>
+<li><p><a href="https://data.gulfresearchinitiative.org/metadata-editor-start">GRIIDC</a></p></li>
+</ol>
+</section>
+<section id="metadata-dictionaries" class="level2" data-number="7.6">
+<h2 data-number="7.6" class="anchored" data-anchor-id="metadata-dictionaries"><span class="header-section-number">7.6</span> Metadata Dictionaries</h2>
+<ol type="1">
+<li><p><a href="https://apps.usgs.gov/thesaurus/">USGS</a></p></li>
+<li><p><a href="https://idn.ceos.org/">Global Change Master Dictionary</a></p></li>
+<li><p><a href="https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names">USGS Geographic Names</a></p></li>
+<li><p><a href="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</a></p></li>
+</ol>
+</section>
+<section id="organizations-developing-metadata-standards-and-schema" class="level2" data-number="7.7">
+<h2 data-number="7.7" class="anchored" data-anchor-id="organizations-developing-metadata-standards-and-schema"><span class="header-section-number">7.7</span> Organizations developing metadata standards and schema</h2>
+<ol type="1">
+<li><p><a href="https://www.rd-alliance.org/">The Research Data Alliance (RDA)</a>“has the goal goal of building the social and technical infrastructure to enable open sharing and re-use of data.”</p></li>
+<li><p><a href="https://ddialliance.org/about/about-the-alliance">DDI Alliance</a>: “Established in 2003, the Data Documentation Initiative Alliance (DDI Alliance) is an international collaboration dedicated to establishing metadata standards and semantic products for describing social science data, data covering human activity, and other data based on observational methods.”</p></li>
+<li><p><a href="https://www.dublincore.org/">The Dublin Core Metadata Initiative</a> is “an organization supporting innovation in metadata design and best practices across the metadata ecology”.</p></li>
+</ol>
 
 
 </section>
@@ -759,13 +783,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../class_materials/class_sessions/02_file_names/naming.html" class="pagination-link" aria-label="Naming Conventions">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Naming Conventions</span></span>
+      <a href="../../../class_materials/class_sessions/05_QAQC1/qaqc1.html" class="pagination-link" aria-label="QA/QC: Reducing Error Entry/Finding and Correcting Errors">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">QA/QC: Reducing Error Entry/Finding and Correcting Errors</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../class_materials/class_sessions/02_file_storage/storage.html" class="pagination-link" aria-label="Data Storage &amp; Backup">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data Storage &amp; Backup</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../class_materials/class_sessions/09_DMP/dmp.html" class="pagination-link" aria-label="Data Management Plans">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Data Management Plans</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -777,7 +801,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/02_file_organization/organization.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/08_metadata/metadata.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This book was built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; File Organization – LAS 6292: Data Collection and Management</title>
+<title>8&nbsp; Data Management Plans – LAS 6292: Data Collection and Management</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../class_materials/class_sessions/02_file_storage/storage.html" rel="next">
-<link href="../../../class_materials/class_sessions/02_file_names/naming.html" rel="prev">
+<link href="../../../class_materials/class_sessions/12_transcription_translation/transcription_translation.html" rel="next">
+<link href="../../../class_materials/class_sessions/08_metadata/metadata.html" rel="prev">
 <link href="../../../images/cover.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_organization/organization.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/09_DMP/dmp.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Data Management Plans</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -152,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../class_materials/class_sessions/02_file_organization/organization.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../class_materials/class_sessions/02_file_organization/organization.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></span></a>
   </div>
 </li>
@@ -188,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../class_materials/class_sessions/09_DMP/dmp.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../class_materials/class_sessions/09_DMP/dmp.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Data Management Plans</span></span></a>
   </div>
 </li>
@@ -268,19 +268,36 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#file-organization---electronic" id="toc-file-organization---electronic" class="nav-link active" data-scroll-target="#file-organization---electronic"><span class="header-section-number">2.1</span> File Organization - Electronic</a></li>
-  <li><a href="#example-project-based-organization" id="toc-example-project-based-organization" class="nav-link" data-scroll-target="#example-project-based-organization"><span class="header-section-number">2.2</span> Example: Project Based Organization</a></li>
-  <li><a href="#file-organization---physical" id="toc-file-organization---physical" class="nav-link" data-scroll-target="#file-organization---physical"><span class="header-section-number">2.3</span> File Organization - Physical</a></li>
-  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation"><span class="header-section-number">2.4</span> Documentation</a></li>
+  <li><a href="#reminder-what-is-a-dmp" id="toc-reminder-what-is-a-dmp" class="nav-link active" data-scroll-target="#reminder-what-is-a-dmp"><span class="header-section-number">9</span> <strong>Reminder: What is a DMP?</strong></a>
+  <ul class="collapse">
+  <li><a href="#why-do-one" id="toc-why-do-one" class="nav-link" data-scroll-target="#why-do-one"><span class="header-section-number">9.1</span> <strong>Why do one?</strong></a></li>
+  <li><a href="#what-are-the-components-of-a-dmp" id="toc-what-are-the-components-of-a-dmp" class="nav-link" data-scroll-target="#what-are-the-components-of-a-dmp"><span class="header-section-number">9.2</span> <strong>What are the components of a DMP?</strong></a></li>
+  <li><a href="#start-here" id="toc-start-here" class="nav-link" data-scroll-target="#start-here"><span class="header-section-number">9.3</span> Start Here</a></li>
+  <li><a href="#what-should-go-in-my-dmp" id="toc-what-should-go-in-my-dmp" class="nav-link" data-scroll-target="#what-should-go-in-my-dmp"><span class="header-section-number">9.4</span> What should go in my DMP?</a></li>
+  <li><a href="#sample-dmps" id="toc-sample-dmps" class="nav-link" data-scroll-target="#sample-dmps"><span class="header-section-number">9.5</span> Sample DMPs</a>
+  <ul class="collapse">
+  <li><a href="#nsf-dmps" id="toc-nsf-dmps" class="nav-link" data-scroll-target="#nsf-dmps">NSF DMPs</a></li>
+  <li><a href="#sample-dmps-on-the-dmp-tool-website" id="toc-sample-dmps-on-the-dmp-tool-website" class="nav-link" data-scroll-target="#sample-dmps-on-the-dmp-tool-website">Sample DMPs on the ‘DMP Tool’ website</a></li>
+  <li><a href="#humanities-dmps" id="toc-humanities-dmps" class="nav-link" data-scroll-target="#humanities-dmps">Humanities DMPs</a></li>
+  <li><a href="#information-about-data-data-format" id="toc-information-about-data-data-format" class="nav-link" data-scroll-target="#information-about-data-data-format"><span class="header-section-number">9.5.1</span> <strong>1. Information About Data &amp; Data Format</strong></a></li>
+  <li><a href="#metadata-content-format" id="toc-metadata-content-format" class="nav-link" data-scroll-target="#metadata-content-format"><span class="header-section-number">9.5.2</span> <strong>2. Metadata Content &amp; Format</strong></a></li>
+  <li><a href="#policies-for-access-sharing-reuse" id="toc-policies-for-access-sharing-reuse" class="nav-link" data-scroll-target="#policies-for-access-sharing-reuse"><span class="header-section-number">9.5.3</span> <strong>3. Policies for Access, Sharing, Reuse</strong></a></li>
+  <li><a href="#long-term-storage-data-management" id="toc-long-term-storage-data-management" class="nav-link" data-scroll-target="#long-term-storage-data-management"><span class="header-section-number">9.5.4</span> <strong>4. Long-term Storage &amp; Data Management</strong></a></li>
+  <li><a href="#roles-and-responsibilities" id="toc-roles-and-responsibilities" class="nav-link" data-scroll-target="#roles-and-responsibilities"><span class="header-section-number">9.5.5</span> <strong>5. Roles and responsibilities</strong></a></li>
+  <li><a href="#budget" id="toc-budget" class="nav-link" data-scroll-target="#budget"><span class="header-section-number">9.5.6</span> <strong>6. Budget</strong></a></li>
+  </ul></li>
+  <li><a href="#nsf-dmp-requirements" id="toc-nsf-dmp-requirements" class="nav-link" data-scroll-target="#nsf-dmp-requirements"><span class="header-section-number">9.6</span> NSF DMP Requirements</a></li>
+  <li><a href="#reminder" id="toc-reminder" class="nav-link" data-scroll-target="#reminder"><span class="header-section-number">9.7</span> <em>REMINDER</em></a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/02_file_organization/organization.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/09_DMP/dmp.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_organization/organization.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/09_DMP/dmp.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Data Management Plans</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-org" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></span></h1>
+<h1 class="title"><span id="sec-dmp" class="quarto-section-identifier"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Data Management Plans</span></span></h1>
 </div>
 
 
@@ -303,57 +320,272 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="file-organization---electronic" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="file-organization---electronic"><span class="header-section-number">2.1</span> File Organization - Electronic</h2>
-<p>There aren’t really “rules” about how to organize your files, but I think the best way to organize is to think in terms of “projects”. Of course, how you define a “project” is sometimes tough…is the PhD the ‘Project’ or is each chapter of the dissertation a ‘Project’? You’ll have to give this some thought and think of a system that works for you. That said…</p>
-<p><strong>I like ‘Project’ based organization for two main reasons: </strong></p>
+<section id="reminder-what-is-a-dmp" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> <strong>Reminder: What is a DMP?</strong></h1>
+<ul>
+<li>Formal document that lays out your plan for managing the data you will collect (or have collected).</li>
+<li>Outlines what you will do with your data during and after you complete your research</li>
+<li>Ensures your data is safe for the present and the future</li>
+<li><a href="https://www.youtube.com/watch?v=fcCj6sNvoOw">Video overview</a> by RWTH Aachen University (12 min).</li>
+</ul>
+<section id="why-do-one" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="why-do-one"><span class="header-section-number">9.1</span> <strong>Why do one?</strong></h2>
+<ul>
+<li>Save time</li>
+<li>Less reorganization later</li>
+<li>Increase research efficiency</li>
+<li>Makes it easier to archive data downt he road (some data centers and repositories have specific requirements for data documentation, and knowing these requirements in advance saves time and effort that might be spent trying to correct data after they are collected).</li>
+<li>Increasingly: you don’t have a choice. Many funding agencies (e.g., NSF, NIH, NEH) now require a DMP for proposal submission.</li>
+</ul>
+</section>
+<section id="what-are-the-components-of-a-dmp" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="what-are-the-components-of-a-dmp"><span class="header-section-number">9.2</span> <strong>What are the components of a DMP?</strong></h2>
 <ol type="1">
-<li><p><strong>First</strong>, it pushes you to think in terms of outcomes: ‘projects’ lead to ‘products’ (e.g., paper, report, grant proposal). This helps you think more clearly about what data need to be collected and the analyses that need to be done. If the data aren’t for a new project, and it’s not clear to you if or how the data fit into a pre-existing project, then are you sure you need to spend time, effort, and money collecting them?</p></li>
-<li><p><strong>Second</strong>, project-based organization focuses on the individual steps and components that take a project from start-to-finish: planning your data collection, data gathering and clean-up, analysis, presentation, and data archiving.</p></li>
+<li>Information about data &amp; data format</li>
+<li>Metadata content and format</li>
+<li>Policies for access, sharing and re-use</li>
+<li>Long-term storage and data management</li>
+<li>Roles and responsibilities</li>
+<li>Budget</li>
+</ol>
+<p><em>Some funders or institutions may require specific elements in a data management plan; you should check in advance to make sure you meet all requirements</em></p>
+</section>
+<section id="start-here" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="start-here"><span class="header-section-number">9.3</span> Start Here</h2>
+<ol type="1">
+<li>The <a href="https://dmptool.org/">DMP Tool (https://dmptool.org/)</a> is a free, open-source, application that helps researchers create data management plans (DMPs). It provides an easy-to-use platform for creating a DMP that complies with the requirements of different private and public funding agencies (e.g., foundations, NSF, NIH). It also has direct links to funder websites, help text for answering questions, and data management best practices resources.</li>
+</ol>
+<!-- Another tools for creating DMPs is the [DMP Online](dmponline.dcc.ac.uk) -->
+</section>
+<section id="what-should-go-in-my-dmp" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="what-should-go-in-my-dmp"><span class="header-section-number">9.4</span> What should go in my DMP?</h2>
+<ol type="1">
+<li><p>Qualitative Data have some unique issues regarding their description and storage, so the <a href="https://qdr.syr.edu/guidance/managing/dmp-checklist">Qualitative Data Archive</a> has put together a great checklist of things to consider.</p></li>
+<li><p><a href="https://www.dcc.ac.uk/sites/default/files/documents/resource/DMP/DMP_Checklist_2013.pdf">Short Checklist &amp; Questions to Consider</a> when putting together a DMP</p></li>
+<li><p><a href="https://dmptool.org/general_guidance">Very in-depth Checklist &amp; Questions to Consider</a> when putting together a DMP</p></li>
+<li><p><a href="http://guides.uflib.ufl.edu/datamanagement/dmp">UF Library Guidelines</a> for preparing a DMP</p></li>
 </ol>
 </section>
-<section id="example-project-based-organization" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="example-project-based-organization"><span class="header-section-number">2.2</span> Example: Project Based Organization</h2>
-<p><strong>A project-based organization scheme for a master’s thesis might look something like this:</strong></p>
+<section id="sample-dmps" class="level2" data-number="9.5">
+<h2 data-number="9.5" class="anchored" data-anchor-id="sample-dmps"><span class="header-section-number">9.5</span> Sample DMPs</h2>
+<section id="nsf-dmps" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="nsf-dmps">NSF DMPs</h3>
 <ol type="1">
-<li>Top Folder: emb_masters_thesis</li>
-<li>Sub-folder 1: <code>Chapter1_lit_review</code></li>
-<li>Nested Folders and Subfolders for:
-<ul>
-<li>Plans for Data Collection &amp; Management
-<ul>
-<li>DMP</li>
-<li>plans for storage and backup</li>
-</ul></li>
-<li>data
-<ul>
-<li>raw data</li>
-<li>clean data</li>
-<li>metadata</li>
-</ul></li>
-<li>analyses
-<ul>
-<li>intermediate outputs from analyses</li>
-<li>final outputs from analyses</li>
-</ul></li>
-<li>presentation (e.g., <code>masters_ch1_text</code> or <code>ch1_slides</code>)</li>
-<li>data archiving</li>
-</ul></li>
+<li>NSF General: <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/09-DMP/example_dmps/DMP_MaunaLoa_Formatted.pdf">Mauna Loa example</a></li>
+<li>NSF General: <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/09-DMP/example_dmps/Repository%20selection%20exercise%20Data%20One%20Geosciences%20DMP.pdf">Rio Grande example</a></li>
+<li>NSF DEB: <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/09-DMP/example_dmps/DataManagementPlan.pdf">Emilio Bruna Heliconia example</a></li>
 </ol>
-<p>You can have one of these for each thesis chapter. Note that some (DMP, plans for storage and backup) might be better placed one folder up in the <code>emb_master_thesis</code> folder</p>
-<p><strong><em>But what if I will be using the same data for multiple chapters or papers?</em></strong> This is a great questions, and there are several options. One would be to include both chapters in the same folder, each with its own subfolder (manuscript 1, manuscript 2). The other would be to have each as a separate project, and pull the data in from the online archive where you deposited the data (or folder where the data are stored). As you can probably guess, I think #2 is better because I think of each paper as a different project.</p>
 </section>
-<section id="file-organization---physical" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="file-organization---physical"><span class="header-section-number">2.3</span> File Organization - Physical</h2>
-<p><strong>Whenever possible I try to organize physical records and archives in the same way as digital ones: </strong>in a single box, file folder, cabinet, etc.** try to set it up so that you go to one place for everything related to a project. Of course, you can’t always do that because specimens go to museums or stay in an archive…but you can keep the information on how to <em>find</em> the originals there. Don’t forget to include copies of the survey, data sheets, etc., as well as maps or other such resources.</p>
-<p><strong>Correspondence is a bit more complicated.</strong> You can keep notes - electronic or paper - in the relevant folder. But one thing that has gotten complicated is email correspondence regarding projects, manuscripts, etc. Printing seems like a huge waste of paper, and yet if critical it might be worth doing. Other wise keep an email folder for each project as well - with the same name as the electronic version so you can easily find email correspondence related to each project.</p>
+<section id="sample-dmps-on-the-dmp-tool-website" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="sample-dmps-on-the-dmp-tool-website">Sample DMPs on the ‘DMP Tool’ website</h3>
+<ol type="1">
+<li><a href="https://dmptool.org/public_plans">Public DMPs</a> <strong>(<em>note: “Public DMPs are plans created using the dmptool service and shared publicly by their owners. They are not vetted for quality, completeness, or adherence to funder guidelines.”</em>)</strong></li>
+</ol>
 </section>
-<section id="documentation" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="documentation"><span class="header-section-number">2.4</span> Documentation</h2>
-<p><strong>Write it down. </strong>Prepare a file documenting your data organization structure so you can share it with team members (or look at it years later when looking for something). These can be <code>'README.txt'</code> files as needed for each folder. The <code>'README.txt'</code> file might include such things as explanations of naming conventions and how the structure of the directory relates to the structure of the project.</p>
-<p><strong>There are some excellent tools for organizing projects.</strong> Use appropriate tools, such as version control tools or electronic lab notebooks, to keep track of the history of the data files (more on this later in the semester).</p>
+<section id="humanities-dmps" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="humanities-dmps">Humanities DMPs</h3>
+<ol type="1">
+<li><p>National Endowment for the Humanities: Data Management Plans From Successful Grant Applications (2015-2018) and (2011 - 2014) can be found as downloadable zip files <a href="https://www.neh.gov/about/foia/library">on this page</a></p></li>
+<li><p>A <em>really</em> nice <a href="https://guides.library.ucla.edu/c.php?g=180580&amp;p=1189056">DMP for a Digital Humanities Project</a> by researchers at the University of Maryland, College Park.</p></li>
+</ol>
+</section>
+<section id="information-about-data-data-format" class="level3" data-number="9.5.1">
+<h3 data-number="9.5.1" class="anchored" data-anchor-id="information-about-data-data-format"><span class="header-section-number">9.5.1</span> <strong>1. Information About Data &amp; Data Format</strong></h3>
+<section id="description-of-data-to-be-produced" class="level4" data-number="9.5.1.1">
+<h4 data-number="9.5.1.1" class="anchored" data-anchor-id="description-of-data-to-be-produced"><span class="header-section-number">9.5.1.1</span> <em>1.1 Description of data to be produced</em></h4>
+<ul>
+<li>Experimental</li>
+<li>Observational</li>
+<li>Raw or derived</li>
+<li>Physical collections</li>
+<li>Models and their outputs</li>
+<li>Simulation outputs</li>
+<li>Curriculum materials</li>
+<li>Software</li>
+<li>Images</li>
+<li>Other</li>
+</ul>
+</section>
+<section id="how-data-will-be-acquired" class="level4" data-number="9.5.1.2">
+<h4 data-number="9.5.1.2" class="anchored" data-anchor-id="how-data-will-be-acquired"><span class="header-section-number">9.5.1.2</span> <em>1.2 How data will be acquired?</em></h4>
+<ul>
+<li>When? Where? Method?</li>
+</ul>
+</section>
+<section id="how-data-will-be-processed" class="level4" data-number="9.5.1.3">
+<h4 data-number="9.5.1.3" class="anchored" data-anchor-id="how-data-will-be-processed"><span class="header-section-number">9.5.1.3</span> <em>1.3 How data will be processed</em></h4>
+<ul>
+<li><p>Software used</p></li>
+<li><p>Algorithms</p></li>
+<li><p>Workflows</p></li>
+<li><p>Data transformations/formats needed (Consider archive policies)</p></li>
+<li><p><em>This step is important to consider before the project since it may affect how data are organized, what formats are used, and how much should be budgeted for hardware and software. Things to consider are what software may be used, what algorithms will be employed, how these fit into the overall workflow of the project.</em></p></li>
+</ul>
+</section>
+<section id="file-formats" class="level4" data-number="9.5.1.4">
+<h4 data-number="9.5.1.4" class="anchored" data-anchor-id="file-formats"><span class="header-section-number">9.5.1.4</span> <em>1.4 File formats</em></h4>
+<ul>
+<li>Justification</li>
+<li>Naming conventions</li>
+</ul>
+</section>
+<section id="quality-assurance-control-during-sample-collection-analysis-and-processing" class="level4" data-number="9.5.1.5">
+<h4 data-number="9.5.1.5" class="anchored" data-anchor-id="quality-assurance-control-during-sample-collection-analysis-and-processing"><span class="header-section-number">9.5.1.5</span> <em>1.5 Quality assurance &amp; control during sample collection, analysis, and processing</em></h4>
+</section>
+<section id="existing-data" class="level4" data-number="9.5.1.6">
+<h4 data-number="9.5.1.6" class="anchored" data-anchor-id="existing-data"><span class="header-section-number">9.5.1.6</span> <em>1.6 Existing data</em></h4>
+<ul>
+<li>If existing data are used, what are their origins?</li>
+<li>Will your data be combined with existing data?</li>
+<li>What is the relationship between your data and existing data?</li>
+</ul>
+</section>
+<section id="how-data-will-be-managed-in-short-term" class="level4" data-number="9.5.1.7">
+<h4 data-number="9.5.1.7" class="anchored" data-anchor-id="how-data-will-be-managed-in-short-term"><span class="header-section-number">9.5.1.7</span> <em>1.7 How data will be managed in short-term</em></h4>
+<ul>
+<li>Version control</li>
+<li>Backing up</li>
+<li>Security &amp; protection</li>
+<li>Who will be responsible</li>
+</ul>
+</section>
+</section>
+<section id="metadata-content-format" class="level3" data-number="9.5.2">
+<h3 data-number="9.5.2" class="anchored" data-anchor-id="metadata-content-format"><span class="header-section-number">9.5.2</span> <strong>2. Metadata Content &amp; Format</strong></h3>
+<ul>
+<li>Metadata defined:</li>
+<li>Documentation and reporting of data</li>
+<li>Contextual details: Critical information about the dataset</li>
+<li>Information important for using the data</li>
+<li>Descriptions of temporal and spatial details, instruments, parameters, units, files, etc.</li>
+</ul>
+<section id="what-metadata-are-needed" class="level4" data-number="9.5.2.1">
+<h4 data-number="9.5.2.1" class="anchored" data-anchor-id="what-metadata-are-needed"><span class="header-section-number">9.5.2.1</span> <em>2.1 What metadata are needed</em></h4>
+<ul>
+<li>Details that make data meaningful</li>
+</ul>
+</section>
+<section id="how-metadata-will-be-created-andor-captured" class="level4" data-number="9.5.2.2">
+<h4 data-number="9.5.2.2" class="anchored" data-anchor-id="how-metadata-will-be-created-andor-captured"><span class="header-section-number">9.5.2.2</span> <em>2.2 How metadata will be created and/or captured</em></h4>
+<ul>
+<li>Lab notebooks? GPS units? Auto-saved on instrument?</li>
+</ul>
+</section>
+<section id="what-format-will-be-used-for-the-metadata" class="level4" data-number="9.5.2.3">
+<h4 data-number="9.5.2.3" class="anchored" data-anchor-id="what-format-will-be-used-for-the-metadata"><span class="header-section-number">9.5.2.3</span> <em>2.3 What format will be used for the metadata</em></h4>
+<ul>
+<li>Standards for community</li>
+<li>Justification for format chosen</li>
+</ul>
+</section>
+</section>
+<section id="policies-for-access-sharing-reuse" class="level3" data-number="9.5.3">
+<h3 data-number="9.5.3" class="anchored" data-anchor-id="policies-for-access-sharing-reuse"><span class="header-section-number">9.5.3</span> <strong>3. Policies for Access, Sharing, Reuse</strong></h3>
+<section id="obligations-for-sharing" class="level4" data-number="9.5.3.1">
+<h4 data-number="9.5.3.1" class="anchored" data-anchor-id="obligations-for-sharing"><span class="header-section-number">9.5.3.1</span> <em>3.1 Obligations for sharing</em></h4>
+<ul>
+<li>Funding agency</li>
+<li>Institution</li>
+<li>Other organization</li>
+<li>Legal</li>
+</ul>
+</section>
+<section id="details-of-data-sharing" class="level4" data-number="9.5.3.2">
+<h4 data-number="9.5.3.2" class="anchored" data-anchor-id="details-of-data-sharing"><span class="header-section-number">9.5.3.2</span> <em>3.2 Details of data sharing</em></h4>
+<ul>
+<li>How long?</li>
+<li>When?</li>
+<li>How access can be gained?</li>
+<li>Data collector rights</li>
+</ul>
+</section>
+<section id="ethicalprivacy-issues-with-data-sharing" class="level4" data-number="9.5.3.3">
+<h4 data-number="9.5.3.3" class="anchored" data-anchor-id="ethicalprivacy-issues-with-data-sharing"><span class="header-section-number">9.5.3.3</span> <em>3.2 Ethical/privacy issues with data sharing</em></h4>
+</section>
+<section id="intellectual-property-copyright-issues" class="level4" data-number="9.5.3.4">
+<h4 data-number="9.5.3.4" class="anchored" data-anchor-id="intellectual-property-copyright-issues"><span class="header-section-number">9.5.3.4</span> <em>3.3 Intellectual property &amp; copyright issues</em></h4>
+<ul>
+<li>Who owns the copyright? (? Institutions and/or funding agencies often have a policy for intellectual property and copyright. There may be other considerations such as embargos on data due to patents, politics, or journal requirements.)</li>
+<li>Institutional policies</li>
+<li>Funding agency policies</li>
+<li>Embargos for political/commercial reasons</li>
+</ul>
+</section>
+<section id="intended-future-usesusers-for-data" class="level4" data-number="9.5.3.5">
+<h4 data-number="9.5.3.5" class="anchored" data-anchor-id="intended-future-usesusers-for-data"><span class="header-section-number">9.5.3.5</span> <em>3.4 Intended future uses/users for data</em></h4>
+<ul>
+<li>This helps determine the most appropriate data center to archive your data.</li>
+</ul>
+</section>
+<section id="citation" class="level4" data-number="9.5.3.6">
+<h4 data-number="9.5.3.6" class="anchored" data-anchor-id="citation"><span class="header-section-number">9.5.3.6</span> <em>3.5 Citation</em></h4>
+<ul>
+<li>How should data be cited when used?</li>
+<li>Do you need a persistent citation (e.g.&nbsp;DOI)?</li>
+</ul>
+</section>
+</section>
+<section id="long-term-storage-data-management" class="level3" data-number="9.5.4">
+<h3 data-number="9.5.4" class="anchored" data-anchor-id="long-term-storage-data-management"><span class="header-section-number">9.5.4</span> <strong>4. Long-term Storage &amp; Data Management</strong></h3>
+<section id="what-data-will-be-preserved" class="level4" data-number="9.5.4.1">
+<h4 data-number="9.5.4.1" class="anchored" data-anchor-id="what-data-will-be-preserved"><span class="header-section-number">9.5.4.1</span> <em>4.1 What data will be preserved</em></h4>
+</section>
+<section id="where-will-it-be-archived" class="level4" data-number="9.5.4.2">
+<h4 data-number="9.5.4.2" class="anchored" data-anchor-id="where-will-it-be-archived"><span class="header-section-number">9.5.4.2</span> <em>4.2 Where will it be archived</em></h4>
+<ul>
+<li>Most appropriate archive for data</li>
+<li>Community standards</li>
+</ul>
+</section>
+<section id="who-will-be-responsible" class="level4" data-number="9.5.4.3">
+<h4 data-number="9.5.4.3" class="anchored" data-anchor-id="who-will-be-responsible"><span class="header-section-number">9.5.4.3</span> <em>4.4 Who will be responsible</em></h4>
+<ul>
+<li>Contact person for archive</li>
+</ul>
+</section>
+</section>
+<section id="roles-and-responsibilities" class="level3" data-number="9.5.5">
+<h3 data-number="9.5.5" class="anchored" data-anchor-id="roles-and-responsibilities"><span class="header-section-number">9.5.5</span> <strong>5. Roles and responsibilities</strong></h3>
+<section id="outline-the-roles-and-responsibilities-for-implementing-this-data-management-plan." class="level4" data-number="9.5.5.1">
+<h4 data-number="9.5.5.1" class="anchored" data-anchor-id="outline-the-roles-and-responsibilities-for-implementing-this-data-management-plan."><span class="header-section-number">9.5.5.1</span> <em>5.1 Outline the roles and responsibilities for implementing this data management plan</em>.</h4>
+<ul>
+<li>Who will be responsible for data management and for monitoring the data management plan? How will adherence to this data management plan be checked or demonstrated? What process is in place for transferring responsibility for the data? Who will have responsibility over time for decisions about the data once the original personnel are no longer available?</li>
+</ul>
+</section>
+</section>
+<section id="budget" class="level3" data-number="9.5.6">
+<h3 data-number="9.5.6" class="anchored" data-anchor-id="budget"><span class="header-section-number">9.5.6</span> <strong>6. Budget</strong></h3>
+<section id="anticipated-costs" class="level4" data-number="9.5.6.1">
+<h4 data-number="9.5.6.1" class="anchored" data-anchor-id="anticipated-costs"><span class="header-section-number">9.5.6.1</span> <em>6.1 Anticipated costs</em></h4>
+<ul>
+<li>Time for data preparation &amp; documentation</li>
+<li>Hardware/software for data preparation &amp; documentation</li>
+<li>Personnel</li>
+<li>Archive costs</li>
+</ul>
+</section>
+<section id="how-costs-will-be-paid" class="level4" data-number="9.5.6.2">
+<h4 data-number="9.5.6.2" class="anchored" data-anchor-id="how-costs-will-be-paid"><span class="header-section-number">9.5.6.2</span> <em>6.2 How costs will be paid</em></h4>
+</section>
+</section>
+</section>
+<section id="nsf-dmp-requirements" class="level2" data-number="9.6">
+<h2 data-number="9.6" class="anchored" data-anchor-id="nsf-dmp-requirements"><span class="header-section-number">9.6</span> NSF DMP Requirements</h2>
+<p><strong>From Grant Proposal Guidelines:</strong> “Plans for data management and sharing of the products of research. Proposals must include a supplementary document of no more than two pages labeled “Data Management Plan”. This supplement should describe how the proposal will conform to NSF policy on the dissemination and sharing of research results, and may include: the types of data, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project the standards to be used for data and metadata format and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies) policies for access and sharing including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements policies and provisions for re-use, re-distribution, and the production of derivatives plans for archiving data, samples, and other research products, and for preservation of access to them.”</p>
+</section>
+<section id="reminder" class="level2" data-number="9.7">
+<h2 data-number="9.7" class="anchored" data-anchor-id="reminder"><span class="header-section-number">9.7</span> <em>REMINDER</em></h2>
+<p>The key components of a DMP:</p>
+<ul>
+<li>Information about data &amp; data format</li>
+<li>Metadata content and format</li>
+<li>Policies for access, sharing and re-use</li>
+<li>Long-term storage and data management</li>
+<li>Budget</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -759,13 +991,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../class_materials/class_sessions/02_file_names/naming.html" class="pagination-link" aria-label="Naming Conventions">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Naming Conventions</span></span>
+      <a href="../../../class_materials/class_sessions/08_metadata/metadata.html" class="pagination-link" aria-label="Resources for Preparing Metadata">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Resources for Preparing Metadata</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../class_materials/class_sessions/02_file_storage/storage.html" class="pagination-link" aria-label="Data Storage &amp; Backup">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data Storage &amp; Backup</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../class_materials/class_sessions/12_transcription_translation/transcription_translation.html" class="pagination-link" aria-label="Transcription &amp; Translation">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Transcription &amp; Translation</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -777,7 +1009,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/02_file_organization/organization.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/09_DMP/dmp.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This book was built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; File Organization – LAS 6292: Data Collection and Management</title>
+<title>11&nbsp; Automated Data Collection &amp; Extraction – LAS 6292: Data Collection and Management</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../class_materials/class_sessions/02_file_storage/storage.html" rel="next">
-<link href="../../../class_materials/class_sessions/02_file_names/naming.html" rel="prev">
+<link href="../../../class_materials/class_sessions/15_legal_ethical/legal_ethical.html" rel="next">
+<link href="../../../class_materials/class_sessions/13_paperless_data_collection/paperless.html" rel="prev">
 <link href="../../../images/cover.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_organization/organization.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/14_automated_data_extraction/automated.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Automated Data Collection &amp; Extraction</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -152,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../class_materials/class_sessions/02_file_organization/organization.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../class_materials/class_sessions/02_file_organization/organization.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></span></a>
   </div>
 </li>
@@ -206,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../class_materials/class_sessions/14_automated_data_extraction/automated.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../class_materials/class_sessions/14_automated_data_extraction/automated.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Automated Data Collection &amp; Extraction</span></span></a>
   </div>
 </li>
@@ -268,19 +268,27 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#file-organization---electronic" id="toc-file-organization---electronic" class="nav-link active" data-scroll-target="#file-organization---electronic"><span class="header-section-number">2.1</span> File Organization - Electronic</a></li>
-  <li><a href="#example-project-based-organization" id="toc-example-project-based-organization" class="nav-link" data-scroll-target="#example-project-based-organization"><span class="header-section-number">2.2</span> Example: Project Based Organization</a></li>
-  <li><a href="#file-organization---physical" id="toc-file-organization---physical" class="nav-link" data-scroll-target="#file-organization---physical"><span class="header-section-number">2.3</span> File Organization - Physical</a></li>
-  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation"><span class="header-section-number">2.4</span> Documentation</a></li>
+  <li><a href="#tools-resources" id="toc-tools-resources" class="nav-link active" data-scroll-target="#tools-resources"><span class="header-section-number">11.1</span> Tools &amp; Resources</a>
+  <ul class="collapse">
+  <li><a href="#optical-character-recognition" id="toc-optical-character-recognition" class="nav-link" data-scroll-target="#optical-character-recognition"><span class="header-section-number">11.1.1</span> Optical Character Recognition</a></li>
+  <li><a href="#extracting-data-from-published-figures" id="toc-extracting-data-from-published-figures" class="nav-link" data-scroll-target="#extracting-data-from-published-figures"><span class="header-section-number">11.1.2</span> Extracting Data from Published Figures</a></li>
+  <li><a href="#text-mining" id="toc-text-mining" class="nav-link" data-scroll-target="#text-mining"><span class="header-section-number">11.1.3</span> Text Mining</a></li>
+  <li><a href="#scraping-information-from-websites" id="toc-scraping-information-from-websites" class="nav-link" data-scroll-target="#scraping-information-from-websites"><span class="header-section-number">11.1.4</span> Scraping information from websites</a></li>
+  <li><a href="#cell-phone-data" id="toc-cell-phone-data" class="nav-link" data-scroll-target="#cell-phone-data"><span class="header-section-number">11.1.5</span> Cell Phone Data</a></li>
+  <li><a href="#automated-image-analysis" id="toc-automated-image-analysis" class="nav-link" data-scroll-target="#automated-image-analysis"><span class="header-section-number">11.1.6</span> Automated Image Analysis</a></li>
+  <li><a href="#wearable-devices-rfid-tags" id="toc-wearable-devices-rfid-tags" class="nav-link" data-scroll-target="#wearable-devices-rfid-tags"><span class="header-section-number">11.1.7</span> Wearable Devices &amp; RFID tags</a></li>
+  <li><a href="#build-your-own-automated-data-collection-tool-rasberry-pi" id="toc-build-your-own-automated-data-collection-tool-rasberry-pi" class="nav-link" data-scroll-target="#build-your-own-automated-data-collection-tool-rasberry-pi"><span class="header-section-number">11.1.8</span> Build your own automated data collection tool, Rasberry PI</a></li>
+  <li><a href="#databases-and-websites-from-which-you-can-extract-data" id="toc-databases-and-websites-from-which-you-can-extract-data" class="nav-link" data-scroll-target="#databases-and-websites-from-which-you-can-extract-data"><span class="header-section-number">11.1.9</span> Databases and Websites from which you can extract data</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/02_file_organization/organization.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/14_automated_data_extraction/automated.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_organization/organization.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/14_automated_data_extraction/automated.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Automated Data Collection &amp; Extraction</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-org" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></span></h1>
+<h1 class="title"><span id="sec-automated" class="quarto-section-identifier"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Automated Data Collection &amp; Extraction</span></span></h1>
 </div>
 
 
@@ -303,57 +311,181 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="file-organization---electronic" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="file-organization---electronic"><span class="header-section-number">2.1</span> File Organization - Electronic</h2>
-<p>There aren’t really “rules” about how to organize your files, but I think the best way to organize is to think in terms of “projects”. Of course, how you define a “project” is sometimes tough…is the PhD the ‘Project’ or is each chapter of the dissertation a ‘Project’? You’ll have to give this some thought and think of a system that works for you. That said…</p>
-<p><strong>I like ‘Project’ based organization for two main reasons: </strong></p>
+<section id="tools-resources" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="tools-resources"><span class="header-section-number">11.1</span> Tools &amp; Resources</h2>
+<!-- NEED TO ADD: INTRO TO APIs to fully automate -->
+<section id="optical-character-recognition" class="level3" data-number="11.1.1">
+<h3 data-number="11.1.1" class="anchored" data-anchor-id="optical-character-recognition"><span class="header-section-number">11.1.1</span> Optical Character Recognition</h3>
 <ol type="1">
-<li><p><strong>First</strong>, it pushes you to think in terms of outcomes: ‘projects’ lead to ‘products’ (e.g., paper, report, grant proposal). This helps you think more clearly about what data need to be collected and the analyses that need to be done. If the data aren’t for a new project, and it’s not clear to you if or how the data fit into a pre-existing project, then are you sure you need to spend time, effort, and money collecting them?</p></li>
-<li><p><strong>Second</strong>, project-based organization focuses on the individual steps and components that take a project from start-to-finish: planning your data collection, data gathering and clean-up, analysis, presentation, and data archiving.</p></li>
+<li><p>Video Primer: <a href="what is ocr? https://www.youtube.com/watch?v=Q5U_VEmcY-M">What is OCR?</a></p></li>
+<li><p>Online OCR Tools - text and data from <code>.pdf</code> into <code>.csv</code>, <code>.txt</code>, etc.</p>
+<ul>
+<li><p>Google Drive - Video Primer: <a href="https://www.youtube.com/watch?v=4lApeCNK6Ic">OCR with Google Drive</a></p></li>
+<li><p>Free online sites for small batches (can upgrade for larger numbers of files)</p>
+<ul>
+<li><a href="http://www.free-online-ocr.com/">Free Online OCR 1</a></li>
+<li><a href="https://www.newocr.com/">New OCR</a></li>
+<li><a href="https://smallpdf.com/pdf-to-excel">pdf to excel</a></li>
+<li><a href="https://www.onlineocr.net/">OnlineOCR</a></li>
+<li><a href="https://pdftables.com/">PDFTables</a> will convert PDF to .csv, and has an <a href="https://pdftables.com/blog/convert-pdf-to-excel-r">API</a> so you can do your conversions in bulk with R. You can do ~25 pages free; large numbers are reasonably priced.</li>
+</ul></li>
+<li><p><a href="https://aws.amazon.com/pm/textract">Amazon TextExtract</a></p></li>
+<li><p><a href="https://mathpix.com/">Mathpix Snip</a> digitizes handwritten or printed text, and copies outputs to the clipboard that can be pasted into LaTeX editors like Overleaf, Markdown editors like Typora, Microsoft Word, and more.</p></li>
+</ul></li>
+<li><p>R tools for OCR: <code>pdfreader</code>, <code>tabulizer</code> <!-- , and `pdfreader` --></p>
+<ul>
+<li><p>R package <a href="https://cran.r-project.org/web/packages/pdftools/index.html"><code>pdftools</code></a></p></li>
+<li><p>R package <a href="https://github.com/ropensci/tabulapdf"><code>tabulapdf</code></a> <!-- * R package [`pdfreader`](https://github.com/ropensci/tabulapdf) --></p></li>
+<li><p><a href="http://theautomatic.net/2018/08/24/getting-data-from-pdfs-the-easy-way-with-r/">written tutorial 1</a></p></li>
+<li><p><a href="https://www.charlesbordet.com/en/extract-pdf/#">written tutorial 2</a></p></li>
+<li><p><a href="https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/">written tutorial 3</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=DhY3V4LCdps">Video Tutorial 1</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=6ItyOgS2noc">Video Tutorial 2</a></p></li>
+<li><p>Detailed <a href="https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/">Blog Post / Tutorial</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=DhY3V4LCdps">Convert PDF to text in R OCR pdftools</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=6ItyOgS2noc">PDFtools in R</a></p></li>
+<li><p>More advanced but more powerful from the Programming Historian: <a href="https://programminghistorian.org/en/lessons/ocr-with-google-vision-and-tesseract">OCR with Google Vision API and Tesseract</a></p></li>
+</ul></li>
+<li><p>Extracting Tables from images using R package <code>magick</code>.</p>
+<ul>
+<li>R package <a href="https://cran.r-project.org/web/packages/magick/vignettes/intro.html"><code>magick</code></a> <em>(this package actually includes several very powerful tools for image processing; this is just one of the things you can do with it)</em></li>
+<li>Detailed <a href="https://themockup.blog/posts/2021-01-18-reading-tables-from-images-with-magick/">Blog Post / Tutorial</a></li>
+</ul></li>
 </ol>
 </section>
-<section id="example-project-based-organization" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="example-project-based-organization"><span class="header-section-number">2.2</span> Example: Project Based Organization</h2>
-<p><strong>A project-based organization scheme for a master’s thesis might look something like this:</strong></p>
+<section id="extracting-data-from-published-figures" class="level3" data-number="11.1.2">
+<h3 data-number="11.1.2" class="anchored" data-anchor-id="extracting-data-from-published-figures"><span class="header-section-number">11.1.2</span> Extracting Data from Published Figures</h3>
 <ol type="1">
-<li>Top Folder: emb_masters_thesis</li>
-<li>Sub-folder 1: <code>Chapter1_lit_review</code></li>
-<li>Nested Folders and Subfolders for:
+<li><p>Ankit Rohagni’s <a href="https://automeris.io/WebPlotDigitizer/">Web Plot Digitizer</a></p>
 <ul>
-<li>Plans for Data Collection &amp; Management
-<ul>
-<li>DMP</li>
-<li>plans for storage and backup</li>
+<li>WPD <a href="https://www.youtube.com/watch?v=P7GbGdMvopU">Video Tutorial</a></li>
+<li>WPD Tutorial <a href="https://towardsdatascience.com/extracting-digitising-data-from-plots-in-scientific-papers-or-images-6e098cb887aa">Blog Post</a></li>
 </ul></li>
-<li>data
+<li><p>Alternative 1: R package <a href="https://www.r-bloggers.com/2019/06/extracting-the-data-from-static-images-of-graphs-with-magick/"><code>magick</code></a></p></li>
+<li><p>Alternative 2: <a href="http://www.getdata-graph-digitizer.com/index.php">GetData</a> extracts data automatically from scanned images (~$30).</p></li>
+<li><p>Alternative 3: R package <a href="https://cran.r-project.org/web/packages/digitize/digitize.pdf"><code>digitize</code></a> will extract data from scatterplots within the R environment. <a href="https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Poisot.pdf">This article</a> will walk you through the process.</p></li>
+</ol>
+</section>
+<section id="text-mining" class="level3" data-number="11.1.3">
+<h3 data-number="11.1.3" class="anchored" data-anchor-id="text-mining"><span class="header-section-number">11.1.3</span> Text Mining</h3>
+<ol type="1">
+<li><p><a href="https://www.tidytextmining.com/">Text Mining with R</a> by Julia Silge and David Robinson</p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/gutenbergr/index.html"><code>gutenbergr</code></a>: Download and Process Public Domain Works from <a href="https://www.gutenberg.org/">Project Gutenberg</a>. Tutorial can be found <a href="https://docs.ropensci.org/gutenbergr/">here</a></p></li>
+</ol>
+<p>Other Useful Text Mining Literature</p>
+<pre><code>* Atanassova I, Bertin M and Mayr P (2019) Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics. Front. Res. Metr. Anal. 4:2. [doi: 10.3389/frma.2019.00002](https://www.frontiersin.org/articles/10.3389/frma.2019.00002/full)
+
+* Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ, Brunak S (2018) A comprehensive and quantitative comparison of text-mining in 15 million full-text articles versus their corresponding abstracts. PLoS Comput Biol 14(2): e1005962. https://doi.org/10.1371/journal.pcbi.1005962
+
+* Salloum, S.A., Al-Emran, M., Monem, A.A., Shaalan, K. (2018). Using Text Mining Techniques for Extracting Information from Research Articles. In: Shaalan, K., Hassanien, A., Tolba, F. (eds) Intelligent Natural Language Processing: Trends and Applications. Studies in Computational Intelligence, vol 740. Springer, Cham. https://doi.org/10.1007/978-3-319-67056-0_18
+
+* Simon, C., Davidsen, K., Hansen, C. et al. BioReader: a text mining tool for performing classification of biomedical literature. BMC Bioinformatics 19, 57 (2019). https://doi.org/10.1186/s12859-019-2607-x</code></pre>
+<p>Extracting Body Text from Academic PDF Documents for Text Mining</p>
+<pre><code>* Benchimol, J., Kazinnik, S., &amp; Saadon, Y. (2022). Text mining methodologies with R: An application to central bank texts. Machine Learning with Applications, 8, 100286.[link](https://scholar.harvard.edu/files/jbenchimol/files/text-mining-methodologies.pdf) 
+
+* Yu, C., Zhang, C., &amp; Wang, J. (2020). Extracting Body Text from Academic PDF Documents for Text Mining. arXiv preprint arXiv:2010.12647.
+
+* Gulo, C. A., &amp; Rúbio, T. R. (2015, January). Text Mining Scientific Articles using the R. In Doctoral Symposium in Informatics Engineering. [linl](https://paginas.fe.up.pt/~prodei/dsie15/web/papers/dsie15_submission_10.pdf)</code></pre>
+<ol type="1">
+<li><p>Processing and Analyzing Records from the Web of Science and Scopus for Text Mining &amp; Biliometrics</p>
 <ul>
-<li>raw data</li>
-<li>clean data</li>
-<li>metadata</li>
-</ul></li>
-<li>analyses
-<ul>
-<li>intermediate outputs from analyses</li>
-<li>final outputs from analyses</li>
-</ul></li>
-<li>presentation (e.g., <code>masters_ch1_text</code> or <code>ch1_slides</code>)</li>
-<li>data archiving</li>
+<li><p>R package <a href="https://github.com/ropensci/refsplitr"><code>refsplitr</code></a></p></li>
+<li><p>R package <a href="https://www.bibliometrix.org/"><code>bibliometrix</code></a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=kNRbT-ki9tU">jstor: An R package for Analysing Scientific Articles</a></p></li>
 </ul></li>
 </ol>
-<p>You can have one of these for each thesis chapter. Note that some (DMP, plans for storage and backup) might be better placed one folder up in the <code>emb_master_thesis</code> folder</p>
-<p><strong><em>But what if I will be using the same data for multiple chapters or papers?</em></strong> This is a great questions, and there are several options. One would be to include both chapters in the same folder, each with its own subfolder (manuscript 1, manuscript 2). The other would be to have each as a separate project, and pull the data in from the online archive where you deposited the data (or folder where the data are stored). As you can probably guess, I think #2 is better because I think of each paper as a different project.</p>
 </section>
-<section id="file-organization---physical" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="file-organization---physical"><span class="header-section-number">2.3</span> File Organization - Physical</h2>
-<p><strong>Whenever possible I try to organize physical records and archives in the same way as digital ones: </strong>in a single box, file folder, cabinet, etc.** try to set it up so that you go to one place for everything related to a project. Of course, you can’t always do that because specimens go to museums or stay in an archive…but you can keep the information on how to <em>find</em> the originals there. Don’t forget to include copies of the survey, data sheets, etc., as well as maps or other such resources.</p>
-<p><strong>Correspondence is a bit more complicated.</strong> You can keep notes - electronic or paper - in the relevant folder. But one thing that has gotten complicated is email correspondence regarding projects, manuscripts, etc. Printing seems like a huge waste of paper, and yet if critical it might be worth doing. Other wise keep an email folder for each project as well - with the same name as the electronic version so you can easily find email correspondence related to each project.</p>
+<section id="scraping-information-from-websites" class="level3" data-number="11.1.4">
+<h3 data-number="11.1.4" class="anchored" data-anchor-id="scraping-information-from-websites"><span class="header-section-number">11.1.4</span> Scraping information from websites</h3>
+<ol type="1">
+<li>Library Carpentry <a href="https://librarycarpentry.org/lc-webscraping/">Lesson on Webscraping</a></li>
+<li>Start Here: <a href="https://nceas.github.io/oss-lessons/data-liberation/intro-webscraping.html">Introduction to webscraping</a></li>
+<li>Video: <a href="https://www.youtube.com/watch?v=4IYfYx4yoAI">Scraping WebData in R with rvest</a></li>
+<li>Video: <a href="https://www.youtube.com/watch?v=l37n_HDD1qs">Practical Introduction to Web Scraping using R</a></li>
+<li>Very nice <a href="https://www.scrapingbee.com/blog/web-scraping-r/">written tutorial</a>…</li>
+<li>….and another one, this time from the <a href="http://uc-r.github.io/scraping">UC Business Analytics R Programming Guide</a></li>
+<li><a href="http://bradleyboehmke.github.io//2015/12/scraping-html-text.html#specific_nodes">scraping HTML text</a> and <a href="http://bradleyboehmke.github.io/2015/12/scraping-html-tables.html">scraping HTML tables</a></li>
+<li><a href="https://selectorgadget.com/">SelectorGadget</a> is useful to id CSS selectors.</li>
+<li>Noortje Marres &amp; Esther Weltevrede (2013) Scraping the Social?, Journal of Cultural Economy, 6:3, 313-335, DOI: 10.1080/17530350.2013.772070</li>
+</ol>
 </section>
-<section id="documentation" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="documentation"><span class="header-section-number">2.4</span> Documentation</h2>
-<p><strong>Write it down. </strong>Prepare a file documenting your data organization structure so you can share it with team members (or look at it years later when looking for something). These can be <code>'README.txt'</code> files as needed for each folder. The <code>'README.txt'</code> file might include such things as explanations of naming conventions and how the structure of the directory relates to the structure of the project.</p>
-<p><strong>There are some excellent tools for organizing projects.</strong> Use appropriate tools, such as version control tools or electronic lab notebooks, to keep track of the history of the data files (more on this later in the semester).</p>
+<section id="cell-phone-data" class="level3" data-number="11.1.5">
+<h3 data-number="11.1.5" class="anchored" data-anchor-id="cell-phone-data"><span class="header-section-number">11.1.5</span> Cell Phone Data</h3>
+<ol type="1">
+<li>Exploratory analyses <a href="https://www.r-bloggers.com/2019/11/exploratory-data-analysis-of-cell-phone-usage-with-r-part-1/">Part 1</a> and <a href="https://www.r-bloggers.com/2019/12/exploratory-data-analysis-of-cell-phone-usage-with-r-part-2/">Part 2</a></li>
+</ol>
+<section id="social-media-facebook-flickr-etc" class="level4" data-number="11.1.5.1">
+<h4 data-number="11.1.5.1" class="anchored" data-anchor-id="social-media-facebook-flickr-etc"><span class="header-section-number">11.1.5.1</span> Social Media (Facebook, Flickr, etc,)</h4>
+<ol type="1">
+<li><p>How to extract <a href="Chowdhury, S., Ahmed, S., Alam, S., Callaghan, C. T., Das, P., Di Marco, M., Di Minin, E., Jarić, I., Labi, M. M., Rokonuzzaman, Md., Roll, U., Sbragaglia, V., Siddika, A., &amp; Bonn, A. (2024). A protocol for harvesting biodiversity data from Facebook. Conservation Biology, 00, e14257. https://doi.org/10.1111/cobi.14257">Biodiversity Data from Facebook</a></p></li>
+<li><p>Fox, Nathan, Tom August, Francesca Mancini, Katherine E. Parks, Felix Eigenbrod, James M. Bullock, Louis Sutter, and Laura J. Graham. ““photosearcher” package in R: An accessible and reproducible method for harvesting large datasets from Flickr.” SoftwareX 12 (2020): 100624. https://www.sciencedirect.com/science/article/pii/S235271102030337X</p></li>
+</ol>
+<!-- 1. Scraping [Twitter Data with R](https://utstat.toronto.edu/~nathan/teaching/sta4002/Class1/scrapingtwitterinR-NT.html) or with [Tweetsets](https://programminghistorian.org/en/lessons/beginners-guide-to-twitter-data) -->
+</section>
+</section>
+<section id="automated-image-analysis" class="level3" data-number="11.1.6">
+<h3 data-number="11.1.6" class="anchored" data-anchor-id="automated-image-analysis"><span class="header-section-number">11.1.6</span> Automated Image Analysis</h3>
+<ol type="1">
+<li><p>Pennekamp, F. and Schtickzelle, N. (2013), Implementing image analysis in laboratory‐based experimental systems for ecology and evolution: a hands‐on guide. Methods Ecol Evol, 4: 483-492. https://doi.org/10.1111/2041-210X.12036</p></li>
+<li><p>How to build your own image recognition app with R! <a href="https://www.r-bloggers.com/2021/03/how-to-build-your-own-image-recognition-app-with-r-part-1/?fbclid=IwAR3P8GNeEHAtm62iOIhhFe45ofZjn-zlwezc5TtM0pbayfUdjmwAr3UoB1Q">Part 1</a> and <a href="https://www.r-bloggers.com/2021/03/how-to-build-your-own-image-recognition-app-with-r-part-2/">Part 2</a></p></li>
+</ol>
+</section>
+<section id="wearable-devices-rfid-tags" class="level3" data-number="11.1.7">
+<h3 data-number="11.1.7" class="anchored" data-anchor-id="wearable-devices-rfid-tags"><span class="header-section-number">11.1.7</span> Wearable Devices &amp; RFID tags</h3>
+<ol type="1">
+<li><p><a href="https://en.wikipedia.org/wiki/Radio-frequency_identification">What is an RFID tag?</a></p></li>
+<li><p>Rafiq, K., Appleby, R. G., Edgar, J. P., Radford, C., Smith, B. P., Jordan, N. R., Dexter, C. E., Jones, D. N., Blacker, A. R. F., &amp; Cochrane, M. (2021). WildWID: An open-source active RFID system for wildlife research. Methods in Ecology and Evolution, 12, 1580– 1587. https://doi.org/10.1111/2041-210X.13651</p></li>
+<li><p><a href="https://news.mongabay.com/2015/07/build-your-own-rfid/">Build your own RFID device</a></p></li>
+<li><p>Izmailova, E.S., Wagner, J.A. and Perakslis, E.D. (2018), Wearable Devices in Clinical Trials: Hype and Hypothesis. Clin. Pharmacol. Ther., 104: 42-52. https://doi.org/10.1002/cpt.966</p></li>
+<li><p>Loncar-Turukalo T, Zdravevski E, Machado da Silva J, Chouvarda I, Trajkovik V. Literature on Wearable Technology for Connected Health: Scoping Review of Research Trends, Advances, and Barriers J Med Internet Res 2019;21(9):e14017 <a href="https://www.jmir.org/2019/9/e14017/">doi: 10.2196/14017</a></p></li>
+<li><p><a href="https://www.asanet.org/why-should-sociologists-care-about-wearable-tech">Why Should Sociologists Care about Wearable Tech?</a></p></li>
+<li><p>Harari, G. M., Lane, N. D., Wang, R., Crosier, B. S., Campbell, A. T., &amp; Gosling, S. D. (2016). Using Smartphones to Collect Behavioral Data in Psychological Science: Opportunities, Practical Considerations, and Challenges. Perspectives on Psychological Science 11(6), 838-854 <a href="https://pubmed.ncbi.nlm.nih.gov/27899727/">link</a></p></li>
+<li><p>Seifert Alexander, Hofer Matthias, Allemand Mathias. 2018. Mobile Data Collection: Smart, but Not (Yet) Smart Enough. 12. Frontiers in Neuroscience https://www.frontiersin.org/article/10.3389/fnins.2018.00971</p></li>
+</ol>
+</section>
+<section id="build-your-own-automated-data-collection-tool-rasberry-pi" class="level3" data-number="11.1.8">
+<h3 data-number="11.1.8" class="anchored" data-anchor-id="build-your-own-automated-data-collection-tool-rasberry-pi"><span class="header-section-number">11.1.8</span> Build your own automated data collection tool, Rasberry PI</h3>
+<ol type="1">
+<li><p>Calipers that dump data directly to Excel <a href="https://www.notion.so/Hacking-Digital-Calipers-3ee7726f11ca431694dc70a1977516e4">link</a></p></li>
+<li><p><a href="https://www.biorxiv.org/content/10.1101/2022.03.21.485129v1">PiSpy</a>: An Affordable, Accessible, and Flexible Imaging Platform for the Automated Observation of Organismal Biology and Behavior</p></li>
+<li><p>Jolles, J. W. (2021). Broad-scale applications of the Raspberry Pi: A review and guide for biologists. Methods in Ecology and Evolution, 12, 1562– 1579. https://doi.org/10.1111/2041-210X.13652</p></li>
+</ol>
+</section>
+<section id="databases-and-websites-from-which-you-can-extract-data" class="level3" data-number="11.1.9">
+<h3 data-number="11.1.9" class="anchored" data-anchor-id="databases-and-websites-from-which-you-can-extract-data"><span class="header-section-number">11.1.9</span> Databases and Websites from which you can extract data</h3>
+<p>Overview: Correia, R.A., Ladle, R., Jarić, I., Malhado, A.C.M., Mittermeier, J.C., Roll, U., Soriano‐Redondo, A., Veríssimo, D., Fink, C., Hausmann, A., Guedes‐Santos, J., Vardi, R. and Di Minin, E. (2021), Digital data sources and methods for conservation culturomics. Conservation Biology, 35: 398-411. https://doi.org/10.1111/cobi.13706</p>
+<section id="government" class="level4" data-number="11.1.9.1">
+<h4 data-number="11.1.9.1" class="anchored" data-anchor-id="government"><span class="header-section-number">11.1.9.1</span> Government</h4>
+<pre><code>* [Data.gov](https://www.data.gov/) (the open data portal of the US Government) and [Using Data.gov APIs in R](https://data.library.virginia.edu/using-data-gov-apis-in-r/)
+* the [rOpengov Project](http://ropengov.org/)
+* [Open Fiscal Data Package](http://www.fiscaltransparency.net/ofdp/) 
+* [`educationdata`](https://urbaninstitute.github.io/education-data-package-r/#educationdata): Retrieve data from the Urban Institute’s Education Data API as a data.frame for easy analysis. See [also here](https://github.com/UrbanInstitute/education-data-package-r)
+* a [huge list](https://cengel.github.io/gearup2016/SULdataAccess.html) of data sources for social scientists available with R tools 
+* accessing [World bank Data](https://vincentarelbundock.github.io/WDI/) with R</code></pre>
+</section>
+<section id="us-world-census-data" class="level4" data-number="11.1.9.2">
+<h4 data-number="11.1.9.2" class="anchored" data-anchor-id="us-world-census-data"><span class="header-section-number">11.1.9.2</span> US &amp; World Census Data</h4>
+<pre><code>* [A Guide to Working with US Census Data in R](https://rconsortium.github.io/censusguide/r-packages-all.html)
+* R Package [`tidycensus`](https://cran.r-project.org/web/packages/tidycensus/tidycensus.pdf)
+* [Tutorial 1](https://walkerke.github.io/tidycensus/articles/basic-usage.html)
+* [Tutorial 2](http://www.computerworld.com/article/3120415/data-analytics/how-to-download-new-census-data-with-r.html rel="nofollow noopener" href="https://hrecht.github.io/censusapi/)
+* R package [`ipumsr`](https://tech.popdata.org/ipumsr/): The ipumsr package helps import IPUMS extracts from the IPUMS website into R. IPUMS provides census and survey data from around the world integrated across time and space. </code></pre>
+</section>
+<section id="education-data" class="level4" data-number="11.1.9.3">
+<h4 data-number="11.1.9.3" class="anchored" data-anchor-id="education-data"><span class="header-section-number">11.1.9.3</span> Education Data</h4>
+<pre><code>* [`edbuildr`](https://github.com/EdBuild/edbuildr): import [EdBuild’s master dataset](http://viz.edbuild.org/workshops/edbuildr/) of school district finance, student demographics, and community economic indicators for every school district in the United States.
+
+* [Building R and Stata packages for the Education Data Portal](https://urban-institute.medium.com/building-r-and-stata-packages-for-the-education-data-portal-b88760c07233)</code></pre>
+</section>
+<section id="other-online-data-sets-tools-for-accessing-them" class="level4" data-number="11.1.9.4">
+<h4 data-number="11.1.9.4" class="anchored" data-anchor-id="other-online-data-sets-tools-for-accessing-them"><span class="header-section-number">11.1.9.4</span> Other Online Data Sets &amp; Tools for Accessing them</h4>
+<pre><code>* Giant [compendium of open datasets #1](https://github.com/awesomedata/awesome-public-datasets)
+* [Data on Amazonia](https://datazoomamazonia.com.br/)  </code></pre>
+<p><!-- https://github.com/Chicago/RSocrata/">RSocrata GitHub repo</a></td> --> * R package <a href="https://brunobrr.github.io/bdc/"><code>bdc</code></a>: toolkit for gathering &amp; cleaning biodiversity data * <a href="https://retriever.readthedocs.io/en/latest/">EcoRetriever</a>: automates the tasks of finding, downloading, and cleaning up publicly available ecological data, and then stores them in a local database or csv files. * <a href="https://elizagrames.github.io/litsearchr/">litsearcher</a> an R package to facilitate quasi-automatic search strategy development for systematic review</p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -759,13 +891,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../class_materials/class_sessions/02_file_names/naming.html" class="pagination-link" aria-label="Naming Conventions">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Naming Conventions</span></span>
+      <a href="../../../class_materials/class_sessions/13_paperless_data_collection/paperless.html" class="pagination-link" aria-label="Paperless Data Collection">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Paperless Data Collection</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../class_materials/class_sessions/02_file_storage/storage.html" class="pagination-link" aria-label="Data Storage &amp; Backup">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data Storage &amp; Backup</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../class_materials/class_sessions/15_legal_ethical/legal_ethical.html" class="pagination-link" aria-label="Ethics &amp; Legal Compliance">
+        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Ethics &amp; Legal Compliance</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -777,7 +909,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/02_file_organization/organization.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/14_automated_data_extraction/automated.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This book was built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

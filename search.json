@@ -296,157 +296,542 @@
     ]
   },
   {
-    "objectID": "class_materials/class_projects/assignments.html",
-    "href": "class_materials/class_projects/assignments.html",
-    "title": "7  Assignments Overview",
+    "objectID": "class_materials/class_sessions/08_metadata/metadata.html",
+    "href": "class_materials/class_sessions/08_metadata/metadata.html",
+    "title": "7  Resources for Preparing Metadata",
     "section": "",
-    "text": "7.1 Weekly In-class activities\nGrades in the course will be based on the following assignments:",
+    "text": "7.1 What are Metdatadata?",
     "crumbs": [
-      "Assignments",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "Course Topics",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources for Preparing Metadata</span>"
     ]
   },
   {
-    "objectID": "class_materials/class_projects/assignments.html#weekly-in-class-activities",
-    "href": "class_materials/class_projects/assignments.html#weekly-in-class-activities",
-    "title": "7  Assignments Overview",
+    "objectID": "class_materials/class_sessions/08_metadata/metadata.html#what-are-metdatadata",
+    "href": "class_materials/class_sessions/08_metadata/metadata.html#what-are-metdatadata",
+    "title": "7  Resources for Preparing Metadata",
+    "section": "",
+    "text": "E. Bruna Video for LAS6292: Why Metadata?\nICPSR: What is a Codebook?",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources for Preparing Metadata</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/08_metadata/metadata.html#best-practices-for-preparing-metadata",
+    "href": "class_materials/class_sessions/08_metadata/metadata.html#best-practices-for-preparing-metadata",
+    "title": "7  Resources for Preparing Metadata",
+    "section": "7.2 Best practices for preparing metadata",
+    "text": "7.2 Best practices for preparing metadata\n\n“Best Practices in Creating Social Science Metadata.” p.32 in the ICPSR Guide to Social Science Data Preparation and Archiving: Best Practice Throughout the Data Life Cycle (6th Edition).\nMichener, W.K., et al . 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342.\n[read online]\nPp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research methods: Qualitative and quantitative approaches. Sage.\nICPSR Guide to Social Science Data Preparation and Archiving: Best Practice Throughout the Data Life Cycle (6th Edition)\nDataONE Community Engagement & Outreach Working Group (2017) “Metadata Management”. Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/07_metadata/index on Aug 31, 2020",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources for Preparing Metadata</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/08_metadata/metadata.html#discipline-specific-metadata-standards",
+    "href": "class_materials/class_sessions/08_metadata/metadata.html#discipline-specific-metadata-standards",
+    "title": "7  Resources for Preparing Metadata",
+    "section": "7.3 Discipline-specific metadata standards",
+    "text": "7.3 Discipline-specific metadata standards\nIt is worth looking in these catalogs to see if you can find metadata standards for your discipline. They will provide suggestions on not only what to include, but the standard vocabulary for your discipline.\n\nRDA Catalog of metadata standards for different disciplines\nUK Digital Curation Center Directory of metadata standards for different disciplines\nEcological data: Ecological Metadata Language\nMuseum Specimens: Darwin Core\nGeography Markup Language (GML): Emphasis on geographic features (roads, highways, bridges)\nHumanities: UF Digital Collections (UFDC) key metadata fields used for non-published items such as posters, archival materials, artists’ files, field notebooks, etc. Includes a link to a template you can download. See also Template No.1 from UF’s Samuel Proctor Oral History Project, Template #2, which is a more general one from the UF Humanities Archives, and the metadata required by the Qualitative Data Repository.",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources for Preparing Metadata</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/08_metadata/metadata.html#metadata-templates",
+    "href": "class_materials/class_sessions/08_metadata/metadata.html#metadata-templates",
+    "title": "7  Resources for Preparing Metadata",
+    "section": "7.4 Metadata templates",
+    "text": "7.4 Metadata templates\nI have created metadata templates based on information from ICSPR (for social sciences) and Michener et al. 1997 (for biophysical sciences) that can be downloaded and edited; you can add more fields or delete any that are not relevant. Note that Table 1 in Michener et al. is much more comprehensive and provides additional guidance on how to make sure the metadata are useful. The templates are available in .txt, .Rmd, and .qmd format).\n\nMetadata Template for Social Sciences:\n\nfrom ICSPR: .txt format or .Rmd format. See note below for additional info on Qualitative Data.\n\nMetadata template for Biophysical Sciences: Table 1 from Michener et al. 1997: .txt format or .Rmd format\nNote for researchers in the Humanities or those working primarily with Qualitative Data:** The metadata required often depend on the type of material with which you work (e.g., oral history, photos, digital, printed). If your data is in this domain, you can download templates here: Template No.1 is from UF’s Samuel Proctor Oral History Project, Template #2 is a more general one from the UF Humanities Archives. You can also review the metadata required by the Qualitative Data Repository.",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources for Preparing Metadata</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/08_metadata/metadata.html#tools-for-creating-machine-readable-metadata",
+    "href": "class_materials/class_sessions/08_metadata/metadata.html#tools-for-creating-machine-readable-metadata",
+    "title": "7  Resources for Preparing Metadata",
+    "section": "7.5 Tools for creating machine-readable metadata",
+    "text": "7.5 Tools for creating machine-readable metadata\nI include these here in case you want to try using them. It’s not required, but it could definitely make your life easier if there is a standard tool for your discipline (e.g., MORPHO if you are working with ecological data).\n\nMorpho: desktop application that allows researchers to create metadata and then (if they wish) upload to KNB. No longer maintained but open source and can be very useful.\ngiant list from the RDA of tools for creating standardized metadata for different disciplines\nUSGS Metadata Wizard\nTKME\nCatMDEdit\nGRIIDC",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources for Preparing Metadata</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/08_metadata/metadata.html#metadata-dictionaries",
+    "href": "class_materials/class_sessions/08_metadata/metadata.html#metadata-dictionaries",
+    "title": "7  Resources for Preparing Metadata",
+    "section": "7.6 Metadata Dictionaries",
+    "text": "7.6 Metadata Dictionaries\n\nUSGS\nGlobal Change Master Dictionary\nUSGS Geographic Names\nGetty Thesaurus of Geographic Names",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources for Preparing Metadata</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/08_metadata/metadata.html#organizations-developing-metadata-standards-and-schema",
+    "href": "class_materials/class_sessions/08_metadata/metadata.html#organizations-developing-metadata-standards-and-schema",
+    "title": "7  Resources for Preparing Metadata",
+    "section": "7.7 Organizations developing metadata standards and schema",
+    "text": "7.7 Organizations developing metadata standards and schema\n\nThe Research Data Alliance (RDA)“has the goal goal of building the social and technical infrastructure to enable open sharing and re-use of data.”\nDDI Alliance: “Established in 2003, the Data Documentation Initiative Alliance (DDI Alliance) is an international collaboration dedicated to establishing metadata standards and semantic products for describing social science data, data covering human activity, and other data based on observational methods.”\nThe Dublin Core Metadata Initiative is “an organization supporting innovation in metadata design and best practices across the metadata ecology”.",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources for Preparing Metadata</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/09_DMP/dmp.html",
+    "href": "class_materials/class_sessions/09_DMP/dmp.html",
+    "title": "8  Data Management Plans",
+    "section": "",
+    "text": "9 Reminder: What is a DMP?",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Data Management Plans</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/09_DMP/dmp.html#why-do-one",
+    "href": "class_materials/class_sessions/09_DMP/dmp.html#why-do-one",
+    "title": "8  Data Management Plans",
+    "section": "9.1 Why do one?",
+    "text": "9.1 Why do one?\n\nSave time\nLess reorganization later\nIncrease research efficiency\nMakes it easier to archive data downt he road (some data centers and repositories have specific requirements for data documentation, and knowing these requirements in advance saves time and effort that might be spent trying to correct data after they are collected).\nIncreasingly: you don’t have a choice. Many funding agencies (e.g., NSF, NIH, NEH) now require a DMP for proposal submission.",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Data Management Plans</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/09_DMP/dmp.html#what-are-the-components-of-a-dmp",
+    "href": "class_materials/class_sessions/09_DMP/dmp.html#what-are-the-components-of-a-dmp",
+    "title": "8  Data Management Plans",
+    "section": "9.2 What are the components of a DMP?",
+    "text": "9.2 What are the components of a DMP?\n\nInformation about data & data format\nMetadata content and format\nPolicies for access, sharing and re-use\nLong-term storage and data management\nRoles and responsibilities\nBudget\n\nSome funders or institutions may require specific elements in a data management plan; you should check in advance to make sure you meet all requirements",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Data Management Plans</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/09_DMP/dmp.html#start-here",
+    "href": "class_materials/class_sessions/09_DMP/dmp.html#start-here",
+    "title": "8  Data Management Plans",
+    "section": "9.3 Start Here",
+    "text": "9.3 Start Here\n\nThe DMP Tool (https://dmptool.org/) is a free, open-source, application that helps researchers create data management plans (DMPs). It provides an easy-to-use platform for creating a DMP that complies with the requirements of different private and public funding agencies (e.g., foundations, NSF, NIH). It also has direct links to funder websites, help text for answering questions, and data management best practices resources.",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Data Management Plans</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/09_DMP/dmp.html#what-should-go-in-my-dmp",
+    "href": "class_materials/class_sessions/09_DMP/dmp.html#what-should-go-in-my-dmp",
+    "title": "8  Data Management Plans",
+    "section": "9.4 What should go in my DMP?",
+    "text": "9.4 What should go in my DMP?\n\nQualitative Data have some unique issues regarding their description and storage, so the Qualitative Data Archive has put together a great checklist of things to consider.\nShort Checklist & Questions to Consider when putting together a DMP\nVery in-depth Checklist & Questions to Consider when putting together a DMP\nUF Library Guidelines for preparing a DMP",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Data Management Plans</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/09_DMP/dmp.html#sample-dmps",
+    "href": "class_materials/class_sessions/09_DMP/dmp.html#sample-dmps",
+    "title": "8  Data Management Plans",
+    "section": "9.5 Sample DMPs",
+    "text": "9.5 Sample DMPs\n\nNSF DMPs\n\nNSF General: Mauna Loa example\nNSF General: Rio Grande example\nNSF DEB: Emilio Bruna Heliconia example\n\n\n\nSample DMPs on the ‘DMP Tool’ website\n\nPublic DMPs (note: “Public DMPs are plans created using the dmptool service and shared publicly by their owners. They are not vetted for quality, completeness, or adherence to funder guidelines.”)\n\n\n\nHumanities DMPs\n\nNational Endowment for the Humanities: Data Management Plans From Successful Grant Applications (2015-2018) and (2011 - 2014) can be found as downloadable zip files on this page\nA really nice DMP for a Digital Humanities Project by researchers at the University of Maryland, College Park.\n\n\n\n9.5.1 1. Information About Data & Data Format\n\n9.5.1.1 1.1 Description of data to be produced\n\nExperimental\nObservational\nRaw or derived\nPhysical collections\nModels and their outputs\nSimulation outputs\nCurriculum materials\nSoftware\nImages\nOther\n\n\n\n9.5.1.2 1.2 How data will be acquired?\n\nWhen? Where? Method?\n\n\n\n9.5.1.3 1.3 How data will be processed\n\nSoftware used\nAlgorithms\nWorkflows\nData transformations/formats needed (Consider archive policies)\nThis step is important to consider before the project since it may affect how data are organized, what formats are used, and how much should be budgeted for hardware and software. Things to consider are what software may be used, what algorithms will be employed, how these fit into the overall workflow of the project.\n\n\n\n9.5.1.4 1.4 File formats\n\nJustification\nNaming conventions\n\n\n\n9.5.1.5 1.5 Quality assurance & control during sample collection, analysis, and processing\n\n\n9.5.1.6 1.6 Existing data\n\nIf existing data are used, what are their origins?\nWill your data be combined with existing data?\nWhat is the relationship between your data and existing data?\n\n\n\n9.5.1.7 1.7 How data will be managed in short-term\n\nVersion control\nBacking up\nSecurity & protection\nWho will be responsible\n\n\n\n\n9.5.2 2. Metadata Content & Format\n\nMetadata defined:\nDocumentation and reporting of data\nContextual details: Critical information about the dataset\nInformation important for using the data\nDescriptions of temporal and spatial details, instruments, parameters, units, files, etc.\n\n\n9.5.2.1 2.1 What metadata are needed\n\nDetails that make data meaningful\n\n\n\n9.5.2.2 2.2 How metadata will be created and/or captured\n\nLab notebooks? GPS units? Auto-saved on instrument?\n\n\n\n9.5.2.3 2.3 What format will be used for the metadata\n\nStandards for community\nJustification for format chosen\n\n\n\n\n9.5.3 3. Policies for Access, Sharing, Reuse\n\n9.5.3.1 3.1 Obligations for sharing\n\nFunding agency\nInstitution\nOther organization\nLegal\n\n\n\n9.5.3.2 3.2 Details of data sharing\n\nHow long?\nWhen?\nHow access can be gained?\nData collector rights\n\n\n\n9.5.3.3 3.2 Ethical/privacy issues with data sharing\n\n\n9.5.3.4 3.3 Intellectual property & copyright issues\n\nWho owns the copyright? (? Institutions and/or funding agencies often have a policy for intellectual property and copyright. There may be other considerations such as embargos on data due to patents, politics, or journal requirements.)\nInstitutional policies\nFunding agency policies\nEmbargos for political/commercial reasons\n\n\n\n9.5.3.5 3.4 Intended future uses/users for data\n\nThis helps determine the most appropriate data center to archive your data.\n\n\n\n9.5.3.6 3.5 Citation\n\nHow should data be cited when used?\nDo you need a persistent citation (e.g. DOI)?\n\n\n\n\n9.5.4 4. Long-term Storage & Data Management\n\n9.5.4.1 4.1 What data will be preserved\n\n\n9.5.4.2 4.2 Where will it be archived\n\nMost appropriate archive for data\nCommunity standards\n\n\n\n9.5.4.3 4.4 Who will be responsible\n\nContact person for archive\n\n\n\n\n9.5.5 5. Roles and responsibilities\n\n9.5.5.1 5.1 Outline the roles and responsibilities for implementing this data management plan.\n\nWho will be responsible for data management and for monitoring the data management plan? How will adherence to this data management plan be checked or demonstrated? What process is in place for transferring responsibility for the data? Who will have responsibility over time for decisions about the data once the original personnel are no longer available?\n\n\n\n\n9.5.6 6. Budget\n\n9.5.6.1 6.1 Anticipated costs\n\nTime for data preparation & documentation\nHardware/software for data preparation & documentation\nPersonnel\nArchive costs\n\n\n\n9.5.6.2 6.2 How costs will be paid",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Data Management Plans</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/09_DMP/dmp.html#nsf-dmp-requirements",
+    "href": "class_materials/class_sessions/09_DMP/dmp.html#nsf-dmp-requirements",
+    "title": "8  Data Management Plans",
+    "section": "9.6 NSF DMP Requirements",
+    "text": "9.6 NSF DMP Requirements\nFrom Grant Proposal Guidelines: “Plans for data management and sharing of the products of research. Proposals must include a supplementary document of no more than two pages labeled “Data Management Plan”. This supplement should describe how the proposal will conform to NSF policy on the dissemination and sharing of research results, and may include: the types of data, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project the standards to be used for data and metadata format and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies) policies for access and sharing including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements policies and provisions for re-use, re-distribution, and the production of derivatives plans for archiving data, samples, and other research products, and for preservation of access to them.”",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Data Management Plans</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/09_DMP/dmp.html#reminder",
+    "href": "class_materials/class_sessions/09_DMP/dmp.html#reminder",
+    "title": "8  Data Management Plans",
+    "section": "9.7 REMINDER",
+    "text": "9.7 REMINDER\nThe key components of a DMP:\n\nInformation about data & data format\nMetadata content and format\nPolicies for access, sharing and re-use\nLong-term storage and data management\nBudget",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Data Management Plans</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/12_transcription_translation/transcription_translation.html",
+    "href": "class_materials/class_sessions/12_transcription_translation/transcription_translation.html",
+    "title": "9  Transcription & Translation",
+    "section": "",
+    "text": "9.1 Transcription",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Transcription & Translation</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/12_transcription_translation/transcription_translation.html#transcription",
+    "href": "class_materials/class_sessions/12_transcription_translation/transcription_translation.html#transcription",
+    "title": "9  Transcription & Translation",
+    "section": "",
+    "text": "The UF International Ethnography Lab has access to Trint Transcription Software, which has detailed tutorials\nComparison Video\nNY Times’ Wirecutter review of transcription services\n\n\n9.1.1 Automated via upload\nTop-Tier \n\nOtter.ai. English only (US & UK with regional accents); free (600 min/mo) and paid plans. Can transcribe zoom meetings (e.g., if you do interviews via zoom) and can integrate with Dropbox. Phone app is available for iOS. There is an online tutorial. English-only\nHappy Scribe - see descriptionabove.\nTemi. English Only, less accurate than Otter.ai and Happy Scribe.\nOnline (free demo) version of Watson; note the “detect multiple speakers” option.\nZoom via UF; see also this Link and this announcement about the addition of new languages for UF users\n\nSecond-Tier\n\nSpext. Speech-audio-text editing; free and paid plans.\nAmazon Transcribe\n\n\n\n9.1.2 Automated via API\n\n\n\n\ngoogleLanguageR. Uses the Google Cloud machine learning APIs for text and speech tasks. The Cloud Speech API transcribes sound files to text and the Cloud Text-to-Speech AP\nAWS transcribe uses the Amazon Web Services to do transcription via API. Has program for NGO/non-profits.\n\n\n\n9.1.3 Automated via dictation\n\nGoogle Docs. See also Google Docs Voice Recognition and helpful how-to blog post on transcription using google docs and voice recognition\nSpeechNotes\nApple Dictation and Dictation Commands\nHow to use Windoes Voice Dictation and Windows Speech Recognition Commands\n\n\n\n9.1.4 Manual with Software\n\noTranscribe Incredibly easy, web based, with time stamps, variable speed.\nExpress Scribe and a tutorial. There is a free version.\nTranscribe\nNvivo\nListen N Write\nInScribe\nPearnote for Mac: make text annotations that connect to locations in audio and video recordings (30 day free trial)\nDragon Speech Recognition Software\nSonix\nAdobe Premiere: Speech-to-Text Tutorial and Workaround if you are using a version later than 7.2.2. UF Students can use Adobe products on UFApps",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Transcription & Translation</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/12_transcription_translation/transcription_translation.html#resources-tools",
+    "href": "class_materials/class_sessions/12_transcription_translation/transcription_translation.html#resources-tools",
+    "title": "9  Transcription & Translation",
+    "section": "9.2 Resources & Tools",
+    "text": "9.2 Resources & Tools\n\n9.2.1 Transcription Style & Coding Guides\n\nSamuel Proctor Project Style Guide\nLibrary of Congress Guide: How to Transcribe\nSmithsonian Archives of American Art Style Guide\nSmithsonian Volunteer Transcription Program’s Guide and Expert Tips\nGuide to Transcription Coding\nHepburn, A., & Bolden, G. B. (2017). Transcribing for social research. Sage. linkto book descrption on Sage website\nManchester University’s very useful Transcription Toolkit and Guide\nManchester University’s Quick calculator for estimating transcribing time (.xls file)\nProgramming Historian Guide to Text Automation\n\n\n\n9.2.2 Examples - Transcription Notes\n\nSample 1\nSample 2\n\n\n\n9.2.3 Useful Websites\n\nLinguee Good for slang and expressions;searches different ways in which one word has been translated. Can also enter several words or even a sentence to find different translations.\nThesaurus.com; equivalent in foreign language.\nSide-by-Side Text Comparison Website\nJennifer Marie’s YouTube channel on Transcription Tools & Tips\n\n\n\n9.2.4 Pedals\n\nInfinity\nKinesis\n\n\n\n9.2.5 Text Shortcuts\n\nGoogle Docs\nMS Word\n\n\n\n9.2.6 Misc. Software & Apps\n\nSayMore: tools for common Language Documentation tasks\nLameta tool for metadata associated with files made in the course of documenting language, music, and other cultural expressions.\nvoice recorder app for iPad\nApp for recording phone interviews (note: be aware of relevant local and national laws regarding recording phone calls).\n\n\n\n9.2.7 Post-Transcription Text Analytics\n\nPlanning for text analytics (extraction and organization) in R\nSilge and Robinson’s outstanding book ‘Text Analysis in R’",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Transcription & Translation</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/12_transcription_translation/transcription_translation.html#translation",
+    "href": "class_materials/class_sessions/12_transcription_translation/transcription_translation.html#translation",
+    "title": "9  Transcription & Translation",
+    "section": "9.3 Translation",
+    "text": "9.3 Translation\n\n9.3.1 Text: Automated/AI\n\nGoogle Translate and help documents.\nGoogle Docs: in-doc translation. See also how to translate using google sheets\nMS Word: in-doc translation\nDeepL\n\n\n\n9.3.2 Audio: Automated/AI\n\nHappy Scribe. 40+ languages. 30 min. free then paid; student pricing available. Can integrate with Zapier to up/download files from Google Drive and Dropbox Multiple languages\nGoogle Audio Translation in Beta ### Text or Audio: API or Command Line\ngoogleLanguageR. Uses the Google Cloud machine learning APIs for text and speech tasks. The Cloud Translation API does detection and translation of text.\naws.translate uses the Amazon Web Services to do transcription via API. Has program for NGO/non-profits.\n\n\n\nWatson (IBM) 500 minutes free\nDeepL\nTranslate Shell via API\n\n\n\n9.3.3 Text: Manual with Computer Assisted Technology (CAT) Software\n\nVideo overview of different CAT Tools from ‘Freelanceverse’.\nOmegaT CAT Software. (Free)\nWordFast Anywhere (free online; desktop version are paid)\nAcross.net (basic version free)",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Transcription & Translation</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/12_transcription_translation/transcription_translation.html#anonymization",
+    "href": "class_materials/class_sessions/12_transcription_translation/transcription_translation.html#anonymization",
+    "title": "9  Transcription & Translation",
+    "section": "9.4 Anonymization",
+    "text": "9.4 Anonymization\n\nUK Data Service Webinar: How to anonymise qualitative and quantitative data\nAnonymizing in R: part 1 and part 2",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Transcription & Translation</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/13_paperless_data_collection/paperless.html",
+    "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html",
+    "title": "10  Paperless Data Collection",
+    "section": "",
+    "text": "10.1 Tools & Resources",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Paperless Data Collection</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#tools-resources",
+    "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#tools-resources",
+    "title": "10  Paperless Data Collection",
+    "section": "",
+    "text": "EpiCollect user’s guide\n\n\n\nLists of useful apps for data collection in the field:\n\n\n\nStart here: Bruna Lab Super-List (if you want to suggest any additions to the list please do so here)\n[list 2].\n[list 3]\n[list 4]\n[list 5]\n[list 6]\n[list 7]\n\n\n\nPaid platforms for paperless data collection\n\n\n\nFulcrum; link to post describing how it was used by an NGO.\nODK",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Paperless Data Collection</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#sources-additional-reading",
+    "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#sources-additional-reading",
+    "title": "10  Paperless Data Collection",
+    "section": "10.2 Sources & Additional Reading",
+    "text": "10.2 Sources & Additional Reading\n\nStreamlining Field Data Collection with Mobile Apps\nResearch at Home: Using a Smartphone for Data Collection\n\nKeep calm and go paperless: Electronic lab notebooks can improve your research\nNOAA Pathways to paperless Data Collection\nThieler ER, Zeigler SL, Winslow LA, Hines MK, Read JS, Walker JI (2016) Smartphone-Based Distributed Data Collection Enables Rapid Assessment of Shorebird Habitat Suitability. PLoS ONE 11(11): e0164979. link\nTeacher, A. G., Griffiths, D. J., Hodgson, D. J., & Inger, R. (2013). Smartphones in ecology and evolution: a guide for the app-rehensive. Ecology and evolution, 3(16), 5268–5278. link\nPalumbo, M.J., Johnson, S.A., Mundim, F.M., Lau, A., Wolf, A.C., Arunachalam, S., Gonzalez, O., Ulrich, J.L., Washuta, A. and Bruna, E.M. (2012), Harnessing Smartphones for Ecological Education, Research, and Outreach. The Bulletin of the Ecological Society of America, 93: 390-393. link\nRayhan, R. U., Zheng, Y., Uddin, E., Timbol, C., Adewuyi, O., & Baraniuk, J. N. (2013). Administer and collect medical questionnaires with Google documents: a simple, safe, and free system. Applied Medical Informatics, 33(3), 12-21. link\nMoylan, C. A., Derr, A. S., & Lindhorst, T. (2013). Increasingly mobile: How new technologies can enhance qualitative research. Qualitative social work: research and practice, 14(1), 36-47. link\nAanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968. link",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Paperless Data Collection</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/14_automated_data_extraction/automated.html",
+    "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html",
+    "title": "11  Automated Data Collection & Extraction",
+    "section": "",
+    "text": "11.1 Tools & Resources",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/14_automated_data_extraction/automated.html#tools-resources",
+    "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#tools-resources",
+    "title": "11  Automated Data Collection & Extraction",
+    "section": "",
+    "text": "11.1.1 Optical Character Recognition\n\nVideo Primer: What is OCR?\nOnline OCR Tools - text and data from .pdf into .csv, .txt, etc.\n\nGoogle Drive - Video Primer: OCR with Google Drive\nFree online sites for small batches (can upgrade for larger numbers of files)\n\nFree Online OCR 1\nNew OCR\npdf to excel\nOnlineOCR\nPDFTables will convert PDF to .csv, and has an API so you can do your conversions in bulk with R. You can do ~25 pages free; large numbers are reasonably priced.\n\nAmazon TextExtract\nMathpix Snip digitizes handwritten or printed text, and copies outputs to the clipboard that can be pasted into LaTeX editors like Overleaf, Markdown editors like Typora, Microsoft Word, and more.\n\nR tools for OCR: pdfreader, tabulizer \n\nR package pdftools\nR package tabulapdf \nwritten tutorial 1\nwritten tutorial 2\nwritten tutorial 3\nVideo Tutorial 1\nVideo Tutorial 2\nDetailed Blog Post / Tutorial\nConvert PDF to text in R OCR pdftools\nPDFtools in R\nMore advanced but more powerful from the Programming Historian: OCR with Google Vision API and Tesseract\n\nExtracting Tables from images using R package magick.\n\nR package magick (this package actually includes several very powerful tools for image processing; this is just one of the things you can do with it)\nDetailed Blog Post / Tutorial\n\n\n\n\n11.1.2 Extracting Data from Published Figures\n\nAnkit Rohagni’s Web Plot Digitizer\n\nWPD Video Tutorial\nWPD Tutorial Blog Post\n\nAlternative 1: R package magick\nAlternative 2: GetData extracts data automatically from scanned images (~$30).\nAlternative 3: R package digitize will extract data from scatterplots within the R environment. This article will walk you through the process.\n\n\n\n11.1.3 Text Mining\n\nText Mining with R by Julia Silge and David Robinson\ngutenbergr: Download and Process Public Domain Works from Project Gutenberg. Tutorial can be found here\n\nOther Useful Text Mining Literature\n* Atanassova I, Bertin M and Mayr P (2019) Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics. Front. Res. Metr. Anal. 4:2. [doi: 10.3389/frma.2019.00002](https://www.frontiersin.org/articles/10.3389/frma.2019.00002/full)\n\n* Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ, Brunak S (2018) A comprehensive and quantitative comparison of text-mining in 15 million full-text articles versus their corresponding abstracts. PLoS Comput Biol 14(2): e1005962. https://doi.org/10.1371/journal.pcbi.1005962\n\n* Salloum, S.A., Al-Emran, M., Monem, A.A., Shaalan, K. (2018). Using Text Mining Techniques for Extracting Information from Research Articles. In: Shaalan, K., Hassanien, A., Tolba, F. (eds) Intelligent Natural Language Processing: Trends and Applications. Studies in Computational Intelligence, vol 740. Springer, Cham. https://doi.org/10.1007/978-3-319-67056-0_18\n\n* Simon, C., Davidsen, K., Hansen, C. et al. BioReader: a text mining tool for performing classification of biomedical literature. BMC Bioinformatics 19, 57 (2019). https://doi.org/10.1186/s12859-019-2607-x\nExtracting Body Text from Academic PDF Documents for Text Mining\n* Benchimol, J., Kazinnik, S., & Saadon, Y. (2022). Text mining methodologies with R: An application to central bank texts. Machine Learning with Applications, 8, 100286.[link](https://scholar.harvard.edu/files/jbenchimol/files/text-mining-methodologies.pdf) \n\n* Yu, C., Zhang, C., & Wang, J. (2020). Extracting Body Text from Academic PDF Documents for Text Mining. arXiv preprint arXiv:2010.12647.\n\n* Gulo, C. A., & Rúbio, T. R. (2015, January). Text Mining Scientific Articles using the R. In Doctoral Symposium in Informatics Engineering. [linl](https://paginas.fe.up.pt/~prodei/dsie15/web/papers/dsie15_submission_10.pdf)\n\nProcessing and Analyzing Records from the Web of Science and Scopus for Text Mining & Biliometrics\n\nR package refsplitr\nR package bibliometrix\njstor: An R package for Analysing Scientific Articles\n\n\n\n\n11.1.4 Scraping information from websites\n\nLibrary Carpentry Lesson on Webscraping\nStart Here: Introduction to webscraping\nVideo: Scraping WebData in R with rvest\nVideo: Practical Introduction to Web Scraping using R\nVery nice written tutorial…\n….and another one, this time from the UC Business Analytics R Programming Guide\nscraping HTML text and scraping HTML tables\nSelectorGadget is useful to id CSS selectors.\nNoortje Marres & Esther Weltevrede (2013) Scraping the Social?, Journal of Cultural Economy, 6:3, 313-335, DOI: 10.1080/17530350.2013.772070\n\n\n\n11.1.5 Cell Phone Data\n\nExploratory analyses Part 1 and Part 2\n\n\n11.1.5.1 Social Media (Facebook, Flickr, etc,)\n\nHow to extract Biodiversity Data from Facebook\nFox, Nathan, Tom August, Francesca Mancini, Katherine E. Parks, Felix Eigenbrod, James M. Bullock, Louis Sutter, and Laura J. Graham. ““photosearcher” package in R: An accessible and reproducible method for harvesting large datasets from Flickr.” SoftwareX 12 (2020): 100624. https://www.sciencedirect.com/science/article/pii/S235271102030337X\n\n\n\n\n\n11.1.6 Automated Image Analysis\n\nPennekamp, F. and Schtickzelle, N. (2013), Implementing image analysis in laboratory‐based experimental systems for ecology and evolution: a hands‐on guide. Methods Ecol Evol, 4: 483-492. https://doi.org/10.1111/2041-210X.12036\nHow to build your own image recognition app with R! Part 1 and Part 2\n\n\n\n11.1.7 Wearable Devices & RFID tags\n\nWhat is an RFID tag?\nRafiq, K., Appleby, R. G., Edgar, J. P., Radford, C., Smith, B. P., Jordan, N. R., Dexter, C. E., Jones, D. N., Blacker, A. R. F., & Cochrane, M. (2021). WildWID: An open-source active RFID system for wildlife research. Methods in Ecology and Evolution, 12, 1580– 1587. https://doi.org/10.1111/2041-210X.13651\nBuild your own RFID device\nIzmailova, E.S., Wagner, J.A. and Perakslis, E.D. (2018), Wearable Devices in Clinical Trials: Hype and Hypothesis. Clin. Pharmacol. Ther., 104: 42-52. https://doi.org/10.1002/cpt.966\nLoncar-Turukalo T, Zdravevski E, Machado da Silva J, Chouvarda I, Trajkovik V. Literature on Wearable Technology for Connected Health: Scoping Review of Research Trends, Advances, and Barriers J Med Internet Res 2019;21(9):e14017 doi: 10.2196/14017\nWhy Should Sociologists Care about Wearable Tech?\nHarari, G. M., Lane, N. D., Wang, R., Crosier, B. S., Campbell, A. T., & Gosling, S. D. (2016). Using Smartphones to Collect Behavioral Data in Psychological Science: Opportunities, Practical Considerations, and Challenges. Perspectives on Psychological Science 11(6), 838-854 link\nSeifert Alexander, Hofer Matthias, Allemand Mathias. 2018. Mobile Data Collection: Smart, but Not (Yet) Smart Enough. 12. Frontiers in Neuroscience https://www.frontiersin.org/article/10.3389/fnins.2018.00971\n\n\n\n11.1.8 Build your own automated data collection tool, Rasberry PI\n\nCalipers that dump data directly to Excel link\nPiSpy: An Affordable, Accessible, and Flexible Imaging Platform for the Automated Observation of Organismal Biology and Behavior\nJolles, J. W. (2021). Broad-scale applications of the Raspberry Pi: A review and guide for biologists. Methods in Ecology and Evolution, 12, 1562– 1579. https://doi.org/10.1111/2041-210X.13652\n\n\n\n11.1.9 Databases and Websites from which you can extract data\nOverview: Correia, R.A., Ladle, R., Jarić, I., Malhado, A.C.M., Mittermeier, J.C., Roll, U., Soriano‐Redondo, A., Veríssimo, D., Fink, C., Hausmann, A., Guedes‐Santos, J., Vardi, R. and Di Minin, E. (2021), Digital data sources and methods for conservation culturomics. Conservation Biology, 35: 398-411. https://doi.org/10.1111/cobi.13706\n\n11.1.9.1 Government\n* [Data.gov](https://www.data.gov/) (the open data portal of the US Government) and [Using Data.gov APIs in R](https://data.library.virginia.edu/using-data-gov-apis-in-r/)\n* the [rOpengov Project](http://ropengov.org/)\n* [Open Fiscal Data Package](http://www.fiscaltransparency.net/ofdp/) \n* [`educationdata`](https://urbaninstitute.github.io/education-data-package-r/#educationdata): Retrieve data from the Urban Institute’s Education Data API as a data.frame for easy analysis. See [also here](https://github.com/UrbanInstitute/education-data-package-r)\n* a [huge list](https://cengel.github.io/gearup2016/SULdataAccess.html) of data sources for social scientists available with R tools \n* accessing [World bank Data](https://vincentarelbundock.github.io/WDI/) with R\n\n\n11.1.9.2 US & World Census Data\n* [A Guide to Working with US Census Data in R](https://rconsortium.github.io/censusguide/r-packages-all.html)\n* R Package [`tidycensus`](https://cran.r-project.org/web/packages/tidycensus/tidycensus.pdf)\n* [Tutorial 1](https://walkerke.github.io/tidycensus/articles/basic-usage.html)\n* [Tutorial 2](http://www.computerworld.com/article/3120415/data-analytics/how-to-download-new-census-data-with-r.html rel=\"nofollow noopener\" href=\"https://hrecht.github.io/censusapi/)\n* R package [`ipumsr`](https://tech.popdata.org/ipumsr/): The ipumsr package helps import IPUMS extracts from the IPUMS website into R. IPUMS provides census and survey data from around the world integrated across time and space. \n\n\n11.1.9.3 Education Data\n* [`edbuildr`](https://github.com/EdBuild/edbuildr): import [EdBuild’s master dataset](http://viz.edbuild.org/workshops/edbuildr/) of school district finance, student demographics, and community economic indicators for every school district in the United States.\n\n* [Building R and Stata packages for the Education Data Portal](https://urban-institute.medium.com/building-r-and-stata-packages-for-the-education-data-portal-b88760c07233)\n\n\n11.1.9.4 Other Online Data Sets & Tools for Accessing them\n* Giant [compendium of open datasets #1](https://github.com/awesomedata/awesome-public-datasets)\n* [Data on Amazonia](https://datazoomamazonia.com.br/)  \n * R package bdc: toolkit for gathering & cleaning biodiversity data * EcoRetriever: automates the tasks of finding, downloading, and cleaning up publicly available ecological data, and then stores them in a local database or csv files. * litsearcher an R package to facilitate quasi-automatic search strategy development for systematic review",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html",
+    "href": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html",
+    "title": "12  Ethics & Legal Compliance",
+    "section": "",
+    "text": "12.1 Data/Research Ethics & Compliance for UF Researchers",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Ethics & Legal Compliance</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#dataresearch-ethics-compliance-for-uf-researchers",
+    "href": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#dataresearch-ethics-compliance-for-uf-researchers",
+    "title": "12  Ethics & Legal Compliance",
+    "section": "",
+    "text": "UF Research Misconduct Homepage: Policy, Training, Reporting, and Best Practices\nUF Office of Research Integrity and Compliance (Research Integrity & Compliance)\nInfo for UF Researchers regarding Risk Assesment for International Collaborations and Export Control\nUF IACUC\nUF IRB\nUF Privacy Office",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Ethics & Legal Compliance</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#privacy-laws",
+    "href": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#privacy-laws",
+    "title": "12  Ethics & Legal Compliance",
+    "section": "12.2 Privacy Laws",
+    "text": "12.2 Privacy Laws\n\nCDC: what is HIPPA? \nGlobal Privacy Laws, including the EU General Data Protection Regulation (GDPR)? (link 1), (link 2), (link 3 - UF)\nWhat is FERPA?",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Ethics & Legal Compliance</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#anonymizing-data",
+    "href": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#anonymizing-data",
+    "title": "12  Ethics & Legal Compliance",
+    "section": "12.3 Anonymizing Data",
+    "text": "12.3 Anonymizing Data\n\nOverview\n\nUK Data Service Webinar: How to anonymise qualitative and quantitative data\nIntro to Anonymization\nOverview by Martin Monkman\nEDUCASE Guidelines for Data De-Identification or Anonymization\nUF “HOW TO: DE-IDENTIFY DATA”, with very useful checklists\n\n\n\nTools for Anonymizing Data Overview\n\n\n\n\n\n\nWarningTip with Title\n\n\n\nAnymizing data is difficult and the consequences for failing to do so can be severe. Be very careful - or better still, seek guidance from experts on campus.\n\n\n\nAnonymizing with R\n\nMartin Monkman’s link to R packages for Anonymizing Data\nBlog Post / Tutorial\nR package Anonymizer\nAnonymizing in R: part 1 and part 2\n\n\n\nStand-alone software and online tools for anonymizing\n\nlist of free tools\nARX (open source, free)\nAmnesia (open source, free)\nDe-identification Tools from NIST\nAirCloak (paid)",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Ethics & Legal Compliance</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#working-with-indigenous-communities",
+    "href": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#working-with-indigenous-communities",
+    "title": "12  Ethics & Legal Compliance",
+    "section": "12.4 Working with Indigenous Communities",
+    "text": "12.4 Working with Indigenous Communities\n\nIndigenous peoples and responsible data: an introductory reading list\nCARE Principles for Indigenous Data Governance\nCarroll, S.R., Herczog, E., Hudson, M. et al. Operationalizing the CARE and FAIR Principles for Indigenous data futures. Sci Data 8, 108 (2021). https://doi.org/10.1038/s41597-021-00892-0",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Ethics & Legal Compliance</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#data-collection-privacy-and-gender",
+    "href": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#data-collection-privacy-and-gender",
+    "title": "12  Ethics & Legal Compliance",
+    "section": "12.5 Data Collection, Privacy, and Gender",
+    "text": "12.5 Data Collection, Privacy, and Gender\n\nHow to Ethically and Responsibly Identify Gender in Large Datasets\nClair A Kronk et al. 2022. Transgender data collection in the electronic health record: Current concepts and issues. Journal of the American Medical Informatics Association 29(2):271–284 https://doi.org/10.1093/jamia/ocab136\nHeidari, S. et al. 2016. Sex and Gender Equity in Research: rationale for the SAGER guidelines and recommended use. Res Integr Peer Rev 1,2 (2016). https://doi.org/10.1186/s41073-016-0007-6\nThe European Institute for Gender Equality’s GEAR Tool (Gender Equality in Academia and Research)\nUN “Methods for gender data collection and estimation” Training Materials.\nColaço, R., and Watson-Grant, S. (2021). A Global Call to Action for Gender-Inclusive Data Collection and Use. RTI Press Publication No. PB-0026-2112. Research Triangle Park, NC: RTI Press. https://doi.org/10.3768/rtipress.2021.pb.0026.2112",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Ethics & Legal Compliance</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#emerging-issues-resulting-from-technological-advancements",
+    "href": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#emerging-issues-resulting-from-technological-advancements",
+    "title": "12  Ethics & Legal Compliance",
+    "section": "12.6 Emerging issues resulting from technological advancements",
+    "text": "12.6 Emerging issues resulting from technological advancements\n\nAutomated Data Collection: The Big Picture and Legal Issues\nAre transcription services HIPPA compliant?\nDi Minin, E. et al. 2021. How to address data privacy concerns when using social media data in conservation science. Conservation Biology, 35:437-446. https://doi.org/10.1111/cobi.13708",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Ethics & Legal Compliance</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#text-mining-copyright-and-the-law",
+    "href": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#text-mining-copyright-and-the-law",
+    "title": "12  Ethics & Legal Compliance",
+    "section": "12.7 Text mining, copyright, and the law",
+    "text": "12.7 Text mining, copyright, and the law\n\nText and Data Mining of In-Copyright Works: Is It Legal?\nThe plan to mine the world’s research papers\nCopyright and the Progress of Science: Why Text and Data Mining Is Lawful\nCopyright’s impact on data mining in academic research\nText and Data Mining at Springer Nature\nUF Library Guide: Copyright on Campus: Essentials\nUF Library Guide: Data Sharing & Copyright",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Ethics & Legal Compliance</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#ethics-of-data-sharing",
+    "href": "class_materials/class_sessions/15_legal_ethical/legal_ethical.html#ethics-of-data-sharing",
+    "title": "12  Ethics & Legal Compliance",
+    "section": "12.8 Ethics of Data Sharing",
+    "text": "12.8 Ethics of Data Sharing\n\nCommit to transparent COVID data until the WHO declares the pandemic is over\nNIH issues a seismic mandate: share data publicly",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Ethics & Legal Compliance</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/individual_projects/assignments.html",
+    "href": "class_materials/individual_projects/assignments.html",
+    "title": "13  Assignments Overview",
+    "section": "",
+    "text": "13.1 Weekly In-class activities\nGrades in the course will be based on the following assignments:",
+    "crumbs": [
+      "Individual Projects",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Assignments Overview</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/individual_projects/assignments.html#weekly-in-class-activities",
+    "href": "class_materials/individual_projects/assignments.html#weekly-in-class-activities",
+    "title": "13  Assignments Overview",
     "section": "",
     "text": "Overview: Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them they can be submitted anytime until 9 am the following Friday.",
     "crumbs": [
-      "Assignments",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "Individual Projects",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
-    "objectID": "class_materials/class_projects/assignments.html#reproducible-data-organization-project",
-    "href": "class_materials/class_projects/assignments.html#reproducible-data-organization-project",
-    "title": "7  Assignments Overview",
-    "section": "7.2 Reproducible Data Organization Project",
-    "text": "7.2 Reproducible Data Organization Project\n\nOverview: This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to (1) clean and organize a ‘messy’ data set and prepare metadata describing the resulting ‘clean’ data. The complete project requires the submission of these three items via the course Canvas website:\n\nR code that imports, cleans, and organizes, and saves ‘messy’ data\nThe resulting corrected and organized data in an appropriate format\nMetadata describing the corrected data set",
+    "objectID": "class_materials/individual_projects/assignments.html#reproducible-data-organization-project",
+    "href": "class_materials/individual_projects/assignments.html#reproducible-data-organization-project",
+    "title": "13  Assignments Overview",
+    "section": "13.2 Reproducible Data Organization Project",
+    "text": "13.2 Reproducible Data Organization Project\n\nOverview: This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to (1) clean and organize a ‘messy’ data set and prepare metadata describing the resulting ‘clean’ data. The complete project requires the submission of these three items via the course Canvas website:\n\nR code that imports, cleans, and organizes, and saves ‘messy’ data\nThe resulting corrected and organized data in an appropriate format\nMetadata describing the corrected data set",
     "crumbs": [
-      "Assignments",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "Individual Projects",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
-    "objectID": "class_materials/class_projects/assignments.html#thesis-research-dmp",
-    "href": "class_materials/class_projects/assignments.html#thesis-research-dmp",
-    "title": "7  Assignments Overview",
-    "section": "7.3 Thesis Research DMP",
-    "text": "7.3 Thesis Research DMP\n\nOverview: The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.",
+    "objectID": "class_materials/individual_projects/assignments.html#thesis-research-dmp",
+    "href": "class_materials/individual_projects/assignments.html#thesis-research-dmp",
+    "title": "13  Assignments Overview",
+    "section": "13.3 Thesis Research DMP",
+    "text": "13.3 Thesis Research DMP\n\nOverview: The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.",
     "crumbs": [
-      "Assignments",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "Individual Projects",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html",
     "href": "class_materials/resources/resources.html",
-    "title": "8  Useful resources for Data Collection & Managment",
+    "title": "14  Useful resources for Data Collection & Managment",
     "section": "",
-    "text": "8.1 R Programming",
+    "text": "14.1 R Programming",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#r-programming",
     "href": "class_materials/resources/resources.html#r-programming",
-    "title": "8  Useful resources for Data Collection & Managment",
+    "title": "14  Useful resources for Data Collection & Managment",
     "section": "",
     "text": "Essential Resources\n\nR for Data Science book: Hadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nRStudio Keyboard Shortcuts: A list of the keyboard shortcuts for Mac, Windows, and Linux can be found here.\nWhere and How to ask for help:\n\n\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\n\nTutorials\n\nPaul van der Laken’s List of books, tutorials, and other resources on topics ranging from data manipulation to data validation to data visualization.\nR Essential Training: Wrangling and Visualizing Data. (requires a UF email address to access LinkedIn Learning).\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl: learn R programming interactively, at your own pace, and in the R console.\nR Bootcamp by Ted Laderas and Jessica Minnier. Learn R in your browser.\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning is written for Python users but the pricniples apply regardless of language.",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#specific-data-cleaning-and-management-problems",
     "href": "class_materials/resources/resources.html#specific-data-cleaning-and-management-problems",
-    "title": "8  Useful resources for Data Collection & Managment",
-    "section": "8.2 Specific Data Cleaning and Management Problems",
-    "text": "8.2 Specific Data Cleaning and Management Problems\n\nDates & Times\n\nHandling dates and times in R\n\n\n\nText & Text Mining\n\nText Mining: tidytext package\n\n\n\nQualtrics\n\nWorking with Qualtrics survey data: qualtRics package\n\n\n\nText Extraction\n\nOptical Character Recognition (OCR): extract text from images: tesseract package\nExtract text & metadata from pdf files: pdftools package\n\n\n\nImages & Image Processing\n\nImage processing: the magick package",
+    "title": "14  Useful resources for Data Collection & Managment",
+    "section": "14.2 Specific Data Cleaning and Management Problems",
+    "text": "14.2 Specific Data Cleaning and Management Problems\n\nDates & Times\n\nHandling dates and times in R\n\n\n\nText & Text Mining\n\nText Mining: tidytext package\n\n\n\nQualtrics\n\nWorking with Qualtrics survey data: qualtRics package\n\n\n\nText Extraction\n\nOptical Character Recognition (OCR): extract text from images: tesseract package\nExtract text & metadata from pdf files: pdftools package\n\n\n\nImages & Image Processing\n\nImage processing: the magick package",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#advanced-r-packages-for-data-management",
     "href": "class_materials/resources/resources.html#advanced-r-packages-for-data-management",
-    "title": "8  Useful resources for Data Collection & Managment",
-    "section": "8.3 Advanced R Packages for Data Management",
-    "text": "8.3 Advanced R Packages for Data Management\n\nDataCurator package: ‘a simple desktop data editor to help describe, validate and share usable open data’.\nRegExr: online tool to learn, build, & test Regular Expressions (RegEx / RegExp)\njanitor (cleanup of file names, etc.)\nROpenSci: tools for accessing, manipulating, and visualizing open data",
+    "title": "14  Useful resources for Data Collection & Managment",
+    "section": "14.3 Advanced R Packages for Data Management",
+    "text": "14.3 Advanced R Packages for Data Management\n\nDataCurator package: ‘a simple desktop data editor to help describe, validate and share usable open data’.\nRegExr: online tool to learn, build, & test Regular Expressions (RegEx / RegExp)\njanitor (cleanup of file names, etc.)\nROpenSci: tools for accessing, manipulating, and visualizing open data",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#data-visualization",
     "href": "class_materials/resources/resources.html#data-visualization",
-    "title": "8  Useful resources for Data Collection & Managment",
-    "section": "8.4 Data Visualization",
-    "text": "8.4 Data Visualization\n\nData Visualization: a practical introduction by Kieran Healy is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.",
+    "title": "14  Useful resources for Data Collection & Managment",
+    "section": "14.4 Data Visualization",
+    "text": "14.4 Data Visualization\n\nData Visualization: a practical introduction by Kieran Healy is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#slide-presentations",
     "href": "class_materials/resources/resources.html#slide-presentations",
-    "title": "8  Useful resources for Data Collection & Managment",
-    "section": "8.5 Slide & Presentations",
-    "text": "8.5 Slide & Presentations\n\nMake slide presentations with R",
+    "title": "14  Useful resources for Data Collection & Managment",
+    "section": "14.5 Slide & Presentations",
+    "text": "14.5 Slide & Presentations\n\nMake slide presentations with R",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#documents-reports",
     "href": "class_materials/resources/resources.html#documents-reports",
-    "title": "8  Useful resources for Data Collection & Managment",
-    "section": "8.6 Documents & Reports",
-    "text": "8.6 Documents & Reports\n\nknitr overview: reproducible documents with R",
+    "title": "14  Useful resources for Data Collection & Managment",
+    "section": "14.6 Documents & Reports",
+    "text": "14.6 Documents & Reports\n\nknitr overview: reproducible documents with R",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#discipline-specific-r-resources",
     "href": "class_materials/resources/resources.html#discipline-specific-r-resources",
-    "title": "8  Useful resources for Data Collection & Managment",
-    "section": "8.7 Discipline-specific R Resources",
-    "text": "8.7 Discipline-specific R Resources\n\nHistory\n\nhistorydata package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.\nThe Programming Historian Website: wide range of topics, from text analysis to OpenRefine\n\n\n\nPsychology\n\n‘Programming for Psychologists: Data Creation and Analysis’ by Matthew J. C. Crump",
+    "title": "14  Useful resources for Data Collection & Managment",
+    "section": "14.7 Discipline-specific R Resources",
+    "text": "14.7 Discipline-specific R Resources\n\nHistory\n\nhistorydata package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.\nThe Programming Historian Website: wide range of topics, from text analysis to OpenRefine\n\n\n\nPsychology\n\n‘Programming for Psychologists: Data Creation and Analysis’ by Matthew J. C. Crump",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#data-archives",
     "href": "class_materials/resources/resources.html#data-archives",
-    "title": "8  Useful resources for Data Collection & Managment",
-    "section": "8.8 Data Archives",
-    "text": "8.8 Data Archives\n\nQualitative Data Repository: dedicated archive for storing and sharing digital data (and accompanying documentation) generated or collected through qualitative and multi-method research in the social sciences and related disciplines.\nData Dryad: open data publishing platform and a community committed to the open availability and routine re-use of all research data.\nICPSR: data access, curation, and analytical methods for social science.",
+    "title": "14  Useful resources for Data Collection & Managment",
+    "section": "14.8 Data Archives",
+    "text": "14.8 Data Archives\n\nQualitative Data Repository: dedicated archive for storing and sharing digital data (and accompanying documentation) generated or collected through qualitative and multi-method research in the social sciences and related disciplines.\nData Dryad: open data publishing platform and a community committed to the open availability and routine re-use of all research data.\nICPSR: data access, curation, and analytical methods for social science.",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "slidedecks.html",
     "href": "slidedecks.html",
-    "title": "9  Class Slides",
+    "title": "15  Class Slides",
     "section": "",
     "text": "The following slides are available in HTML format You can export them as PDFs by clicking on the three bars in the bottom left corner and selecting “PDF Export Mode” under the “Tools” Option.\n\nIntroduction\n\nData Organization & Backups\n\n‘Reproducible’ Data Management",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Class Slides</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Class Slides</span>"
     ]
   }
 ]
