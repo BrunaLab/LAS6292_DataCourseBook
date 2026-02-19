@@ -1,0 +1,162 @@
+---
+# author:
+#   - name: Emilio M. Bruna
+#     affiliations:
+#       - id: uf
+#       - name: University of Florida
+title-block-style: default
+date-modified: last-modified
+
+---
+# Class Outline: QA/QC 2 - Open Refine  {#sec-openrefine-hw}
+
+::: {.callout-tip}
+## Objectives and Competencies
+
+By the end of this lesson students will:
+
+* Be able to import a data set into OpenRefine, make changes to the data set and its structure, and export the revised data set  
+
+* Learn how to automatically track changes made and export the record of changes
+
+* Be able to apply these changes to a different data set
+
+:::
+
+
+## Pre-Class Preparation (Instructor):  
+
+  * Remind via email about OpenRefine Installation
+  * Post Data sets
+
+**Bring to Class:  **  
+
+  * Snacks
+  * Tent cards for student names
+
+## Pre-class Preparation (Students):
+
+### **Online Lectures:**  None
+
+### **Readings**: None
+
+<!-- * **In-class Exercise:**   -->
+<!--     * Data Carpentry Lesson (2:15 h) -->
+<!--     * https://datacarpentry.org/openrefine-socialsci/ -->
+<!--     * https://datacarpentry.org/OpenRefine-ecology-lesson/ -->
+
+### Computer Resources
+
+1. Install OpenRefine on your computer and verify it works by following the [instructions here](https://datacarpentry.org/openrefine-socialsci/index.html).
+
+2. _Optional:_ Read and watch about [how OpenRefine works here](https://openrefine.org/). You can also review the [basic workflow](https://hackmd.io/WnKT7eiMQde7jCF5teVHBQ#Setup) we will learn.
+
+
+<!-- ```{r timer, echo=FALSE} -->
+<!-- part_1 <- 10 -->
+<!-- part_2 <- 10 -->
+<!-- part_3 <- 45 -->
+<!-- snack_break <- 10 -->
+<!-- part_4 <-30 -->
+<!-- part_5 <-45 -->
+<!-- part_6 <-10 -->
+
+<!-- total_time <-  -->
+<!--   part_1 +  -->
+<!--   part_2 +  -->
+<!--   part_3 +  -->
+<!--   part_4 + -->
+<!--   part_5 + -->
+<!--   part_6 + -->
+<!--   snack_break  -->
+
+<!-- time_remain <- 180 - total_time -->
+<!-- ``` -->
+
+
+## In-Class: Using Open Refine to clean data
+
+
+OpenRefine is a powerful, free, and open source tool that is used to work with and clean messy data.  We will be working through some of OpenRefine's basic features, after which you will trying them onm your own on a new data set.
+
+<!-- **_Note: _** This is the url for accessing OpenRefine if a new tab/window doesn't open: http://127.0.0.1:3333/ -->
+
+This session uses the Data Carpentry Lesson [_OpenRefine for Social Science Data_](https://datacarpentry.github.io/openrefine-socialsci/aio.html) to introducee students to how OpenRefine can be used to clean datasets. The lesson's objectives are: 
+
+1. To describe OpenRefine’s uses and applications, 
+1. Differentiate data cleaning from data organization, and
+1. Experiment with OpenRefine’s user interface.
+
+### Key Points to empghasize:  
+
+- OpenRefine provides a set of tools to identify and correct messy data.
+- All actions are easily reversed 
+- If you save your work it will be to a new file. OpenRefine always uses a copy of your data and does not modify your original dataset
+- OpenRefine keeps track of all of your actions and allows them to be applied to different datasets
+- It is open source with a large user community, making it easy to get 
+- It works very well with 'large-ish' datasets (100,000 rows), but can adjust memory allocation to accommodate larger datasets.
+- OpenRefine always keeps your data private on your own computer until you choose to share it. It works by running a small server on your computer and using your web browser to interact with it. _Your private data never leaves your computer unless you want it to_ 
+
+### Installation and Setup
+
+- Follow the [Setup instructions](https://datacarpentry.github.io/openrefine-socialsci/index.html#setup) to install OpenRefine.
+
+- If after installation and running OpenRefine, it does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
+
+- The data for this lesson is a part of the 'Data Carpentry Social Sciences' workshop. It is a teaching version of the Studying African Farmer-Led Irrigation (SAFI) database: interviews of farmers in two countries in eastern sub-Saharan Africa (Mozambique and Tanzania). These interviews were conducted between November 2016 and June 2017 and probed household features (e.g. construction materials used, number of household members), agricultural practices (e.g. water usage), and assets (e.g. number and types of livestock). _The data used in this lesson is a subset of the teaching version that has been intentionally ‘messed up’ for this lesson_.
+
+- Download [the data file](https://datacarpentry.github.io/openrefine-socialsci/index.html#setup:~:text=Download%20the%20data%20file) to your computer to a location where you will be able to find it during the lesson.
+
+
+### Part 1
+
+- Intro to OR
+<!-- (`r part_1` min) -->
+- Working with OR  
+<!-- (`r part_2` min)   -->
+-Filtering and Sorting
+<!-- (`r part_3` min) -->
+     
+### Break 
+<!-- (`r snack_break` min) -->
+
+### Part 2 
+
+- Examining Numbers 
+<!-- (`r part_4` min) -->
+- Using Scripts, Exporting, and Saving 
+<!-- (`r part_5` min)   -->
+- Wrap-up, Questions
+<!-- (`r part_6` min)   -->
+
+### Assignment
+<!-- (`r time_remain` min) -->
+
+**_Now it's your turn._** [Download this csv file](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/0633beb2b645c046aaea4211ba604a79e806554c/class_materials/class_sessions/06_QAQC2/portal_rodents_or_short.csv) and use OpenRefine to clean it up. After you create a Project, edit the data as follows:
+
+1. Correct and standardize the names of the countries in which the rodents were captured. 
+
+2. The column `scientificName` contains two pieces of information (the genus _and_ species of each animal). Split this into two columns, rename them as `genus` and `species`, and then correct and standardize the data in each column as needed. NB: You may run into an obstacle when you try to rename the columns. How can you get around it?
+
+3. Save the clean data as a `.csv` file on your desktop.
+
+<!-- grel:	if(value=="AH","Ammospermophilus harrisi","") -->
+
+4. Extract and save your steps (i.e., 'operation history' as JSON. Save this as a text file. 
+
+5. _Bonus Brainteaser:_ Many of the cells in the column for the Latin bonomial are blank. How might you go about filling them in based on the column with the abbreviation?
+
+6. **Submission:** Submit your clean `.csv` and the JSON text file as `openrefine_assignment` on Canvas.  
+
+### Grading Rubric: 
+
+- Data corrected and JSON file can be used on another data set: 35
+- Most data correction properly programmed; some require instructor follow-up: 25
+- Many of the corrections missing, JSON file unable to process new data : 20
+- Instructor follow-up required to implement most changes: 15  
+
+
+--- 
+The materials in this lesson are derived from the Data Carpentry Social Sciences workshop by [The Carpentries](https://carpentries.org/). The materials Materials are licensed under [CC-BY 4.0](https://datacarpentry.github.io/openrefine-socialsci/LICENSE.html) by the authors
+
+
