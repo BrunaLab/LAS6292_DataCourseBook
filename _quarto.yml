@@ -50,7 +50,7 @@ book:
         #- class_materials/class_sessions/0  # - QA/QC 1: Data Entry & Validation
         #- class_materials/class_sessions/0  # - QA/QC 2: Data Correction & Synthesis
         #- class_materials/class_sessions/0  # - OpenRefine
-        - class_materials/class_sessions/07_QAQC3/error_viz.qmd # - Visualizing Data to Find Mistakes
+        #- class_materials/class_sessions/07_QAQC3/error_viz.qmd # - Visualizing Data to Find Mistakes
         - class_materials/class_sessions/08_metadata/metadata.qmd  # - Documentation, Metadata, & Codebooks
         - class_materials/class_sessions/09_DMP/dmp.qmd  # - Data Sharing, Reuse, & Archives
         #- class_materials/class_sessions/0  # - Data Management Plans

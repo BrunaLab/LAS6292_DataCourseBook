@@ -32,6 +32,7 @@ date-modified: last-modified
 
 ### Overview {.unnumbered}
 
+1. UK Data Service Webinar: [How to anonymise qualitative and quantitative data](https://www.youtube.com/watch?v=Yysj1NaPhls)
 1. [Intro to Anonymization](https://en.wikipedia.org/wiki/Data_anonymization)
 1. [Overview by Martin Monkman](https://bookdown.org/martin_monkman/DataScienceResources_book/anonymity-and-confidentiality.html)
 1. [EDUCASE Guidelines for Data De-Identification or Anonymization](https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program/resources/information-security-guide/toolkits/guidelines-for-data-deidentification-or-anonymization)
@@ -53,7 +54,8 @@ Anymizing data is difficult and the consequences for failing to do so can be sev
 1. Martin Monkman's link to [R packages for Anonymizing Data](https://bookdown.org/martin_monkman/DataScienceResources_book/anonymity-and-confidentiality.html)
 1. Blog Post / [Tutorial](https://www.r-bloggers.com/2014/11/data-anonymization-in-r/)
 1. R package [`Anonymizer`](https://github.com/paulhendricks/anonymizer) 
-     
+1. Anonymizing in R: [part 1](https://www.youtube.com/watch?v=xA2vaUdvxNY) and [part 2](https://www.youtube.com/watch?v=xGvwBMOW4t4)
+
 
 #### Stand-alone software and online tools for anonymizing  {.unnumbered}
 1. [list of free tools](https://windowsreport.com/data-anonymization-software/)
