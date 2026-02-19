@@ -11,52 +11,51 @@ date-modified: last-modified
 
 # Automated Data Collection & Extraction {#sec-automated}
 
-## Tools & Resources
-
 <!-- NEED TO ADD: INTRO TO APIs to fully automate -->
 
-### Optical Character Recognition
+## Optical Character Recognition
 
 1. Video Primer: [What is OCR?](what is ocr? https://www.youtube.com/watch?v=Q5U_VEmcY-M)
 
-2. Online OCR Tools - text and data from `.pdf` into `.csv`, `.txt`, etc.
+### Online OCR Tools (text & data from `.pdf` to `.csv`, `.txt`, etc.) {.unnumbered}
 
-    * Google Drive - Video Primer: [OCR with Google Drive](https://www.youtube.com/watch?v=4lApeCNK6Ic)
-    * Free online sites for small batches (can upgrade for larger numbers of files)
-    
-      * [Free Online OCR 1](http://www.free-online-ocr.com/)
-      * [New OCR](https://www.newocr.com/)
-      * [pdf to excel](https://smallpdf.com/pdf-to-excel)
-      * [OnlineOCR](https://www.onlineocr.net/)
-      * [PDFTables](https://pdftables.com/) will convert PDF to .csv, and has an [API](https://pdftables.com/blog/convert-pdf-to-excel-r) so you can do your conversions in bulk with R. You can do ~25 pages free; large numbers are reasonably priced.
-    
-    * [Amazon TextExtract](https://aws.amazon.com/pm/textract)
-
-    * [Mathpix Snip](https://mathpix.com/) digitizes handwritten or printed text, and copies outputs to the clipboard that can be pasted into LaTeX editors like Overleaf, Markdown editors like Typora, Microsoft Word, and more. 
+1. Google Drive - Video Primer: [OCR with Google Drive](https://www.youtube.com/watch?v=4lApeCNK6Ic)
+1. Free online sites for small batches (can upgrade for larger numbers of files)
   
-3. R tools for OCR: `pdfreader`, `tabulizer`
+   > * [Free Online OCR 1](http://www.free-online-ocr.com/)
+   > * [New OCR](https://www.newocr.com/)
+   > * [pdf to excel](https://smallpdf.com/pdf-to-excel)
+   > * [OnlineOCR](https://www.onlineocr.net/)
+   > * [PDFTables](https://pdftables.com/) will convert PDF to .csv, and has an [API](https://pdftables.com/blog/convert-pdf-to-excel-r) so you can do your conversions in bulk with R. You can do ~25 pages free; large numbers are reasonably priced.
+    
+1. [Amazon TextExtract](https://aws.amazon.com/pm/textract)
+
+1. [Mathpix Snip](https://mathpix.com/) digitizes handwritten or printed text, and copies outputs to the clipboard that can be pasted into LaTeX editors like Overleaf, Markdown editors like Typora, Microsoft Word, and more. 
+  
+### OCR with R  {.unnumbered}
+
 <!-- , and `pdfreader` -->
 
-    * R package [`pdftools`](https://cran.r-project.org/web/packages/pdftools/index.html)
-    * R package [`tabulapdf`](https://github.com/ropensci/tabulapdf)
+1. R package [`pdftools`](https://cran.r-project.org/web/packages/pdftools/index.html)
+1. R package [`tabulapdf`](https://github.com/ropensci/tabulapdf)
     <!-- * R package [`pdfreader`](https://github.com/ropensci/tabulapdf) -->
-    * [written tutorial 1](http://theautomatic.net/2018/08/24/getting-data-from-pdfs-the-easy-way-with-r/)
-    * [written tutorial 2](https://www.charlesbordet.com/en/extract-pdf/#)
-    * [written tutorial 3](https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/)
-    * [Video Tutorial 1](https://www.youtube.com/watch?v=DhY3V4LCdps)
-    * [Video Tutorial 2](https://www.youtube.com/watch?v=6ItyOgS2noc)
-    * Detailed [Blog Post / Tutorial](https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/)
-    * [Convert PDF to text in R OCR pdftools](https://www.youtube.com/watch?v=DhY3V4LCdps)
-    * [PDFtools in R](https://www.youtube.com/watch?v=6ItyOgS2noc )
+1. [written tutorial 1](http://theautomatic.net/2018/08/24/getting-data-from-pdfs-the-easy-way-with-r/)
+1. [written tutorial 2](https://www.charlesbordet.com/en/extract-pdf/#)
+1. [written tutorial 3](https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/)
+1. [Video Tutorial 1](https://www.youtube.com/watch?v=DhY3V4LCdps)
+1. [Video Tutorial 2](https://www.youtube.com/watch?v=6ItyOgS2noc)
+1. Detailed [Blog Post / Tutorial](https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/)
+1. [Convert PDF to text in R OCR pdftools](https://www.youtube.com/watch?v=DhY3V4LCdps)
+1. [PDFtools in R](https://www.youtube.com/watch?v=6ItyOgS2noc )
     
-    * More advanced but more powerful from the Programming Historian: [OCR with Google Vision API and Tesseract](https://programminghistorian.org/en/lessons/ocr-with-google-vision-and-tesseract)
+1. More advanced but more powerful from the Programming Historian: [OCR with Google Vision API and Tesseract](https://programminghistorian.org/en/lessons/ocr-with-google-vision-and-tesseract)
     
-4. Extracting Tables from images using R package `magick`.
+## Extracting tables from images with R  
 
-    * R package [`magick`](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) _(this package actually includes several very powerful tools for image processing; this is just one of the things you can do with it)_
-    * Detailed [Blog Post / Tutorial](https://themockup.blog/posts/2021-01-18-reading-tables-from-images-with-magick/)
+1. R package [`magick`](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) _(this package actually includes several very powerful tools for image processing; this is just one of the things you can do with it)_
+1. Detailed [Blog Post / Tutorial](https://themockup.blog/posts/2021-01-18-reading-tables-from-images-with-magick/)
 
-### Extracting Data from Published Figures
+## Extracting Data from Published Figures
 
 1. Ankit Rohagni's [Web Plot Digitizer](https://automeris.io/WebPlotDigitizer/)
    * WPD [Video Tutorial](https://www.youtube.com/watch?v=P7GbGdMvopU)
@@ -68,39 +67,39 @@ date-modified: last-modified
 
 1. Alternative 3: R package [`digitize`](https://cran.r-project.org/web/packages/digitize/digitize.pdf) will extract data from scatterplots within the R environment. [This article](https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Poisot.pdf) will walk you through the process.
 
-### Text Mining
+## Text Mining  
 
 1. [Text Mining with R](https://www.tidytextmining.com/) by Julia Silge and David Robinson
 
 1. [`gutenbergr`](https://cran.r-project.org/web/packages/gutenbergr/index.html): Download and Process Public Domain Works from [Project Gutenberg](https://www.gutenberg.org/). Tutorial can be found [here](https://docs.ropensci.org/gutenbergr/)
 
-Other Useful Text Mining Literature  
+### Useful reading on text mining {.unnumbered}
 
-    * Atanassova I, Bertin M and Mayr P (2019) Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics. Front. Res. Metr. Anal. 4:2. [doi: 10.3389/frma.2019.00002](https://www.frontiersin.org/articles/10.3389/frma.2019.00002/full)
+1. Atanassova I, Bertin M and Mayr P (2019) Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics. Front. Res. Metr. Anal. 4:2. [doi: 10.3389/frma.2019.00002](https://www.frontiersin.org/articles/10.3389/frma.2019.00002/full)
 
-    * Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ, Brunak S (2018) A comprehensive and quantitative comparison of text-mining in 15 million full-text articles versus their corresponding abstracts. PLoS Comput Biol 14(2): e1005962. https://doi.org/10.1371/journal.pcbi.1005962
+1. Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ, Brunak S (2018) A comprehensive and quantitative comparison of text-mining in 15 million full-text articles versus their corresponding abstracts. PLoS Comput Biol 14(2): e1005962. https://doi.org/10.1371/journal.pcbi.1005962
 
-    * Salloum, S.A., Al-Emran, M., Monem, A.A., Shaalan, K. (2018). Using Text Mining Techniques for Extracting Information from Research Articles. In: Shaalan, K., Hassanien, A., Tolba, F. (eds) Intelligent Natural Language Processing: Trends and Applications. Studies in Computational Intelligence, vol 740. Springer, Cham. https://doi.org/10.1007/978-3-319-67056-0_18
+1. Salloum, S.A., Al-Emran, M., Monem, A.A., Shaalan, K. (2018). Using Text Mining Techniques for Extracting Information from Research Articles. In: Shaalan, K., Hassanien, A., Tolba, F. (eds) Intelligent Natural Language Processing: Trends and Applications. Studies in Computational Intelligence, vol 740. Springer, Cham. https://doi.org/10.1007/978-3-319-67056-0_18
 
-    * Simon, C., Davidsen, K., Hansen, C. et al. BioReader: a text mining tool for performing classification of biomedical literature. BMC Bioinformatics 19, 57 (2019). https://doi.org/10.1186/s12859-019-2607-x
+1. Simon, C., Davidsen, K., Hansen, C. et al. BioReader: a text mining tool for performing classification of biomedical literature. BMC Bioinformatics 19, 57 (2019). https://doi.org/10.1186/s12859-019-2607-x
 Extracting Body Text from Academic PDF Documents for Text Mining
 
-    * Benchimol, J., Kazinnik, S., & Saadon, Y. (2022). Text mining methodologies with R: An application to central bank texts. Machine Learning with Applications, 8, 100286.[link](https://scholar.harvard.edu/files/jbenchimol/files/text-mining-methodologies.pdf) 
+1. Benchimol, J., Kazinnik, S., & Saadon, Y. (2022). Text mining methodologies with R: An application to central bank texts. Machine Learning with Applications, 8, 100286.[link](https://scholar.harvard.edu/files/jbenchimol/files/text-mining-methodologies.pdf) 
 
-    * Yu, C., Zhang, C., & Wang, J. (2020). Extracting Body Text from Academic PDF Documents for Text Mining. arXiv preprint arXiv:2010.12647.
+1. Yu, C., Zhang, C., & Wang, J. (2020). Extracting Body Text from Academic PDF Documents for Text Mining. arXiv preprint arXiv:2010.12647.
 
-    * Gulo, C. A., & Rúbio, T. R. (2015, January). Text Mining Scientific Articles using the R. In Doctoral Symposium in Informatics Engineering. [linl](https://paginas.fe.up.pt/~prodei/dsie15/web/papers/dsie15_submission_10.pdf)
+1. Gulo, C. A., & Rúbio, T. R. (2015, January). Text Mining Scientific Articles using the R. In Doctoral Symposium in Informatics Engineering. [linl](https://paginas.fe.up.pt/~prodei/dsie15/web/papers/dsie15_submission_10.pdf)
 
-1. Processing and Analyzing Records from the Web of Science and Scopus for Text Mining & Biliometrics
+## Collecting & Processing data from the Web of Science and Scopus
 
-    * R package [`refsplitr`](https://github.com/ropensci/refsplitr)
+1. R package [`refsplitr`](https://github.com/ropensci/refsplitr)
 
-    * R package [`bibliometrix`](https://www.bibliometrix.org/)
+1. R package [`bibliometrix`](https://www.bibliometrix.org/)
 
-    * [jstor: An R package for Analysing Scientific Articles](https://www.youtube.com/watch?v=kNRbT-ki9tU)  
+1. [jstor: An R package for Analysing Scientific Articles](https://www.youtube.com/watch?v=kNRbT-ki9tU)  
     
     
-### Scraping information from websites 
+## Scraping websites 
 
 1. Library Carpentry [Lesson on Webscraping](https://librarycarpentry.org/lc-webscraping/) 
 1. Start Here: [Introduction to webscraping](https://nceas.github.io/oss-lessons/data-liberation/intro-webscraping.html)
@@ -113,12 +112,12 @@ Extracting Body Text from Academic PDF Documents for Text Mining
 1. Noortje Marres & Esther Weltevrede (2013) Scraping the Social?, Journal of Cultural Economy, 6:3, 313-335, DOI: 10.1080/17530350.2013.772070
 
 
-### Cell Phone Data
+## Cell Phone Data
 
 1. Exploratory analyses [Part 1](https://www.r-bloggers.com/2019/11/exploratory-data-analysis-of-cell-phone-usage-with-r-part-1/) and [Part 2](https://www.r-bloggers.com/2019/12/exploratory-data-analysis-of-cell-phone-usage-with-r-part-2/)
 
 
-#### Social Media (Facebook, Flickr, etc,)
+## Social Media Data
 
 1. How to extract [Biodiversity Data from Facebook](Chowdhury, S., Ahmed, S., Alam, S., Callaghan, C. T., Das, P., Di Marco, M., Di Minin, E., Jarić, I., Labi, M. M., Rokonuzzaman, Md., Roll, U., Sbragaglia, V., Siddika, A., & Bonn, A. (2024). A protocol for harvesting biodiversity data from Facebook. Conservation Biology, 00, e14257. https://doi.org/10.1111/cobi.14257)
 
@@ -127,13 +126,13 @@ Extracting Body Text from Academic PDF Documents for Text Mining
 <!-- 1. Scraping [Twitter Data with R](https://utstat.toronto.edu/~nathan/teaching/sta4002/Class1/scrapingtwitterinR-NT.html) or with [Tweetsets](https://programminghistorian.org/en/lessons/beginners-guide-to-twitter-data) -->
 
 
-### Automated Image Analysis
+## Automated Image Analysis
 
 1. Pennekamp, F. and Schtickzelle, N. (2013), Implementing image analysis in laboratory‐based experimental systems for ecology and evolution: a hands‐on guide. Methods Ecol Evol, 4: 483-492. https://doi.org/10.1111/2041-210X.12036 
 
 2. How to build your own image recognition app with R! [Part 1](https://www.r-bloggers.com/2021/03/how-to-build-your-own-image-recognition-app-with-r-part-1/?fbclid=IwAR3P8GNeEHAtm62iOIhhFe45ofZjn-zlwezc5TtM0pbayfUdjmwAr3UoB1Q) and [Part 2](https://www.r-bloggers.com/2021/03/how-to-build-your-own-image-recognition-app-with-r-part-2/)
 
-### Wearable Devices & RFID tags
+## Wearable Devices & RFID tags
 
 1. [What is an RFID tag?](https://en.wikipedia.org/wiki/Radio-frequency_identification)
 
@@ -151,7 +150,7 @@ Extracting Body Text from Academic PDF Documents for Text Mining
 
 1. Seifert Alexander, Hofer Matthias, Allemand Mathias. 2018. Mobile Data Collection: Smart, but Not (Yet) Smart Enough. 12. Frontiers in Neuroscience https://www.frontiersin.org/article/10.3389/fnins.2018.00971     
 
-### Build your own automated data collection tool, Rasberry PI
+## Buildimg automated data collectors
 
 1.  Calipers that dump data directly to Excel [link](https://www.notion.so/Hacking-Digital-Calipers-3ee7726f11ca431694dc70a1977516e4)  
 
@@ -159,44 +158,45 @@ Extracting Body Text from Academic PDF Documents for Text Mining
 
 1. Jolles, J. W. (2021). Broad-scale applications of the Raspberry Pi: A review and guide for biologists. Methods in Ecology and Evolution, 12, 1562– 1579. https://doi.org/10.1111/2041-210X.13652
 
-### Databases and Websites from which you can extract data 
+## Online data archives
 
 Overview: Correia, R.A., Ladle, R., Jarić, I., Malhado, A.C.M., Mittermeier, J.C., Roll, U., Soriano‐Redondo, A., Veríssimo, D., Fink, C., Hausmann, A., Guedes‐Santos, J., Vardi, R. and Di Minin, E. (2021), Digital data sources and methods for conservation culturomics. Conservation Biology, 35: 398-411. https://doi.org/10.1111/cobi.13706
 
 
+### Government data  {.unnumbered}
 
-#### Government 
+1. [Data.gov](https://www.data.gov/) (the open data portal of the US Government) and [Using Data.gov APIs in R](https://data.library.virginia.edu/using-data-gov-apis-in-r/)
+1. the [rOpengov Project](http://ropengov.org/)
+1. [Open Fiscal Data Package](http://www.fiscaltransparency.net/ofdp/) 
+1. [`educationdata`](https://urbaninstitute.github.io/education-data-package-r/#educationdata): Retrieve data from the Urban Institute’s Education Data API as a data.frame for easy analysis. See [also here](https://github.com/UrbanInstitute/education-data-package-r)
+1. a [huge list](https://cengel.github.io/gearup2016/SULdataAccess.html) of data sources for social scientists available with R tools 
+1. accessing [World bank Data](https://vincentarelbundock.github.io/WDI/) with R
 
-    * [Data.gov](https://www.data.gov/) (the open data portal of the US Government) and [Using Data.gov APIs in R](https://data.library.virginia.edu/using-data-gov-apis-in-r/)
-    * the [rOpengov Project](http://ropengov.org/)
-    * [Open Fiscal Data Package](http://www.fiscaltransparency.net/ofdp/) 
-    * [`educationdata`](https://urbaninstitute.github.io/education-data-package-r/#educationdata): Retrieve data from the Urban Institute’s Education Data API as a data.frame for easy analysis. See [also here](https://github.com/UrbanInstitute/education-data-package-r)
-    * a [huge list](https://cengel.github.io/gearup2016/SULdataAccess.html) of data sources for social scientists available with R tools 
-    * accessing [World bank Data](https://vincentarelbundock.github.io/WDI/) with R
-
-#### US & World Census Data  
+### US & World Census Data   {.unnumbered}
   
-    * [A Guide to Working with US Census Data in R](https://rconsortium.github.io/censusguide/r-packages-all.html)
-    * R Package [`tidycensus`](https://cran.r-project.org/web/packages/tidycensus/tidycensus.pdf)
-    * [Tutorial 1](https://walkerke.github.io/tidycensus/articles/basic-usage.html)
-    * [Tutorial 2](http://www.computerworld.com/article/3120415/data-analytics/how-to-download-new-census-data-with-r.html rel="nofollow noopener" href="https://hrecht.github.io/censusapi/)
-    * R package [`ipumsr`](https://tech.popdata.org/ipumsr/): The ipumsr package helps import IPUMS extracts from the IPUMS website into R. IPUMS provides census and survey data from around the world integrated across time and space. 
+1. [A Guide to Working with US Census Data in R](https://rconsortium.github.io/censusguide/r-packages-all.html)
+1. R Package [`tidycensus`](https://cran.r-project.org/web/packages/tidycensus/tidycensus.pdf)
+1. [Tutorial 1](https://walkerke.github.io/tidycensus/articles/basic-usage.html)
+1. [Tutorial 2](http://www.computerworld.com/article/3120415/data-analytics/how-to-download-new-census-data-with-r.html rel="nofollow noopener" href="https://hrecht.github.io/censusapi/)
+1. R package [`ipumsr`](https://tech.popdata.org/ipumsr/): The ipumsr package helps import IPUMS extracts from the IPUMS website into R. IPUMS provides census and survey data from around the world integrated across time and space. 
 
+### Education Data  {.unnumbered}
 
-#### Education Data 
+1. [`edbuildr`](https://github.com/EdBuild/edbuildr): import [EdBuild’s master dataset](http://viz.edbuild.org/workshops/edbuildr/) of school district finance, student demographics, and community economic indicators for every school district in the United States.
 
-    * [`edbuildr`](https://github.com/EdBuild/edbuildr): import [EdBuild’s master dataset](http://viz.edbuild.org/workshops/edbuildr/) of school district finance, student demographics, and community economic indicators for every school district in the United States.
+1. [Building R and Stata packages for the Education Data Portal](https://urban-institute.medium.com/building-r-and-stata-packages-for-the-education-data-portal-b88760c07233)
 
-    * [Building R and Stata packages for the Education Data Portal](https://urban-institute.medium.com/building-r-and-stata-packages-for-the-education-data-portal-b88760c07233)
+### Other Online Data Portals  {.unnumbered}
 
-#### Other Online Data Sets & Tools for Accessing them
-
-    * Giant [compendium of open datasets #1](https://github.com/awesomedata/awesome-public-datasets)
-    * [Data on Amazonia](https://datazoomamazonia.com.br/)  
+1. Giant [compendium of open datasets #1](https://github.com/awesomedata/awesome-public-datasets)
+1. [Data on Amazonia](https://datazoomamazonia.com.br/)  
   <!-- https://github.com/Chicago/RSocrata/">RSocrata GitHub repo</a></td> -->
-    * R package [`bdc`](https://brunobrr.github.io/bdc/): toolkit for gathering & cleaning biodiversity data
-    * [EcoRetriever](https://retriever.readthedocs.io/en/latest/):  automates the tasks of finding, downloading, and cleaning up publicly available ecological data, and then stores them in a local database or csv files. 
-    * [litsearcher](https://elizagrames.github.io/litsearchr/)
+1. R package [`bdc`](https://brunobrr.github.io/bdc/): toolkit for gathering & cleaning biodiversity data
+
+### Software for gathering data from online archives {.unnumbered}
+
+1. [EcoRetriever](https://retriever.readthedocs.io/en/latest/):  automates the tasks of finding, downloading, and cleaning up publicly available ecological data, and then stores them in a local database or csv files. 
+1. [litsearcher](https://elizagrames.github.io/litsearchr/)
 an R package to facilitate quasi-automatic search strategy development for systematic review
 
 

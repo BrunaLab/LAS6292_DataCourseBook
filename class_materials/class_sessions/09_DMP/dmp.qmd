@@ -34,7 +34,17 @@ date-modified: last-modified
 5. Roles and responsibilities
 6. Budget 
 
+For details on what information should be included in each component, see "DMP Details" below. 
+
+::: {.callout-tip}
+
+## Example: DMP for NSF Proposals
+
+"Plans for data management and sharing of the products of research. Proposals must include a supplementary document of no more than two pages labeled “Data Management Plan”. This supplement should describe how the proposal will conform to NSF policy on the dissemination and sharing of research results, and may include: the types of data, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project the standards to be used for data and metadata format and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies) policies for access and sharing including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements policies and provisions for re-use, re-distribution, and the production of derivatives plans for archiving data, samples, and other research products, and for preservation of access to them."
+
 *Some funders or institutions may require specific elements in a data management plan; you should check in advance to make sure you meet all requirements*
+:::
+
 
 ## Start Here
 
@@ -71,9 +81,12 @@ date-modified: last-modified
 
 1. A *really* nice [DMP for a Digital Humanities Project](https://guides.library.ucla.edu/c.php?g=180580&p=1189056) by researchers at the University of Maryland, College Park.
 
+## DMP Details
+
+
 ### **1. Information About Data & Data Format**  
 
-#### *1.1  Description of data to be produced*  
+*1.1  Description of data to be produced*  
 
 * Experimental
 * Observational
@@ -86,11 +99,11 @@ date-modified: last-modified
 * Images
 * Other 
 
-#### *1.2  How data will be acquired?*  
+*1.2  How data will be acquired?*  
 
 * When? Where? Method?
 
-#### *1.3  How data will be processed*  
+*1.3  How data will be processed*  
 
 * Software used
 * Algorithms
@@ -99,20 +112,20 @@ date-modified: last-modified
 
 * *This step is important to consider before the project since it may affect how data are organized, what formats are used, and how much should be budgeted for hardware and software. Things to consider are what software may be used, what algorithms will be employed, how these fit into the overall workflow of the project.*
 
-#### *1.4  File formats*  
+*1.4  File formats*  
 
 * Justification
 * Naming conventions
 
-#### *1.5 Quality assurance & control during sample  collection, analysis, and processing*  
+*1.5 Quality assurance & control during sample  collection, analysis, and processing*  
 
-#### *1.6  Existing data*  
+*1.6  Existing data*  
 
 * If existing data are used, what are their origins?
 * Will your data be combined with existing data?
 * What is the relationship between your data and existing data?
 
-#### *1.7 How data will be managed in short-term*  
+*1.7 How data will be managed in short-term*  
 
 * Version control
 * Backing up
@@ -128,15 +141,15 @@ date-modified: last-modified
 * Information important for using the data
 * Descriptions of temporal and spatial details, instruments, parameters, units, files, etc. 
 
-#### *2.1 What metadata are needed*  
+*2.1 What metadata are needed*  
 
 * Details that make data meaningful
 
-#### *2.2 How metadata will be created and/or captured*  
+*2.2 How metadata will be created and/or captured*  
 
 * Lab notebooks? GPS units? Auto-saved on instrument?
 
-#### *2.3 What format will be used for the metadata*  
+*2.3 What format will be used for the metadata*  
 
 * Standards for community
 * Justification for format chosen
@@ -144,78 +157,64 @@ date-modified: last-modified
 
 ### **3. Policies for Access, Sharing, Reuse**
 
-#### *3.1  Obligations for sharing*  
+*3.1  Obligations for sharing*  
 
 * Funding agency
 * Institution
 * Other organization
 * Legal
 
-#### *3.2  Details of data sharing*
+*3.2  Details of data sharing*
 
 * How long?
 * When? 
 * How access can be gained?
 * Data collector rights
 
-#### *3.2  Ethical/privacy issues with data sharing*
+*3.2  Ethical/privacy issues with data sharing*
 
-#### *3.3  Intellectual property & copyright issues*
+*3.3  Intellectual property & copyright issues*
 
 * Who owns the copyright? (? Institutions and/or funding agencies often have a policy for intellectual property and copyright. There may be other considerations such as embargos on data due to patents, politics, or journal requirements.)
 * Institutional policies
 * Funding agency policies
 * Embargos for political/commercial reasons
 
-#### *3.4  Intended future uses/users for data*
+*3.4  Intended future uses/users for data*
 
 * This helps determine the most appropriate data center to archive your data.
 
-#### *3.5  Citation*
+*3.5  Citation*
 
 * How should data be cited when used?
 * Do you need a persistent citation (e.g. DOI)?
 
 ### **4. Long-term Storage & Data Management**
 
-#### *4.1  What data will be preserved*
-#### *4.2  Where will it be archived*
+*4.1  What data will be preserved*
+*4.2  Where will it be archived*
 
 * Most appropriate archive for data
 * Community standards
 
-#### *4.4   Who will be responsible*
+*4.4   Who will be responsible*
 
 * Contact person for archive
 
 
 ### **5. Roles and responsibilities**
 
-#### *5.1 Outline the roles and responsibilities for implementing this data management plan*.
+*5.1 Outline the roles and responsibilities for implementing this data management plan*.
 
 * Who will be responsible for data management and for monitoring the data management plan? How will adherence to this data management plan be checked or demonstrated? What process is in place for transferring responsibility for the data? Who will have responsibility over time for decisions about the data once the original personnel are no longer available?
 
 ### **6. Budget**
 
-#### *6.1  Anticipated costs*
+*6.1  Anticipated costs*
 
 * Time for data preparation & documentation
 * Hardware/software for data preparation & documentation
 * Personnel
 * Archive costs
 
-#### *6.2  How costs will be paid*
-
-## NSF DMP Requirements
-
-**From Grant Proposal Guidelines:** "Plans for data management and sharing of the products of research. Proposals must include a supplementary document of no more than two pages labeled “Data Management Plan”. This supplement should describe how the proposal will conform to NSF policy on the dissemination and sharing of research results, and may include: the types of data, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project the standards to be used for data and metadata format and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies) policies for access and sharing including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements policies and provisions for re-use, re-distribution, and the production of derivatives plans for archiving data, samples, and other research products, and for preservation of access to them."
-
-## *REMINDER*
-
-The key components of a DMP:  
-
-* Information about data & data format
-* Metadata content and format
-* Policies for access, sharing and re-use
-* Long-term storage and data management
-* Budget
+*6.2  How costs will be paid*
