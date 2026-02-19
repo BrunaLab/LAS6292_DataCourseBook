@@ -1088,146 +1088,201 @@
     ]
   },
   {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_hw.html",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_hw.html",
+    "title": "Data Organization in Spreadsheets: In-class Activities",
+    "section": "",
+    "text": "Breakout 1: Group Discussion\nMuch of your future as a researcher will be spent cleaning and correcting data, but you can reduce the time spent on this task (and the associated stress) considerably by implementing some good practices from the start. To start developing these good habits we will to take a look at some spreadsheets, identify the things that people should not be doing with them, and then determining what they should be doing instead.",
+    "crumbs": [
+      "Class Notes & Activities",
+      "Data Organization in Spreadsheets: In-class Activities"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_hw.html#breakout-1-group-discussion",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_hw.html#breakout-1-group-discussion",
+    "title": "Data Organization in Spreadsheets: In-class Activities",
+    "section": "",
+    "text": "Download the following three spreadsheets. To download the files, click the links and then the download button (shown below) on the right-hand side.\n\n\n\n\nDownload Files by following the link and clicking this button.\n\n\n\nSAFI_messy.xlsx: download link.\nuntidy-portal-data.xlsx: download link.\ndates.xlsx: {download link](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4aebeb7b92f15b59655cb47e7104c1c83df11887/class_materials/class_sessions/03_spreadsheets/examples/dates.xlsx)\n\n\nOpen SAFI_messy.xlsx and look at how the data are have been entered and organized. Now discuss the following questions. Keep in mind the tidy principles about which you read in Broman and Woo (2018).\n\n\nWhat problems can you identify with the way these data are entered/organized?\nHow would you correct each of these issues? Could these data easily be imported into a programming language or a database in its current form?\n\n\nDo the same with unity-portal-data.xlsx: review the data and discuss questions a & b.\nDates, or things that look like dates, are especially problematic in Excel. Open the file dates.xlsx and enter the following dates into the column labeled date_1. Be sure to type them in exactly as they are written:\n\n7-2-21\n2 july 2021\njuly 2, 2021\njuly 2,2021 [no space between the comma and 2021]\n07-02-21\n7/2/21\nJan 5, 1900\nDec 5, 1899\n\n\nIs the value in the cell the same as what you typed in?\nWhy would these issues be a problem for data organization and analysis?\n\nNext enter the dates above into the column labeled date_2. Again, be sure to type them in exactly as they are written.\n\nwhat was different about the way the data are recorded?\ncan you figure out why?\n\nWhat would you do to enter dates into Excel in a way that avoids the issues observed above?\nExport the SAFI_messy.xlsx as a .csv file with the name SAFI_messy.csv; you’ll have to click the “OK” when warning box pops up. Now reopen it. What happened? You can find a guide to saving your file in .csv format and why that is a good idea on this website.",
+    "crumbs": [
+      "Class Notes & Activities",
+      "Data Organization in Spreadsheets: In-class Activities"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_hw.html#breakout-1-returning-results",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_hw.html#breakout-1-returning-results",
+    "title": "Data Organization in Spreadsheets: In-class Activities",
+    "section": "Breakout 1: Returning results",
+    "text": "Breakout 1: Returning results\nAlternating between groups, guide groups to the following best practices: \n\nMake your data tidy\n\nSpreadsheets should be a rectangle, with only rows and columns.\nEach column is a different variable (a thing you are measuring, like ‘weight’ or ‘temperature’).\nOne row per observation. Each cell has only one value.\n\nColumn headers: Use short meaningful column names with no spaces or special characters. Don’t start column names with numbers. Record units in column headers.\nUse consistent names, abbreviations/codes, and capitalization.\nUse good null values (not -999, blanks ok, some prefer NA or similar but this can be language specific).\nWrite dates as YYYYMMDD. Better still have separate columns for Year, Month, and Day.\ndon’t enter the same data on multiple spreadsheets: Use one for each category of data to avoid duplicated data and to simplify corrections (e.g., taxonomy).\nAvoid using multiple tables within one spreadsheet.\nAvoid spreading data across multiple tabs (but do use a new tab to record data cleaning or manipulations).\nRecord zeros as zeros.\nUse an appropriate null value to record missing data.\nDon’t use formatting to convey information or to make your spreadsheet look pretty.\nExcel is unable to parse dates from before 1899-12-31. Be careful if your data include a mix of pre/post….you’ll have mixed data types.\nRemember that data format and excel defaults can vary by region. For example, depending on the part of the world where a user is based, the default value for the decimal and thousands operator could be a , (comma) or a . (period); some regions use mm-dd for dates while others use dd-mm.\nNB: The reason dates in Excel are so weird is that it is accounting software. It counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as the serial number 41822. This is so one can can easily calclulate “days from a given date” for accounting purposes (like invoicing) by adding “date+XX days”. * Furthermore, Excel is unable to parse dates from before 1899-12-31. Be careful if your data include a mix of pre/post….you’ll have mixed data types.",
+    "crumbs": [
+      "Class Notes & Activities",
+      "Data Organization in Spreadsheets: In-class Activities"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_hw.html#take-home-messages",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_hw.html#take-home-messages",
+    "title": "Data Organization in Spreadsheets: In-class Activities",
+    "section": "Take-home Messages",
+    "text": "Take-home Messages\n\nOnce you are done with data entry, save it as ‘read only’ and make all corrections using scripting!\nEntering data in tidy format will make it much easier to analyze.\nCollecting data in tidy format makes it easier to enter data in tidy format.",
+    "crumbs": [
+      "Class Notes & Activities",
+      "Data Organization in Spreadsheets: In-class Activities"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/03_spreadsheets/spreadsheets_hw.html#in-class-group-assignment",
+    "href": "class_materials/class_sessions/03_spreadsheets/spreadsheets_hw.html#in-class-group-assignment",
+    "title": "Data Organization in Spreadsheets: In-class Activities",
+    "section": "In-class Group Assignment",
+    "text": "In-class Group Assignment\nThe goal of this breakout is to learn some ways to minimize the number of mistakes when entering data. First, watch the following video (11 min) on ‘Data Validation in Excel’. Second, open this web page on ‘Quality Assurance and Control in Excel’. It covers the same material, so it’s a handy reference to have open during the exercise. (Note: while we are using Excel for this exercise, see “Tools” below for how to do the same in Google Sheets).\n\nExercise:  Set up a tidy sheet for data entry for the Portal data from Breakout 1\n\nCreate a spreadsheet in Excel for data entry. It should have five columns, in which you will be recording (1) the date of observations, (2) the site in which the observations were conducted, (3) the species captured, (4) the mass of each animal, and (5) the length of each animal.\nSet the following data validation criteria to prevent invalid data from getting entered:\n\nThe Date column should be set so that it does not convert dates to other formats.\nUse data validation so that Site can only be one of the following A1, A2, B1, B2.\nSet the error message on this validation criteria to provide information on what the valid values are.\nUse data validation so that Species can only be one of the following: Dipodomys spectabilis, Dipodomys ordii, Dipodomys merriami.\nSet the error message on this validation criteria to provide information on what the valid values are.\nUse data validation so that Mass can only be a decimal greater than or equal to zero but less than or equal to 500.\nSet the error message on this validation criteria to provide information on what the valid values are.\nLength should be an integer (i.e., a whole number) between 1 and 10.\nSet the error message on this validation criteria to provide information on what the valid values are.\n\nCheck that the validation rules and data formatting are working by entering some data in the cells\nSave this file as data_entry_form.xlsx and submit it via the Canvas website as ‘homework-wk3’.\n\n\n\nGrading Rubric:\nAssignment completed with data validation correctly programmed with useful error messages: 35 Most data validation properly programmed; some require instructor follow-up: 30 Many of the validation parameters need corrections, error messages not useful: 25 Incorrect data are able to be entered in all categories; Instructor follow-up required: 20",
+    "crumbs": [
+      "Class Notes & Activities",
+      "Data Organization in Spreadsheets: In-class Activities"
+    ]
+  },
+  {
     "objectID": "class_materials/individual_projects/assignments.html",
     "href": "class_materials/individual_projects/assignments.html",
-    "title": "17  Assignments Overview",
+    "title": "18  Assignments Overview",
     "section": "",
-    "text": "17.1 Weekly In-class activities\nGrades in the course will be based on the following assignments:",
+    "text": "18.1 Weekly In-class activities\nGrades in the course will be based on the following assignments:",
     "crumbs": [
       "Individual Projects",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/individual_projects/assignments.html#weekly-in-class-activities",
     "href": "class_materials/individual_projects/assignments.html#weekly-in-class-activities",
-    "title": "17  Assignments Overview",
+    "title": "18  Assignments Overview",
     "section": "",
     "text": "Overview: Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them they can be submitted anytime until 9 am the following Friday.",
     "crumbs": [
       "Individual Projects",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/individual_projects/assignments.html#reproducible-data-organization-project",
     "href": "class_materials/individual_projects/assignments.html#reproducible-data-organization-project",
-    "title": "17  Assignments Overview",
-    "section": "17.2 Reproducible Data Organization Project",
-    "text": "17.2 Reproducible Data Organization Project\n\nOverview: This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to (1) clean and organize a ‘messy’ data set and prepare metadata describing the resulting ‘clean’ data. The complete project requires the submission of these three items via the course Canvas website:\n\nR code that imports, cleans, and organizes, and saves ‘messy’ data\nThe resulting corrected and organized data in an appropriate format\nMetadata describing the corrected data set",
+    "title": "18  Assignments Overview",
+    "section": "18.2 Reproducible Data Organization Project",
+    "text": "18.2 Reproducible Data Organization Project\n\nOverview: This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to (1) clean and organize a ‘messy’ data set and prepare metadata describing the resulting ‘clean’ data. The complete project requires the submission of these three items via the course Canvas website:\n\nR code that imports, cleans, and organizes, and saves ‘messy’ data\nThe resulting corrected and organized data in an appropriate format\nMetadata describing the corrected data set",
     "crumbs": [
       "Individual Projects",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/individual_projects/assignments.html#thesis-research-dmp",
     "href": "class_materials/individual_projects/assignments.html#thesis-research-dmp",
-    "title": "17  Assignments Overview",
-    "section": "17.3 Thesis Research DMP",
-    "text": "17.3 Thesis Research DMP\n\nOverview: The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.",
+    "title": "18  Assignments Overview",
+    "section": "18.3 Thesis Research DMP",
+    "text": "18.3 Thesis Research DMP\n\nOverview: The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.",
     "crumbs": [
       "Individual Projects",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html",
     "href": "class_materials/resources/resources.html",
-    "title": "18  Useful resources for Data Collection & Managment",
+    "title": "19  Useful resources for Data Collection & Managment",
     "section": "",
-    "text": "18.1 R Programming",
+    "text": "19.1 R Programming",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#r-programming",
     "href": "class_materials/resources/resources.html#r-programming",
-    "title": "18  Useful resources for Data Collection & Managment",
+    "title": "19  Useful resources for Data Collection & Managment",
     "section": "",
     "text": "Essential Resources\n\nR for Data Science book: Hadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nRStudio Keyboard Shortcuts: A list of the keyboard shortcuts for Mac, Windows, and Linux can be found here.\nWhere and How to ask for help:\n\n\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\n\nTutorials\n\nPaul van der Laken’s List of books, tutorials, and other resources on topics ranging from data manipulation to data validation to data visualization.\nR Essential Training: Wrangling and Visualizing Data. (requires a UF email address to access LinkedIn Learning).\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl: learn R programming interactively, at your own pace, and in the R console.\nR Bootcamp by Ted Laderas and Jessica Minnier. Learn R in your browser.\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning is written for Python users but the pricniples apply regardless of language.",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#specific-data-cleaning-and-management-problems",
     "href": "class_materials/resources/resources.html#specific-data-cleaning-and-management-problems",
-    "title": "18  Useful resources for Data Collection & Managment",
-    "section": "18.2 Specific Data Cleaning and Management Problems",
-    "text": "18.2 Specific Data Cleaning and Management Problems\n\nDates & Times\n\nHandling dates and times in R\n\n\n\nText & Text Mining\n\nText Mining: tidytext package\n\n\n\nQualtrics\n\nWorking with Qualtrics survey data: qualtRics package\n\n\n\nText Extraction\n\nOptical Character Recognition (OCR): extract text from images: tesseract package\nExtract text & metadata from pdf files: pdftools package\n\n\n\nImages & Image Processing\n\nImage processing: the magick package",
+    "title": "19  Useful resources for Data Collection & Managment",
+    "section": "19.2 Specific Data Cleaning and Management Problems",
+    "text": "19.2 Specific Data Cleaning and Management Problems\n\nDates & Times\n\nHandling dates and times in R\n\n\n\nText & Text Mining\n\nText Mining: tidytext package\n\n\n\nQualtrics\n\nWorking with Qualtrics survey data: qualtRics package\n\n\n\nText Extraction\n\nOptical Character Recognition (OCR): extract text from images: tesseract package\nExtract text & metadata from pdf files: pdftools package\n\n\n\nImages & Image Processing\n\nImage processing: the magick package",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#advanced-r-packages-for-data-management",
     "href": "class_materials/resources/resources.html#advanced-r-packages-for-data-management",
-    "title": "18  Useful resources for Data Collection & Managment",
-    "section": "18.3 Advanced R Packages for Data Management",
-    "text": "18.3 Advanced R Packages for Data Management\n\nDataCurator package: ‘a simple desktop data editor to help describe, validate and share usable open data’.\nRegExr: online tool to learn, build, & test Regular Expressions (RegEx / RegExp)\njanitor (cleanup of file names, etc.)\nROpenSci: tools for accessing, manipulating, and visualizing open data",
+    "title": "19  Useful resources for Data Collection & Managment",
+    "section": "19.3 Advanced R Packages for Data Management",
+    "text": "19.3 Advanced R Packages for Data Management\n\nDataCurator package: ‘a simple desktop data editor to help describe, validate and share usable open data’.\nRegExr: online tool to learn, build, & test Regular Expressions (RegEx / RegExp)\njanitor (cleanup of file names, etc.)\nROpenSci: tools for accessing, manipulating, and visualizing open data",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#data-visualization",
     "href": "class_materials/resources/resources.html#data-visualization",
-    "title": "18  Useful resources for Data Collection & Managment",
-    "section": "18.4 Data Visualization",
-    "text": "18.4 Data Visualization\n\nData Visualization: a practical introduction by Kieran Healy is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.",
+    "title": "19  Useful resources for Data Collection & Managment",
+    "section": "19.4 Data Visualization",
+    "text": "19.4 Data Visualization\n\nData Visualization: a practical introduction by Kieran Healy is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#slide-presentations",
     "href": "class_materials/resources/resources.html#slide-presentations",
-    "title": "18  Useful resources for Data Collection & Managment",
-    "section": "18.5 Slide & Presentations",
-    "text": "18.5 Slide & Presentations\n\nMake slide presentations with R",
+    "title": "19  Useful resources for Data Collection & Managment",
+    "section": "19.5 Slide & Presentations",
+    "text": "19.5 Slide & Presentations\n\nMake slide presentations with R",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#documents-reports",
     "href": "class_materials/resources/resources.html#documents-reports",
-    "title": "18  Useful resources for Data Collection & Managment",
-    "section": "18.6 Documents & Reports",
-    "text": "18.6 Documents & Reports\n\nknitr overview: reproducible documents with R",
+    "title": "19  Useful resources for Data Collection & Managment",
+    "section": "19.6 Documents & Reports",
+    "text": "19.6 Documents & Reports\n\nknitr overview: reproducible documents with R",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#discipline-specific-r-resources",
     "href": "class_materials/resources/resources.html#discipline-specific-r-resources",
-    "title": "18  Useful resources for Data Collection & Managment",
-    "section": "18.7 Discipline-specific R Resources",
-    "text": "18.7 Discipline-specific R Resources\n\nHistory\n\nhistorydata package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.\nThe Programming Historian Website: wide range of topics, from text analysis to OpenRefine\n\n\n\nPsychology\n\n‘Programming for Psychologists: Data Creation and Analysis’ by Matthew J. C. Crump",
+    "title": "19  Useful resources for Data Collection & Managment",
+    "section": "19.7 Discipline-specific R Resources",
+    "text": "19.7 Discipline-specific R Resources\n\nHistory\n\nhistorydata package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.\nThe Programming Historian Website: wide range of topics, from text analysis to OpenRefine\n\n\n\nPsychology\n\n‘Programming for Psychologists: Data Creation and Analysis’ by Matthew J. C. Crump",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#data-archives",
     "href": "class_materials/resources/resources.html#data-archives",
-    "title": "18  Useful resources for Data Collection & Managment",
-    "section": "18.8 Data Archives",
-    "text": "18.8 Data Archives\n\nQualitative Data Repository: dedicated archive for storing and sharing digital data (and accompanying documentation) generated or collected through qualitative and multi-method research in the social sciences and related disciplines.\nData Dryad: open data publishing platform and a community committed to the open availability and routine re-use of all research data.\nICPSR: data access, curation, and analytical methods for social science.",
+    "title": "19  Useful resources for Data Collection & Managment",
+    "section": "19.8 Data Archives",
+    "text": "19.8 Data Archives\n\nQualitative Data Repository: dedicated archive for storing and sharing digital data (and accompanying documentation) generated or collected through qualitative and multi-method research in the social sciences and related disciplines.\nData Dryad: open data publishing platform and a community committed to the open availability and routine re-use of all research data.\nICPSR: data access, curation, and analytical methods for social science.",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
@@ -1238,7 +1293,7 @@
     "text": "title: “Class Slides”\n\nThe following slides are available in HTML format You can export them as PDFs by clicking on the three bars in the bottom left corner and selecting “PDF Export Mode” under the “Tools” Option.\n\nIntroduction\n\nData Organization & Backups\n\n‘Reproducible’ Data Management",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>slidedecks.html</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>slidedecks.html</span>"
     ]
   }
 ]
