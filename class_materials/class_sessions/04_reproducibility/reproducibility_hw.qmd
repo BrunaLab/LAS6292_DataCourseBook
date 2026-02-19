@@ -6,8 +6,7 @@
 #       - name: University of Florida
 title-block-style: default
 date-modified: last-modified
-execute:
-  echo: false
+
 ---
 
 # Reproducible Data Correction with R

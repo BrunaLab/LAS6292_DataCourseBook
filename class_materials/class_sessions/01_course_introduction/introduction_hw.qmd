@@ -1,9 +1,9 @@
 ---
-author:
-  - name: Emilio M. Bruna
-    affiliations:
-      - id: uf
-      - name: University of Florida
+# author:
+#   - name: Emilio M. Bruna
+#     affiliations:
+#       - id: uf
+#       - name: University of Florida
 title-block-style: default
 date-modified: last-modified
 
