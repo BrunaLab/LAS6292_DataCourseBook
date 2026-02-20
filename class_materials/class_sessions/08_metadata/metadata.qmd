@@ -52,15 +52,15 @@ It is worth looking in these catalogs to see if you can find metadata standards 
 I have created metadata templates based on information from ICSPR (for social sciences) and Michener _et al._ 1997 (for biophysical sciences) that can be downloaded and edited; you can add more fields or delete any that are not relevant. Note that Table 1 in Michener _et al._ is much more comprehensive and provides additional guidance on how to make sure the metadata are useful.  The templates are available in `.txt`, `.Rmd`, and `.qmd` format).
 
 
-1. **Metadata Template for Social Sciences:** 
+1. **Metadata Template for Social Sciences ** based on ICSPR standards: [.txt format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/ICPSR_Metadata.txt) or [.Rmd format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/ICPSR_Metadata.Rmd). 
 
-from ICSPR: [.txt format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/ICPSR_Metadata.txt) or [.Rmd format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/ICPSR_Metadata.Rmd). _See note below for additional info on Qualitative Data._
+1. **Metadata template for Biophysical Sciences** based on Table 1 from Michener _et al._ 1997: [.txt format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/Michener_etal_1997_Table1.txt) or [.Rmd format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/Michener_etal_1997_Table1.Rmd)
 
-1. **Metadata template for Biophysical Sciences**: 
-Table 1 from Michener et al. 1997: [.txt format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/Michener_etal_1997_Table1.txt) or [.Rmd format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/Michener_etal_1997_Table1.Rmd)
+1. **Metadata for the Humanities or those working primarily with Qualitative Data:** The metadata required often depend on the type of material with which you work (e.g., oral history, photos, digital, printed). If your data is in this domain, you can use this general template from the UF Humanities Archives: [Template #2](https://docs.google.com/spreadsheets/d/1K9RRNWrWbK0ikQai4_baBmxobqsX6jwEsiAHVjEJRDE/edit#gid=1745662283). You can also review the [metadata required by the Qualitative Data Repository](https://qdr.syr.edu/content/qdr-metadata-application-profile).
 
-1. _Note for researchers in the Humanities or those working primarily with Qualitative Data:_** The metadata required often depend on the type of material with which you work (e.g., oral history, photos, digital, printed). If your data is in this domain, you can download templates here: [Template No.1](https://docs.google.com/spreadsheets/d/1x98TWee85Gq9oas90JJYtB5DyPBkMSNEs29Mb1qyAeQ/edit#gid=0) is from UF's Samuel Proctor Oral History Project, [Template #2](https://docs.google.com/spreadsheets/d/1K9RRNWrWbK0ikQai4_baBmxobqsX6jwEsiAHVjEJRDE/edit#gid=1745662283) is a more general one from the UF Humanities Archives. You can also review the [metadata required by the Qualitative Data Repository](https://qdr.syr.edu/content/qdr-metadata-application-profile).
-
+<!-- TODO: UPDATE WITH these for oral-history, and the  -->
+<!-- https://digitalomnium.com/oral-history-digital-toolbox-my-favorites/ -->
+<!-- [Template No.1](https://docs.google.com/spreadsheets/d/1x98TWee85Gq9oas90JJYtB5DyPBkMSNEs29Mb1qyAeQ/edit#gid=0) from UF's Samuel Proctor Oral History Project,  -->
 
 ## Tools for creating machine-readable metadata 
 

@@ -83,73 +83,73 @@ it is advisable to maintain a redundant copy of your data for 30 days until the 
 Backing up requires discipline and care to ensure nothing is missed and the file back-ups are secure. You can make this easier by doing the following:
 
 
-1. **Plan ahead, and write down your plan.** A written data back-up and security plan includes such information as:
+**Plan ahead, and write down your plan.** A written data back-up and security plan includes such information as:
 
-    * where backups are located
-    * who can access backups and how they can be contacted
-    * how often data should be backed up
-    * what kind of backups are performed
-    * who is responsible for performing the backups and their contact information. For large projects or projects with high-volume data streams include a person with secondary responsibility (the back-up back-up) in case the primary person responsible is unavailable
-    * what hardware and software are used or recommended for performing backups
-    * how and how often to check if backups have been performed successfully
-    * the media are used to backup data
-    * a list of any data that are *not* archived or backed up  
+  * where backups are located
+  * who can access backups and how they can be contacted
+  * how often data should be backed up
+  * what kind of backups are performed
+  * who is responsible for performing the backups and their contact information. For large projects or projects with high-volume data streams include a person with secondary responsibility (the back-up back-up) in case the primary person responsible is unavailable
+  * what hardware and software are used or recommended for performing backups
+  * how and how often to check if backups have been performed successfully
+  * the media are used to backup data
+  * a list of any data that are *not* archived or backed up  
     
   
-2. **Backup your data at regular frequencies**, with backup strategies (e.g., full, incremental, differential) optimized for the data collection process and data type. For instance, you should (at least):
+**Backup your data at regular frequencies**, with backup strategies (e.g., full, incremental, differential) optimized for the data collection process and data type. For instance, you should (at least):
 
-    * Back up when you complete your data collection activity
-    * Back up after you edit / clean data
-    * Streaming data (e.g., from data loggers) should be backed up at regularly scheduled points in the collection process
-    * High-value data should be backed up at much higher frequencies (daily)
+  * Back up when you complete your data collection activity
+  * Back up after you edit / clean data
+  * Streaming data (e.g., from data loggers) should be backed up at regularly scheduled points in the collection process
+  * High-value data should be backed up at much higher frequencies (daily)
 
 
-3. **Put procedures in place to make sure you follow your plan.**  
+**Put procedures in place to make sure you follow your plan.**  
 
-    * set up calendar reminders
-    * use checklists.
-    * Ensure backup copies are identical to the originals (using checksums, file counts, etc.)
-    * Be sure of one of the regular calendar items is to verify successful recovery from a backup copy.
-    * **_Automate as much as possible._** Automation simplifies frequent backups. but be careful with accidental file loss and that back-up copies are actually independent (e.g. Dropbox and a synced folder on your laptop are *not* independent copies).
+  * set up calendar reminders
+  * use checklists.
+  * Ensure backup copies are identical to the originals (using checksums, file counts, etc.)
+  * Be sure of one of the regular calendar items is to verify successful recovery from a backup copy.
+  * **_Automate as much as possible._** Automation simplifies frequent backups. but be careful with accidental file loss and that back-up copies are actually independent (e.g. Dropbox and a synced folder on your laptop are *not* independent copies).
     
     
-4. **Ensure the Security of Restricted Data.**
+**Ensure the Security of Restricted Data.**
 
-    * All data collected by UF affiliates falls into one of the classifications defined in the [UF Data Policy](https://it.ufl.edu/policies/information-security/data-classification-policy/). Both original and electronic archives must be secured; failure to do so can have serious consequences for both researchers and institutions. 
+  * All data collected by UF affiliates falls into one of the classifications defined in the [UF Data Policy](https://it.ufl.edu/policies/information-security/data-classification-policy/). Both original and electronic archives must be secured; failure to do so can have serious consequences for both researchers and institutions. 
 
 
 ### File formats for storage  {.unnumbered}
 
 **For long term preservation is it necessary to store data in file formats that will be readable in the future and by a variety of operating systems. **It is also important to provide descriptive information on these data file types and formats. This will facilitate data retrieval and reuse.
 
-1. Document and store data using file-types that are open (ie., non-proprietary), uncompressed, unencrypted (if at all possible), and stable:
+Store data and documentation using file-types that are open (ie., non-proprietary), uncompressed, unencrypted (if at all possible), and stable:
 
-      * `ASCII` formatted files will be readable into the future. For tabular data use comma-separated values, `.csv`, for text use `.txt` (alternatively `.rtf`).
-      * Images: `TIFF` (uncompressed)
-      * Video: MPEG-4 (`.mp4`) or motion JPEG 2000 (`.jp2`)
-      * AudioL Free Lossless Audio Codec (`.flac`)
-      * Documentation: `.txt` (preferred), PDF/A (`.pdf`)
-      * Structured, highly coded data: `.xml`
-      * For geospatial (raster) data the following provide a stable format:  
-          * `GeoTIFF/TIFF`
-          * `ASCII Grid`
-          * Binary image files
-          * `NetCDF`
-          * `HDF` or `HDF-EOS`
-      * For image (Vector) data use the following file formats (these are mostly proprietary data formats; please be sure to document the Software Package, Version, Vendor, and native platform):
-          * ARCVIEW software: store components of an ArcView shape file (`.shp`, `.sbx`, `.sbn`, `.prj`, and `.dbf` files)
+  * `ASCII` formatted files will be readable into the future. For tabular data use comma-separated values, `.csv`, for text use `.txt` (alternatively `.rtf`).
+  * Images: `TIFF` (uncompressed)
+  * Video: MPEG-4 (`.mp4`) or motion JPEG 2000 (`.jp2`)
+  * AudioL Free Lossless Audio Codec (`.flac`)
+  * Documentation: `.txt` (preferred), PDF/A (`.pdf`)
+  * Structured, highly coded data: `.xml`
+  * For geospatial (raster) data the following provide a stable format:  
+       * `GeoTIFF/TIFF`
+       * `ASCII Grid`
+       * Binary image files
+       * `NetCDF`
+       * `HDF` or `HDF-EOS`
+  * For image (Vector) data use the following file formats (these are mostly proprietary data formats; please be sure to document the Software Package, Version, Vendor, and native platform):
+      * ARCVIEW software: store components of an ArcView shape file (`.shp`, `.sbx`, `.sbn`, `.prj`, and `.dbf` files)
           * ENVI -- `.evf` (ENVI vector file)
           * ESRI Arc/Info export file (`.e00`)  
       * **_Note:_** Certain file formats, such as shapefiles, can be made up of as many as 7 individual files. If one of those files is absent from the file assembly the shapefile data utility may be lost. Awareness of adherence to a particular file format standard can also be helpful for determining, for example, if a particular software package can read the data file. Awareness of whether that standard or format is open source or proprietary will also influence how and if the data file can be read.  
       
-2. If a particular software package required to read and work with the data file, you need to make sure you have a copy, a backup copy, *and a computer with the proper operating system to use the software.*
+If a particular software package required to read and work with the data file, you need to make sure you have a copy, a backup copy, and a computer with the proper operating system to use the software.
 
-3. For audio and image files, back up with the highest-quality file-type possible (i.e., the 'lossless' format rather than the 'lossy' format).  For example, `jpeg` is lossy, meaning images saved with this file type will have less detail than images saved with the lossless `TIFF` format if at all possible back-up.
+For audio and image files, back up with the highest-quality file-type possible (i.e., the 'lossless' format rather than the 'lossy' format).  For example, `jpeg` is lossy, meaning images saved with this file type will have less detail than images saved with the lossless `TIFF` format if at all possible back-up.
 
 
-### Tools & Resources {.unnumbered}
+## Tools & Resources
 
-#### UF Library Guides {.unnumbered}
+### UF Library Guides {.unnumbered}
 
 * UF Library: [Data File Types and Formats](https://guides.uflib.ufl.edu/c.php?g=147756&p=966586)
 * UF Library: [Data Storage](https://guides.uflib.ufl.edu/datamanagement/storage)
@@ -162,11 +162,11 @@ Backing up requires discipline and care to ensure nothing is missed and the file
 <!-- * [Stanford Library Guidelines](https://library.stanford.edu/research/data-management-services/storage-and-backup) -->
  
 
-#### Overview of 'Checksums' and Checksum Calculators {.unnumbered}
+### Overview of 'Checksums' and Checksum Calculators {.unnumbered}
 
 * [Fisher, Tim. What Is a Checksum?](https://www.lifewire.com/what-does-checksum-mean-2625825)  (updated 15 April 2020).
 
-#### File Formats and Extensions {.unnumbered} 
+### File Formats and Extensions {.unnumbered} 
 
 * UF library [recommended Data Formats for Preservation Purposes in the Florida Digital Archive](https://ufdc.ufl.edu/AA00017119/00011/pdf)
 * [What is XML?](https://www.w3schools.com/xml/xml_whatis.asp)
@@ -179,8 +179,7 @@ Backing up requires discipline and care to ensure nothing is missed and the file
 * [File formats-Best Practices (Stanford Library)](https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-formats)
 * [Library of Congress](http://www.loc.gov/preservation/resources/rfs/data.html)  
 
-
-#### UF-based Storage Options {.unnumbered}
+### UF-based Storage Options {.unnumbered}
 
 * Overview of UF Cloud Data Services, aka [GatorCloud](https://it.ufl.edu/services/search/gatorcloud)
 * [Free UF Dropbox for Education](https://education.ufl.edu/educational-research/9729), UF Dropbox [FAQs](https://cloud.it.ufl.edu/uf-dropbox/frequently-asked-questions/), and information on how [your advisor can submit a request for your UF Dropbox account](https://cloud.it.ufl.edu/media/clouditufledu/How-to-Obtain-Access-to-UF-Dropbox-for-Education.pdf)
@@ -188,7 +187,7 @@ Backing up requires discipline and care to ensure nothing is missed and the file
 * [Free MS One Drive](https://it.ufl.edu/services/gatorcloud-onedrive-uf) (but also read why I suggest NOT using this [here)](http://brunalab.org/blog/2015/07/24/onedrive-notes/)
 * for very large data volumes or data data required extra security protection due to privacy restrictions, etc. seek the assistance of [UF Research Computing](https://www.rc.ufl.edu/about/our-services/storage-resources/)
 
-#### Storage and backup for very large volumes of data (multiple TB) {.unnumbered}
+### Storage and backup for very large volumes of data (multiple TB) {.unnumbered}
 
 * [Cyverse](cyverse.org/about)
 * [Amazon Web Services (AWS) S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)
@@ -198,21 +197,21 @@ Backing up requires discipline and care to ensure nothing is missed and the file
 * [Globus](https://www.globus.org/)
 * Uploading large files to Google drive: [tutorial blog post](https://massive.io/how-to/upload-large-files-google-drive-quickly/)
 
-#### Tools for File Syncing 
+### Tools for File Syncing  {.unnumbered}
 
 * [MacDropAny (macOS)](https://www.macupdate.com/app/mac/37029/macdropany)
 * [MultCloud](https://www.multcloud.com/)
 * Dropbox (use [via UF](https://it.ufl.edu/services/dropbox-for-education) for research, teaching)
 * Google Drive (use [via UF](https://cloud.it.ufl.edu/collaboration-tools/g-suite/) for research, teaching)
 
-#### Portable HDs and Backup Services {.unnumbered} 
+### Portable HDs and Backup Services {.unnumbered} 
 
 * **Remember:** Dropbox and Google drive are not true backups if set up as a file syncing tool.
 * NY Times *Wirecutter* Reviews & Recommendations:
 * [portable hard drives](https://www.nytimes.com/wirecutter/reviews/best-portable-hard-drive/)
 * [automated data backup services](https://www.nytimes.com/wirecutter/reviews/best-online-backup-service/); their recommendation was [SpiderOak](https://spideroak.com/).
 
-#### Tools for Automating Data Uploading During Data Collection: 
+### Tools for Automating Data Uploading During Data Collection  {.unnumbered}
 * [IFTTT and others](http://tinyurl.com/y9bz8suj)
   
 ### Online multimedia repositories and tools {.unnumbered}
@@ -260,7 +259,7 @@ Backing up requires discipline and care to ensure nothing is missed and the file
 * may not be open to all
 * may have restrictions on bandwidth usage
 
-#### A step back: what needs to be preserved? {.unnumbered}
+### A step back: what needs to be preserved? {.unnumbered}
 
 To meet multiple goals for preservation, researchers should think broadly about the digital products that their project generates, preserve as many as possible, preserve all that they are required to preserve for as long as required or longer, and plan the appropriate preservation methods for each. Consider how long and how to preserve the following, taking into account **(1)** what would be necessary to reconstruct a complete data set if files downstream were lost **(2)**, how long each needs to be kept, and **(3)** the cost of and space required for preserving data for different lengths of time:
 
@@ -274,7 +273,7 @@ To meet multiple goals for preservation, researchers should think broadly about 
 8. Any data sets obtained from others that were used in data processing
 
 
-### Sources {.unnumbered}
+## Reading and Sources  
 
 1. DataONE Community Engagement & Outreach Working Group, DataONE  (July 01, 2010) "Best Practice: Plan for effective multimedia management". Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/bestpractices/plan-for-effective on Aug 31, 2020
 

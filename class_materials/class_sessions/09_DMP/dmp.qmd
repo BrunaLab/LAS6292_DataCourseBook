@@ -84,7 +84,7 @@ For details on what information should be included in each component, see "DMP D
 ## DMP Details
 
 
-### **1. Information About Data & Data Format**  
+### **1. Information About Data & Data Format**   {.unnumbered}
 
 *1.1  Description of data to be produced*  
 
@@ -133,7 +133,7 @@ For details on what information should be included in each component, see "DMP D
 * Who will be responsible
 
 
-### **2. Metadata Content & Format**  
+### **2. Metadata Content & Format**   {.unnumbered}
 
 * Metadata defined: 
 * Documentation and reporting of data
@@ -155,7 +155,7 @@ For details on what information should be included in each component, see "DMP D
 * Justification for format chosen
 
 
-### **3. Policies for Access, Sharing, Reuse**
+### **3. Policies for Access, Sharing, Reuse** {.unnumbered}
 
 *3.1  Obligations for sharing*  
 
@@ -189,7 +189,7 @@ For details on what information should be included in each component, see "DMP D
 * How should data be cited when used?
 * Do you need a persistent citation (e.g. DOI)?
 
-### **4. Long-term Storage & Data Management**
+### **4. Long-term Storage & Data Management** {.unnumbered}
 
 *4.1  What data will be preserved*
 *4.2  Where will it be archived*
@@ -202,13 +202,13 @@ For details on what information should be included in each component, see "DMP D
 * Contact person for archive
 
 
-### **5. Roles and responsibilities**
+### **5. Roles and responsibilities** {.unnumbered}
 
 *5.1 Outline the roles and responsibilities for implementing this data management plan*.
 
 * Who will be responsible for data management and for monitoring the data management plan? How will adherence to this data management plan be checked or demonstrated? What process is in place for transferring responsibility for the data? Who will have responsibility over time for decisions about the data once the original personnel are no longer available?
 
-### **6. Budget**
+### **6. Budget** {.unnumbered}
 
 *6.1  Anticipated costs*
 

@@ -12,18 +12,18 @@ date-modified: last-modified
 
 ## Transcription
 
+### Transcription tools & software  {.unnumbered}
+
 The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/international-ethnography-lab-at-uf/) has access to [Trint Transcription Software](https://trint.com/), which has [detailed tutorials](https://info.trint.com/knowledge/trint-live-transcription-trint-help-center?utm_source=google&utm_medium=paid-search&utm_campaign=US|Generic|PerformanceMax&utm_content=19096908663|&utm_term=&hsa_ver=3&hsa_acc=9049097615&hsa_mt=&hsa_src=x&hsa_cam=19096908663&hsa_grp=&hsa_tgt=&hsa_kw=&hsa_ad=&hsa_net=adwords&gad_source=1&gclid=Cj0KCQjwzZmwBhD8ARIsAH4v1gVL5MGdq6p-J-xyIi22nim4ZhewHPxAw7sQe6pV9DcO2EkaZstwZ_gaAsl8EALw_wcB)
 
-### Transcription tools & software 
-
-#### Reviews of transcription tools {.unnumbered}
+### Reviews of transcription tools {.unnumbered}
 
 1.  [Comparison Video](https://www.youtube.com/watch?v=GAmkIHJl7A0 comparisons)
 
 1. NY Times' Wirecutter [review of transcription services](https://www.nytimes.com/wirecutter/reviews/best-transcription-services/) 
 
 
-#### Tools: Automated Transcription via file upload {.unnumbered}
+### Tools: Automated Transcription via file upload {.unnumbered}
 
 **_Top-Tier _**   {.unnumbered}
 
@@ -43,7 +43,7 @@ The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/internationa
 
 1. [Amazon Transcribe](https://aws.amazon.com/transcribe/)
 
-#### Tools: Automated transcription via API  {.unnumbered}
+### Tools: Automated transcription via API  {.unnumbered}
 
 <!-- 1. [```transcribeR``` package](https://cran.r-project.org/web/packages/transcribeR/index.html) uses HP IDOL OnDemand's Speech Recognition API.                * [Vignette](https://cran.r-project.org/web/packages/transcribeR/vignettes/Transcribing_audio_with_transcribeR.html)  -->
 <!--     * [Reference manaual](https://cran.r-project.org/web/packages/transcribeR/transcribeR.pdf) -->
@@ -53,7 +53,7 @@ The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/internationa
 
 1. [```AWS transcribe```](https://github.com/cloudyr/aws.transcribe) uses the Amazon Web Services to do transcription via API. Has program for NGO/non-profits.
 
-#### Tools: Automated transcription via dictation  {.unnumbered}
+### Tools: Automated transcription via dictation  {.unnumbered}
 
 1. [Google Docs](https://www.google.com/docs). See also [Google Docs Voice Recognition](https://support.google.com/docs/answer/4492226?hl=en) and [helpful how-to blog post on transcription using google docs and voice recognition](https://qz.com/work/1087765/how-to-transcribe-audio-fast-and-for-free-using-google-docs-voice-typing/)  
 
@@ -63,7 +63,7 @@ The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/internationa
 
 1. [How to use Windoes Voice Dictation](https://www.windowscentral.com/how-use-voice-dictation-windows-10) and [Windows Speech Recognition Commands](https://support.microsoft.com/en-us/help/12427/windows-speech-recognition-commands)
 
-#### Tools: "Manual" transcription
+### Tools: "Manual" transcription  {.unnumbered}
 
 1. [oTranscribe](https://otranscribe.com/)  Incredibly easy, web based, with time stamps, variable speed.
 
@@ -86,7 +86,7 @@ The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/internationa
 1. Adobe Premiere: [Speech-to-Text Tutorial](https://digitalanarchy.com/blog/video-editing-tutorial/speech-to-text-using-speech-analysis-in-premiere-pro-creative-cloud/) and [Workaround if you are using a version later than 7.2.2](https://helpx.adobe.com/premiere-pro/using/speech-analysis.html). UF Students can use Adobe products on [UFApps](https://info.apps.ufl.edu/adobeatufapps/)
 
 
-### Transcription Style & Coding Guides  
+### Transcription Style & Coding Guides    {.unnumbered}
 
 1. Samuel Proctor Project [Style Guide](https://ufdc.ufl.edu/IR00002513/00001)
 
@@ -106,19 +106,19 @@ The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/internationa
 
 1. Programming Historian Guide to [Text Automation](https://digital-historian.com/text-automation/)
 
-#### Examples of Transcription Notes {.unnumbered}
+### Examples of Transcription Notes {.unnumbered}
     
 1. [Sample 1](https://ufdc.ufl.edu/AA00062074/00001/pdf)
     
 1. [Sample 2](http://www.gutenberg.org/files/21829/21829-h/21829-h.htm)
 
-## Setting up Text Shortcuts
+### Setting up Text Shortcuts
     
 1. [Google Docs](https://www.howtogeek.com/448511/how-to-use-text-shortcuts-in-google-docs/)
 
 1. [MS Word](https://wordribbon.tips.net/T006829_Inserting_Text_with_a_Shortcut_Key.html#:~:text=Position%20the%20insertion%20point%20in,commands%20currently%20using%20this%20shortcut.)
 
-### Useful Websites and Tutorials
+### Useful Websites and Tutorials  {.unnumbered}
 
 #### Dictionaries, Slang, and Colloquialisms   {.unnumbered}
 
@@ -134,7 +134,7 @@ The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/internationa
 
 1. Jennifer Marie's YouTube channel on [Transcription Tools & Tips](https://www.youtube.com/channel/UC-ooPg34j8PK3osA4l-726Q) 
 
-### Equipment 
+### Equipment   {.unnumbered}
 
 #### Pedals {.unnumbered}
 
@@ -143,7 +143,7 @@ The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/internationa
 2. [Kinesis](https://kinesis-ergo.com/products/#foot-switches)
 
 
-### Misc. Software & Apps
+### Misc. Software & Apps  {.unnumbered}
 
 1. [SayMore](https://software.sil.org/saymore/): tools for common Language Documentation tasks
 
@@ -153,7 +153,7 @@ The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/internationa
 
 1. [App for recording phone interviews](https://www.tapeacall.com) (note: be aware of relevant local and national laws regarding recording phone calls).  
   
-### Post-Transcription Text Analytics
+### Post-Transcription Text Analytics  {.unnumbered}
 
 1. [Planning for text analytics (extraction and organization) in R](https://towardsdatascience.com/organizing-your-first-text-analytics-project-ce350dea3a4a)  
 1. Silge and Robinson's **outstanding** book ['Text Analysis in R'](https://www.tidytextmining.com/)
@@ -161,7 +161,7 @@ The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/internationa
 
 ## Translation
 
-### Tools: Automated Translation of Text
+### Tools: Automated Translation of Text  {.unnumbered}
            
 1. [Google Translate](https://translate.google.com/) and [help documents](https://support.google.com/docs/answer/4492226?hl=en#zippy=%2Cadd-punctuation).
 
@@ -171,7 +171,7 @@ The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/internationa
 
 1. [DeepL](https://www.deepl.com/translator)  
 
-### Tools: Automated Translation of Audio
+### Tools: Automated Translation of Audio  {.unnumbered}
 
 1. [Happy Scribe](https://www.happyscribe.com/). 40+ languages. 30 min. free then paid; [student pricing available](https://www.happyscribe.com/audio-to-text-for-students). Can integrate with Zapier to up/download files from [Google Drive](https://zapier.com/apps/happy-scribe/integrations/google-drive) and [Dropbox](https://zapier.com/apps/happy-scribe/integrations/dropbox) **_Multiple languages_**
   

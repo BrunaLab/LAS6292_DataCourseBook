@@ -9,11 +9,11 @@ date-modified: last-modified
 
 ---
 
-# QA/QC 1: In-class Activities {.unnumbered}
+# QA/QC 1: In-class Activities  
 
 ## Data Entry with Speech-to-Text 
 
-###  MS Excel
+###  MS Excel  {.unnumbered}
 
 1. 'Speak Cells' [Tutorial Video](https://youtu.be/5ZOsMe0aPt8). This will allow you to select rows or columns of Excel and have them read back to you. 
         *Alternative video: it's not as thorough, but it is a bit easier to see the menu on [this video](https://youtu.be/q6LOhQThvB8)
@@ -23,7 +23,7 @@ speak cells on enter Excel https://youtu.be/DSltR90mkgc
 
 3. Mac settings are a bit different. Can you figure them out? 
 
-### Google Docs
+### Google Docs  {.unnumbered}
 
 If you prefer working in Google Docs you can do the same thing. [This article](https://www.businessinsider.com/how-to-make-google-docs-read-to-you) will show you how. You can also watch [this video](https://youtu.be/3UmI5wo5kHg).
 

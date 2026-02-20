@@ -13,19 +13,17 @@ date-modified: last-modified
 
 ![How many ways can you spell....](noam_tweet.png){width=40%}
 
-## OpenRefine Home
+## OpenRefine
 
-
-OpenRefine is a powerful, free, and open source tool that is used to work with and clean messy data. 
-
-[Open Refine](https://openrefine.org/) Homepage. Includes the [user's manual](https://docs.openrefine.org/) and links to [more tutorials](https://openrefine.org/documentation.html).
+[Open Refine](https://openrefine.org/) is a powerful, free, and open source tool that is used to work with and clean messy data. The website includes a [user's manual](https://docs.openrefine.org/) and links to [more tutorials](https://openrefine.org/documentation.html).
 
 <!-- ## UF Library Workshops -->
 
 <!-- * The UF Library teaches a number of excellent workshops, including one on using OpenRefine taught by Dr. Hao Ye. You can see the schedule (or request one) [here](https://ufl.libcal.com/calendar/workshops/?cid=11693&t=d&d=0000-00-00&cal=11693,5125,8858&inc=0). -->
 
 <!-- ## Tutorials -->
-## Tutorials 
+
+## OpenRefine Tutorials 
 
 * Data Carpentry: [Data Cleaning with OpenRefine for Social Scientists	](https://datacarpentry.org/openrefine-socialsci/). 
 
@@ -48,6 +46,6 @@ OpenRefine is a powerful, free, and open source tool that is used to work with a
 * Even better: code4lib Toronoto's [OpenRefine cheatsheets](https://code4libtoronto.github.io/2018-10-12-access/GoogleRefineCheatSheets.pdf), including for GREL commands.
 * Datenschule's [OR Cheatsheets](https://datenschule.de/files/downloads/workshops/CheatSheet-Open-Refine.pdf)
 
-## R Tools
+## R Tools for OpenRefine
 
 * The [rrefine package](https://cran.r-project.org/web/packages/rrefine/vignettes/rrefine-vignette.html) allows you to do some OpenRefine tasks from within R. 
