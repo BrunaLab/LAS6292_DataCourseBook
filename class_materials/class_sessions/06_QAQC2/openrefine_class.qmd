@@ -7,7 +7,7 @@
 title-block-style: default
 date-modified: last-modified
 ---
-# Class Outline: QA/QC 2 - Open Refine  {#sec-openrefineclass
+# Class Outline: QA/QC 2 - Open Refine  {#sec-openrefineclass}
 
 ::: {.callout-tip}
 ## Objectives and Competencies
