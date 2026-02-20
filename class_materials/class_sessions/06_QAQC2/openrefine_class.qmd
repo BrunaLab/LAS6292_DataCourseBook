@@ -155,7 +155,9 @@ This session uses the Data Carpentry Lesson [_OpenRefine for Social Science Data
 - Instructor follow-up required to implement most changes: 15  
 
 
---- 
+ 
+### {.unnumbered} 
+
 The materials in this lesson are derived from the Data Carpentry Social Sciences workshop by [The Carpentries](https://carpentries.org/). The materials Materials are licensed under [CC-BY 4.0](https://datacarpentry.github.io/openrefine-socialsci/LICENSE.html) by the authors
 
 
