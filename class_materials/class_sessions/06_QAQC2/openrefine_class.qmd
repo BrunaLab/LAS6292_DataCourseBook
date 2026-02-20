@@ -145,7 +145,7 @@ This session uses the Data Carpentry Lesson [_OpenRefine for Social Science Data
 
 5. _Bonus Brainteaser:_ Many of the cells in the column for the Latin bonomial are blank. How might you go about filling them in based on the column with the abbreviation?
 
-6. **Submission:** Submit your clean `.csv` and the JSON text file as `openrefine_assignment` on Canvas.  
+6. **Submission:** Submit your clean `.csv` and the `.txt` file of JSON output on Canvas.  
 
 ### Grading Rubric: 
 
