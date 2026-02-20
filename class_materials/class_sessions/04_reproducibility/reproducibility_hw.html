@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>15&nbsp; File names, formats, &amp; organization; Data Storage &amp; Backup: Instructor Notes – LAS 6292: Data Collection and Management</title>
+<title>18&nbsp; Reproducible Data Correction with R – LAS 6292: Data Collection and Management</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../class_materials/class_sessions/03_spreadsheets/spreadsheets_class.html" rel="next">
-<link href="../../../class_materials/class_sessions/01_course_introduction/introduction_class.html" rel="prev">
+<link href="../../../class_materials/class_sessions/05_QAQC1/qaqc1_hw.html" rel="next">
+<link href="../../../class_materials/class_sessions/03_spreadsheets/spreadsheets_hw.html" rel="prev">
 <link href="../../../images/cover.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/01_course_introduction/introduction_class.html">Class Notes &amp; Activities</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_organization/organization_backup_class.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">File names, formats, &amp; organization; Data Storage &amp; Backup: Instructor Notes</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/01_course_introduction/introduction_class.html">Class Notes &amp; Activities</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/04_reproducibility/reproducibility_hw.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Reproducible Data Correction with R</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -241,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../class_materials/class_sessions/02_file_organization/organization_backup_class.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../class_materials/class_sessions/02_file_organization/organization_backup_class.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">File names, formats, &amp; organization; Data Storage &amp; Backup: Instructor Notes</span></span></a>
   </div>
 </li>
@@ -265,7 +265,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../class_materials/class_sessions/04_reproducibility/reproducibility_hw.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../class_materials/class_sessions/04_reproducibility/reproducibility_hw.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Reproducible Data Correction with R</span></span></a>
   </div>
 </li>
@@ -327,31 +327,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#pre-class-preparation-materials-needed-instructor" id="toc-pre-class-preparation-materials-needed-instructor" class="nav-link active" data-scroll-target="#pre-class-preparation-materials-needed-instructor"><span class="header-section-number">15.1</span> Pre-Class Preparation &amp; Materials Needed (Instructor):</a></li>
-  <li><a href="#pre-class-preparation-students" id="toc-pre-class-preparation-students" class="nav-link" data-scroll-target="#pre-class-preparation-students"><span class="header-section-number">15.2</span> Pre-class Preparation (Students):</a></li>
-  <li><a href="#class-outline" id="toc-class-outline" class="nav-link" data-scroll-target="#class-outline"><span class="header-section-number">15.3</span> Class Outline</a>
+  <li><a href="#download-the-data-we-will-be-using-in-class" id="toc-download-the-data-we-will-be-using-in-class" class="nav-link active" data-scroll-target="#download-the-data-we-will-be-using-in-class"><span class="header-section-number">18.1</span> Download the data we will be using in class</a></li>
+  <li><a href="#data-cleaning-practice" id="toc-data-cleaning-practice" class="nav-link" data-scroll-target="#data-cleaning-practice"><span class="header-section-number">18.2</span> Data Cleaning: Practice</a>
   <ul class="collapse">
-  <li><a href="#quick-intro" id="toc-quick-intro" class="nav-link" data-scroll-target="#quick-intro"><span class="header-section-number">15.3.1</span> <strong>Quick Intro </strong></a></li>
-  <li><a href="#file-format-competition" id="toc-file-format-competition" class="nav-link" data-scroll-target="#file-format-competition"><span class="header-section-number">15.3.2</span> <strong>File Format Competition </strong></a></li>
-  <li><a href="#snack-break" id="toc-snack-break" class="nav-link" data-scroll-target="#snack-break"><span class="header-section-number">15.3.3</span> <strong>Snack Break </strong></a></li>
-  <li><a href="#breakout-discussion-of-data-security-and-backup-in-the-field" id="toc-breakout-discussion-of-data-security-and-backup-in-the-field" class="nav-link" data-scroll-target="#breakout-discussion-of-data-security-and-backup-in-the-field"><span class="header-section-number">15.3.4</span> <strong>Breakout: Discussion of Data Security and Backup in the field </strong></a></li>
-  <li><a href="#breakout-2-backup-procedures---uf-research-group" id="toc-breakout-2-backup-procedures---uf-research-group" class="nav-link" data-scroll-target="#breakout-2-backup-procedures---uf-research-group"><strong>Breakout 2: Backup Procedures - UF Research Group </strong></a></li>
+  <li><a href="#grading-rubric" id="toc-grading-rubric" class="nav-link" data-scroll-target="#grading-rubric">Grading Rubric:</a></li>
   </ul></li>
-  <li><a href="#messages-to-instill" id="toc-messages-to-instill" class="nav-link" data-scroll-target="#messages-to-instill"><span class="header-section-number">15.4</span> Messages to instill:</a></li>
-  <li><a href="#assignment-for-submission" id="toc-assignment-for-submission" class="nav-link" data-scroll-target="#assignment-for-submission"><span class="header-section-number">15.5</span> Assignment for Submission</a>
-  <ul class="collapse">
-  <li><a href="#submission-and-grading-rubric" id="toc-submission-and-grading-rubric" class="nav-link" data-scroll-target="#submission-and-grading-rubric">Submission and Grading Rubric</a></li>
-  </ul></li>
-  <li><a href="#after-class" id="toc-after-class" class="nav-link" data-scroll-target="#after-class"><span class="header-section-number">15.6</span> After class:</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/02_file_organization/organization_backup_class.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/04_reproducibility/reproducibility_hw.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/01_course_introduction/introduction_class.html">Class Notes &amp; Activities</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_organization/organization_backup_class.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">File names, formats, &amp; organization; Data Storage &amp; Backup: Instructor Notes</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/01_course_introduction/introduction_class.html">Class Notes &amp; Activities</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/04_reproducibility/reproducibility_hw.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Reproducible Data Correction with R</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">File names, formats, &amp; organization; Data Storage &amp; Backup: Instructor Notes</span></h1>
+<h1 class="title"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Reproducible Data Correction with R</span></h1>
 </div>
 
 
@@ -374,181 +363,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Objectives and Competencies
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Describe and implement conventions for proper naming of files</li>
-<li>Explain the difference between proprietary and open formats</li>
-<li>Learn how to efficiently organize their research data files</li>
-<li>Learn the preferred format for storing and archiving different types of data files</li>
-<li>Become familiar with different options for cloud data storage and backup</li>
-<li>Develop and implement a plan for short- and long-term data storage, back-up, and archiving</li>
-<li>Learn rules and policies for data security</li>
-<li>Become familiar with tools for such tasks as batch renaming of files, cloud data storage, and automated data backup.</li>
-<li>Explain options for a long-term sustainable preservation strategy/policy for your data (e.g., discipline specific, institutional, departmental, individual).</li>
-<li>Address the need for conversion to standard formats needed for re-use</li>
-<li>Perform basic archival processes: checksum, auditing, format migration, etc.</li>
-<li>Understand costs &amp; time lines for data storage, management tools and services</li>
-</ul>
-</div>
-</div>
-<section id="pre-class-preparation-materials-needed-instructor" class="level2" data-number="15.1">
-<h2 data-number="15.1" class="anchored" data-anchor-id="pre-class-preparation-materials-needed-instructor"><span class="header-section-number">15.1</span> Pre-Class Preparation &amp; Materials Needed (Instructor):</h2>
-<p><strong>Send in an email to students: </strong></p>
-<ul>
-<li>Confirmation of room and zoom link</li>
-<li>Remind students to bring their computers</li>
-<li>Make sure you know if everyone has R and instlled; level of R fluency</li>
-<li>Snacks</li>
-<li>Copies of the syllabus</li>
-<li>Copy of Course Roster</li>
-<li>Flip charts and markers</li>
-<li>Dry write markers</li>
-<li>Tent cards for student names</li>
-</ul>
-</section>
-<section id="pre-class-preparation-students" class="level2" data-number="15.2">
-<h2 data-number="15.2" class="anchored" data-anchor-id="pre-class-preparation-students"><span class="header-section-number">15.2</span> Pre-class Preparation (Students):</h2>
-<ul>
-<li><p><strong>Readings: </strong></p>
+<section id="download-the-data-we-will-be-using-in-class" class="level2" data-number="18.1">
+<h2 data-number="18.1" class="anchored" data-anchor-id="download-the-data-we-will-be-using-in-class"><span class="header-section-number">18.1</span> Download the data we will be using in class</h2>
 <ol type="1">
-<li><p>Jan Čurn. 2014. How a bug in Dropbox permanently deleted my 8000 photos. <a href="https://medium.com/@jancurn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Curn_2014.pdf">[download pdf]</a></p></li>
-<li><p>PSA: Scrivener, Data Integrity and You. Or, How To Avoid Data Loss Heartbreak. <a href="https://www.reddit.com/r/writing/comments/62hr7o/psa_scrivener_data_integrity_and_you_or_how_to/">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Scrivener_PSA.pdf">[download pdf]</a></p></li>
-<li><p>Hart EM et al.&nbsp;(2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097. <a href="https://doi.org/10.1371/journal.pcbi.1005097">[read online]</a> <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Hart_etal_2016.PDF">[download pdf]</a>.</p></li>
-<li><p>Panzarino, M. 2012. How Pixar’s Toy Story 2 was deleted twice, once by technology and again for its own good. TNW. <a href="https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/">[read online]</a> [[download pdf]]</p></li>
-</ol></li>
-<li><p><strong>Online Lectures:</strong></p>
-<ol type="1">
-<li>Video on <a href="https://youtu.be/h1hIKNC64ac">Project Organization</a></li>
-<li>Video on <a href="https://youtu.be/BMwI7ubvTnE">File Names</a></li>
-<li>Video on <a href="https://youtu.be/H06GSL66Mec">Storage and Backup</a></li>
-</ol></li>
-</ul>
-</section>
-<section id="class-outline" class="level2" data-number="15.3">
-<h2 data-number="15.3" class="anchored" data-anchor-id="class-outline"><span class="header-section-number">15.3</span> Class Outline</h2>
-<!-- ```{r timer, echo=FALSE} -->
-<!-- intro <- 25 -->
-<!-- jeopardy <- 35 -->
-<!-- snack_break <- 10 -->
-<!-- breakout1 <- 25 -->
-<!-- breakout1_return <- 30 -->
-<!-- total_time <- intro + jeopardy +  -->
-<!--   breakout1 + snack_break + breakout1_return  -->
-<!-- time_remain <- 180 - total_time -->
-<!-- ``` -->
-<!-- 1. Turn on zoom captioning  -->
-<section id="quick-intro" class="level3" data-number="15.3.1">
-<h3 data-number="15.3.1" class="anchored" data-anchor-id="quick-intro"><span class="header-section-number">15.3.1</span> <strong>Quick Intro </strong></h3>
-<!-- ### **Block 1: (`r intro` min): **  -->
-<ol type="1">
-<li>Address any questions from last week<br>
-</li>
-<li>Overview of today’s activities.</li>
+<li>Open the messy data file <code>demo_data.csv</code> by following <a href="https://raw.githubusercontent.com/BrunaLab/LAS6292_DataCourseBook/refs/heads/main/class_materials/class_sessions/04_reproducibility/examples/demo_data.csv">this link</a></li>
+<li>the data will open as a tab in your web browser in <code>.csv</code> format; save them to the <code>data_raw</code> folder by going to ‘File’ on the menu bar of your web browser and selecting ‘Save page as’ from the drop-down menu.</li>
+<li>save the file to the <code>data_raw</code> folder.</li>
 </ol>
-<!-- ### **Block 2: File Format Competition (`r jeopardy` min)** -->
+<!-- ![Download Files by following the link and clicking this button.](raw_download.png){width=50%} -->
 </section>
-<section id="file-format-competition" class="level3" data-number="15.3.2">
-<h3 data-number="15.3.2" class="anchored" data-anchor-id="file-format-competition"><span class="header-section-number">15.3.2</span> <strong>File Format Competition </strong></h3>
-<!-- These are common file formats used to collect, analyze, and store data. Can you tell me what the extensions stand for? Winner gets swag... -->
-</section>
-<section id="snack-break" class="level3" data-number="15.3.3">
-<h3 data-number="15.3.3" class="anchored" data-anchor-id="snack-break"><span class="header-section-number">15.3.3</span> <strong>Snack Break </strong></h3>
-<!-- ### **Snack Break (`r snack_break` min)** -->
-</section>
-<section id="breakout-discussion-of-data-security-and-backup-in-the-field" class="level3" data-number="15.3.4">
-<h3 data-number="15.3.4" class="anchored" data-anchor-id="breakout-discussion-of-data-security-and-backup-in-the-field"><span class="header-section-number">15.3.4</span> <strong>Breakout: Discussion of Data Security and Backup in the field </strong></h3>
-<!-- ### **Block 3: Breakout 1 (`r breakout1` min): ** -->
-<p><em>Prompt:</em> Robin is a graduate student studying Malaria in Tanzania. The research project requires visiting communities, collecting mosquitoes from different sources of standing water (for later identification at the FLMNH and statistical analyses of mosquito diversity and abundance) and conducting semi–structured interviews in the community, where people are asked such things as their age, family income, their access to health care, if they have ever had malaria, their family income, use of mosquito nets. Answers are recorded on data sheets, but the interviews are also recorded with the cell phone for later transcription. Robin also takes pictures of houses to document standing water sources. Throughout the day Robin records observations in a notebook. Robin is staying in a house where there is electricity for a laptop. Once every two weeks Robin goes into town, where there is usually good internet access at the university.</p>
-<p>What steps should Robin take in the field to safeguard the data collected in the field?</p>
-<section id="breakout-discussion" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="breakout-discussion"><strong>Breakout Discussion </strong></h4>
-<!-- #### **Breakout Discussion (`r breakout1_return` min)** {.unnumbered} -->
+<section id="data-cleaning-practice" class="level2" data-number="18.2">
+<h2 data-number="18.2" class="anchored" data-anchor-id="data-cleaning-practice"><span class="header-section-number">18.2</span> Data Cleaning: Practice</h2>
 <ol type="1">
-<li>Group discussion of breakout</li>
-<li><em>Key message:</em> assume the worst case scenario. become paranoid. embrace neurosis. then relax because the plan is in place and all possibilities have been acounted for.</li>
-</ol>
-</section>
-</section>
-<section id="breakout-2-backup-procedures---uf-research-group" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="breakout-2-backup-procedures---uf-research-group"><strong>Breakout 2: Backup Procedures - UF Research Group </strong></h3>
-<!-- ### 8. **Breakout 2: Backup Procedures - UF Research Group (`r time_remain` min) ** {.unnumbered} -->
-<p><em>Prompt:</em> Please ask each other these questions and then briefly discuss and summarize the responses. Keep the answers anonymous. The goal is to document the range of answers to these questions, so you can summarize or give more detailed answers about individuals as needed.</p>
-<ol type="1">
-<li><p>Does your advisor / lab / research group have formal policies that govern your data storage, protection, and backup?</p></li>
-<li><p>Are you currently backing up your research data?</p></li>
-<li><p>Do you have a ‘backup plan’ document?</p></li>
-<li><p>How frequently are you backing up your research data?</p></li>
-<li><p>Is it Partial (incremental) or full backup?</p></li>
-<li><p>Where are files backed up?</p></li>
-<li><p>What metadata accompanies these backups?</p></li>
-<li><p>How do you verify that a backup has been successfully performed?</p></li>
-<li><p>Have you ever attempted to read data from older backups?</p></li>
-<li><p>Have you ever had to restore a file from a backup version?</p></li>
-<li><p>Are you working with data requiring additional protection due to privacy or security concerns?</p></li>
-<li><p>If so, what are the additional safeguards you have implemented?</p></li>
-<li><p>Where and how are your original data collection instruments or samples stored/protected?</p></li>
-</ol>
-<p><em>Collect answers and submit with Assignment 2</em></p>
-<!-- Remainder of time is to work on Assignment 2. Instructor regularly checking in on students  -->
-</section>
-</section>
-<section id="messages-to-instill" class="level2" data-number="15.4">
-<h2 data-number="15.4" class="anchored" data-anchor-id="messages-to-instill"><span class="header-section-number">15.4</span> Messages to instill:</h2>
-<pre><code>a. a sense of paranoia that everything that could go wrong with notebooks, datasheets, samples, and their backups will - fire, lost mail, flooding, demonic intervention - so that we plan for all scenarios. Can now photograph records, backup, leacve portabl;e hard drives, abc samples, deposit in collections, take a portable scanner to the field...whatever.  As researchers and grad students there is plenty to stress about as it is, lets, takle this stress away so that you can stress about other stuff that "matters". 
-b. 'Focused Laziness': we want to do this in a way that is as automated (and automatic) as possible. This will mean less work! And that means more time to do other things, be it research or relaxation.</code></pre>
-</section>
-<section id="assignment-for-submission" class="level2" data-number="15.5">
-<h2 data-number="15.5" class="anchored" data-anchor-id="assignment-for-submission"><span class="header-section-number">15.5</span> Assignment for Submission</h2>
-<p><strong>This week’s assignment is designed to:</strong> <strong>(A)</strong> get you thinking critically about your own data backup and security procedures, and based on that reflection <strong>(B)</strong> prepare a data backup plan (if you already have one you can answer the questions below based on that plan). <strong>The assignment comes in four parts:</strong></p>
-<ol type="1">
-<li><p>Sign up for a UF Dropbox allocation: https://cloud.it.ufl.edu/collaboration-tools/dropbox/. If you are not automatically eligible to sign up, your advisor can request that you be granted an allocation: https://cloud.it.ufl.edu/media/clouditufledu/How-to-Obtain-Access-to-UF-Dropbox-for-Education.pdf.</p></li>
-<li><p>Sign up for a UF Google Suite Allocation: https://cloud.it.ufl.edu/collaboration-tools/g-suite/</p></li>
-<li><p>Briefly describe how you are adhering to the 3-2-1 backup rule for data related to your thesis. If you are not, describe how you will do so moving forward.</p></li>
-<li><p>Prepare a brief (~1 page max) Data Backup Plan for your thesis research. Include the following information; you can respond with bullet points unless more detailed answers are needed:</p>
-<ol type="a">
-<li><p>what needs to be prepared and for how long;</p></li>
-<li><p>where backups are located;</p></li>
-<li><p>who can access backups and how contacted;</p></li>
-<li><p>how often data should be backed up;</p></li>
-<li><p>what kind of backups are performed;</p></li>
-<li><p>who is responsible for performing the backups;</p></li>
-<li><p>hardware and software used for performing backups;</p></li>
-<li><p>how / how often to check if backups is successful;</p></li>
-<li><p>the media are used to backup data;</p></li>
-<li><p>a list of any data that are not archived or backed up.</p></li>
-</ol></li>
-</ol>
-<section id="submission-and-grading-rubric" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="submission-and-grading-rubric">Submission and Grading Rubric</h3>
-<ol type="1">
-<li><p>Submit the Data Backup Plan document (in either <code>.txt</code> or <code>.pdf</code> format) via <a href="https://elearning.ufl.edu/">Canvas</a>.</p></li>
-<li><p>Grading Rubric</p>
+<li><p>Review the <code>.csv</code> file</p></li>
+<li><p>What things do you see that need to be corrected?</p></li>
+<li><p>Make a list of the what you think needs to be corrected and the steps necessary to identify and implement each correction. Some of the things to look out for include:</p>
 <ul>
-<li>Assignment completed with thorough answers: 50</li>
-<li>Most questions answered completely; some require instructor follow-up: 40</li>
-<li>Many questions missing answers or answers are cursory: 30</li>
-<li>Instructor follow-up required for homework submission: 20</li>
+<li>Numeric values stored as character data types</li>
+<li>Factors stred as characters</li>
+<li>Duplicate rows</li>
+<li>Spelling mistakes</li>
+<li>inconsistent formatting (eg., codes, capitalizations)</li>
+<li>White spaces</li>
+<li>Missing data</li>
+<li>Zeros instead of null values</li>
+<li>Special characters (e.g.&nbsp;commas in numeric values instead of decimals)</li>
+<li>column headings with spaces between words or that start with numerals</li>
 </ul></li>
+<li><p>Write R code to implement the changes you have identified</p></li>
+<li><p>Save this code as <code>las_practice.r</code> and submit it via the Canvas website.</p></li>
 </ol>
-</section>
-</section>
-<section id="after-class" class="level2" data-number="15.6">
-<h2 data-number="15.6" class="anchored" data-anchor-id="after-class"><span class="header-section-number">15.6</span> After class:</h2>
-<ul>
-<li>Be sure you complete and submit the assignment by deadline</li>
-<li>Prepare for next session (assigned reading, videos, etc).</li>
-</ul>
+<section id="grading-rubric" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="grading-rubric">Grading Rubric:</h3>
+<p>Assignment completed with data validation correctly programmed with useful error messages: 35 Most data validation properly programmed; some require instructor follow-up: 25 Many of the validation parameters need corrections, error messages not useful: 15 Incorrect data are able to be entered in all categories; Instructor follow-up required: 10</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -954,13 +804,13 @@ b. 'Focused Laziness': we want to do this in a way that is as automated (and aut
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../class_materials/class_sessions/01_course_introduction/introduction_class.html" class="pagination-link" aria-label="Introduction &amp; The Research Data Life Cycle: Instructor Notes">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Introduction &amp; The Research Data Life Cycle: Instructor Notes</span></span>
+      <a href="../../../class_materials/class_sessions/03_spreadsheets/spreadsheets_hw.html" class="pagination-link" aria-label="Data Organization in Spreadsheets: In-class Activities">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data Organization in Spreadsheets: In-class Activities</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../class_materials/class_sessions/03_spreadsheets/spreadsheets_class.html" class="pagination-link" aria-label="Data Organization in Spreadsheets: Instructor Notes">
-        <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Data Organization in Spreadsheets: Instructor Notes</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../class_materials/class_sessions/05_QAQC1/qaqc1_hw.html" class="pagination-link" aria-label="QA/QC 1: In-class Activities">
+        <span class="nav-page-text">QA/QC 1: In-class Activities</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -972,7 +822,7 @@ b. 'Focused Laziness': we want to do this in a way that is as automated (and aut
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/02_file_organization/organization_backup_class.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/04_reproducibility/reproducibility_hw.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This book was built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

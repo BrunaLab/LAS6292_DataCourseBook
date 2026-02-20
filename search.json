@@ -1143,157 +1143,223 @@
     ]
   },
   {
+    "objectID": "class_materials/class_sessions/04_reproducibility/reproducibility_hw.html",
+    "href": "class_materials/class_sessions/04_reproducibility/reproducibility_hw.html",
+    "title": "18  Reproducible Data Correction with R",
+    "section": "",
+    "text": "18.1 Download the data we will be using in class",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Reproducible Data Correction with R</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/04_reproducibility/reproducibility_hw.html#download-the-data-we-will-be-using-in-class",
+    "href": "class_materials/class_sessions/04_reproducibility/reproducibility_hw.html#download-the-data-we-will-be-using-in-class",
+    "title": "18  Reproducible Data Correction with R",
+    "section": "",
+    "text": "Open the messy data file demo_data.csv by following this link\nthe data will open as a tab in your web browser in .csv format; save them to the data_raw folder by going to ‘File’ on the menu bar of your web browser and selecting ‘Save page as’ from the drop-down menu.\nsave the file to the data_raw folder.",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Reproducible Data Correction with R</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/04_reproducibility/reproducibility_hw.html#data-cleaning-practice",
+    "href": "class_materials/class_sessions/04_reproducibility/reproducibility_hw.html#data-cleaning-practice",
+    "title": "18  Reproducible Data Correction with R",
+    "section": "18.2 Data Cleaning: Practice",
+    "text": "18.2 Data Cleaning: Practice\n\nReview the .csv file\nWhat things do you see that need to be corrected?\nMake a list of the what you think needs to be corrected and the steps necessary to identify and implement each correction. Some of the things to look out for include:\n\nNumeric values stored as character data types\nFactors stred as characters\nDuplicate rows\nSpelling mistakes\ninconsistent formatting (eg., codes, capitalizations)\nWhite spaces\nMissing data\nZeros instead of null values\nSpecial characters (e.g. commas in numeric values instead of decimals)\ncolumn headings with spaces between words or that start with numerals\n\nWrite R code to implement the changes you have identified\nSave this code as las_practice.r and submit it via the Canvas website.\n\n\nGrading Rubric:\nAssignment completed with data validation correctly programmed with useful error messages: 35 Most data validation properly programmed; some require instructor follow-up: 25 Many of the validation parameters need corrections, error messages not useful: 15 Incorrect data are able to be entered in all categories; Instructor follow-up required: 10",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Reproducible Data Correction with R</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/05_QAQC1/qaqc1_hw.html",
+    "href": "class_materials/class_sessions/05_QAQC1/qaqc1_hw.html",
+    "title": "QA/QC 1: In-class Activities",
+    "section": "",
+    "text": "Data Entry with Speech-to-Text",
+    "crumbs": [
+      "Class Notes & Activities",
+      "QA/QC 1: In-class Activities"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/05_QAQC1/qaqc1_hw.html#data-entry-with-speech-to-text",
+    "href": "class_materials/class_sessions/05_QAQC1/qaqc1_hw.html#data-entry-with-speech-to-text",
+    "title": "QA/QC 1: In-class Activities",
+    "section": "",
+    "text": "MS Excel\n\n‘Speak Cells’ Tutorial Video. This will allow you to select rows or columns of Excel and have them read back to you. *Alternative video: it’s not as thorough, but it is a bit easier to see the menu on this video speak cells on enter Excel https://youtu.be/DSltR90mkgc\n‘Speak Cells on Enter’: This function will read back what you entered in a cell when you hit “enter”. You can set it up using this tutorial video.\nMac settings are a bit different. Can you figure them out?\n\n\n\nGoogle Docs\nIf you prefer working in Google Docs you can do the same thing. This article will show you how. You can also watch this video.",
+    "crumbs": [
+      "Class Notes & Activities",
+      "QA/QC 1: In-class Activities"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/05_QAQC1/qaqc1_hw.html#in-class-activity",
+    "href": "class_materials/class_sessions/05_QAQC1/qaqc1_hw.html#in-class-activity",
+    "title": "QA/QC 1: In-class Activities",
+    "section": "In-Class Activity",
+    "text": "In-Class Activity\n\nEnter 10 rows of data in excel that are typical of the different kinds of data you might be collecting (be sure to give each column a properly formatted name). Try the following:\n\nstrings (e.g., names of towns or people)\nnumbers\ncodes that are both letters (‘AB’) and combinations of rows and numbers (‘A4’, ‘B5’).\nleave at least one blank cells in each column.\n\nSet up “Speak-Cells” in Excel and have it read back the columns to you.\nSummarize the results: did it read the data back accurately? Were you able to understand what it read? How did it deal with the blank cells?\nNow set up ‘Speak Cells on Enter’. Enter some of the data you entered above in some new cells. Now have your partner read some of their data to you.\nFinally, try entering the text below into a cell in your excel document - the way you would normally - and have Excel read the text back to you. Did it catch any mistakes?\n\n\n“I closed the door and put the shop key in its usual place behind Francisco’s Book on Advanced Principles of Astronomy. Poor Chico. No one has wanted his fat gray book for thirty years. Sometimes I wonder why he keeps teaching even if his students all like other subjects. His mom died when he was very young and moved to Mexico City. He thinks it was his destiny to be a soccer player.”\n\nWhat worked best? What didn’t work? Mac users: Why doesn’t mac read numbers in columns? Submit the brief answers to these questions via canvas as HW Week 5_",
+    "crumbs": [
+      "Class Notes & Activities",
+      "QA/QC 1: In-class Activities"
+    ]
+  },
+  {
     "objectID": "class_materials/individual_projects/assignments.html",
     "href": "class_materials/individual_projects/assignments.html",
-    "title": "18  Assignments Overview",
+    "title": "19  Assignments Overview",
     "section": "",
-    "text": "18.1 Weekly In-class activities\nGrades in the course will be based on the following assignments:",
+    "text": "19.1 Weekly In-class activities\nGrades in the course will be based on the following assignments:",
     "crumbs": [
       "Individual Projects",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/individual_projects/assignments.html#weekly-in-class-activities",
     "href": "class_materials/individual_projects/assignments.html#weekly-in-class-activities",
-    "title": "18  Assignments Overview",
+    "title": "19  Assignments Overview",
     "section": "",
     "text": "Overview: Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them they can be submitted anytime until 9 am the following Friday.",
     "crumbs": [
       "Individual Projects",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/individual_projects/assignments.html#reproducible-data-organization-project",
     "href": "class_materials/individual_projects/assignments.html#reproducible-data-organization-project",
-    "title": "18  Assignments Overview",
-    "section": "18.2 Reproducible Data Organization Project",
-    "text": "18.2 Reproducible Data Organization Project\n\nOverview: This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to (1) clean and organize a ‘messy’ data set and prepare metadata describing the resulting ‘clean’ data. The complete project requires the submission of these three items via the course Canvas website:\n\nR code that imports, cleans, and organizes, and saves ‘messy’ data\nThe resulting corrected and organized data in an appropriate format\nMetadata describing the corrected data set",
+    "title": "19  Assignments Overview",
+    "section": "19.2 Reproducible Data Organization Project",
+    "text": "19.2 Reproducible Data Organization Project\n\nOverview: This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to (1) clean and organize a ‘messy’ data set and prepare metadata describing the resulting ‘clean’ data. The complete project requires the submission of these three items via the course Canvas website:\n\nR code that imports, cleans, and organizes, and saves ‘messy’ data\nThe resulting corrected and organized data in an appropriate format\nMetadata describing the corrected data set",
     "crumbs": [
       "Individual Projects",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/individual_projects/assignments.html#thesis-research-dmp",
     "href": "class_materials/individual_projects/assignments.html#thesis-research-dmp",
-    "title": "18  Assignments Overview",
-    "section": "18.3 Thesis Research DMP",
-    "text": "18.3 Thesis Research DMP\n\nOverview: The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.",
+    "title": "19  Assignments Overview",
+    "section": "19.3 Thesis Research DMP",
+    "text": "19.3 Thesis Research DMP\n\nOverview: The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.",
     "crumbs": [
       "Individual Projects",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html",
     "href": "class_materials/resources/resources.html",
-    "title": "19  Useful resources for Data Collection & Managment",
+    "title": "20  Useful resources for Data Collection & Managment",
     "section": "",
-    "text": "19.1 R Programming",
+    "text": "20.1 R Programming",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#r-programming",
     "href": "class_materials/resources/resources.html#r-programming",
-    "title": "19  Useful resources for Data Collection & Managment",
+    "title": "20  Useful resources for Data Collection & Managment",
     "section": "",
     "text": "Essential Resources\n\nR for Data Science book: Hadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nRStudio Keyboard Shortcuts: A list of the keyboard shortcuts for Mac, Windows, and Linux can be found here.\nWhere and How to ask for help:\n\n\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\n\nTutorials\n\nPaul van der Laken’s List of books, tutorials, and other resources on topics ranging from data manipulation to data validation to data visualization.\nR Essential Training: Wrangling and Visualizing Data. (requires a UF email address to access LinkedIn Learning).\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl: learn R programming interactively, at your own pace, and in the R console.\nR Bootcamp by Ted Laderas and Jessica Minnier. Learn R in your browser.\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning is written for Python users but the pricniples apply regardless of language.",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#specific-data-cleaning-and-management-problems",
     "href": "class_materials/resources/resources.html#specific-data-cleaning-and-management-problems",
-    "title": "19  Useful resources for Data Collection & Managment",
-    "section": "19.2 Specific Data Cleaning and Management Problems",
-    "text": "19.2 Specific Data Cleaning and Management Problems\n\nDates & Times\n\nHandling dates and times in R\n\n\n\nText & Text Mining\n\nText Mining: tidytext package\n\n\n\nQualtrics\n\nWorking with Qualtrics survey data: qualtRics package\n\n\n\nText Extraction\n\nOptical Character Recognition (OCR): extract text from images: tesseract package\nExtract text & metadata from pdf files: pdftools package\n\n\n\nImages & Image Processing\n\nImage processing: the magick package",
+    "title": "20  Useful resources for Data Collection & Managment",
+    "section": "20.2 Specific Data Cleaning and Management Problems",
+    "text": "20.2 Specific Data Cleaning and Management Problems\n\nDates & Times\n\nHandling dates and times in R\n\n\n\nText & Text Mining\n\nText Mining: tidytext package\n\n\n\nQualtrics\n\nWorking with Qualtrics survey data: qualtRics package\n\n\n\nText Extraction\n\nOptical Character Recognition (OCR): extract text from images: tesseract package\nExtract text & metadata from pdf files: pdftools package\n\n\n\nImages & Image Processing\n\nImage processing: the magick package",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#advanced-r-packages-for-data-management",
     "href": "class_materials/resources/resources.html#advanced-r-packages-for-data-management",
-    "title": "19  Useful resources for Data Collection & Managment",
-    "section": "19.3 Advanced R Packages for Data Management",
-    "text": "19.3 Advanced R Packages for Data Management\n\nDataCurator package: ‘a simple desktop data editor to help describe, validate and share usable open data’.\nRegExr: online tool to learn, build, & test Regular Expressions (RegEx / RegExp)\njanitor (cleanup of file names, etc.)\nROpenSci: tools for accessing, manipulating, and visualizing open data",
+    "title": "20  Useful resources for Data Collection & Managment",
+    "section": "20.3 Advanced R Packages for Data Management",
+    "text": "20.3 Advanced R Packages for Data Management\n\nDataCurator package: ‘a simple desktop data editor to help describe, validate and share usable open data’.\nRegExr: online tool to learn, build, & test Regular Expressions (RegEx / RegExp)\njanitor (cleanup of file names, etc.)\nROpenSci: tools for accessing, manipulating, and visualizing open data",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#data-visualization",
     "href": "class_materials/resources/resources.html#data-visualization",
-    "title": "19  Useful resources for Data Collection & Managment",
-    "section": "19.4 Data Visualization",
-    "text": "19.4 Data Visualization\n\nData Visualization: a practical introduction by Kieran Healy is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.",
+    "title": "20  Useful resources for Data Collection & Managment",
+    "section": "20.4 Data Visualization",
+    "text": "20.4 Data Visualization\n\nData Visualization: a practical introduction by Kieran Healy is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#slide-presentations",
     "href": "class_materials/resources/resources.html#slide-presentations",
-    "title": "19  Useful resources for Data Collection & Managment",
-    "section": "19.5 Slide & Presentations",
-    "text": "19.5 Slide & Presentations\n\nMake slide presentations with R",
+    "title": "20  Useful resources for Data Collection & Managment",
+    "section": "20.5 Slide & Presentations",
+    "text": "20.5 Slide & Presentations\n\nMake slide presentations with R",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#documents-reports",
     "href": "class_materials/resources/resources.html#documents-reports",
-    "title": "19  Useful resources for Data Collection & Managment",
-    "section": "19.6 Documents & Reports",
-    "text": "19.6 Documents & Reports\n\nknitr overview: reproducible documents with R",
+    "title": "20  Useful resources for Data Collection & Managment",
+    "section": "20.6 Documents & Reports",
+    "text": "20.6 Documents & Reports\n\nknitr overview: reproducible documents with R",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#discipline-specific-r-resources",
     "href": "class_materials/resources/resources.html#discipline-specific-r-resources",
-    "title": "19  Useful resources for Data Collection & Managment",
-    "section": "19.7 Discipline-specific R Resources",
-    "text": "19.7 Discipline-specific R Resources\n\nHistory\n\nhistorydata package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.\nThe Programming Historian Website: wide range of topics, from text analysis to OpenRefine\n\n\n\nPsychology\n\n‘Programming for Psychologists: Data Creation and Analysis’ by Matthew J. C. Crump",
+    "title": "20  Useful resources for Data Collection & Managment",
+    "section": "20.7 Discipline-specific R Resources",
+    "text": "20.7 Discipline-specific R Resources\n\nHistory\n\nhistorydata package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.\nThe Programming Historian Website: wide range of topics, from text analysis to OpenRefine\n\n\n\nPsychology\n\n‘Programming for Psychologists: Data Creation and Analysis’ by Matthew J. C. Crump",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#data-archives",
     "href": "class_materials/resources/resources.html#data-archives",
-    "title": "19  Useful resources for Data Collection & Managment",
-    "section": "19.8 Data Archives",
-    "text": "19.8 Data Archives\n\nQualitative Data Repository: dedicated archive for storing and sharing digital data (and accompanying documentation) generated or collected through qualitative and multi-method research in the social sciences and related disciplines.\nData Dryad: open data publishing platform and a community committed to the open availability and routine re-use of all research data.\nICPSR: data access, curation, and analytical methods for social science.",
+    "title": "20  Useful resources for Data Collection & Managment",
+    "section": "20.8 Data Archives",
+    "text": "20.8 Data Archives\n\nQualitative Data Repository: dedicated archive for storing and sharing digital data (and accompanying documentation) generated or collected through qualitative and multi-method research in the social sciences and related disciplines.\nData Dryad: open data publishing platform and a community committed to the open availability and routine re-use of all research data.\nICPSR: data access, curation, and analytical methods for social science.",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "slidedecks.html",
     "href": "slidedecks.html",
-    "title": "20  Class Slides",
+    "title": "21  Class Slides",
     "section": "",
     "text": "The following slides are available in HTML format You can export them as PDFs by clicking on the three bars in the bottom left corner and selecting “PDF Export Mode” under the “Tools” Option.\n\nIntroduction\n\nData Organization and Backups\n\n‘Reproducible’ Data Management",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Class Slides</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Class Slides</span>"
     ]
   }
 ]
