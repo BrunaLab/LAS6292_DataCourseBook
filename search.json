@@ -1209,157 +1209,201 @@
     ]
   },
   {
+    "objectID": "class_materials/class_sessions/06_QAQC2/openrefine_class.html",
+    "href": "class_materials/class_sessions/06_QAQC2/openrefine_class.html",
+    "title": "19  Class Outline: QA/QC 2 - Open Refine",
+    "section": "",
+    "text": "19.1 Pre-Class Preparation (Instructor):\nBring to Class:",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Class Outline: QA/QC 2 - Open Refine</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/06_QAQC2/openrefine_class.html#pre-class-preparation-instructor",
+    "href": "class_materials/class_sessions/06_QAQC2/openrefine_class.html#pre-class-preparation-instructor",
+    "title": "19  Class Outline: QA/QC 2 - Open Refine",
+    "section": "",
+    "text": "Remind via email about OpenRefine Installation\nPost Data sets\n\n\n\nSnacks\nTent cards for student names",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Class Outline: QA/QC 2 - Open Refine</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/06_QAQC2/openrefine_class.html#pre-class-preparation-students",
+    "href": "class_materials/class_sessions/06_QAQC2/openrefine_class.html#pre-class-preparation-students",
+    "title": "19  Class Outline: QA/QC 2 - Open Refine",
+    "section": "19.2 Pre-class Preparation (Students):",
+    "text": "19.2 Pre-class Preparation (Students):\n\n19.2.1 Online Lectures: None\n\n\n19.2.2 Readings: None\n\n\n\n\n\n\n19.2.3 Computer Resources\n\nInstall OpenRefine on your computer and verify it works by following the instructions here.\nOptional: Read and watch about how OpenRefine works here. You can also review the basic workflow we will learn.",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Class Outline: QA/QC 2 - Open Refine</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/06_QAQC2/openrefine_class.html#in-class-using-open-refine-to-clean-data",
+    "href": "class_materials/class_sessions/06_QAQC2/openrefine_class.html#in-class-using-open-refine-to-clean-data",
+    "title": "19  Class Outline: QA/QC 2 - Open Refine",
+    "section": "19.3 In-Class: Using Open Refine to clean data",
+    "text": "19.3 In-Class: Using Open Refine to clean data\nOpenRefine is a powerful, free, and open source tool that is used to work with and clean messy data. We will be working through some of OpenRefine’s basic features, after which you will trying them onm your own on a new data set.\n\nThis session uses the Data Carpentry Lesson OpenRefine for Social Science Data to introducee students to how OpenRefine can be used to clean datasets. The lesson’s objectives are:\n\nTo describe OpenRefine’s uses and applications,\nDifferentiate data cleaning from data organization, and\nExperiment with OpenRefine’s user interface.\n\n\n19.3.1 Key Points to empghasize:\n\nOpenRefine provides a set of tools to identify and correct messy data.\nAll actions are easily reversed\nIf you save your work it will be to a new file. OpenRefine always uses a copy of your data and does not modify your original dataset\nOpenRefine keeps track of all of your actions and allows them to be applied to different datasets\nIt is open source with a large user community, making it easy to get\nIt works very well with ‘large-ish’ datasets (100,000 rows), but can adjust memory allocation to accommodate larger datasets.\nOpenRefine always keeps your data private on your own computer until you choose to share it. It works by running a small server on your computer and using your web browser to interact with it. Your private data never leaves your computer unless you want it to\n\n\n\n19.3.2 Installation and Setup\n\nFollow the Setup instructions to install OpenRefine.\nIf after installation and running OpenRefine, it does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.\nThe data for this lesson is a part of the ‘Data Carpentry Social Sciences’ workshop. It is a teaching version of the Studying African Farmer-Led Irrigation (SAFI) database: interviews of farmers in two countries in eastern sub-Saharan Africa (Mozambique and Tanzania). These interviews were conducted between November 2016 and June 2017 and probed household features (e.g. construction materials used, number of household members), agricultural practices (e.g. water usage), and assets (e.g. number and types of livestock). The data used in this lesson is a subset of the teaching version that has been intentionally ‘messed up’ for this lesson.\nDownload the data file to your computer to a location where you will be able to find it during the lesson.\n\n\n\n19.3.3 Part 1\n\nIntro to OR \nWorking with OR\n -Filtering and Sorting \n\n\n\n19.3.4 Break\n\n\n\n19.3.5 Part 2\n\nExamining Numbers \nUsing Scripts, Exporting, and Saving \nWrap-up, Questions \n\n\n\n19.3.6 Assignment\n\nNow it’s your turn. Download this csv file and use OpenRefine to clean it up. After you create a Project, edit the data as follows:\n\nCorrect and standardize the names of the countries in which the rodents were captured.\nThe column scientificName contains two pieces of information (the genus and species of each animal). Split this into two columns, rename them as genus and species, and then correct and standardize the data in each column as needed. NB: You may run into an obstacle when you try to rename the columns. How can you get around it?\nSave the clean data as a .csv file on your desktop.\n\n\n\nExtract and save your steps (i.e., ‘operation history’ as JSON. Save this as a text file.\nBonus Brainteaser: Many of the cells in the column for the Latin bonomial are blank. How might you go about filling them in based on the column with the abbreviation?\nSubmission: Submit your clean .csv and the JSON text file as openrefine_assignment on Canvas.\n\n\n\n19.3.7 Grading Rubric:\n\nData corrected and JSON file can be used on another data set: 35\nMost data correction properly programmed; some require instructor follow-up: 25\nMany of the corrections missing, JSON file unable to process new data : 20\nInstructor follow-up required to implement most changes: 15\n\n\n\n\nThe materials in this lesson are derived from the Data Carpentry Social Sciences workshop by The Carpentries. The materials Materials are licensed under CC-BY 4.0 by the authors",
+    "crumbs": [
+      "Class Notes & Activities",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Class Outline: QA/QC 2 - Open Refine</span>"
+    ]
+  },
+  {
     "objectID": "class_materials/individual_projects/assignments.html",
     "href": "class_materials/individual_projects/assignments.html",
-    "title": "19  Assignments Overview",
+    "title": "20  Assignments Overview",
     "section": "",
-    "text": "19.1 Weekly In-class activities\nGrades in the course will be based on the following assignments:",
+    "text": "20.1 Weekly In-class activities\nGrades in the course will be based on the following assignments:",
     "crumbs": [
       "Individual Projects",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/individual_projects/assignments.html#weekly-in-class-activities",
     "href": "class_materials/individual_projects/assignments.html#weekly-in-class-activities",
-    "title": "19  Assignments Overview",
+    "title": "20  Assignments Overview",
     "section": "",
     "text": "Overview: Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them they can be submitted anytime until 9 am the following Friday.",
     "crumbs": [
       "Individual Projects",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/individual_projects/assignments.html#reproducible-data-organization-project",
     "href": "class_materials/individual_projects/assignments.html#reproducible-data-organization-project",
-    "title": "19  Assignments Overview",
-    "section": "19.2 Reproducible Data Organization Project",
-    "text": "19.2 Reproducible Data Organization Project\n\nOverview: This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to (1) clean and organize a ‘messy’ data set and prepare metadata describing the resulting ‘clean’ data. The complete project requires the submission of these three items via the course Canvas website:\n\nR code that imports, cleans, and organizes, and saves ‘messy’ data\nThe resulting corrected and organized data in an appropriate format\nMetadata describing the corrected data set",
+    "title": "20  Assignments Overview",
+    "section": "20.2 Reproducible Data Organization Project",
+    "text": "20.2 Reproducible Data Organization Project\n\nOverview: This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to (1) clean and organize a ‘messy’ data set and prepare metadata describing the resulting ‘clean’ data. The complete project requires the submission of these three items via the course Canvas website:\n\nR code that imports, cleans, and organizes, and saves ‘messy’ data\nThe resulting corrected and organized data in an appropriate format\nMetadata describing the corrected data set",
     "crumbs": [
       "Individual Projects",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/individual_projects/assignments.html#thesis-research-dmp",
     "href": "class_materials/individual_projects/assignments.html#thesis-research-dmp",
-    "title": "19  Assignments Overview",
-    "section": "19.3 Thesis Research DMP",
-    "text": "19.3 Thesis Research DMP\n\nOverview: The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.",
+    "title": "20  Assignments Overview",
+    "section": "20.3 Thesis Research DMP",
+    "text": "20.3 Thesis Research DMP\n\nOverview: The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.",
     "crumbs": [
       "Individual Projects",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Assignments Overview</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Assignments Overview</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html",
     "href": "class_materials/resources/resources.html",
-    "title": "20  Useful resources for Data Collection & Managment",
+    "title": "21  Useful resources for Data Collection & Managment",
     "section": "",
-    "text": "20.1 R Programming",
+    "text": "21.1 R Programming",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#r-programming",
     "href": "class_materials/resources/resources.html#r-programming",
-    "title": "20  Useful resources for Data Collection & Managment",
+    "title": "21  Useful resources for Data Collection & Managment",
     "section": "",
     "text": "Essential Resources\n\nR for Data Science book: Hadley Wickham wrote a book on using the tidyverse and the online version is FREE. This is a phenomenal resource on using R to import, tidy, and visualize data.\nPosit Cheat Sheets: help with commands for using the different tidyverse packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.\nRStudio Keyboard Shortcuts: A list of the keyboard shortcuts for Mac, Windows, and Linux can be found here.\nWhere and How to ask for help:\n\n\n\nHadley Wickham’s advice on how to write a good reproducible\nexample for getting help with R\n\nhow to post good questions on StackOverflow\n\nThe UF R-users listserv is very user friendly and a great place to post requests for help.\n\n\n\n\nTutorials\n\nPaul van der Laken’s List of books, tutorials, and other resources on topics ranging from data manipulation to data validation to data visualization.\nR Essential Training: Wrangling and Visualizing Data. (requires a UF email address to access LinkedIn Learning).\nSoftware Carpentry: Using RStudio for Project Organization & Management\nSwirl: learn R programming interactively, at your own pace, and in the R console.\nR Bootcamp by Ted Laderas and Jessica Minnier. Learn R in your browser.\nHow to clean messy data in R\nThe Ultimate Guide to Data Cleaning is written for Python users but the pricniples apply regardless of language.",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#specific-data-cleaning-and-management-problems",
     "href": "class_materials/resources/resources.html#specific-data-cleaning-and-management-problems",
-    "title": "20  Useful resources for Data Collection & Managment",
-    "section": "20.2 Specific Data Cleaning and Management Problems",
-    "text": "20.2 Specific Data Cleaning and Management Problems\n\nDates & Times\n\nHandling dates and times in R\n\n\n\nText & Text Mining\n\nText Mining: tidytext package\n\n\n\nQualtrics\n\nWorking with Qualtrics survey data: qualtRics package\n\n\n\nText Extraction\n\nOptical Character Recognition (OCR): extract text from images: tesseract package\nExtract text & metadata from pdf files: pdftools package\n\n\n\nImages & Image Processing\n\nImage processing: the magick package",
+    "title": "21  Useful resources for Data Collection & Managment",
+    "section": "21.2 Specific Data Cleaning and Management Problems",
+    "text": "21.2 Specific Data Cleaning and Management Problems\n\nDates & Times\n\nHandling dates and times in R\n\n\n\nText & Text Mining\n\nText Mining: tidytext package\n\n\n\nQualtrics\n\nWorking with Qualtrics survey data: qualtRics package\n\n\n\nText Extraction\n\nOptical Character Recognition (OCR): extract text from images: tesseract package\nExtract text & metadata from pdf files: pdftools package\n\n\n\nImages & Image Processing\n\nImage processing: the magick package",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#advanced-r-packages-for-data-management",
     "href": "class_materials/resources/resources.html#advanced-r-packages-for-data-management",
-    "title": "20  Useful resources for Data Collection & Managment",
-    "section": "20.3 Advanced R Packages for Data Management",
-    "text": "20.3 Advanced R Packages for Data Management\n\nDataCurator package: ‘a simple desktop data editor to help describe, validate and share usable open data’.\nRegExr: online tool to learn, build, & test Regular Expressions (RegEx / RegExp)\njanitor (cleanup of file names, etc.)\nROpenSci: tools for accessing, manipulating, and visualizing open data",
+    "title": "21  Useful resources for Data Collection & Managment",
+    "section": "21.3 Advanced R Packages for Data Management",
+    "text": "21.3 Advanced R Packages for Data Management\n\nDataCurator package: ‘a simple desktop data editor to help describe, validate and share usable open data’.\nRegExr: online tool to learn, build, & test Regular Expressions (RegEx / RegExp)\njanitor (cleanup of file names, etc.)\nROpenSci: tools for accessing, manipulating, and visualizing open data",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#data-visualization",
     "href": "class_materials/resources/resources.html#data-visualization",
-    "title": "20  Useful resources for Data Collection & Managment",
-    "section": "20.4 Data Visualization",
-    "text": "20.4 Data Visualization\n\nData Visualization: a practical introduction by Kieran Healy is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.",
+    "title": "21  Useful resources for Data Collection & Managment",
+    "section": "21.4 Data Visualization",
+    "text": "21.4 Data Visualization\n\nData Visualization: a practical introduction by Kieran Healy is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#slide-presentations",
     "href": "class_materials/resources/resources.html#slide-presentations",
-    "title": "20  Useful resources for Data Collection & Managment",
-    "section": "20.5 Slide & Presentations",
-    "text": "20.5 Slide & Presentations\n\nMake slide presentations with R",
+    "title": "21  Useful resources for Data Collection & Managment",
+    "section": "21.5 Slide & Presentations",
+    "text": "21.5 Slide & Presentations\n\nMake slide presentations with R",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#documents-reports",
     "href": "class_materials/resources/resources.html#documents-reports",
-    "title": "20  Useful resources for Data Collection & Managment",
-    "section": "20.6 Documents & Reports",
-    "text": "20.6 Documents & Reports\n\nknitr overview: reproducible documents with R",
+    "title": "21  Useful resources for Data Collection & Managment",
+    "section": "21.6 Documents & Reports",
+    "text": "21.6 Documents & Reports\n\nknitr overview: reproducible documents with R",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#discipline-specific-r-resources",
     "href": "class_materials/resources/resources.html#discipline-specific-r-resources",
-    "title": "20  Useful resources for Data Collection & Managment",
-    "section": "20.7 Discipline-specific R Resources",
-    "text": "20.7 Discipline-specific R Resources\n\nHistory\n\nhistorydata package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.\nThe Programming Historian Website: wide range of topics, from text analysis to OpenRefine\n\n\n\nPsychology\n\n‘Programming for Psychologists: Data Creation and Analysis’ by Matthew J. C. Crump",
+    "title": "21  Useful resources for Data Collection & Managment",
+    "section": "21.7 Discipline-specific R Resources",
+    "text": "21.7 Discipline-specific R Resources\n\nHistory\n\nhistorydata package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.\nThe Programming Historian Website: wide range of topics, from text analysis to OpenRefine\n\n\n\nPsychology\n\n‘Programming for Psychologists: Data Creation and Analysis’ by Matthew J. C. Crump",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "class_materials/resources/resources.html#data-archives",
     "href": "class_materials/resources/resources.html#data-archives",
-    "title": "20  Useful resources for Data Collection & Managment",
-    "section": "20.8 Data Archives",
-    "text": "20.8 Data Archives\n\nQualitative Data Repository: dedicated archive for storing and sharing digital data (and accompanying documentation) generated or collected through qualitative and multi-method research in the social sciences and related disciplines.\nData Dryad: open data publishing platform and a community committed to the open availability and routine re-use of all research data.\nICPSR: data access, curation, and analytical methods for social science.",
+    "title": "21  Useful resources for Data Collection & Managment",
+    "section": "21.8 Data Archives",
+    "text": "21.8 Data Archives\n\nQualitative Data Repository: dedicated archive for storing and sharing digital data (and accompanying documentation) generated or collected through qualitative and multi-method research in the social sciences and related disciplines.\nData Dryad: open data publishing platform and a community committed to the open availability and routine re-use of all research data.\nICPSR: data access, curation, and analytical methods for social science.",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Useful resources for Data Collection & Managment</span>"
     ]
   },
   {
     "objectID": "slidedecks.html",
     "href": "slidedecks.html",
-    "title": "21  Class Slides",
+    "title": "22  Class Slides",
     "section": "",
     "text": "The following slides are available in HTML format You can export them as PDFs by clicking on the three bars in the bottom left corner and selecting “PDF Export Mode” under the “Tools” Option.\n\nIntroduction\n\nData Organization and Backups\n\n‘Reproducible’ Data Management",
     "crumbs": [
       "Useful Resources",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Class Slides</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Class Slides</span>"
     ]
   }
 ]
