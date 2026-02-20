@@ -6,9 +6,8 @@
 #       - name: University of Florida
 title-block-style: default
 date-modified: last-modified
-
 ---
-# Class Outline: QA/QC 2 - Open Refine  {#sec-openrefine-hw}
+# Class Outline: QA/QC 2 - Open Refine  {#sec-openrefineclass
 
 ::: {.callout-tip}
 ## Objectives and Competencies
