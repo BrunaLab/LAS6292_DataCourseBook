@@ -1,0 +1,184 @@
+[
+  {
+    "objectID": "tcd_wkshp.html#what-are-we-doing-today",
+    "href": "tcd_wkshp.html#what-are-we-doing-today",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "What are we doing today?",
+    "text": "What are we doing today?\n\nWhat are Data?\nData Aquisition, Entry, & Management\nData Curation\nData Archiving & Sharing"
+  },
+  {
+    "objectID": "tcd_wkshp.html#what-are",
+    "href": "tcd_wkshp.html#what-are",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "What are",
+    "text": "What are\n   \n\n‘DATA’?\n\n\n\n(discuss)"
+  },
+  {
+    "objectID": "tcd_wkshp.html#so-thenwhat-are",
+    "href": "tcd_wkshp.html#so-thenwhat-are",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "So then…What are",
+    "text": "So then…What are\n   \n\n‘DATA’?"
+  },
+  {
+    "objectID": "tcd_wkshp.html#kristen-briney",
+    "href": "tcd_wkshp.html#kristen-briney",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Kristen Briney:",
+    "text": "Kristen Briney:\n           \n\n“Anything you perform analysis on.”\n\n\n\nPage 6 of Data Management for Researchers."
+  },
+  {
+    "objectID": "tcd_wkshp.html#section-4",
+    "href": "tcd_wkshp.html#section-4",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "",
+    "text": "who\n\n\nCARES?"
+  },
+  {
+    "objectID": "tcd_wkshp.html#data-management-is-for",
+    "href": "tcd_wkshp.html#data-management-is-for",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Data management is for…",
+    "text": "Data management is for…\n\nStress minimization"
+  },
+  {
+    "objectID": "tcd_wkshp.html#data-management-is-for-1",
+    "href": "tcd_wkshp.html#data-management-is-for-1",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Data management is for…",
+    "text": "Data management is for…\nValidation"
+  },
+  {
+    "objectID": "tcd_wkshp.html#data-management-is-for-2",
+    "href": "tcd_wkshp.html#data-management-is-for-2",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Data management is for…",
+    "text": "Data management is for…\nAdvancing TCD"
+  },
+  {
+    "objectID": "tcd_wkshp.html#data-management-is-for-3",
+    "href": "tcd_wkshp.html#data-management-is-for-3",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Data management is for…",
+    "text": "Data management is for…\nThe Future"
+  },
+  {
+    "objectID": "tcd_wkshp.html#data-are",
+    "href": "tcd_wkshp.html#data-are",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Data are",
+    "text": "Data are\n\nALIVE"
+  },
+  {
+    "objectID": "tcd_wkshp.html#section-7",
+    "href": "tcd_wkshp.html#section-7",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "",
+    "text": "‘Reproducible Research’?"
+  },
+  {
+    "objectID": "tcd_wkshp.html#why-reproducible-research",
+    "href": "tcd_wkshp.html#why-reproducible-research",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Why ‘Reproducible Research’?",
+    "text": "Why ‘Reproducible Research’?\n\nHave you ever tried to reproduce someone else’s data analysis?\nHave you ever tried to repeat your own (old) work?\nWhat made it easy/hard to do so?\nWhat would have to happen if you had to extend the analysis further?\nIf you caught a data error how easy/hard would it be to re-create the analysis?\nWhat would happen if your collaborator is no longer available to walk you through their analysis?\nWhat if you couldn’t remember the steps?"
+  },
+  {
+    "objectID": "tcd_wkshp.html#section-8",
+    "href": "tcd_wkshp.html#section-8",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "",
+    "text": "The Reproducible Research Workflow\n\nData Management Starts at Data Aquisition"
+  },
+  {
+    "objectID": "tcd_wkshp.html#min-break-and-then",
+    "href": "tcd_wkshp.html#min-break-and-then",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "5 min Break and then…",
+    "text": "5 min Break and then…\n…Data Aquisition"
+  },
+  {
+    "objectID": "tcd_wkshp.html#data-collection-audit",
+    "href": "tcd_wkshp.html#data-collection-audit",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Data Collection Audit",
+    "text": "Data Collection Audit"
+  },
+  {
+    "objectID": "tcd_wkshp.html#what-about-data-entry",
+    "href": "tcd_wkshp.html#what-about-data-entry",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "What about Data Entry?",
+    "text": "What about Data Entry?"
+  },
+  {
+    "objectID": "tcd_wkshp.html#once-data-are-entered",
+    "href": "tcd_wkshp.html#once-data-are-entered",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Once data are entered…",
+    "text": "Once data are entered…\nQuestion: How are your data saved? How are they Backed Up?"
+  },
+  {
+    "objectID": "tcd_wkshp.html#after-the-audit",
+    "href": "tcd_wkshp.html#after-the-audit",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "After the Audit:",
+    "text": "After the Audit:\n\nModify Data Collection Methods to reduce collection errors\nUse Data Entry Methods and Tools to reduce entry errors\nReview how your data are backed up\nPrepare a Data Management Plan"
+  },
+  {
+    "objectID": "tcd_wkshp.html#min-break-then",
+    "href": "tcd_wkshp.html#min-break-then",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "5 Min break then…",
+    "text": "5 Min break then…\nPrepare your Data Management Plan"
+  },
+  {
+    "objectID": "tcd_wkshp.html#the-dmp",
+    "href": "tcd_wkshp.html#the-dmp",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "THE DMP",
+    "text": "THE DMP\n\nFormal document that lays out your plan for managing the data you will collect (or have collected).\nOutlines what you will do with your data during and after you complete your research\nEnsures your data is safe for the present and the future\n\nWhy do a DMP?\n\nSave time\nLess work later\nIncrease research efficiency\nYou may not have a choice."
+  },
+  {
+    "objectID": "tcd_wkshp.html#section-47",
+    "href": "tcd_wkshp.html#section-47",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "",
+    "text": "Components of a DMP\n\nInformation about data & data format\nMetadata content and format\nPolicies for access, sharing and re-use\nLong-term storage and data management\nRoles and responsibilities\nBudget"
+  },
+  {
+    "objectID": "tcd_wkshp.html#lets-go",
+    "href": "tcd_wkshp.html#lets-go",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Let’s GO!",
+    "text": "Let’s GO!"
+  },
+  {
+    "objectID": "tcd_wkshp.html#finally.",
+    "href": "tcd_wkshp.html#finally.",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Finally….",
+    "text": "Finally…."
+  },
+  {
+    "objectID": "tcd_wkshp.html#data-curation-cleanup",
+    "href": "tcd_wkshp.html#data-curation-cleanup",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Data Curation (= cleanup)",
+    "text": "Data Curation (= cleanup)\nExample 1"
+  },
+  {
+    "objectID": "tcd_wkshp.html#data-curation-cleanup-1",
+    "href": "tcd_wkshp.html#data-curation-cleanup-1",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Data Curation (= cleanup)",
+    "text": "Data Curation (= cleanup)\nExample 2"
+  },
+  {
+    "objectID": "tcd_wkshp.html#data-correction-recipies",
+    "href": "tcd_wkshp.html#data-correction-recipies",
+    "title": "LAS 6292: Data Collection & Management",
+    "section": "Data Correction = Recipies",
+    "text": "Data Correction = Recipies"
+  }
+]
