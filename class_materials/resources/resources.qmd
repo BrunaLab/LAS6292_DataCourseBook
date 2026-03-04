@@ -118,3 +118,11 @@ number-sections: true
 1. [ICPSR](https://www.icpsr.umich.edu/sites/icpsr/home): data access, curation, and analytical methods for social science.
 
 
+## Disposal & Destruction of Records  
+
+1. UF IT: [Securely Destroying Electronic and Paper Records](https://it.ufl.edu/security/security-guidance/media-disposal/securely-destroying-electronic-and-paper-records/)
+
+1. UF Procurement Services: [Approved vendors for document destruction services](https://procurement.ufl.edu/contracts-2/document-destruction-paper-and-media/)
+
+1. UF Approved Methods for [Electronic Media Disposal](https://www.fa.ufl.edu/directives/electronic-media-disposal/)
+
