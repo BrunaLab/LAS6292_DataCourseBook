@@ -75,7 +75,7 @@ book:
         - class_materials/class_sessions/05_QAQC1/qaqc1_hw.qmd
         - class_materials/class_sessions/06_QAQC2/openrefine_class.qmd 
     #   - class_materials/class_sessions/0  # - Visualizing Data to Find Mistakes
-    #   - class_materials/class_sessions/0  # - Documentation, Metadata, & Codebooks
+        - class_materials/class_sessions/08_metadata/metadata_class.qmd
     #   - class_materials/class_sessions/0  # - Data Sharing, Reuse, & Archives
     #   - class_materials/class_sessions/0  # - Data Management Plans
     #   - class_materials/class_sessions/0  # - Efficient Data Collection
