@@ -1244,67 +1244,67 @@
   {
     "objectID": "class_materials/class_sessions/08_metadata/metadata_class.html",
     "href": "class_materials/class_sessions/08_metadata/metadata_class.html",
-    "title": "21  Introduction & The Research Data Life Cycle: Instructor Notes",
+    "title": "21  Metadata",
     "section": "",
     "text": "21.1 Pre-Class Preparation & Materials Needed (Instructor):",
     "crumbs": [
       "Class Notes & Activities",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Introduction & The Research Data Life Cycle: Instructor Notes</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Metadata</span>"
     ]
   },
   {
     "objectID": "class_materials/class_sessions/08_metadata/metadata_class.html#pre-class-preparation-materials-needed-instructor",
     "href": "class_materials/class_sessions/08_metadata/metadata_class.html#pre-class-preparation-materials-needed-instructor",
-    "title": "21  Introduction & The Research Data Life Cycle: Instructor Notes",
+    "title": "21  Metadata",
     "section": "",
     "text": "email students: confirmation of room and zoom link, pls bring own mug or water bottle, welcome to bring food / snacks\nAsk if any students need laptop, arrange for a loan if needed\nCopy of syllabus and Course Roster\nFlip charts, markers, tent cards for names, dry-write markers",
     "crumbs": [
       "Class Notes & Activities",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Introduction & The Research Data Life Cycle: Instructor Notes</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Metadata</span>"
     ]
   },
   {
     "objectID": "class_materials/class_sessions/08_metadata/metadata_class.html#pre-class-preparation-students",
     "href": "class_materials/class_sessions/08_metadata/metadata_class.html#pre-class-preparation-students",
-    "title": "21  Introduction & The Research Data Life Cycle: Instructor Notes",
+    "title": "21  Metadata",
     "section": "21.2 Pre-class Preparation (Students):",
     "text": "21.2 Pre-class Preparation (Students):\n\nReadings\n\nMichener, W.K., et al . 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342.\n[read online]\n\n\n\n\nOnline Lectures:\n\nMetadata",
     "crumbs": [
       "Class Notes & Activities",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Introduction & The Research Data Life Cycle: Instructor Notes</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Metadata</span>"
     ]
   },
   {
     "objectID": "class_materials/class_sessions/08_metadata/metadata_class.html#introduction-metadata",
     "href": "class_materials/class_sessions/08_metadata/metadata_class.html#introduction-metadata",
-    "title": "21  Introduction & The Research Data Life Cycle: Instructor Notes",
+    "title": "21  Metadata",
     "section": "Introduction: Metadata",
     "text": "Introduction: Metadata\nData repositories such as Dryad and ICPSR are designed to permanently store the data thatused in research so it is available to future scholars. To use the data, it is important to have good metadata….but how good are the metadata, really?\n*Here is an example from Dryad: The Page “Data from: Resilient networks of ant-plant mutualists in Amazonian forest fragments” includes an overview of the project and dataset, along with some other information. If you click “Download Dataset” you will get a zip file with data in .csv format and the Metadata in .txt format].",
     "crumbs": [
       "Class Notes & Activities",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Introduction & The Research Data Life Cycle: Instructor Notes</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Metadata</span>"
     ]
   },
   {
     "objectID": "class_materials/class_sessions/08_metadata/metadata_class.html#breakout-1-metadata-review",
     "href": "class_materials/class_sessions/08_metadata/metadata_class.html#breakout-1-metadata-review",
-    "title": "21  Introduction & The Research Data Life Cycle: Instructor Notes",
+    "title": "21  Metadata",
     "section": "21.3 Breakout 1: Metadata Review",
     "text": "21.3 Breakout 1: Metadata Review\nFollow the links to the page below, where you will find the data and metadata from some previously published papers. Rewview the data and metadata and discuss the following:\n\nCan you explain the variables they collected?\nDo the data and metadata appear to adhere to the FAIR Principles?\n\nFindable: persistent identifiers & basic machine-actionable metadata\nAccessible: can be read by machines & humans\nInteroperable: use shared vocabularies / ontologies, machine-accessible (meta)data\nRe-Usable: descriptions allow others to reuse and link with other data sources\n\nDid they include the 5 metadata descriptors?\n\nClass I: alert potential secondary users to the existence of data sets that fall within specific temporal, spatial, and thematic domains.\nClass II: describe the research resulting in a data set.\nClass III: status of the data set and information on its accessibility.\nClass IV: all the attributes related to the structure of the data file.\nClass V: all other related information that might be necessary for secondary usage, publishing the data set, or auditing the data set.\n\nDoes anything else stand out about the data metadata files? For example…\n\nCould you explain what the abbreviations are?\nCould you explain how the data were collected?\nCould you explain what the values represent?\nCould you recreate the analysis?\nIs there anything missing from the metadata or that stands out about how they were prepared?\n\n\n\n(Meta)Data Sets\nFor Numbers 1-4, click on the light blue box with an arrow in the upper right corner that says “Download dataset”.\n\nData from: Mammal diversity and metacommunity dynamics in urban green spaces: implications for urban wildlife conservation\nData from: The avifauna of the Galapagos Islands\nData from: Effect of mutualist partner identity on plant demography\nData from: Elevated pCO2 affects tissue biomass composition, but not calcification, in a reef coral under two light regimes\n\nFor #5 you should be able to click on the button to the right that sats “Preview this file”.\n\nData from: The moral philosophy of nature: Spiritual Amazonian conceptualizations of the environment\n\nFor #6 you should be able to see the metadata in the different tabs without downloading anything.\n\nData from: Monitoring the Future: A Continuing Study of American Youth (12th-Grade Survey), 2018 (ICPSR 37416)\n\nFor # 7, scroll to the bottom of the page where it says “Data supplements / Supporting Information / Files in this Data Supplement:”\n\nData from: How stereotypes impair women’s careers in science\n\nReturning results of breakout & take-home message\n\nDiscussion with Group of Metadata Review\nTake-home message: Metadata are hard to write but invaluable",
     "crumbs": [
       "Class Notes & Activities",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Introduction & The Research Data Life Cycle: Instructor Notes</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Metadata</span>"
     ]
   },
   {
     "objectID": "class_materials/class_sessions/08_metadata/metadata_class.html#part-2-writing-metadata",
     "href": "class_materials/class_sessions/08_metadata/metadata_class.html#part-2-writing-metadata",
-    "title": "21  Introduction & The Research Data Life Cycle: Instructor Notes",
+    "title": "21  Metadata",
     "section": "21.4 Part 2: Writing Metadata",
     "text": "21.4 Part 2: Writing Metadata\nToday’s session is an opportunity to start drafting the metadata for your project. Although there are links in the notes for today’s session to tools that will build your metadata in machine-readable XML schema, for this class (and maybe even in most cases) a .txt or .Rmd file with information on the relevant Class Descriptors (sensu Michener et al. 1997) is all you need sufficient. To save you time, I have created metadata templates based on information from ICSPR (for social sciences) and Michener et al. (for biophysical sciences) that you can download and edit\n\nStep 1: Metadata Templates\nDownload and review both templates and choose the one that is most appropriate for your project. If there is there metadata from one discipline’s template that would be useful to include in yours? If so, copy the items over and save the revised file with a new (and correctly styled) name. You can also add more fields or delete any that are not relevant. Note that Table 1 in Michener et al. is very comprehensive and provides additional guidance on how to make sure the metadata are useful.\nTo download the metadata templates, click the link below for your preferred format (.txt or .Rmd) and save the file in the RStudio project you’ve created for your Course Project. The .txt version can be opened and edited in any word processor, a text editor, or in R. The .Rmd file is an R Markdown Document.\n\nMetadata Template for Social Sciences: from ICSPR: .txt format or .Rmd format. See note below for additional info on Qualitative Data.\nMetadata template for Biophysical Sciences: Table 1 from Michener et al. 1997: .txt format or .Rmd format\nNote for researchers in the Humanities or those working primarily with Qualitative Data: The metadata required often depend on the type of material with which you work (e.g., oral history, photos, digital, printed). If your data is in this domain, you can download templates here: Template No.1 is from UF’s Samuel Proctor Oral History Project, Template #2 is a more general one from the UF Humanities Archives. You can also review the metadata required by the Qualitative Data Repository.\n\n\n\nStep 2: Prepare the Metadata for your project\nStart filling out the metadata requested in the template. You might want to begin by making notations on the ones for which you will have to present the range of possible values, units, the names / brands / models of equipment used to make or record measurements, etc.\n\n\nStep 3: Submission\n_You do NOT have to submit an assignment this week. This is a component of the Final Project for the course, so the goal for today is to jump-start your work because preparing a good metadata file takes longer than anyone anticipates.\n\n\n\n\n\n\nTip\n\n\n\nBe sure to check the Class Notes for today’s topic - they include excellent resources for preparing metadata.",
     "crumbs": [
       "Class Notes & Activities",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Introduction & The Research Data Life Cycle: Instructor Notes</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Metadata</span>"
     ]
   },
   {
