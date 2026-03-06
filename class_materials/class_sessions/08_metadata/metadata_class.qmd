@@ -10,7 +10,7 @@ date-modified: last-modified
 ---
 
 
-# Introduction & The Research Data Life Cycle: Instructor Notes
+# Metadata  
 
 
 ::: {.callout-tip}
