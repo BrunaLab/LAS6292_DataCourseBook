@@ -366,7 +366,7 @@
     "href": "class_materials/class_sessions/08_metadata/metadata.html#best-practices-for-preparing-metadata",
     "title": "8  Resources for Preparing Metadata",
     "section": "8.2 Best practices for preparing metadata",
-    "text": "8.2 Best practices for preparing metadata\n\n“Best Practices in Creating Social Science Metadata.” p.32 in the ICPSR Guide to Social Science Data Preparation and Archiving: Best Practice Throughout the Data Life Cycle (6th Edition).\nMichener, W.K., et al . 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342.\n[read online]\nPp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research methods: Qualitative and quantitative approaches. Sage.\nICPSR Guide to Social Science Data Preparation and Archiving: Best Practice Throughout the Data Life Cycle (6th Edition)\nDataONE Community Engagement & Outreach Working Group (2017) “Metadata Management”. Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/07_metadata/index on Aug 31, 2020",
+    "text": "8.2 Best practices for preparing metadata\n\n“Best Practices in Creating Social Science Metadata.” p.32 in the ICPSR Guide to Social Science Data Preparation and Archiving: Best Practice Throughout the Data Life Cycle (6th Edition).\nMichener, W.K., et al . 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342.\n[read online]\nPp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research methods: Qualitative and quantitative approaches. Sage.\nICPSR Guide to Social Science Data Preparation and Archiving: Best Practice Throughout the Data Life Cycle (6th Edition)\nDataONE Community Engagement & Outreach Working Group (2017) “Metadata Management”. Accessed through the Data Management Skillbuilding Hub on Aug 31, 2020",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Resources for Preparing Metadata</span>"
@@ -377,7 +377,7 @@
     "href": "class_materials/class_sessions/08_metadata/metadata.html#discipline-specific-metadata-standards",
     "title": "8  Resources for Preparing Metadata",
     "section": "8.3 Discipline-specific metadata standards",
-    "text": "8.3 Discipline-specific metadata standards\nIt is worth looking in these catalogs to see if you can find metadata standards for your discipline. They will provide suggestions on not only what to include, but the standard vocabulary for your discipline.\n\nRDA Catalog of metadata standards for different disciplines\nUK Digital Curation Center Directory of metadata standards for different disciplines\nEcological data: Ecological Metadata Language\nMuseum Specimens: Darwin Core\nGeography Markup Language (GML): Emphasis on geographic features (roads, highways, bridges)\nHumanities: UF Digital Collections (UFDC) key metadata fields used for non-published items such as posters, archival materials, artists’ files, field notebooks, etc. Includes a link to a template you can download. See also Template No.1 from UF’s Samuel Proctor Oral History Project, Template #2, which is a more general one from the UF Humanities Archives, and the metadata required by the Qualitative Data Repository.",
+    "text": "8.3 Discipline-specific metadata standards\nIt is worth looking in these catalogs to see if you can find metadata standards for your discipline. They will provide suggestions on not only what to include, but the standard vocabulary for your discipline.\n\nRDA Catalog of metadata standards for different disciplines\nUK Digital Curation Center Directory of metadata standards for different disciplines\nEcological data: Ecological Metadata Language\nMuseum Specimens: Darwin Core\nGeography Markup Language (GML): Emphasis on geographic features (roads, highways, bridges)\nHumanities: UF Digital Collections (UFDC) key metadata fields used for non-published items such as posters, archival materials, artists’ files, field notebooks, etc. Includes a link to a template you can download. See also the different Metadata Preparation Guides provided by the University of Florida Digital Collections (UFDC), the UF Humanities Archives Metadata Template, and the metadata required by the Qualitative Data Repository.",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Resources for Preparing Metadata</span>"
@@ -399,7 +399,7 @@
     "href": "class_materials/class_sessions/08_metadata/metadata.html#tools-for-creating-machine-readable-metadata",
     "title": "8  Resources for Preparing Metadata",
     "section": "8.5 Tools for creating machine-readable metadata",
-    "text": "8.5 Tools for creating machine-readable metadata\nI include these here in case you want to try using them. It’s not required, but it could definitely make your life easier if there is a standard tool for your discipline (e.g., MORPHO if you are working with ecological data).\n\nMorpho: desktop application that allows researchers to create metadata and then (if they wish) upload to KNB. No longer maintained but open source and can be very useful.\ngiant list from the RDA of tools for creating standardized metadata for different disciplines\nUSGS Metadata Wizard\nTKME\nCatMDEdit\nGRIIDC",
+    "text": "8.5 Tools for creating machine-readable metadata\nI include these here in case you want to try using them. It’s not required, but it could definitely make your life easier if there is a standard tool for your discipline (e.g., MORPHO if you are working with ecological data).\n\n\ngiant list from the RDA of tools for creating standardized metadata for different disciplines\nUSGS Metadata Wizard\nTKME\nCatMDEdit\nCoastal and Marine Science Data Repository - GRIIDC: Select the Dataset Information Form Guidance from the Training and User Guides page.",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Resources for Preparing Metadata</span>"
@@ -410,7 +410,7 @@
     "href": "class_materials/class_sessions/08_metadata/metadata.html#metadata-dictionaries",
     "title": "8  Resources for Preparing Metadata",
     "section": "8.6 Metadata Dictionaries",
-    "text": "8.6 Metadata Dictionaries\n\nUSGS\nGlobal Change Master Dictionary\nUSGS Geographic Names\nGetty Thesaurus of Geographic Names",
+    "text": "8.6 Metadata Dictionaries\n\nUSGS\nGlobal Change Master Dictionary [Note: deprecated June 2020]\nUSGS Geographic Names\nGetty Thesaurus of Geographic Names",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Resources for Preparing Metadata</span>"
