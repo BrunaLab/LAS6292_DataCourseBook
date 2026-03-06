@@ -8,7 +8,24 @@ title-block-style: default
 date-modified: last-modified
 
 ---
-# Resources for Preparing Metadata  {#sec-metadata}
+# Metadata  {#sec-metadata}
+
+Data repositories such as [Dryad](https://datadryad.org) and [ICPSR](https://www.icpsr.umich.edu/web/pages/) are designed to permanently store the data that are used in research so it is available to future scholars. To use the data, it is important to have good _metadata_: metadata describe the data themselves, rather than why the study was conducted, hypotheses, results, or conclusions. Metadata include thorough description of the data file, the context in which the data were collected, the measurements that were made, the tools used to gather the data, and the quality of the data themselves.
+
+We want data and metadata to adhere to the FAIR Principles for [Scientific Data Management and Stewardship](https://www.nature.com/articles/sdata201618), meaning they should be:
+  
+    * Findable: persistent identifiers & basic machine-actionable metadata
+    * Accessible: can be read by machines & humans
+    * Interoperable: use shared vocabularies / ontologies, machine-accessible (meta)data
+    * Re-Usable: descriptions allow others to reuse and link with other data sources
+
+The metadata for the types of data used in our work should also (typically) include the 5 Classes of metadata descriptors from [Michener _et al._ 1997](https://esajournals.onlinelibrary.wiley.com/doi/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2)
+
+    * Class I: alert potential secondary users to the existence of data sets that fall within specific temporal, spatial, and thematic domains. 
+    * Class II: describe the research resulting in a data set. 
+    * Class III: status of the data set and information on its accessibility. 
+    * Class IV: all the attributes related to the structure of the data file. 
+    * Class V: all other related information that might be necessary for secondary usage, publishing the data set, or auditing the data set. 
 
 ## What are Metdatadata?
 

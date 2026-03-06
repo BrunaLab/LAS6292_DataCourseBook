@@ -58,8 +58,27 @@ book:
         - class_materials/class_sessions/14_automated_data_extraction/automated.qmd  # - Automated Data Extraction
         - class_materials/class_sessions/15_legal_ethical/legal_ethical.qmd  # - Legal & Ethical Issues
 
+  
+    - part: "Individual Projects"
+      chapters: 
+        - class_materials/individual_projects/assignments.qmd
+        # - class_materials/individual_projects/data_cleanup.Rmd
+        # - class_materials/individual_projects/dmp.Rmd
     
-    - part: "Class Notes & Activities"
+    
+    # - references.qmd
+    # 
+    - part: "Useful Resources"
+      chapters: 
+        - class_materials/resources/resources.qmd
+        - slidedecks.qmd
+        # - forms/data_sharing_contract.qmd
+        # - forms/forms_list.qmd
+        # - forms/glossary.qmd
+        
+
+   
+    - part: "Instructor Materials"
       chapters:
         - class_materials/class_sessions/01_course_introduction/introduction_class.qmd
         - class_materials/class_sessions/02_file_organization/organization_backup_class.qmd
@@ -84,24 +103,6 @@ book:
     #   - class_materials/class_sessions/0  # - Automated Data Extraction
     #   - class_materials/class_sessions/0  # - Legal & Ethical Issues
     
-    
-    - part: "Individual Projects"
-      chapters: 
-        - class_materials/individual_projects/assignments.qmd
-        # - class_materials/individual_projects/data_cleanup.Rmd
-        # - class_materials/individual_projects/dmp.Rmd
-    
-    
-    # - references.qmd
-    # 
-    - part: "Useful Resources"
-      chapters: 
-        - class_materials/resources/resources.qmd
-        - slidedecks.qmd
-        # - forms/data_sharing_contract.qmd
-        # - forms/forms_list.qmd
-        # - forms/glossary.qmd
-        
 
     
 bibliography: las6292.bib
