@@ -6,113 +6,108 @@
 #       - name: University of Florida
 title-block-style: default
 date-modified: last-modified
-
 ---
-# Metadata  {#sec-metadata}
 
-Data repositories such as [Dryad](https://datadryad.org) and [ICPSR](https://www.icpsr.umich.edu/web/pages/) are designed to permanently store the data that are used in research so it is available to future scholars. To use the data, it is important to have good _metadata_: metadata describe the data themselves, rather than why the study was conducted, hypotheses, results, or conclusions. Metadata include thorough description of the data file, the context in which the data were collected, the measurements that were made, the tools used to gather the data, and the quality of the data themselves.
+# Metadata {#sec-metadata}
+
+Data repositories such as [Dryad](https://datadryad.org) and [ICPSR](https://www.icpsr.umich.edu/web/pages/) are designed to permanently store the data that are used in research so it is available to future scholars. To use the data, it is important to have good *metadata*: metadata describe the data themselves, rather than why the study was conducted, hypotheses, results, or conclusions. Metadata include thorough description of the data file, the context in which the data were collected, the measurements that were made, the tools used to gather the data, and the quality of the data themselves.
 
 We want data and metadata to adhere to the FAIR Principles for [Scientific Data Management and Stewardship](https://www.nature.com/articles/sdata201618), meaning they should be:
-  
-  * Findable: persistent identifiers & basic machine-actionable metadata
-  * Accessible: can be read by machines & humans
-  * Interoperable: use shared vocabularies / ontologies, machine-accessible (meta)data
-  * Re-Usable: descriptions allow others to reuse and link with other data sources
 
-The metadata for the types of data used in our work should also (typically) include the 5 Classes of metadata descriptors from [Michener _et al._ 1997](https://esajournals.onlinelibrary.wiley.com/doi/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2)
+-   Findable: persistent identifiers & basic machine-actionable metadata
+-   Accessible: can be read by machines & humans
+-   Interoperable: use shared vocabularies / ontologies, machine-accessible (meta)data
+-   Re-Usable: descriptions allow others to reuse and link with other data sources
 
-  * Class I: alert potential secondary users to the existence of data sets that fall within specific temporal, spatial, and thematic domains. 
-  * Class II: describe the research resulting in a data set. 
-  * Class III: status of the data set and information on its accessibility. 
-  * Class IV: all the attributes related to the structure of the data file. 
-  * Class V: all other related information that might be necessary for secondary usage, publishing the data set, or auditing the data set. 
+The metadata for the types of data used in our work should also (typically) include the 5 Classes of metadata descriptors from [Michener *et al.* 1997](https://esajournals.onlinelibrary.wiley.com/doi/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2)
+
+-   Class I: alert potential secondary users to the existence of data sets that fall within specific temporal, spatial, and thematic domains.
+-   Class II: describe the research resulting in a data set.
+-   Class III: status of the data set and information on its accessibility.
+-   Class IV: all the attributes related to the structure of the data file.
+-   Class V: all other related information that might be necessary for secondary usage, publishing the data set, or auditing the data set.
 
 ## What are Metdatadata?
 
-1. E. Bruna Video for LAS6292: [Why Metadata?](https://youtu.be/wrt-3l71DJ4)
+1.  E. Bruna Video for LAS6292: [Why Metadata?](https://youtu.be/wrt-3l71DJ4)
 
-1. ICPSR: [What is a Codebook?](https://www.icpsr.umich.edu/web/HMCA/cms/1983)
+2.  ICPSR: [What is a Codebook?](https://www.icpsr.umich.edu/web/HMCA/cms/1983)
 
 ## Best practices for preparing metadata
 
-1. ["Best Practices in Creating Social Science Metadata."](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) p.32 in the ICPSR *Guide to Social Science Data Preparation and Archiving: Best Practice Throughout the Data Life Cycle (6th Edition)*.
+1.  ["Best Practices in Creating Social Science Metadata."](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) p.32 in the ICPSR *Guide to Social Science Data Preparation and Archiving: Best Practice Throughout the Data Life Cycle (6th Edition)*.
 
-1.  Michener, W.K., et al . 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342.  
-        [[read online]](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2)
+2.  Michener, W.K., et al . 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342.\
+    [\[read online\]](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2)
 
-1.  Pp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research methods: Qualitative and quantitative approaches. Sage.
+3.  Pp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research methods: Qualitative and quantitative approaches. Sage.
 
-1. ICPSR [*Guide to Social Science Data Preparation and Archiving: 
-Best Practice Throughout the Data Life Cycle (6th Edition)*](https://www.icpsr.umich.edu/web/pages/deposit/guide/)
+4.  ICPSR [*Guide to Social Science Data Preparation and Archiving: Best Practice Throughout the Data Life Cycle (6th Edition)*](https://www.icpsr.umich.edu/web/pages/deposit/guide/)
 
-2. DataONE Community Engagement & Outreach Working Group (2017) ["Metadata Management"](https://dataoneorg.github.io/Education/lessons/07_metadata/index). Accessed through the Data Management Skillbuilding Hub on Aug 31, 2020
+5.  DataONE Community Engagement & Outreach Working Group (2017) ["Metadata Management"](https://dataoneorg.github.io/Education/lessons/07_metadata/index). Accessed through the Data Management Skillbuilding Hub on Aug 31, 2020
 
 ## Discipline-specific metadata standards
 
-It is worth looking in these catalogs to see if you can find metadata standards for your discipline. They will provide suggestions on not only what to include, but the standard vocabulary for your discipline. 
+It is worth looking in these catalogs to see if you can find metadata standards for your discipline. They will provide suggestions on not only what to include, but the standard vocabulary for your discipline.
 
-1. RDA [Catalog of metadata standards for different disciplines](https://rd-alliance.github.io/metadata-directory/subjects/)
+1.  RDA [Catalog of metadata standards for different disciplines](https://rd-alliance.github.io/metadata-directory/subjects/)
 
-1. UK Digital Curation Center [Directory of metadata standards for different disciplines](https://www.dcc.ac.uk/guidance/standards/metadata)
+2.  UK Digital Curation Center [Directory of metadata standards for different disciplines](https://www.dcc.ac.uk/guidance/standards/metadata)
 
-2. Ecological data: [Ecological Metadata Language](http://knb.ecoinformatics.org/eml_metadata_guide.html)
+3.  Ecological data: [Ecological Metadata Language](http://knb.ecoinformatics.org/eml_metadata_guide.html)
 
-3. Museum Specimens: [Darwin Core](http://rs.tdwg.org/dwc/index.htm)
+4.  Museum Specimens: [Darwin Core](http://rs.tdwg.org/dwc/index.htm)
 
-4. Geography Markup Language ([GML](http://www.opengeospatial.org/standards/gml)): Emphasis on geographic features (roads, highways, bridges)
+5.  Geography Markup Language ([GML](http://www.opengeospatial.org/standards/gml)): Emphasis on geographic features (roads, highways, bridges)
 
-5. Humanities: UF Digital Collections (UFDC) [key metadata fields](https://guides.uflib.ufl.edu/ufdcmetadata) used for non-published items such as posters, archival materials, artists' files, field notebooks, etc. Includes a link to a template you can download.  See also the different [Metadata Preparation Guides](https://guides.uflib.ufl.edu/describeitems/examples) provided by the University of Florida Digital Collections (UFDC), the [UF Humanities Archives Metadata Template](https://docs.google.com/spreadsheets/d/1K9RRNWrWbK0ikQai4_baBmxobqsX6jwEsiAHVjEJRDE/edit#gid=1745662283), and the [metadata required by the Qualitative Data Repository](https://qdr.syr.edu/content/qdr-metadata-application-profile).
-
+6.  Humanities: UF Digital Collections (UFDC) [key metadata fields](https://guides.uflib.ufl.edu/ufdcmetadata) used for non-published items such as posters, archival materials, artists' files, field notebooks, etc. Includes a link to a template you can download. See also the different [Metadata Preparation Guides](https://guides.uflib.ufl.edu/describeitems/examples) provided by the University of Florida Digital Collections (UFDC), the [UF Humanities Archives Metadata Template](https://docs.google.com/spreadsheets/d/1K9RRNWrWbK0ikQai4_baBmxobqsX6jwEsiAHVjEJRDE/edit#gid=1745662283), and the [metadata required by the Qualitative Data Repository](https://qdr.syr.edu/content/qdr-metadata-application-profile).
 
 ## Metadata templates
 
-I have created metadata templates based on information from ICSPR (for social sciences) and Michener _et al._ 1997 (for biophysical sciences) that can be downloaded and edited; you can add more fields or delete any that are not relevant. Note that Table 1 in Michener _et al._ is much more comprehensive and provides additional guidance on how to make sure the metadata are useful.  The templates are available in `.txt`, `.Rmd`, and `.qmd` format).
+I have created metadata templates based on information from ICSPR (for social sciences) and Michener *et al.* 1997 (for biophysical sciences) that can be downloaded and edited; you can add more fields or delete any that are not relevant. Note that Table 1 in Michener *et al.* is much more comprehensive and provides additional guidance on how to make sure the metadata are useful. The templates are available in `.txt`, `.Rmd`, and `.qmd` format).
 
+1.  **Metadata Template for Social Sciences** based on ICSPR standards: [.txt format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/ICPSR_Metadata.txt) or [.Rmd format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/ICPSR_Metadata.Rmd).
 
-1. **Metadata Template for Social Sciences ** based on ICSPR standards: [.txt format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/ICPSR_Metadata.txt) or [.Rmd format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/ICPSR_Metadata.Rmd). 
+2.  **Metadata template for Biophysical Sciences** based on Table 1 from Michener *et al.* 1997: [.txt format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/Michener_etal_1997_Table1.txt) or [.Rmd format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/Michener_etal_1997_Table1.Rmd)
 
-1. **Metadata template for Biophysical Sciences** based on Table 1 from Michener _et al._ 1997: [.txt format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/Michener_etal_1997_Table1.txt) or [.Rmd format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/955ff1d91ee9e1655019b5ced69c3676a80cdf58/instructor-materials/class-sessions/08-metadata/Michener_etal_1997_Table1.Rmd)
-
-1. **Metadata for the Humanities or those working primarily with Qualitative Data:** The metadata required often depend on the type of material with which you work (e.g., oral history, photos, digital, printed). If your data is in this domain, you can use this general template from the UF Humanities Archives: [Template #2](https://docs.google.com/spreadsheets/d/1K9RRNWrWbK0ikQai4_baBmxobqsX6jwEsiAHVjEJRDE/edit#gid=1745662283). You can also review the [metadata required by the Qualitative Data Repository](https://qdr.syr.edu/content/qdr-metadata-application-profile).
+3.  **Metadata for the Humanities or those working primarily with Qualitative Data:** The metadata required often depend on the type of material with which you work (e.g., oral history, photos, digital, printed). If your data is in this domain, you can use this general template from the UF Humanities Archives: [Template #2](https://docs.google.com/spreadsheets/d/1K9RRNWrWbK0ikQai4_baBmxobqsX6jwEsiAHVjEJRDE/edit#gid=1745662283). You can also review the [metadata required by the Qualitative Data Repository](https://qdr.syr.edu/content/qdr-metadata-application-profile).
 
 <!-- TODO: UPDATE WITH these for oral-history, and the  -->
+
 <!-- https://digitalomnium.com/oral-history-digital-toolbox-my-favorites/ -->
+
 <!-- [Template No.1](https://docs.google.com/spreadsheets/d/1x98TWee85Gq9oas90JJYtB5DyPBkMSNEs29Mb1qyAeQ/edit#gid=0) from UF's Samuel Proctor Oral History Project,  -->
 
-## Tools for creating machine-readable metadata 
+## Tools for creating machine-readable metadata
 
-I include these here in case you want to try using them. It's not required, but it could definitely make your life easier if there is a standard tool for your discipline (e.g., MORPHO if you are working with ecological data). 
+I include these here in case you want to try using them. It's not required, but it could definitely make your life easier if there is a standard tool for your discipline (e.g., MORPHO if you are working with ecological data).
 
 <!-- 1. [Morpho](https://github.com/NCEAS/morpho): desktop application that allows researchers to create metadata and then (if they wish) upload to KNB. No longer maintained but open source and can be very useful. -->
 
-1. [giant list from the RDA](https://rd-alliance.github.io/metadata-directory/tools/) of tools for creating standardized metadata for different disciplines
+1.  [giant list from the RDA](https://rd-alliance.github.io/metadata-directory/tools/) of tools for creating standardized metadata for different disciplines
 
-2. [USGS Metadata Wizard](https://www.sciencebase.gov/catalog/item/50ed7aa4e4b0438b00db080a)
+2.  [USGS Metadata Wizard](https://www.sciencebase.gov/catalog/item/50ed7aa4e4b0438b00db080a)
 
-3. [TKME](https://geology.usgs.gov/tools/metadata/tools/doc/tkme.html)
+3.  [TKME](https://geology.usgs.gov/tools/metadata/tools/doc/tkme.html)
 
-4. [CatMDEdit](http://catmdedit.sourceforge.net/)
+4.  [CatMDEdit](http://catmdedit.sourceforge.net/)
 
-5. [Coastal and Marine Science Data Repository - GRIIDC](https://www.griidc.org/): Select the [Dataset Information Form Guidance](https://www.griidc.org/media/dataset_information_form_guidance.pdf) from the [Training and User Guides page](https://www.griidc.org/training-user-guides).
+5.  [Coastal and Marine Science Data Repository - GRIIDC](https://www.griidc.org/): Select the [Dataset Information Form Guidance](https://www.griidc.org/media/dataset_information_form_guidance.pdf) from the [Training and User Guides page](https://www.griidc.org/training-user-guides).
 
 ## Metadata Dictionaries
 
-1. [USGS](https://apps.usgs.gov/thesaurus/)
+1.  [USGS](https://apps.usgs.gov/thesaurus/)
 
-2. [Global Change Master Dictionary](https://catalog.data.gov/dataset/global-change-master-directory-gcmd) **[Note: deprecated June 2020]**
+2.  [Global Change Master Dictionary](https://catalog.data.gov/dataset/global-change-master-directory-gcmd) **\[Note: deprecated June 2020\]**
 
-3. [USGS Geographic Names](https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names)
+3.  [USGS Geographic Names](https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names)
 
-4. [Getty Thesaurus of Geographic Names](http://www.getty.edu/research/tools/vocabularies/tgn/)
+4.  [Getty Thesaurus of Geographic Names](http://www.getty.edu/research/tools/vocabularies/tgn/)
 
+## Organizations developing metadata standards and schema
 
-## Organizations developing metadata standards and schema 
+1.  [The Research Data Alliance (RDA)](https://www.rd-alliance.org/)"has the goal goal of building the social and technical infrastructure to enable open sharing and re-use of data."
 
-1. [The Research Data Alliance (RDA) ](https://www.rd-alliance.org/)"has the goal goal of building the social and technical infrastructure to enable open sharing and re-use of data."
+2.  [DDI Alliance](https://ddialliance.org/): "Established in 2003, the Data Documentation Initiative Alliance (DDI Alliance) is an international collaboration dedicated to establishing metadata standards and semantic products for describing social science data, data covering human activity, and other data based on observational methods."
 
-2. [DDI Alliance](https://ddialliance.org/): "Established in 2003, the Data Documentation Initiative Alliance (DDI Alliance) is an international collaboration dedicated to establishing metadata standards and semantic products for describing social science data, data covering human activity, and other data based on observational methods." 
-
-3. [The Dublin Core Metadata Initiative](https://www.dublincore.org/) is "an organization supporting innovation in metadata design and best practices across the metadata ecology". 
-
-
-
+3.  [The Dublin Core Metadata Initiative](https://www.dublincore.org/) is "an organization supporting innovation in metadata design and best practices across the metadata ecology".
