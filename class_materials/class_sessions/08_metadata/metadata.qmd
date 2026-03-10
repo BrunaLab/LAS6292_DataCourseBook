@@ -62,6 +62,8 @@ It is worth looking in these catalogs to see if you can find metadata standards 
 
 6.  Humanities: UF Digital Collections (UFDC) [key metadata fields](https://guides.uflib.ufl.edu/ufdcmetadata) used for non-published items such as posters, archival materials, artists' files, field notebooks, etc. Includes a link to a template you can download. See also the different [Metadata Preparation Guides](https://guides.uflib.ufl.edu/describeitems/examples) provided by the University of Florida Digital Collections (UFDC), the [UF Humanities Archives Metadata Template](https://docs.google.com/spreadsheets/d/1K9RRNWrWbK0ikQai4_baBmxobqsX6jwEsiAHVjEJRDE/edit#gid=1745662283), and the [metadata required by the Qualitative Data Repository](https://qdr.syr.edu/content/qdr-metadata-application-profile).
 
+7, Linguistics: [Lameta](https://sites.google.com/site/metadatatooldiscussion/home) is a tool to help with organising collections of files, aimed primarily at collections made in the course of documenting language, music, and other cultural expressions.
+
 ## Metadata templates
 
 I have created metadata templates based on information from ICSPR (for social sciences) and Michener *et al.* 1997 (for biophysical sciences) that can be downloaded and edited; you can add more fields or delete any that are not relevant. Note that Table 1 in Michener *et al.* is much more comprehensive and provides additional guidance on how to make sure the metadata are useful. The templates are available in `.txt`, `.Rmd`, and `.qmd` format).

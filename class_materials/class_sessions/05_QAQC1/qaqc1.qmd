@@ -26,12 +26,16 @@ date-modified: last-modified
 
 1. Converting text to speech in Excel for Microsoft 365, Excel 2010-2021 [[link]](https://support.microsoft.com/en-us/office/converting-text-to-speech-in-excel-3f2ca8c0-90e2-4391-8e69-573832ea7300). 
 1. Microsoft for Mac: Hear selected text read aloud from Excel, Word, Power Point, and Outlook [[link](https://support.microsoft.com/en-gb/office/hear-selected-text-read-aloud-ce9fb073-2a4d-44d2-95f7-6a532f0ab112)].  See also _'System Preferences->Accessibility'_
+
 1. Video Tutorials  
 * [Tutorial Video 1](https://youtu.be/5ZOsMe0aPt8). This will allow you to select rows or columns of Excel and have them read back to you. 
 * [Tutorial Video 2](https://youtu.be/q6LOhQThvB8): it's not as thorough, but it is a bit easier to see the menu
 * [Tutorial Video 3](https://youtu.be/DSltR90mkgc). Because why not a third one?
 
+1. If you are typing up written observations or field notes, the NY Times Wirecutter team thinks the [Dictation tool in MS Word](https://support.microsoft.com/en-us/office/dictate-your-documents-in-word-3876e05f-3fcc-418f-b8ab-db7ce0d11d3c) is the best way transcribe your written notes. It requires an internaet connection to use, but [according to their review](https://www.nytimes.com/wirecutter/reviews/best-dictation-software/) "it handles medical terms and less-common words correctly more than most competing tools. It supports 34 languages, includes commands for punctuation, emoji, and other commonly used special characters, and allows you to format and navigate text with spoken commands."
+
 #### Text-to-Speech in Google Docs {.unnumbered}  
+
 
 1. If you prefer working in Google Docs you can do the same thing. [This article](https://www.businessinsider.com/how-to-make-google-docs-read-to-you) will show you how. You can also watch [this tutorial video](https://youtu.be/3UmI5wo5kHg).
 

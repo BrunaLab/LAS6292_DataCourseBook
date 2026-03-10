@@ -10,6 +10,13 @@ date-modified: last-modified
 ---
 # Transcription & Translation {#sec-transcription}
 
+::: {.callout-important}
+## Warning 
+
+Prior to using commercial transcription or translation services you should have them approved by [UF's Integrated Risk Managment Team](https://it.ufl.edu/security/audiences/faculty--staff/irm/), especially if you are working with 'Sensitive' or 'Restricted' data. Even if working with public data, you may wish to verify how the company is storing and using your files (i.e., if they are using them to train their models).
+
+:::
+
 ## Transcription
 
 ### Transcription tools & software  {.unnumbered}
@@ -20,16 +27,17 @@ The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/internationa
 
 1.  [Comparison Video](https://www.youtube.com/watch?v=GAmkIHJl7A0 comparisons)
 
-1. NY Times' Wirecutter [review of transcription services](https://www.nytimes.com/wirecutter/reviews/best-transcription-services/) 
+1. NY Times' Wirecutter [review of paid transcription services](https://www.nytimes.com/wirecutter/reviews/best-transcription-services/). Their recommendations include both human- and AI-transcription of video and audio with per-minute pricing.   
 
 
 ### Tools: Automated Transcription via file upload {.unnumbered}
+
 
 **_Top-Tier _**   {.unnumbered}
 
 1. [Otter.ai](https://otter.ai/login). English only (US & UK with regional accents); free (600 min/mo) and paid plans. Can transcribe zoom meetings (e.g., if you do interviews via zoom) and can [integrate with Dropbox](https://blog.otter.ai/otter-dropbox-integration/). Phone app is available for [iOS](https://play.google.com/store/apps/details?id=com.aisense.otter&hl=en_US&gl=US). There is an [online tutorial](https://www.youtube.com/watch?v=SCaBnObVsqI).  **_English-only_**
   
-1.  [Happy Scribe](https://www.happyscribe.com/) - see descriptionabove.
+1.  [Happy Scribe](https://www.happyscribe.com/) - see description above.
 
 1.  [Temi](https://www.temi.com/). **_English Only_**, less accurate than Otter.ai and Happy Scribe.
 
@@ -57,6 +65,9 @@ The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/internationa
 
 1. [Google Docs](https://www.google.com/docs). See also [Google Docs Voice Recognition](https://support.google.com/docs/answer/4492226?hl=en) and [helpful how-to blog post on transcription using google docs and voice recognition](https://qz.com/work/1087765/how-to-transcribe-audio-fast-and-for-free-using-google-docs-voice-typing/)  
 
+
+1. [Express Scribe](Transcription Software https://www.nch.com.au/scribe/index.html) and [a tutorial](https://www.youtube.com/watch?v=kbKRJcd1ueA). There is a free version. **_[Approved by UF](https://it.ufl.edu/security/audiences/faculty--staff/fast-path-solutions/) for Open and Sensitive Data; approval required for Restricted Data._** 
+
 1. [SpeechNotes](https://speechnotes.co/)
 
 1. [Apple Dictation](https://support.apple.com/en-us/HT202584) and [Dictation Commands](https://support.apple.com/en-gb/HT203085)
@@ -66,8 +77,6 @@ The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/internationa
 ### Tools: "Manual" transcription  {.unnumbered}
 
 1. [oTranscribe](https://otranscribe.com/)  Incredibly easy, web based, with time stamps, variable speed.
-
-1. [Express Scribe](Transcription Software https://www.nch.com.au/scribe/index.html) and [a tutorial](https://www.youtube.com/watch?v=kbKRJcd1ueA). There is a free version.
 
 1. [Transcribe](https://transcribe.wreally.com/)
 

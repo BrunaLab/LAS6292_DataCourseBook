@@ -126,3 +126,20 @@ number-sections: true
 
 1. UF Approved Methods for [Electronic Media Disposal](https://www.fa.ufl.edu/directives/electronic-media-disposal/)
 
+
+
+## Non-R software & tools
+
+### Linguistics   {.unnumbered}    
+
+1. [lameta](https://sites.google.com/site/metadatatooldiscussion/home/about-lameta?authuser=0): tool for organizing collections of files and metadatata made in the course of documenting language, music, and other cultural expressions. 
+
+2. [FieldWorks Language Explorer](https://software.sil.org/fieldworks/): Dictionary Creation Software; comprehensive tool that allows you to create a dictionary for a language by collecting texts, words, and cultural information. It is widely used for documenting and preserving low-resource languages and cultures.  
+
+
+### Text analysis
+
+{AntConc}(https://www.laurenceanthony.net/software.html): A freeware corpus analysis toolkit for concordancing and text analysis (see link for related tools); a tutorial from the Programming Historian [is available here](https://programminghistorian.org/en/lessons/corpus-analysis-with-antconc).
+
+
+
