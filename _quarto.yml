@@ -78,30 +78,30 @@ book:
         
 
    
-    - part: "Instructor Materials"
-      chapters:
-        - class_materials/class_sessions/01_course_introduction/introduction_class.qmd
-        - class_materials/class_sessions/02_file_organization/organization_backup_class.qmd
-        - class_materials/class_sessions/03_spreadsheets/spreadsheets_class.qmd
-    #   - class_materials/class_sessions/02_file_names/naming.qmd
-    #   - class_materials/class_sessions/02_file_formats.qmd 
-    #   - class_materials/class_sessions/0     Naming Conventions
-    #   - class_materials/class_sessions/0  # - Data Storage & Security
-        - class_materials/class_sessions/03_spreadsheets/spreadsheets_class.qmd
-        - class_materials/class_sessions/03_spreadsheets/spreadsheets_hw.qmd
-    #   - class_materials/class_sessions/0  # - Format of data and datasets
-        - class_materials/class_sessions/04_reproducibility/reproducibility_hw.qmd
-        - class_materials/class_sessions/05_QAQC1/qaqc1_hw.qmd
-        - class_materials/class_sessions/06_QAQC2/openrefine_class.qmd 
-    #   - class_materials/class_sessions/0  # - Visualizing Data to Find Mistakes
-        - class_materials/class_sessions/08_metadata/metadata_class.qmd
-    #   - class_materials/class_sessions/0  # - Data Sharing, Reuse, & Archives
-    #   - class_materials/class_sessions/0  # - Data Management Plans
-    #   - class_materials/class_sessions/0  # - Efficient Data Collection
-    #   - class_materials/class_sessions/0  # - Transcription & Translation
-    #   - class_materials/class_sessions/0  # - ‘Paperless’ Data Collection
-    #   - class_materials/class_sessions/0  # - Automated Data Extraction
-    #   - class_materials/class_sessions/0  # - Legal & Ethical Issues
+    # - part: "Instructor Materials"
+    #   chapters:
+    #     - class_materials/class_sessions/01_course_introduction/introduction_class.qmd
+    #     - class_materials/class_sessions/02_file_organization/organization_backup_class.qmd
+    #     - class_materials/class_sessions/03_spreadsheets/spreadsheets_class.qmd
+    # #   - class_materials/class_sessions/02_file_names/naming.qmd
+    # #   - class_materials/class_sessions/02_file_formats.qmd 
+    # #   - class_materials/class_sessions/0     Naming Conventions
+    # #   - class_materials/class_sessions/0  # - Data Storage & Security
+    #     - class_materials/class_sessions/03_spreadsheets/spreadsheets_class.qmd
+    #     - class_materials/class_sessions/03_spreadsheets/spreadsheets_hw.qmd
+    # #   - class_materials/class_sessions/0  # - Format of data and datasets
+    #     - class_materials/class_sessions/04_reproducibility/reproducibility_hw.qmd
+    #     - class_materials/class_sessions/05_QAQC1/qaqc1_hw.qmd
+    #     - class_materials/class_sessions/06_QAQC2/openrefine_class.qmd 
+    # #   - class_materials/class_sessions/0  # - Visualizing Data to Find Mistakes
+    #     - class_materials/class_sessions/08_metadata/metadata_class.qmd
+    # #   - class_materials/class_sessions/0  # - Data Sharing, Reuse, & Archives
+    # #   - class_materials/class_sessions/0  # - Data Management Plans
+    # #   - class_materials/class_sessions/0  # - Efficient Data Collection
+    # #   - class_materials/class_sessions/0  # - Transcription & Translation
+    # #   - class_materials/class_sessions/0  # - ‘Paperless’ Data Collection
+    # #   - class_materials/class_sessions/0  # - Automated Data Extraction
+    # #   - class_materials/class_sessions/0  # - Legal & Ethical Issues
     
 
     
