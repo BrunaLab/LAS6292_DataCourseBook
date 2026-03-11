@@ -113,6 +113,7 @@ format:
       - cosmo
       - format/r4ds.scss
   pdf:
+    pdf-standard: ua-2
     documentclass: scrbook
     classoption: ["oneside", "open=any"]
     cover-image: images/cover.png

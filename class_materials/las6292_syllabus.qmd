@@ -21,6 +21,7 @@ urlcolor: darkmidnightblue
 #       - right=24mm
 format:
   pdf:
+    pdf-standard: ua-2
     include-in-header:
       text: |
         \usepackage[dvipsnames]{xcolor}
