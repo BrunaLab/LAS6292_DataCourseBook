@@ -61,7 +61,7 @@ book:
   
     - part: "Individual Projects"
       chapters: 
-        - class_materials/individual_projects/assignments.qmd
+        - class_materials/individual_projects/assignments.qmd 
         # - class_materials/individual_projects/data_cleanup.qmd
         # - class_materials/individual_projects/dmp.qmd
     
@@ -95,6 +95,7 @@ book:
     #     - class_materials/class_sessions/06_QAQC2/openrefine_class.qmd 
     # #   - class_materials/class_sessions/0  # - Visualizing Data to Find Mistakes
     #     - class_materials/class_sessions/08_metadata/metadata_class.qmd
+    #     - class_materials/class_sessions/09_DMP/dmp_instructor_notes.qmd
     # #   - class_materials/class_sessions/0  # - Data Sharing, Reuse, & Archives
     # #   - class_materials/class_sessions/0  # - Data Management Plans
     # #   - class_materials/class_sessions/0  # - Efficient Data Collection
