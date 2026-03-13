@@ -23,15 +23,25 @@ format:
     pdf-standard: ua-2
     include-in-header:
       text: |
+        \usepackage{scrlayer-scrpage}
+        <!-- puts header on all pages. remove to be only on 2+ -->
+        \pagestyle{scrheadings}
+        \thispagestyle{scrheadings}
+        \rohead{p. \thepage}
+        \lohead{LAS 6292 DMP Assignment}
+        \rofoot{Updated \today}
+        \cofoot{}
         \usepackage[dvipsnames]{xcolor}
         \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
         \usepackage{sectsty}\sectionfont{\centering\color{darkmidnightblue}}
         \usepackage{sectsty}\subsectionfont{\centering\color{darkmidnightblue}}
+        \usepackage{sectsty}\subsubsectionfont{\centering\color{darkmidnightblue}}
         \AtBeginDocument{\let\maketitle\relax}
-        \usepackage{fancyhdr}
-        \pagestyle{fancy}
-        \fancyhead[R]{LAS 6292 DMP, p. \thepage}
-        \fancyhead[L]{Updated \today}
+        <!-- \usepackage{fancyhdr} -->
+        <!-- \pagestyle{fancy} -->
+        <!-- \fancyhead[R]{p. \thepage} -->
+        <!-- \fancyhead[L]{LAS 6292 DMP Assignment} -->
+        <!-- \fancyfoot[R]{Updated \today} -->
         <!-- \usepackage{sectsty} -->
         <!-- \sectionfont{\color{customnavy}\sffamily}      % Sans-serif for sections -->
         <!-- \subsectionfont{\color{customnavy}\sffamily}   % Sans-serif for subsections -->
@@ -120,7 +130,7 @@ dmp <- 125
 <!-- this next line suppresses the header (line, name,  page number) on 1st page -->
 \thispagestyle{empty}  
 
-## LAS 6292 DATA MANAGEMENT PLAN 
+# LAS 6292 DATA MANAGEMENT PLAN 
 
 ## Assignment overview  
 
@@ -134,8 +144,11 @@ The Data Management Plan (DMP) is a critical document describing the data to be 
 
 **DMP Peer review:** You will be asked to conduct a peer review of a colleague's draft DMP. This peer review is worth 25 pts and is due 3 April 2026. _After receiving the Peer Review and Instructor Feedback you can edit your DMP and submit it for a regrade._    
 
-**Grading Rubric: **Your submission will be evaluated using the point values, minimum standards, and rubric below. The individual components will be evaluated as "Meets required standards", "Moderate revisions required to meet the minimum standards", "Major revisions required to meet the minimum standards", or as "Incomplete / Unacceptable". In addition, I have noted a series of additional (optional) steps that can be taken to earn a designation of "Exceptional Work" on each section that can result in a bonus of up to 10%.  
-&nbsp;   
+## Grading 
+
+Your submission will be evaluated using the point values, minimum standards, and rubric below. The individual components will be evaluated as "Meets required standards", "Moderate revisions required to meet the minimum standards", "Major revisions required to meet the minimum standards", or as "Incomplete / Unacceptable". In addition, I have noted a series of additional (optional) steps that can be taken to earn a designation of "Exceptional Work" on each section that can result in a bonus of up to 10%. **_The point values for each grade category are as follows:_**  
+
+<!-- &nbsp;    -->
 
 ```{r rubric, echo=FALSE,message = FALSE,warning=FALSE}
 section <- data.frame(Section=c("DMP"))
@@ -175,28 +188,38 @@ totals <- bind_cols(section,points) %>%
 
 
 # totals[5,3:6]<-""
+cats<-colnames(totals)
 
 
-
-kable(totals,
-      align="lcccccc",
-      format="latex",
-      row.names = FALSE,
-      booktabs=T,
-      linesep = "") %>%
-  # row_spec(4,hline_after = TRUE) %>% 
-  column_spec(3:7, width = "2.5cm") %>%  #removes the blank line after every 5 lines) %>% 
-   kable_styling(position = "left",
-                 bootstrap_options = c("hover"),
-                 latex_options = c("scale_down"))
+# kable(totals,
+#       align="lcccccc",
+#       format="latex",
+#       row.names = FALSE,
+#       booktabs=T,
+#       linesep = "") %>%
+#   # row_spec(4,hline_after = TRUE) %>% 
+#   column_spec(3:7, width = "2.5cm") %>%  #removes the blank line after every 5 lines) %>% 
+#    kable_styling(position = "left",
+#                  bootstrap_options = c("hover"),
+#                  latex_options = c("scale_down"))
 # ,
 #                  full_width = T,
 
 ```
-&nbsp;  
-Not all DMPs include the same information, and you should refer to the course materials to decide what to include and for examples from different disciplines.  That said, **_for a DMP to meet the Minimum Standard - regardless of discipline - it must include the following:_**
 
-*Administrative Information*  
+&nbsp;
+
+- `r as.character(cats[3])` = `r as.character(totals[1,3])` points
+- `r as.character(cats[4])` = `r as.character(totals[1,4])` points
+- `r as.character(cats[5])` = `r as.character(totals[1,5])` points
+- `r as.character(cats[6])` = `r as.character(totals[1,6])` points
+- `r as.character(cats[7])` = `r as.character(totals[1,7])` points
+
+## Rubric 
+
+Not all DMPs include the same information, and you should refer to the course materials to decide what to include and for examples from different disciplines.  That said, **_to receive a score of 'Meets Minimum Standards' - regardless of discipline - the DMP must information from the following broad categories:_**
+
+### Category 1: Administrative Information
 
 * Project title
 * Researcher name and contact information
@@ -206,7 +229,7 @@ Not all DMPs include the same information, and you should refer to the course ma
 * Who is responsible for managing the data?
 * Who will ensure that the data management plan is carried out?
 
-*Information on Data Collection*  
+### Category 2: Information on Data Collection 
 
 * The purpose of research for which the data are being collected.
 * The kind of samples and data that were collected
@@ -216,7 +239,7 @@ Not all DMPs include the same information, and you should refer to the course ma
 * Reproducibility of collection or analysis and if collection used standard methods
 * Metadata files, code books, or other documentation needed by other researchers to use and interpret data, including how archived
 
-*Information on data formats and standards, storage, and backup* 
+### Category 3: Information on data formats and standards, storage, and backup
 
 * Data formats and if (a) standard for the field and (b) open or proprietary.
 * Repository in which data will be archived
@@ -227,7 +250,7 @@ Not all DMPs include the same information, and you should refer to the course ma
 * Plans to ensure long-term data use (i.e., storage media, file formats, etc.)
 * Any tools or software are required to read or view the data  
 
-*Information on data sharing and access policies*  
+### Category 4: Information on data sharing and access policies 
 
 * How personal or sensitive information have been removed to ensure privacy protection.
 * Who holds intellectual property rights for the data and other information created by the project and if there any patent- or technology-licensing-related restrictions on data sharing.
@@ -236,10 +259,13 @@ Not all DMPs include the same information, and you should refer to the course ma
 * The attribution of credit to individuals and institutions, including funders.
 * The length of time the data will be retained (if not permanently archived)
 
-**_An evaluation of "Exceptional" requires the following:_**
+  
+### Evaluation of 'Exceptional' 
 
-* Meets the required DMP minimum standards
-* DMP file generated with Rmarkdown; file saved to Github to allow for version control
+An evaluation of "Exceptional" requires the following:
+
+* The DMP must meet include all information required for "Meets Standards"
+* A DMP file generated with Rmarkdown or Quarto; with the file saved to Github or similar to allow for version control
 
 
 
