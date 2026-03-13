@@ -267,7 +267,7 @@
     "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html#reducing-errors-when-entering-data",
     "title": "6  QA/QC: Reducing Error Entry, Finding and Correcting Errors",
     "section": "",
-    "text": "6.1.1 Using ‘Data Validation’ Rules\n\nSetting up Data Validation in Microsoft Excel: [link to Microsoft post] and a tutorial video.\nSetting up Data Validation in Google Sheets: [link to post by Google] and a tutorial video\n\n\n\nData entry with ‘Text-to-Speech’\n\nMS Excel (& other MS programs)\n\nConverting text to speech in Excel for Microsoft 365, Excel 2010-2021 [link].\nMicrosoft for Mac: Hear selected text read aloud from Excel, Word, Power Point, and Outlook [link]. See also ‘System Preferences-&gt;Accessibility’\nVideo Tutorials\n\n\n\nTutorial Video 1. This will allow you to select rows or columns of Excel and have them read back to you.\nTutorial Video 2: it’s not as thorough, but it is a bit easier to see the menu\nTutorial Video 3. Because why not a third one?\n\n\nIf you are typing up written observations or field notes, the NY Times Wirecutter team thinks the Dictation tool in MS Word is the best way transcribe your written notes. It requires an internaet connection to use, but according to their review “it handles medical terms and less-common words correctly more than most competing tools. It supports 34 languages, includes commands for punctuation, emoji, and other commonly used special characters, and allows you to format and navigate text with spoken commands.”\n\n\n\nText-to-Speech in Google Docs\n\nIf you prefer working in Google Docs you can do the same thing. This article will show you how. You can also watch this tutorial video.\n\n\n\n\nBetter still: ‘speak-on-enter’ to confirm data values as entered\n\nSpeak-on-enter [tutorial:]\n\n\n\nSpeech-to-Text for keyboardless data entry\n\nGoogle Sheets: Typing with your voice\nMS Word: How to dictate documents\n\n\n\nOverview of Microsoft Accessibility Tools\n\n‘Narrator’ function link",
+    "text": "Using ‘Data Validation’ Rules\n\nSetting up Data Validation in Microsoft Excel: [link to Microsoft post] and a tutorial video.\nSetting up Data Validation in Google Sheets: [link to post by Google] and a tutorial video\n\n\n\nData entry with ‘Text-to-Speech’\n\nMS Excel (& other MS programs)\n\nConverting text to speech in Excel for Microsoft 365, Excel 2010-2021 [link].\nMicrosoft for Mac: Hear selected text read aloud from Excel, Word, Power Point, and Outlook [link]. See also ‘System Preferences-&gt;Accessibility’\nVideo Tutorials\n\n\n\nTutorial Video 1. This will allow you to select rows or columns of Excel and have them read back to you.\nTutorial Video 2: it’s not as thorough, but it is a bit easier to see the menu\nTutorial Video 3. Because why not a third one?\n\n\nIf you are typing up written observations or field notes, the NY Times Wirecutter team thinks the Dictation tool in MS Word is the best way transcribe your written notes. It requires an internaet connection to use, but according to their review “it handles medical terms and less-common words correctly more than most competing tools. It supports 34 languages, includes commands for punctuation, emoji, and other commonly used special characters, and allows you to format and navigate text with spoken commands.”\n\n\n\nText-to-Speech in Google Docs\n\nIf you prefer working in Google Docs you can do the same thing. This article will show you how. You can also watch this tutorial video.\n\n\n\n\nBetter still: ‘speak-on-enter’ to confirm data values as entered\n\nSpeak-on-enter [tutorial:]\n\n\n\nSpeech-to-Text for keyboardless data entry\n\nGoogle Sheets: Typing with your voice\nMS Word: How to dictate documents\n\n\n\nOverview of Microsoft Accessibility Tools\n\n‘Narrator’ function link",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>QA/QC: Reducing Error Entry, Finding and Correcting Errors</span>"
@@ -432,7 +432,18 @@
     "href": "class_materials/class_sessions/09_DMP/dmp.html",
     "title": "9  Data Management Plans",
     "section": "",
-    "text": "10 Reminder: What is a DMP?",
+    "text": "9.1 Reminder: What is a DMP?",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Data Management Plans</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/09_DMP/dmp.html#reminder-what-is-a-dmp",
+    "href": "class_materials/class_sessions/09_DMP/dmp.html#reminder-what-is-a-dmp",
+    "title": "9  Data Management Plans",
+    "section": "",
+    "text": "Formal document that lays out your plan for managing the data you will collect (or have collected).\nOutlines what you will do with your data during and after you complete your research\nEnsures your data is safe for the present and the future\nVideo overview by RWTH Aachen University (12 min).",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Data Management Plans</span>"
@@ -442,8 +453,8 @@
     "objectID": "class_materials/class_sessions/09_DMP/dmp.html#why-do-one",
     "href": "class_materials/class_sessions/09_DMP/dmp.html#why-do-one",
     "title": "9  Data Management Plans",
-    "section": "10.1 Why do one?",
-    "text": "10.1 Why do one?\n\nSave time\nLess reorganization later\nIncrease research efficiency\nMakes it easier to archive data downt he road (some data centers and repositories have specific requirements for data documentation, and knowing these requirements in advance saves time and effort that might be spent trying to correct data after they are collected).\nIncreasingly: you don’t have a choice. Many funding agencies (e.g., NSF, NIH, NEH) now require a DMP for proposal submission.",
+    "section": "9.2 Why do one?",
+    "text": "9.2 Why do one?\n\nSave time\nLess reorganization later\nIncrease research efficiency\nMakes it easier to archive data downt he road (some data centers and repositories have specific requirements for data documentation, and knowing these requirements in advance saves time and effort that might be spent trying to correct data after they are collected).\nIncreasingly: you don’t have a choice. Many funding agencies (e.g., NSF, NIH, NEH) now require a DMP for proposal submission.",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Data Management Plans</span>"
@@ -453,8 +464,8 @@
     "objectID": "class_materials/class_sessions/09_DMP/dmp.html#what-are-the-components-of-a-dmp",
     "href": "class_materials/class_sessions/09_DMP/dmp.html#what-are-the-components-of-a-dmp",
     "title": "9  Data Management Plans",
-    "section": "10.2 What are the components of a DMP?",
-    "text": "10.2 What are the components of a DMP?\n\nInformation about data & data format\nMetadata content and format\nPolicies for access, sharing and re-use\nLong-term storage and data management\nRoles and responsibilities\nBudget\n\nFor details on what information should be included in each component, see “DMP Details” below.\n\n\n\n\n\n\nTipExample: DMP for NSF Proposals\n\n\n\n“Plans for data management and sharing of the products of research. Proposals must include a supplementary document of no more than two pages labeled “Data Management Plan”. This supplement should describe how the proposal will conform to NSF policy on the dissemination and sharing of research results, and may include: the types of data, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project the standards to be used for data and metadata format and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies) policies for access and sharing including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements policies and provisions for re-use, re-distribution, and the production of derivatives plans for archiving data, samples, and other research products, and for preservation of access to them.”\nSome funders or institutions may require specific elements in a data management plan; you should check in advance to make sure you meet all requirements",
+    "section": "9.3 What are the components of a DMP?",
+    "text": "9.3 What are the components of a DMP?\n\nInformation about data & data format\nMetadata content and format\nPolicies for access, sharing and re-use\nLong-term storage and data management\nRoles and responsibilities\nBudget\n\nFor details on what information should be included in each component, see “DMP Details” below.\n\n\n\n\n\n\nTipExample: DMP for NSF Proposals\n\n\n\n“Plans for data management and sharing of the products of research. Proposals must include a supplementary document of no more than two pages labeled “Data Management Plan”. This supplement should describe how the proposal will conform to NSF policy on the dissemination and sharing of research results, and may include: the types of data, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project the standards to be used for data and metadata format and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies) policies for access and sharing including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements policies and provisions for re-use, re-distribution, and the production of derivatives plans for archiving data, samples, and other research products, and for preservation of access to them.”\nSome funders or institutions may require specific elements in a data management plan; you should check in advance to make sure you meet all requirements",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Data Management Plans</span>"
@@ -464,8 +475,8 @@
     "objectID": "class_materials/class_sessions/09_DMP/dmp.html#start-here",
     "href": "class_materials/class_sessions/09_DMP/dmp.html#start-here",
     "title": "9  Data Management Plans",
-    "section": "10.3 Start Here",
-    "text": "10.3 Start Here\n\nThe DMP Tool (https://dmptool.org/) is a free, open-source, application that helps researchers create data management plans (DMPs). It provides an easy-to-use platform for creating a DMP that complies with the requirements of different private and public funding agencies (e.g., foundations, NSF, NIH). It also has direct links to funder websites, help text for answering questions, and data management best practices resources.",
+    "section": "9.4 Start Here",
+    "text": "9.4 Start Here\n\nThe DMP Tool (https://dmptool.org/) is a free, open-source, application that helps researchers create data management plans (DMPs). It provides an easy-to-use platform for creating a DMP that complies with the requirements of different private and public funding agencies (e.g., foundations, NSF, NIH). It also has direct links to funder websites, help text for answering questions, and data management best practices resources.",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Data Management Plans</span>"
@@ -475,8 +486,8 @@
     "objectID": "class_materials/class_sessions/09_DMP/dmp.html#what-should-go-in-my-dmp",
     "href": "class_materials/class_sessions/09_DMP/dmp.html#what-should-go-in-my-dmp",
     "title": "9  Data Management Plans",
-    "section": "10.4 What should go in my DMP?",
-    "text": "10.4 What should go in my DMP?\n\nQualitative Data have some unique issues regarding their description and storage, so the Qualitative Data Archive has put together a great checklist of things to consider.\nShort Checklist & Questions to Consider when putting together a DMP\nVery in-depth Checklist & Questions to Consider when putting together a DMP\nUF Library Guidelines for preparing a DMP",
+    "section": "9.5 What should go in my DMP?",
+    "text": "9.5 What should go in my DMP?\n\nQualitative Data have some unique issues regarding their description and storage, so the Qualitative Data Archive has put together a great checklist of things to consider.\nShort Checklist & Questions to Consider when putting together a DMP\nVery in-depth Checklist & Questions to Consider when putting together a DMP\nUF Library Guidelines for preparing a DMP",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Data Management Plans</span>"
@@ -486,8 +497,8 @@
     "objectID": "class_materials/class_sessions/09_DMP/dmp.html#sample-dmps",
     "href": "class_materials/class_sessions/09_DMP/dmp.html#sample-dmps",
     "title": "9  Data Management Plans",
-    "section": "10.5 Sample DMPs",
-    "text": "10.5 Sample DMPs\n\nNSF DMPs\n\nNSF General: Mauna Loa example\nNSF General: Rio Grande example\nNSF DEB: Emilio Bruna Heliconia example\n\n\n\nSample DMPs on the ‘DMP Tool’ website\n\nPublic DMPs (note: “Public DMPs are plans created using the dmptool service and shared publicly by their owners. They are not vetted for quality, completeness, or adherence to funder guidelines.”)\n\n\n\nHumanities DMPs\n\nNational Endowment for the Humanities: Data Management Plans From Successful Grant Applications (2015-2018) and (2011 - 2014) can be found as downloadable zip files on this page\nA really nice DMP for a Digital Humanities Project by researchers at the University of Maryland, College Park.",
+    "section": "9.6 Sample DMPs",
+    "text": "9.6 Sample DMPs\n\nNSF DMPs\n\nNSF General: Mauna Loa example\nNSF General: Rio Grande example\nNSF DEB: Emilio Bruna Heliconia example\n\n\n\nSample DMPs on the ‘DMP Tool’ website\n\nPublic DMPs (note: “Public DMPs are plans created using the dmptool service and shared publicly by their owners. They are not vetted for quality, completeness, or adherence to funder guidelines.”)\n\n\n\nHumanities DMPs\n\nNational Endowment for the Humanities: Data Management Plans From Successful Grant Applications (2015-2018) and (2011 - 2014) can be found as downloadable zip files on this page\nA really nice DMP for a Digital Humanities Project by researchers at the University of Maryland, College Park.",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Data Management Plans</span>"
@@ -497,8 +508,30 @@
     "objectID": "class_materials/class_sessions/09_DMP/dmp.html#dmp-details",
     "href": "class_materials/class_sessions/09_DMP/dmp.html#dmp-details",
     "title": "9  Data Management Plans",
-    "section": "10.6 DMP Details",
-    "text": "10.6 DMP Details\n\n1. Information About Data & Data Format\n1.1 Description of data to be produced\n\nExperimental\nObservational\nRaw or derived\nPhysical collections\nModels and their outputs\nSimulation outputs\nCurriculum materials\nSoftware\nImages\nOther\n\n1.2 How data will be acquired?\n\nWhen? Where? Method?\n\n1.3 How data will be processed\n\nSoftware used\nAlgorithms\nWorkflows\nData transformations/formats needed (Consider archive policies)\nThis step is important to consider before the project since it may affect how data are organized, what formats are used, and how much should be budgeted for hardware and software. Things to consider are what software may be used, what algorithms will be employed, how these fit into the overall workflow of the project.\n\n1.4 File formats\n\nJustification\nNaming conventions\n\n1.5 Quality assurance & control during sample collection, analysis, and processing\n1.6 Existing data\n\nIf existing data are used, what are their origins?\nWill your data be combined with existing data?\nWhat is the relationship between your data and existing data?\n\n1.7 How data will be managed in short-term\n\nVersion control\nBacking up\nSecurity & protection\nWho will be responsible\n\n\n\n2. Metadata Content & Format\n\nMetadata defined:\nDocumentation and reporting of data\nContextual details: Critical information about the dataset\nInformation important for using the data\nDescriptions of temporal and spatial details, instruments, parameters, units, files, etc.\n\n2.1 What metadata are needed\n\nDetails that make data meaningful\n\n2.2 How metadata will be created and/or captured\n\nLab notebooks? GPS units? Auto-saved on instrument?\n\n2.3 What format will be used for the metadata\n\nStandards for community\nJustification for format chosen\n\n\n\n3. Policies for Access, Sharing, Reuse\n3.1 Obligations for sharing\n\nFunding agency\nInstitution\nOther organization\nLegal\n\n3.2 Details of data sharing\n\nHow long?\nWhen?\nHow access can be gained?\nData collector rights\n\n3.2 Ethical/privacy issues with data sharing\n3.3 Intellectual property & copyright issues\n\nWho owns the copyright? (? Institutions and/or funding agencies often have a policy for intellectual property and copyright. There may be other considerations such as embargos on data due to patents, politics, or journal requirements.)\nInstitutional policies\nFunding agency policies\nEmbargos for political/commercial reasons\n\n3.4 Intended future uses/users for data\n\nThis helps determine the most appropriate data center to archive your data.\n\n3.5 Citation\n\nHow should data be cited when used?\nDo you need a persistent citation (e.g. DOI)?\n\n\n\n4. Long-term Storage & Data Management\n4.1 What data will be preserved 4.2 Where will it be archived\n\nMost appropriate archive for data\nCommunity standards\n\n4.4 Who will be responsible\n\nContact person for archive\n\n\n\n5. Roles and responsibilities\n5.1 Outline the roles and responsibilities for implementing this data management plan.\n\nWho will be responsible for data management and for monitoring the data management plan? How will adherence to this data management plan be checked or demonstrated? What process is in place for transferring responsibility for the data? Who will have responsibility over time for decisions about the data once the original personnel are no longer available?\n\n\n\n6. Budget\n6.1 Anticipated costs\n\nTime for data preparation & documentation\nHardware/software for data preparation & documentation\nPersonnel\nArchive costs\n\n6.2 How costs will be paid",
+    "section": "9.7 DMP Details",
+    "text": "9.7 DMP Details\n\n1. Information About Data & Data Format\n1.1 Description of data to be produced\n\nExperimental\nObservational\nRaw or derived\nPhysical collections\nModels and their outputs\nSimulation outputs\nCurriculum materials\nSoftware\nImages\nOther\n\n1.2 How data will be acquired?\n\nWhen? Where? Method?\n\n1.3 How data will be processed\n\nSoftware used\nAlgorithms\nWorkflows\nData transformations/formats needed (Consider archive policies)\nThis step is important to consider before the project since it may affect how data are organized, what formats are used, and how much should be budgeted for hardware and software. Things to consider are what software may be used, what algorithms will be employed, how these fit into the overall workflow of the project.\n\n1.4 File formats\n\nJustification\nNaming conventions\n\n1.5 Quality assurance & control during sample collection, analysis, and processing\n1.6 Existing data\n\nIf existing data are used, what are their origins?\nWill your data be combined with existing data?\nWhat is the relationship between your data and existing data?\n\n1.7 How data will be managed in short-term\n\nVersion control\nBacking up\nSecurity & protection\nWho will be responsible\n\n\n\n2. Metadata Content & Format\n\nMetadata defined:\nDocumentation and reporting of data\nContextual details: Critical information about the dataset\nInformation important for using the data\nDescriptions of temporal and spatial details, instruments, parameters, units, files, etc.\n\n2.1 What metadata are needed\n\nDetails that make data meaningful\n\n2.2 How metadata will be created and/or captured\n\nLab notebooks? GPS units? Auto-saved on instrument?\n\n2.3 What format will be used for the metadata\n\nStandards for community\nJustification for format chosen\n\n\n\n3. Policies for Access, Sharing, Reuse\n3.1 Obligations for sharing\n\nFunding agency\nInstitution\nOther organization\nLegal\n\n3.2 Details of data sharing\n\nHow long?\nWhen?\nHow access can be gained?\nData collector rights\n\n3.2 Ethical/privacy issues with data sharing\n3.3 Intellectual property & copyright issues\n\nWho owns the copyright? (? Institutions and/or funding agencies often have a policy for intellectual property and copyright. There may be other considerations such as embargos on data due to patents, politics, or journal requirements.)\nInstitutional policies\nFunding agency policies\nEmbargos for political/commercial reasons\n\n3.4 Intended future uses/users for data\n\nThis helps determine the most appropriate data center to archive your data.\n\n3.5 Citation\n\nHow should data be cited when used?\nDo you need a persistent citation (e.g. DOI)?\n\n\n\n4. Long-term Storage & Data Management\n4.1 What data will be preserved 4.2 Where will it be archived\n\nMost appropriate archive for data\nCommunity standards\n\n4.4 Who will be responsible\n\nContact person for archive\n\n\n\n5. Roles and responsibilities\n5.1 Outline the roles and responsibilities for implementing this data management plan.\n\nWho will be responsible for data management and for monitoring the data management plan? How will adherence to this data management plan be checked or demonstrated? What process is in place for transferring responsibility for the data? Who will have responsibility over time for decisions about the data once the original personnel are no longer available?\n\n\n\n6. Budget\n6.1 Anticipated costs\n\nTime for data preparation & documentation\nHardware/software for data preparation & documentation\nPersonnel\nArchive costs\n\n6.2 How costs will be paid\n\nServer Access, Hard Drives or other media\nPrinting costs\nPersonnel to manage data, backups, and data use requests",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Data Management Plans</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/09_DMP/dmp.html#reminder",
+    "href": "class_materials/class_sessions/09_DMP/dmp.html#reminder",
+    "title": "9  Data Management Plans",
+    "section": "9.8 REMINDER",
+    "text": "9.8 REMINDER\nThe key components of a DMP are:\n\nInformation about data & data format\nMetadata content and format\nPolicies for access, sharing and re-use\nLong-term storage and data management\nBudget",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Data Management Plans</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/09_DMP/dmp.html#resources",
+    "href": "class_materials/class_sessions/09_DMP/dmp.html#resources",
+    "title": "9  Data Management Plans",
+    "section": "9.9 Resources",
+    "text": "9.9 Resources",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Data Management Plans</span>"
@@ -993,7 +1026,7 @@
     "href": "slidedecks.html",
     "title": "16  Class Slides",
     "section": "",
-    "text": "The following slides are available in HTML format You can export them as PDFs by clicking on the three bars in the bottom left corner and selecting “PDF Export Mode” under the “Tools” Option.\n\nIntroduction\n\nData Organization and Backups\n\n‘Reproducible’ Data Management\n\nQA/QC 1 - Error Minimization",
+    "text": "The following slides are available in HTML format You can export them as PDFs by clicking on the three bars in the bottom left corner and selecting “PDF Export Mode” under the “Tools” Option.\n\nIntroduction\n\nData Organization and Backups\n\n‘Reproducible’ Data Management\n\nQA/QC 1 - Error Minimization\nData Management Plans",
     "crumbs": [
       "Useful Resources",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Class Slides</span>"
