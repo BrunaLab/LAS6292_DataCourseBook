@@ -1,0 +1,224 @@
+---
+# author:
+#   - name: Emilio M. Bruna
+#     affiliations:
+#       - id: uf
+#       - name: University of Florida
+title-block-style: default
+date-modified: last-modified
+
+---
+
+
+# Introduction & The Research Data Life Cycle: Instructor Notes
+
+::: {.callout-tip}
+## Objectives and Competencies
+
+After this class students should be able to
+
+  * Define a DMP and understand the importance of preparing one
+  * Identify the key sections of a DMP and how they vary by discipline
+  * Understand how to find and use online tools for creating DMPs
+
+:::
+
+
+## Pre-Class Preparation & Materials Needed (Instructor):
+
+
+## Pre-class Preparation (Students):
+
+
+### Readings  {.unnumbered}  
+
+1. Michener, W. K. (2015). Ten simple rules for creating a good data management plan. PLoS computational biology, 11(10), e1004525.  
+        [[read online]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004525)
+
+2. Goodman A, et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Comput Biol 10(4): e1003542. *_this paper connects what we've done with what's next_*  
+        [[read online]](https://doi.org/10.1371/journal.pcbi.1003542)
+
+
+
+### Topic 1 Overview {.unnumbered}  
+
+This topic is a link between the two sections of class - looking backward it has been about how we organize data we collected, looking forward its about ways to collect new data. the Metadata are to describe the data you have, the data management plan is about describing data you will collect...and part of the reason we do these topics-back-to-back is so you can see how much these two processes have in common. It's the circularity of the data life-cycle we saw Day 1.
+
+#### Reminder: What is a DMP? {.unnumbered}  
+
+* Formal document that lays out your plan for managing the data you will collect (or have collected). 
+* Outlines what you will do with your data during and after you complete your research
+* Ensures your data is safe for the present and the future
+* [Video overview](https://www.youtube.com/watch?v=fcCj6sNvoOw) by RWTH Aachen University (12 min).
+
+#### Why do one? {.unnumbered}  
+
+* Save time
+* Less reorganization later
+* Increase research efficiency
+* Makes it easier to archive data downt he road (some data centers and repositories have specific requirements for data documentation, and knowing these requirements in advance saves time and effort that might be spent trying to correct data after they are collected).
+* Increasingly: you don't have a choice. Many funding agencies (e.g., NSF, NIH, NEH) now require a DMP for proposal submission.
+
+#### **What are the components of a DMP?**   {.unnumbered}  
+
+1. Information about data & data format
+2. Metadata content and format
+3. Policies for access, sharing and re-use
+4. Long-term storage and data management
+5. Roles and responsibilities
+6. Budget 
+
+*Some funders or institutions may require specific elements in a data management plan; you should check in advance to make sure you meet all requirements*
+
+### **1. Information About Data & Data Format**   {.unnumbered}  
+
+#### *1.1  Description of data to be produced*   {.unnumbered}  
+
+* Experimental
+* Observational
+* Raw or derived
+* Physical collections
+* Models and their outputs
+* Simulation outputs
+* Curriculum materials
+* Software
+* Images
+* Other 
+
+#### *1.2  How data will be acquired?*   {.unnumbered}  
+
+* When? Where? Method?
+
+#### *1.3  How data will be processed*   {.unnumbered}  
+
+* Software used
+* Algorithms
+* Workflows
+* Data transformations/formats needed (Consider archive policies)
+
+* *This step is important to consider before the project since it may affect how data are organized, what formats are used, and how much should be budgeted for hardware and software. Things to consider are what software may be used, what algorithms will be employed, how these fit into the overall workflow of the project.*
+
+#### *1.4  File formats*   {.unnumbered}  
+
+* Justification
+* Naming conventions
+
+#### *1.5 Quality assurance & control during sample  collection, analysis, and processing*   {.unnumbered}  
+
+#### *1.6  Existing data*   {.unnumbered}  
+
+* If existing data are used, what are their origins?
+* Will your data be combined with existing data?
+* What is the relationship between your data and existing data?
+
+#### *1.7 How data will be managed in short-term*   {.unnumbered}  
+
+* Version control
+* Backing up
+* Security & protection
+* Who will be responsible
+
+
+### **2. Metadata Content & Format**   {.unnumbered}  
+
+* Metadata defined: 
+* Documentation and reporting of data
+* Contextual details: Critical information about the dataset
+* Information important for using the data
+* Descriptions of temporal and spatial details, instruments, parameters, units, files, etc. 
+
+#### *2.1 What metadata are needed*   {.unnumbered}  
+
+* Details that make data meaningful
+
+#### *2.2 How metadata will be created and/or captured*   {.unnumbered}  
+
+* Lab notebooks? GPS units? Auto-saved on instrument?
+
+#### *2.3 What format will be used for the metadata*   {.unnumbered}  
+
+* Standards for community
+* Justification for format chosen
+
+
+### **3. Policies for Access, Sharing, Reuse** {.unnumbered}  
+
+#### *3.1  Obligations for sharing*   {.unnumbered}  
+
+* Funding agency
+* Institution
+* Other organization
+* Legal
+
+#### *3.2  Details of data sharing* {.unnumbered}  
+
+* How long?
+* When? 
+* How access can be gained?
+* Data collector rights
+
+#### *3.2  Ethical/privacy issues with data sharing* {.unnumbered}  
+
+#### *3.3  Intellectual property & copyright issues* {.unnumbered}  
+
+* Who owns the copyright? (? Institutions and/or funding agencies often have a policy for intellectual property and copyright. There may be other considerations such as embargos on data due to patents, politics, or journal requirements.)
+* Institutional policies
+* Funding agency policies
+* Embargos for political/commercial reasons
+
+#### *3.4  Intended future uses/users for data* {.unnumbered}  
+
+* This helps determine the most appropriate data center to archive your data.
+
+#### *3.5  Citation* {.unnumbered}  
+
+* How should data be cited when used?
+* Do you need a persistent citation (e.g. DOI)?
+
+### **4. Long-term Storage & Data Management** {.unnumbered}  
+
+#### *4.1  What data will be preserved* {.unnumbered}  
+#### *4.2  Where will it be archived* {.unnumbered}  
+
+* Most appropriate archive for data
+* Community standards
+
+#### *4.4   Who will be responsible* {.unnumbered}  
+
+* Contact person for archive
+
+
+### **5. Roles and responsibilities** {.unnumbered}  
+
+#### *5.1 Outline the roles and responsibilities for implementing this data management plan*. {.unnumbered}  
+
+* Who will be responsible for data management and for monitoring the data management plan? How will adherence to this data management plan be checked or demonstrated? What process is in place for transferring responsibility for the data? Who will have responsibility over time for decisions about the data once the original personnel are no longer available?
+
+### **6. Budget** {.unnumbered}  
+
+#### *6.1  Anticipated costs* {.unnumbered}  
+
+* Time for data preparation & documentation
+* Hardware/software for data preparation & documentation
+* Personnel
+* Archive costs
+
+#### *6.2  How costs will be paid* {.unnumbered}  
+
+## NSF DMP Requirements  {.unnumbered}  
+
+**From Grant Proposal Guidelines:** "Plans for data management and sharing of the products of research. Proposals must include a supplementary document of no more than two pages labeled “Data Management Plan”. This supplement should describe how the proposal will conform to NSF policy on the dissemination and sharing of research results, and may include: the types of data, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project the standards to be used for data and metadata format and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies) policies for access and sharing including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements policies and provisions for re-use, re-distribution, and the production of derivatives plans for archiving data, samples, and other research products, and for preservation of access to them."
+
+## FINAL REMINDER 
+
+The key components of a DMP:  
+
+* Information about data & data format
+* Metadata content and format
+* Policies for access, sharing and re-use
+* Long-term storage and data management
+* Budget
+
+
+
+
