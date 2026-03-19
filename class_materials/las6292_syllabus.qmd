@@ -179,8 +179,8 @@ _The contents of the course, including subjects covered in each course session a
 \vspace{0.2cm}
 
 ```{r outline, echo=FALSE}
-Week <- c(seq(1, 15, by = 1), "Finals Week")
-
+# Week <- c(seq(1, 15, by = 1), "Finals Week")
+Week <- c(seq(1, 16, by = 1))
 Dates <- c(
   "1/16",
   "1/23",
@@ -215,23 +215,53 @@ Topic <- c(
   "Transcription & Translation",
   "Paperless Data Collection",
   "Automated Data Extraction",
-  "No Class: Reading Days",
+  "No Class - Reading Days",
   # "Legal, Ethical, and Emerging Issues",
   "Deadline for Final Project Submission: 10 AM"
 )
 
 outline <- data.frame(Week, Dates, Topic)
 
-kable(outline,
-  align = "ccl",
-  format = "latex",
-  row.names = FALSE,
-  booktabs = T,
-  linesep = ""
-) %>% # removes the blank line after every 5 lines) %>%
-  kable_styling(position = "center",latex_options = "HOLD_position")
+
+outline2 <- outline %>% 
+  mutate(Week=if_else(as.numeric(Week)<16,paste0("**Week ",Week,"**"),"**Finals Week**")) %>% 
+  mutate(Week=paste0(Week," (",Dates,"): ",Topic)) %>% 
+  select(Week)
+
+
+outline <- outline %>% 
+  mutate(Week=as.character(Week)) %>% 
+  mutate(Week=if_else(as.numeric(Week)>15,"Finals Week",Week))
+# 
+# kable(outline,
+#   align = "ccl",
+#   format = "latex",
+#   row.names = FALSE,
+#   booktabs = T, # removes the blank line after every 5 lines) 
+#   linesep = "",
+#   escape=T) %>% 
+#   kable_styling(position = "center",latex_options = "HOLD_position")
+
+
 ```
 
+
+`r outline2[1,]`  
+`r outline2[2,]`  
+`r outline2[3,]`  
+`r outline2[4,]`  
+`r outline2[5,]`  
+`r outline2[6,]`  
+`r outline2[7,]`  
+`r outline2[8,]`  
+`r outline2[9,]`  
+`r outline2[10,]`  
+`r outline2[11,]`  
+`r outline2[12,]`  
+`r outline2[13,]`  
+`r outline2[14,]`  
+`r outline2[15,]`  
+`r outline2[16,]`  
 
 \vspace{0.3cm}
 
@@ -275,6 +305,15 @@ Assignment <- c(
   "TOTAL"
 )
 
+Assignment2 <- c(
+  "**Weekly in-class exercises**",
+  # "DMP Peer Review",
+  "**Data Management Plan**",
+  # "Peer Code Review",
+  "**Individual Data Cleanup Project**",
+  "**TOTAL**"
+)
+
 Points<- c(
   in_class_total,
   dmp,
@@ -289,11 +328,11 @@ Percentage<- c(
   paste("(",(round(course_total/course_total*100,1)),"%)", sep="")
 )
 
-
+Points2<-paste(Points, " points ",Percentage)
 Points<-paste(Points,Percentage)
 
 Due<- c(
-  "Following Friday at 9 am",
+  "Friday following class at 9 am",
   # "21 March",
   "27 March",
   # "22 March",
@@ -303,21 +342,34 @@ Due<- c(
 
 assignments <- data.frame(Assignment, Points,Due)
 names(assignments)<-c("Assignment", "Points (%)","Due")
+# 
+# # outline<-bind_cols(Week,Dates,Topic)
+# kable(assignments,
+#   align = "lcl",
+#   format = "latex",
+#   row.names = FALSE,
+#   booktabs = T,
+#   linesep = "") %>% 
+#   # removes the blank line after every 5 lines) %>%
+#   kable_styling(position = "center",latex_options = "HOLD_position") %>% 
+#   row_spec(3,hline_after=T) %>% 
+#   add_indent(c(4)) %>% 
+#   row_spec(4, bold=T) 
 
-# outline<-bind_cols(Week,Dates,Topic)
-kable(assignments,
-  align = "lcl",
-  format = "latex",
-  row.names = FALSE,
-  booktabs = T,
-  linesep = "") %>% 
-  # removes the blank line after every 5 lines) %>%
-  kable_styling(position = "center",latex_options = "HOLD_position") %>% 
-  row_spec(3,hline_after=T) %>% 
-  add_indent(c(4)) %>% 
-  row_spec(4, bold=T) 
-
+assignments2 <- data.frame(Assignment2, Points2,Due)
+assignments2<-assignments2 %>% 
+  mutate(Assignment2=paste0(Assignment2,": ",Points2, " due ", Due)) %>% 
+  select(Assignment2)
 ```
+
+
+**The following course assignments are worth a total of `r course_total` points:**
+
+`r assignments2[1,]`  
+`r assignments2[2,]`  
+`r assignments2[3,]`  
+
+
 
 <!-- ```{r grades, echo=FALSE, include=TRUE,fig.cap="Final Course Grades", out.width = '3%', fig.pos='h', fig.align="left" } -->
 <!-- # knitr::include_graphics("./icons/magnifying-glass-chart.png") -->
@@ -354,14 +406,17 @@ Please review the assigned material *before* class. _All items are posted on the
 > ***Read:*** 
 
 >1.  Jan Čurn. 2014. How a bug in Dropbox permanently deleted my 8000 photos.  
-        [[read online]](https://medium.com/@jancurn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b) <!-- [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Curn_2014.pdf)
+        [[read online]](https://medium.com/@jancurn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b) 
+        <!-- [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Curn_2014.pdf) -->
 
 <!-- 2.  PSA: Scrivener, Data Integrity and You. Or, How To Avoid Data Loss Heartbreak.   -->
 <!--         [[read online]](https://www.reddit.com/r/writing/comments/62hr7o/psa_scrivener_data_integrity_and_you_or_how_to/) <!-- [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Scrivener_PSA.pdf) -->
         
->2. Panzarino, M. 2012. How Pixar’s Toy Story 2 was deleted twice, once by technology and again for its own good. TNW.  [[read online]](https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/)  <!-- <!-- [[download pdf]]
+>2. Panzarino, M. 2012. How Pixar’s Toy Story 2 was deleted twice, once by technology and again for its own good. TNW.  [[read online]](https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/)  
 
->3.  Hart EM et al. (2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097. [[read online]](https://doi.org/10.1371/journal.pcbi.1005097) <!-- <!-- [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Hart_etal_2016.PDF)
+>3.  Hart EM et al. (2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097. [[read online]](https://doi.org/10.1371/journal.pcbi.1005097) 
+
+<!-- [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Hart_etal_2016.PDF) -->
 
 > ***Watch:*** 
 
@@ -378,9 +433,11 @@ Please review the assigned material *before* class. _All items are posted on the
 >**Read**
 
 >1.  Tesi, W. 2020. An Outdated Version of Excel Led the U.K. to Undercount COVID-19 Cases. Slate. 
-        [[read online]](https://slate.com/technology/2020/10/u-k-covid-19-spike-caused-by-microsoft-excel-error.html)  <!-- <!-- [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Tesi_2020.pdf)
+        [[read online]](https://slate.com/technology/2020/10/u-k-covid-19-spike-caused-by-microsoft-excel-error.html)  
+        <!-- [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Tesi_2020.pdf) -->
 
->2. Stolberg et al. 2020. CDC Test Counting Error Leaves Epidemiologists ‘Really Baffled’. NY Times.  [[read online]](https://www.nytimes.com/2020/05/22/us/politics/coronavirus-tests-cdc.html?referringSource=articleShare)  <!-- <!-- [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Stolberg_2020_NYT.pdf)
+>2. Stolberg et al. 2020. CDC Test Counting Error Leaves Epidemiologists ‘Really Baffled’. NY Times.  [[read online]](https://www.nytimes.com/2020/05/22/us/politics/coronavirus-tests-cdc.html?referringSource=articleShare)  
+<!-- [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Stolberg_2020_NYT.pdf) -->
 
 >3.  Broman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10.  [[read online]](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) <!-- [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Broman%26Woo_2018.pdf) --->
 
@@ -435,7 +492,9 @@ Please review the assigned material *before* class. _All items are posted on the
 
 >**Read:**
 
->1. Rougier NP, Droettboom M, Bourne PE (2014) Ten Simple Rules for Better Figures. PLoS Comput Biol 10(9): e1003833. [[read online]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) or <!-- [[download pdf]](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable)
+>1. Rougier NP, Droettboom M, Bourne PE (2014) Ten Simple Rules for Better Figures. PLoS Comput Biol 10(9): e1003833. [[read online]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) 
+
+ <!-- [[download pdf]](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable) -->
 
 >**Watch:**  
 
@@ -450,7 +509,7 @@ Please review the assigned material *before* class. _All items are posted on the
 
 >**Read (Metadata):**
 
->1.  Michener, W.K., et al . 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342. [[read online]](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2) 
+>1.  Michener, W.K., et al. 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342. [[read online]](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2) 
 
 <!-- [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Michener_etal_1997_EcolApplications.pdf) --->
 
