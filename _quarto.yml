@@ -51,8 +51,7 @@ book:
         #- class_materials/class_sessions/07_QAQC3/error_viz.qmd # - Visualizing Data to Find Mistakes
         - class_materials/class_sessions/08_metadata/metadata.qmd  # - Documentation, Metadata, & Codebooks
         - class_materials/class_sessions/09_DMP/dmp.qmd  # - Data Sharing, Reuse, & Archives
-        #- class_materials/class_sessions/0  # - Data Management Plans
-        #- class_materials/class_sessions/0  # - Efficient Data Collection
+        - class_materials/class_sessions/11_efficient_data_collection/efficient_data_collection.qmd  # - Efficient Data Collection
         - class_materials/class_sessions/12_transcription_translation/transcription_translation.qmd  # - Transcription & Translation
         - class_materials/class_sessions/13_paperless_data_collection/paperless.qmd  # - ‘Paperless’ Data Collection
         - class_materials/class_sessions/14_automated_data_extraction/automated.qmd  # - Automated Data Extraction
