@@ -50,26 +50,27 @@ date-modified: last-modified
 
 ## Class Outline
 
-```{r timer, echo=FALSE}
-t1_overview <- 20
-breakout1 <- 15
-breakout1_return <-15
-t2_overview <- 30
-snack_break <- 10
-breakout2 <- 45
+<!-- ```{r timer, echo=FALSE} -->
+<!-- t1_overview <- 20 -->
+<!-- breakout1 <- 15 -->
+<!-- breakout1_return <-15 -->
+<!-- t2_overview <- 30 -->
+<!-- snack_break <- 10 -->
+<!-- breakout2 <- 45 -->
 
-total_time <- t1_overview + 
-  t2_overview + 
-  breakout1 + 
-  breakout1_return + 
-  snack_break + 
-  breakout2 
+<!-- total_time <- t1_overview +  -->
+<!--   t2_overview +  -->
+<!--   breakout1 +  -->
+<!--   breakout1_return +  -->
+<!--   snack_break +  -->
+<!--   breakout2  -->
 
-time_remain <- 180 - total_time
-```
+<!-- time_remain <- 180 - total_time -->
+<!-- ``` -->
 
 
-### **Topic 1 Overview: Intro to Efficient Data Collection** (`r t1_overview` min)
+### **Topic 1 Overview: Intro to Efficient Data Collection** 
+<!-- (`r t1_overview` min) -->
 
 1. **Goal: **Error reduction
 
@@ -78,7 +79,7 @@ time_remain <- 180 - total_time
 
 2. **Process Audits** : A tool borrowed from industrial engineering - - can help identify where errors are likely to sneak in.
 
-3. **Most people, whether they know it or not, collect data on some kind of form**. Sometimes these forms are paper, sometimes electronic. Notes scribbled on a piece of paper or MS Word document? Both simple forms. To design better forms - forms that reduce the number of errors at both the collecitonand entry phases - we will use some ideas from manufacturing, shipping, and design industries, along with loads of research on forms themselves.
+3. **Most people, whether they know it or not, collect data on some kind of form**. Sometimes these forms are paper, sometimes electronic. Notes scribbled on a piece of paper or MS Word document? Both simple forms. To design better forms - forms that reduce the number of errors at both the colleciton and entry phases - we will use some ideas from manufacturing, shipping, and design industries, along with loads of research on forms themselves.
 
     * **Lists**: We forget things we need, and we forget things we need to do. Lists prevent that.
     * **Automation**: When collected repeated measurements on a single thing, or the same measurement on many things, attempt to invest in automation. 
@@ -87,15 +88,18 @@ time_remain <- 180 - total_time
 
 ### Breakout & Return Results 
 
-1. **Breakout (`r breakout1` min): ** Process Audit of Data Forms
+1. **Breakout: ** Process Audit of Data Forms
+<!-- (`r breakout1` min) -->
 
     * Look over these forms and conduct a process audit. Where do you think errors are most likely to sneak in?
 
-1.  **Returning results & Take-home message (`r breakout1_return` min)** 
+1.  **Returning results & Take-home message** 
+<!-- (`r breakout1_return` min)**  -->
 
     * Summary and Discussion of results. 
 
-### **Topic 2 Overview:  Lessons from UI/UX**  (`r t2_overview` min):
+### **Topic 2 Overview:  Lessons from UI/UX**  
+<!-- (`r t2_overview` min): -->
 
 1. Reduce Cognitive Overload (aka keep it simple) 
 2. Write as little as possible
@@ -116,10 +120,12 @@ time_remain <- 180 - total_time
     * Add collector info
 
 
-### Break (`r snack_break` min)
+### Break 
+<!-- (`r snack_break` min) -->
 
 
-### Breakout 2: In-class Assignment (`r breakout2` min)
+### Breakout 2: In-class Assignment 
+<!-- (`r breakout2` min) -->
 
 Now lets implement some of the things we've learned. 
 1. Conduct a Process Audit of your personal data collection sheet. (If you do not have one of your own, you can do the assignment with the "Line Transect Sheet” used in class)
@@ -147,43 +153,8 @@ Let's make a checklist for a research trip.
 
 ### Free Time
 
-There are `r time_remain` min remaining that can be used to -----
+There are min remaining that can be used to -----
+<!-- `r time_remain` -->
 
-
-# Sources, Tools, & Resources
-
-## Forms  
-1. Schiavo, F. [The bad design of everyday things #3 — Paper Forms.](https://design-nation.icons8.com/the-bad-design-of-everyday-things-3-paper-forms-bbb20ffc3c9)
-1. Maloney, S. [Best Practices for PaperBased Form Design](https://pyramidsolutions.com/wp-content/uploads/2017/09/Best-Practices-for-Paper-Based-Form-Design.pdf)
-1. [How to design survey forms for quick data entry](http://www.tools4dev.org/resources/how-to-design-surveys-and-forms-for-quick-data-entry/). This is a great post with suggestions on designing survey forms for work in an international / multi-language context.
-1. [Best Practice for Form Design](https://medium.com/nextux/form-design-best-practices-9525c321d759). These suggestions come from a UX-perspective for online forms, so they might seem most appropriate for online surveys. But the suggestions are really good for paper survey forms as well.
-1. [make a template for data entry (form) with Excel](https://www.pryor.com/blog/ease-the-pain-of-data-entry-with-an-excel-forms-template/)
-1. ['Using Google Forms, Google Sheets & Excel to Collect and Analyze Data'](https://blogs.cofc.edu/tlttutorials/2017/09/15/using-google-forms-google-sheets-excel-to-collect-and-analyze-data/)
-1. [Interesting examples of poor UX practices](https://www.pinterest.es/nunile/ux-bad-practices/)
-1. ['Form Design: 13 Empirically Backed Best Practices'](https://cxl.com/blog/form-design-best-practices/)
-1. ['Best Practices For Mobile Form Design'](https://www.smashingmagazine.com/2018/08/best-practices-for-mobile-form-design/)
-1. Software: [TapForms](https://www.tapforms.com/)
-1. Software: [Jotform](https://www.jotform.com/)
-
-## Checklists
-
-1. Atul Gawande's [The Checklist Manifesto](http://atulgawande.com/book/the-checklist-manifesto/) 
-1. Paula Rizzo's LinkedIn Course [The Power of Lists](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fthe-power-of-lists-to-get-stuff-done%3Ftrk%3Dshare_ent_url%26shareId%3DH2pUj81TTkicWyBeXQHdxw%253D%253D&account=41282748)
-1. Clear for [iOS](https://apps.apple.com/us/app/clear-todos/id493136154) and for [Android](https://play.google.com/store/apps/details?id=com.cleartask.tasktodo.todo&hl=en_US&gl=US) 
-1. [ToDoist](https://todoist.com/) especially powerful; lists can be shared with team members and sync across devices
-1. [Evernote](https://evernote.com/) really more of a note-teaking app, but good for lists too
-1. Lifewire Review of [8 Best To-Do List Apps](https://www.lifewire.com/best-to-do-list-apps-2377984)
-  
-
-## Creating and Printing Labels
-
-1. [Avery Waterproof labels](https://www.avery.com/category/material/all/?category=waterproof-labels)
-  
-## QR Codes
-
-1. Leila Gharani: [Create QR Codes for FREE | Use Anywhere (Excel, Word & PowerPoint)](https://www.youtube.com/watch?v=GadmYWAVnjE)
-1. [How to Create a QR Code and Use It Effectively](https://www.youtube.com/watch?v=z22UChzno9Q)
-1. [Mass Generate QR Codes to Prefill Google Forms](https://www.youtube.com/watch?v=RS45HVZrnfg)
-1. ['Top 10 Barcode Scanner AppsFor iPhone and Android'](https://www.barcodesinc.com/cats/barcode-scanners/apps.htm)
 
 

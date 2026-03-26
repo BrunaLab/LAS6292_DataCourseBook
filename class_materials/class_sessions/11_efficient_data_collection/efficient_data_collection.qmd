@@ -42,7 +42,6 @@ Many data collection errors are the result of poorly designed tools for recordin
    * **Asset Management**: There is no need to have people (data collectors or study subjects) write down information you know in advance. Use things like labels & Bar/QR codes to simplify things as much as possible. 
    * **UX/UI**: The arrangement of things on a page, and the cues used to guide input, can help reduce errors and increase form completion rates. We know this thanks to websites that depend on you filling out information to get your business; they have done lots of testing to come up with forms that ensure you don't leave the site without giving them the information they need. And so with that in mind.... 
 
-
 ### **Lessons from UI/UX** 
 
 Whenever possible, the instrument for recording information (e.g., form, online survey) should strive to:
@@ -71,10 +70,18 @@ Whenever possible, the instrument for recording information (e.g., form, online 
 
 Another reason errors get introduced is because we fail/forget to collect the required data (an error of omission) or because the equipment used to collect the data fails or is unavailable (e.g., the recorder runs out of batteries, the recorder is left behind, the recorder is dropped in the river). _Checklists_ are an essential way of minimizing the likelihood of these data collection errors.
 
-Checklists are easy to make and share; here as some examples of checklists made by previous courses. The RMarkdown files used to make them can be seen and edited in [this Github folder](https://github.com/BrunaLab/LAS6292_DataCourseBook/tree/11b7782cf3595203862b5bb7413ebbf18227e79c/class_materials/class_sessions/11_efficient_data_collection/class_checklists). There are also blank templates in RMarkdown and Quarto format to make your own.
+Checklists are easy to make and share; here as some examples of checklists made by previous courses. The RMarkdown files used to make them can be seen and edited in [this Github folder](https://github.com/BrunaLab/LAS6292_DataCourseBook/tree/11b7782cf3595203862b5bb7413ebbf18227e79c/class_materials/class_sessions/11_efficient_data_collection/class_checklists). There are also blank templates in [RMarkdown](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/checklist_template.Rmd) and [Quarto](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/checklist_template.qmd) format to make your own. 
+
+### Example Checklists made in Prior Classes  
+
+* First Aid Kit [pdf](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/firstaidkit_checklist.pdf), [Rmd](class_materials/class_sessions/11_efficient_data_collection/class_checklists/firstaidkit_checklist.Rmd)
+* Supplies & equipment for international travel & fieldwork [pdf](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/travel_checklist.pdf), [Rmd](class_materials/class_sessions/11_efficient_data_collection/class_checklists/travel_checklist.Rmd)
+* Vehicle & vessel maintenance review: [pdf](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/vehicle_vessel_checklist.pdf), [Rmd](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/vehicle_vessel_checklist.Rmd) [Rmd](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/vehicle_vessel_checklist.Rmd) 
+* Surveying Farmers Project Checklist [pdf](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/farmer_surveys_checklist.pdf), [Rmd](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/farmer_surveys_checklist.Rmd) 
+* Materials for rural focus groups [pdf](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/focus_grp_checklist.pdf), [Rmd](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/focus_grp_checklist.Rmd)
 
 
-## Sources, Tools, & Resources
+## Tools, & Resources
 
 ### Forms
 
@@ -83,7 +90,7 @@ Checklists are easy to make and share; here as some examples of checklists made 
 1. [How to design survey forms for quick data entry](http://www.tools4dev.org/resources/how-to-design-surveys-and-forms-for-quick-data-entry/). This is a great post with suggestions on designing survey forms for work in an international / multi-language context.
 1. Best Practice for Form Design: [one](https://medium.com/nextux/form-design-best-practices-9525c321d759) and [two](https://www.ventureharbour.com/form-design-best-practices/). These suggestions come from a UX-perspective for online forms, so they might seem most appropriate for online surveys. But the suggestions are really good for paper survey forms as well.
 1. [make a template for data entry (form) with Excel](https://www.pryor.com/blog/ease-the-pain-of-data-entry-with-an-excel-forms-template/)
-1. ['Using Google Forms, Google Sheets & Excel to Collect and Analyze Data'](https://blogs.cofc.edu/tlttutorials/2017/09/15/using-google-forms-google-sheets-excel-to-collect-and-analyze-data/)
+1. ['Google Forms Essential Training' ](https://careerhub.ufl.edu/classes/google-forms-essential-training/) (requires UF login)
 1. [Interesting examples of poor UX practices](https://www.pinterest.es/nunile/ux-bad-practices/)
 1. ['Form Design: 13 Empirically Backed Best Practices'](https://cxl.com/blog/form-design-best-practices/)
 1. ['Best Practices For Mobile Form Design'](https://www.smashingmagazine.com/2018/08/best-practices-for-mobile-form-design/)
@@ -97,7 +104,7 @@ Checklists are easy to make and share; here as some examples of checklists made 
 1. Clear for [iOS](https://apps.apple.com/us/app/clear-todos/id493136154) and for [Android](https://play.google.com/store/apps/details?id=com.cleartask.tasktodo.todo&hl=en_US&gl=US) 
 1. [ToDoist](https://todoist.com/) especially powerful; lists can be shared with team members and sync across devices
 1. [Evernote](https://evernote.com/) really more of a note-teaking app, but good for lists too
-1. Lifewire Review of [8 Best To-Do List Apps](https://www.lifewire.com/best-to-do-list-apps-2377984)
+1. NYTimes Wirecutter Review of [Best To-Do List Apps](https://www.nytimes.com/wirecutter/reviews/best-to-do-list-app/)
   
 
 ### Creating and Printing Labels
@@ -106,20 +113,18 @@ Checklists are easy to make and share; here as some examples of checklists made 
   
 ### QR Codes
 
-1. Leila Gharani: [Create QR Codes for FREE | Use Anywhere (Excel, Word & PowerPoint)](https://www.youtube.com/watch?v=GadmYWAVnjE)
+1. Make QR Codes in Word, Powerpoint, or Excel [Tutorial #1](https://www.youtube.com/watch?v=OV9G8L7W-Rg), [Tutorial #2](https://www.youtube.com/watch?v=GadmYWAVnjE)
+1. Make [QR Codes with R](https://thierryo.github.io/qrcode/) 
+1. Leila Gharani: [Create QR Codes for FREE | Use Anywhere (Excel, Word & PowerPoint)]
 1. [How to Create a QR Code and Use It Effectively](https://www.youtube.com/watch?v=z22UChzno9Q)
 1. [Mass Generate QR Codes to Prefill Google Forms](https://www.youtube.com/watch?v=RS45HVZrnfg)
 1. ['Top 10 Barcode Scanner AppsFor iPhone and Android'](https://www.barcodesinc.com/cats/barcode-scanners/apps.htm)
 
 
 
-#### **Readings**
-
+## Assigned Readings & Videos
 
 1. Redman, T. 2016. Bad Data Costs the U.S. $3 Trillion Per Year. Harvard Business Review. [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Redman_2016.pdf)
-
-
-### **Online Lectures:**  
 
 1. Atul Gawande's TED Talk: [The Importance & Value of the CHECK LIST](https://www.youtube.com/watch?v=55Nc8nccPa0). Follow-up with the details in this good [animated summary](https://www.youtube.com/watch?v=bCDmDzIOZ-g).
 
