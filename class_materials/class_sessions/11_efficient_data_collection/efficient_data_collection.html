@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; Naming Conventions – LAS 6292: Data Collection and Management</title>
+<title>10&nbsp; Efficient Data Collection – LAS 6292: Data Collection and Management</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../class_materials/class_sessions/02_file_organization/organization.html" rel="next">
-<link href="../../../index.html" rel="prev">
+<link href="../../../class_materials/class_sessions/12_transcription_translation/transcription_translation.html" rel="next">
+<link href="../../../class_materials/class_sessions/09_DMP/dmp.html" rel="prev">
 <link href="../../../images/cover.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Naming Conventions</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/11_efficient_data_collection/efficient_data_collection.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Efficient Data Collection</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../class_materials/class_sessions/02_file_names/naming.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../class_materials/class_sessions/02_file_names/naming.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Naming Conventions</span></span></a>
   </div>
 </li>
@@ -202,7 +202,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../class_materials/class_sessions/11_efficient_data_collection/efficient_data_collection.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../class_materials/class_sessions/11_efficient_data_collection/efficient_data_collection.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Efficient Data Collection</span></span></a>
   </div>
 </li>
@@ -282,22 +282,32 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1.1</span> Introduction</a></li>
-  <li><a href="#how-to-name-your-files" id="toc-how-to-name-your-files" class="nav-link" data-scroll-target="#how-to-name-your-files"><span class="header-section-number">1.2</span> How to name your files</a></li>
-  <li><a href="#tools-resources" id="toc-tools-resources" class="nav-link" data-scroll-target="#tools-resources"><span class="header-section-number">1.3</span> Tools &amp; Resources</a>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">10.1</span> Introduction</a></li>
+  <li><a href="#forms" id="toc-forms" class="nav-link" data-scroll-target="#forms"><span class="header-section-number">10.2</span> Forms</a>
   <ul class="collapse">
-  <li><a href="#best-practices-conventions-for-naming-files" id="toc-best-practices-conventions-for-naming-files" class="nav-link" data-scroll-target="#best-practices-conventions-for-naming-files">Best Practices &amp; Conventions for Naming Files</a></li>
-  <li><a href="#tutorials-and-tools-for-bulk-renaming-of-files" id="toc-tutorials-and-tools-for-bulk-renaming-of-files" class="nav-link" data-scroll-target="#tutorials-and-tools-for-bulk-renaming-of-files">Tutorials and Tools for Bulk Renaming of Files</a></li>
+  <li><a href="#lessons-from-uiux" id="toc-lessons-from-uiux" class="nav-link" data-scroll-target="#lessons-from-uiux"><span class="header-section-number">10.2.1</span> <strong>Lessons from UI/UX</strong></a></li>
   </ul></li>
+  <li><a href="#checklists" id="toc-checklists" class="nav-link" data-scroll-target="#checklists"><span class="header-section-number">10.3</span> Checklists</a>
+  <ul class="collapse">
+  <li><a href="#example-checklists-made-in-prior-classes" id="toc-example-checklists-made-in-prior-classes" class="nav-link" data-scroll-target="#example-checklists-made-in-prior-classes"><span class="header-section-number">10.3.1</span> Example Checklists made in Prior Classes</a></li>
+  </ul></li>
+  <li><a href="#tools-resources" id="toc-tools-resources" class="nav-link" data-scroll-target="#tools-resources"><span class="header-section-number">10.4</span> Tools, &amp; Resources</a>
+  <ul class="collapse">
+  <li><a href="#forms-1" id="toc-forms-1" class="nav-link" data-scroll-target="#forms-1"><span class="header-section-number">10.4.1</span> Forms</a></li>
+  <li><a href="#checklists-1" id="toc-checklists-1" class="nav-link" data-scroll-target="#checklists-1"><span class="header-section-number">10.4.2</span> Checklists</a></li>
+  <li><a href="#creating-and-printing-labels" id="toc-creating-and-printing-labels" class="nav-link" data-scroll-target="#creating-and-printing-labels"><span class="header-section-number">10.4.3</span> Creating and Printing Labels</a></li>
+  <li><a href="#qr-codes" id="toc-qr-codes" class="nav-link" data-scroll-target="#qr-codes"><span class="header-section-number">10.4.4</span> QR Codes</a></li>
+  </ul></li>
+  <li><a href="#assigned-readings-videos" id="toc-assigned-readings-videos" class="nav-link" data-scroll-target="#assigned-readings-videos"><span class="header-section-number">10.5</span> Assigned Readings &amp; Videos</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/02_file_names/naming.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/11_efficient_data_collection/efficient_data_collection.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Naming Conventions</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/02_file_names/naming.html">Course Topics</a></li><li class="breadcrumb-item"><a href="../../../class_materials/class_sessions/11_efficient_data_collection/efficient_data_collection.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Efficient Data Collection</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-naming" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Naming Conventions</span></span></h1>
+<h1 class="title"><span id="sec-efficient" class="quarto-section-identifier"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Efficient Data Collection</span></span></h1>
 </div>
 
 
@@ -320,55 +330,139 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1.1</span> Introduction</h2>
-<p><strong>The first (and easiest) way to get started organizing your data is to use a simple, clear, and consistent system for naming your files (i.e., a “naming convention”).</strong> Using a well-thought out naming convention has a number of important benefits:</p>
+<!-- * **In-class Exercise:** build a better form, find error minimization -->
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Objectives and Competencies:
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>Files will be easier to find</li>
-<li>You won’t have to open files to see what they are</li>
-<li>Files are easier to sort</li>
-<li>Files are easier to share with collaborators (and for collaborators to use)</li>
-<li>It helps prevent accidentally overwriting or deleting files</li>
+<li>Learn to evaluate data collection procedures to identify steps at which errors are likely to enter and propagate</li>
+<li>Critique and improve data collection forms</li>
+<li>Learn to prepare and use checklists for complex procedures such as data collection</li>
+</ul>
+</div>
+</div>
+<section id="introduction" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">10.1</span> Introduction</h2>
+<p>The goal of efficient data collection is <strong>Error Reduction:</strong></p>
+<ul>
+<li>At the time of data collection</li>
+<li>When transferring to electronic format</li>
+</ul>
+<p>We can reduce the introduction of errors using <strong>Process Audits</strong> - a tool borrowed from industrial engineering that helps to identify <em>where</em> errors are likely to sneak in.</p>
+</section>
+<section id="forms" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="forms"><span class="header-section-number">10.2</span> Forms</h2>
+<p>Many data collection errors are the result of poorly designed tools for recording information. <strong>Most people, whether they know it or not, collect data on some kind of form</strong>. Sometimes these forms are paper, sometimes electronic. Notes scribbled on a piece of paper or MS Word document? Both are simple ‘forms’. To design better forms - forms that reduce the number of errors at both the collection and entry phases - we will use some ideas from manufacturing, shipping, and design industries, along with loads of research on forms themselves.</p>
+<ul>
+<li><strong>Lists</strong>: We forget things we need, and we forget things we need to do. Lists prevent that.</li>
+<li><strong>Automation</strong>: When collected repeated measurements on a single thing, or the same measurement on many things, attempt to invest in automation.</li>
+<li><strong>Asset Management</strong>: There is no need to have people (data collectors or study subjects) write down information you know in advance. Use things like labels &amp; Bar/QR codes to simplify things as much as possible.</li>
+<li><strong>UX/UI</strong>: The arrangement of things on a page, and the cues used to guide input, can help reduce errors and increase form completion rates. We know this thanks to websites that depend on you filling out information to get your business; they have done lots of testing to come up with forms that ensure you don’t leave the site without giving them the information they need. And so with that in mind….</li>
+</ul>
+<section id="lessons-from-uiux" class="level3" data-number="10.2.1">
+<h3 data-number="10.2.1" class="anchored" data-anchor-id="lessons-from-uiux"><span class="header-section-number">10.2.1</span> <strong>Lessons from UI/UX</strong></h3>
+<p>Whenever possible, the instrument for recording information (e.g., form, online survey) should strive to:</p>
+<ol type="1">
+<li><p>Reduce Cognitive Overload. Keep the form simple, easy to read, and easy to follow.</p></li>
+<li><p>Require writing as little as possible</p></li>
+</ol>
+<ul>
+<li>Use labels &amp; keep them short…</li>
+<li>…and pay attention to where you put the labels</li>
+<li>Use the appropriate input type and tag…</li>
+<li>…and format them in helpful ways</li>
+<li>Forms should be one column…</li>
+<li>…Except when multi-column makes sense</li>
+<li>Group related fields</li>
+<li>AVOID ALL CAPS</li>
+<li>For online forms: Show all options if &lt; 6 (unless space is limited)</li>
+<li>Number questions and responses</li>
+<li>Use Formatting to guide the data collectors</li>
+<li>Avoid 2x-sided forms</li>
+<li>Give each sheet a unique ID number</li>
+<li>Add collector info</li>
 </ul>
 </section>
-<section id="how-to-name-your-files" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="how-to-name-your-files"><span class="header-section-number">1.2</span> How to name your files</h2>
-<p><strong>Your file names should: </strong></p>
-<p><strong>Tell you about the contents of the file and allow you to uniquely identify it.</strong> For instance (compare <code>'data 1998'</code> vs <code>'survey data'</code> vs <code>'survey data 1998'</code> vs <code>'small mammal survey data 1998'</code>). You can use things like the an acronym for the project, abbreviation for the study, location where collected, the name of the investigator, the year or month when collected, the type of data type, etc.</p>
-<p><strong>Be as short as possible.</strong> Many database systems (like MS One Drive) have limits on file name length. Use a max of 25 characters, and aim for less than that.</p>
-<p><strong>Avoid using special characters and spaces</strong> Don’t use characters like <code>$ % ^ &amp; # | :</code>. This is really important because software, automated data processing tools, web browsers, and computer operating systems use spaces and special characters for dividing up (parsing) strings of text, as well as other processes.</p>
-<p><strong>Start with letters, never numbers. </strong>Using numbers at the start of file names can lead to problems when they are read into stats software and other programs. Instead of <code>'2020_survey_responses'</code> use <code>'survey_responses_2020'</code></p>
-<p><strong>Help you quickly sort files chronologically or numerically</strong>. Dates are very useful in file names because they can help identify the most recent files easily. You can <em>not</em> rely on the file date associated with the file on the computer! However, it is really important to use a clear format for dates, especially if collaborating internationally. I learned the hard way that not everyone reads <code>'census_data_3-4-2018'</code> the same way I do, so I started using <code>'census_data_4march2018'</code>. However, even this isn’t ideal because of how it sorts things in a folder. Now I now use this format: <code>'file_name_YYYYMMDD'</code> (<code>'census_data_20180403'</code>). You can also use <code>file_name_YYYY-MM-DD</code>. This is based on the international format for dates and times <a href="https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates">(ISO 8601)</a>. In addition to the benefit of sorting more easily, you’ll never have to use the the dreaded <code>'_____.final.docx'</code> and <code>'_____.actual_final.docx'</code> in your file names ever again…you’ll always know which is the last one. If the files don’t require a date, but you want to maintain a sequence, use leading zeros to maintain sort order. <code>7</code> and <code>701</code> don’t sort the way you expect them to, so use <code>007</code> and <code>701</code>.</p>
-<p><strong>Use a consistent method of dealing with spaces and letter case. </strong>. For a the spreadsheet with responses to a survey by 5 different people, don’t use <code>'survey responses Florida'</code>. Instead use (i) <code>'survey_responses_florida'</code> or (ii) <code>'SurveyResponsesFlorida'</code>. Try to avoid mixing the two (e.g., <code>'survey_responses_Florida'</code>). By the way, (i) is known as <code>pothole</code> and (ii) is known as <code>camel</code>. Personally, I prefer pothole name is better because of it is easier to read and you never to remember what words get capitalized (because none of the do). Use underscore <code>( _ )</code> or dashes <code>( - )</code> to separate meaningful parts of file names.</p>
-<p><strong>Once you have a system, write it down, print it out, and put it up somewhere you can easily refer to it.</strong> Remember -whenever possible make the names simple, informative, and unique. If you collected survey data and behavioral data in 2017, don’t call them both <code>data_2017</code> even if they are in different folders. Call one <code>'behavior_obs_2017'</code> and the other <code>'survey_responses_2017'</code>).</p>
-<p>Simple names also help you avoid problems with “system and software portability” - you might be working on a Mac but your collaborators are working on Linux or Windows, and the software made for each can read file names in different ways. File names that are simple, lower-case, and have no special characters are less software- and platform-dependent.</p>
 </section>
-<section id="tools-resources" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="tools-resources"><span class="header-section-number">1.3</span> Tools &amp; Resources</h2>
-<section id="best-practices-conventions-for-naming-files" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="best-practices-conventions-for-naming-files">Best Practices &amp; Conventions for Naming Files</h3>
+<section id="checklists" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="checklists"><span class="header-section-number">10.3</span> Checklists</h2>
+<p>Another reason errors get introduced is because we fail/forget to collect the required data (an error of omission) or because the equipment used to collect the data fails or is unavailable (e.g., the recorder runs out of batteries, the recorder is left behind, the recorder is dropped in the river). <em>Checklists</em> are an essential way of minimizing the likelihood of these data collection errors.</p>
+<p>Checklists are easy to make and share; here as some examples of checklists made by previous courses. The RMarkdown files used to make them can be seen and edited in <a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/tree/11b7782cf3595203862b5bb7413ebbf18227e79c/class_materials/class_sessions/11_efficient_data_collection/class_checklists">this Github folder</a>. There are also blank templates in <a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/checklist_template.Rmd">RMarkdown</a> and <a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/checklist_template.qmd">Quarto</a> format to make your own.</p>
+<section id="example-checklists-made-in-prior-classes" class="level3" data-number="10.3.1">
+<h3 data-number="10.3.1" class="anchored" data-anchor-id="example-checklists-made-in-prior-classes"><span class="header-section-number">10.3.1</span> Example Checklists made in Prior Classes</h3>
 <ul>
-<li><a href="https://library.si.edu/sites/default/files/tutorial/pdf/filenamingorganizing20180227.pdf">Smithsonian Library</a></li>
-<li><a href="https://guides.uflib.ufl.edu/datamanagement/datacollection">UF Library</a> <em>(bottom of the page)</em></li>
-<li><a href="https://guides.library.stanford.edu/data-best-practices">Stanford Library</a></li>
+<li>First Aid Kit <a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/firstaidkit_checklist.pdf">pdf</a>, <a href="class_materials/class_sessions/11_efficient_data_collection/class_checklists/firstaidkit_checklist.Rmd">Rmd</a></li>
+<li>Supplies &amp; equipment for international travel &amp; fieldwork <a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/travel_checklist.pdf">pdf</a>, <a href="class_materials/class_sessions/11_efficient_data_collection/class_checklists/travel_checklist.Rmd">Rmd</a></li>
+<li>Vehicle &amp; vessel maintenance review: <a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/vehicle_vessel_checklist.pdf">pdf</a>, <a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/vehicle_vessel_checklist.Rmd">Rmd</a> <a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/vehicle_vessel_checklist.Rmd">Rmd</a></li>
+<li>Surveying Farmers Project Checklist <a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/farmer_surveys_checklist.pdf">pdf</a>, <a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/farmer_surveys_checklist.Rmd">Rmd</a></li>
+<li>Materials for rural focus groups <a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/focus_grp_checklist.pdf">pdf</a>, <a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/class_checklists/focus_grp_checklist.Rmd">Rmd</a></li>
 </ul>
 </section>
-<section id="tutorials-and-tools-for-bulk-renaming-of-files" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="tutorials-and-tools-for-bulk-renaming-of-files">Tutorials and Tools for Bulk Renaming of Files</h3>
-<ul>
-<li>Batch Renaming of Files in Windows: <a href="https://www.pcmag.com/how-to/rename-multiple-files-at-once-in-windows?test_uuid=04IpBmWGZleS0I0J3epvMrC&amp;test_variant=A">Post</a></li>
-<li>Batch Renaming of Files in MacOS: <a href="https://setapp.com/how-to/batch-rename-files">Post 1</a>, <a href="https://appleinsider.com/articles/21/06/23/how-to-batch-rename-files-in-macos">Post 2</a></li>
-<li><a href="https://www.adobe.com/products/bridge.html">Adobe Bridge</a> <em>(a powerful “asset manager” used to organize collections and edit metadata)</em></li>
-<li><a href="https://renamer.com/">Renamer (macOS)</a></li>
-<li><a href="http://www.den4b.com/products/renamer">Renamer Lite</a></li>
-<li><a href="http://www.bulkrenameutility.co.uk/Main_Intro.php">Bulk Rename (Windows)</a></li>
-<li><a href="http://www.joejoesoft.com/cms/showpage.php?cid=108">Rename Master (Windows)</a></li>
-<li><a href="http://www.antp.be/software/renamer">Ant Renamer</a></li>
-</ul>
-<!-- * [PSRenamer](http://www.powersurgepub.com/products/psrenamer/index.html) -->
+</section>
+<section id="tools-resources" class="level2" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="tools-resources"><span class="header-section-number">10.4</span> Tools, &amp; Resources</h2>
+<section id="forms-1" class="level3" data-number="10.4.1">
+<h3 data-number="10.4.1" class="anchored" data-anchor-id="forms-1"><span class="header-section-number">10.4.1</span> Forms</h3>
+<ol type="1">
+<li>Schiavo, F. <a href="https://design-nation.icons8.com/the-bad-design-of-everyday-things-3-paper-forms-bbb20ffc3c9">The bad design of everyday things #3 — Paper Forms.</a></li>
+<li>Maloney, S. <a href="https://pyramidsolutions.com/wp-content/uploads/2017/09/Best-Practices-for-Paper-Based-Form-Design.pdf">Best Practices for PaperBased Form Design</a></li>
+<li><a href="http://www.tools4dev.org/resources/how-to-design-surveys-and-forms-for-quick-data-entry/">How to design survey forms for quick data entry</a>. This is a great post with suggestions on designing survey forms for work in an international / multi-language context.</li>
+<li>Best Practice for Form Design: <a href="https://medium.com/nextux/form-design-best-practices-9525c321d759">one</a> and <a href="https://www.ventureharbour.com/form-design-best-practices/">two</a>. These suggestions come from a UX-perspective for online forms, so they might seem most appropriate for online surveys. But the suggestions are really good for paper survey forms as well.</li>
+<li><a href="https://www.pryor.com/blog/ease-the-pain-of-data-entry-with-an-excel-forms-template/">make a template for data entry (form) with Excel</a></li>
+<li><a href="https://careerhub.ufl.edu/classes/google-forms-essential-training/">‘Google Forms Essential Training’</a> (requires UF login)</li>
+<li><a href="https://www.pinterest.es/nunile/ux-bad-practices/">Interesting examples of poor UX practices</a></li>
+<li><a href="https://cxl.com/blog/form-design-best-practices/">‘Form Design: 13 Empirically Backed Best Practices’</a></li>
+<li><a href="https://www.smashingmagazine.com/2018/08/best-practices-for-mobile-form-design/">‘Best Practices For Mobile Form Design’</a></li>
+<li>Software: <a href="https://www.tapforms.com/">TapForms</a></li>
+<li>Software: <a href="https://www.jotform.com/">Jotform</a></li>
+</ol>
+</section>
+<section id="checklists-1" class="level3" data-number="10.4.2">
+<h3 data-number="10.4.2" class="anchored" data-anchor-id="checklists-1"><span class="header-section-number">10.4.2</span> Checklists</h3>
+<ol type="1">
+<li>Atul Gawande’s <a href="http://atulgawande.com/book/the-checklist-manifesto/">The Checklist Manifesto</a></li>
+<li>Paula Rizzo’s LinkedIn Course <a href="https://www.linkedin.com/learning-login/share?forceAccount=false&amp;redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fthe-power-of-lists-to-get-stuff-done%3Ftrk%3Dshare_ent_url%26shareId%3DH2pUj81TTkicWyBeXQHdxw%253D%253D&amp;account=41282748">The Power of Lists</a></li>
+<li>Clear for <a href="https://apps.apple.com/us/app/clear-todos/id493136154">iOS</a> and for <a href="https://play.google.com/store/apps/details?id=com.cleartask.tasktodo.todo&amp;hl=en_US&amp;gl=US">Android</a></li>
+<li><a href="https://todoist.com/">ToDoist</a> especially powerful; lists can be shared with team members and sync across devices</li>
+<li><a href="https://evernote.com/">Evernote</a> really more of a note-teaking app, but good for lists too</li>
+<li>NYTimes Wirecutter Review of <a href="https://www.nytimes.com/wirecutter/reviews/best-to-do-list-app/">Best To-Do List Apps</a></li>
+</ol>
+</section>
+<section id="creating-and-printing-labels" class="level3" data-number="10.4.3">
+<h3 data-number="10.4.3" class="anchored" data-anchor-id="creating-and-printing-labels"><span class="header-section-number">10.4.3</span> Creating and Printing Labels</h3>
+<ol type="1">
+<li><a href="https://www.avery.com/category/material/all/?category=waterproof-labels">Avery Waterproof labels</a></li>
+</ol>
+</section>
+<section id="qr-codes" class="level3" data-number="10.4.4">
+<h3 data-number="10.4.4" class="anchored" data-anchor-id="qr-codes"><span class="header-section-number">10.4.4</span> QR Codes</h3>
+<ol type="1">
+<li>Make QR Codes in Word, Powerpoint, or Excel <a href="https://www.youtube.com/watch?v=OV9G8L7W-Rg">Tutorial #1</a>, <a href="https://www.youtube.com/watch?v=GadmYWAVnjE">Tutorial #2</a></li>
+<li>Make <a href="https://thierryo.github.io/qrcode/">QR Codes with R</a></li>
+<li>Leila Gharani: [Create QR Codes for FREE | Use Anywhere (Excel, Word &amp; PowerPoint)]</li>
+<li><a href="https://www.youtube.com/watch?v=z22UChzno9Q">How to Create a QR Code and Use It Effectively</a></li>
+<li><a href="https://www.youtube.com/watch?v=RS45HVZrnfg">Mass Generate QR Codes to Prefill Google Forms</a></li>
+<li><a href="https://www.barcodesinc.com/cats/barcode-scanners/apps.htm">‘Top 10 Barcode Scanner AppsFor iPhone and Android’</a></li>
+</ol>
+</section>
+</section>
+<section id="assigned-readings-videos" class="level2" data-number="10.5">
+<h2 data-number="10.5" class="anchored" data-anchor-id="assigned-readings-videos"><span class="header-section-number">10.5</span> Assigned Readings &amp; Videos</h2>
+<ol type="1">
+<li><p>Redman, T. 2016. Bad Data Costs the U.S. $3 Trillion Per Year. Harvard Business Review. <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Redman_2016.pdf">[download pdf]</a></p></li>
+<li><p>Atul Gawande’s TED Talk: <a href="https://www.youtube.com/watch?v=55Nc8nccPa0">The Importance &amp; Value of the CHECK LIST</a>. Follow-up with the details in this good <a href="https://www.youtube.com/watch?v=bCDmDzIOZ-g">animated summary</a>.</p></li>
+<li><p>Jess Stratton (LinkedIn Learning) Video Overview: <a href="https://www.linkedin.com/learning/google-sheets-advanced-tips-and-tricks/use-google-forms-to-create-surveys?u=41282748">Use Google Forms to Create Surveys</a> (7 min.)</p></li>
+<li><p>OPTIONAL: A more advanced, multi-video <a href="https://www.linkedin.com/learning/google-forms-essential-training-2/collect-data-easily-with-google-forms?u=41282748">Google Forms Essential Training Course</a> has short (1-3 min) videos explaining each step in more detail. It’s great, and only 39 min long from start to finish.</p></li>
+</ol>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -774,13 +868,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../index.html" class="pagination-link" aria-label="Introduction">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction</span>
+      <a href="../../../class_materials/class_sessions/09_DMP/dmp.html" class="pagination-link" aria-label="Data Management Plans">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Data Management Plans</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../class_materials/class_sessions/02_file_organization/organization.html" class="pagination-link" aria-label="File Organization">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">File Organization</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../class_materials/class_sessions/12_transcription_translation/transcription_translation.html" class="pagination-link" aria-label="Transcription &amp; Translation">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Transcription &amp; Translation</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -792,7 +886,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/02_file_names/naming.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BrunaLab/LAS6292_DataCourseBook/edit/main/class_materials/class_sessions/11_efficient_data_collection/efficient_data_collection.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This book was built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
