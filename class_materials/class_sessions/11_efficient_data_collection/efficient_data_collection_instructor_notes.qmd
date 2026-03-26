@@ -8,9 +8,19 @@ title-block-style: default
 date-modified: last-modified
 
 ---
-# Efficient Data Collection  {#sec-efficient}
+# Efficient Data Collection  {#sec-efficient-notes}
 
-<!-- * **In-class Exercise:** build a better form, find error minimization -->
+
+::: callout-tip
+
+## Objectives and Competencies:   
+
+* Learn to evaluate data collection procedures to identify steps at which errors are likely to enter and propagate 
+* Critique and improve data collection forms
+* Learn to prepare and use checklists for complex procedures such as data collection
+
+:::
+
 
 
 ## Pre-Class Preparation (Instructor):  
