@@ -6,7 +6,7 @@
 #       - name: University of Florida
 title-block-style: default
 date-modified: last-modified
-
+format: pdf
 ---
 # Efficient Data Collection  {#sec-efficient-notes}
 
@@ -82,76 +82,84 @@ date-modified: last-modified
 ### **Topic 1 Overview: Intro to Efficient Data Collection** 
 <!-- (`r t1_overview` min) -->
 
-1. **Goal: **Error reduction
 
-    * At the time of data collection 
-    * When transferring to electronic format
+The goal of efficient data collection is **Error Reduction:**
 
-2. **Process Audits** : A tool borrowed from industrial engineering - - can help identify where errors are likely to sneak in.
+  * At the time of data collection 
+  * When transferring to electronic format
 
-3. **Most people, whether they know it or not, collect data on some kind of form**. Sometimes these forms are paper, sometimes electronic. Notes scribbled on a piece of paper or MS Word document? Both simple forms. To design better forms - forms that reduce the number of errors at both the colleciton and entry phases - we will use some ideas from manufacturing, shipping, and design industries, along with loads of research on forms themselves.
-
-    * **Lists**: We forget things we need, and we forget things we need to do. Lists prevent that.
-    * **Automation**: When collected repeated measurements on a single thing, or the same measurement on many things, attempt to invest in automation. 
-    * **Asset Management**: There is no need to have people (data collectors or study subjects) write down information you know in advance. Use things like labels & Bar/QR codes to simplify things as much as possible. 
-    * **UX/UI**: The arrangement of things on a page, and the cues used to guide input, can help reduce errors and increase form completion rates. We know this thanks to websites that depend on you filling out information to get your business; they have done lots of testing to come up with forms that ensure you don't leave the site without giving them the information they need. And so with that in mind.... 
+We can reduce the introduction of errors using **Process Audits** - a tool borrowed from industrial engineering that helps to identify *where* errors are likely to sneak in.
 
 ### Breakout & Return Results 
 
-1. **Breakout: ** Process Audit of Data Forms
+1. **Breakout 1: ** Process Audit of Field Work
+
+
+1. **Part 2:** Forms
 <!-- (`r breakout1` min) -->
 
-    * Look over these forms and conduct a process audit. Where do you think errors are most likely to sneak in?
+Many data collection errors are the result of poorly designed tools for recording information. **Most people, whether they know it or not, collect data on some kind of form**. Sometimes these forms are paper, sometimes electronic. Notes scribbled on a piece of paper or MS Word document? Both are simple 'forms'. To design better forms - forms that reduce the number of errors at both the collection and entry phases - we will use some ideas from manufacturing, shipping, and design industries, along with loads of research on forms themselves.
 
-1.  **Returning results & Take-home message** 
+   * **Lists**: We forget things we need, and we forget things we need to do. Lists prevent that.
+   * **Automation**: When collected repeated measurements on a single thing, or the same measurement on many things, attempt to invest in automation. 
+   * **Asset Management**: There is no need to have people (data collectors or study subjects) write down information you know in advance. Use things like labels & Bar/QR codes to simplify things as much as possible. 
+   * **UX/UI**: The arrangement of things on a page, and the cues used to guide input, can help reduce errors and increase form completion rates. We know this thanks to websites that depend on you filling out information to get your business; they have done lots of testing to come up with forms that ensure you don't leave the site without giving them the information they need. And so with that in mind.... 
+
+
+1. **Breakout 2: ** Process Audit of Data Collection Forms
+
+  * Look over these forms and conduct a process audit. Where do you think errors are most likely to sneak in?
+
+1.  **Returning results & Take-home message: Lessons from UI/UX**  
 <!-- (`r breakout1_return` min)**  -->
-
-    * Summary and Discussion of results. 
-
-### **Topic 2 Overview:  Lessons from UI/UX**  
 <!-- (`r t2_overview` min): -->
 
-1. Reduce Cognitive Overload (aka keep it simple) 
-2. Write as little as possible
+Whenever possible, the instrument for recording information (e.g., form, online survey) should strive to:
 
-    * Use labels & keep them short…
-    * …and pay attention to where you put the labels
-    * Use the appropriate input type and tag…
-    * …and format them in helpful ways
-    * Forms should be one column…
-    * …Except when multi-column makes sense 
-    * Group related fields
-    * AVOID ALL CAPS
-    * For online forms: Show all options if < 6 (unless space is limited)
-    * Number questions and responses
-    * Use Formatting to guide the data collectors
-    * Avoid 2x-sided forms
-    * Give each sheet a unique ID number
-    * Add collector info
+1. Reduce Cognitive Overload. Keep the form simple, easy to read, and easy to follow.
+
+2. Require writing as little as possible
+
+  * Use labels & keep them short…
+  * …and pay attention to where you put the labels
+  * Use the appropriate input type and tag…
+  * …and format them in helpful ways
+  * Forms should be one column…
+  * …Except when multi-column makes sense 
+  * Group related fields
+  * AVOID ALL CAPS
+  * For online forms: Show all options if < 6 (unless space is limited)
+  * Number questions and responses
+  * Use Formatting to guide the data collectors
+  * Avoid 2x-sided forms
+  * Give each sheet a unique ID number
+  * Add collector info
+
 
 
 ### Break 
 <!-- (`r snack_break` min) -->
 
 
-### Breakout 2: In-class Assignment 
+### In-class Assignment: Checklists
 <!-- (`r breakout2` min) -->
 
-Now lets implement some of the things we've learned. 
-1. Conduct a Process Audit of your personal data collection sheet. (If you do not have one of your own, you can do the assignment with the "Line Transect Sheet” used in class)
-2. Redo your paper data sheet based on your process audit
-3. Create an electronic version of the data sheet using Google Forms
-4. When done, submit the following via canvas:
+Another reason errors get introduced is because we fail/forget to collect the required data (an error of omission) or because the equipment used to collect the data fails or is unavailable (e.g., the recorder runs out of batteries, the recorder is left behind, the recorder is dropped in the river). _Checklists_ are an essential way of minimizing the likelihood of these data collection errors.
 
-   * the original form
-   * the revised form
-   * A link to the google form
+Checklists are easy to make and share; here as some examples of checklists made by previous courses. The RMarkdown files used to make them can be seen and edited in [this Github folder](https://github.com/BrunaLab/LAS6292_DataCourseBook/tree/11b7782cf3595203862b5bb7413ebbf18227e79c/class_materials/class_sessions/11_efficient_data_collection/class_checklists). There are also blank templates in [RMarkdown](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/checklist_template.Rmd) and [Quarto](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/checklist_template.qmd) format to make your own. 
+
+
+Now lets implement some of the things we've learned. Create a Checklist Assignment
+OR data collection revision.
+<!-- 1. Conduct a Process Audit of your personal data collection sheet. (If you do not have one of your own, you can do the assignment with the "Line Transect Sheet” used in class) -->
+<!-- 2. Redo your paper data sheet based on your process audit -->
+<!-- 3. Create an electronic version of the data sheet using Google Forms -->
+<!-- 4. When done, submit the following via canvas: -->
+
+<!--    * the original form -->
+<!--    * the revised form -->
+<!--    * A link to the google form -->
     
-
-**OR**
-
-
-Let's make a checklist for a research trip. 
 
 
 ### Grading Rubric: 

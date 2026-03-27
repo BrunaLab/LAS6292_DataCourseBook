@@ -1,17 +1,18 @@
 
 library(tidyverse)
-
+library(here)
 # read in the data
 
-bites<-read_csv("./instructor-materials/class-sessions/07-QAQC3/demo_datasets/bites_summary.csv")
+bites<-read_csv("demo_datasets/bites_summary.csv")
 bite_summary<-bites %>% 
   # group_by(breed,bite_location) %>% 
   group_by(breed) %>% 
-  summarize(n=n()) %>% 
+  # summarize(n=n()) %>% 
+  tally() %>% 
   arrange(desc(n))
 
 
-bigfoot<-read_csv("./instructor-materials/class-sessions/07-QAQC3/demo_datasets/annual_bigfoot.csv")
+bigfoot<-read_csv("demo_datasets/annual_bigfoot.csv")
 
 
 # We will first make a bar chart, then a scatter plot.
@@ -24,26 +25,26 @@ bites10<-bite_summary %>% slice(1:10)
 
 bites10<-
   bites10 %>%
-  arrange(bites) %>%    # First sort by val. This sort the dataframe but NOT the factor levels. Arraange will go from low to high. to go from high to low use arrange(desc())
+  arrange(n) %>%    # First sort by val. This sort the dataframe but NOT the factor levels. Arraange will go from low to high. to go from high to low use arrange(desc())
   mutate(breed=factor(breed, levels=breed)) 
 
 
 
 # MAPPING
 barplot <- ggplot(data = bites10, 
-                mapping = aes(x=breed, y=bites))
+                mapping = aes(x=breed, y=n))
 
 
 # GEOM
 barplot <- barplot + geom_bar(stat = "identity", # use this when your df is a summary of the values for each category
                             width=1,      # width of the bars
                             color="black", # outline of the bars
-                            fill="black") # color of the bars
+                            fill="darkgray") # color of the bars
 
 # Coordinates and Scales
 
 barplot<-barplot+
-  scale_y_continuous(breaks=seq(0,1000,50))
+  scale_y_continuous(breaks=seq(0,1200,100))
 
 # LABELS AND GUIDES 
 
@@ -65,7 +66,7 @@ barplot<-barplot+
         axis.line.y = element_line(color="black", size = 0.5, lineend="square"),
         axis.line.x = element_line(color="black", size = 0.5, lineend="square"),
         axis.title.x=element_text(colour="black", size = 20, vjust=-0.5),           #S ets x axis title size, style, distance from axis #add , face = "bold" if you want bold
-        axis.title.y=element_text(colour="black", size = 20, vjust=1.5),            #S ets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.title.y=element_text(colour="blue", size = 20, vjust=1.5),            #S ets y axis title size, style, distance from axis #add , face = "bold" if you want bold
         axis.text.x=element_text(colour="black", size = 16, angle = 45, vjust =0, hjust=0),                          # Sets size and style of labels on axes
         axis.text.y=element_text(colour="black", size = 16, angle = 0, vjust =0, hjust=0),                          # Sets size and style of labels on axes
         # legend.title = element_blank(),                                             # Removes the Legend title

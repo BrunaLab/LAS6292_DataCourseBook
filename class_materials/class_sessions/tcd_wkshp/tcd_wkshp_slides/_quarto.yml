@@ -1,0 +1,4 @@
+project:
+  title: "01_slides_intro"
+  type: website
+  output-dir: 'slides'

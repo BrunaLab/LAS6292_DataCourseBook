@@ -1,0 +1,431 @@
+---
+title: "LAS 6292: Data Collection & Management"
+subtitle: "www.brunalab.org --> 'Courses'"
+format: 
+  revealjs:
+    theme: [night, custom.scss]
+    slide-number: true
+    show-slide-number: print
+    # theme: [night]
+    # theme: [custom.css]
+    smaller: true 
+    # axe: true
+    # self-contained: false
+    # reveal-js-url: 
+    # theme: white
+# editor: source
+# output-dir: "./static/uploads"
+# output: revealjs::revealjs_presentation
+include-in-header:
+      text: |
+        <style>
+        .right {
+          text-align: right;
+        }
+        </style>
+---
+
+## What are we doing today?
+
+
+1. What are Data?
+1. Data Aquisition, Entry, & Management 
+1. Data Curation 
+1. Data Archiving & Sharing 
+
+
+## What are
+
+&nbsp;
+&nbsp;
+
+<h1 class="r-fit-text" style="color:darkred">'DATA'?</h1>
+
+<section class="right">
+<h3 style="color:black">_(discuss)_</h3>
+</section>
+
+## So then...What are
+
+&nbsp;
+&nbsp;
+
+<h1 class="r-fit-text" style="color:darkred">'DATA'?</h1>
+
+
+
+## <img src="/slide-images/img1.png"  height="100%" width="100%">
+
+## <img src="/slide-images/img2.png"  height="100%" width="100%">
+
+## <img src="/slide-images/img3.png"  height="100%" width="100%">
+
+## <img src="/slide-images/img4.png"  height="100%" width="100%">
+
+## Kristen Briney: 
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+<h2 class="r-fit-text" style="color:#000000" >"Anything you perform analysis on."</h2>
+
+<section class="right">
+<h5 style="color:#191970">Page 6 of _Data Management for Researchers._</h5>
+</section>
+
+
+------------------------------------------------------------------------
+
+## 
+
+<h1 style="color:black"> who </h1>
+
+<h1 style="color:darkred"> *CARES?* </h1>
+
+
+## Data management is for...
+
+<!-- <img src="/slide-images/img5.png"  height="100%" width="100%"> -->
+
+#### Stress minimization
+
+![](slide-images/img5.png){fig-align="center" width="100%" fig-alt="screenshot oif google image search results for 'stressed out students'."}
+
+## 
+
+![](slide-images/img6.png){fig-align="center" width="100%"}
+
+
+## Data management is for...
+
+#### Validation 
+
+![](slide-images/img14.png){fig-align="center" width="95%"}
+
+## Data management is for...
+
+#### Advancing TCD 
+
+![](slide-images/img16.png){fig-align="center" width="95%"}
+
+## Data management is for...
+
+#### The Future  
+
+![](slide-images/img18.png){fig-align="center" width="95%"}
+
+<!-- ##  -->
+
+<!-- <h4 style="color:darkblue"> *With that in mind...* </h4> -->
+
+<!-- <h3 style="color:black">1. Identify different kinds of data collected in different disciplines.</h3> -->
+
+<!-- <h3 style="color:black">2. How are these data collected & recorded?</h3> -->
+
+<!-- <section class="right"> -->
+<!-- <h4 style="color:darkblue">*(also...time for a break!)*</h4> -->
+<!-- </section> -->
+
+<!-- ## <img src="/slide-images/img21.png"  height="100%" width="100%"> -->
+
+
+
+## Data are 
+
+<h2 class="r-fit-text" style="color:#000000" >ALIVE</h2>
+
+------------------------------------------------------------------------
+
+
+## <img src="/slide-images/img22.png"  height="100%" width="100%">
+
+## <img src="/slide-images/img23.png"  height="80%" width="80%">
+
+
+
+
+<h1 style="color:navy" align="center">‘Reproducible Research’?</h2>
+
+------------------------------------------------------------------------
+
+
+## Why 'Reproducible Research'?  {.smaller}
+
+- Have you ever tried to reproduce someone else's data analysis? 
+
+- Have you ever tried to repeat your _own_ (old) work?
+
+- What made it easy/hard to do so?
+
+- What would have to happen if you had to extend the analysis further?
+
+- If you caught a data error how easy/hard would it be to re-create the analysis?
+
+- What would happen if your collaborator is no longer available to walk you through their analysis? 
+
+- What if _you_ couldn’t remember the steps?
+
+
+## 
+
+### The Reproducible Research Workflow
+
+![Data Management Starts at Data Aquisition](slide-images/Slide5.png){fig-align="center" width="60%" fig-alt="reproducible workflow: data aquisition, data processing, data analysis, data presentation."}  
+
+
+## 5 min Break and then...
+
+### ...Data Aquisition
+
+
+
+##
+
+![](slide-images/Slide2qaqc.png)
+
+## 
+![](slide-images/Slide3qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide4qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide5qaqc.png){fig-align="center" width="95%"}
+
+
+## 
+
+![](slide-images/Slide6qaqc.png){fig-align="center" width="95%"}
+
+##
+
+![](slide-images/Slide7qaqc.png){fig-align="center" width="95%"}
+
+##
+
+![](slide-images/Slide8qaqc.png){fig-align="center" width="95%"}
+
+
+## 
+
+![](slide-images/Slide10qaqc.png){fig-align="center" width="95%"}
+
+
+## Data Collection Audit
+
+![](slide-images/audit.png){fig-align="center" width="95%"}
+
+## What about Data Entry?  
+
+## 
+
+![](slide-images/Slide27qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide28qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide29qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide30qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide31qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide32qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide33qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide34qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide35qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide36qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide37qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide38qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide39qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide40qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide41qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide42qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide43qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide44qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide45qaqc.png){fig-align="center" width="95%"}
+
+## 
+
+![](slide-images/Slide46qaqc.png){fig-align="center" width="95%"}
+
+
+## Once data are entered...
+
+**Question:** How are your data saved? How are they Backed Up? 
+
+
+
+
+
+## <img src="/slide-images/img7.png"  height="100%" width="100%">
+
+## <img src="/slide-images/img8.png"  height="100%" width="100%">
+
+## <img src="/slide-images/img9.png"  height="100%" width="100%">
+
+
+
+##  
+
+![](slide-images/bu.png){fig-align="center" width="95%"}
+
+##  
+
+![](slide-images/bu1.png){fig-align="center" width="95%"} 
+
+
+##  
+
+![](slide-images/bu2.png){fig-align="center" width="95%"} 
+
+
+##  
+
+![](slide-images/bu3.png){fig-align="center" width="95%"}
+
+##  
+
+![](slide-images/bu4.png){fig-align="center" width="95%"} 
+
+##
+
+
+![](slide-images/bu5.png){fig-align="center" width="95%"}  
+
+##
+
+
+![](slide-images/bu6.png){fig-align="center" width="95%"} 
+
+
+
+
+
+
+## After the Audit:
+
+1. Modify Data Collection Methods to reduce collection errors
+1. Use Data Entry Methods and Tools to reduce entry errors
+1. Review how your data are backed up 
+1. Prepare a Data Management Plan
+
+
+## 5 Min break then...
+
+**Prepare your Data Management Plan **
+
+
+## THE DMP 
+
+- Formal document that lays out your plan for managing the data you will collect (or have collected).  
+
+- Outlines what you will do with your data during and after you complete your research 
+
+- Ensures your data is safe for the present and the future 
+
+#### Why do a DMP?
+
+- Save time
+- Less work later
+- Increase research efficiency
+- **_You  may not have a choice._**
+
+![](slide-images/img8dmp.png){fig-align="center" width="30%"}  
+
+
+## 
+#### Components of a DMP
+
+- Information about data & data format
+- Metadata content and format
+- Policies for access, sharing and re-use
+- Long-term storage and data management
+- Roles and responsibilities
+- Budget
+
+
+## Let's GO!
+
+![](slide-images/img10dmp.png){fig-align="center" width="95%"}  
+
+
+## Finally....
+
+## Data Curation (= cleanup)
+
+
+
+#### Example 1
+
+![](slide-images/messy1.png){fig-align="center" width="95%"}  
+
+
+## Data Curation (= cleanup)
+
+#### Example 2
+
+![](slide-images/messy2.png){fig-align="center" width="95%"}  
+
+
+
+
+## Data Correction = Recipies
+
+![](slide-images/Slide7.png){fig-align="center" width="50%" fig-alt="picture of the recipie for the classic mexican dish 'mole poblano'"}   
+
+

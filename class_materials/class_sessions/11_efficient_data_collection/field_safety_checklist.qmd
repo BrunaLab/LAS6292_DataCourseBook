@@ -1,0 +1,56 @@
+---
+title: "Field Safety Checklist"
+format: html
+---
+# In-class Group Assignment: Pre-Departure Field Safety Checklist
+
+
+Prepare a checklist of key information information you need to gather prior to conducting field work to ensure you and your team members will be safe in the field.  This checklist could include such items as: 
+
+- Information you need to leave your advisor and family/roomates (itinerary, locations visiting, where staying, the names of your emergency contacts with their relationship to you and preferred contact methods)
+- How you can be contacted at your destination
+- The names of local contacts or hosts (e.g., local collaborators, field station managers)  
+- The locaton of medical facilities near your field sites, 
+- insurance information, including the names of any authorized medical providers
+- Copies of critical documents such as passports, visa, and travel insurance policies 
+- Required / recommended vaccinations with documentation 
+- Communication plan specifying how and when you will check in from the field, including satellite phone numbers or email access points if applicable, 
+- Potential hazards at your field site (wildlife, weather, terrain, disease vectors) and your mitigation strategies, and 
+- A list of any essential or site-specific safety and first aid supplies you will bring (epi-pens, etc, satellite beacons). 
+- Information on family or friends your advisors can contact in case of emergency
+- The local version of 911
+- What steps need to be taken if you or a team member are injured in the field.
+
+You may find useful information to add on the following websites and guides:
+
+- [UCSB](https://www.ehs.ucsb.edu/programs-services/field-research-safety/field-safety-plan) 
+- [YALE EHS](https://ehs.yale.edu/sites/default/files/files/field-safety-handbook.pdf) 
+- [IB BERKELEY](https://ib.berkeley.edu/courses/bio1b/field/pdf/SafetyGuidelinesforFieldResearchers.pdf) 
+- [UT AUSTIN](https://ehs.utexas.edu/sites/default/files/FieldResearchers-SafetyGuidelines.pdf) 
+- [OSU](https://bee.oregonstate.edu/sites/agscid7/files/bee/Safety_Support/remote_field_work_safety_plan.pdf) 
+- [OK STATE](https://cfaessafety.osu.edu/sites/safety/files/imce/CFAES_SENR%20Field%20Safety%20Guidlines%202018.pdf)  
+- [TEXAS TECH](https://www.depts.ttu.edu/ehs/academicsafety/field/index.php) 
+- [EARTH ARCHIVE](https://eartharxiv.org/repository/view/2607/) 
+- [ESA](https://esa.org/events/water-cooler-chats/what-goes-into-a-field-safety-plan/) (see articles at the end) 
+- [UNC](https://bio.unc.edu/wp-content/uploads/sites/353/2025/05/Tarheel_Toolkit_Safe_and_Inclusive_Fieldwork_v1a_2025_05.pdf) 
+- [UA](https://eeb.arizona.edu/about/department-resources/field-safety-manual) 
+- [BES](https://www.britishecologicalsociety.org/wp-content/uploads/2024/01/BES-Safe-Fieldwork-Guide.pdf)
+- [UF EHS](https://www.ehs.ufl.edu/departments/research-safety-services/animal-research-safety/wildlife-field-research/) 
+- [UF WEC](https://wec.ifas.ufl.edu/resources/safety/) 
+- [GEOHUB KENYA](https://geohubkenya.wordpress.com/2021/05/02/fieldwork-checklist-your-dependable-guide-including-tips/)
+
+
+You can also find sample checklists created by students in prior courses [here.](https://brunalab.github.io/LAS6292_DataCourseBook/class_materials/class_sessions/11_efficient_data_collection/efficient_data_collection.html#checklists-1) 
+
+## Assignment Submission and Grading: 
+
+### Submission  
+
+Create your checklist by download and editing either the [Rmarkdown](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/4574429630cbed827970ad366004d5f390ab0934/class_materials/class_sessions/11_efficient_data_collection/checklist_template.Rmd) or [Quarto](class_materials/class_sessions/11_efficient_data_collection/checklist_template.qmd) checklist template available on the course github repository. Submit this Quarto or RMarkdown file via Canvas. 
+
+### Grading Rubric
+
+Assignment completed with at least 10 items and submission in Rmd or qmd format: 35
+6-10 items; some require instructor follow-up: 30
+5 items, responses are cursory: 20
+1-5 items; Instructor follow-up required for homework submission: 10
