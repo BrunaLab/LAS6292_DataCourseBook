@@ -4,10 +4,17 @@ subtitle: "Spring Semester 2026"
 # author: "Instructor: Emilio M. Bruna"
 geometry: margin=1.0in
 fontsize: 12pt
-linkcolor: darkmidnightblue
-urlcolor: darkmidnightblue
+# linkcolor: darkmidnightblue
+# urlcolor: darkmidnightblue
 # format:
-#   docx:
+#   html: 
+#      include-in-header:
+#        text: |
+#         \usepackage[dvipsnames]{xcolor}
+#         \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+#         \usepackage{sectsty}\sectionfont{\centering\color{darkmidnightblue}}
+#         \usepackage{sectsty}\subsectionfont{\centering\color{darkmidnightblue}}
+#         \usepackage{sectsty}\subsubsectionfont{\centering\color{darkmidnightblue}}
 #     toc: false
 #     number-sections: true
 #     reference-doc: custom-reference-doc.docx
@@ -78,7 +85,7 @@ format:
       # - showframe
     # pagestyle: plain
     # Rendering
-    # 
+    #
 
 # format: html
 # keep-tex: true
