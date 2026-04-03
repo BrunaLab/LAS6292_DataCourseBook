@@ -11,7 +11,7 @@ The following slides are available in HTML format You can export them as PDFs by
  1. [QA/QC 1 - Error Minimization](slides/05_slides/qaqc_slides_quarto.html) 
  1. [Data Management Plans](slides/09_slides/dmp_slides.html)
  1. [Efficient Data Collection & Form Design](slides/11_slides/efficient_slides.html) 
-
+ 1. [Transcription & Translation](slides/12_slides/tt_slides.html) 
 <!-- ::: {.content-visible when-profile="book"} -->
 
 <!-- - <a href="slides/01_slides/01_slides_intro.html">Slides - Introduction</a> -->
