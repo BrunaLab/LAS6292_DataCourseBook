@@ -6,18 +6,24 @@
 #       - name: University of Florida
 title-block-style: default
 date-modified: last-modified
-
+format: html
 ---
 
 # Breakout: TRANSLATION TO ENGLISH
 
 1. Download the following .txt files. Note that the link takes you to a page on your browsewr; use "save this page as" to download it to your computer. 
 
-[`spanish_text_1voice.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/instructor-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt)
+[`spanish_text_1voice.txt`](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/b2ece5b314ab8d0189a396c85a6d0ed0199553d0/class_materials/class_sessions/12_transcription_translation/translation_text/spanish_text_1voice.txt)
 
-[`turkish_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/instructor-materials/class-sessions/11-transcription-translation/translation_text/turkish_text.txt)
 
-[`spanish_text_interview.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/instructor-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt)
+[`portuguese_br_text.txt`](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/b2ece5b314ab8d0189a396c85a6d0ed0199553d0/class_materials/class_sessions/12_transcription_translation/translation_text/portuguese_br_text.txt)
+
+[`hindi_text.txt`](https://github.com/BrunaLab/LAS6292_DataCourseBook/blob/b2ece5b314ab8d0189a396c85a6d0ed0199553d0/class_materials/class_sessions/12_transcription_translation/translation_text/hindi_text.txt)
+
+
+<!-- [`turkish_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/instructor-materials/class-sessions/11-transcription-translation/translation_text/turkish_text.txt) -->
+
+<!-- [`spanish_text_interview.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/instructor-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt) -->
 
 <!-- [`spanish_text_interview.txt`] -->
 

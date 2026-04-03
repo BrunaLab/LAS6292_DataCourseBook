@@ -30,10 +30,17 @@ The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/internationa
 1. NY Times' Wirecutter [review of paid transcription services](https://www.nytimes.com/wirecutter/reviews/best-transcription-services/). Their recommendations include both human- and AI-transcription of video and audio with per-minute pricing.   
 
 
+### Tools: Automated Transcription of spoken speech {.unnumbered}
+
+1. Speech-to-text [with Google Docs](https://newsinitiative.withgoogle.com/resources/trainings/fundamentals/voice-typing-transcribe-audio-using-google-docs/)
+
+1. Speech-to-text with [MS Word]((https://support.microsoft.com/en-us/office/transcribe-your-recordings-7fc2efec-245e-45f0-b053-2a97531ecf57): Word Desktop or Online: Go to Home > Dictate Box > Transcribe. The Settings wheel allows you to choose the micriphone and language. 
+
+
 ### Tools: Automated Transcription via file upload {.unnumbered}
 
 
-**_Top-Tier _**   {.unnumbered}
+**_Top-Tier _** 
 
 1. [Otter.ai](https://otter.ai/login). English only (US & UK with regional accents); free (600 min/mo) and paid plans. Can transcribe zoom meetings (e.g., if you do interviews via zoom) and can [integrate with Dropbox](https://blog.otter.ai/otter-dropbox-integration/). Phone app is available for [iOS](https://play.google.com/store/apps/details?id=com.aisense.otter&hl=en_US&gl=US). There is an [online tutorial](https://www.youtube.com/watch?v=SCaBnObVsqI).  **_English-only_**
   
@@ -41,9 +48,14 @@ The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/internationa
 
 1.  [Temi](https://www.temi.com/). **_English Only_**, less accurate than Otter.ai and Happy Scribe.
 
-1.  Online (free demo) version of [Watson](https://speech-to-text-demo.ng.bluemix.net/); note the "detect multiple speakers" option.
-
 1. [Zoom via UF](https://video.ufl.edu/conferencing/zoom/captions-and-live-transcription/); see also this [Link](https://education.ufl.edu/educational-research/14320) and this announcement about the addition of [new languages for UF users](https://news.it.ufl.edu/infrastructure/available-in-zoom-translated-captions-and-live-transcriptions/)
+
+1. [IBM Watson](https://www.ibm.com/products/speech-to-text), go to the [Demo Site](https://stt-demo-app.258kpouwgi7s.us-south.codeengine.appdomain.cloud/demos/live/stt-demo/self-service/home). note the "detect multiple speakers" option.
+
+1. MS Word (for Commercial Clients): Instructions [here](https://support.microsoft.com/en-us/office/transcribe-your-recordings-7fc2efec-245e-45f0-b053-2a97531ecf57). 
+  
+  - Transcription from audio file (Word Online): Go to Home > Dictate Dropdown Arrow > Transcribe. A side panel will open, follow the prompts to upload the audio file and choose options. 
+  
 
 **_Second-Tier_**
 
