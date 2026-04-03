@@ -1,0 +1,102 @@
+---
+# author:
+#   - name: Emilio M. Bruna
+#     affiliations:
+#       - id: uf
+#       - name: University of Florida
+title-block-style: default
+date-modified: last-modified
+
+---
+# Transcription & Translation - Instructor Notes
+
+
+::: {.callout-important}
+
+## Objectives and Competencies:   
+
+  * Understand the different approaches to translation and the research questions for which each is most appropriate
+  * Become familiar with software for automated translation via direct upload and api
+  * Learn to use the different types of automated and manual transcription tools
+  * Understand the strengths and weaknesses of automated translation 
+  * Be able to describe the metadata required for transcription files
+  
+:::
+
+
+## Pre-Class Preparation (Instructor):  
+
+**Send in an email to students:  **  
+
+  * Ask for volunteers to record text in new languages.
+
+**Bring to Class:  **  
+
+  * Snacks
+  * Flip charts and markers
+  * Dry write markers
+  * Tent cards for student names
+
+## Pre-class Preparation (Students):
+
+### **Readings**
+
+
+1.  Bakker, Rebecca. "Transcription Tools and Software" (2017). Works of the FIU Libraries. 62. [[read online]](https://digitalcommons.fiu.edu/glworks/62) [download pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Bakker_transcription_tools_slides.pdf)  
+
+2. McMullin, C. 2021, Transcription and Qualitative Methods: Implications for Third Sector Research. _Voluntas._ [link](https://doi.org/10.1007/s11266-021-00400-3)
+
+
+    _OPTIONAL (but very, very useful)_
+
+1. Daniel G. Oliver, Julianne M. Serovich, Tina L. Mason. 2005. Constraints and Opportunities with Interview Transcription: Towards Reflection in Qualitative Research, _Social Forces_ 84(2): 1273–1289 [link](https://doi.org/10.1353/sof.2006.0023)
+
+1. Bailey, J. 2008. First steps in qualitative data analysis: transcribing. _Family Practice_ 25(2):127–131 [link](https://doi.org/10.1093/fampra/cmn003)
+
+### **Online Lectures:**  
+
+1. Dr. Jarek Kriukow: [How to transcribe interviews - Part 1: "naturalism" and "denaturalism"](https://www.youtube.com/watch?v=NzVjlKR4HQQ) and [How to transcribe interviews - Part 2: Which approach to use?](https://www.youtube.com/watch?v=69T8aVf5Nj0)
+
+    _Note: we will discuss anonymization during the session on legal and ethical Issues_
+
+## Class Outline
+
+
+### **Overview: Transcription / Translation** 
+
+
+
+### **Breakout 1: Translation** 
+
+
+### **Returning results 1** 
+
+
+### Break 
+
+
+### **Breakout 2: Transcription** 
+
+
+### **Returning results 2** 
+
+
+### Free Time
+
+There are `r time_remain` min remaining that can be used to -----
+
+
+<!-- *  [Video Interviews](http://brunalab.org/las6291/2018/01/19/video-production/)   -->
+
+<!-- *  snolen says otter is the best: https://otter.ai/login thay have free ed account from wirecutter: "Otter offers 600 minutes of free transcription per month (as long as you record directly from the app or Zoom), which makes it an attractive option for anyone who wants to transcribe and sort lots of interviews on a nonexistent budget."   -->
+
+<!-- For other types of Recorded Audio:  -->
+<!-- Editing and analyzing audio files: https://www.ocenaudio.com/whatis  -->
+<!-- *  https://smallbusiness.chron.com/install-speech-office-excel-40728.html -->
+<!-- *  https://www.naturalreaders.com/ -->
+<!-- # Other Voice to Text -->
+
+<!-- * https://blog.hubspot.com/marketing/voice-to-text  -->
+
+<!-- Guide to capturing and processing [images for archiving](https://guides.uflib.ufl.edu/celebratingcuba/digitization#s-lg-box-wrapper-29381548)   -->
+

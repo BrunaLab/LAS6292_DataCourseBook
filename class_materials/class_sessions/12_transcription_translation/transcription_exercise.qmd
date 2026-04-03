@@ -21,10 +21,17 @@ Sign up for accounts with the following transcription services. You can cancel t
 
 2. [Happy Scribe](https://www.happyscribe.com/)
 
-3. [Watson](https://speech-to-text-demo.ng.bluemix.net/); note the "detect multiple speakers" option.
+3. [IBM Watson](https://www.ibm.com/products/speech-to-text), go to the [Demo Site](https://stt-demo-app.258kpouwgi7s.us-south.codeengine.appdomain.cloud/demos/live/stt-demo/self-service/home). note the "detect multiple speakers" option.
 
-
-## STEP 2: Transcribe 
+4. MS Word (for Commercial Clients): Instructions [here](https://support.microsoft.com/en-us/office/transcribe-your-recordings-7fc2efec-245e-45f0-b053-2a97531ecf57). 
+  
+  - Transcription of you speaking (Word Desktop or Online): Go to Home > Dictate Box > Transcribe. The Settings wheel allows you to choose the micriphone and language.
+  
+  - Transcription from audio file (Word Online): Go to Home > Dictate Dropdown Arrow > Transcribe. A side panel will open, follow the prompts to upload the audio file and choose options. 
+  
+5. Speech-to-text [with Google Docs](https://newsinitiative.withgoogle.com/resources/trainings/fundamentals/voice-typing-transcribe-audio-using-google-docs/)
+  
+## STEP 2: Sample Transcriptions
 
 1. Download the following audio files. Note that the link takes you to the page where the file is archived; click the 'download' button to save it to your computer.
 
@@ -38,8 +45,7 @@ Sign up for accounts with the following transcription services. You can cancel t
 <!-- mandarin2_audio.mp3 -->
 <!-- english_audio.mp3   -->
 
-
-2. Now transcribe these audio files with each of the different services (note that not all services will transcribe all languages). 
+2. Now try transcribing these audio files with each of the different services (note that not all services will transcribe all languages). 
 
 3. Save the resulting transcriptions files as Google Docs or .txt files. Use the following naming convention: `transcription_[language]_[name of service]`  
 
