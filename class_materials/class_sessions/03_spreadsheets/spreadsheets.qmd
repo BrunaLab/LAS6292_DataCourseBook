@@ -41,6 +41,8 @@ date-modified: last-modified
   
 ## Tools & Tutorials
 
+1. [6 Reasons You Should Be Using Google Sheets Instead Of Excel](https://blogs.charleston.edu/benignim/2016/10/28/6-reasons-you-should-be-using-google-sheets-instead-of-excel/)
+
 1. Data Validation in Google Sheets: [blog post](https://www.howtogeek.com/428919/how-to-restrict-data-input-in-google-sheets-with-data-validation/) and [video tutorial](https://www.youtube.com/watch?v=VEJMeYroDTM). A pdf version is available for download [here](https://las6292.netlify.app/uploads/readings/data-validation-google-sheets.pdf).
 
 1. Why not bypass spreadsheets like Excel and use a csv editor like [Comma Chameleon][https://comma-chameleon.io/] instead? CC and other csv editors allow you to enter data in the same way - into cells, by adding and removing rows - and then export your file. But that's about it, which means you can't do many of the things (e.g., calculations, color in cells) that cause problems down the road.
