@@ -1,0 +1,152 @@
+---
+# author:
+#   - name: Emilio M. Bruna
+#     affiliations:
+#       - id: uf
+#       - name: University of Florida
+title-block-style: default
+date-modified: last-modified
+
+---
+---
+title: "LAS 6292: PAPERLESS DATA COLLECTION"
+date: "updated: `r Sys.Date()`"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+## Pre-Class Preparation (Instructor):  
+
+**Send in an email to students:  **  
+
+  * Reminder to install epicollect app on phone or tablet
+
+**Bring to Class:  **  
+
+  * Snacks
+  * Flip charts and markers
+  * Dry write markers
+  * Tent cards for student names
+
+## Objectives and Competencies:   
+
+* Be able to explain the advantages of paperless data collection
+* Identify means of preventing data loss when collecting data electronically
+* Learn how to build a form, and collect, upload, and download data using EpiCollect
+  
+## Pre-class Preparation (Students):
+
+Download the Epicollect app to a phone or tablet (if you need one let me know).
+
+* [Android](https://play.google.com/store/apps/details?id=uk.ac.imperial.epicollect.five&hl=en_US&gl=US)
+
+* [Apple](https://apps.apple.com/us/app/epicollect5/id1183858199)
+
+
+### **Readings**
+
+1.  Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968.  [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006968) 
+1.  Moylan, CA et al. 2013. Increasingly mobile: How new technologies can enhance qualitative research. Qualitative social work: research and practice, 14(1):36-47. [[read online]](https://journals.sagepub.com/doi/10.1177/1473325013516988) 
+
+3.  Teacher, Amber G. F. et al. Smartphones in ecology and evolution: a guide for the app‐rehensive. Ecology and Evolution 3(16):5268– 5278  [[read online]](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.888) 
+        
+
+### **Online Lectures:**  
+
+* [Paperless Data Collection](https://youtu.be/n8aoe3pXCGU)  
+
+* Great tutorials by UConn's David Dickson  
+
+    * [Intro to EpiCollect 5](https://kaltura.uconn.edu/playlist/dedicated/1_14lpwsw0/1_fmj06huc)  
+            
+    * [Creating an EpiCollect PROJECT](https://kaltura.uconn.edu/media/Creating+an+Epicollect+5+Project/1_853ybdbf)  
+        
+    * [Creating a FORM for your Epicollect Project](https://kaltura.uconn.edu/media/Creating+a+Form+in+Epicollect+5/1_inr7wxq8)  
+        
+    * [Collecting data in EpiCollect with your phone or tablet](https://kaltura.uconn.edu/media/Collecting+Data+With+Epicollect+5/1_kgzfddtp)  
+        
+        
+
+## Class Outline
+
+
+<!-- ```{r timer, echo=FALSE} -->
+<!-- t1_overview <- 10 -->
+<!-- t2_overview <- 10 -->
+<!-- breakout1 <- 15 -->
+<!-- breakout1_return <-35 -->
+<!-- cleaning_demo <-10 -->
+<!-- snack_break <- 10 -->
+<!-- proj_overview <- 15 -->
+<!-- breakout2 <- 45 -->
+
+<!-- total_time <- t1_overview +  -->
+<!--   t2_overview +  -->
+<!--   breakout1 +  -->
+<!--   breakout1_return +  -->
+<!--   cleaning_demo + -->
+<!--   snack_break +  -->
+<!--   proj_overview +  -->
+<!--   breakout2  -->
+
+<!-- time_remain <- 180 - total_time -->
+<!-- ``` -->
+
+### **Topic 1 Overview: Paperless Data Collection**    
+<!-- (`r t1_overview` min) -->
+
+### Breakout
+
+**Breakout ** Paperless data collection with Epicollect 
+<!-- (`r breakout1` min):  -->
+
+### Break 
+<!-- (`r snack_break` min) -->
+
+### Return and discuss breakout results
+
+1. **Returning results & Take-home message**
+<!-- (`r breakout1_return` min) -->
+
+2. **Take-home message:** Reinforce value of paperless data collection
+      
+### Free Time
+
+There are --- min remaining that can be used to complete other projects.
+
+# Tools & Resources
+
+1. [EpiCollect user's guide](https://docs.epicollect.net/)
+
+# Sources
+
+
+
