@@ -252,6 +252,17 @@
     ]
   },
   {
+    "objectID": "class_materials/class_sessions/04_reproducibility/reproducibility.html#additional-interesting-reading",
+    "href": "class_materials/class_sessions/04_reproducibility/reproducibility.html#additional-interesting-reading",
+    "title": "5  Reproducibile Data Cleanup with R",
+    "section": "5.5 Additional (interesting) Reading",
+    "text": "5.5 Additional (interesting) Reading\n\nLewis, Keith P., Eric Vander Wal, and David A. Fifield. 2018. Wildlife biology, big data, and reproducible research. Wildlife Society Bulletin 42(1): 172-179.\nWhite EP, Baldridge E, Brym ZT, Locey KJ, McGlinn DJ, Supp SR.  2013.  Nine simple ways to make it easier to (re)use your data. Ideas in Ecology and Evolution. 6(2):1-10.\nThe humanities have a ‘reproducibility’ problem\nThe humanities do not need a replication drive\nReproducible Research: A primer for the social sciences\nReplicability and replication in the humanities\nTowards reproducible science in the digital humanities\nThe possibility and desirability of replication in the humanities\nReproducible Research: A Retrospective\n\nFor when you feel more comfortable with R and programming\n\nBryan, J. (2018). Excuse me, do you have a moment to talk about version control? The American Statistician, 72(1), 20-27.\nWilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and Tracy K. Teal. Good enough practices in scientific computing. PLoS Computational Biology 13, no. 6 (2017): e1005510.",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Reproducibile Data Cleanup with R</span>"
+    ]
+  },
+  {
     "objectID": "class_materials/class_sessions/05_QAQC1/qaqc1.html",
     "href": "class_materials/class_sessions/05_QAQC1/qaqc1.html",
     "title": "6  QA/QC: Reducing Error Entry, Finding and Correcting Errors",
@@ -652,18 +663,106 @@
     "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html",
     "title": "12  Paperless Data Collection",
     "section": "",
-    "text": "12.1 Tools & Resources",
+    "text": "12.1 Recommended Platform: EpiCollect",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Paperless Data Collection</span>"
     ]
   },
   {
-    "objectID": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#tools-resources",
-    "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#tools-resources",
+    "objectID": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#recommended-platform-epicollect",
+    "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#recommended-platform-epicollect",
     "title": "12  Paperless Data Collection",
     "section": "",
-    "text": "12.1.1 Recommended Platform: EpiCollect\n\nEpiCollect Homepage\nDownload the app for Apple iOS and [Android Phones])\nUser’s guide\nIntro to EpiCollect 5\n\nCreating an EpiCollect PROJECT\n\nCreating a FORM for your Epicollect Project\n\nCollecting data in EpiCollect with your phone or tablet\nAanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968. link\n\n\n\n12.1.2 Paid platforms for paperless data collection\n\nFulcrum; link to post describing how it was used by an NGO.\nODK\n\n\n\n12.1.3 Useful smartphone apps for fieldwork\n\nLists of useful apps for data collection in the field: Start with the Bruna Lab Super-List (if you want to suggest any additions to the list please do so here). You can also check [list 2], [list 3], [list 4], [list 5], and [list 6]\nResearch at Home: Using a Smartphone for Data Collection\n\nStreamlining Field Data Collection with Mobile Apps\n\n\n\n12.1.4 Google Sheets\n\nUsing IFTTT with Google Sheets (LinkedIn Learning Course, requires UF login).\n\n\n\n12.1.5 Mobile Form Design\n\nBest Practices for the design of mobile forms\nOptimal design of text fields in sheets\n\n\n\n12.1.6 Barcode Scanner Apps\n\nTop 10 barcode scanner apps for iPhone and Android\nComparison of top free barcode and QR code scanner apps\n\n\n\n12.1.7 Photos as Paperless Data Collection\n\nOrganizing Photos and annotating photos with Tropy. Open source; Allows export of notes and metadata to CSV, JSON, etc.\n\n\n\n12.1.8 DIY\n\nSometimes to go paperless you can hack the tools you use: Send measurements from digital calipers to Excel Sheet\n\n\n\n12.1.9 Additional Reading\n\nKeep calm and go paperless: Electronic lab notebooks can improve your research\nNOAA Pathways to paperless Data Collection\nThieler ER, Zeigler SL, Winslow LA, Hines MK, Read JS, Walker JI (2016) Smartphone-Based Distributed Data Collection Enables Rapid Assessment of Shorebird Habitat Suitability. PLoS ONE 11(11): e0164979. link\nTeacher, A. G., Griffiths, D. J., Hodgson, D. J., & Inger, R. (2013). Smartphones in ecology and evolution: a guide for the app-rehensive. Ecology and evolution, 3(16), 5268–5278. link\nPalumbo, M.J., Johnson, S.A., Mundim, F.M., Lau, A., Wolf, A.C., Arunachalam, S., Gonzalez, O., Ulrich, J.L., Washuta, A. and Bruna, E.M. (2012), Harnessing Smartphones for Ecological Education, Research, and Outreach. The Bulletin of the Ecological Society of America, 93: 390-393. link\nRayhan, R. U., Zheng, Y., Uddin, E., Timbol, C., Adewuyi, O., & Baraniuk, J. N. (2013). Administer and collect medical questionnaires with Google documents: a simple, safe, and free system. Applied Medical Informatics, 33(3), 12-21. link\nMoylan, C. A., Derr, A. S., & Lindhorst, T. (2013). Increasingly mobile: How new technologies can enhance qualitative research. Qualitative social work: research and practice, 14(1), 36-47. link\nHarari, G. M., Lane, N. D., Wang, R., Crosier, B. S., Campbell, A. T., & Gosling, S. D. (2016). Using Smartphones to Collect Behavioral Data in Psychological Science: Opportunities, Practical Considerations, and Challenges. Perspectives on Psychological Science 11(6), 838-854.",
+    "text": "EpiCollect Homepage\nDownload the app for Apple iOS and [Android Phones])\nUser’s guide\nIntro to EpiCollect 5\n\nCreating an EpiCollect PROJECT\n\nCreating a FORM for your Epicollect Project\n\nCollecting data in EpiCollect with your phone or tablet\nAanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968. link",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Paperless Data Collection</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#paid-platforms-for-paperless-data-collection",
+    "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#paid-platforms-for-paperless-data-collection",
+    "title": "12  Paperless Data Collection",
+    "section": "12.2 Paid platforms for paperless data collection",
+    "text": "12.2 Paid platforms for paperless data collection\n\nFulcrum; link to post describing how it was used by an NGO.\nODK",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Paperless Data Collection</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#useful-smartphone-apps-for-fieldwork",
+    "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#useful-smartphone-apps-for-fieldwork",
+    "title": "12  Paperless Data Collection",
+    "section": "12.3 Useful smartphone apps for fieldwork",
+    "text": "12.3 Useful smartphone apps for fieldwork\n\nLists of useful apps for data collection in the field: Start with the Bruna Lab Super-List (if you want to suggest any additions to the list please do so here). You can also check [list 2], [list 3], [list 4], [list 5], and [list 6]\nResearch at Home: Using a Smartphone for Data Collection\n\nStreamlining Field Data Collection with Mobile Apps",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Paperless Data Collection</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#google-sheets",
+    "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#google-sheets",
+    "title": "12  Paperless Data Collection",
+    "section": "12.4 Google Sheets",
+    "text": "12.4 Google Sheets\n\nUsing IFTTT with Google Sheets (LinkedIn Learning Course, requires UF login).",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Paperless Data Collection</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#mobile-form-design",
+    "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#mobile-form-design",
+    "title": "12  Paperless Data Collection",
+    "section": "12.5 Mobile Form Design",
+    "text": "12.5 Mobile Form Design\n\nBest Practices for the design of mobile forms\nOptimal design of text fields in sheets",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Paperless Data Collection</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#barcode-scanner-apps",
+    "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#barcode-scanner-apps",
+    "title": "12  Paperless Data Collection",
+    "section": "12.6 Barcode Scanner Apps",
+    "text": "12.6 Barcode Scanner Apps\n\nTop 10 barcode scanner apps for iPhone and Android\nComparison of top free barcode and QR code scanner apps",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Paperless Data Collection</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#photos-as-paperless-data-collection",
+    "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#photos-as-paperless-data-collection",
+    "title": "12  Paperless Data Collection",
+    "section": "12.7 Photos as Paperless Data Collection",
+    "text": "12.7 Photos as Paperless Data Collection\n\nOrganizing Photos and annotating photos with Tropy. Open source; Allows export of notes and metadata to CSV, JSON, etc.",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Paperless Data Collection</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#diy",
+    "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#diy",
+    "title": "12  Paperless Data Collection",
+    "section": "12.8 DIY",
+    "text": "12.8 DIY\n\nSometimes to go paperless you can hack the tools you use: Send measurements from digital calipers to Excel Sheet",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Paperless Data Collection</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#additional-reading",
+    "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#additional-reading",
+    "title": "12  Paperless Data Collection",
+    "section": "12.9 Additional Reading",
+    "text": "12.9 Additional Reading\n\nKeep calm and go paperless: Electronic lab notebooks can improve your research\nNOAA Pathways to paperless Data Collection\nThieler ER, Zeigler SL, Winslow LA, Hines MK, Read JS, Walker JI (2016) Smartphone-Based Distributed Data Collection Enables Rapid Assessment of Shorebird Habitat Suitability. PLoS ONE 11(11): e0164979. link\nTeacher, A. G., Griffiths, D. J., Hodgson, D. J., & Inger, R. (2013). Smartphones in ecology and evolution: a guide for the app-rehensive. Ecology and evolution, 3(16), 5268–5278. link\nPalumbo, M.J., Johnson, S.A., Mundim, F.M., Lau, A., Wolf, A.C., Arunachalam, S., Gonzalez, O., Ulrich, J.L., Washuta, A. and Bruna, E.M. (2012), Harnessing Smartphones for Ecological Education, Research, and Outreach. The Bulletin of the Ecological Society of America, 93: 390-393. link\nRayhan, R. U., Zheng, Y., Uddin, E., Timbol, C., Adewuyi, O., & Baraniuk, J. N. (2013). Administer and collect medical questionnaires with Google documents: a simple, safe, and free system. Applied Medical Informatics, 33(3), 12-21. link\nMoylan, C. A., Derr, A. S., & Lindhorst, T. (2013). Increasingly mobile: How new technologies can enhance qualitative research. Qualitative social work: research and practice, 14(1), 36-47. link\nHarari, G. M., Lane, N. D., Wang, R., Crosier, B. S., Campbell, A. T., & Gosling, S. D. (2016). Using Smartphones to Collect Behavioral Data in Psychological Science: Opportunities, Practical Considerations, and Challenges. Perspectives on Psychological Science 11(6), 838-854.",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Paperless Data Collection</span>"
@@ -674,7 +773,18 @@
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html",
     "title": "13  Automated Data Collection & Extraction",
     "section": "",
-    "text": "13.1 Optical Character Recognition",
+    "text": "13.1 APIs\nAutomating your data collection is one of the best ways to make your research more efficient and rfree up time to dso other things. Some of these techniques take time to learn, but so take into account the time required to learn a method and the return on investment for the effort.",
+    "crumbs": [
+      "Course Topics",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
+    ]
+  },
+  {
+    "objectID": "class_materials/class_sessions/14_automated_data_extraction/automated.html#apis",
+    "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#apis",
+    "title": "13  Automated Data Collection & Extraction",
+    "section": "",
+    "text": "Isabella Velásquez: Creating APIs for Data Science With plumber: [link]\n\n\n[plumbr]https://www.rplumber.io/index.html package\n\n\nSESYNC: Data APIs in R Lesson [link]\nThe Carpentries: APIs with R [link]\nMd Sakhawat Hossen: Working with the APIs (Application Programming Interfaces) in R [link]",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
@@ -684,8 +794,8 @@
     "objectID": "class_materials/class_sessions/14_automated_data_extraction/automated.html#optical-character-recognition",
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#optical-character-recognition",
     "title": "13  Automated Data Collection & Extraction",
-    "section": "",
-    "text": "Video Primer: What is OCR?\n\n\nOnline OCR Tools (text & data from .pdf to .csv, .txt, etc.)\n\nGoogle Drive - Video Primer: OCR with Google Drive\nFree online sites for small batches (can upgrade for larger numbers of files)\n\n\nFree Online OCR 1\nNew OCR\npdf to excel\nOnlineOCR\nPDFTables will convert PDF to .csv, and has an API so you can do your conversions in bulk with R. You can do ~25 pages free; large numbers are reasonably priced.\n\n\nAmazon TextExtract\nMathpix Snip digitizes handwritten or printed text, and copies outputs to the clipboard that can be pasted into LaTeX editors like Overleaf, Markdown editors like Typora, Microsoft Word, and more.\n\n\n\nOCR with R\n\n\nR package pdftools\nR package tabulapdf \nwritten tutorial 1\nwritten tutorial 2\nwritten tutorial 3\nVideo Tutorial 1\nVideo Tutorial 2\nDetailed Blog Post / Tutorial\nConvert PDF to text in R OCR pdftools\nPDFtools in R\nMore advanced but more powerful from the Programming Historian: OCR with Google Vision API and Tesseract",
+    "section": "13.2 Optical Character Recognition",
+    "text": "13.2 Optical Character Recognition\n\nVideo Primer: What is OCR?\n\n\nOnline OCR Tools (text & data from .pdf to .csv, .txt, etc.)\n\nGoogle Drive - Video Primer: OCR with Google Drive\nFree online sites for small batches (can upgrade for larger numbers of files)\n\n\nFree Online OCR 1\nNew OCR\npdf to excel\nOnlineOCR\nPDFTables will convert PDF to .csv, and has an API so you can do your conversions in bulk with R. You can do ~25 pages free; large numbers are reasonably priced.\n\n\nAmazon TextExtract\nMathpix Snip digitizes handwritten or printed text, and copies outputs to the clipboard that can be pasted into LaTeX editors like Overleaf, Markdown editors like Typora, Microsoft Word, and more.\n\n\n\nOCR with R\n\n\nR package pdftools\nR package tabulapdf \nwritten tutorial 1\nwritten tutorial 2\nwritten tutorial 3\nVideo Tutorial 1\nVideo Tutorial 2\nDetailed Blog Post / Tutorial\nConvert PDF to text in R OCR pdftools\nPDFtools in R\nMore advanced but more powerful from the Programming Historian: OCR with Google Vision API and Tesseract",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
@@ -695,8 +805,8 @@
     "objectID": "class_materials/class_sessions/14_automated_data_extraction/automated.html#extracting-tables-from-images-with-r",
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#extracting-tables-from-images-with-r",
     "title": "13  Automated Data Collection & Extraction",
-    "section": "13.2 Extracting tables from images with R",
-    "text": "13.2 Extracting tables from images with R\n\nR package magick (this package actually includes several very powerful tools for image processing; this is just one of the things you can do with it)\nDetailed Blog Post / Tutorial",
+    "section": "13.3 Extracting tables from images with R",
+    "text": "13.3 Extracting tables from images with R\n\nR package magick (this package actually includes several very powerful tools for image processing; this is just one of the things you can do with it)\nDetailed Blog Post / Tutorial",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
@@ -706,8 +816,8 @@
     "objectID": "class_materials/class_sessions/14_automated_data_extraction/automated.html#extracting-data-from-published-figures",
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#extracting-data-from-published-figures",
     "title": "13  Automated Data Collection & Extraction",
-    "section": "13.3 Extracting Data from Published Figures",
-    "text": "13.3 Extracting Data from Published Figures\n\nAnkit Rohagni’s Web Plot Digitizer\n\nWPD Video Tutorial\nWPD Tutorial Blog Post\n\nAlternative 1: R package magick\nAlternative 2: GetData extracts data automatically from scanned images (~$30).\nAlternative 3: R package digitize will extract data from scatterplots within the R environment. This article will walk you through the process.",
+    "section": "13.4 Extracting Data from Published Figures",
+    "text": "13.4 Extracting Data from Published Figures\n\nAnkit Rohagni’s Web Plot Digitizer\n\nWPD Video Tutorial\nWPD Tutorial Blog Post\n\nAlternative 1: R package magick\nAlternative 2: GetData extracts data automatically from scanned images (~$30).\nAlternative 3: R package digitize will extract data from scatterplots within the R environment. Note that this is no longer on CRAN due to dependency issues but you can still install and try to work with it directly from the Github repository. \nA more comprehensive overview: Brauckhoff, et al., “Exploring Image Analysis in R: Applications and Advancements”, The R Journal, 2025 [link]",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
@@ -717,8 +827,8 @@
     "objectID": "class_materials/class_sessions/14_automated_data_extraction/automated.html#text-mining",
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#text-mining",
     "title": "13  Automated Data Collection & Extraction",
-    "section": "13.4 Text Mining",
-    "text": "13.4 Text Mining\n\nText Mining with R by Julia Silge and David Robinson\ngutenbergr: Download and Process Public Domain Works from Project Gutenberg. Tutorial can be found here\n\n\nUseful reading on text mining\n\nAtanassova I, Bertin M and Mayr P (2019) Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics. Front. Res. Metr. Anal. 4:2. doi: 10.3389/frma.2019.00002\nWestergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ, Brunak S (2018) A comprehensive and quantitative comparison of text-mining in 15 million full-text articles versus their corresponding abstracts. PLoS Comput Biol 14(2): e1005962. https://doi.org/10.1371/journal.pcbi.1005962\nSalloum, S.A., Al-Emran, M., Monem, A.A., Shaalan, K. (2018). Using Text Mining Techniques for Extracting Information from Research Articles. In: Shaalan, K., Hassanien, A., Tolba, F. (eds) Intelligent Natural Language Processing: Trends and Applications. Studies in Computational Intelligence, vol 740. Springer, Cham. https://doi.org/10.1007/978-3-319-67056-0_18\nSimon, C., Davidsen, K., Hansen, C. et al. BioReader: a text mining tool for performing classification of biomedical literature. BMC Bioinformatics 19, 57 (2019). https://doi.org/10.1186/s12859-019-2607-x Extracting Body Text from Academic PDF Documents for Text Mining\nBenchimol, J., Kazinnik, S., & Saadon, Y. (2022). Text mining methodologies with R: An application to central bank texts. Machine Learning with Applications, 8, 100286.link\nYu, C., Zhang, C., & Wang, J. (2020). Extracting Body Text from Academic PDF Documents for Text Mining. arXiv preprint arXiv:2010.12647.\nGulo, C. A., & Rúbio, T. R. (2015, January). Text Mining Scientific Articles using the R. In Doctoral Symposium in Informatics Engineering. linl",
+    "section": "13.5 Text Mining",
+    "text": "13.5 Text Mining\n\nText Mining with R by Julia Silge and David Robinson\ngutenbergr: Download and Process Public Domain Works from Project Gutenberg. Tutorial can be found here\n\n\nUseful reading on text mining\n\nAtanassova I, Bertin M and Mayr P (2019) Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics. Front. Res. Metr. Anal. 4:2. doi: 10.3389/frma.2019.00002\nWestergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ, Brunak S (2018) A comprehensive and quantitative comparison of text-mining in 15 million full-text articles versus their corresponding abstracts. PLoS Comput Biol 14(2): e1005962. https://doi.org/10.1371/journal.pcbi.1005962\nSalloum, S.A., Al-Emran, M., Monem, A.A., Shaalan, K. (2018). Using Text Mining Techniques for Extracting Information from Research Articles. In: Shaalan, K., Hassanien, A., Tolba, F. (eds) Intelligent Natural Language Processing: Trends and Applications. Studies in Computational Intelligence, vol 740. Springer, Cham. https://doi.org/10.1007/978-3-319-67056-0_18\nSimon, C., Davidsen, K., Hansen, C. et al. BioReader: a text mining tool for performing classification of biomedical literature. BMC Bioinformatics 19, 57 (2019). https://doi.org/10.1186/s12859-019-2607-x\nBenchimol, J., Kazinnik, S., & Saadon, Y. (2022). Text mining methodologies with R: An application to central bank texts. Machine Learning with Applications, 8, 100286.link\nYu, C., Zhang, C., & Wang, J. (2020). Extracting Body Text from Academic PDF Documents for Text Mining. Proceedings of the 12th International Conference on Knowledge Discovery and Information Retrieval (KDIR 2020). https://www.scitepress.org/Papers/2020/101314/101314.pdf\nGulo, C. A., & Rúbio, T. R. (2015, January). Text Mining Scientific Articles using the R. In Doctoral Symposium in Informatics Engineering. link",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
@@ -728,8 +838,8 @@
     "objectID": "class_materials/class_sessions/14_automated_data_extraction/automated.html#collecting-processing-data-from-the-web-of-science-and-scopus",
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#collecting-processing-data-from-the-web-of-science-and-scopus",
     "title": "13  Automated Data Collection & Extraction",
-    "section": "13.5 Collecting & Processing data from the Web of Science and Scopus",
-    "text": "13.5 Collecting & Processing data from the Web of Science and Scopus\n\nR package refsplitr\nR package bibliometrix\njstor: An R package for Analysing Scientific Articles",
+    "section": "13.6 Collecting & Processing data from the Web of Science and Scopus",
+    "text": "13.6 Collecting & Processing data from the Web of Science and Scopus\n\nR package refsplitr\nR package bibliometrix\njstor: An R package for Analysing Scientific Articles and link to JSTORr package repository on Github. The package is no longer on CRAN but you may still find it useful to browse the repo.",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
@@ -739,8 +849,8 @@
     "objectID": "class_materials/class_sessions/14_automated_data_extraction/automated.html#scraping-websites",
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#scraping-websites",
     "title": "13  Automated Data Collection & Extraction",
-    "section": "13.6 Scraping websites",
-    "text": "13.6 Scraping websites\n\nLibrary Carpentry Lesson on Webscraping\nStart Here: Introduction to webscraping\nVideo: Scraping WebData in R with rvest\nVideo: Practical Introduction to Web Scraping using R\nVery nice written tutorial…\n….and another one, this time from the UC Business Analytics R Programming Guide\nscraping HTML text and scraping HTML tables\nSelectorGadget is useful to id CSS selectors.\nNoortje Marres & Esther Weltevrede (2013) Scraping the Social?, Journal of Cultural Economy, 6:3, 313-335, DOI: 10.1080/17530350.2013.772070",
+    "section": "13.7 Scraping websites",
+    "text": "13.7 Scraping websites\n\nLibrary Carpentry Lesson on Webscraping Note: no longer updated and a bit out of date, but still a very useful introduction\nStart Here: Introduction to webscraping\nVideo: Scraping WebData in R with rvest\nVideo: Practical Introduction to Web Scraping using R\nVery nice written tutorial…\n….and another one, this time from the UC Business Analytics R Programming Guide \nSelectorGadget is useful to id CSS selectors.\nNoortje Marres & Esther Weltevrede (2013) Scraping the Social?, Journal of Cultural Economy, 6:3, 313-335, DOI:10.1080/17530350.2013.772070",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
@@ -750,8 +860,8 @@
     "objectID": "class_materials/class_sessions/14_automated_data_extraction/automated.html#cell-phone-data",
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#cell-phone-data",
     "title": "13  Automated Data Collection & Extraction",
-    "section": "13.7 Cell Phone Data",
-    "text": "13.7 Cell Phone Data\n\nExploratory analyses Part 1 and Part 2",
+    "section": "13.8 Cell Phone Data",
+    "text": "13.8 Cell Phone Data\n\nExploratory analyses Part 1 and Part 2",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
@@ -761,8 +871,8 @@
     "objectID": "class_materials/class_sessions/14_automated_data_extraction/automated.html#social-media-data",
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#social-media-data",
     "title": "13  Automated Data Collection & Extraction",
-    "section": "13.8 Social Media Data",
-    "text": "13.8 Social Media Data\n\nHow to extract Biodiversity Data from Facebook\nFox, Nathan, Tom August, Francesca Mancini, Katherine E. Parks, Felix Eigenbrod, James M. Bullock, Louis Sutter, and Laura J. Graham. ““photosearcher” package in R: An accessible and reproducible method for harvesting large datasets from Flickr.” SoftwareX 12 (2020): 100624. https://www.sciencedirect.com/science/article/pii/S235271102030337X",
+    "section": "13.9 Social Media Data",
+    "text": "13.9 Social Media Data\n\nHow to extract Biodiversity Data from Facebook: Chowdhury, S., Ahmed, S., Alam, S., Callaghan, C. T., Das, P., Di Marco, M., Di Minin, E., Jarić, I., Labi, M. M., Rokonuzzaman, Md., Roll, U., Sbragaglia, V., Siddika, A., & Bonn, A. (2024). A protocol for harvesting biodiversity data from Facebook. Conservation Biology, 38, e14257. https://doi.org/10.1111/cobi.14257\nDi Minin, E., Fink, C., Hausmann, A., Kremer, J. and Kulkarni, R. (2021), How to address data privacy concerns when using social media data in conservation science. Conservation Biology, 35: 437-446. https://doi.org/10.1111/cobi.13708\nCorreia, R.A., Ladle, R., Jarić, I., Malhado, A.C.M., Mittermeier, J.C., Roll, U., Soriano-Redondo, A., Veríssimo, D., Fink, C., Hausmann, A., Guedes-Santos, J., Vardi, R. and Di Minin, E. (2021), Digital data sources and methods for conservation culturomics. Conservation Biology, 35: 398-411. https://doi.org/10.1111/cobi.13706\nFox, Nathan, Tom August, Francesca Mancini, Katherine E. Parks, Felix Eigenbrod, James M. Bullock, Louis Sutter, and Laura J. Graham. ““photosearcher” package in R: An accessible and reproducible method for harvesting large datasets from Flickr.” SoftwareX 12 (2020): 100624. https://www.sciencedirect.com/science/article/pii/S235271102030337X\nErgon Cugler de Moraes Silva: TelegramScrap: A comprehensive tool for scraping Telegram data. https://arxiv.org/abs/2412.16786\nBatrinca, B., Treleaven, P.C. Social media analytics: a survey of techniques, tools and platforms. AI & Soc 30, 89–116 (2015). https://doi.org/10.1007/s00146-014-0549-4",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
@@ -772,8 +882,8 @@
     "objectID": "class_materials/class_sessions/14_automated_data_extraction/automated.html#automated-image-analysis",
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#automated-image-analysis",
     "title": "13  Automated Data Collection & Extraction",
-    "section": "13.9 Automated Image Analysis",
-    "text": "13.9 Automated Image Analysis\n\nPennekamp, F. and Schtickzelle, N. (2013), Implementing image analysis in laboratory‐based experimental systems for ecology and evolution: a hands‐on guide. Methods Ecol Evol, 4: 483-492. https://doi.org/10.1111/2041-210X.12036\nHow to build your own image recognition app with R! Part 1 and Part 2",
+    "section": "13.10 Automated Image Analysis",
+    "text": "13.10 Automated Image Analysis\n\nPennekamp, F. and Schtickzelle, N. (2013), Implementing image analysis in laboratory‐based experimental systems for ecology and evolution: a hands‐on guide. Methods Ecol Evol, 4: 483-492. https://doi.org/10.1111/2041-210X.12036\nHow to build your own image recognition app with R! Part 1 and Part 2\nLinkedIn Learning Course: Deep Learning - Image Recognition reequires UF login\nUF Practicum AI courses include one on Image recognition models.",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
@@ -783,8 +893,8 @@
     "objectID": "class_materials/class_sessions/14_automated_data_extraction/automated.html#wearable-devices-rfid-tags",
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#wearable-devices-rfid-tags",
     "title": "13  Automated Data Collection & Extraction",
-    "section": "13.10 Wearable Devices & RFID tags",
-    "text": "13.10 Wearable Devices & RFID tags\n\nWhat is an RFID tag?\nRafiq, K., Appleby, R. G., Edgar, J. P., Radford, C., Smith, B. P., Jordan, N. R., Dexter, C. E., Jones, D. N., Blacker, A. R. F., & Cochrane, M. (2021). WildWID: An open-source active RFID system for wildlife research. Methods in Ecology and Evolution, 12, 1580– 1587. https://doi.org/10.1111/2041-210X.13651\nBuild your own RFID device\nIzmailova, E.S., Wagner, J.A. and Perakslis, E.D. (2018), Wearable Devices in Clinical Trials: Hype and Hypothesis. Clin. Pharmacol. Ther., 104: 42-52. https://doi.org/10.1002/cpt.966\nLoncar-Turukalo T, Zdravevski E, Machado da Silva J, Chouvarda I, Trajkovik V. Literature on Wearable Technology for Connected Health: Scoping Review of Research Trends, Advances, and Barriers J Med Internet Res 2019;21(9):e14017 doi: 10.2196/14017\nWhy Should Sociologists Care about Wearable Tech?\nHarari, G. M., Lane, N. D., Wang, R., Crosier, B. S., Campbell, A. T., & Gosling, S. D. (2016). Using Smartphones to Collect Behavioral Data in Psychological Science: Opportunities, Practical Considerations, and Challenges. Perspectives on Psychological Science 11(6), 838-854 link\nSeifert Alexander, Hofer Matthias, Allemand Mathias. 2018. Mobile Data Collection: Smart, but Not (Yet) Smart Enough. 12. Frontiers in Neuroscience https://www.frontiersin.org/article/10.3389/fnins.2018.00971",
+    "section": "13.11 Wearable Devices & RFID tags",
+    "text": "13.11 Wearable Devices & RFID tags\n\nWhat is an RFID tag?\nRafiq, K., Appleby, R. G., Edgar, J. P., Radford, C., Smith, B. P., Jordan, N. R., Dexter, C. E., Jones, D. N., Blacker, A. R. F., & Cochrane, M. (2021). WildWID: An open-source active RFID system for wildlife research. Methods in Ecology and Evolution, 12, 1580– 1587. https://doi.org/10.1111/2041-210X.13651\nBuild your own RFID device\nIzmailova, E.S., Wagner, J.A. and Perakslis, E.D. (2018), Wearable Devices in Clinical Trials: Hype and Hypothesis. Clin. Pharmacol. Ther., 104: 42-52. https://doi.org/10.1002/cpt.966\nLoncar-Turukalo T, Zdravevski E, Machado da Silva J, Chouvarda I, Trajkovik V. Literature on Wearable Technology for Connected Health: Scoping Review of Research Trends, Advances, and Barriers J Med Internet Res 2019;21(9):e14017 doi: 10.2196/14017\nWhy Should Sociologists Care about Wearable Tech?\nHarari, G. M., Lane, N. D., Wang, R., Crosier, B. S., Campbell, A. T., & Gosling, S. D. (2016). Using Smartphones to Collect Behavioral Data in Psychological Science: Opportunities, Practical Considerations, and Challenges. Perspectives on Psychological Science 11(6), 838-854 https://doi.org/10.1177/1745691616650285\nSeifert Alexander, Hofer Matthias, Allemand Mathias. 2018. Mobile Data Collection: Smart, but Not (Yet) Smart Enough. 12. Frontiers in Neuroscience https://www.frontiersin.org/article/10.3389/fnins.2018.00971",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
@@ -794,8 +904,8 @@
     "objectID": "class_materials/class_sessions/14_automated_data_extraction/automated.html#buildimg-automated-data-collectors",
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#buildimg-automated-data-collectors",
     "title": "13  Automated Data Collection & Extraction",
-    "section": "13.11 Buildimg automated data collectors",
-    "text": "13.11 Buildimg automated data collectors\n\nCalipers that dump data directly to Excel link\nPiSpy: An Affordable, Accessible, and Flexible Imaging Platform for the Automated Observation of Organismal Biology and Behavior\nJolles, J. W. (2021). Broad-scale applications of the Raspberry Pi: A review and guide for biologists. Methods in Ecology and Evolution, 12, 1562– 1579. https://doi.org/10.1111/2041-210X.13652",
+    "section": "13.12 Buildimg automated data collectors",
+    "text": "13.12 Buildimg automated data collectors\n\nCalipers that dump data directly to Excel link\nMorris BI, Kittredge MJ, Casey B, Meng O, Chagas AM, Lamparter M, et al. (2022) PiSpy: An affordable, accessible, and flexible imaging platform for the automated observation of organismal biology and behavior. PLoS ONE 17(10): e0276652. https://doi.org/10.1371/journal.pone.0276652\nJolles, J. W. (2021). Broad-scale applications of the Raspberry Pi: A review and guide for biologists. Methods in Ecology and Evolution, 12, 1562– 1579. https://doi.org/10.1111/2041-210X.13652",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
@@ -805,8 +915,8 @@
     "objectID": "class_materials/class_sessions/14_automated_data_extraction/automated.html#online-data-archives",
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#online-data-archives",
     "title": "13  Automated Data Collection & Extraction",
-    "section": "13.12 Online data archives",
-    "text": "13.12 Online data archives\nOverview: Correia, R.A., Ladle, R., Jarić, I., Malhado, A.C.M., Mittermeier, J.C., Roll, U., Soriano‐Redondo, A., Veríssimo, D., Fink, C., Hausmann, A., Guedes‐Santos, J., Vardi, R. and Di Minin, E. (2021), Digital data sources and methods for conservation culturomics. Conservation Biology, 35: 398-411. https://doi.org/10.1111/cobi.13706\n\nGovernment data\n\nData.gov (the open data portal of the US Government) and Using Data.gov APIs in R\nthe rOpengov Project\nOpen Fiscal Data Package\neducationdata: Retrieve data from the Urban Institute’s Education Data API as a data.frame for easy analysis. See also here\na huge list of data sources for social scientists available with R tools\naccessing World bank Data with R\n\n\n\nUS & World Census Data\n\nA Guide to Working with US Census Data in R\nR Package tidycensus\nTutorial 1\nTutorial 2\nR package ipumsr: The ipumsr package helps import IPUMS extracts from the IPUMS website into R. IPUMS provides census and survey data from around the world integrated across time and space.\n\n\n\nEducation Data\n\nedbuildr: import EdBuild’s master dataset of school district finance, student demographics, and community economic indicators for every school district in the United States.\nBuilding R and Stata packages for the Education Data Portal\n\n\n\nOther Online Data Portals\n\nGiant compendium of open datasets #1\nData on Amazonia\n\nR package bdc: toolkit for gathering & cleaning biodiversity data\n\n\n\nSoftware for gathering data from online archives\n\nEcoRetriever: automates the tasks of finding, downloading, and cleaning up publicly available ecological data, and then stores them in a local database or csv files.\nlitsearcher an R package to facilitate quasi-automatic search strategy development for systematic review",
+    "section": "13.13 Online data archives",
+    "text": "13.13 Online data archives\nOverview: Correia, R.A., Ladle, R., Jarić, I., Malhado, A.C.M., Mittermeier, J.C., Roll, U., Soriano‐Redondo, A., Veríssimo, D., Fink, C., Hausmann, A., Guedes‐Santos, J., Vardi, R. and Di Minin, E. (2021), Digital data sources and methods for conservation culturomics. Conservation Biology, 35: 398-411. https://doi.org/10.1111/cobi.13706\n\nGovernment data\n\nData.gov (the open data portal of the US Government) and Using Data.gov APIs in R\nthe rOpengov Project\nOpen Fiscal Data Package\neducationdata: Retrieve data from the Urban Institute’s Education Data API as a data.frame for easy analysis. See also here\na huge list of data sources for social scientists available with R tools\naccessing World bank Data with R\n\n\n\nUS & World Census Data\n\nA Guide to Working with US Census Data in R\nR Package tidycensus\nTutorial 1\nTutorial 2\nR package ipumsr: The ipumsr package helps import IPUMS extracts from the IPUMS website into R. IPUMS provides census and survey data from around the world integrated across time and space.\n\n\n\nEducation Data\n\nedbuildr: import EdBuild’s master dataset of school district finance, student demographics, and community economic indicators for every school district in the United States.\nBuilding R and Stata packages for the Education Data Portal\n\n\n\nOther Online Data Portals\n\nGiant compendium of open datasets #1\nData on Amazonia\n\nR package bdc: toolkit for gathering & cleaning biodiversity data\n\n\n\nSoftware for gathering data from online archives\n\nEcoRetriever: automates the tasks of finding, downloading, and cleaning up publicly available ecological data, and then stores them in a local database or csv files.\nlitsearcher an R package to facilitate quasi-automatic search strategy development for systematic review",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
