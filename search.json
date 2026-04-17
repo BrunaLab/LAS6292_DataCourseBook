@@ -674,7 +674,7 @@
     "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#recommended-platform-epicollect",
     "title": "12  Paperless Data Collection",
     "section": "",
-    "text": "EpiCollect Homepage\nDownload the app for Apple iOS and [Android Phones])\nUser’s guide\nIntro to EpiCollect 5\n\nCreating an EpiCollect PROJECT\n\nCreating a FORM for your Epicollect Project\n\nCollecting data in EpiCollect with your phone or tablet\nAanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968. link",
+    "text": "EpiCollect Homepage\nDownload the app for Apple iOS and [Android Phones])\nUser’s guide\nIntro to EpiCollect 5\nCreating an EpiCollect PROJECT\nCreating a FORM for your Epicollect Project\nCollecting data in EpiCollect with your phone or tablet\nAanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968. link",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Paperless Data Collection</span>"
@@ -696,7 +696,7 @@
     "href": "class_materials/class_sessions/13_paperless_data_collection/paperless.html#useful-smartphone-apps-for-fieldwork",
     "title": "12  Paperless Data Collection",
     "section": "12.3 Useful smartphone apps for fieldwork",
-    "text": "12.3 Useful smartphone apps for fieldwork\n\nLists of useful apps for data collection in the field: Start with the Bruna Lab Super-List (if you want to suggest any additions to the list please do so here). You can also check [list 2], [list 3], [list 4], [list 5], and [list 6]\nResearch at Home: Using a Smartphone for Data Collection\n\nStreamlining Field Data Collection with Mobile Apps",
+    "text": "12.3 Useful smartphone apps for fieldwork\n\nLists of useful apps for data collection in the field: Start with the Bruna Lab Super-List (if you want to suggest any additions to the list please do so here). You can also check [list 2], [list 3], [list 4], [list 5], and [list 6]\nBES: Research at Home - Using a Smartphone for Data Collection\n\nEOS: Streamlining Field Data Collection with Mobile Apps",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Paperless Data Collection</span>"
@@ -784,7 +784,7 @@
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#apis",
     "title": "13  Automated Data Collection & Extraction",
     "section": "",
-    "text": "Isabella Velásquez: Creating APIs for Data Science With plumber: [link]\n\n\n[plumbr]https://www.rplumber.io/index.html package\n\n\nSESYNC: Data APIs in R Lesson [link]\nThe Carpentries: APIs with R [link]\nMd Sakhawat Hossen: Working with the APIs (Application Programming Interfaces) in R [link]",
+    "text": "Isabella Velásquez: Creating APIs for Data Science With plumber: [link] (and the link to the plumbr package)\nSESYNC: Data APIs in R Lesson [link]\nThe Carpentries: APIs with R [link]\nMd Sakhawat Hossen: Working with the APIs (Application Programming Interfaces) in R [link]",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
@@ -795,7 +795,7 @@
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#optical-character-recognition",
     "title": "13  Automated Data Collection & Extraction",
     "section": "13.2 Optical Character Recognition",
-    "text": "13.2 Optical Character Recognition\n\nVideo Primer: What is OCR?\n\n\nOnline OCR Tools (text & data from .pdf to .csv, .txt, etc.)\n\nGoogle Drive - Video Primer: OCR with Google Drive\nFree online sites for small batches (can upgrade for larger numbers of files)\n\n\nFree Online OCR 1\nNew OCR\npdf to excel\nOnlineOCR\nPDFTables will convert PDF to .csv, and has an API so you can do your conversions in bulk with R. You can do ~25 pages free; large numbers are reasonably priced.\n\n\nAmazon TextExtract\nMathpix Snip digitizes handwritten or printed text, and copies outputs to the clipboard that can be pasted into LaTeX editors like Overleaf, Markdown editors like Typora, Microsoft Word, and more.\n\n\n\nOCR with R\n\n\nR package pdftools\nR package tabulapdf \nwritten tutorial 1\nwritten tutorial 2\nwritten tutorial 3\nVideo Tutorial 1\nVideo Tutorial 2\nDetailed Blog Post / Tutorial\nConvert PDF to text in R OCR pdftools\nPDFtools in R\nMore advanced but more powerful from the Programming Historian: OCR with Google Vision API and Tesseract",
+    "text": "13.2 Optical Character Recognition\n\nVideo Primer: What is OCR?\n\n\nOnline OCR Tools (text & data from .pdf to .csv, .txt, etc.)\n\nGoogle Drive - Video Primer: OCR with Google Drive\nFree online sites for small batches (can upgrade for larger numbers of files)\n\n\nFree Online OCR 1\nNew OCR\npdf to excel\nOnlineOCR\nPDFTables will convert PDF to .csv, and has an API so you can do your conversions in bulk with R. You can do ~25 pages free; large numbers are reasonably priced.\n\n\nAmazon TextExtract\nMathpix Snip digitizes handwritten or printed text, and copies outputs to the clipboard that can be pasted into LaTeX editors like Overleaf, Markdown editors like Typora, Microsoft Word, and more.\n\n\n\nOCR with R\n\n\nR package pdftools\nR package tabulapdf \nDetailed Blog Post & Tutorial\nOther Written Tutorials: tutorial 1, tutorial 2, tutorial 3\nVideo Tutorials: Video Tutorial 1, Video Tutorial 2\nConvert PDF to text in R - OCR pdftools\nPDFtools in R\nMore advanced but more powerful from the Programming Historian: OCR with Google Vision API and Tesseract",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
@@ -817,7 +817,7 @@
     "href": "class_materials/class_sessions/14_automated_data_extraction/automated.html#extracting-data-from-published-figures",
     "title": "13  Automated Data Collection & Extraction",
     "section": "13.4 Extracting Data from Published Figures",
-    "text": "13.4 Extracting Data from Published Figures\n\nAnkit Rohagni’s Web Plot Digitizer\n\nWPD Video Tutorial\nWPD Tutorial Blog Post\n\nAlternative 1: R package magick\nAlternative 2: GetData extracts data automatically from scanned images (~$30).\nAlternative 3: R package digitize will extract data from scatterplots within the R environment. Note that this is no longer on CRAN due to dependency issues but you can still install and try to work with it directly from the Github repository. \nA more comprehensive overview: Brauckhoff, et al., “Exploring Image Analysis in R: Applications and Advancements”, The R Journal, 2025 [link]",
+    "text": "13.4 Extracting Data from Published Figures\n\nAnkit Rohagni’s Web Plot Digitizer\n\nWPD Video Tutorial\nWPD Tutorial Blog Post\n\n\nAlternative 1: R package magick\nAlternative 2: GetData extracts data automatically from scanned images (~$30).\n\nAlternative 3: R package digitize will extract data from scatterplots within the R environment. Note that this is no longer on CRAN due to dependency issues but you can still install and try to work with it directly from the Github repository. \nA more comprehensive overview: Brauckhoff, et al., “Exploring Image Analysis in R: Applications and Advancements”, The R Journal, 2025 [link]",
     "crumbs": [
       "Course Topics",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Automated Data Collection & Extraction</span>"
