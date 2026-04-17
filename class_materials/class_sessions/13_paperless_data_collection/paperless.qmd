@@ -10,9 +10,7 @@ date-modified: last-modified
 ---
 # Paperless Data Collection  {#sec-paperless}
 
-## Tools & Resources
-
-### Recommended Platform: EpiCollect
+## Recommended Platform: EpiCollect
 
 1. EpiCollect [Homepage](https://five.epicollect.net/)
 1. Download the app for [Apple iOS](https://apps.apple.com/us/app/epicollect5/id1183858199) and [Android Phones])
@@ -24,44 +22,44 @@ date-modified: last-modified
 
 1. Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968. [link](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006968)
 
-### Paid platforms for paperless data collection
+## Paid platforms for paperless data collection
 
 1. [Fulcrum](https://www.fulcrumapp.com/); [link to post](https://gadgets360.com/science/features/fulcrum-app-science-fieldwork-data-collection-2294662) describing how it was used by an NGO.
 1. [ODK](https://getodk.org)
 
 
-### Useful smartphone apps for fieldwork
+## Useful smartphone apps for fieldwork
 
 1. Lists of useful apps for data collection in the field: Start with the [Bruna Lab Super-List](https://brunalab.github.io/apps_for_fieldwork/) _(if you want to suggest any additions to the list please do so [here](https://github.com/BrunaLab/apps_for_fieldwork/issues))_. You can also check [[list 2]](https://www.teamscopeapp.com/mobile-data-collection-guide/7-mobile-data-collection-apps-for-field-research), [[list 3]](https://www.researchgate.net/post/Please-could-you-indicate-some-useful-android-apps-for-Ecology-Forestry-or-Environment), [[list 4]](https://writingfornature.wordpress.com/2012/08/17/tools-for-the-modern-primate-apps-for-field-work/), [[list 5]](https://ayrnstories.wordpress.com/2017/08/09/apps-in-ecological-research/), and [[list 6]](https://www.researchgate.net/post/What_essential_android_apps_should_a_field_biologist_know_about)
 1. [Research at Home: Using a Smartphone for Data Collection](https://www.societyforscience.org/research-at-home/using-smartphone-for-data-collection/)  
 1. [Streamlining Field Data Collection with Mobile Apps](https://eos.org/science-updates/streamlining-field-data-collection-mobile-apps)
 
 
-### Google Sheets
+## Google Sheets
 
 1. [Using IFTTT with Google Sheets](https://www.linkedin.com/learning/google-sheets-advanced-tips-and-tricks/use-ifttt-with-google-sheets?u=41282748) (LinkedIn Learning Course, requires UF login).
 
-### Mobile Form Design 
+## Mobile Form Design 
 
 1. [Best Practices for the design of mobile forms](https://www.smashingmagazine.com/2018/08/best-practices-for-mobile-form-design/)
 1. [Optimal design of text fields in sheets](https://medium.com/google-design/the-evolution-of-material-designs-text-fields-603688b3fe03)
 
-### Barcode Scanner Apps
+## Barcode Scanner Apps
 
 1. [Top 10 barcode scanner apps for iPhone and Android](https://www.barcodesinc.com/cats/barcode-scanners/apps.htm)
 1. [Comparison of top free barcode and QR code scanner apps](https://www.qr-code-generator.com/blog/free-barcode-scanner-app/)
 
 
-### Photos as Paperless Data Collection
+## Photos as Paperless Data Collection
 
 1. Organizing Photos and annotating photos with [Tropy](https://tropy.org). Open source;  Allows export of notes and metadata to CSV, JSON, etc. 
 
 
-### DIY
+## DIY
 
 1. Sometimes to go paperless you can hack the tools you use: [Send measurements from digital calipers to Excel Sheet](https://www.notion.so/Hacking-Digital-Calipers-3ee7726f11ca431694dc70a1977516e4)  
 
-### Additional Reading
+## Additional Reading
 
 1. [Keep calm and go paperless: Electronic lab notebooks can improve your research](https://openworking.wordpress.com/2019/07/05/keep-calm-and-go-paperless-electronic-lab-notebooks-can-improve-your-research/)
 
