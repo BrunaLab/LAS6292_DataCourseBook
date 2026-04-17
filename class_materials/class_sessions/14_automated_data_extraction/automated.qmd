@@ -9,18 +9,20 @@ date-modified: last-modified
 
 ---
 
-::: {.callout-tip title="AI amd Automated Data Extraction"}
-
-Automated data extraction is a rapidly changing field due to advances in machine learning and other 'AI' tools. The list below will be changing frequently to reflect these advances, but working through some of these methods by hand is an excellent to way to evaluate what these tools can and can't do for your research.
-
-:::
-
 
 # Automated Data Collection & Extraction {#sec-automated}
 
 Automating your data collection is one of the best ways to make your research more efficient and rfree up time to dso other things. Some of these techniques take time to learn, but so take into account the time required to learn a method and the return on investment for the effort. 
 
-[![xkcd.com: Is it Worth the Time?](./class_materials/class_sessions/14_automated_data_extraction/xkcd_1205.png)]{fig-align="center"}
+[![xkcd.com: Is it Worth the Time?](xkcd_1205.png)]{fig-align="center"}
+
+
+
+::: {.callout-tip title="AI and Automated Data Extraction"}
+
+Automated data extraction is a rapidly changing field due to advances in machine learning and other 'AI' tools. The list below will be changing frequently to reflect these advances, but working through some of these methods by hand is an excellent to way to evaluate what these tools can and can't do for your research.
+
+:::
 
 
 ## APIs
