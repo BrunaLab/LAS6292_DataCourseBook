@@ -164,7 +164,7 @@ It depends and can vary from one project to another. Make an outline of the diff
 
 4. Lot's more on the course's ['Resources' page](https://las6292.netlify.app/docs/resources/) 
 
-# Additional (interesting) Reading
+## Additional (interesting) Reading
 
 1. Lewis, Keith P., Eric Vander Wal, and David A. Fifield. 2018. Wildlife biology, big data, and reproducible research. Wildlife Society Bulletin 42(1): 172-179.  
 
