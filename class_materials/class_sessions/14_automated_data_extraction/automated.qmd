@@ -20,8 +20,7 @@ Automated data extraction is a rapidly changing field due to advances in machine
 
 Automating your data collection is one of the best ways to make your research more efficient and rfree up time to dso other things. Some of these techniques take time to learn, but so take into account the time required to learn a method and the return on investment for the effort. 
 
-[![xkcd.com: Is it Worth the Time?](is_it_worth_the_time.png)](https://imgs.xkcd.com/comics)
-
+[![xkcd.com: Is it Worth the Time?](./class_materials/class_sessions/14_automated_data_extraction/xkcd_1205.png)]{fig-align="center"}
 
 
 ## APIs
