@@ -9,13 +9,35 @@ date-modified: last-modified
 
 ---
 
+::: {.callout-tip title="AI amd Automated Data Extraction"}
+
+Automated data extraction is a rapidly changing field due to advances in machine learning and other 'AI' tools. The list below will be changing frequently to reflect these advances, but working through some of these methods by hand is an excellent to way to evaluate what these tools can and can't do for your research.
+
+:::
+
+
 # Automated Data Collection & Extraction {#sec-automated}
 
-<!-- NEED TO ADD: INTRO TO APIs to fully automate -->
+Automating your data collection is one of the best ways to make your research more efficient and rfree up time to dso other things. Some of these techniques take time to learn, but so take into account the time required to learn a method and the return on investment for the effort. 
+
+[![xkcd.com: Is it Worth the Time?](is_it_worth_the_time.png)](https://imgs.xkcd.com/comics)
+
+
+
+## APIs
+
+1. Isabella Velásquez: Creating APIs for Data Science With `plumber`: [[link](https://posit.co/blog/creating-apis-for-data-science-with-plumber)]
+
+- [`plumbr`]https://www.rplumber.io/index.html package
+
+1. SESYNC: Data APIs in R Lesson [[link](https://www.sesync.org/resources/data-apis-r-lesson)]
+
+1. The Carpentries: APIs with R [[link](https://kubdatalab.github.io/R-api/)]
+1. Md Sakhawat Hossen: Working with the APIs (Application Programming Interfaces) in R [[link](https://rpubs.com/sakhawat3003/922199)]
 
 ## Optical Character Recognition
 
-1. Video Primer: [What is OCR?](what is ocr? https://www.youtube.com/watch?v=Q5U_VEmcY-M)
+1. Video Primer: [What is OCR?](https://www.youtube.com/watch?v=Q5U_VEmcY-M)
 
 ### Online OCR Tools (text & data from `.pdf` to `.csv`, `.txt`, etc.) {.unnumbered}
 
@@ -59,13 +81,17 @@ date-modified: last-modified
 
 1. Ankit Rohagni's [Web Plot Digitizer](https://automeris.io/WebPlotDigitizer/)
    * WPD [Video Tutorial](https://www.youtube.com/watch?v=P7GbGdMvopU)
-   * WPD Tutorial [Blog Post](https://towardsdatascience.com/extracting-digitising-data-from-plots-in-scientific-papers-or-images-6e098cb887aa)  
+   * WPD Tutorial [Blog Post](https://towardsdatascience.com/unlocking-data-from-graphs-how-to-digitise-plots-and-figures-with-webplotdigitizer-2dad17e6e073/)  
 
 1. Alternative 1: R package [`magick`](https://www.r-bloggers.com/2019/06/extracting-the-data-from-static-images-of-graphs-with-magick/)  
 
 1. Alternative 2: [GetData](http://www.getdata-graph-digitizer.com/index.php) extracts data automatically from scanned images (~$30).  
 
-1. Alternative 3: R package [`digitize`](https://cran.r-project.org/web/packages/digitize/digitize.pdf) will extract data from scatterplots within the R environment. [This article](https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Poisot.pdf) will walk you through the process.
+1. Alternative 3: R package [`digitize`](https://github.com/tpoisot/digitize/) will extract data from scatterplots within the R environment. _Note that this is no longer on CRAN due to dependency issues but you can still install and try to work with it directly from the Github repository._ 
+<!-- [This article](https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Poisot.pdf) will walk you through the process. -->
+
+1. A more comprehensive overview: Brauckhoff, et al., "Exploring Image Analysis in R: Applications and Advancements", The R Journal, 2025 [[link](https://journal.r-project.org/articles/RJ-2025-030/)]
+
 
 ## Text Mining  
 
@@ -82,13 +108,14 @@ date-modified: last-modified
 1. Salloum, S.A., Al-Emran, M., Monem, A.A., Shaalan, K. (2018). Using Text Mining Techniques for Extracting Information from Research Articles. In: Shaalan, K., Hassanien, A., Tolba, F. (eds) Intelligent Natural Language Processing: Trends and Applications. Studies in Computational Intelligence, vol 740. Springer, Cham. https://doi.org/10.1007/978-3-319-67056-0_18
 
 1. Simon, C., Davidsen, K., Hansen, C. et al. BioReader: a text mining tool for performing classification of biomedical literature. BMC Bioinformatics 19, 57 (2019). https://doi.org/10.1186/s12859-019-2607-x
-Extracting Body Text from Academic PDF Documents for Text Mining
 
-1. Benchimol, J., Kazinnik, S., & Saadon, Y. (2022). Text mining methodologies with R: An application to central bank texts. Machine Learning with Applications, 8, 100286.[link](https://scholar.harvard.edu/files/jbenchimol/files/text-mining-methodologies.pdf) 
 
-1. Yu, C., Zhang, C., & Wang, J. (2020). Extracting Body Text from Academic PDF Documents for Text Mining. arXiv preprint arXiv:2010.12647.
 
-1. Gulo, C. A., & Rúbio, T. R. (2015, January). Text Mining Scientific Articles using the R. In Doctoral Symposium in Informatics Engineering. [linl](https://paginas.fe.up.pt/~prodei/dsie15/web/papers/dsie15_submission_10.pdf)
+1. Benchimol, J., Kazinnik, S., & Saadon, Y. (2022). Text mining methodologies with R: An application to central bank texts. Machine Learning with Applications, 8, 100286.[link](https://www.econstor.eu/bitstream/10419/323255/3/Text-mining-methodologies-with-R.pdf) 
+
+1. Yu, C., Zhang, C., & Wang, J. (2020). Extracting Body Text from Academic PDF Documents for Text Mining. Proceedings of the 12th International Conference on Knowledge Discovery and Information Retrieval (KDIR 2020). https://www.scitepress.org/Papers/2020/101314/101314.pdf
+
+1. Gulo, C. A., & Rúbio, T. R. (2015, January). Text Mining Scientific Articles using the R. In Doctoral Symposium in Informatics Engineering. [link](https://www.researchgate.net/publication/272417176_Text_Mining_Scientific_Articles_using_the_R_Language?channel=doi&linkId=54e390740cf282dbed6c436c&showFulltext=true#full-text)
 
 ## Collecting & Processing data from the Web of Science and Scopus
 
@@ -96,20 +123,20 @@ Extracting Body Text from Academic PDF Documents for Text Mining
 
 1. R package [`bibliometrix`](https://www.bibliometrix.org/)
 
-1. [jstor: An R package for Analysing Scientific Articles](https://www.youtube.com/watch?v=kNRbT-ki9tU)  
+1. [jstor: An R package for Analysing Scientific Articles](https://www.youtube.com/watch?v=kNRbT-ki9tU) and link to [JSTORr package repository](https://github.com/benmarwick/JSTORr) on Github. _The package is no longer on CRAN but you may still find it useful to browse the repo._
     
     
 ## Scraping websites 
 
-1. Library Carpentry [Lesson on Webscraping](https://librarycarpentry.org/lc-webscraping/) 
+1. Library Carpentry [Lesson on Webscraping](https://carpentries-incubator.github.io/lc-webscraping/) _Note: no longer updated and a bit out of date, but still a very useful introduction_ 
 1. Start Here: [Introduction to webscraping](https://nceas.github.io/oss-lessons/data-liberation/intro-webscraping.html)
 1. Video: [Scraping WebData in R with rvest ](https://www.youtube.com/watch?v=4IYfYx4yoAI)
 1. Video: [Practical Introduction to Web Scraping using R](https://www.youtube.com/watch?v=l37n_HDD1qs)
 1. Very nice [written tutorial](https://www.scrapingbee.com/blog/web-scraping-r/)...
 1. ....and another one, this time from the [UC Business Analytics R Programming Guide](http://uc-r.github.io/scraping)
-1. [scraping HTML text](http://bradleyboehmke.github.io//2015/12/scraping-html-text.html#specific_nodes) and [scraping HTML tables](http://bradleyboehmke.github.io/2015/12/scraping-html-tables.html) 
+<!-- 1. [scraping HTML text](http://bradleyboehmke.github.io//2015/12/scraping-html-text.html#specific_nodes) and [scraping HTML tables](http://bradleyboehmke.github.io/2015/12/scraping-html-tables.html)  -->
 1. [SelectorGadget](https://selectorgadget.com/) is useful to id CSS selectors. 
-1. Noortje Marres & Esther Weltevrede (2013) Scraping the Social?, Journal of Cultural Economy, 6:3, 313-335, DOI: 10.1080/17530350.2013.772070
+1. Noortje Marres & Esther Weltevrede (2013) Scraping the Social?, Journal of Cultural Economy, 6:3, 313-335, [DOI:10.1080/17530350.2013.772070](https://www.tandfonline.com/doi/full/10.1080/17530350.2013.772070)
 
 
 ## Cell Phone Data
@@ -119,9 +146,17 @@ Extracting Body Text from Academic PDF Documents for Text Mining
 
 ## Social Media Data
 
-1. How to extract [Biodiversity Data from Facebook](Chowdhury, S., Ahmed, S., Alam, S., Callaghan, C. T., Das, P., Di Marco, M., Di Minin, E., Jarić, I., Labi, M. M., Rokonuzzaman, Md., Roll, U., Sbragaglia, V., Siddika, A., & Bonn, A. (2024). A protocol for harvesting biodiversity data from Facebook. Conservation Biology, 00, e14257. https://doi.org/10.1111/cobi.14257)
+1. How to extract Biodiversity Data from Facebook: Chowdhury, S., Ahmed, S., Alam, S., Callaghan, C. T., Das, P., Di Marco, M., Di Minin, E., Jarić, I., Labi, M. M., Rokonuzzaman, Md., Roll, U., Sbragaglia, V., Siddika, A., & Bonn, A. (2024). A protocol for harvesting biodiversity data from Facebook. Conservation Biology, 38, e14257. https://doi.org/10.1111/cobi.14257
 
-2. Fox, Nathan, Tom August, Francesca Mancini, Katherine E. Parks, Felix Eigenbrod, James M. Bullock, Louis Sutter, and Laura J. Graham. "“photosearcher” package in R: An accessible and reproducible method for harvesting large datasets from Flickr." SoftwareX 12 (2020): 100624. https://www.sciencedirect.com/science/article/pii/S235271102030337X  
+1. Di Minin, E., Fink, C., Hausmann, A., Kremer, J. and Kulkarni, R. (2021), How to address data privacy concerns when using social media data in conservation science. Conservation Biology, 35: 437-446. https://doi.org/10.1111/cobi.13708
+
+1. Correia, R.A., Ladle, R., Jarić, I., Malhado, A.C.M., Mittermeier, J.C., Roll, U., Soriano-Redondo, A., Veríssimo, D., Fink, C., Hausmann, A., Guedes-Santos, J., Vardi, R. and Di Minin, E. (2021), Digital data sources and methods for conservation culturomics. Conservation Biology, 35: 398-411. https://doi.org/10.1111/cobi.13706
+
+1. Fox, Nathan, Tom August, Francesca Mancini, Katherine E. Parks, Felix Eigenbrod, James M. Bullock, Louis Sutter, and Laura J. Graham. "“photosearcher” package in R: An accessible and reproducible method for harvesting large datasets from Flickr." SoftwareX 12 (2020): 100624. https://www.sciencedirect.com/science/article/pii/S235271102030337X  
+
+1. Ergon Cugler de Moraes Silva: TelegramScrap: A comprehensive tool for scraping Telegram data. https://arxiv.org/abs/2412.16786
+
+1. Batrinca, B., Treleaven, P.C. Social media analytics: a survey of techniques, tools and platforms. AI & Soc 30, 89–116 (2015). https://doi.org/10.1007/s00146-014-0549-4
 
 <!-- 1. Scraping [Twitter Data with R](https://utstat.toronto.edu/~nathan/teaching/sta4002/Class1/scrapingtwitterinR-NT.html) or with [Tweetsets](https://programminghistorian.org/en/lessons/beginners-guide-to-twitter-data) -->
 
@@ -131,6 +166,10 @@ Extracting Body Text from Academic PDF Documents for Text Mining
 1. Pennekamp, F. and Schtickzelle, N. (2013), Implementing image analysis in laboratory‐based experimental systems for ecology and evolution: a hands‐on guide. Methods Ecol Evol, 4: 483-492. https://doi.org/10.1111/2041-210X.12036 
 
 2. How to build your own image recognition app with R! [Part 1](https://www.r-bloggers.com/2021/03/how-to-build-your-own-image-recognition-app-with-r-part-1/?fbclid=IwAR3P8GNeEHAtm62iOIhhFe45ofZjn-zlwezc5TtM0pbayfUdjmwAr3UoB1Q) and [Part 2](https://www.r-bloggers.com/2021/03/how-to-build-your-own-image-recognition-app-with-r-part-2/)
+
+1. LinkedIn Learning Course: [Deep Learning - Image Recognition](https://careerhub.ufl.edu/classes/deep-learning-image-recognition-2/) reequires UF login 
+
+1. [UF Practicum AI courses](https://it.ufl.edu/rc/get-started/practicum-ai/) include one on Image recognition models.
 
 ## Wearable Devices & RFID tags
 
@@ -142,11 +181,11 @@ Extracting Body Text from Academic PDF Documents for Text Mining
 
 1. Izmailova, E.S., Wagner, J.A. and Perakslis, E.D. (2018), Wearable Devices in Clinical Trials: Hype and Hypothesis. Clin. Pharmacol. Ther., 104: 42-52. https://doi.org/10.1002/cpt.966
 
-2. Loncar-Turukalo T, Zdravevski E, Machado da Silva J, Chouvarda I, Trajkovik V. Literature on Wearable Technology for Connected Health: Scoping Review of Research Trends, Advances, and Barriers J Med Internet Res 2019;21(9):e14017 [doi: 10.2196/14017](https://www.jmir.org/2019/9/e14017/)
+1. Loncar-Turukalo T, Zdravevski E, Machado da Silva J, Chouvarda I, Trajkovik V. Literature on Wearable Technology for Connected Health: Scoping Review of Research Trends, Advances, and Barriers J Med Internet Res 2019;21(9):e14017 [doi: 10.2196/14017](https://www.jmir.org/2019/9/e14017/)
 
 1. [Why Should Sociologists Care about Wearable Tech?](https://www.asanet.org/why-should-sociologists-care-about-wearable-tech)
 
-1. Harari, G. M., Lane, N. D., Wang, R., Crosier, B. S., Campbell, A. T., & Gosling, S. D. (2016). Using Smartphones to Collect Behavioral Data in Psychological Science: Opportunities, Practical Considerations, and Challenges. Perspectives on Psychological Science 11(6), 838-854 [link](https://pubmed.ncbi.nlm.nih.gov/27899727/)
+1. Harari, G. M., Lane, N. D., Wang, R., Crosier, B. S., Campbell, A. T., & Gosling, S. D. (2016). Using Smartphones to Collect Behavioral Data in Psychological Science: Opportunities, Practical Considerations, and Challenges. Perspectives on Psychological Science 11(6), 838-854 https://doi.org/10.1177/1745691616650285 
 
 1. Seifert Alexander, Hofer Matthias, Allemand Mathias. 2018. Mobile Data Collection: Smart, but Not (Yet) Smart Enough. 12. Frontiers in Neuroscience https://www.frontiersin.org/article/10.3389/fnins.2018.00971     
 
@@ -154,7 +193,8 @@ Extracting Body Text from Academic PDF Documents for Text Mining
 
 1.  Calipers that dump data directly to Excel [link](https://www.notion.so/Hacking-Digital-Calipers-3ee7726f11ca431694dc70a1977516e4)  
 
-1. [PiSpy](https://www.biorxiv.org/content/10.1101/2022.03.21.485129v1): An Affordable, Accessible, and Flexible Imaging Platform for the Automated Observation of Organismal Biology and Behavior
+1. Morris BI, Kittredge MJ, Casey B, Meng O, Chagas AM, Lamparter M, et al. (2022) PiSpy: An affordable, accessible, and flexible imaging platform for the automated observation of organismal biology and behavior. PLoS ONE 17(10): e0276652. https://doi.org/10.1371/journal.pone.0276652
+
 
 1. Jolles, J. W. (2021). Broad-scale applications of the Raspberry Pi: A review and guide for biologists. Methods in Ecology and Evolution, 12, 1562– 1579. https://doi.org/10.1111/2041-210X.13652
 
