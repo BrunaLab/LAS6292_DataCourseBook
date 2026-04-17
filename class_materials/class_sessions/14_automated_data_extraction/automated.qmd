@@ -27,12 +27,8 @@ Automated data extraction is a rapidly changing field due to advances in machine
 
 ## APIs
 
-1. Isabella Velásquez: Creating APIs for Data Science With `plumber`: [[link](https://posit.co/blog/creating-apis-for-data-science-with-plumber)]
-
-- [`plumbr`]https://www.rplumber.io/index.html package
-
+1. Isabella Velásquez: Creating APIs for Data Science With `plumber`: [[link](https://posit.co/blog/creating-apis-for-data-science-with-plumber)] (and the link to the [`plumbr`](https://www.rplumber.io/index.html) package)
 1. SESYNC: Data APIs in R Lesson [[link](https://www.sesync.org/resources/data-apis-r-lesson)]
-
 1. The Carpentries: APIs with R [[link](https://kubdatalab.github.io/R-api/)]
 1. Md Sakhawat Hossen: Working with the APIs (Application Programming Interfaces) in R [[link](https://rpubs.com/sakhawat3003/922199)]
 
@@ -62,15 +58,11 @@ Automated data extraction is a rapidly changing field due to advances in machine
 1. R package [`pdftools`](https://cran.r-project.org/web/packages/pdftools/index.html)
 1. R package [`tabulapdf`](https://github.com/ropensci/tabulapdf)
     <!-- * R package [`pdfreader`](https://github.com/ropensci/tabulapdf) -->
-1. [written tutorial 1](http://theautomatic.net/2018/08/24/getting-data-from-pdfs-the-easy-way-with-r/)
-1. [written tutorial 2](https://www.charlesbordet.com/en/extract-pdf/#)
-1. [written tutorial 3](https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/)
-1. [Video Tutorial 1](https://www.youtube.com/watch?v=DhY3V4LCdps)
-1. [Video Tutorial 2](https://www.youtube.com/watch?v=6ItyOgS2noc)
-1. Detailed [Blog Post / Tutorial](https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/)
-1. [Convert PDF to text in R OCR pdftools](https://www.youtube.com/watch?v=DhY3V4LCdps)
+1. Detailed [Blog Post & Tutorial](https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/)
+1. Other Written Tutorials: [tutorial 1](http://theautomatic.net/2018/08/24/getting-data-from-pdfs-the-easy-way-with-r/), [tutorial 2](https://www.charlesbordet.com/en/extract-pdf/#), [tutorial 3](https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/)
+1. Video Tutorials: [Video Tutorial 1](https://www.youtube.com/watch?v=DhY3V4LCdps), [Video Tutorial 2](https://www.youtube.com/watch?v=6ItyOgS2noc)
+1. [Convert PDF to text in R - OCR pdftools](https://www.youtube.com/watch?v=DhY3V4LCdps)
 1. [PDFtools in R](https://www.youtube.com/watch?v=6ItyOgS2noc )
-    
 1. More advanced but more powerful from the Programming Historian: [OCR with Google Vision API and Tesseract](https://programminghistorian.org/en/lessons/ocr-with-google-vision-and-tesseract)
     
 ## Extracting tables from images with R  
@@ -83,14 +75,10 @@ Automated data extraction is a rapidly changing field due to advances in machine
 1. Ankit Rohagni's [Web Plot Digitizer](https://automeris.io/WebPlotDigitizer/)
    * WPD [Video Tutorial](https://www.youtube.com/watch?v=P7GbGdMvopU)
    * WPD Tutorial [Blog Post](https://towardsdatascience.com/unlocking-data-from-graphs-how-to-digitise-plots-and-figures-with-webplotdigitizer-2dad17e6e073/)  
-
-1. Alternative 1: R package [`magick`](https://www.r-bloggers.com/2019/06/extracting-the-data-from-static-images-of-graphs-with-magick/)  
-
+1. Alternative 1: R package [`magick`](https://www.r-bloggers.com/2019/06/extracting-the-data-from-static-images-of-graphs-with-magick/)
 1. Alternative 2: [GetData](http://www.getdata-graph-digitizer.com/index.php) extracts data automatically from scanned images (~$30).  
-
 1. Alternative 3: R package [`digitize`](https://github.com/tpoisot/digitize/) will extract data from scatterplots within the R environment. _Note that this is no longer on CRAN due to dependency issues but you can still install and try to work with it directly from the Github repository._ 
 <!-- [This article](https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Poisot.pdf) will walk you through the process. -->
-
 1. A more comprehensive overview: Brauckhoff, et al., "Exploring Image Analysis in R: Applications and Advancements", The R Journal, 2025 [[link](https://journal.r-project.org/articles/RJ-2025-030/)]
 
 

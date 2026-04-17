@@ -15,9 +15,9 @@ date-modified: last-modified
 1. EpiCollect [Homepage](https://five.epicollect.net/)
 1. Download the app for [Apple iOS](https://apps.apple.com/us/app/epicollect5/id1183858199) and [Android Phones])
 1. [User's guide](https://docs.epicollect.net/)
-1. [Intro to EpiCollect 5](https://kaltura.uconn.edu/playlist/dedicated/1_14lpwsw0/1_fmj06huc)  
-1. [Creating an EpiCollect PROJECT](https://kaltura.uconn.edu/media/Creating+an+Epicollect+5+Project/1_853ybdbf)  
-1. [Creating a FORM for your Epicollect Project](https://kaltura.uconn.edu/media/Creating+a+Form+in+Epicollect+5/1_inr7wxq8)  
+1. [Intro to EpiCollect 5](https://kaltura.uconn.edu/playlist/dedicated/1_14lpwsw0/1_fmj06huc)
+1. [Creating an EpiCollect PROJECT](https://kaltura.uconn.edu/media/Creating+an+Epicollect+5+Project/1_853ybdbf)
+1. [Creating a FORM for your Epicollect Project](https://kaltura.uconn.edu/media/Creating+a+Form+in+Epicollect+5/1_inr7wxq8)
 1. [Collecting data in EpiCollect with your phone or tablet](https://kaltura.uconn.edu/media/Collecting+Data+With+Epicollect+5/1_kgzfddtp)  
 
 1. Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968. [link](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006968)
@@ -31,8 +31,8 @@ date-modified: last-modified
 ## Useful smartphone apps for fieldwork
 
 1. Lists of useful apps for data collection in the field: Start with the [Bruna Lab Super-List](https://brunalab.github.io/apps_for_fieldwork/) _(if you want to suggest any additions to the list please do so [here](https://github.com/BrunaLab/apps_for_fieldwork/issues))_. You can also check [[list 2]](https://www.teamscopeapp.com/mobile-data-collection-guide/7-mobile-data-collection-apps-for-field-research), [[list 3]](https://www.researchgate.net/post/Please-could-you-indicate-some-useful-android-apps-for-Ecology-Forestry-or-Environment), [[list 4]](https://writingfornature.wordpress.com/2012/08/17/tools-for-the-modern-primate-apps-for-field-work/), [[list 5]](https://ayrnstories.wordpress.com/2017/08/09/apps-in-ecological-research/), and [[list 6]](https://www.researchgate.net/post/What_essential_android_apps_should_a_field_biologist_know_about)
-1. [Research at Home: Using a Smartphone for Data Collection](https://www.societyforscience.org/research-at-home/using-smartphone-for-data-collection/)  
-1. [Streamlining Field Data Collection with Mobile Apps](https://eos.org/science-updates/streamlining-field-data-collection-mobile-apps)
+1. BES: [Research at Home - Using a Smartphone for Data Collection](https://www.societyforscience.org/research-at-home/using-smartphone-for-data-collection/)  
+1. EOS: [Streamlining Field Data Collection with Mobile Apps](https://eos.org/science-updates/streamlining-field-data-collection-mobile-apps)
 
 
 ## Google Sheets
